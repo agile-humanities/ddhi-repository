@@ -21,5 +21,6 @@ then
       --account-pass=$DRUPAL_SITE_ADMIN_ACCOUNT_PASSWORD
     touch $INSTALLLOCKFILE
 elif [ $DRUPAL_UPDATE = "yes" ]
+then
     composer update
 fi
