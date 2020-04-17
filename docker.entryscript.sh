@@ -19,6 +19,6 @@ then
       --account-name="$DRUPAL_SITE_ADMIN_ACCOUNT_NAME" \
       --account-mail=$DRUPAL_SITE_ADMIN_ACCOUNT_MAIL \
       --account-pass=$DRUPAL_SITE_ADMIN_ACCOUNT_PASSWORD
-    drush pm-enable ctools tokendevel pathauto auto_entitylabel rabbit_hole svg_image migrate_tools migrate_source_csv migrate_plus paragraphs
+    drush pm-enable ctools token devel pathauto auto_entitylabel rabbit_hole svg_image migrate_tools migrate_source_csv migrate_plus paragraphs
     touch $INSTALLLOCKFILE
 fi
