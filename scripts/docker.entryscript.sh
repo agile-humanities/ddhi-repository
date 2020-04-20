@@ -17,8 +17,6 @@ then
     chmod 755 docroot/sites/default/files;
     chown -R www-data:www-data ./config
 
-    # Prep settings file for local settings
-    echo "if (file_exists(\$app_root . '/' . \$site_path . '/settings.container.php')) { include \$app_root . '/' . \$site_path . '/settings.local.php'; }" >> /repository/docroot/sites/default/settings.php
 
     # Run Drupal console Install
     drupal site:install -n standard  \
@@ -35,32 +33,17 @@ then
       --account-mail=$DRUPAL_SITE_ADMIN_ACCOUNT_MAIL \
       --account-pass=$DRUPAL_SITE_ADMIN_ACCOUNT_PASSWORD
 
-    # Extract system UUID
-
-    SITE_UUID=$(grep -m2 'uuid:'  ./preconfig/system.site.yml | tail -n1  | awk '{ print $2}')
+    # Extract system UUID (Deprecated)
+    # SITE_UUID=$(grep -m2 'uuid:'  ./preconfig/system.site.yml | tail -n1  | awk '{ print $2}')
     # drush -y cset system.site uuid $SITE_UUID
 
-    #temp: Copy config files
-    cp /repository/preconfig/* /repository/config/sync
-
+    # Prep settings file for local settings
+    echo "if (file_exists(\$app_root . '/' . \$site_path . '/settings.container.php')) { include \$app_root . '/' . \$site_path . '/settings.local.php'; }" >> /repository/docroot/sites/default/settings.php
 
     # Run configuration suite
-    # drupal config:import --directory=/repository/preconfig
+    # Note that this requires that the --skip-uuid setting be set in console/config.yml to work
+    drupal config:import --directory=/repository/preconfig
 
-    # Use Drush to install module suite. @todo: may require a more sophisticated profile
-    # system here
-    # drush pm-enable \
-    #        ctools \
-    #        token \
-    #        devel \
-    #        pathauto \
-    #        auto_entitylabel \
-    #        rabbit_hole \
-    #        svg_image \
-    #        migrate_tools \
-    #        migrate_source_csv \
-    #        migrate_plus \
-    #        paragraphs
     # Install a lockfile in persistent storage to indicate installation
     # @todo: This should run a test (perhaps on drupal console output) to
     # ensure installation was successful before writing
