@@ -1,9 +1,9 @@
 application:
-  environment: 'prod'
-  language: 'ar'
+  environment: 'dev'
+  language: 'en'
 #  editor: 'vim'
   temp: '/tmp'
-  develop: 'false'
+  develop: 'true'
   command: 'list'
   checked: 'false'
   clear: 'false'
