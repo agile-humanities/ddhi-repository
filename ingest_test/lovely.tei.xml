@@ -1,0 +1,699 @@
+
+<?xml-model href="../schemas/ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="9">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+            <application ident="DDHIEncoder" version="1.0.5">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="LOVELY"/>
+        <person xml:id="BURACK"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso="2016"/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="BURACK">Hi. This is <persName>Emily Burack</persName>. I am sitting here in <placeName>Rauner [Special Collections] Library</placeName> on <date when="2016-02-10">Wednesday, February 10th, 2016</date>, and 3:02 p.m. in the afternoon. I am speaking with <persName>Beirne [pronounced BUR-nee] Lovely</persName>, who is just south of <placeName>Boston</placeName> right now. And we’ll begin.
+
+Good afternoon. How are you?</u>
+      <u who="LOVELY">I’m fine. And it’s BURN, and not BUR-nee.</u>
+      <u who="BURACK">Oh, excuse me. </u>
+      <u who="LOVELY">It’s spelled a little awkwardly, but it’s—</u>
+      <u who="BURACK">Oh, I apologize.</u>
+      <u who="LOVELY">But it’s just pronounced BURN, B-U-R-N. Yeah.</u>
+      <u who="BURACK">With all the <persName>Bernie [presidential candidate Bernard Sanders]</persName> in the news, get confused. [Chuckles.]</u>
+      <u who="LOVELY">Right. No, I totally understand. He did pretty well, too.</u>
+      <u who="BURACK">[Laughs.] All right. So let’s start at the beginning. Where were you born, and when?</u>
+      <u who="LOVELY">I was born on the North Shore of <placeName>Boston</placeName>, in <placeName>Lynn, Massachusetts</placeName>, in—<date when="1946-02-05">January 5th, 1946</date>. </u>
+      <u who="BURACK">What were your parents’ names?</u>
+      <u who="LOVELY">My dad’s name—I’m a junior, so my dad’s name was the same as mine, <persName>[I.] Beirne Lovely</persName>. And my mom’s maiden name was <persName>Dorothy Fowler</persName>, F-o-w-l-e-r. And we lived a short time in <placeName>Swampscott</placeName>. They were living in <placeName>Swampscott, Massachusetts</placeName>, when I was born. And then when I was—before I started the first grade, we moved to <placeName>Nahant</placeName>, N-a-h-a-n-t, which is just across the bay from <placeName>Swampscott</placeName>, and that’s where I lived until I finished high school and headed off to <placeName>Dartmouth</placeName>.</u>
+      <u who="BURACK">What did your parents do?</u>
+      <u who="LOVELY">My mother was at home, what was then affectionately called “a homemaker,” and my dad was a civilian <orgName>[U.S.] Coast Guard</orgName> inspector. He basically oversaw the building of many of the <orgName>Coast Guard</orgName> stations and lighthouses and jetties from northern <placeName>Maine</placeName> down to the <placeName>Cape [Cape Cod]</placeName>. So that’s what he did for a living. Traveled a lot and worked for them until he retired, and then he worked for the <placeName>Massachusetts</placeName> state auditor for a few years as an inspector, related to construction projects.</u>
+      <u who="BURACK">Mm-hm. Did you have any siblings?</u>
+      <u who="LOVELY">Pard’ me?</u>
+      <u who="BURACK">Did you have any siblings?</u>
+      <u who="LOVELY">I have one brother, who is about seven years older than I am. He was—he went to <orgName>Saint Anselm College</orgName> in <placeName>New Hampshire</placeName> and became a chemist or at least an expert in chemistry, worked for a long time in the chemical industry. And then when he retired, he got a Ph.D. in religion and philosophy and taught for a while in <placeName>New Jersey</placeName> at a couple of universities, and now he and his wife are retired and have built a home up near <placeName>Bowdoin College</placeName>, up in — near <placeName>Brunswick, Maine</placeName>.</u>
+      <u who="BURACK">What was it like growing up with a brother who was seven years older than you?</u>
+      <u who="LOVELY">I saw—you know [chuckles], I have to be honest: I don’t remember a whole lot of—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">—interaction between us because of the differential in age.  I mean, I was—</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="LOVELY">He was getting out of high school when I was entering junior high school, basically. So we were—we were—we didn’t see a lot of each other growing up, or we certainly saw each other every day when we were at home, but, to be sure, our social schedule was quite different, so—</u>
+      <u who="BURACK">[Chuckles.] I can imagine.</u>
+      <u who="LOVELY">—we were—right, yeah, so—</u>
+      <u who="BURACK">What was it—what was it like growing up on sort of the outskirts of <placeName>Boston</placeName>? Or not the outskirts. I’m not very good with geography.</u>
+      <u who="LOVELY">That’s okay. Well, it’s—yeah, I mean, it’s on the coast of-you know, it’s probably a half an hour or forty-five minutes north of—north of <placeName>Boston</placeName>. I grew up in <placeName>Nahant</placeName>. Nahant had an elementary school and a—then called a junior high school, went through the ninth, and then I went to <placeName>Lynn</placeName>, which was the nearest city, at the other end of a causeway. I went to a public high school, <orgName>Lynn Classical High School</orgName> in <placeName>Lynn</placeName>, from where I graduated in <date when="1963">1963</date>.
+
+I was not—I was not a particularly good athlete. I participated informally in a lot of sports. Tried football, but that was a relatively dismal failure—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">—in my first year of high school. Played a lot of, you know, club sports and Little League and all of that growing up, <orgName>Babe Ruth League</orgName>, baseball. I—I really had a good high school experience: a lot of friends from both <placeName>Lynn</placeName> and <placeName>Nahant</placeName>. Its where the Nahant, Nahant kids had a choice of going to one of three schools: <orgName>St. Mary’s High School</orgName>, <orgName>Lynn English [High School]</orgName> or <orgName>Lynn Classical [High School]</orgName>, and most of my friends went to Classical. My brother, ironically, had gone to English when he went to school.
+
+But, you know, had a good—I think I got a good public school education. I had a lot of good friends. I was active in a lot of clubs and activities and was, you know, the manager of a couple of sports teams—you know, took care of the equipment, that sort of thing. And really, you know, I had a lot of good memories from the high school days that I still remember today. Yeah.</u>
+      <u who="BURACK">What was your favorite part of high school?</u>
+      <u who="LOVELY">Well, I think probably [chuckles] the social side was probably my favorite part. I most enjoyed the—you know, kind of the social activities, the club activities. I was—I think I was vice president of my class, and so I was active in a lot of different clubs. And I—I worked hard, from a studying perspective. Always thought I wanted to be a doctor until I got to <orgName>Dartmouth</orgName> and quickly realized that chemistry and biology were not my game [laughs],—
+
+</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">—by dint of not the best grades in any of those subjects. But, no, I had—I had a good time. In the summer I used to work—I basically ran a couple of small restaurants in the summer, in <placeName>Nahant</placeName>, on the beach, and worked there every summer, long hours, and participated in, you know, town basketball leagues and night basketball and baseball activities and whatnot with my friends. 
+
+But we didn’t travel a lot, by any means. I can only remember taking really a couple of short vacations to <placeName>New Hampshire</placeName> when I was young. My dad traveled so much, we didn’t—you know, we certainly weren’t financially well off. The house we live in in <placeName>Nahant</placeName> had belonged to a member of our family, that we inherited, and, you know, my dad didn’t make a lot of money, and he still managed to put my brother and I through college without financial assistance. Still don’t know how he did that.</u>
+      <u who="BURACK">Wow.</u>
+      <u who="LOVELY">But, so everything was pretty much close to home. When I applied for colleges, I didn’t visit <placeName>Dartmouth</placeName>. I didn’t get a school I was really interested in and was accepted to was <orgName>Bowdoin</orgName>, where, ironically, two of my sons ultimately went.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">But, you know, it was all based upon the catalog, you know? It was very interesting. So we didn’t do what I did with my four kids, which was to trek around and do—you know, do the college visits all over the place—</u>
+      <u who="BURACK">Of course.</u>
+      <u who="LOVELY">—you know, as part of being a parent, and which I enjoyed, actually, very much doing, but it was not something that I experienced when I was young.</u>
+      <u who="BURACK">So by the time you were in high school, your brother had already graduated from college.</u>
+      <u who="LOVELY">That’s correct. Yeah, that’s correct.</u>
+      <u who="BURACK">So did he give you any advice on kind of where to look or what to look for in a school?</u>
+      <u who="LOVELY">Not—not really, no.  He—like me, I don’t think he was initially, you know, in high school, the best student in the world, but he really buckled down in college, did very well. But we didn’t talk about a lot of those things. I mean, I don’t remember ever having a conversation with him—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">—about where I might go to college. I mean, it was kind of a discussion that, for a large part, I had with myself [chuckles] and my college adviser (guidance counselor, as we called them) and some of my teachers. But no, I really didn’t—you know, our relationship was not really a close one, just by dint of our age. It’s ironic: Only relatively recently, in the last, you know, ten years, that we’ve gotten closer and see more of each other, which is a wonderful experience, but it took a long time for us to bond. We were always separated geographically, substantially, him traveling in different parts of the country, so we saw very little of him. Nice to have him in the area now.</u>
+      <u who="BURACK">Yeah. So what drew you to <orgName>Dartmouth</orgName> and to <orgName>Bowdoin</orgName>, I guess?</u>
+      <u who="LOVELY">I’m sorry, say again?</u>
+      <u who="BURACK">Sorry. What drew you to <orgName>Dartmouth</orgName> and to <orgName>Bowdoin</orgName>, and what made you end up applying to those schools?</u>
+      <u who="LOVELY">One was getting away from home. I think I wanted to get out.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">I didn’t want to go to school locally. I certainly didn’t want to commute to, say, a <placeName>Boston</placeName> university or whatever. And I think I just wanted to get off and see a little bit of the world by myself. At <orgName>Dartmouth</orgName>, I think I knew a couple of people at <orgName>Dartmouth</orgName>. I considered <orgName>[the U.S. Military Academy at] West Point</orgName> fairly seriously. I think I could have been nominated to <orgName>West Point</orgName>. I had some good friends who—who had two sons at <orgName>West Point</orgName>. We did, ironically, go and visit <placeName>West Point</placeName>, and then I decided against it.
+
+
+
+But <orgName>Dartmouth</orgName>—I applied to, I think, <orgName>Dartmouth</orgName>, <orgName>Bowdoin</orgName> and <orgName>Middlebury [College]</orgName> and <orgName>Bates [College]</orgName> or something like that. And I got in every place except <orgName>Dartmouth</orgName>. I was put on the waiting list at <orgName>Dartmouth</orgName> and actually sent in—we sent in my matriculation deposit to <orgName>Bowdoin</orgName> and was looking forward to going to <orgName>Bowdoin</orgName>. They had a new student center that I was excited about—you know, one of those quad-type living experiences—</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="LOVELY">—where you—you know, kind of what <orgName>Dartmouth</orgName> evolved into.</u>
+      <u who="BURACK">Mm-hm.</u>
+      <u who="LOVELY">But then in August I guess they felt sorry for me, and I got a telegram,—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">—a real, honest-to-God telegram in August that said they had a spot for me at <orgName>Dartmouth</orgName>, and I jumped at it. In retrospect and based upon my experience with my sons at <orgName>Bowdoin</orgName>, I would have had just as good an experience, I think, at <orgName>Bowdoin</orgName>, but as it turned out, <orgName>Dartmouth</orgName> beckoned, and I kind of jumped at the chance and certainly don’t regret it. I had a wonderful experience at <orgName>Dartmouth</orgName>
+
+So I found out in August and trekked off there to the freshman trip to <placeName>Mount Moosilauke</placeName> as a freshman.</u>
+      <u who="BURACK">Mm-hm.</u>
+      <u who="LOVELY">That was—that was the beginning of my <orgName>Dartmouth</orgName> experience.</u>
+      <u who="BURACK">Yeah. Just to back up a little before we get into <orgName>Dartmouth</orgName>, you said you were considering <orgName>West Point</orgName>, so in high school did you know at that point that you wanted to serve?</u>
+      <u who="LOVELY">I think I had it in the back of my mind. I can’t say that I developed a defined, you know, decision or game plan or life plan. It appealed to me. Actually, the military kind of appealed to me, the regimen and the—I guess maybe just cosmetically it seemed like an interesting thing to do, and <orgName>West Point</orgName> had a great reputation. Even though I grew up on the beach—by that, I mean near the beach. Because of my red hair—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">—and fair skin, I spent—that’s the one time in the summer where I worked pretty much during the day while my friends—a lot of them went to the beach. But with my Irish skin, I—I was not a beach person, so I had no interest in the <orgName>[U.S.] Naval Academy</orgName>, for example. [Laughs.] The <orgName>Army</orgName> seemed—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">—like a more logical—a logical thing. I didn’t see myself out at sailboats or destroyers, sitting on the deck sunbathing. But, no, I wouldn’t say I had a formulated plan, but it certainly was of interest.</u>
+      <u who="BURACK">Yeah. Had anyone in your family served?</u>
+      <u who="LOVELY">Say again?</u>
+      <u who="BURACK">Had anyone in your family served?</u>
+      <u who="LOVELY">No, I was the first—</u>
+      <u who="BURACK">The first.</u>
+      <u who="LOVELY">—and only member of my family. None of my children served.</u>
+      <u who="BURACK">Mm-hm.</u>
+      <u who="LOVELY">And I think I had an uncle who was in the <orgName>[U.S.] Air Force</orgName> or the <orgName>[U.S.] Army Air Corps</orgName> during <name type="event">World War II</name>, but that’s the extent of it.</u>
+      <u who="BURACK">Gotcha. 
+
+Okay, back to <orgName>Dartmouth</orgName>. What was your first impression? I mean, trips [First-Year Trips] is an overwhelming time, and <placeName>Moosilauke</placeName> is something else—</u>
+      <u who="LOVELY">Oh, I—</u>
+      <u who="BURACK">—but that was your first.</u>
+      <u who="LOVELY">I loved the freshman trip. Not that I was a big hiker particularly. I certainly wasn’t. I wasn’t an outdoorsy person, and I never did join <orgName>the Dartmouth Outing Club</orgName> in any serious activities. But <placeName>Moosilauke</placeName> caught my fancy. I ended up really enjoying the trip. And, as it turned out, I went back every year for the next three years to work on the <orgName>Ravine Lodge</orgName> staff, to, you know,—</u>
+      <u who="BURACK">Oh, wonderful.</u>
+      <u who="LOVELY">—cook beef stew and meatloaf and listen to <persName>John Sloan Dickey</persName> stories, who was then president. But, no, it was a wonderful experience. I never really use the <placeName>[Second College] Grant</placeName> for any purpose. I don’t ever remember—maybe once going out to a cabin and spending any time, but I did really enjoy the fall trip with the freshmen. I had a hell of a time. It was a lot of fun.</u>
+      <u who="BURACK">So getting on to campus—</u>
+      <u who="LOVELY">And that’s the way I</u>
+      <u who="BURACK">—after that, how did you feel? Nervous, excited?</u>
+      <u who="LOVELY">It was some—yeah, it was kind of overwhelming.</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="LOVELY">You know, bigger—and, you know, I was alone, had never been away from home on my own, ever, really. Maybe I think I went to Boys State once at <placeName>UMass [University of Massachusetts]</placeName> when I was a senior in high school, but never had been away, so I was—yeah, it was kind of cool. I was on my own. I could actually—and did decide to go to the movies more often than I should have—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">—and sleep in late when I shouldn’t have. And I was in <placeName>Massachusetts Hall</placeName>, which, ironically, I ended up staying at for all four years, even though I was in a fraternity.</u>
+      <u who="BURACK">I lived there last year.</u>
+      <u who="LOVELY">Oh, it was—it was a great—a great place to live. It was right near—</u>
+      <u who="BURACK">It still is.</u>
+      <u who="LOVELY">—<placeName>Thayer Hall</placeName> and—[Laughs.] Well, it may have been near the library, but I can’t tell you that—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">—I spent a hell of a lot of time in the library.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">But, you know, I knew where the—what is it?—the Orozco or the—the Murals [“The Epic of American Civilization” by <persName>José Clemente Orozco]</persName>.</u>
+      <u who="BURACK">The Mural, right, yeah.</u>
+      <u who="LOVELY"><placeName>The mural room</placeName>. I remember spending some time—well-intentioned, but I was always lured away I think, particularly in my freshman year—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">—to other places and other things.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">But I had a roommate in my freshman year at <orgName>Dartmouth</orgName>, a guy named <persName>[Peter J.] “Pete” Locke [Class of 1967]</persName>, who went into the <orgName>Navy</orgName> for a while after graduation. But he and I ended up going to the same fraternity and staying in the same dormitory all four years. We liked the idea of being able to escape to some tranquility and cleanliness—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">—of our own, so we had a—we had a great relationship. He was from <placeName>Long Island</placeName>, <placeName>Garden City, Long Island [New York]</placeName>. He and I used to make it a point of going out once a week to a restaurant that had a white tablecloth. That was our—that was our thing, to get away from, you know, the hustle-bustle of the college, but—anyway, my whole first impression was, Wow, this is big!</u>
+      <u who="BURACK">Mm-hm.</u>
+      <u who="LOVELY">And so, of course, you weren’t permitted to rush or pledge fraternities in your freshman year, so I played—my first year, I went out for the crew team, rowed for the first year, and then after that I got into rugby and didn’t row anymore. Something about getting up at five in the morning and going down to the—</u>
+      <u who="BURACK">Mm-hm. </u>
+      <u who="LOVELY">—to <placeName>the Connecticut River</placeName> and freezing my butt off was not the most appealing thing in the world.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">So my first year, I joined the <orgName>[U.S.] Army ROTC [Reserve Officers’ Training Corps]</orgName>, not the <orgName>Navy</orgName> but the <orgName>Army</orgName>, and, so that was my first official act, and actually participated in <orgName>Army ROTC</orgName> all four years, even though I ended up in the <orgName>[U.S.] Marine Corps</orgName>, which I’ll get to, but—</u>
+      <u who="BURACK">So—</u>
+      <u who="LOVELY">—that was my beginning experience with the—with the military.</u>
+      <u who="BURACK">What made you join the <orgName>ROTC</orgName>?</u>
+      <u who="LOVELY">Pard’ me?</u>
+      <u who="BURACK">What made you join the <orgName>ROTC</orgName>?</u>
+      <u who="LOVELY">I don’t know. I had a few friends that I had met who did, some good friends, one of whom, <persName>[Edwin L.] “Win” Johnson [Class of 1967]</persName>, later in life became the treasurer of <orgName>Dartmouth</orgName> and still lives up in next to <placeName>Mount Ascutney</placeName> on a farm, a dear—dear friend. He and his wife worked for a long, long time in the development office at <placeName>Dartmouth</placeName>. <persName>Rita [Johnson]</persName>.
+
+But, I don’t know, a few friends that I met. One guy I met on the freshman trip started talking about <orgName>ROTC</orgName> and ended up joining and got into a unit called—a subunit called the mountain and winter warfare unit, which was—you know, we did a lot of rock climbing and rappelling and kind of stuff that seemed pretty sexy at the time. Was run by a very gruff <persName>Sgt. Major [William R. “Sarge”] Brown</persName>, who was one of the most decorated men in <name type="event">World War II</name>. Quite a wonderful guy.</u>
+      <u who="BURACK">How did he end up at <placeName>Dartmouth</placeName>?</u>
+      <u who="LOVELY">He was assigned to <orgName>Dartmouth</orgName>, to the <orgName>ROTC</orgName> unit. He was there. There was a colonel, <persName>[William] “Bill” Donaldson</persName>, who was there for many years while I was there. His wife, a wonderful lady, was in the <orgName>New Hampshire legislature</orgName>. But I really enjoyed it. I had to go to a class or two a week with the <orgName>ROTC</orgName>. I had to wear my uniform for certain events, but  didn’t interfere with the other things I did, or didn’t do well. But I did well in <orgName>ROTC</orgName> and kind of worked my way up the command ladder during the four years I was there, but—I don’t know.</u>
+      <u who="BURACK">So what’s the structure of <orgName>ROTC</orgName>? It has different groups within it or you all meet as one cohort?</u>
+      <u who="LOVELY">I’m hearing you a little different—</u>
+      <u who="BURACK">Sorry.</u>
+      <u who="LOVELY">I have hearing aids, <persName>Emily</persName>. That’s my problem.</u>
+      <u who="BURACK">Oh.</u>
+      <u who="LOVELY">Can you just repeat that?</u>
+      <u who="BURACK">No, it’s the computer system that we have to use. It can be a little hard.</u>
+      <u who="LOVELY">Oh, that’s fine.</u>
+      <u who="BURACK">What was the structure of <orgName>ROTC</orgName>? Was it a bunch of different groups or one big group, or how did you interact with each other?</u>
+      <u who="LOVELY">No, there were, there was <orgName>Navy ROTC</orgName>, which also included guys who were participating in—you know, that wanted to be <orgName>Marine</orgName> officers, which was one avenue of the <orgName>Naval ROTC</orgName>. The <orgName>Army ROTC</orgName> had a—you know, an overall, you know, envelope unit, if you will, and had—the only subset of that was the mountain and winter warfare group. And so we did—some of our training was a little different and the like. But for the most part, it was—I forget how many people were involved. I don’t know. I’m taking a wild guess. Maybe a hundred were involved in <orgName>ROTC</orgName>? Maybe more. <orgName>Navy</orgName> had a substantial group of—of guys. It was all guys, obviously, at that time. 
+
+And I think, but I’m not altogether sure, that there was an <orgName>Air Force ROTC</orgName> presence, but I—I just don’t remember. I think there was, but that’s—that’s a vague recollection because I know a couple of guys who became <orgName>Navy</orgName> pilots—I mean, <orgName>Air Force</orgName> pilots.</u>
+      <u who="BURACK">Yeah.
+
+Did you join anything else in your first year at <placeName>Dartmouth</placeName>? Besides <orgName>ROTC</orgName>?</u>
+      <u who="LOVELY">Other than—other than the crew, which I did—</u>
+      <u who="BURACK">Oh, the crew team, yeah.</u>
+      <u who="LOVELY">Yeah. </u>
+      <u who="BURACK">What was that like?</u>
+      <u who="LOVELY">As I said, it was hard work. It was—you know, the weather—there were bad times of the year. Weather—as you know, <placeName>Hanover</placeName>—</u>
+      <u who="BURACK">Mm-hm. </u>
+      <u who="LOVELY">You know, a good deal of the time in <placeName>Hanover</placeName>, the weather is a little spotty. I made some good friends who—who rowed. It wasn’t—you know, there wasn’t—there wasn’t a big social group around crew, but I met a lot of, you know, guys that I hung out with off and on. I—I—I hung out with kind of a mixed bag of  people. I played—[Chuckles.] I played a lot of pool over at <placeName>College Hall</placeName>. They used to have a couple of pool tables, and always some sort of betting or, you know, minor gambling of one sort or another going on, and we used to do that.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">And, of course, from time to time, we gathered in the appropriate or inappropriate places and drank too much beer. I think Cansy’s—<orgName>Cansy’s</orgName> was a place that provided kegs, and two or three places that provided—that provided kegs on demand. There were not a lot of restrictions. I’m sure that there were restrictions on kegs in the dorm, but that didn’t seem to deter—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">—our efforts in getting a keg. Chipping up a keg was the—was the phrase of the day: “Let’s chip up a keg.” I think it cost—I don’t know—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">—fifteen bucks for a keg of beer. But other than that—oh, and we, whenever possible, road tripped or went—we had mixers on campus. They were brutal.</u>
+      <u who="BURACK">Why were they brutal?</u>
+      <u who="LOVELY">For the women I mean.</u>
+      <u who="BURACK">Oh. [Chuckles.]</u>
+      <u who="LOVELY">Oh, they were just—we used to—we used to have mixers—they would bring people in from <placeName>Wellesley [College]</placeName> and <placeName>Skidmore [College]</placeName> and <placeName>Colby [Junior College, now Colby-Sawyer College]</placeName> and <placeName>Green Mountain Junior College [now Green Mountain College]</placeName>. <orgName>Colby Junior College</orgName> which later became <orgName>Colby</orgName>. <orgName>Smith</orgName> [College], <orgName>[Mount] Holyoke [College]</orgName>, and more often than not, they would arrive on a bus, and if you know where <placeName>Heorot [Chi Heorot, formerly Chi Phi] House</placeName> is across from the old gym—</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="LOVELY">You know? </u>
+      <u who="BURACK">Yeah.</u>
+      <u who="LOVELY">Okay. Well, that was what I ultimately joined, but across the street was where they had the mixers in the old gym. And so the—[Chuckles.] The girls would arrive by bus, let’s say at five or six in the afternoon or whatever it was, seven. And the guys would form a gauntlet on either side of the walkway leading to the gym.</u>
+      <u who="BURACK">Oh, boy!</u>
+      <u who="LOVELY">And the women would—the girls—the young women would walk through this gauntlet to a cacophony of comments and—oh, it was brutal. And then we would all go meet, you know, the women of our lives, and then they would go home, and—or we’d sneak out and go someplace and drink beer, which was usually mutually desirable. But when we didn’t do that, we took road trips one way or the other. With upperclassmen, we’d take off and go to <placeName>Colby</placeName> during the week or <placeName>Green Mountain</placeName> or, well, for that matter, <placeName>Saratoga [Springs, New York]</placeName> and <placeName>Smith</placeName>, depending on the circumstances, which would mean we would travel midweek, which often necessitated missing classes, which didn’t seem to be a hell of a lot of an impediment at the time, but—
+
+
+
+So that’s kind of what we did, you know, and hung out at <placeName>the Hop [Hopkins Center for the Arts]</placeName>. You know, the favorite thing was to go to a movie at <placeName>the Hop</placeName> or go to a movie down at what was then <orgName>the Nugget Theater</orgName>. I don’t know if that even exists anymore —</u>
+      <u who="BURACK">It’s still called that.</u>
+      <u who="LOVELY">Is that still around?</u>
+      <u who="BURACK">Still in existence. Yeah, it’s still showing movies.</u>
+      <u who="LOVELY">Yeah, so we went down to the <orgName>Nugget</orgName>, and then we’d go for a hamburger and a late-night soda or, you know, chocolate frappe or whatever. And so that was—you know, that was my life. I didn’t get involved in any of the arts. I don’t—you know, I went to a few plays and performances along the way. I attended very few optional intellectual lectures while I was—while I was at <placeName>Dartmouth</placeName>, more so—probably more as I got into my junior and senior year and became more rational than I was earlier on, which was by necessity because if I didn’t clean up my act, I was going to take some time off, according to the dean, so—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">—I had to clean up my act after my freshman year, which was less than distinguished, as I tried to be a pre-med. It didn’t work out.</u>
+      <u who="BURACK">So what did you end up studying?</u>
+      <u who="LOVELY">So the freshman year was—freshman year was a wonderful experience. My parents were in <placeName>Boston</placeName>. They had no idea what I was doing.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">They used to send the grades to me and not my parents in those days, so, you know, I didn’t have to share a whole lot of bad news as long as I didn’t get thrown out. And so I—you know, it was being away from home, being my own boss. I made a lot of stupid decisions my freshman year and should have worked a lot harder but didn’t, so—I got more focused as I went along, but freshman year was a growing experience in the extreme.</u>
+      <u who="BURACK">Well, we all need those, right?</u>
+      <u who="LOVELY">Yeah, that’s right. Well, you’re going to do what you—that’s not what I told my children.</u>
+      <u who="BURACK">[Laughs.] Of course not.</u>
+      <u who="LOVELY">They all did, you know, exceptionally well in school, but they also—I know—because I know them so well, that they all raised a lot of hell as well,—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">—and even today—they are now in their late 30s, early 40s—whenever we get together, which is frequently, I always learn something else that they’ve—you know, that they’ve hoodwinked me on.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">My wife was much more perceptive she knew—my wife always knew when my kids were telling tales—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">—or lying to us—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">—or having parties behind our back. But they make fun of me because, you know, they know that I thought I was on top of things,—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">—but they were duping me left and right—</u>
+      <u who="BURACK">[Laughs.]</u>
+      <u who="LOVELY">—as I was raising them, so—but they all turned out pretty well, so I have no complaints.</u>
+      <u who="BURACK">That’s all that matters.</u>
+      <u who="LOVELY">Yeah, yeah, that’s fine, so—you know, so that’s kind of my freshman year. I went home in the summers, at least the first summer.</u>
+      <u who="BURACK">You started—</u>
+      <u who="LOVELY">Was I what?</u>
+      <u who="BURACK">Sorry. To clarify, you started in <date when="1963">1963</date>, right?</u>
+      <u who="LOVELY">That’s correct. Right.</u>
+      <u who="BURACK">Okay. </u>
+      <u who="LOVELY">And then I—so I went home for the summer. I don’t think there was any <orgName>Army</orgName> training the first summer. I think my <orgName>Army</orgName> summer training was between my sophomore and junior, and junior and senior years, as I recall. But I went home and then came back, and, you know, we went through the pledging process, another brutal,—</u>
+      <u who="BURACK">What was that like?</u>
+      <u who="LOVELY">—cruel experience.</u>
+      <u who="BURACK">[Laughs.]</u>
+      <u who="LOVELY">Yeah, that was—that was something in and of itself, which was—you know, I had a lot of trepidation about it. Of course, you know, if you wanted to be in a fraternity, you worried that you wouldn’t get in the one you liked. And, you know, there were some houses that were perceived as jock houses, and I was not really a jock at that time, certainly, and so there were jock houses, and there were hockey houses, and there were basketball houses and football houses. And I didn’t do any of those things freshman year.
+
+And then there were—in some houses, they took in, you know,  mostly Southern guys—you know, people from the South. <orgName>SAE [Sigma Alpha Epsilon]</orgName> at the time was a big—what I would call a more Southern house than anything else. <orgName>Beta [Beta Alpha Omega]</orgName> was the jock house and football house, and—I’m trying to think—<orgName>Tri Delt [Phi Delta Alpha]</orgName> at the time was a hockey house. And <orgName>Chi Phi</orgName> was kind of a little bit of hockey and—you know, it was a party house, basically. [Chuckles.]
+
+</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">And they were next to <orgName>AD [Alpha Delta]</orgName>, which was kind of the background of Animal House, the movie, which was—</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="LOVELY">—really focused on <orgName>AD</orgName>, which was a very accurate description of AD.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">I mean, it was a crazy place. And they were right next door, our neighbors, and we shared a great deal of their craziness together. </u>
+      <u who="BURACK">[Chuckles.] What made you end up rushing <orgName>Chi Heorot</orgName>?</u>
+      <u who="LOVELY"><orgName>Chi Phi</orgName> was—a number of my friends were asked to join, as was I, and we kind of made a—I don’t know, a kind of a joint and several decision to go to <placeName>Chi Phi</placeName>. It was a great choice for me. Met some wonderful people. Still, you know, converse with a number of them. It’s ironic, again how—for years we didn’t see each other, and then in the last three or four years, we’ve been—since we’ve all reached retirement age—we’ve been involved with a flurry of e-mails back and forth, story telling about the old days, which I’m sure is very exaggerated, but, you know, telling tales. We have a few guys who live up in the <placeName>Hanover</placeName> area, who keep us abreast of what’s going on, and so, you know, it’s funny how what goes around comes around. 
+
+But the pledge year was an exciting year. I started playing rugby that year, and there was a lot of rugby players at <orgName>Chi Phi</orgName> at the time. And, you know, it was a real mixed bag of guys: some very studious folks, and some, like myself, were not as studious. It was a great gathering spot for—I think we had house meetings on Wednesday night or something like that, and that was usually a lost night—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">—as we went and, you know, drank beer until the early morning hours, after, of course, taking care of official house business, which lasted about half an hour.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">A lot of—a lot of pool and beer pong and, you know, you name it. Weekends were consumed with—of course, the pledges had to do all the cleaning and all the crazy stuff. We had participated in pledge raids. And at the time, it was fashionable for the brothers to try to hijack the pledges, and, conversely, the pledges were trying to hijack the brothers. And the idea was to capture them and take them out into the middle of the woods someplace, remove them of all clothing or whatever, and leave them in the [chuckles]—leave them in the woods.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">It was always a wonder that nobody died from exposure, but it was—it was a crazy time. You know, we had—one of our friends during that time had an old, 1938 Buick, kind of like—I don’t know if this means anything to you, but the Eliot Ness days, you know, in the—in the bootlegging days, where—<persName>Eliot Ness</persName> was a federal agent chasing, you know, bootleggers. But they used to have—the <orgName>FBI</orgName> or whatever the equivalent was at the time had these big box-like Buicks that kind of looked like British taxicabs with sideboards. And we would—we had one of those, which took more oil than gas, as I recall.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">But we would swoop in around <placeName>Thayer Hall</placeName> when people were having their dinner and try to snatch a brother off the street. You know, we’d all leap out of the car, and people would be on the side running boards, assuming— </u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">—the campus police didn’t catch us in advance, we would swoop one of them right up and take him away. And then, of course, there was retribution by the brothers. They’d get a hold of one of us. That would not be a pretty scene, so—but we did that during the fall. That was the fall and early winter exchanges with the fraternity house.
+
+And I studied—</u>
+      <u who="BURACK">And did you—</u>
+      <u who="LOVELY">I started to study a little more, probably not a lot,—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">—but a little more. I was—I was moving in a very definitive, detailed, planned manner so that I would peak when I left.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">So [chuckles] I’m not sure I reached the peak, but—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">—I tried to follow the plan.</u>
+      <u who="BURACK">That was the goal. </u>
+      <u who="LOVELY">Yeah, right.</u>
+      <u who="BURACK">What did you end up studying at <orgName>Dartmouth</orgName>?</u>
+      <u who="LOVELY">I switched, almost by fiat by my chemistry professor and the freshman dean, who was a guy named <persName>[Albert I.] “Al” Siskins [Dickerson, Class of 1930]</persName>, as I recall. I switched to government, and that’s what I stuck to and enjoyed it and did reasonably well. Anything else I ventured into was always a questionable experience for me.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">You know, I pretty much met my distributive requirements which we had. You had to take certain courses, and—but I was a government major the rest of—the rest of the way.</u>
+      <u who="BURACK">And you continued with <orgName>ROTC</orgName> through your second year and your subsequent years as well.</u>
+      <u who="LOVELY">I did. I stayed—I stayed with the <orgName>Army ROTC</orgName> for all four years and enjoyed it. Again, shared the experiences with a lot of friends. As—as we progressed, you know, we were getting into the early <name type="event">Vietnam [War]</name> years, and <orgName>ROTC</orgName> was not the most popular organization on campus.</u>
+      <u who="BURACK">Yeah. I was actually about to ask what kind of were campus reactions as <name type="event">Vietnam</name> news became more widespread, and your role in the <orgName>ROTC</orgName> as kind of—in reaction to that.</u>
+      <u who="LOVELY">Well, it got—a lot of my friends were involved, on both sides of that equation. And as we got more toward our—I think our junior and senior years—certainly our senior year—we had an annual Veterans Day parade or something that one of the—Memorial Day, whatever it was. And we had to have it—we had to have it—they were fearful of, you know, protests and, you know, not particularly mild protests, so we used to have—we used to be shifted into the football stadium for our parade. 
+
+
+
+But I remember having eggs thrown at us and, you know, people calling us names and friends challenging us for our choice of career. It was not—I don’t remember that part of it as being particularly distasteful or onerous. I mean, I accepted the fact that there were a lot of people who believed that <name type="event">Vietnam</name> was a mistake. I would say probably a good many of us, probably the vast majority in the <orgName>ROTC</orgName> programs came to that conclusion many years later. But, you know, it didn’t—I don’t remember it resulting in any real clashes or fights, but it may have. I just don’t remember it.
+
+
+
+But I remember taking a lot of criticism and, you know, some what I’m sure I viewed as cheap shots at the time at what we were choosing to do. But we got by that. It didn’t—I don’t think it—in the case of most of my friends, certainly my fraternity brothers, it did not interfere with personal relationships outside of that environment. We all did things together, and we went off and did our <orgName>ROTC</orgName> thing.
+
+And, you know, we’d have some pretty aggressive conversations from time to time about what was the right thing to do and the wrong thing to do, but it was—it was a challenging time, and, you know, the newspapers were beginning to pick up, you know, the war, and there were a lot of protesters and a lot of people in our class who were faithful protesters against the war for many years after we graduated, so—</u>
+      <u who="BURACK">So when you were challenged, I guess, or physically assaulted with, like, eggs, how did you respond?</u>
+      <u who="LOVELY">I wasn’t happy about it. [Laughs.] </u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">I wasn’t happy about it, but I didn’t—I mean, it didn’t—you know, it didn’t result in people running up into the stands and chasing whoever threw the eggs at us. I’m not sure we ever knew who did. You know, there were a lot of cat-calling and whatnot, but I took a pretty passive view of the whole thing. I mean, I knew—you know, by that time, for patriotic perception or whatever, I knew what I wanted to do. I also knew that, you know, by my senior year, that I wanted to—and I’ll explain at one point the <orgName>[U.S.] Marine Corps</orgName> switch, but I wanted to go to <placeName>Vietnam</placeName>. 
+
+I mean I, that’s what I wanted to do. I wanted to serve my country, and I wanted to do it honorably, and no one in my family had ever done it. I felt I had an obligation to do it. I really didn’t get into any terribly deep analysis back in <date when="1967">1967</date> that gave me any reservation about what I was going to do, although I know a lot of people disagreed with it. And I think you derived your support from your friends who were similarly involved and with similar intentions.
+
+
+
+But it didn’t—you know, it certainly didn’t put a black mark on my experience at <placeName>Dartmouth</placeName>. I really loved <orgName>Dartmouth</orgName>, and, you know, the entire experience was, for me, a memorable one. Academically, not a stellar one,—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">—certainly, but—but over all it was a wonderful experience, a lot of great things about <orgName>Dartmouth</orgName> that I liked and will never forget. This was part of it. But it was—it was what I wanted to do. I had my —that’s what I had my eye on.</u>
+      <u who="BURACK">So as you entered your junior and then your senior years, you were very set in your decision to want to go to <placeName>Vietnam</placeName> right after college?</u>
+      <u who="LOVELY">I was, yeah.</u>
+      <u who="BURACK">What kind of brought you to that?</u>
+      <u who="LOVELY">Say again?</u>
+      <u who="BURACK">What brought you to that decision?</u>
+      <u who="LOVELY">What brought me to that decision? I wish I could explain in a more artful and articulate manner, but I just felt the compulsion for patriotic reasons.</u>
+      <u who="BURACK">Mm-hm.</u>
+      <u who="LOVELY">I thought that it was a role that I had to play and that I thought I frankly could be reasonably good at.</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="LOVELY">You know, there were people who would try to dissuade me from that, you know it just didn’t—it didn’t ring true to me. That’s what I wanted to do. And then by the time—by the time I got to my senior year, several of my closest friends—<persName>[Andrew J.] “Andy” Ley [pronounced LIE; Class of 1967]</persName>, <persName>[Jonathan P.] “Jon” Feltner [Class of 1967]</persName> and a few others—were in <orgName>Navy ROTC</orgName> and were headed to <orgName>the Marine Corps</orgName>. They had gone through summer training—and I forget what it was technically called, <orgName>PLC [Platoon Leaders Class]</orgName> training, while I was at <orgName>Army</orgName> training, which was not at all as rigorous as what they went through.
+
+But by the time I was a senior, I was regretting that I hadn’t joined the program to get into <orgName>the Marine Corps</orgName>, and then I found out—I don’t know how I found out, but I found out about a regulation that the <orgName>Army</orgName> had that permitted <orgName>Army ROTC</orgName> students to accept a commission in <orgName>the Marine Corps</orgName> if <orgName>the Marine Corps</orgName> was willing to offer it to them. And in return for that, you had to accept a regular commission, which meant that you had to commit for at least four years, whereas the guys I was with I think had to commit for three. And I may be wrong about that. And if they were on scholarship, maybe they had to commit to four. I don’t know.
+
+So I pursued that. I went to see the officer—<persName>Major “Rip” Wheeler</persName>, was his name. I still communicate with Rip periodically. I went to see him and asked him about it, and he did some research, and then he did some sort of a background check on me—you know, with my friends and others, to see whether I would measure up, in his mind, because it was totally volitional on his part as to whether he recommended me.
+
+And the long and the short of it was he agreed to do so. I had to go hat in hand to <persName>Col. Donaldson</persName> and <persName>Sgt. Major Brown</persName>, thinking I might have been killed on the spot for, you know, abandoning the <orgName>Army</orgName>. But all things considered, they took it pretty well. The one guy who didn’t take it very well was the second in command. I forget his name. But as it turns out, he tried to, as best I can tell, scuttle my application with the <orgName>Army</orgName>, because you had to—</u>
+      <u who="BURACK">Oh, no!</u>
+      <u who="BURACK">—submit it through the <orgName>Army</orgName>. But <persName>Rip Wheeler</persName> found out about it and kind of prevailed. I have no idea what he did. I have probably a good idea what he might have done, but--[Laughs.]</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">I think he might have had words with his counterpart in the <orgName>Army</orgName>. But in any event, I was accepted into the program, and on the day of graduation, I think the morning of graduation, or the day before—I forget—I was commissioned as a second lieutenant in <orgName>the Marine Corps</orgName>.</u>
+      <u who="BURACK">What made you want to switch into <orgName>the Marine Corps</orgName>?</u>
+      <u who="LOVELY">Because it was the fastest and most assured way of getting—one, getting to <placeName>Vietnam</placeName> and two, going into a fighting force that I was absolutely confident was the best, after reflecting on. And I to this day believe that I made the right decision in that regard. It was just people that were really committed to high standards, not that the <orgName>Army</orgName> wasn’t, by any means, but that <orgName>the Marine Corps</orgName> is kind of—I always viewed as a notch above. And I was convinced that I wanted to be part of that. 
+
+You know, of course, I was going in without having gone through the rigorous testing and preparation that they went through, which was more rigorous than I had experienced in the <orgName>Army</orgName>, and it was a difficult adjustment, particularly when we went off right away to what’s called <orgName>The Basic School</orgName> in <placeName>Quantico [Marine Cops Base Quantico, in Virginia]</placeName>, because I was one of two guys, as it turns out—I’m not even sure I know the other guy was in a similar situation, but I was one out of 250 new second lieutenants in <placeName>Quantico</placeName> who did not go through the rigor of training. And my instructor made it known, out of the box, that he didn’t believe I should be there, and so I had to I think work extra hard to make sure that I proved myself.
+
+
+
+But, again, it was just a—it’s what I wanted to do. It was more important to me than graduation. This is what I wanted to do. If you asked me what I was excited about and looking forward the most to, was being commissioned at the end of my senior year. And that was what I wanted to do.</u>
+      <u who="BURACK">So you were commissioned before you graduated or after you graduated?</u>
+      <u who="LOVELY">Well, a condition of getting commissioned was that I graduate, so—</u>
+      <u who="BURACK">Oh, I see.</u>
+      <u who="LOVELY">I think it happened, you know, almost contemporaneously. I forget the actual order of things. But I think we might have technically gotten commissioned the day before graduation, if I’m not mistaken.</u>
+      <u who="BURACK">And it’s, like, a ceremony on campus?</u>
+      <u who="LOVELY">It was. Yeah, it was a nice ceremony. It was held up in the—what do they call it, the Beam? The Beamer?</u>
+      <u who="BURACK"><placeName>The BEMA [Big Empty Meeting Area]</placeName>?</u>
+      <u who="LOVELY">The Beamer, yeah. I think it was held up there.</u>
+      <u who="BURACK">Where the <persName>[poet] Robert Frost</persName> statue is.</u>
+      <u who="LOVELY">Yeah, yeah. At least that’s what I recall. It may be wrong—a long time ago. But, yeah, we all got all dressed  up in our white uniforms. I remember the morning we were to be commissioned, my parents were on their way up. They were coming up for a couple of days to see me commissioned and get—I think my father visited <placeName>Dartmouth</placeName> once while I was there, for four years.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">He came to [Freshman] Father-Son Weekend my freshman year. I don’t think they ever came to <placeName>Dartmouth</placeName> again. Maybe once, but if once, that was it, once. So they were coming up, and we had had a big party the night before and probably the ten nights before that in the fraternity house, and we were all getting—we were all at the fraternity house, the ones that were my friends who were getting commissioned, and there was a lot of beer and cigarette butts and everything else, and cigarette butts in half beer glasses, half filled—you know, you can imagine.
+
+And I remember—I don’t know how it happened, but a cup of beer and tobacco juice got spilled on my white uniform.</u>
+      <u who="BURACK">Oh, no!</u>
+      <u who="LOVELY">—about an hour and a half before we were supposed to get commissioned. And I totally panicked, as did everybody. [Both chuckle.] I was told I was going to be, you know, booted, et cetera, et cetera. And somehow, between my mother and the mother of a friend of mine, we were able to almost virtually wash the uniform and get it ready so that I was able to get commissioned in a clean uniform. But that was [chuckles]—my career almost ended right there. At least that’s what I was thinking at the time.</u>
+      <u who="BURACK">My goodness! But it all worked out.</u>
+      <u who="LOVELY">It all worked out, and we all got—we all got commissioned. It was a wonderful experience. Graduation was equally exciting. You know, it was—it was a wonderful time. And I was rarin’ to go. We had—we all got 30 days’ leave before we reported to <placeName>Quantico, Virginia</placeName>, for <orgName>The Basic School</orgName>, and we all did our—did our thing.
+
+I think at the time I was dating a <orgName>Wellesley</orgName> girl, had been dating her for a year or so. And she went back to <placeName>Kansas</placeName>, where she lived, and I went off to—I think I went to visit her on my way out to—on my way to <placeName>Vietnam</placeName> after <orgName>The Basic School</orgName>, but—so I went off to—I went off to <placeName>Quantico</placeName> and spent the next six months training at The Basic School, which is basically a school designed to teach, at the time, every new second lieutenant, regardless of what specialty they were intending to follow—tanks, artillery, flying, whatever, pilots—they trained you for six months to be an infantry officer. And then you put in for what’s called an MOS, a Military Occupational Specialty, and you—you know, it was like a lottery. You know, they’d pick different people for different things.
+
+At least one of my best friends, <persName>Jon Feltner</persName>, and I, who was also a fraternity brother and a lawyer here in <placeName>Boston</placeName>, a lifelong friend of ours—he and I wanted to go in the infantry, so we put in an <orgName>MOS</orgName> which is called 0302, which is the Military Occupational Specialty for an infantry officer. And to no one’s surprise, we were accorded our wishes [laughs] because a lot of people who wanted to do other things were also made infantry officers, and then we—</u>
+      <u who="BURACK">What was the relevant—infantry officer.</u>
+      <u who="LOVELY">Yeah. So that’s—you know, that’s what happened to me.</u>
+      <u who="BURACK">What was the role of an infantry officer? Why would you—why did you seek that out and others did not?</u>
+      <u who="LOVELY">Because—well, it was—we were on the ground, actually involved in a combat environment, directly involved. That’s the way we were trained and envisioned it being. And gave us the opportunity to be what we wanted to be, which was a platoon commander—you know, 50 or some Marines who were—were under us, over which we had command. That’s what all infantry officers wanted to be, was a platoon commander. And that’s what they trained us to be at <orgName>The Basic School</orgName>. And, you know, we all played a role. You know, somebody was the platoon commander for a week, you know, and was a private for a week.
+
+
+
+And we were all treated like privates, anyway, by the staff. [Chuckles.] There was no accord to the fact that we were second lieutenants. We were treated by everybody, including all the enlisted men who were instructors, as pretty much the bottom of the barrel. But that’s what we—that’s what we trained for.
+
+And then, after six months—I think our class actually—we finished in July, started in January, I want to say. No, let me think about that.</u>
+      <u who="BURACK">Of?</u>
+      <u who="LOVELY">Yeah, I’m trying to think what we—we graduated in June—</u>
+      <u who="BURACK">When did you gra—You graduated in <date when="1967">’67</date>.</u>
+      <u who="LOVELY">No, no, we started—I’m sorry, we started—we graduated in <date when="1967">June</date>. We had some time off, and we started on <date when="1967-07-01">July 1</date>, because our basic class, was <orgName>TBS Class 1-68</orgName>, which was the first basic class of that fiscal year. The fiscal year ran from July 1 to June 30. That’s the way the military year worked. And so we were 1-68. So we went there in July, and we were there through the end of November, I think, maybe the beginning of December. I think the end of November.
+
+
+
+They actually shortened the class by four or five weeks because they needed second lieutenant infantry officers in <placeName>Vietnam</placeName>, so they actually shortened the class so we would get out of there and get off to work sooner.</u>
+      <u who="BURACK">What was being in <orgName>Basic School</orgName> like? What was your—is it just a lot training?</u>
+      <u who="LOVELY">It was a lot of training, a lot of classroom and out in the boondocks training, all infantry training—you know, night compass marches and drills, a lot of, you know, marching, running, obstacle courses, conditioning, a substantial amount of classes on tactics and weapons and strategies and the like. It was a very rigorous, intense—we trained six days a week and for the entire time we were there. Sundays were, quote, “off,” but you had to spend Sundays getting your gear in order for the following week. So there wasn’t a whole lot of social life. We had a, quote, “officers’ club” in the building, where you could go get a beer at night if you wanted, if you had time. 
+
+But it was very intense. Very serious. People took—they drilled into us that we better pay attention in class because if we miss something in class, it could cost people their lives, which is—you know, sounded overstated at the time, but was absolutely true. If you didn’t pay attention, you could make a mistake in combat that ended up having people killed. Not that we didn’t make mistakes, which we clearly did, but—so people paid attention. They took it very seriously, studied very hard, worked very hard. And I was impressed with the dedication of the people at <orgName>The Basic School</orgName> at the time. It was quite incredible.</u>
+      <u who="BURACK">So when it finally ended in November of ’67, did you have time off before you were sent over to <placeName>Vietnam</placeName>?</u>
+      <u who="LOVELY">Yeah, yeah. we had 30 days’ leave, and I met up with my friend <persName>Jon Feltner</persName>, and we flew off to or headed off to meet in <placeName>San Francisco</placeName>, spent a few days in San Francisco, and then we ended up heading from San Francisco New Year’s Eve. Flew over the <placeName>International Date Line</placeName>. Somehow missed New Year’s Day. I don’t know what happened to—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">—[unintelligible]. And arrived—I think we arrived in <placeName>Okinawa [Islands, Japan]</placeName> on the <date when="1968-01-02">second of January</date>. We spent <date>just a few days</date> in <placeName>Okinawa</placeName>. Got a lot of tetanus shots and gamma globulin shots, and [chuckles] the gamma globulin shot is what I call the golf ball shot. They shot you in the ass with this big needle, and it felt like—</u>
+      <u who="BURACK">Oh, God!</u>
+      <u who="LOVELY">—they inserted a golf ball. It felt like a golf ball in your ass.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">More than one golf ball.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">You felt like you were sitting on golf balls for a few days.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">But—so we—we—and then we went directly from <placeName>Okinawa</placeName> to—to <placeName>Vietnam</placeName> and immediately got our assignments as soon as we landed. So we, you know, drank a little beer in <placeName>Okinawa</placeName>, had a good meal but didn’t stay long enough to smell the roses, by any means.</u>
+      <u who="BURACK">So mid-January—by mid-January you’re in <placeName>Vietnam</placeName>.</u>
+      <u who="LOVELY">By—</u>
+      <u who="BURACK">Or early January.</u>
+      <u who="LOVELY">By—yeah, first week of January, I was—I was in <placeName>Vietnam</placeName>.</u>
+      <u who="BURACK">And where were you assigned?</u>
+      <u who="LOVELY">I was assigned—we went to what’s called <placeName>I Corps [pronounced EYE CORE]</placeName>, which was the northernmost sector of U.S. military presence in <placeName>Vietnam</placeName>. It was primarily controlled by <orgName>the Marine Corps</orgName>. The <orgName>Army</orgName> was south of us. There were some Army units, but the Marine Corps—there was a Marine Corps general. It was the <orgName>3rd Marine Division</orgName> that covered I Corps. And I was immediately assigned to <orgName>1st Battalion, 9th Marine Regiment of the 3rd Marine Division</orgName>, which had a nickname they had earned, called “the Walking Dead,” which was not the most encouraging organization to be assigned to.</u>
+      <u who="BURACK">Where did this nickname come from?</u>
+      <u who="LOVELY">I think the nickname came from earlier—earlier days in <placeName>Vietnam</placeName>. Maybe it came from <name type="event">the Second World War</name>, but I think it may well have come, in part, from some very disastrous experiences they had in, before I got there.
+
+But I was assigned to <orgName>Alpha Company</orgName>, and I ended up being a platoon commander of <orgName>the Weapons Company</orgName>, which is—there are four—there were four infantry platoons in a little headquarters group—you know, the company commander, the executive officer, supply officer, whatever, and then <orgName>the Weapons Platoon</orgName>, which was responsible for the heavier weapons: mortars and machine guns. And so that was my first assignment with them.
+
+You know, it was kind of—you’re kind of thrown right into the breach. I knew absolu- —you know, felt like and probably did know absolutely nothing. And we were—we were up north, close to the DMZ [Demilitarized Zone] at the time. That’s where I joined them. They were operating in and around, as I recall, <placeName>Đông Hà</placeName> and <placeName>Huế</placeName> and some of those locations, but mostly up toward—up toward <placeName>[National] Route 9</placeName>, which is the so-called main road across the northern part of <placeName>I Corps</placeName>, which led out to <placeName>Khe Sanh</placeName>.
+
+And, you know, the first—the first—there were almost immediately rumors that we were going to be assigned to <placeName>Khe Sanh</placeName> as a reinforcement battalion. The <orgName>26th Marine Regiment</orgName> was—was responsible for Khe Sanh, which was kind of like located in the <placeName>Điện Biên Phủ</placeName> type of location. It was an air base or a base, a <orgName>Marine Corps</orgName> operating base in a big valley surrounded by big, high mountains, which were controlled by <orgName>the North Vietnamese Army</orgName>.</u>
+      <u who="BURACK">So they were just there in the center.</u>
+      <u who="LOVELY">We were there in the center, and it was like—you know, you have to kind of picture a big punch bowl, and we were in the bottom of the punch bowl, and all the bad guys were at the top of the rim of the punch bowl, which—you know, we often wondered why the hell they put—why the hell they built the fort there. It didn’t seem like a very good idea, but—
+
+
+
+So we were kind of told right away they were in trouble. <orgName>The North Vietnamese Regular Army</orgName>, which is pretty much all we saw during my tour, which—we saw very few <orgName>Viet Cong</orgName> per se. We were really fighting the uniformed <orgName>North Vietnamese Army</orgName>. And so it was a different type of—you know, we were fighting more organized infantry and artillery units than were others further south, as I recall at the time.
+
+And so they told us, “Well, we’re gonna go there,” and everybody was very apprehensive about going there. We patrolled wherever we were at that time. I don’t specifically remember. We got into a few scrapes, snipers and relatively minor firefights, but nothing—nothing, you know, overwhelming. Not a lot of people got hurt, some by booby traps and whatnot, but, you know, we didn’t take a lot of losses.</u>
+      <u who="BURACK">So in your transition to <placeName>Khe Sanh</placeName>, did your day-to-day life become more regularized or more kind of unpredictable?</u>
+      <u who="LOVELY">Yeah, well, it was regularized and unpredictable in the sense that, you know, we were generally located somewhat close together, our company, the four platoons and whatnot, but you’d take out platoon patrols or smaller patrols you’d put out night outposts, watching, you know, OPs, observation posts, where two or three Marines would go outside the compound, you know, 100 or 200 yards, dig a hole and sit there all night and watch for movement. It was not the favorite job of anyone. It was—it was a lousy job, and a very dangerous job.
+
+But we were—you know, we had assigned responsibilities: you know, keeping the troops—kind of making sure they took their malaria pills, making sure that they did what they were supposed to do with their equipment, kept their weapons clean, supporting—my platoon might send out a machine gun and a mortar with another platoon for patrolling purposes. But nothing, you know, what I would say, in the circumstances we were in, that was out of the ordinary.</u>
+      <u who="BURACK">Mm-hm.</u>
+      <u who="LOVELY">And then right at the beginning of February, we were given formal orders that we were moving to <placeName>Khe Sanh</placeName>. And what we—what we then did is we—I think we helicoptered into Khe Sanh over a series of helicopter drops, and then we went to the northwest corner of the base and basically expanded the perimeter. It was just as if we took the pie and pushed out an edge of it, and we were kind of a little peninsula up on the right, in the upper, northwest corner of the base, probably nearest—we were nearest, in a physical sense, <orgName>the North Vietnamese Army</orgName> movements, which were coming from the northwest down through the hills.
+
+And the reason we went there is they were taking vicious artillery attacks from <orgName>the North Vietnamese</orgName>. They were taking, I don’t know, 2,000, 2,500 rounds of heavy artillery a day, and we moved in, and they added us to their target list. And so that was our—our first stop.
+
+And just a couple of—you know, a couple of days later, as I remember; it might have been longer, but it seemed like just a couple of days—another platoon commander and myself and some of our weapons were dispatched outside the base, further to the northwest, on a hill—I think it was <placeName>Hill 68</placeName>, where about 65 of us were put as a forward observation and patrolling unit.</u>
+      <u who="BURACK">Passed the already-established northwest base.</u>
+      <u who="LOVELY">Yeah, outside the established base, and we—so we spent, you know, the first week or so—maybe longer; I may be losing track of how long we were out there, but we spent the entire time the first week or so digging trenches around the hill and digging bunker positions and entrenching ourselves as best we could, getting the equipment ready for whatever might happen, worrying about, you know, a night attack, worrying about, you know, getting overrun, because we were really out there by ourself. We were probably, I don’t know, a mile out from the base.
+
+
+
+And so we just—we dug it seemed like 24 hours a day and sent out patrols, always managed to bump into somebody that we didn’t like out there. And that went on for—you know, I’m guessing here, but let’s say a week or so, maybe longer. And then, I think it was February 8th or 9th, overnight of the 8th and 9th, we were—we were attacked by a battalion or two of <orgName>North Vietnamese Army</orgName> units. And they overran one end of the hill, and the rest of the night was, you know, somewhat of a nightmare.
+
+The other lieutenant with me was killed. A bunch of other people were killed that night. Too many. We—during the course of it—I was—I mean, I would say, like everybody else, I was absolutely scared to death. It was the first major confrontation that I had had in any meaningful way with the  enemy, face to face. And a lot of people were hurt. <orgName>The Marines</orgName> did—my Marines did just a remarkable job. Just unbelievable bravery on the part of many of them. Many of them got stuck in their bunkers, couldn’t get out of their bunkers. Many died in their bunkers. Some had actually tunneled under their bunkers to make sleeping areas and got stuck in there, and we didn’t get them out until we were able to push them back off the hill the next day.
+
+But, as I said, many, many of the 65 were killed, and many were wounded. It was just a bad thing. We were taking a lot of mortar fire. I remember my ears being—I remember I just couldn't hear. I just couldn't hear anything. I was trying to talk on the radio, and I think it’s fair to say I did all the talking because I couldn’t hear who I was talking to at the other end, which was my company commander, and good man by the name of Capt. Radcliffe, <persName>Henry [J. M.] Redcliffe.</persName>
+So this went on all night. The base supported us with—we got—we got various types of supporting fires from the <placeName>Khe Sanh</placeName> base on our fellow <orgName>Marines</orgName> back on the base. We got illumination, so we could see what was going on and try to keep them away from us as best we could. A lot of <orgName>North Vietnamese</orgName> were killed that night as well. It was just, you know—it was nothing—nothing good about that night—</u>
+      <u who="BURACK">Mm-hm.</u>
+      <u who="LOVELY">—that—that anybody can remember other than I just saw some pretty extraordinary things done by some young <orgName>Marines</orgName>. I claim to have done none of that myself. It was just you know, trying to keep—trying to keep our head about us and keep as many people alive as you could. So that was—that was a terrible experience.
+
+And when that was over, <persName>Capt. Radcliffe</persName> brought a relief column out the next morning, first thing, and led the effort to push them back. A lot of them had left. Daylight came. Because they were out in the open, and we had air support. But Capt. Radcliffe and his relief column, gunnery sergeant who was with him and others did a wonderful job of kind of getting us reorganized and pushing them off the hill.
+
+<persName>Emily</persName>, I have to ask: Can we take a five-minute break and I can call you back?</u>
+      <u who="BURACK">Yes, of course.</u>
+      <u who="LOVELY">Give me your telephone number.</u>
+      <u who="BURACK">I have to call you from the—</u>
+      <u who="LOVELY">Okay, why don’t you call me? Could you give me ten minutes? Would that be okay?</u>
+      <u who="BURACK">Yes, of course.</u>
+      <u who="LOVELY">That’s great. I’ve got somebody at my door I have to speak to, okay?</u>
+      <u who="BURACK">No worries. Okay, I’ll speak to you soon.</u>
+      <u who="LOVELY">Thank you. All right. Bye-bye.
+
+[Recording interruption.]</u>
+      <u who="BURACK">Hi, we are picking back up on the recording. It is still <date when="2016-02-10">Wednesday, February 10th, 2016</date>. I am still in <placeName>Rauner Library</placeName> in <placeName>Hanover, New Hampshire</placeName>, and <persName>Beirne Lovely</persName> is still just north of—just south of <placeName>Boston</placeName>. I forget now. [Chuckles.]
+
+Let’s get right back into where we left off, if that’s all right with you.</u>
+      <u who="LOVELY">Sure. Well, in any event, that was—I guess that was my—my first exposure, which was probably best described as frightening more than anything else, the baptism by fire or whatever. And I—I—when the event was over, we withdrew from the hill back to <placeName>Khe Sanh</placeName>, and the first thing that I had the task to do was to go down to the main base, to what was the mortuary, for lack of a better description, and identify the young men who had been killed in the battle. And that was very—as you might guess, it was a very hard, very emotional experience.</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="LOVELY">And then I came back to the main unit, and I assumed command of a rifle platoon for—probably replace somebody who was leaving, I suspect. And we spent the remainder of our time at <placeName>Khe Sanh</placeName>—we were there, I think, about 100 days. The unit was there about 100 days in all. We took a lot of casualties during the course of the time we were there, from—primarily from artillery and big gunfire from the enemy. 
+
+And we took out daily patrols and, you know, made contact it seemed like every day, one way or the other, outside the wire because <orgName>the North Vietnamese</orgName> were constantly digging, as it turned out, trenching up toward our lines, preparing for what we all expected was going to be a major assault.
+
+And we were basically on a 24/7 defensive position and trying to keep them away from our position by aggressive patrolling. And we stayed there, getting humbled pretty regularly by artillery fire, where it was just unsafe to walk above a trench. I mean you just didn’t—you didn’t want to get out—didn’t want to get out of the trench.
+
+Our <orgName>Marines</orgName> did just an amazing job of staying alert. They were all very tired from patrolling and digging and preparing—preparing defensive positions on a constant basis, but, you know, they it worked—it worked all day, shared the duties of standing watch all night in precarious situations and were just—you know, I have no other word to describe them than “remarkable.” They were—</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="LOVELY">—resourceful and remarkable. I don’t know what else to say. I did not experience—the entire time I was in <placeName>Vietnam</placeName>, I did not experience, ever, one of my <orgName>Marines</orgName> failing to immediately execute something I wanted him to do, regardless of how hazardous it was, and there were many, many times when—when you’d ask somebody to go from Point A to Point B where there was a very good possibility that you would be shot and killed, or otherwise injured. But these guys were the real thing. </u>
+      <u who="BURACK">Mm-hm.</u>
+      <u who="LOVELY">They were what I envisioned <orgName>Marines</orgName> were all about, you know? I’m biased, obviously, but that’s the way I felt.</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="LOVELY">So—</u>
+      <u who="BURACK">That night, just backing up a little: That night in early February, when you had just moved to that outer perimeter, how did you react, and what was kind of your role as second lieutenant over the course of the night and the following days?</u>
+      <u who="LOVELY">I mean, primarily I did the best I could to—to sustain a perimeter to protect the people who were, you know, not overrun—</u>
+      <u who="BURACK">Mm-hm.</u>
+      <u who="LOVELY">—and to direct people to just maintain some—some sort of discipline in protecting our position. I—you know, I would not, in the scheme of things and relative to what some other of these guys did, was in no way a hero or ah—I just, I tried to do what I could do. I couldn’t hear, which was a definite disability at the time. That passed, ultimately, over the next couple of days. But I just did what I could to keep people alive, and nothing more than that.
+
+
+
+It was—it was—it was just a—it was like being in a twilight zone. You know, you had—you never—you didn’t know whether they were going to come up behind us to flank us on the sides, which they tried to do, and our guys managed to keep them—keep them off.
+
+I mean, when we were originally hit, to give you an idea to how—I was in a bunker. I used to patrol, as did the other lieutenant, every hour on the half hour, so you never slept more than a half an hour, and that was true [chuckles] seemed like the truth the entire time I was in the field. But you—you patrolled the lines, talked to the troops and encouraged them to stay away and alert, despite how tired they were.
+
+And when I had completed a patrol around the perimeter—it didn’t take all that long to do because it wasn’t a very big hill—but when I—I went back to my bunker, which was right on the trench line, and I was lying down on kind of a dirt shelf that we had built for—you know, to sleep on. And I remember the whole hill just shaking. And that was their initial assault, where they used high explosives and rocket propelled grenades and mortars and whatnot to—to, as it turned out, infiltrate a third of our position by just sweeping over the trenches at one end.
+
+When I ran out of my bunker, I turned toward the noise, and I had a pistol out, which I always had out, it seems like, and I took about three or four steps, and I ran right into a <orgName>North Vietnamese</orgName> soldier coming down the trench toward me, and we—and it’s like yesterday. I can just—we both looked at each other, and I—you know, it was basically, Holy shit! [Laughs.] And we—we both—I know I fired at him, he fired at me, and I think we both missed, and then we turned around and went the other way, back toward, you know, where we knew our troops were.
+
+But it happened so quickly that, you know, there was no time. Our <orgName>Marines</orgName> at that end of the base really had very little chance that they—you know, they were out there watching us. They knew where our positions were. They worked their way in at night. We didn’t have a whole lot of protective what they call concertina wire, which is like—almost like a Slinky of, you know, sharp barbed wire. We had a couple of rings of that around the base of the hill, but it didn’t take them much to get across that. And so it was all so quick that—you know, the rest of the night was just, I would say, basically a blur.</u>
+      <u who="BURACK">Mm-hm.</u>
+      <u who="LOVELY">You know, in retrospect, looking back, you know, I wish I did A, B and C, which I didn’t do, and, you know, all of the things that I could have done, should have done, you know. I’m sure I could have done a lot of different things, which, you know, in retrospect is easy to say, but that’s, you know, kind of being self-critical.</u>
+      <u who="BURACK">Mm-hm.</u>
+      <u who="LOVELY">Nonetheless, you know, when it was over and we identified the people we lost and then came back, and we just kind of existed through patrolling and otherwise for, you know, the next—what? We didn’t move out of there until the first of April, so that was the remaining— six weeks or so? We were—</u>
+      <u who="BURACK">So how big was the <placeName>Khe Sanh</placeName> base?</u>
+      <u who="LOVELY">How big?</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="LOVELY">Oh, gosh, I would say the whole base was, I don’t know, a square mile maybe or a mile and a half.</u>
+      <u who="BURACK">Ok. Yeah.</u>
+      <u who="LOVELY">Yeah. It was big.</u>
+      <u who="BURACK">Sorry, I should have qualified—</u>
+      <u who="LOVELY">Maybe it was a thousand—</u>
+      <u who="BURACK">—the question.</u>
+      <u who="LOVELY">Yeah.</u>
+      <u who="BURACK">Were there a lot of Marines stationed there?</u>
+      <u who="LOVELY">There were. I mean, there were, I would say—I mean, I want to say several thousand <orgName>Marines</orgName> there.</u>
+      <u who="BURACK">Mm-hm.</u>
+      <u who="LOVELY">Across the base, yeah. And there was an airstrip where planes—it was where the fire was so intense, the planes couldn’t land; all they could do was fly in at low altitudes and either push resupplies out the back door and then <orgName>Marines</orgName> would have to run out in the middle of the airstrip to get them and, of course, the artillery would start. Or they parachuted gear in. And, you know, as often as not, they missed the base, and the gear landed outside the wire, and you had to go out and get it. And, of course, <orgName>the North Vietnamese</orgName> were anxious to get it, too, so that caused some difficulties.</u>
+      <u who="BURACK">Mm-hm.</u>
+      <u who="LOVELY">But it was—it was basically sitting there in a circumstance of attrition, where people were getting injured by artillery fire, slowly but surely, constant rotation of people in and out, very dangerous to get out. Helicopter medevac choppers would come in to get people out, and, of course, people had to expose themselves to get the wounded on the planes, and you’d take more incoming fire from—from the enemy. So it was—it was not a good place to be, and we were in far less than a optimum strategic position, to say the least.
+
+And then it was—it was not until April that we were finally—our battalion was—was given orders to leave the base and move northwest toward enemy positions, to—to see if we could penetrate their positions and basically break up any aggregation of troops out there and kind of move them back, away from the base.
+
+And so that’s what we did. We got into some pretty serious battles on the way, you know, over the next several weeks. We took—I remember taking one hill with our platoon, just kind of like <name type="event">Civil War</name> days, where it was kind of a bald hill. <orgName>The North Vietnamese</orgName> were on top of the hill, and we just took us many, many hours to move up the hill on a straight—basically on line, as they say. And we finally, you know, took the hill, but it was painful and costly.
+
+And as it turned out, the forward observer for the enemy, who was calling in the artillery fires, had his position on that hill, and he was killed, and the troops removed from him a holster, a 9 millimeter pistol and a compass and a knife and whatnot, and gave it to me. And I still have it to this day from that guy who was calling all those fires in on us. So—</u>
+      <u who="BURACK">Wow.</u>
+      <u who="LOVELY">—the mission was successful, but it was, you know, a painful one. So we got into some scrapes, pretty serious scrapes as we kind of fought our way and moved our way northwest.</u>
+      <u who="BURACK">At this point, are you still a second lieutenant, or you’ve been—you’ve moved up?</u>
+      <u who="LOVELY">No, I was the second lieutenant for most of the—two-thirds of my time. I think I made first lieutenant—</u>
+      <u who="BURACK">Okay. </u>
+      <u who="LOVELY">—two-thirds of the way through.</u>
+      <u who="BURACK">Okay. </u>
+      <u who="LOVELY">And so we moved up through the mountains and, you know, had a number of firefights, and a number of people got hurt and killed along the way. And we kind of went over a couple of the mountains and down the reverse side, where all of <orgName>the North Vietnamese</orgName> had dug in. I mean, it makes sense, if you think about it: We’re firing our artillery in an arc toward them, and so they dug in on the back side of the hills so the trajectory basically went over their head. You know, if it made it over the hill, it was unlikely to get them because—</u>
+      <u who="BURACK">Mm-hm.</u>
+      <u who="LOVELY">—they dug into the back of the hill. So when we got there, we found—you know, as you came down very, very steep inclines, you would actually—we got into fights where you would actually walk by them coming down the hill, and they’d fire from behind you. And in some cases, they had abandoned positions; other cases, they had tunnels all through the mountains.
+
+But, you know, we found hospital stations back there. We found—they found—some people found vehicles on the road behind the mountain, where they had come down from North Vietnam through the so-called <placeName>Hồ Chí Minh trail</placeName>. But it was—it was remarkable, the ingenuity with which they dug in and, you know, prepared themself and housed themselves and strategically gathered for whatever operations they were carrying out—</u>
+      <u who="BURACK">Mm-hm. </u>
+      <u who="LOVELY">—or simply to move supplies down from North <placeName>Vietnam</placeName> kind of along the Laotian border, because we were just a mile from the Laotian border. We were very close. And, of course, we couldn’t cross it and they could, and they would bring gear down and work all the way down to southern South Vietnam, so that was a big part of the war. So—</u>
+      <u who="BURACK">As you were moving—oh, sorry to interrupt you.</u>
+      <u who="LOVELY">No, no, I was just going to say, you know—so I was—I think I was with the company until, I don’t know, June or July, something like that, and then I got assigned to the rear, and I started working in battalion logistics, and then I spent a little time with the commanding general’s staff at what was called <orgName>Đông Hà</orgName>, which was within artillery range as well of <orgName>the North Vietnamese</orgName>.
+
+And eventually I went home, and happy to go home. I went on an R and R [rest and recuperation] to <placeName>Hawaii</placeName> while I was there, and it was an experience, to say the least,—</u>
+      <u who="BURACK">Mm-hm.</u>
+      <u who="LOVELY">—one that—one that I’m proud to have been involved in. Easy to justify when you were there, trying to protect, you know, your <orgName>Marines</orgName>, keep people alive, which was your principal—at least I envisioned was my principal mission. Almost secondary to what you were doing to the enemy, you wanted to bring as many of your kids home as you could. And these were kids. These were 17-, 18-, 19-year-old kids. Incredibly brave and incredibly well trained and prepared and incredibly loyal.</u>
+      <u who="BURACK">Mm-hm.</u>
+      <u who="LOVELY">Just, you know, I will always be proud to have served with—with  these people. They were—it was kind of what I expected. It certainly wasn’t glamorous. It was an experience of a lifetime. I’m glad I lived through it. And a lot of people are still suffering from it, even as we speak today.</u>
+      <u who="BURACK">Yeah. 
+
+Just backing up a little, when you were moving north after leaving <placeName>Khe Sanh</placeName>, like your post-April time—</u>
+      <u who="LOVELY">Yeah.</u>
+      <u who="BURACK">—how much interaction did you have with other units, and also did a military chaplain travel with you?</u>
+      <u who="LOVELY">Did the military what?</u>
+      <u who="BURACK">Chaplain. Did you have a chaplain?</u>
+      <u who="LOVELY">Did we have a helicopter?</u>
+      <u who="BURACK">A chaplain.</u>
+      <u who="LOVELY">A chaplain. Oh, I’m sorry, excuse me. I didn’t understand.</u>
+      <u who="BURACK">It’s okay. No worries.</u>
+      <u who="LOVELY">No, we had a chaplain at the regimental level in <placeName>Khe Sanh</placeName>, who actually said Mass, and those of us who were Catholic went to Mass, you know, in a trench and various places. When we moved out, we moved out as a company, so there were probably, I don’t know, 200 of us moving along in our company, and there were four companies, so, you know, we were probably seven or eight hundred people moving along together.
+
+
+
+We had interaction, but very little, with our adjoining units other than to liaise with them and to hook up with them for defensive purposes. It was a very—one thing of being an officer particularly was it was a very lonely place to be. You spent a lot of time, you know—I mean, you were close to the troops yet you were distant from the troops, and that you, you know, you still had to maintain kind of a command structure. You didn’t get together a lot with other officers because they were all spread out, doing other things. You’d have periodic, you know, meetings with the company commander to review what the next day’s plans were or what—you know, what the next operation was.
+
+But we didn’t—you know, we didn’t get to the rear very often at all that I can remember. We went, you know, from January to the end of April before we got out of–so we were in the field, you know, four months without probably showering or getting a hot shower in the whole damn time we were there.
+
+So it was—I don’t recall seeing a chaplain, although there were chaplains moving around. We might have had—we might have had a battalion chaplain. I might have seen him once or twice. They were amazing guys. They did—you know, they went directly to the trouble spots, so if you saw one, you would see him at the worst possible time. You know, he was there to administer last rites or encourage people. But we did not have one, as I recall. We certainly didn’t have one assigned to our company.
+
+We had a battalion chaplain, I believe, maybe a regimental chaplain, but we didn’t see them a whole lot. You wouldn’t normally see them except, you know, a serious situation developed and they would come in, either during or after it occurred.</u>
+      <u who="BURACK">So they weren’t a consistent presence.</u>
+      <u who="LOVELY">No. And I’m not being unfair about it. First of all, there weren’t all that many of them, and—</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="LOVELY">—but, I mean, they were a presence when we were in static positions, but when you’re moving constantly day to day—you know, move X miles, stop, dig in for the night, move the next day, you—you were not likely to see them very often. They tended to stay, you know, with the headquarters unit. That’s where they would normally stay. And if the—if the commanding officer of the unit went out, the chaplain would often go with him. So if you—you didn’t see the commanding officer or the battalion or the regiment very often at all, but when you did, you might see a chaplain with him, you know, accompanying him, but that was the—that was my recollection of what happened, yeah.</u>
+      <u who="BURACK">And so when you shifted assignments to the commanding general’s staff in <placeName>Đông Hà</placeName>—I don’t know if I’m pronouncing that correctly—</u>
+      <u who="LOVELY">No, you did. No, you did.</u>
+      <u who="BURACK">Okay. How was that different, or—</u>
+      <u who="LOVELY">It was much—and I had a—I had a building to sleep in and a bed to sleep on. There was an officers’ club. It was a thatched hut, but it was an officers’ club. You could go get a beer when you weren’t on duty.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">There was more—there was more—there were others around to talk to, and there was more comradeship, you know, in the rear, a lot of storytelling because everybody had their stories to tell. My job with the commanding general’s staff was very menial. You know, there were many more senior officers there. I was just the lieutenant to get the coffee and do what was told. But it was not—it was not—that was not particularly exciting, but it was a bit safer, for sure,—</u>
+      <u who="BURACK">Mm-hm.</u>
+      <u who="LOVELY">—and more secure. You know, you get to have a hot shower every day and put on a clean uniform. And, you know, you get out on assignment to the field every now and again, but, you know, maybe with some of the general’s staff, but, you know, other than that, it was much better duty and, relatively speaking, much safer, although we never really got to the rear, to the point of being out of harm’s way. I mean, I think I went to <placeName>Da Nang</placeName> once. Da Nang was like a city. You know, there was fighting around Da Nang, but if you were within the base, which was huge, you know, it was a pretty safe place to be, for the most part.
+
+In fact, that’s where all the disciplinary problems happened, I’m told.</u>
+      <u who="BURACK">What does that mean?</u>
+      <u who="LOVELY">Well, we had—I mean, there was—there was a lot of—there were reports of a variety of racial incidents in the rear. People tended to gather by ethnic connection or color. And there were more drugs apparently available in the back, in the rear, near the cities, so they had some drug issues. The <orgName>Marine Corps</orgName> issues, as I have heard, were a lot less—a lot less widespread than they were in other—you know, in a lot of <orgName>Army</orgName> units. But nonetheless, there was a lot of dissatisfaction and discomfiture in the rear, and there were often, you know, confrontations between groups—</u>
+      <u who="BURACK">Mm-hm. </u>
+      <u who="LOVELY">—which had to be broken up. But I’m not saying it was common, but it happened. 
+
+In the field—I can tell you, the entire time I was in the field, I never experienced any problem. I mean, we had very few problems. You know, there was no color barrier in assignments. There was no—I mean, first of all, these guys were too tired and too worn out to think about that. Their principal job was to keep themselves alive, to keep their buddy alive, and it didn’t matter whether you had a black man and a green man standing next to each other, they would do for each other what brothers would do for each other.</u>
+      <u who="BURACK">Mm-hm.</u>
+      <u who="LOVELY">So I never experienced much in the rear. I don’t know what the hell the rear was all about. I mean, <placeName>Đông Hà</placeName> was different. It was pretty regimented, pretty, you know, orderly and well controlled, because we had, you know, perimeter assignments and base assignments there as well, and the enemy was very close, so—but there were some issues in the rear. But I didn’t see much of the rear, so I can’t tell you.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">And about what hap—</u>
+      <u who="BURACK">So the commanding general’s staff. Was that your last post in <placeName>Vietnam</placeName>?</u>
+      <u who="LOVELY">That was my last posting, was on his staff. And then in mid to late January, I returned to <placeName>Okinawa</placeName> and returned home.</u>
+      <u who="BURACK">Of <date when="1969">1969</date>.</u>
+      <u who="LOVELY"><date>Nineteen sixty-nine</date>, yes. I was there all of <date when="1969">1968</date>, which was—had to be one of the worst years in <placeName>Vietnam</placeName>.</u>
+      <u who="BURACK">Worst year, yeah. I was going to say—</u>
+      <u who="LOVELY">It was <name type="event">the Tet Offensive</name>, and it was a bad time.
+
+But I was happy to get home, and I got a nice assignment, as it turned out, to <orgName>Marine</orgName> barracks in <placeName>Newport, Rhode Island</placeName>, for the next three and a half years or so. I stayed in almost five years.</u>
+      <u who="BURACK">And so that’s— </u>
+      <u who="LOVELY">Yeah.</u>
+      <u who="BURACK">So what was your assignment in <placeName>Newport</placeName> like?</u>
+      <u who="LOVELY">That’s right. And that was a great assignment. I was the security officer, and then I was the executive officer of the barracks, and, you know, it was a good life.</u>
+      <u who="BURACK">Mm-hm.</u>
+      <u who="LOVELY">I lived off base. I had a lot of good <orgName>Marines</orgName> working for me. We provided security for the naval base, which—the Marines don’t do that anymore, but they did while I was there, and handled a lot of command performances for the <orgName>Navy</orgName>, teaching the Navy how to march (because they never knew how to march, anyway), but—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">We had to teach them—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">—and carry out a lot of their formal decommissioning ceremonies and commissioning ceremonies, so I did a lot of that. Got involved with a lot of community activities in <placeName>Newport</placeName>. Coached Little League teams, did a lot of stuff like that. 
+
+And during the time I was there, I got serious and met a woman who I had met earlier—it was a friend of my—actually, next-door summer neighbor in <placeName>Nahant</placeName>. Met a wonderful woman, my wife <persName>Joan</persName>. Maiden name is <persName>Joan Camden</persName>. And we—we went together seriously for a period of  the time that I was in <placeName>Newport</placeName>, and I proposed, and—in October of <date when="1971">1971</date>. We got married in <date when="1972-02-19">February of 1972, February 19th</date>. My anniversary is coming up.
+
+And the condition was that I get out of <orgName>the Marine Corps</orgName>, and I got out of the Marine Corps—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">—in March.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">In March or so, and I stayed in <orgName>the Reserves</orgName> a while but not too long, and went to law school and then off to practice law, so—</u>
+      <u who="BURACK">Where did you—so you got married in <placeName>Newport</placeName>.</u>
+      <u who="LOVELY">No, we didn’t get married in <placeName>Newport</placeName>. We got married in <placeName>Dorchester, Massachusetts</placeName>,—</u>
+      <u who="BURACK">Oh, okay.</u>
+      <u who="LOVELY">—where she grew up, at the local Catholic church, where ultimately all of my kids were baptized and all of our kids were born. And we got married in one of the worst blizzards in ten years. And yet it was so bad we had to have the traditional <orgName>Marine Corps</orgName> arch of swords inside the church, which never happens.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">My father-in-law was waiting at the front steps with a raincoat and boots for my wife, who refused to use them.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">But everybody—every single person we invited made the wedding. It was amazing. And, I mean, <orgName>Marine</orgName> friends from all over the countryside. Got there in time, one way or the other, to attend the wedding, so it was a fabulous day, yeah.</u>
+      <u who="BURACK">Wonderful.</u>
+      <u who="LOVELY">That was the figurative end of my <orgName>Marine Corps</orgName> career right there.</u>
+      <u who="BURACK">[Chuckles.] 
+
+And where did you go to law school afterwards?</u>
+      <u who="LOVELY">I went to <orgName>Boston University</orgName>, and my friends, <persName>[Andrew J.] “Drew” Ley</persName>—on the first day, unknown to me—I walked into class. Hadn’t seen my friend <persName>[Andrew J.] “Andy” Ley</persName>, who was a fraternity brother, got commissioned with me. Hadn’t seen him in a year and a half, and I walked into my first day at law school, and he was sitting right there.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">We were chatting together, and neither of us knew him, so—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">—we got commissioned, and we went to law school together. He later came and worked at the same firm for a while that I stayed with for about 30 years, and he’s now practicing law here in <placeName>Boston</placeName>. And <persName>John Feltner</persName>, my other good friend from <orgName>Dartmouth</orgName>, who I think also participated in this interview process, is—he stayed in <orgName>the Marine Corps</orgName> for a number of years, got out and came back and went to <orgName>B.U. law school</orgName> and also came to work for my firm for a while. And now he’s litigation—chief litigation counsel for the <orgName>MBTA [Massachusetts Bay Transportation Authority]</orgName> here in <placeName>Boston</placeName>, so it’s a small world, yeah.</u>
+      <u who="BURACK">Wow. Yes definitely it’s a small world. 
+
+So after law school, you settled in <placeName>Boston</placeName>, or you stayed in Boston?</u>
+      <u who="LOVELY">I did. I stayed in <placeName>Boston</placeName>. We had four wonderful children during that time and, you know, a good—you know, a good practice. I was a business and finance lawyer and really enjoyed that. And after about 30 years, more than 30 years, I got tired of that and left, and I’ve been the general counsel for the archbishop of <placeName>Boston</placeName>, <persName>Cardinal [Seán P.] O’Malley</persName>, for the last seven years. 
+
+That’s what—that’s my life in a nutshell.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="LOVELY">And it’s been a good life. I see—I just went to a Dar- —we have an annual <orgName>Dartmouth</orgName> dinner in <placeName>Boston</placeName>. We had about 50 people there earlier in January. And my <orgName>Basic</orgName> class had its first reunion after 48 years—</u>
+      <u who="BURACK">Wow!</u>
+      <u who="LOVELY">—about a year and a half ago, and we found—</u>
+      <u who="BURACK">What was that like?</u>
+      <u who="LOVELY">—that the survivors—it was wonderful. We found the survivors or, you know, the surviving class members or their survivors—and about 130 of us showed up in <placeName>Fredericksburg, Virginia</placeName>, for five days about a year and a half ago, so—and it  was quite an experience. 
+
+So all in all, it was—it’s—I have nothing to complain about. You know, I’m still in fairly good health, and I see my friends periodically and enjoy my family, and they’re all close by. I’ve got seven grandchildren, and who knows? One of them might go to <orgName>Dartmouth</orgName>. More likely, they’ll probably go to <orgName>Bowdoin</orgName> or <orgName>Middlebury</orgName> or <orgName>the University of Vermont</orgName>, where my other kids went, but—so three of the four of them are married, and we’re—we’re all doing fine.</u>
+      <u who="BURACK">That’s lovely.
+
+One last question before I let you go:</u>
+      <u who="LOVELY">Sure.</u>
+      <u who="BURACK">How do you think your time in <placeName>Vietnam</placeName> and your time in <orgName>the Marines</orgName> kind of influenced your life as a lawyer and your life later on, especially working for the general counsel?</u>
+      <u who="LOVELY">I never—I don't think I ever would have been a lawyer if I hadn’t gone in <orgName>the Marine Corps</orgName> because came back to <placeName>Newport</placeName>, I went to <orgName>the Naval Justice School</orgName>, which was for non-lawyers and did quite well, and got interested in it. But I would say that <orgName>the Marine Corps</orgName> had an incredibly important formational influence on my life. I mean, I think I learned more about myself in those four-plus years I was in <orgName>the Marine Corps</orgName> than I would ever have learned about myself. I certainly learned the weaknesses I had, and my physical limits. I think I became a better man as a result of it.
+
+How it influenced my being a lawyer other than dealing with people and being able to manage people, I’m sure it’s helped, but more than anything else, I think it developed what I like to think is a strong character and that I think I’ve been a good husband and a good father, and a good friend to my friends. And all of that—I think the embryo of whatever development I’ve had and whatever good in the world I’ve done, I think, you know, came from <orgName>the Marine Corps</orgName>. I served on our local school board for ten years. I was involved in building new schools. I’m on the executive committee and the board of directors of <orgName>the New England shelter for homeless veterans [New England Center and Home for Veterans]</orgName>.
+
+And I feel like, you know,—</u>
+      <u who="BURACK">Mm-hm.</u>
+      <u who="LOVELY">—without sounding self-centered—I mean, I think—I think I’ve led a good life, and <orgName>the Marine Corps</orgName> had an awful lot to do with that, and I’m very grateful for having had the opportunity to do it.</u>
+      <u who="BURACK">All right. Well, I think we’ll end there.</u>
+      <u who="LOVELY">Well, thank you, <persName>Emily</persName>.
+
+[End of interview.]
+
+
+
+
+
+</u>
+    </body>
+  </text>
+</TEI>

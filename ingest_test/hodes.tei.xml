@@ -1,0 +1,921 @@
+
+<?xml-model href="../schemas/ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="9">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="1.0.5">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="HARRISON"/>
+        <person xml:id="HODES"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso="2014"/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="HARRISON">This is <persName>Tim Harrison</persName> at the home of <persName>Paul Hodes</persName> in <placeName>Concord, New Hampshire</placeName>. It’s <date when="2014-08-07">August 7th, 2014</date>.
+
+Thank you very much for sitting with me. Can you tell me where you were born and what your parents’ names are?</u>
+      <u who="HODES">I can. I was born in <placeName>New York City</placeName>, and my parents were <persName>Robert</persName> and <persName>Florence Hodes</persName>.</u>
+      <u who="HARRISON">And you grew up in <placeName>New York City</placeName>.</u>
+      <u who="HODES">I did.</u>
+      <u who="HARRISON">Can you tell me where you went to school?</u>
+      <u who="HODES">Sure. I went to <orgName>the Collegiate School</orgName>.</u>
+      <u who="HARRISON">And can you tell me where you lived in the 1950s?</u>
+      <u who="HODES">Sure. I was born in <date when="1951">1951</date> in <orgName>the Beth Israel Hospital</orgName>, and home at the time was <placeName>Peter Cooper Village</placeName>, a middle-class housing project built by <orgName>the Metropolitan life Insurance Company</orgName> at <placeName>390 First Avenue</placeName>. And <placeName>New York</placeName> in the ’50s was pretty old-fashioned. The housing project had been built for what was a rising middle class, and it was a wonderful place to grow up because there were playgrounds inside the project, and you’d form allegiances, like Playground 1 and 2 and 3. And I was a major adventure to travel all the way from Playground 3 from Playground 1. And it was a really great place to grow up.</u>
+      <u who="HARRISON">Can you tell me any details about the project, the gates?</u>
+      <u who="HODES">Well, you know, the way they constructed it, there was a road through the project that was a private road, and at either end of the road there was a guard house with a—you’d like to say “guard,” but that would really elevate their status far too far—somebody who would monitor cars going in and out, to make sure they were residents or guests or something like that. 
+
+This was a pretty big housing project. It stretched from—it stretches, and it’s still there—it stretched from <placeName>First Avenue</placeName> all the way to <placeName>the [East] River</placeName> and from <placeName>23rd Street</placeName> down to <placeName>14th Street</placeName>, so that’s a large project. And next to it was <placeName>Stuyvesant Town</placeName>, which was also a well-known housing community in <placeName>New York</placeName>.</u>
+      <u who="HARRISON">Can you tell me about your parents and what they did for a living?</u>
+      <u who="HODES">My dad was <orgName>Dartmouth Class of ’46</orgName>. Went after—he was in the <orgName>Navy</orgName> while he was in college. Then he went to <orgName>Harvard Law School</orgName>, graduated and got a job with a law firm now known as <orgName>Willkie Farr and Gallagher [LLP]</orgName>, which was a pretty modest-sized law firm when he joined it, and he eventually became a senior managing partner and grew it to an international law firm.
+
+My mother was a mom and also worked as a conservator of works of art on paper. We moved in <date when="1963">1963</date>, right around the time of <name type="event">the New York World’s Fair</name>,’63, ’64, to <placeName>74th Street</placeName> and <placeName>Central Park West</placeName>, the Upper West Side in the City, which is now a very happening neighborhood. At the time, it was a pretty dicey neighborhood. And I was able to walk to school for high school because <orgName>Collegiate</orgName> was a few blocks away on the Upper West Side.</u>
+      <u who="HARRISON">Can you tell me what it was like growing up as a child behind the walls, within the protection of the housing project? What was it like being in <placeName>New York City</placeName>? I imagine, from the description you’ve given me, that it was pretty removed from the urban space.</u>
+      <u who="HODES">It was. I mean, it was like it was a—there were no stores in it; there’s no commercial activity, so I walked to school down <placeName>First Avenue</placeName>. I went to P.S. 40, <orgName>Public School 40</orgName>. There was a great pizza shop on the corner. There was the laundry. There was—across the street there was an old-fashioned, old-timey soda fountain that was run by an old man and his wife. There was the take-out Chinese restaurant. And there was a world outside that you—you know, we interacted with, of course. 
+
+But in terms of—there wasn’t a lot of crime in <placeName>Peter Cooper Village</placeName>. It was pretty well protected from crime and the neighborhood. The neighborhood changed over time. The general neighborhood wasn’t a real high-end neighborhood. It was mixed ethnically, and there wasn’t a lot of interaction between the kids inside and the kids outside. It was pretty far removed from that.</u>
+      <u who="HARRISON">Did you have an awareness of the postwar changes manifesting more broadly in <placeName>the United States</placeName>?</u>
+      <u who="HODES">No.</u>
+      <u who="HARRISON">Did your parents talk to you about the news?</u>
+      <u who="HODES">No. I mean, I was—let’s see, from nineteen fif- —I went from zero to 12 or 13, and so, you know, by the time the early ’60s came, I started to become aware of what was going on in the news, but fairly peripherally. I mean, the hugest event that really I was aware of was the assassination of <persName>[President] John F. Kennedy</persName>. That,—you know, in terms of the early ’60s, that for me was my introduction to the ’60s</u>
+      <u who="HARRISON">Where were you when you heard that news, and what did you think?</u>
+      <u who="HODES">I was—I was upstairs in a music class at <orgName>the Collegiate School</orgName> taught by a woman named Mrs. <persName>Much</persName>. And the principal came in and said to the class, “We’re closing down the school for the day. We’re sending everybody home. I have some very, very sad and terrible news. The president of <placeName>the United States</placeName>, <persName>John F. Kennedy</persName>, has been shot.” And it was—it was an unspeakable shock. I remember—I remember not—feeling like I didn’t know what was going to happen in the world. And remember, now that I’m talking about it, we’d had drills for—to protect ourselves in the case of a nuclear attack. I mean, during the ’50s there was a sense of foreboding and challenge. I had a vague idea about <name type="event">the Cold War</name>. I had a vague idea. But we had these drills, where we’d hide under our desks, the wooden desks in our school. And there was talk of fallout shelters, and the rivalry between <placeName>the United States</placeName> and <placeName>the Soviet Union</placeName> was a looming presence.
+
+The dawn of the space age was a fact that was something that caught my imagination in terms of science fact and science fiction, but I didn’t really know much about it. But it was the assassination of the president that felt catastrophic in terms of an awareness of public events, just catastrophic.</u>
+      <u who="HARRISON">It wasn’t just about <persName>Kennedy</persName> as a man.</u>
+      <u who="HODES">No, it wasn’t about <persName>Kennedy</persName> as a man. It was the vulnerability that it—a sense of vulnerability that the assassination produced was pretty overwhelming. I mean, if somebody could shoot the president, who knows what would happen in the country? So it was an unspeakable shock.</u>
+      <u who="HARRISON">How old were you when this happened?</u>
+      <u who="HODES">I was 12, 13.</u>
+      <u who="HARRISON">And you were at <orgName>Collegiate</orgName> then.</u>
+      <u who="HODES">Yes.</u>
+      <u who="HARRISON">So you would have been—</u>
+      <u who="HODES">I was at Colle- —</u>
+      <u who="HARRISON">—in ninth grade, maybe?</u>
+      <u who="HODES">I went from fifth grade through high school—</u>
+      <u who="HARRISON">Oh, I see. Okay.</u>
+      <u who="HODES">—at <orgName>Collegiate</orgName>, so maybe seventh or eighth grade.</u>
+      <u who="HARRISON">Seventh or eighth.</u>
+      <u who="HODES">And I remember coming home to <placeName>Peter Cooper Village</placeName> and sitting on a bench in front of Playground #1, because it was during the usual—I mean, it was early afternoon, and just feeling totally alone and scared as hell.</u>
+      <u who="HARRISON">Even at that young age.</u>
+      <u who="HODES">Yeah.</u>
+      <u who="HARRISON">What changed? Or I should say did something change?</u>
+      <u who="HODES">In terms of?</u>
+      <u who="HARRISON">In terms of your awareness of news, politics.</u>
+      <u who="HODES">Yeah. I mean, as I—as I—you know, as I got older, I think that I became more aware of current events. I entered high school in <date when="1964">1964</date>, so the time—it was a turbulent time in <date when="1964">1964</date>, and when I got to high school—I mean, it’s a time when at least I thought to myself, Okay, I’m gonna grow up a bit. And issues around civil rights, <name type="event">the Vietnam War</name> and all—I mean, I was captivated by music at the time, and a lot of music that I was captivated by was folk music around social justice, and rock ’n’ roll, and English blues. And so there was a—things started to come together in the mid-’60s in my mind.
+
+At <orgName>Collegiate</orgName>, which had been a totally white, totally privileged enclave, we had a group of African-Americans who came to school through a program called <orgName>ABC [A Better Chance]</orgName>, and I think they’d been at <orgName>Dartmouth [College]</orgName> to help prepare in the ABC program. You know, for all of us who’d been sheltered white people in <placeName>New York City</placeName>, I think that began to change things in terms of our awareness of what was going on in civil rights. Of course, a lot of music I was listening to was talking about civil rights, so that was happening.
+
+And then <name type="event">the Vietnam War</name> was—it felt—looking back, it felt like we had gone from the fear of catastrophic annihilation from <placeName>the Soviet Union</placeName> and nuclear war—we had managed to segue through the assassination of <persName>John F. Kennedy</persName> to the catastrophe of <name type="event">the Vietnam War</name>, which was pervasive in terms of news coverage, because really television was coming of age in the ’60s, so if you think about it from a media and information standpoint and a journalistic standpoint, it seemed—it seemed like—I’d grown up with television. I was the first generation to grow up with television. Just as you’re growing up with smart phones, I had black-and-white television. And if you think about it, born in <date when="1951">1951</date>, right through Mickey Mouse Club, Andy’s Gang, Saturday morning cartoons, television really was coming of age in the ’60s, and the coverage around <persName>Kennedy</persName>’s assassination and funeral was in a way the first time so much of the nation had been so glued to television, even through early presidential debates, which I was not really up to speed with at the time.
+
+So you had this new medium, 12 years old or so, coming into its own at the time <name type="event">the Vietnam War</name> hit so that the nightly coverage of <name type="event">the Vietnam War</name> really helped drive public opinion in a way that it had not, in my experience, previously. And it was clear that there was a growing cultural and political and demographic divide around <name type="event">the Vietnam War</name>.
+
+I remember reading about it in high school in terms of the history of <placeName>Vietnam</placeName> as a colonial country, primarily, not ancient <placeName>Vietnam</placeName> but reading about the French, the French leaving, and having a sense, not a deep sense that, well, the French had abandoned <placeName>Vietnam</placeName> and we had kind of, looks like we’re stepping into their shoes and coming to an understanding, some understanding, very vague and not at all sophisticated, about what recent history in <placeName>Asia</placeName> had produced in terms of the rise of Chinese communism, the various leaders who had risen and fallen, the connections between <placeName>Vietnam</placeName> and <placeName>China</placeName> and what it meant to have an indigenous revolution in a country.
+
+As I may have said, I really—I wasn’t aware of what had happened in <placeName>Cuba</placeName>. It didn’t really strike me until <name type="event">the Cuban Missile Crisis</name>, which I didn’t understand at the time. I really wasn’t that plugged in. I just knew that, you know, preceding the assassination of <persName>John F. Kennedy</persName>, something really, really scary was going down. I remember—I remember feeling that but not having enough consciousness at the time to completely understand what was going on.
+
+Something changed with the assassination of <persName>Kennedy</persName>, and as the ’60s went on in high school, it’s fair to say that my consciousness grew. I mean, I was in high school, and <orgName>Columbia University</orgName> was being taken over. And that was just uptown.</u>
+      <u who="HARRISON">Yeah.</u>
+      <u who="HODES">I wasn’t—I didn’t—you know, I wasn’t plugged in enough to go protest. I wasn’t plugged in enough to really have enough consciousness and connection to be active around the war, but it was all in my consciousness.</u>
+      <u who="HARRISON">Can you take me back to before <orgName>Collegiate</orgName>, before the move to the Upper West Side? Can you reflect on the experience of living behind the guards, behind the—or I should say within the enclave from <placeName>New York City</placeName> or from tensions in <placeName>the United States</placeName> or from <name type="event">Cold War</name> anxieties? For you or for your parents, or both.</u>
+      <u who="HODES">I mean, my—I don’t think either of my parents was overtly political. Politics was not a major topic of conversation that I recall. My father worked very hard. You know, he was developing an international law practice at a pretty high level, in which he was in the forefront of inventing mergers and acquisitions and various tax devices for large clients, helping now significant corporate magnates develop their companies. He was traveling overseas a lot. He was not—so he was—you know, his family—he was born in <placeName>Brooklyn</placeName>. He was now in <placeName>Manhattan</placeName>. He was a lawyer in a firm. He was primarily involved in, at least my impression was, striving at work.</u>
+      <u who="HARRISON">Mmm.</u>
+      <u who="HODES">We lived a pretty fortunate lifestyle. It was protected. We had—there was—my grandparents had a summer place out in <placeName>Sag Harbor</placeName>, the end of <placeName>Long Island</placeName>, so we traveled back and forth almost every weekend. It got to be a real pain in my butt to always leave <placeName>New York</placeName> and not be able to do it. And so it was—we lived a fortunate middle-class lifestyle.</u>
+      <u who="HARRISON">And you felt safe.</u>
+      <u who="HODES">I felt fairly safe except I grew up in an environment, at least for a period of time, in which I had some real bullying problems and direct threats to my physical safety, from people at my school who did things like followed me home on the subway and would threaten to throw me off the tracks, and there was a lot of fighting and beating up and [unintelligible].</u>
+      <u who="HARRISON">You’re talking about <orgName>Collegiate</orgName> or before?</u>
+      <u who="HODES">No, in <orgName>Collegiate</orgName>, so starting in sixth or seventh grade I had a pretty—I lived a pretty—I was—my personal safety—I have direct experience with a fearsome lack of personal security.</u>
+      <u who="HARRISON">Why the move to <orgName>Collegiate</orgName>?</u>
+      <u who="HODES">I guess my parents thought that it was probably the leading college preparatory school in <placeName>New York City</placeName>, and they thought it would be a good place to go. I got in.</u>
+      <u who="HARRISON">Did you want to go? Where did you go before?</u>
+      <u who="HODES">Let’s see, <orgName>Public School 40</orgName>. I went to school, nursery school at <orgName>the Grace Church</orgName> on <placeName>Gramercy Park</placeName>, then Public School 40. I skipped second grade. I was very young for my age by the time I got into third grade and fourth grade, and then I moved in fifth grade and stayed there through high school. </u>
+      <u who="HARRISON">Did you want to move?</u>
+      <u who="HODES">I don’t—I thought it was exciting. I don’t recall—I don’t recall, you know—I mean, it meant that my brother—my brother, who later passed away in <date when="1970">1970</date>, and I, instead of sharing a bedroom, would have separate bedrooms. I thought that was a good thing.</u>
+      <u who="HARRISON">With moving the house.</u>
+      <u who="HODES">When we moved.</u>
+      <u who="HARRISON">Yeah, but just in terms of moving to <orgName>Collegiate</orgName>, it was exciting. It was more your parents’ decision than yours?</u>
+      <u who="HODES">I had no part in the decision whatsoever.</u>
+      <u who="HARRISON">No part.</u>
+      <u who="HARRISON">Can you describe briefly for me the experience of going to <orgName>P.S. 40</orgName>? It seems like—I don’t know anything about P.S. 40 in the time, but was it the polar opposite of going to <orgName>Collegiate</orgName>?</u>
+      <u who="HODES">Yeah, it was a big <placeName>New York</placeName> public school, and there were—you know, when I—I remember, and I’ve jokingly said, and I remember that when I skipped second grade, by the time I got to fourth grade, I felt like I was in class with a lot of people who ought to—who belonged in high school. I mean, it was, like, there were a lot of kids who seemed—I don’t know—a lot bigger and older than I did, because I was a year behind. And a year behind when you’re eight or nine feels like an awful lot because there’s so much development that goes on. And so if kids had been left back from the fifth grade, they were now in fourth grade, and there was a considerable number of kids who’d been left back from the fifth grade. I mean, fifth grade—you know, you’re ten. Your ten. So if I was eight and they were ten-year-olds, there was a big age gap for me by the time I hit fourth grade in public school that drew from a very broad neighborhood.</u>
+      <u who="HARRISON">Tell me about that.</u>
+      <u who="HODES">Ethnically diverse, age diverse. You know, the classes at the time were not huge, but they were bigger classes. I had Ms. [unintelligible] in third grade. I don’t remember my fourth grade homeroom teacher’s name. But I remember feeling sort of odd man out in fourth grade. I just—it felt like I didn’t fit in.</u>
+      <u who="HARRISON">Mm-hm.</u>
+      <u who="HODES">I felt like it was—there was some of that—and there were some really dangerous kids. There were some really dangerous kids—you know, guys with knives, guys with broken bottles at night. I mean, there were—it was not a completely safe environment.</u>
+      <u who="HARRISON">What was the transition like from the school to the home neighborhood? Friendships transitioned, or were they really two separate domains for you?</u>
+      <u who="HODES">Two separate domains. Completely separate.</u>
+      <u who="HARRISON">Were there other people in the neighborhood who went to <orgName>P.S. 40</orgName>?</u>
+      <u who="HODES">Oh, yeah, a lot of my friends went. In fact, all my friends went to <persName>P.S. 40</persName>, as far as I could tell.</u>
+      <u who="HARRISON">So explain the separation.</u>
+      <u who="HODES">Well, I mean, you know, so you’d be friends in the playground, you’d go to school, scattered in different places in the school because it was a big enough school so that you’re not—everybody isn’t together in a single class. There were a lot of different classes. And then at the end of the day, you know, there’d be this, like—it was a—there would be, like, a migration to and from school, back out into <placeName>Peter Cooper</placeName> and <placeName>Stuyvesant Town</placeName>, and then to the surrounding neighborhoods. So, I mean, the school was a real—you know, it was a center, a center of life at the time.</u>
+      <u who="HARRISON">Did you have, even at that young age, an awareness of racial difference or socioeconomic difference?</u>
+      <u who="HODES">Not much.</u>
+      <u who="HARRISON">Just—it just wasn’t a factor.</u>
+      <u who="HODES">Just not much. You know, it wasn’t—I mean, you know, not much. I just wasn’t—I don’t recall being really focused on it.</u>
+      <u who="HARRISON">And then <orgName>Collegiate</orgName>.</u>
+      <u who="HODES">And then <orgName>Collegiate</orgName>.</u>
+      <u who="HARRISON">Can you talk about the difference?</u>
+      <u who="HODES">Yeah. I mean, <orgName>Collegiate</orgName> was a whole different experience. I wore a tie and jacket every day from the fifth grade through the time I graduated [chuckles] from high school.</u>
+      <u who="HARRISON">Mm-hm.</u>
+      <u who="HODES">At school. It was an old-fashioned prep school, with high intellectual demands, high academic demands. The kids who went there were in gen- —were for the most part really smart. I mean, genuine—high academic achievers, high intellectual achievers generally. It was—you know, I mean, it was as close to a boarding school as you’d get in a city that was a day school, as opposed to being sent away to a boarding school.</u>
+      <u who="HARRISON">Mm-hm. </u>
+      <u who="HODES">You know, I mean, the teachers—I had some great teachers who formed indelible impressions on me. There was—the academic demands were significant, even beginning in the fifth grade. The kids were ultimately—there was interesting diversity. There was an international community of students there. For example, <persName>Nabil Fahmy</persName>, who I believe was recently an Egyptian foreign minister, was in my class. His parents were at the consulate from <placeName>Egypt</placeName>, and he was sent to school. There were people from the <placeName>Philippines</placeName>. There were Chinese-Americans whose parents were at <orgName>Columbia University</orgName>. There were African-Americans who came through the <orgName>ABC</orgName> program. So there was some cultural and international diversity in a sense that people at <orgName>Collegiate</orgName> were the brightest of the brightest and the best of the best.
+
+And it was this very—it was—I mean, the physical plant was—it’s fascinating because it was the oldest—I think the oldest school on the continent except for one in <placeName>St. Augustine, Florida</placeName>. The plaque on the wall said <date when="1636">1636</date>. So you got a sense of a Dutch Reformed church attached, and <orgName>Collegiate</orgName> was founded when the Dutch first arrived in <placeName>New York</placeName>, in Lower <placeName>Manhattan</placeName>, and then moved to the Upper West Side in this very funky old building. And there was a sense of history and privilege and obligation.</u>
+      <u who="HARRISON">Explain the obligation.</u>
+      <u who="HODES">Well, I mean, I later, I think, came to understand that the standards that had been set really were a result of the privilege of going there. And I’m still quite attached to it. I mean, I’ve gone back. I’ve gone to reunions for my class. Quite attached. So on the intellectual and academic side, it was a great education.
+
+There was an English teacher named Mr. <persName>Adams</persName>, who was a <orgName>Dartmouth</orgName> graduate. And he would—his standards were unbearably high. [Imitating a British accent]: “MIS-tah <persName>Hodes</persName>,” he would say, “you are a bettuh student than this. This is unacceptable.”
+
+
+
+There was a great history teacher. There was—I mean—so there was all that. And I suffered through some terrible emotional time while I was at the school, which was personal to me, because there was this person, who later turned out to be mentally ill, who decided to target me and for years made my life miserable as a target of physical violence.</u>
+      <u who="HARRISON">How did he do that?</u>
+      <u who="HODES">How did he do that?</u>
+      <u who="HARRISON">Did he follow you?</u>
+      <u who="HODES">Yeah, he and another guy—you know, I mean, it was the constant threats. You know, a couple of incidents stand out. It was a really unpleasant, really difficult time. So I had a very—I had—it was a tough—it was a tough childhood for me in the ’60s because also during that time, my brother had been diagnosed with Hodgkin’s disease and was sick with it for six years and eventually died in <date when="1970">1970</date>, while I was at <orgName>Dartmouth</orgName>. In the middle of my <orgName>Dartmouth</orgName> experience, my brother died. And so he had been sick for six years and was going through chemotherapy and radiation while I was in high school, so that, combined with the continued sense of insecurity because these guys were still in the school, made for a pretty tough childhood for me.</u>
+      <u who="HARRISON">When did the bullying and the harassment start?</u>
+      <u who="HODES">Fifth grade.</u>
+      <u who="HARRISON">So as soon as you got there.</u>
+      <u who="HODES">Yeah.</u>
+      <u who="HARRISON">And the three of you went all the way to twelfth grade?</u>
+      <u who="HODES">Yeah.</u>
+      <u who="HARRISON">Do you have a sense of—I mean, I don’t think there’s much rationality in fifth-grade bullying, but what was it about?</u>
+      <u who="HODES">I was an easy target. I was a nice, sweet guy. My parents were so occupied with my brother’s illness that they were not effective in helping me. They eventually went to the school, who I think in the eighth, ninth—maybe the eighth or ninth grade must have done something to stop what was happening, but looking back, I think I suffered a tremendous amount of emotional damage by then.</u>
+      <u who="HARRISON">What they target? What was different about you? Was it your age, your religion, your—</u>
+      <u who="HODES">No, I was—I don’t know. I was fat and short and small. Small, short and fat.</u>
+      <u who="HARRISON">And so you felt—did you feel unsafe there?</u>
+      <u who="HODES">Absolutely.</u>
+      <u who="HARRISON">And did that affect your learning there?</u>
+      <u who="HODES">No.</u>
+      <u who="HARRISON">Did it push you towards learning more?</u>
+      <u who="HODES">I don’t know. I mean, I was a good student. You know, I won the history prize graduating from high school. Got a copy of Profiles in Courage by <persName>John F. Kennedy</persName>, which later—which later proved actually instrumental in later political decisions. But I had to—I ended up as a survivor. I survived the emotional and physical abuse of my classmates. I survived my brother. I survived my parents, who I thought were stunted emotionally, looking back. I survived—you know, I survived. And I ended up thriving. So, you know, on the surface, we had a very successful, comfortable, middle-class life. I had a tough childhood.</u>
+      <u who="HARRISON">Mm-hm. Did that change in high school?</u>
+      <u who="HODES">I think it did.</u>
+      <u who="HARRISON">How?</u>
+      <u who="HODES">Well, the physical threat wasn’t as great, and—the physical threat wasn’t as great, and I formed some friendships that were important, some of which I still have and are very, very strong. One of the partners in a new business—my advisers in new business is one of my dear friends from back then, and I’m just remembering that I forgot to call another classmate who called me yesterday, that I owe a phone call to. I was going to call him last night. So I developed some friendships that stuck with me.
+
+And then, when I was a senior in high school, my father took me to see Dr. <persName>Robert Atkins</persName>, who was a famous diet doctor. He hadn’t yet become a famous diet doctor. He eventually did. I actually saw him personally. I lost fifty pounds and went off to <orgName>Dartmouth</orgName>.</u>
+      <u who="HARRISON">Okay. </u>
+      <u who="HODES">So that was that. My senior year at high school was really occupied with transforming myself physically.</u>
+      <u who="HARRISON">Before we get to senior year, can you talk more about what it was like living on the Upper West Side?</u>
+      <u who="HODES">Well, the neighborhood was a neighborhood which, is fair to say, was in transition. What are now beautifully restored townhouses were unrestored wrecks of beautiful houses in a neighborhood that had gone downhill. It was filled with pimps and junkies and lowlife, and it was an interesting neighborhood. It later, after I left <placeName>New York</placeName>, transitioned to the Upper West Side.</u>
+      <u who="HARRISON">Yeah.</u>
+      <u who="HODES">But then it was—you know, it was a pretty—it was a wild scene. I mean, I grew up near Needle Park—you know, some consciousness about it, but, you know, it was a tough <placeName>New York</placeName> neighborhood.</u>
+      <u who="HARRISON">What is Needle Park?</u>
+      <u who="HODES">Oh, Needle Park was a place on the Upper West Side where the junkies gathered to shoot and sell heroin. So, I mean, you know, when I lived there it was a pretty tough neighborhood.</u>
+      <u who="HARRISON">Were there a lot of people at <orgName>Collegiate</orgName> who lived near you?</u>
+      <u who="HODES">I’m not sure. They lived all over the city, in all the boroughs. I mean, people from <orgName>Collegiate</orgName> came from really all the boroughs and all over.</u>
+      <u who="HARRISON">But, I mean, what I’m getting at is was there a concentration of privileged people, of wealthy people?</u>
+      <u who="HODES">There was a concentration of wealthy people, but they didn’t necessarily live where I lived.</u>
+      <u who="HARRISON">Yeah. And so—</u>
+      <u who="HODES">But, I mean—I mean, I lived in a building on <placeName>Central Park West</placeName> that is now—you know, it was then—I think it was sort of interesting pioneering to move there for my parents, because they were moving to what had been a—what had been a stately, fabulous building, one of the premier buildings in the city, but they were—they were early adopters in <date when="1963">1963</date>. Now the building is, you know, a very, very high-end, classic <placeName>New York</placeName> building. <persName>Dustin Hoffman</persName> lives—lived certainly up above my mother, in her elevator line, I mean. So, you know, it became this incredible building. And my mother is 88 and still lives there.</u>
+      <u who="HARRISON">Did you have, because you lived there, a foot inside the privilege of <orgName>Collegiate</orgName> and a foot outside, do you think?</u>
+      <u who="HODES">Probably.</u>
+      <u who="HARRISON">Can you explain that?</u>
+      <u who="HODES">Anybody who lives in <placeName>New York</placeName>—I think anybody who lives in <placeName>New York</placeName> is not—never completely isolated from a city of many, many millions of people and the diversity that is <placeName>New York City</placeName>. So, you know, I mean, I’ve lived here most of my life, in <placeName>New Hampshire</placeName>, but when you grow up, the imprint of growing up in a place like <placeName>New York</placeName> is always with you. It’s certainly always present for me. And it meant that—you know, I mean, I was surrounded by teeming diversity: ethnically, demographically—I mean, every kind of diversity that you can imagine. I mean, <placeName>New York</placeName> is—that’s one of the essence—to me, one of the essentials of <placeName>New York</placeName>.</u>
+      <u who="HARRISON">Can you tell me about the group of black students in <orgName>Collegiate</orgName>?</u>
+      <u who="HODES">Yeah. One of my classmates, Mr. <persName>[Bill] Perkins</persName>, is now a <placeName>New York State</placeName> senator. He was an incredible athlete. They were athletes and scholars. It was kind of a seminal experience because just as I lived through the Kennedy—<persName>John F. Kennedy</persName> assassination, we lived through the <persName>Martin Luther King [Jr.]</persName> assassination. That was later. And living through the Martin Luther King assassination with students who felt, you know, having lived through the civil rights era and then being in school with students who felt that they could be targeted just like <persName>Martin Luther King</persName> was created a much stronger awareness for us.
+
+It’s just funny. As I say, in a way, college was book-ended—I mean, my high school—my—you know, in a short period of time, <date when="1963">1963</date> to <date when="1968">1968</date>, just before I went to <orgName>Dartmouth</orgName> was book-ended by the assassination of <persName>John Kennedy</persName> and then, at the end, the assassination of <persName>Martin Luther King</persName>, followed by the assassination of <persName>Robert F. Kennedy</persName> on the day I graduated from high school. I heard about it in the taxi on the way to my graduation ceremony that <persName>Robert F. Kennedy</persName> had been shot down.</u>
+      <u who="HARRISON">Mmm.</u>
+      <u who="HODES">And I was in a taxi with my buddy, <persName>John Fowler</persName>, who went to <orgName>Dartmouth</orgName> with me, who was going to give the valedictory address. So if you think about that as the bookends of a high school career in a place like <placeName>New York</placeName>, it makes for—it’s kind of interesting.</u>
+      <u who="HARRISON">Yeah.</u>
+      <u who="HODES">But seminal events of the ‘60s, you know, with the music scene happening at the same time—you know, I have a whole other—there’s a whole other life story [chuckles] around me and music that happened during that period of time.</u>
+      <u who="HARRISON">Tell me about that.</u>
+      <u who="HODES">Well,—</u>
+      <u who="HARRISON">That was in high school, right?</u>
+      <u who="HODES">Yeah. I mean, well, for me, for some reason, I don’t know why I wasn’t included—my father knew an artist named <persName>Peter Max</persName>, who was still working, and <persName>Peter Max</persName> was close friends with <orgName>the Beatles</orgName>. So when the Beatles first came to <placeName>America</placeName>, my father took my brother over to spend the day with the Beatles. I ended up—you know, I mean, I have the—I had, like, these crazy experiences where—I met a kid out in <placeName>Long Island</placeName>. He had a house in <placeName>Greenwich Village</placeName>. We got together at his house at some point when I was in high school, his house in <placeName>Greenwich Village</placeName>. He said, “Do you want to play basketball?” We went outside to play basketball, and <persName>Bob Dylan</persName> was playing basketball with <persName>John Hammond</persName>. So we did two on two with <persName>John Hammond</persName> and <persName>Bob Dylan</persName>—you know, just me and my buddy.</u>
+      <u who="HARRISON">Who won?</u>
+      <u who="HODES">You know, they didn’t want to play with little kids, so they stopped. But I started studying guitar, taking guitar lessons in, like, <date when="1964">1964</date>.</u>
+      <u who="HARRISON">So were you at <orgName>Collegiate</orgName> at the time?</u>
+      <u who="HODES">Yeah, I started playing guitar since <date when="1964">1964</date>. I was playing acoustic folk guitar, and I started, like, folk guitar and then ended up—because my friend <persName>Arthur Butler</persName> was taking lessons at <orgName>the Folklore Center</orgName> on <placeName>Sixth Avenue</placeName>, over the—I guess it’s <orgName>the Waverly Theater</orgName> on <placeName>Sixth Avenue</placeName>, above the Folklore Center. I started playing blues, finger-picking, acoustic blues. My brother was also playing guitar. We eventually made a rock band for a brief period of time that didn’t go anywhere, but me and my little brother and <persName>Edgar Bronfman [Jr.]</persName>, who was the head of—became the head of <orgName>Warner Brothers [sic; Warner Music Group]</orgName> for a time—was the keyboard player.
+
+So music and guitar for me was a presence in my life in a big way all during the ’60s, and I was playing acoustic, finger-picking blues (and I still am), studying with a wonderful spaced out guy, who was an interesting—an interesting—an interesting time. I’d get on the subway with my guitar, go down and, you know, take lessons.
+
+But, you know, I was lucky enough to start with good guitars, and I still—I love guitars. And so that was, for me, a real—for me personally, that was—now that I’m talking here and thinking about it, that was a strong hook for my survival for me, was music and playing guitar and—I had the blues. And you know, I had the blues, so it was this juxtaposition of this, you know, privileged lifestyle and I had the emotional blues. And, man, I played the blues.</u>
+      <u who="HARRISON">Mmm. So what was the spaced out teacher like?</u>
+      <u who="HODES">Okay, it’s <date when="1964">1964</date>, <date when="1965">1965</date>. He had long hair, smoked a lot of pot, and was a great guitar player who was—you know, I’d show up bucktoothed, in braces, this little fat kid in a blue blazer with my folk guitar, and he was introducing me to something else that was a whole different kind of lifestyle. 
+
+So, you know, it never really struck me that much until later, and I said, Well, yeah. I mean, I get it, you know? And it really—it had more of an influence on me, I think, when I got to <orgName>Dartmouth</orgName> in <date when="1968">1968</date> than it did during high school, where, looking back, I think I was immature, frightened and not very with it in terms of what was really going on. I think a lot of my classmates seemed older, seemed more connected, seemed more connected to public events and news and what was going on than I did.</u>
+      <u who="HARRISON">I mean, who knows if they really were—</u>
+      <u who="HODES">Who knows—</u>
+      <u who="HARRISON">Who knows?</u>
+      <u who="HODES">—if they really were. And it all came out in the wash anyway.</u>
+      <u who="HARRISON">Yeah.</u>
+      <u who="HODES">I mean, at the end, I figured things out.</u>
+      <u who="HARRISON">So let me ask you this: We’ve been talking for 45 minutes. Could you use a break?</u>
+      <u who="HODES">I’m okay.</u>
+      <u who="HARRISON">Do you want to stretch your legs?</u>
+      <u who="HODES">I’m okay.</u>
+      <u who="HARRISON">Okay. Then let’s—</u>
+      <u who="HODES">Do you need a break?</u>
+      <u who="HARRISON">No. Well, it’s just—if you want to take some time, it’s a good time because soon we’re going to move to <placeName>New Hampshire</placeName> in the conversation, but if you’re fine to keep going that’s fine with me.
+
+Okay, so how did you start thinking about <orgName>Dartmouth</orgName>? I know your father—</u>
+      <u who="HODES">My father had been there, and one of the things that we traditionally did, as I recall, as a kid was travel up to <placeName>Hanover</placeName> to see a football game. We did that a couple of times, once with a friend of his, who I think had also been to <orgName>Dartmouth</orgName>. So, you know, I’d been up there, and I knew he had gone there. And at our home in <placeName>Sag Harbor</placeName> and down the stairs to the basement there was a big green-and-white banner that said “Dartmouth 1946.” So I grew up imprinted. It was like in my DNA from the earliest age that there was <orgName>Dartmouth</orgName>
+
+And I applied to a bunch of different colleges, and truth be told, I really wanted to go to <orgName>Wesleyan [University]</orgName>. I don’t know why, but I really wanted to go to Wesleyan. I remember thinking—I’d gone to an all-boys school, and I said, Man, I think it’s time for a change.</u>
+      <u who="HARRISON">[Chuckles.]</u>
+      <u who="HODES">So I really wanted—I applied to <orgName>Wesleyan</orgName> and <orgName>Trinity [College]</orgName> and <orgName>Columbia [University]</orgName>—</u>
+      <u who="HARRISON">And were these all co-ed?</u>
+      <u who="HODES">—<orgName>Princeton [University]</orgName>—not all of them—and <orgName>Dartmouth</orgName> and a couple of—I applied to <orgName>Beloit [College]</orgName>, <orgName>Dickinson [College]</orgName>, <orgName>Davidson [College]</orgName>. I mean, I applied to, like, 12 schools. You know, I did the whole college thing and the whole college prep thing and figuring out what I’d apply to. <orgName>Wesleyan</orgName> rejected me, I later heard, because I was too immature. <orgName>Dartmouth</orgName> accepted me, probably because I was immature.</u>
+      <u who="HARRISON">[Chuckles.]</u>
+      <u who="HODES">I also decided that I wanted to get as far away from my life in <placeName>New York City</placeName> as I could.</u>
+      <u who="HARRISON">Why?</u>
+      <u who="HODES">Mostly for personal reasons. I just said I need—I was a—I had physically transformed myself in my senior year in high school. I wanted to—I’d always wanted to leave—I never wanted to be in a city. I always wanted to live—I always wanted to be in the country. That’s how I thought about it. I wanted to be in the country. I thought I’d end up in <placeName>Long Island</placeName>, but I always wanted to be in the country. So <orgName>Dartmouth</orgName> was also the best school that I got into, in terms of academics. [Cell phone vibrates.]</u>
+      <u who="HARRISON">Do you want to take it?</u>
+      <u who="HODES">No, it’ll stop. It’s just buzzing. My phone is buzzing.
+
+And so—I mean—so, you know, I mean—and I decided—so off I went—off I went to <orgName>Dartmouth</orgName>. It was the best school that accepted me. And, you know, my father had gone there. It was—it was somewhat of a known quantity. But, you know, I didn’t really know it, but who does when they go into college?
+
+You know, I didn’t have anything particular in mind to study. I had taken AP [advanced placement] tests, I’d placed out of a number—I just recall I placed out of most of the requirements of freshman year, through AP tests, except I was always terrible at math, and so I had to do all that.
+
+
+
+But, you know, I went through a significant transformation in my senior year in high school and then the summer before going to <orgName>Dartmouth</orgName> because I physically transformed myself.
+
+And then in the summer of <date when="1968">’68</date>, there was <name type="event">the Democratic National Convention</name> in <placeName>Chicago</placeName>. And I saw kids who looked like me getting clobbered by police in <placeName>Chicago</placeName>. And that really—I went to Dart- —by the time I got to <orgName>Dartmouth</orgName>, in a certain way I was really filled with piss and vinegar, and had a very heightened awareness about politics, what was going on in <placeName>Vietnam</placeName> and how I felt about it as a result of the catalyst of seeing what had had to the students in <placeName>Chicago</placeName>.</u>
+      <u who="HARRISON">So that was the transition.</u>
+      <u who="HODES">That was a big transition for me.</u>
+      <u who="HARRISON">I don’t remember the month that took place. Was it before you graduated?</u>
+      <u who="HODES">No, it was in the summer after I graduated.</u>
+      <u who="HARRISON">But before you went to <orgName>Dartmouth</orgName>.</u>
+      <u who="HODES">Yeah.</u>
+      <u who="HARRISON">Okay. What had you seen at <orgName>Columbia</orgName>? That was when you were in high school, right?</u>
+      <u who="HODES">Yeah.</u>
+      <u who="HARRISON">The takeover.</u>
+      <u who="HODES">You know, there’d been news in the newspaper, but I’d been—but I hadn’t paid all that much attention to it, you know. And then afterwards—I later went back and found out what had happened, you know, and said, Holy cow! I mean, I was there in <placeName>New York</placeName> during the time. I didn’t really pay real attention to it. All this was happening under my nose, and I just—now I get—now I’m beginning to get it.</u>
+      <u who="HARRISON">Where did you see these people you connected with? Was it on the television?</u>
+      <u who="HODES">On the tube.</u>
+      <u who="HARRISON">Tell me about that. Do you have a specific memory?</u>
+      <u who="HODES">I do. I have a specific memory of watching the news of police clubs hitting students who I thought looked like me. I said, What are all these people doin’ out there? Why are they protesting at <name type="event">the Democratic National Convention</name>? What’s goin’ on? And finding out.</u>
+      <u who="HARRISON">Who’d you talk to about this?</u>
+      <u who="HODES">Nobody,—</u>
+      <u who="HARRISON">It was the summer.</u>
+      <u who="HODES">—that I recall.</u>
+      <u who="HARRISON">What were you doing that summer?</u>
+      <u who="HODES">I was working out in <placeName>Sag Harbor</placeName>. I was working in a boatyard.</u>
+      <u who="HARRISON">There was no one really to talk to about this.</u>
+      <u who="HODES">No.</u>
+      <u who="HARRISON">So how did the change manifest? You read the news? What did you do differently?</u>
+      <u who="HODES">By the time I got—when I got to <orgName>Dartmouth</orgName>, there were all these tables of student organizations, and at one of the tables there was a student group called <orgName>Students for a Democratic Society [SDS]</orgName>, who were advocating—you know, who were saying really strong things about American involvement in <placeName>Vietnam</placeName>, what it meant about us as a culture, what it meant about us as a government and as a people. 
+
+And so, you know, my parents dropped me off at <orgName>Dartmouth</orgName>. I ended up—I had—I’d studied a lot of French. I ended up with a number of striking experiences. My perception was that—this is looking back—my perception was that <orgName>Dartmouth</orgName> was about four years behind the rest of the country. There was a small but growing—a subculture around arts and drugs. There had always been a theater program—</u>
+      <u who="HARRISON">Did that associate—can you explain that?</u>
+      <u who="HODES">Well, yeah. I mean—</u>
+      <u who="HARRISON">Certain fraternities or something?</u>
+      <u who="HODES">No, there was rock ’n’ roll. I ended up joining Foley House, so there was rock ’n’ roll, there was a lot of pot, there was <name type="event">the Vietnam War</name>, and interesting cultural divides at <orgName>Dartmouth</orgName>. But I ended up hanging out with a bunch of students who were opposed to the war. I was in a French class with this brilliant professor, whose ethos was about uninhibited expression, one of my—perhaps my greatest mentor in life.</u>
+      <u who="HARRISON">What was his name?</u>
+      <u who="HODES"><persName>John Rassias</persName>,—</u>
+      <u who="HARRISON">Ah.</u>
+      <u who="HODES">—who—dear, dear <persName>John</persName>, who had been an actor, then a French teacher.</u>
+      <u who="HARRISON">Yeah. What class was this?</u>
+      <u who="HODES">The first-term, first-year French.</u>
+      <u who="HARRISON">Oh, it was, like, French 1?</u>
+      <u who="HODES">Yeah, first-year, first-term French. We ended up touring—producing and touring a play in French in the class that we had—that one of the students had written. You know, I ended up with lifelong friendships.</u>
+      <u who="HARRISON">Mm-hm.</u>
+      <u who="HODES">And one of those with <persName>John Rassias</persName>.</u>
+      <u who="HARRISON">You know—I mean, I’m sure you know he’s still around.</u>
+      <u who="HODES">I do. I see him. You know, I had dinner with him recently. I mean, I see him.</u>
+      <u who="HARRISON">Last year, I had three terms of drill, so—</u>
+      <u who="HODES">Yeah.</u>
+      <u who="HARRISON">I don’t see him, but I—[Laughs.]</u>
+      <u who="HODES">Right. Yeah. I never did the drill.</u>
+      <u who="HARRISON">Really?</u>
+      <u who="HODES">Yeah, because I knew French.</u>
+      <u who="HARRISON">It was great.</u>
+      <u who="HODES">I knew enough French so that I didn’t have to do the drill. 
+
+But anyway, so there was—so there were those experiences. I was in a single room in <placeName>North Mass[achusetts Hall]</placeName>, in the basement, living next to some guy who was studying to be a doctor in his first term freshman year. He was a sophomore, so he was older. I had this tiny little room in the basement of <placeName>North Mass</placeName> that should be a broom closet. It was just wide enough for a single bed. I had a calendar with all my stuff, to keep it straight. I was taking government and history. And politics was everywhere.</u>
+      <u who="HARRISON">Yeah.</u>
+      <u who="HODES">And rock ’n’ roll was everywhere, because I had gotten, by this time, an electric guitar and was—you know, there was a lot of—there was a lot of that going on. And I was interested in the theater, so I was spending a lot of time in what was then a relatively new facility, <orgName>the Hop [Hopkins Center for the Arts]</orgName>, which had opened only about four years before, as I recall, <date when="1964">1964</date>, so this is <date when="1968">1968</date>, so I immediately got into doing theater with the <orgName>[Dartmouth]</orgName> Players. Was acting. Ended up writing shows for the Frost Competition [the Eleanor Frost Playwriting Contest and the Ruth and Loring Dodd Playwriting Contest]. So my life was revolving almost immediately getting to <orgName>Dartmouth</orgName> around politics—around politics, theater, music and—and there was a lot of marijuana.</u>
+      <u who="HARRISON">So—</u>
+      <u who="HODES">So I expanded my consciousness—</u>
+      <u who="HARRISON">Yeah.</u>
+      <u who="HODES">—very, very rapidly in my first year at <orgName>Dartmouth</orgName>.</u>
+      <u who="HARRISON">On a first impression, I would think that the parallels between <orgName>Collegiate</orgName> and <orgName>Dartmouth</orgName> would prohibit you from that expanded consciousness. How did you get around it? Is that impression wrong, or if it’s right, how did you find—how did you come to find that subculture as a freshman?</u>
+      <u who="HODES">Well, I arrived as a musician. I had done some theater at <orgName>Collegiate</orgName> in my last year. For me, I think part of the—I identified myself as somebody out of the mainstream because I was artistic, creative, and I’d already identified myself that way, as—I don’t know whether it was a defense mechanism or that’s just what I came to accept, that it seemed like—and, I had all this artistic impulse, and my parents—and it was later in much more overt but clearly saw me as the stable, straight-ahead type person, and they saw my brother as an artistic person.
+
+And I didn’t—I figured—I eventually used—came to joke and still do: I had a left brain and a right brain, and I do. I have a left brain and a right brain, because I have all that artistic and creative stuff, and I had a career as a lawyer and in politics, arguing linear—linear arguments and straight lines. And the I have the kind of holistic, artistic, creative side, so I have a left brain and a right brain.
+
+But because—I mean, I’d had a lot of experiences with different kinds of people: my guitar teacher, who was outside the mainstream; my experience of feeling outrage when I’d seen <name type="event">the Democratic Convention</name>. That really sparked outrage in me about what kind of law enforcement, what kind of government allows kids like me to get beaten or why are people protesting? What’s really going on in this war?
+
+And for whatever reason, that’s—that’s where I—that’s where I gravitated. You know, I gravitated—I was doing theater and French class from the very beginning; I was doing theater in the theater from the very beginning; I had, you know, in my days of despair set myself some life goals. And I was—having transformed myself physically and having had the beginning of consciousness begin to emerge late in life, I think, as a relatively immature person, I was certainly susceptible to pursuing a different path than I think probably, it strikes me, most of the kids at <orgName>Dartmouth</orgName> then.
+
+And some of them—I mean, some of the people I was with at <placeName>North Mass Hall</placeName>—there was a poker game that lasted the whole year. I mean, you know, it was rednecks and rascals who seemed like they were from another world, a world of pickup trucks and cigars and—you know, I mean, there were a lot of—they were older guys. I felt like I came there as a kid, a real kid because I was still a year younger, and, you know, when you’re—it was just—it was sort of a wild scene.</u>
+      <u who="HARRISON">What was the mainstream at <orgName>Dartmouth</orgName> in <date when="1968">1968</date>?</u>
+      <u who="HODES">Very conservative. Very—very conservative. Very conservative. Very traditional. That’s my perception.</u>
+      <u who="HARRISON">And, of course, all men.</u>
+      <u who="HODES">All men.</u>
+      <u who="HARRISON">Yeah.</u>
+      <u who="HODES">One of the reasons I was so interested in the theater was there were women. There was a lovely young woman in <persName>John Rassias’s</persName> French 1 class, auditing from the community, and she and I became close friends. </u>
+      <u who="HARRISON">Was there any talk of coeducation at <orgName>Dartmouth</orgName> at that point? I guess, is <date when="1968">’68</date> a little bit early?</u>
+      <u who="HODES">There were seven women, including <persName>Meryl Streep</persName>, who came from exchange programs.</u>
+      <u who="HARRISON">I’ve heard about this.</u>
+      <u who="HODES">So, you know, I was in theater, and my best friend, <persName>Chris Merchant</persName>, who later became a doctor, was—became her boyfriend. You know, I mean—there were women in the dance program. You know, in 19-what?-69 Pilobolus [modern dance company] in a brand-new dance program at <orgName>Dartmouth</orgName>, and there was a woman teaching that, and there were women and men dancing, and so I did some dance classes, because I was in theater.
+
+So there was some talk, but most of it was—I don’t know how seriously people were taking it. <orgName>Dartmouth</orgName> became co-ed in <date when="1973">1973</date>, the year after I left. So at some point it began to escalate.</u>
+      <u who="HARRISON">Mmm. Conservative. And how did that conservatism play in the context of <name type="event">the Cold War</name> or of <name type="event">Vietnam</name>?</u>
+      <u who="HODES">Well, I mean, it was a divided—just like the country was divided, <orgName>Dartmouth</orgName> was I think a highly divided community when, if you fast forward ahead to the day that <placeName>Parkhurst Hall</placeName> was occupied, there was a much bigger crowd not protesting the war, not taking over Parkhurst Hall than the crowd that took over Parkhurst Hall, which was—you know, I  mean, it was a microcosm of what had happened in the country, but in an isolated—but because—maybe because of <orgName>Dartmouth</orgName>’s isolated geography, it had taken a much longer time to germinate and arrive in <placeName>Hanover, New Hampshire</placeName>, than it had in places like <placeName>Berkeley, California</placeName>, or <orgName>Columbia</orgName>, or almost anywhere else in <placeName>the United States</placeName> except in <date when="1970">1970</date>. Remember <orgName>Kent State [University]</orgName> . So my perception was that you have—if my consciousness was expanding, that was happening to a number of other people at the same time. But still the majority of students and certainly the administration was very conservative and very traditional.</u>
+      <u who="HARRISON">When you say—is consciousness expanding—what is that a synonym for? Can you unpack that?</u>
+      <u who="HODES">I’m using it—I’m using it as a metaphor for—my personal metaphor for all my experience there, which included a subculture, a number of different subcultures at <orgName>Dartmouth</orgName> around theater, around music. You know, I mean, I had some wild experiences at the time that I never talked about in terms of both roommates using—you know, around some roommates using drugs with some really serious consequences for them. I lost a couple of roommates. Two dropped out. I became close friends with somebody who started out as a <orgName>Navy ROTC [Reserve Officers’ Training Corps]</orgName>, cheerleader, and after some—it must have been some bad acid [LSD]—became a Hare Krishna. 
+
+Now is not leading a very successful life. I had lost one roommate, who used LSD, and I remember his mother coming to get him—[his cell phone starts to vibrate again]—at <placeName>the Hanover Inn</placeName> and my saying, “Your son needs to leave here. He’s lost his mind. He really fractured his neural connections.” So there was a lot of that going on, going on around, and a lot—you know, psychedelics hit <orgName>Dartmouth</orgName> at about the same time as consciousness about <name type="event">the Vietnam War</name> hit <orgName>Dartmouth</orgName>.</u>
+      <u who="HARRISON">Is that consciousness about <name type="event">Vietnam</name>—[phone stops vibrating]—embodied by <orgName>SDS</orgName>?</u>
+      <u who="HODES">That was certainly the most radical of the people who were concerned about the war. To the extent there was any organization around it, it seemed that that’s where the organization was. </u>
+      <u who="HARRISON">And how did you—what was your involvement with—</u>
+      <u who="HODES">I mean, you know, I mean, I—I—I—I—I read—I read a lot of great [unintelligible] literature that was extreme in its language. I grew my hair. Kept up—you know, kept up with all my work. I never did anything that really affected my studies. But I quickly saw myself as an outsider in a conservative system, both the school and the government and the country, and became—I really—I got—I got seriously on the wrong side of a government that had—that was perpetrating a war that I felt we had no business being in.</u>
+      <u who="HARRISON">Would you go to <orgName>SDS</orgName> meetings? What would you—</u>
+      <u who="HODES">Yeah, I guess—I guess—I guess—I guess there were some meetings and discussions about, you know, what to do, and there were some crazy schemes that were rejected. I guess there were some—I don’t remem- —I don’t remember much. I don’t remember the people. I don’t remember their names. I don’t remember—but I’m sure there were meetings that were called and that I went to. It all felt dangerous and exciting.</u>
+      <u who="HARRISON">Mmm. And you were a freshman.</u>
+      <u who="HODES">Yeah, I was a freshman.</u>
+      <u who="HARRISON">I mean, what was that like? Most people don’t have that consciousness so young.</u>
+      <u who="HODES">Well, I don’t know. I mean, you know, I—maybe because I was so young and because the freedom of not being home and now being in this far-away place, <placeName>Hanover, New Hampshire</placeName>, and all the other experi- —new experiences I was having—I’d never lived away from home. I’d been to summer camp, but I’d never lived away from home. I felt—I actually felt, for the first time, like I was free to create my own identity instead of anybody creating an identity for me, and I’m focused now just personally—I’m taking your question as sort of a personal question, not a general societal question, but for me personally, the transition between leaving—let me leave you with an image.
+
+Six months into my senior year in high school, I’m a short, fat kid with braces and horned-ribbed glasses and a sweaty blue blazer. And by the time I’m at <orgName>Dartmouth</orgName>, I’m in work shirts and blue jeans with long hair, playing the electric guitar. Okay? Those two images? That’s all you need to know—</u>
+      <u who="HARRISON">Mm-hm.</u>
+      <u who="HODES">—about what happened to me over the span of 12 months.</u>
+      <u who="HARRISON">Yeah.</u>
+      <u who="HODES">Does that create a picture for you?</u>
+      <u who="HARRISON">It creates a picture, but I am curious how you got there, because I’m aware of the <persName>Atkins</persName> story,—</u>
+      <u who="HODES">Mm-hm. </u>
+      <u who="HARRISON">—I’m aware of the <placeName>Chicago</placeName> convention having a major impact on you,—</u>
+      <u who="HODES">Mm-hm. </u>
+      <u who="HARRISON">—but still, this is 180 degrees.</u>
+      <u who="HODES">Yeah.</u>
+      <u who="HARRISON">What happened to you in the first weeks you were at <orgName>Dartmouth</orgName>?</u>
+      <u who="HODES">I can’t pinpoint any single thing except going—leaving home, making—at some point, I made a conscious decision that I wanted to live a different life in a different way than my parents had lived, to set my own course. I wasn’t quite sure what that was going to be. I thought I was headed for a career in the theater, as an actor or a director or writer or producer. That’s where I thought I was—thought I was headed. I met some—I met some—I met some—some wonderful people, who, you know, who were musicians and artists and theater people, and it was the ‘60s, man. It was the ’60s. And I—I—I threw myself into everything that the ’60s represented, with the fervor of an addict.</u>
+      <u who="HARRISON">Mmm. Do you have a first, an initial memory of <orgName>SDS</orgName>?</u>
+      <u who="HODES">No. I remember a table—</u>
+      <u who="HARRISON">I should not—I want to ask you about the table.</u>
+      <u who="HODES">I remember a table somewhere with a bunch of—with a bunch of people, and I was looking—I mean, there were all these clubs.</u>
+      <u who="HARRISON">Yeah.</u>
+      <u who="HODES">You know, there were all these clubs.</u>
+      <u who="HARRISON">This was, like, orientation week, something like that?</u>
+      <u who="HODES">Yeah, yeah. They were these clubs, and, you know, there it was, and they were the people who were talking about politics. And I was—I got—I was interested.</u>
+      <u who="HARRISON">Finally it was somebody to talk about <placeName>Chicago</placeName>.</u>
+      <u who="HODES">Yeah. I mean, there were—there were people who seemed to be dealing with what was going on.</u>
+      <u who="HARRISON">Yeah. What did you say? Where did you—</u>
+      <u who="HODES">My memory—my memory is, is vague. I never—because, you know, as things went along, I wasn’t in the leadership. I wasn’t one of the organizers. Looking back, I fervently believed everything I was talking about and said and did and wanted to make an impact, but looking back, it wasn’t necessarily effective or mature. But—but it was the—it was the—it was a group of people who seriously questioned the underpinnings of the system and what the system represented.</u>
+      <u who="HARRISON">What did they say?</u>
+      <u who="HODES">“Do you want to be a capitalist elite pawn of the bourgeoisie?” “Look at what the pigs do to people.” And I had seen what the pigs did to people. And I say this with the perspective of somebody who later was a prosecutor in <placeName>New Hampshire</placeName> and spent a lot of time with the police, prosecuting serious crime at the time, so I’ve made another transition, by the way,—</u>
+      <u who="HARRISON">Mm-hm. </u>
+      <u who="HODES">—after college, to—into life. But at the time, I was hell bent on casting aside everything that was and questioning it. So the inflamed rhetoric drove my father absolutely berserk. I mean, I can see why.</u>
+      <u who="HARRISON">What did you tell him?</u>
+      <u who="HODES">Well, I mean, you know, we’d had these big—we had these pitched arguments about all this.</u>
+      <u who="HARRISON">When you went home?</u>
+      <u who="HODES">Oh, yeah. You know, I remember him saying, “Don’t bandy semantics with me, you [unintelligible]. I do that for a living.”</u>
+      <u who="HARRISON">Mm-hm.</u>
+      <u who="HODES">And, you know, so he thought—he thought I was full of it. And I was! Like a lot of very self-righteous people at the time. And I was determined—I was determined and set about it.</u>
+      <u who="HARRISON">What did the organization look like? Today we have e-mail clubs—have e-mail—e-mail, you know. It’s very easy to organize. How did the leaders of <orgName>SDS</orgName> in <date when="1968">1968</date> organize?</u>
+      <u who="HODES">Well, there were mimeographs.</u>
+      <u who="HARRISON">What is that?</u>
+      <u who="HODES">What is a mimeograph? A mimeograph [chuckles] was a way to make copies, like, on an ink roller,—</u>
+      <u who="HARRISON">Okay. </u>
+      <u who="HODES">—of—you know, you’d make a copy of something. You could mimeograph it.</u>
+      <u who="HARRISON">So of material related to the organization?</u>
+      <u who="HODES">Yeah. Written material would be mimeographed on an ink roller machine. I guess it was before the dawn of the age of copiers, because mimeographs was the way things were done. You’d put a piece of paper in, and it would roll out—roll out terrible copies.</u>
+      <u who="HARRISON">Did you ever do that?</u>
+      <u who="HODES">I don’t think so. I don’t think—I mean, I really think I was sort of—my affiliation [chuckles] was a very loose affiliation. I didn’t have a card. I didn’t—you know, I didn’t hang out with these people. I hang out—I hung out with my friends. I didn’t, like, hang out with <orgName>SDS</orgName> people. If one of my—you know, but—so it was like an outer—perhaps an outer circle around people who were—who seemed to me—they seemed to be more radical, more committed, more—even more inflamed than I was. 
+
+And I had other interests. I mean, I had music, I had my theater, I had French, I had things that were really taking my time. And the odd thing was, at the same time, very soon after I got to <orgName>Dartmouth</orgName>, I got involved in a business. A fellow who had been—whose father had been a classmate of my father’s had a business doing hi fi and stereo. He was just starting, and I ended up early on getting into this business with him, so I—I mean, I was—I was a busy guy. Just as most of my life I’ve lived a number of lives at the same time, I was a very busy, busy guy.
+
+And politics was an important—but one section of my life that, you know, if I look at it now, maybe I could see I was dabbling in it, but ultimately my experience led me directly to doing what I could to change the system from the inside, as a congressman.</u>
+      <u who="HARRISON">Yeah. The full—I mean, you’re way ahead of me.</u>
+      <u who="HODES">I know. I’m just jumping. </u>
+      <u who="HARRISON">But before—</u>
+      <u who="HODES">I’m giving you a little presage—</u>
+      <u who="HARRISON">Yes.</u>
+      <u who="HODES">—of the later part of the story.</u>
+      <u who="HARRISON">We’ll get there.</u>
+      <u who="HODES">Okay. </u>
+      <u who="HARRISON">I want to get there. I want to hear about what it was like to be in <placeName>Washington</placeName>. But clarify for me, because I get—this is pre-D-Plan, right? Were you on semesters?</u>
+      <u who="HODES">I stand to be corrected, but I think the D-Plan may have come in while I was there.</u>
+      <u who="HARRISON">Oh, but not when you were a freshman. So—</u>
+      <u who="HODES">I don’t know. Not when I was fre- —I don’t think—I mean, it was, like, you know, year—semester, semester, summer.</u>
+      <u who="HARRISON">Yeah, so you would have gone home after Christmas?</u>
+      <u who="HODES">Yeah. I never attended <orgName>Dartmouth</orgName> during the summer.</u>
+      <u who="HARRISON">Okay. </u>
+      <u who="HODES">So whether the D-Plan came in and I just didn’t do it or whether it happened afterwards, I never had that—you know, I was just—I went to school during the school year, and then there was the summer.</u>
+      <u who="HARRISON">But the first time, you would have gone home was around Christmas. Is this right? Or maybe around Thanksgiving?</u>
+      <u who="HODES">R-r-r-right. </u>
+      <u who="HARRISON">What was it like going back home? I imagine you had an opportunity to reflect on what you had done at <orgName>Dartmouth</orgName> for the first couple of months that you were a college student.</u>
+      <u who="HODES">Yeah. It was—it was really odd. I mean, it was odd. It was like going back to something that I was now looking at in a somewhat different light.</u>
+      <u who="HARRISON">Yeah.</u>
+      <u who="HODES">It was—it wasn’t where I was. It wasn’t who I was. And I was in pretty full-tilt adolescent rebellion.</u>
+      <u who="HARRISON">That came late for you?</u>
+      <u who="HODES">Yeah.</u>
+      <u who="HARRISON">How did—what did you do to rebel?</u>
+      <u who="HODES">I mean, I mean, you know, if—let me take you back to the images I presented to you. I leave home—</u>
+      <u who="HARRISON">[Chuckles.]</u>
+      <u who="HODES">—as a kid in a sweaty blue blazer and braces and horn-rimmed glasses, and the next time I show up, I’m in blue jeans, a work shirt, my hair has grown, and something is really, really different. Now, if I was a parent, I’d say, Something’s really, really different. And then when the political arguments start, you can imagine the scene that played out in many American households around the war and the radicalization of young people. There was a—it felt like a—you know, I lived through this cultural shift. For many people, it happened earlier; it happened for me when it happened. And you’ll have to remind me when <placeName>Parkhurst</placeName> was taken over.</u>
+      <u who="HARRISON">In <date when="1969">1969</date>.</u>
+      <u who="HODES">When?</u>
+      <u who="HARRISON">In May.</u>
+      <u who="HODES">In <date when="1969-05">May of ’69</date>, so this is—so, okay,—</u>
+      <u who="HARRISON">It’s <date when="1969-05-06">May 6th</date>.</u>
+      <u who="HODES">—so now we’re in December—we’re still in <date when="1968-12">December of ’68</date>. I’m 17 years old, okay? So when I talk about adolescent rebellion, I went to college at 17, basically, right? In <date when="1968-03">March of ’68</date> I’m 17. <date when="1969-03">March of ’69</date> I turned 18. And that’s a pretty big deal because when you turn 18, in <date when="1969">1969</date>, it means all kinds of things happen. There’s a draft. There’s a draft when you’re 18.</u>
+      <u who="HARRISON">Did you have a card?</u>
+      <u who="HODES">I did. I went down. I got a draft card.
+
+But anyway, so back to Christmas time. There had been a big change. It accelerated for the rest of <date when="1969">1969</date>. It accelerated through <date when="1969">1969</date>.</u>
+      <u who="HARRISON">At the dinner table, during the arguments, what were you saying?</u>
+      <u who="HODES">Well, I mean, my father was a corporate lawyer in a big <placeName>New York City</placeName> law firm. His business was helping people whose scruples, morals and economics were symbolic to me of the worst excesses of the industrial-military complex. So you can imagine that, given my—I’m a verbal person. He’s a verbal person. You can imagine that between a son and father, if the son comes to a place where, as I did, I detested everything he stood for—made for very challenging relationships and conversation.
+
+And also—I mean, I mean, to be fair, sometime—I forget exactly when—sometime either that year or the next year, I’d met—I met a high school girl in—I’d met a high school in my senior year or the fall of <date when="1968">’68</date>. At some point I came home for a dance, and I met a girl who I really fell for, so that took up a lot of my mental energy during the fall and right through my whole freshman year as well, as I recall.
+
+So, I mean, there was a  lot going on: hormones, politics, drugs, new mentors, a theater, rock ’n’ roll, the war for what a person—I mean, I’d been really immature. All this was hitting at once.</u>
+      <u who="HARRISON">I understand the build-up. I even underst- —I think I understand the arguments that you would have made to your dad, to your father. But if you had to explain them—you know, if you had to explain that capitalist critique or the critique of <placeName>the United States’</placeName> presence in <placeName>Vietnam</placeName> to someone who came from <placeName>Mars</placeName>, how would you explain—can you walk me through the arguments that you made at the time?</u>
+      <u who="HODES">I came to believe that the war in <placeName>Vietnam</placeName> had been a put-up job that was based on phony—based on phony rationale, that was all about extending American imperialism and American—American imperialism to areas where we had not been. And I came to see a history—I came—it—it—it—it shattered my view of a country that had won <name type="event">World War II</name> and a valiant fight against fascism, had survived a <name type="event">Cold War</name> but had now sacrificed its ideals, sacrificed the promise of equality and justice and had engaged in a corrupt war that was sending people my age to die for nothing. And it represented to me an American economic system in cahoots with a military—militarily-inclined government that fit the description of a dangerous industrial-military complex that had been foretold by <persName>[President] Dwight [D.] Eisenhower</persName>. 
+
+And these things began to come together for me, and it was hard for me to see my father as a corporate lawyer advancing the interests of people who I detested—seemed to me—it—it—it reinforced my sense of being different and isolated, and the arguments I made were certainly economic, but they were also around the war and the system that it produced. Engagement in <placeName>Vietnam</placeName>, which at that point, as a freshman,—it had been going on since the very early ’60s, the earliest ’60s and had been escalating and—it had been escalating.</u>
+      <u who="HARRISON">What was—</u>
+      <u who="HODES">So, you know, I mean—so—so I was pretty vociferous.</u>
+      <u who="HARRISON">What was the opportunity to explore those arguments the first semester at <orgName>Dartmouth</orgName>?</u>
+      <u who="HODES">I didn’t—I didn’t—you know, I mean, there were no cell phones. There were no computers. I talked to my parents once a week from a payphone in <placeName>North Massachusetts Hall</placeName>.</u>
+      <u who="HARRISON">Yeah. It’s still there. [Chuckles.] I think that phone is still there.</u>
+      <u who="HODES">The payphone?</u>
+      <u who="HARRISON">I believe so. I don’t think it works, but I think I can pinpoint it. [Laughs.]</u>
+      <u who="HODES">So I may—I probably said some things, you know—nothing alarmed my parents enough to come up—and they have come up in the fall once or twice, I mean, for a football game or something. I remember being at a football game when the person I talked about, who later became a Hare Krishna was not only a <orgName>Navy ROTC</orgName>, he was a cheerleader, and he had transformed during that year. While I transformed, he [chuckles] transformed to Hare Krishna. I wrote a play about it,—</u>
+      <u who="HARRISON">Really?</u>
+      <u who="HODES">—which was—which was later produced in <placeName>New York</placeName>.</u>
+      <u who="HARRISON">When I asked you what were the opportunities—</u>
+      <u who="HODES">[Laughs.]</u>
+      <u who="HARRISON">—for this book—</u>
+      <u who="HODES">[Laughs.] That was just a—somebody asked me about that.</u>
+      <u who="HARRISON">About the play?</u>
+      <u who="HODES">I had a play done in <date when="1975">1975</date> called The Edsel Was a Mistake. And in the play, in an urban society in which the environment had gotten so bad people had to wear masks, masks around <orgName>the United States Post Office</orgName>, and the Hare Krishna were at war for control of the country.</u>
+      <u who="HARRISON">That’s pretty good.</u>
+      <u who="HODES">Called The Edsel Was a Mistake. Inspired by my experiences.</u>
+      <u who="HARRISON">When I asked—when I asked what was the—what was the opportunity to explore the arguments, I mean—I don’t mean with your parents; I mean to explore that line of thought, the dialogues you had. </u>
+      <u who="HODES">Yeah, I mean—</u>
+      <u who="HARRISON">Do you remember specific dialogues you had with people at <orgName>Dartmouth</orgName>? People in your class, people who shared your ideas?</u>
+      <u who="HODES">There was—yes and no. I have—you know, there’s—there’s the old line, “Anybody who says they remember the ’60s wasn’t there.”</u>
+      <u who="HARRISON">Mm-hm.</u>
+      <u who="HODES">So you’re calling on deep neural connections. But, of course, we spent a lot of time talking about this with friends. I spent time reading it, reading—you know, I was—I became an avid newspaper reader and read—started reading a lot of things that I thought were relevant to what I was thinking about. 
+
+But, like most people, I was totally uninformed. Much of what I was doing were reaching conclusions on guess-work and superficial information. But, you know, we talked about it a lot as friends.</u>
+      <u who="HARRISON">These were your friends from theater?</u>
+      <u who="HODES">Yeah.</u>
+      <u who="HARRISON">From what?</u>
+      <u who="HODES">No, at <orgName>Dartmouth</orgName>. I mean, I was hanging out with people of like mind about what was going on in our country and the world.</u>
+      <u who="HARRISON">How did you create that network? Where did that come from?</u>
+      <u who="HODES">You know, I started to meet—I mean, some of them were in—from French class. Some of them were from various classes that I met, a lot of them through music, through theater and music. You know how it is. You just meet—end up meeting people when you go to a place like <orgName>Dartmouth</orgName>, in lots of different ways.</u>
+      <u who="HARRISON">When did you start hearing about <orgName>ROTC</orgName> at <orgName>Dartmouth</orgName> being a problem?</u>
+      <u who="HODES">Early.</u>
+      <u who="HARRISON">Early freshman year.</u>
+      <u who="HODES">Yeah.</u>
+      <u who="HARRISON">How.</u>
+      <u who="HODES">Right away. Because, I mean, that’s what <orgName>SDS</orgName> was talking about, about throwing <orgName>ROTC</orgName> off campus because it represented the incursion of the industrial-military complex to a private university and had not place because ROTC was connected to the war and the war was corrupt and illegal, and therefore ROTC needed to go.</u>
+      <u who="HARRISON">What did you think early on about that?</u>
+      <u who="HODES">I didn’t even know what <orgName>ROTC</orgName> was. Somebody had to explain to me, well, what’s ROTC? You know, it’s R-O- —they had to explain what it was. And I said, “Well, why should there be military people—why should there be a military program in a college?” Now, my father had been in the <orgName>Navy</orgName> while at <orgName>Dartmouth</orgName> in <name type="event">World War II</name>. And I said, “This isn’t <name type="event">World War II</name>. This is a corrupt, illegal war. I don’t want the military on the campus. It bothers me that there are people marching around with guns who are training to be killers on my college campus. I want them off,” was about the depth of my thinking.</u>
+      <u who="HARRISON">And where did that go? You had these conversations with students?</u>
+      <u who="HODES">Not too far. I mean, it was just like, “Gotta get rid of <orgName>ROTC</orgName>. ROTC’s gotta go”</u>
+      <u who="HARRISON">Did you have these conversations at home, over the winter?</u>
+      <u who="HODES">I’m sure I did, but I don’t remember it.</u>
+      <u who="HARRISON">Yeah. So you got back. Your birthday’s in March. Is that right?</u>
+      <u who="HODES">Yeah.</u>
+      <u who="HARRISON">What was the process of the draft card?</u>
+      <u who="HODES">I don’t remember whether I got sent a draft card in the mail or I had to go down—I don’t think I had to go down to the draft office, but maybe I did. But I ended up with—I ended up—I think I ended up with a draft card. I think I did.</u>
+      <u who="HARRISON">And it worked like a lottery, right?</u>
+      <u who="HODES">At some point. But there was a deferral because I was in college. And the deferral—there was—at some point,—I recall very clearly at one point—and I’m sorry, my memory is just hazy,—</u>
+      <u who="HARRISON">It’s a long time ago.</u>
+      <u who="HODES">—but at some point, I remember that I got thrown into the lottery.</u>
+      <u who="HARRISON">Yeah.</u>
+      <u who="HODES">And I remember that my number came up something like six or eight short, and I was in the lottery, and I had been making mental plans about what I would do. I was thinking about whether I could qualify as a conscientious objector. Didn’t see any way I could get a medical discharge. And I’d been sort of ruminating about going to <placeName>Canada</placeName>.</u>
+      <u who="HARRISON">Was this, like, late freshman year, do you think?</u>
+      <u who="HODES">I don’t remember when. It may have been late freshman year that the col- —I think they may have changed the system of college deferrals because they needed more bodies. And I remember walking into the apartment building on <placeName>Central Park West</placeName>. I have this image of me walking into this apartment building in <placeName>Central Park West</placeName> with this sickening feeling in my stomach, thinking about what I would do if I got a letter telling me to report. Instead, I remember I got a letter saying that I hadn’t been reached, and there was only one year of eligibility, so I was free and clear. It was—I remember that very clearly. It may be a made-up memory, but I have—I have that as a strong memory.</u>
+      <u who="HARRISON">What was the—what were the many layers, I imagine, of problems about going to <placeName>Vietnam</placeName>? I’m sure it was a scary thought. But then there was the opposition, right?</u>
+      <u who="HODES">Yeah. I mean—and we’d all seen the pictures, so we knew what it looked like. I had no concept of what it would be like to be there. I could not imagine taking up arms in a war that—in a cause that I thought was corrupt and illegal. I couldn’t—it was unimaginable to me. You know, if I’d gone, I would have been the greenest, youngest, stupidest soldier they ever tried to make. But maybe not. But thinking about—you know, war is a terrible thing. That war to me represented—it’s why there was such a cultural divide in this country, because it was just such a glaring—it was such a glaring enterprise. Such folly, such a waste, such a sad waste of human life and capital and prestige and the promise of a great nation wasted in this war. And it was terrifying to me. Plain and simple, I was terrified. It may be where my memory of walking—thinking about what I’d do if I got called [unintelligible], and I was terrified.</u>
+      <u who="HARRISON">Did you know people who were serving?</u>
+      <u who="HODES">No, I didn’t.</u>
+      <u who="HARRISON">Did you know people in <orgName>ROTC</orgName> [pronouncing it R-O-T-C], in ROTC [pronouncing it ROT-see]?</u>
+      <u who="HODES">Yeah, I did.</u>
+      <u who="HARRISON">You knew the—</u>
+      <u who="HODES">I became close friends with this one—with this one—with this one fellow.</u>
+      <u who="HARRISON"><orgName>Navy ROTC</orgName>.</u>
+      <u who="HODES"><orgName>Navy ROTC</orgName>.	</u>
+      <u who="HARRISON">How did you meet him?</u>
+      <u who="HODES">I forget. He was in—</u>
+      <u who="HARRISON">Was he a freshman as well?</u>
+      <u who="HODES">He was a freshman. I forget. He was in the dorm—go out the back door of <placeName>North Mass</placeName> and take a right down the parking lot. One of those—</u>
+      <u who="HARRISON">Gold Coast, one of the <placeName>Gold Coast</placeName> dorms.</u>
+      <u who="HODES">One of the <placeName>Gold Coast</placeName> dorms.</u>
+      <u who="HARRISON">What are they? <placeName>Gile</placeName>, <placeName>Streeter</placeName> and—</u>
+      <u who="HODES">Right.</u>
+      <u who="HARRISON">There’s one other.</u>
+      <u who="HODES">There was one other.</u>
+      <u who="HARRISON">I can’t—</u>
+      <u who="HODES">He may have been in <placeName>Streeter</placeName> or—</u>
+      <u who="HARRISON"><placeName>Lord</placeName>. That’s what it is: Lord, <placeName>Gile</placeName> and <placeName>Streeter</placeName>.</u>
+      <u who="HODES">That’s right, <placeName>Lord</placeName>, <placeName>Gile</placeName> and <placeName>Streeter</placeName>. I mean, it sounds like a British law firm.</u>
+      <u who="HARRISON">[Laughs.]</u>
+      <u who="HODES">[Affecting a British accent]: <placeName>Lord</placeName>, <placeName>Gile</placeName> and <placeName>Streeter</placeName>.</u>
+      <u who="HARRISON">Probably is one.</u>
+      <u who="HODES">Right, right. But anyway, he was in one of those.</u>
+      <u who="HARRISON">Yeah. You were on totally different sides ideologically. Is that right?</u>
+      <u who="HODES">Yeah, but not when it came to smoking pot.</u>
+      <u who="HARRISON">Yeah, but—I mean, he told you—or did you talk about <orgName>ROTC</orgName>? Did it come up?</u>
+      <u who="HODES">It didn’t really. I mean, I knew he was in <orgName>Navy ROTC</orgName>. I knew he was a cheerleader. We became friends, and his transformation was really rapid. It was really rapid.</u>
+      <u who="HARRISON">What does that mean?</u>
+      <u who="HODES">I mean,—there was—I remember him cheerleading at a fall football game in, like, October. And then I remember him telling me about his first acid trip. And he almost immediately quit the cheerleading squad and <orgName>Navy ROTC</orgName>.</u>
+      <u who="HARRISON">Does cheerleading—I kind of lose that context. Is that, like, a very straight-laced thing to do?</u>
+      <u who="HODES">I don’t know. I have no idea. My wife was a cheerleader in high school. [Laughs.] I was never a cheerleader.</u>
+      <u who="HARRISON">Me neither.</u>
+      <u who="HODES">But somehow the path from <orgName>Navy ROTC</orgName> and a cheerleader on the football team, which represents the historical tradition of a conservative <orgName>Ivy League</orgName> school, to orange-robed, shaved-head Hare Krishna is a more serious transition than the one I went through.</u>
+      <u who="HARRISON">How did he do it?</u>
+      <u who="HODES">[Laughs.] Like that! </u>
+      <u who="HARRISON">No, why did he do it? What happened?</u>
+      <u who="HODES">His consciousness changed.</u>
+      <u who="HARRISON">Yeah.</u>
+      <u who="HODES">And maybe it was the drugs. I don’t know what it was. But he made a radical change of life.</u>
+      <u who="HARRISON">And he quit.</u>
+      <u who="HODES">Yeah, he quit. He eventually quit school and off went—the next time—l lost track of him for about a year or two. The next time I saw him, he was panhandling in front of the Hop in orange robes.</u>
+      <u who="HARRISON">While you were still a student.</u>
+      <u who="HODES">Yes.</u>
+      <u who="HARRISON">Wow.</u>
+      <u who="HODES">I mean, so giving you the context of this great cultural upheaval, you know, here I was—I had lost at least two roommates to the excesses of drugs. One of my early best friends had—I’d lost him to, you know, I mean, virtually—I mean, essentially lost him. It was hard to relate to him as a Hare Krishna.</u>
+      <u who="HARRISON">But there were—I mean, surely beneath this—beneath these three examples there were rational arguments to be had for <name type="event">Vietnam War</name> opposition and capitalist critique, right?</u>
+      <u who="HODES">Yes.</u>
+      <u who="HARRISON">So how did you—I think you—we need to focus on you because you didn’t have this experience of overdose and dropping out.</u>
+      <u who="HODES">Right.</u>
+      <u who="HARRISON">How did you maintain those arguments as you went into the second semester? And as the campus climate became increasingly toxic, and if you could talk about that.</u>
+      <u who="HODES">The campus—well, it did become increasingly toxic. The opposition to the war ramped up very quickly, and I forget how—you know, I—I—in the end, it was still a small percentage of students who were radicalized to the extent of wanting to participate in any significant protest activities, but there were a series of protest actions.
+
+I remember a demonstration out at CRREL [pronounced CRELL], <orgName>the Cold Regions Research [and Engineering] Laboratory</orgName> out on the road to <placeName>Lyme</placeName> that was—</u>
+      <u who="HARRISON">Was that maintained by the <orgName>Army</orgName>?</u>
+      <u who="HODES">It was an <orgName>Army</orgName> facility. And that preceded the takeover, as I recall, and that was a significant event in which there was law enforcement. And once you’ve been on the wrong side of police force and a show of force, it can either—you know, I mean, there are a lot of different ways it can turn people. It can have a mollifying effect or it can have an inflammatory effect.</u>
+      <u who="HARRISON">What did it do for you?</u>
+      <u who="HODES">It certainly didn’t mollify me, at all. It—you know, I was unhappy with the way I perceived people being roughed up. And it confirmed for me all of my concerns about the use of—the use of—the use of force of any degree on—you know, in terms of political protest in this country.
+
+And so I’d had that experience. There were—there was an incident in which students I think marched on President <persName>[John G.] Kemeny</persName>’s house—I mean, not Kemeny.</u>
+      <u who="HARRISON">President <persName>Dickey</persName>?</u>
+      <u who="HODES">President <persName>[John Sloan] Dickey</persName>’s house.</u>
+      <u who="HARRISON">Yeah, yeah.</u>
+      <u who="HODES">There was a march on President <persName>Dickey</persName>’s house, and I think that was pretty early in the year. It may have been in the winter. I don’t remember when, but—and I don’t think I was there, but I—</u>
+      <u who="HARRISON">Were you on the road to <placeName>Lyme</placeName>?</u>
+      <u who="HODES">Yeah.</u>
+      <u who="HARRISON">Yeah?</u>
+      <u who="HODES">I was out there.</u>
+      <u who="HARRISON">Tell me about that.</u>
+      <u who="HODES">Well, I mean, it was, you know, a loud, boisterous protest: speeches, bullhorns protesting the war, people saying—you know, chaining themselves to the gate, saying, “We’re not gonna let people in,” cops being called, people hauled away. A long walk back to campus.</u>
+      <u who="HARRISON">Yeah. It had nothing to do with research, though, right?</u>
+      <u who="HODES">No, it had nothing to do with research.</u>
+      <u who="HARRISON">It was about that being a presence of <orgName>the U.S. Army</orgName> close by.</u>
+      <u who="HODES">That’s right, it was the presence of <orgName>the U.S. Army</orgName>.</u>
+      <u who="HARRISON">Who organized that?</u>
+      <u who="HODES">Must have been—must have been—must have been the <orgName>SDS</orgName> folks.</u>
+      <u who="HARRISON">Were you arrested there?</u>
+      <u who="HODES">No.</u>
+      <u who="HARRISON">Were people arrested?</u>
+      <u who="HODES">I think so.</u>
+      <u who="HARRISON">And do you remember <placeName>New Hampshire</placeName> state troopers?</u>
+      <u who="HODES">I know that there were <placeName>New Hampshire</placeName> state troopers at the <placeName>Parkhurst</placeName> demonstration.</u>
+      <u who="HARRISON">And <placeName>Vermont</placeName> state troopers.</u>
+      <u who="HODES">Yeah, there was a large presence there.</u>
+      <u who="HARRISON">Yeah.</u>
+      <u who="HODES">I don’t recall, but I wouldn't be surprised.</u>
+      <u who="HARRISON">Were there—were there other protests that you went to before May, before <placeName>Parkhurst</placeName>? Were there other protests you went to or were involved in?</u>
+      <u who="HODES">I think so. I think there were protests on—there were various protests on campus, I think.</u>
+      <u who="HARRISON">Like, on <placeName>the Green</placeName> or what?</u>
+      <u who="HODES">I think so. I think so. I don’t know from memory. I remember <placeName>CRREL</placeName>. I remember <placeName>Parkhurst</placeName>. I remember the march on President <persName>Dickey</persName>’s house. But I’m not even completely sure its sequence.</u>
+      <u who="HARRISON">I think it’s in that order.</u>
+      <u who="HODES">Yeah.</u>
+      <u who="HARRISON">I’ll show you—I can show you these now, if you want, actually. You might enjoy seeing them.</u>
+      <u who="HODES">This is what’s called the cross-examination: “Does this refresh your recollection?”</u>
+      <u who="HARRISON">[Laughs.] I’m not aware—</u>
+      <u who="HODES">“I will show you what we’ve marked as Exhibit 1, <orgName>The Dartmouth</orgName>.”</u>
+      <u who="HARRISON">So that’s the—</u>
+      <u who="HODES">“Wednesday, <date when="1969-05-07">May 7th, 1969</date>. A Night at Parkhurst.” Oh, man!</u>
+      <u who="HARRISON">You can keep those if you want. I have—or I can e-mail them to you also.</u>
+      <u who="HODES">Oh, man! Yeah, thanks for the memories.</u>
+      <u who="HARRISON">Yeah.</u>
+      <u who="HODES">I got it. Oh, that’s right. Okay. Right! Yeah, I remember this. I was there. I remember <persName>David Green</persName> ’71. Do you know where <persName>David Green</persName> ’71 is now?</u>
+      <u who="HARRISON">I don’t. Do you?</u>
+      <u who="HODES">No.</u>
+      <u who="HARRISON">I could find out.</u>
+      <u who="HODES">Because I’d be curious. We should find out where <persName>David</persName> is.</u>
+      <u who="HARRISON">I’m sure Professor <persName>[Edward G.] Miller</persName> has some at least burgeoning sense—</u>
+      <u who="HODES">Yeah. Oh, man! Yeah! Oh, my goodness. Okay. This is pretty stunning for me because it was—</u>
+      <u who="HARRISON">I’ll send you the PDF and you can zoom in and actually read it.</u>
+      <u who="HODES">Yeah.</u>
+      <u who="HARRISON"><orgName>The D</orgName> is all preserved, not just these dates. The whole thing.</u>
+      <u who="HODES">Good.</u>
+      <u who="HARRISON">It’s digitized. It’s actually incredible.</u>
+      <u who="HODES">Yeah. It was a pretty dramat- —the occupation of <placeName>Parkhurst</placeName> was—this was pretty dramatic in the history of the school.</u>
+      <u who="HARRISON">Oh, yeah. What was your involvement in it?</u>
+      <u who="HODES">Well, I can tell you that the—there had been a series of meetings about what to do. Students thought that something dramatic needed to be done to make a statement and really get the administration’s attention about getting <orgName>ROTC</orgName> off campus. There were some people, and I don’t remember who—had some pretty crazy and more violent ideas about what to do.</u>
+      <u who="HARRISON">I don’t—I’m just going to throw a name out there—</u>
+      <u who="HODES">Yeah.</u>
+      <u who="HARRISON">—that we’ve discussed in studying this. Does the name <persName>[John G.] Spritzler</persName> [<orgName>Class of 1968</orgName>] ring a bell?</u>
+      <u who="HODES">Yes. Who was <persName>Spritzler</persName>? Remind me.</u>
+      <u who="HARRISON">He was one of the leaders, one of the organizers.</u>
+      <u who="HODES">Yeah, I remember. I remember him.</u>
+      <u who="HARRISON">And actually another ’16 who’s in this program is interviewing him—</u>
+      <u who="HODES">Who’s interviewing him.</u>
+      <u who="HARRISON">—this term.</u>
+      <u who="HODES">Uh-huh. </u>
+      <u who="HARRISON">He’s in <placeName>Boston</placeName> now. He’s a researcher at <orgName>Harvard</orgName>, I think.</u>
+      <u who="HODES">[Laughs.] Hah! People survive all kinds of—people survive all kinds of indiscretions. They become <orgName>Harvard</orgName> researchers and—</u>
+      <u who="HARRISON">Congressmen.</u>
+      <u who="HODES">—congressmen.</u>
+      <u who="HARRISON">[Chuckles.]</u>
+      <u who="HODES">Right? And—yeah.</u>
+      <u who="HARRISON">So what were some of the more violent ideas?</u>
+      <u who="HODES">I mean, somebody talked about blowing up the computer center.</u>
+      <u who="HARRISON"><placeName>Kiewit [Computation Center]</placeName>.</u>
+      <u who="HODES">Yeah. They wanted to blow up <placeName>Kiewit</placeName>. I remember saying, “That’s a very bad idea.”</u>
+      <u who="HARRISON">Did you say that, or did you think that?</u>
+      <u who="HODES">No, I remember saying that. I remember arguing about that with somebody, telling them, “That’s a really bad idea.” I said—I said, “People are gonna get hurt, and that is the worst imaginable thing.” I remember—I remember—I remember strenuously objecting.</u>
+      <u who="HARRISON">Were there other people who agreed with you?</u>
+      <u who="HODES">I don’t remember, but I just remember that idea came up and I thought it was—I thought it was crazy. Yeah. So the plans got scaled back. Heh! The plans got scaled back to a more symbolic demonstration, and occupying—you know, I mean, a pledge of nonviolence, complete nonviolence and occupying the administration building as a symbol is what—is what developed.</u>
+      <u who="HARRISON">Mmm.</u>
+      <u who="HODES">And I remember—I remember I called my father the night before it was going to happen, telling him, “Dad, I just want you to know that something’s gonna happen at <orgName>Dartmouth</orgName> tomorrow, and I’m gonna be a part of it, and I feel really strongly about this” and whatever I said to him. And he—you know, he was a lawyer and pressed me, and I don’t know whether I said “we’re gonna take over <placeName>Parkhurst</placeName>” or “I can’t tell you,” but I remember him very clearly saying, “All I’m gonna say to you is if you get arrested, the rest of your life is gonna go to hell. If you get arrested, you can’t go to graduate school, you’ll never be a lawyer. If you get arrested, you can forget about my helping you pay for college, and I will no longer know you,” is what he said. So that was a pretty serious conversation.</u>
+      <u who="HARRISON">Did you stick with it?</u>
+      <u who="HODES">I did. As a result of it, I decided that I would not go into <placeName>Parkhurst</placeName>, and I did not.</u>
+      <u who="HARRISON">Where were you?</u>
+      <u who="HODES">I was outside, stage left, audience right, on the large granite ledge next to the door, with a bullhorn.</u>
+      <u who="HARRISON">Mm-hm. You had the bullhorn.</u>
+      <u who="HODES">I had the bullhorn.</u>
+      <u who="HARRISON">Ah! So were you involved with alerting the people inside when the police came and raided the building?</u>
+      <u who="HODES">Yes.</u>
+      <u who="HARRISON">That was you.</u>
+      <u who="HODES">With the bullhorn.</u>
+      <u who="HARRISON">Wow!</u>
+      <u who="HODES">That’s my recollection.</u>
+      <u who="HARRISON">Huh. How did you know the police—this is, like, three in the morning, right?</u>
+      <u who="HODES">You could see what was going on.</u>
+      <u who="HARRISON">Yeah?</u>
+      <u who="HODES">I mean, this was—</u>
+      <u who="HARRISON">You saw, like, 50 or 100—</u>
+      <u who="HODES">It was, like, they’d called out the troops. There were armored vehicles, there were dogs, there was an army. They sent the <orgName>Army</orgName>. I mean, they sent an armed force that was designed to scare the hell out of all of us, and it was a pretty frightening and tremulous sight.</u>
+      <u who="HARRISON">Before we get to three in the morning,—</u>
+      <u who="HODES">Okay.</u>
+      <u who="HARRISON">—take me to, like, just before the protest and the actual occupation, nailing the door, getting the administrators out. Where were you for all that?</u>
+      <u who="HODES">I wasn’t inside at any time.</u>
+      <u who="HARRISON">Were you near the building?</u>
+      <u who="HODES">Oh, yeah. I mean, I was at the building.</u>
+      <u who="HARRISON">And there was a crowd there, right?</u>
+      <u who="HODES">There was a big crowd.</u>
+      <u who="HARRISON">But <orgName>The D</orgName>, I think, if I read it correctly, said, like, 1,000. Is that possible?</u>
+      <u who="HODES">Yeah, there was a huge crowd—</u>
+      <u who="HARRISON">Huge crowd.</u>
+      <u who="HODES">—that had gathered. The actual occupying force of people who were close in and in the building was more like 100, I think. Maybe more. But there was a crowd that had gathered for much of this. This was a big deal. There were signs; there were banners. The people inside had hustled the administrators and other people outside and taken it over and barricaded themselves in the building. Man, oh man!</u>
+      <u who="HARRISON">Was there shock on campus?</u>
+      <u who="HODES">I don’t know. I was at the building with groups of people, and I don’t remember whether I came and went—came or went, or just stayed and hookered [sic; hunkered] down. I don’t remember much about it except having the bullhorn for most—for a lot of this time.</u>
+      <u who="HARRISON">Before you needed it, there was an injunction, and a college official came and informed the protestors about the injunction, right?</u>
+      <u who="HODES">Yes.</u>
+      <u who="HARRISON">Do you remember that?</u>
+      <u who="HODES">Yes, I do. I remember somebody making an announcement about an injunction, that any—that—that our presence was illegal, that we were going to be arres- —you know, they were going to arrest people, we’d be disciplined—you know, a whole series of threats.</u>
+      <u who="HARRISON">What was going on inside? Do you know?</u>
+      <u who="HODES">I don’t. I think—I mean—I—I think—and I don’t remember that announcement. That announcement was probably made before people went in,—</u>
+      <u who="HARRISON">Yes.</u>
+      <u who="HODES">—is my recall. Nobody’s asked me ever—nobody’s ever asked me about any of this, by the way. Nobody. So my—you know, your questions are, like, sparking—are sparking fresh recollections, which may or may not be accurate.</u>
+      <u who="HARRISON">I think they’re accurate. I think they’re accurate.</u>
+      <u who="HODES">You know.</u>
+      <u who="HARRISON">I think they are. So now that I—I can appreciate that you were on that stage left piece—</u>
+      <u who="HODES">“Stage left,” by the way, means from the actor’s perspective.</u>
+      <u who="HARRISON">I know. Yeah, I know. My education is—I never did theater, but I do know that. But can you walk me through the crowd? Who was there? Were there supporters and people who objected, and how vocal were they?</u>
+      <u who="HODES">My recollection is more about the unanimity of supporters than it was about people objecting, but I remember—I remember, you know, a sense of, like, rows of supporters.</u>
+      <u who="HARRISON">How did they—</u>
+      <u who="HODES">Deep.</u>
+      <u who="HARRISON">—show their support? They were yelling? They—</u>
+      <u who="HODES">People were—</u>
+      <u who="HARRISON">—had signs?</u>
+      <u who="HODES">Yeah. I think there was some singing. There were signs. There was protesting. There was a lot of chanting. There was a lot of cheerleading. There was a lot of, you know, protests. And I don’t remember exactly what time things started. <orgName>The D</orgName> probably has it all.
+
+
+
+And then there were groups of sneering, angry people, who were—you know, who were protesting the protestors.</u>
+      <u who="HARRISON">Mm-hm. Do you remember what people were saying? You remember singing?</u>
+      <u who="HODES">I don’t. I remember some singing, and I remember a lot of chanting. You know, like, “<orgName>ROTC</orgName> off campus” and “Peace now” and—</u>
+      <u who="HARRISON">Were there professors around?</u>
+      <u who="HODES">I don’t recall.</u>
+      <u who="HARRISON">And certainly not administrators.</u>
+      <u who="HODES">I don’t recall either way. There certainly were no administrators. I mean, this had been building up. You know, it wasn’t, like,—there had been enough talk about this idea so that the administrators had sort of—I think they knew—they’d gotten wind that something was going to happen, you know, because there had been various statements and threats and leaks—</u>
+      <u who="HARRISON">Yes.</u>
+      <u who="HODES">—and all of that made, so it was, like, you know, one of those kabuki dances to the oc- —it was a kabuki dance to the occupation, in which people were playing their prescribed roles, and they were going to play them out.</u>
+      <u who="HARRISON">Mm-hm. So then I imagine the crowd thinned out.</u>
+      <u who="HODES">It did.</u>
+      <u who="HARRISON">Who was left outside?</u>
+      <u who="HODES">It was—it was—it was a cool May night, as I recall. I was—I have some recollection. I was wearing a red and black Woolrich jacket that I had, blue jeans. I had a green felt hat. So there may be a picture of me somewhere in the archives. There could be.</u>
+      <u who="HARRISON">Yeah. I bet there is.</u>
+      <u who="HODES">There could be.</u>
+      <u who="HARRISON">I will look, and if I find—I will look because—and now have this horn image.</u>
+      <u who="HODES">I have this horn image, right? So—yeah.</u>
+      <u who="HARRISON">What did the horn look like?</u>
+      <u who="HODES">A little white bullhorn.</u>
+      <u who="HARRISON">It was a bullhorn.</u>
+      <u who="HODES">With a black rim.</u>
+      <u who="HARRISON">One of those things, like this?</u>
+      <u who="HODES">Yeah, one of these, with, you know, a bell. Right.</u>
+      <u who="HARRISON">So, sorry, so who was there into the night, into midnight and then—</u>
+      <u who="HODES">You know, the crowd—</u>
+      <u who="HARRISON">Were there students around?</u>
+      <u who="HODES">—the crowd thinned out. There was still a pretty big crowd. And, you know, there were rumors flying about, you know—there were rumors flying about police coming and this and that, and the people were inside and they’d thrown the administrators out, and they barricaded themselves in, and there had been a couple of attempts to—I don’t know, it was—I think there had been one or two attempts from the administration to talk to them, and they wouldn’t let them—you know, “You’re not goin’ in” and all of that kind of thing.</u>
+      <u who="HARRISON">And the whole time, you were there.</u>
+      <u who="HODES">That’s my recollection. Maybe I—I don’t—I don’t remember whether I left or not.</u>
+      <u who="HARRISON">Do you remember—</u>
+      <u who="HODES">I know I was there when the police arrived.</u>
+      <u who="HARRISON">Yeah, and you were—what can we call it, that place by the steps? I don’t know what to call it.</u>
+      <u who="HODES">I don’t know.</u>
+      <u who="HARRISON">That block.</u>
+      <u who="HODES">Yeah.</u>
+      <u who="HARRISON">The block. You were on the block. Were you on the block the whole time?</u>
+      <u who="HODES">I don’t remember.</u>
+      <u who="HARRISON">But you were on the block at, like, three in the morning.</u>
+      <u who="HODES">I think I was.</u>
+      <u who="HARRISON">So tell me about that.</u>
+      <u who="HODES">I—I mean, I remember feeling like I was at the Alamo. You know, I mean, it was like it was—the hardy, small band of virtuous people was about to be crushed. It was a very—it was a sensational—if it was a <placeName>Hollywood</placeName> movie, it would be a sensational scene of feeling—feeling like all of a sudden like the klieg lights came on, armed police busting their way through the crowd with dogs, and it was first preceded by—you’d see—you saw the armored vehicles arrive, and it was—it was—I remember troopers who were dressed beyond the normal state trooper paraphernalia. I recall sort of <orgName>SWAT</orgName> gear.</u>
+      <u who="HARRISON">Mm-hm. Did they have guns?</u>
+      <u who="HODES">I’m not—I know they had batons. I’m not sure—I’m not sure they had visible—I’m not sure that weapons were visible. I don’t now whether they came with shotguns. I don’t recall. But it was a overpowering show of force. It’s clear the administration had called the authorities. They weren’t going to stand for this. So, I mean, the first image was of armored vehicles basically surrounding the site, a cadre of dogs and troopers, making a phalanx and busting their way through.</u>
+      <u who="HARRISON">What was the noise like?</u>
+      <u who="HODES">It was loud. It was—it was a—it was a loud, a loud, shrieking cacophony. </u>
+      <u who="HARRISON">And what was your role?</u>
+      <u who="HODES">Shouting at the police, mostly.</u>
+      <u who="HARRISON">What were you saying?</u>
+      <u who="HODES">I don’t remember.</u>
+      <u who="HARRISON">And what about with the horn?</u>
+      <u who="HODES">I don’t remember. I don’t remember. I just remember that I wasn’t inside, and I was out there and that it was—it was a—that’s what I remember.</u>
+      <u who="HARRISON">Did you use the horn to wake the people inside up?</u>
+      <u who="HODES">I think I did. At some point I started using the bullhorn to—I think I did, but from outside.</u>
+      <u who="HARRISON">Yeah.</u>
+      <u who="HODES">Yeah.</u>
+      <u who="HARRISON">And so people were arrested, right?</u>
+      <u who="HODES">Oh, yeah, they were dragged out of the building.</u>
+      <u who="HARRISON">Were you still—did they kick you off that block?</u>
+      <u who="HODES">I remember being up there, watching—</u>
+      <u who="HARRISON">There was, like, a line. There were two lines of police, right?</u>
+      <u who="HODES">Police. Yeah, they had stood—they had formed at the edge, so I was looking through the lines of police.</u>
+      <u who="HARRISON">You were right behind—you would have been right behind the police, right?</u>
+      <u who="HODES">Correct. Right behind the police while they dragged people out by their hair, while they threw them down the steps, while they—you know, it looked like they were kicking the crap out of them.</u>
+      <u who="HARRISON">Mm-hm. And they were severely punished.</u>
+      <u who="HODES">The students.</u>
+      <u who="HARRISON">Yeah.</u>
+      <u who="HODES">Yeah, they were disciplined. I think they were—I think they were expelled. Certainly, a group of people was expelled.</u>
+      <u who="HARRISON">But you didn’t—the interesting part of this from your perspective is that you were there the day after this all happened and the days after. You had a front-row seat to what I imagine was a changed climate. How did this change <orgName>Dartmouth</orgName> or the dialogues that were happening at Dartmouth or the administration? Do you remember perceiving a difference?</u>
+      <u who="HODES">Well, for a while after that, the discipline of the students was the cause célèbre, but they basically cut off the head of the monster by—because the leadership of—the leadership of the organization had been arrested inside, and that affected—so there was—you know, that silenced that movement, and it really silenced the organization in a big way because there was nobody—it wasn’t like there was a bench waiting to take over for the leadership. Once, you know, that—once that had happened, I think it was pretty effectively silenced and organized radical movement until—I mean, at some point the college shut itself down, shut down around the war.</u>
+      <u who="HARRISON">And had a teach-in?</u>
+      <u who="HODES">And had a teach-in.</u>
+      <u who="HARRISON">Yeah.</u>
+      <u who="HODES">That was <date when="1969">’69</date> or <date when="1970">’70</date>?</u>
+      <u who="HARRISON">I think <date when="1969">’69</date>.</u>
+      <u who="HODES"><date when="1969">Sixty-nine</date>, I think. I think it was after this event, and there was the teach-in and the—so the college’s response, my rec- —I think was the teach-in combined with disciplining these students. And that—all of that, the aftermath—it did change the college. I’m not sure how people–how people saw things, what they did. There was a marked decrease in political activity, certainly. I think it pretty much killed the protest movement at the college.</u>
+      <u who="HARRISON">Killed <orgName>SDS</orgName>.</u>
+      <u who="HODES">Yeah.</u>
+      <u who="HARRISON">What about for you? Did it scare you?</u>
+      <u who="HODES">Yeah, it scared me. It made me angry in terms of the use—the use of force. I think I was quietly grateful I hadn’t been arrested because that created real problems for people.</u>
+      <u who="HARRISON">Mm-hm.</u>
+      <u who="HODES">I was grateful—I mean, I was—I didn’t want to get thrown out of school, and I didn’t. And summer came. You know, this was May, and summer came pretty quickly when things disbanded, so the teach-in may have been—you’ll have to remind me. Was that soon after the demonstration?</u>
+      <u who="HARRISON">I don’t know. I read about it in <orgName>The D</orgName>, but I don’t remember.</u>
+      <u who="HODES">So, I mean, I just don’t remember the sequence of events, when the teach-in happened. In terms of my personal—you know, I know that in my personal history, summer came, and I left and I went—went—I went—I went home. I hadn’t been—I hadn’t been arrested. I mean, when there were further—further adventures. So we had the fall of <date when="1969">’69</date>. I was a sophomore, and most of my year was not taken up with politics. But my sophomore year was a year when I lost—I lost a number of roommates, and I had to get new roommates because they’d overdosed on LSD. 
+
+My dear fr- —one of my dear friends left school for a motorcycle trip to <placeName>Mexico</placeName>, and then there was into <date when="1970">1970</date>, when—you know, I mean, into <date when="1970">1970</date>. The main event for me around the war on campus was, as I recall, <name type="event">the March on Washington</name> [in <date when="1970-05">May 1970</date>], around the <name type="event">Cambodian invasion [sic; incursion]</name>. I think that was in 19- —so by <date when="1970">1970</date> we had <name type="event">Kent State</name> and <name type="event">the March on Washington</name>. And those were—I mean, in a way, for me, that’s when the—you know, we’d had <name type="event">Woodstock [Music and Art Fair]</name>. We’d had <name type="event">Altamont [Speedway Free Festival]</name> in music. We had Kent State, and then the March on Washington, which I went down for and ended up meeting people, including from <orgName>Dartmouth</orgName>, and leaving the march at some point and coming back up here.
+
+But Kent State—</u>
+      <u who="HARRISON">You were at the march?</u>
+      <u who="HODES">Yeah.</u>
+      <u who="HARRISON">Oh, I didn’t know that. Can you talk about that?</u>
+      <u who="HODES">Yeah, a big group of people marching on <placeName>Washington</placeName> with signs and songs and protests. I don’t remember how I got down there. I don’t think I took a bus. I think I—I drove. I had a car. I drove down to <placeName>Washington, DC</placeName>, for the march. I don’t remember where I parked. I remember going to the march, marching, running into a bunch of people I knew, including a guy I knew really well at <orgName>Dartmouth</orgName>, and he was with his sister, who I really liked, and a couple of other people, and I said, “Well, I have a car.” They said, “Well, let’s get outta here.” And we drove up to <placeName>Sag Harbor</placeName>. That was the end of the <name type="event">March on Washington</name>.
+
+And <name type="event">Kent State</name> had—Kent State had a huge impact on me because that scared the hell out of me. I mean, you know, between the—so it was two years, <name type="event">the Democratic Convention</name> to Kent State.</u>
+      <u who="HARRISON">Mmm.</u>
+      <u who="HODES">So there’s a big difference between clubbing students and shooting them to death.</u>
+      <u who="HARRISON">Yes, especially in your position of having stood behind that line of police.</u>
+      <u who="HODES">That’s right. And I—I felt very hopeless at the time. We had a hopeless president. I mean, I didn’t have much affection for <persName>Richard [M.] Nixon</persName>, or respect. My—my—my—perhaps my views were clouded, but perhaps not. 
+
+And then <name type="event">Kent State</name> happened, and I remember being at <orgName>Dartmouth</orgName>, feeling like I was very old beyond my years by that point. This is the spring of <date when="1970">1970</date>, if I’m recalling correctly. And I felt like I had lived through many, many lifetimes by that point, and I felt—I felt old and dis- —it was distressing, and it was—you know, I thought if—it didn’t register to me that it was <orgName>the National Guard</orgName>, and I didn’t understand the connection, <orgName>National Guard</orgName> and <orgName>U.S. Army</orgName>. I didn’t understand, but it was men in uniform who had shot down students, and I just kept thinking, Holy cow! That could have been me. That easily could have been me. It easily could have happened at <orgName>Dartmouth College</orgName>. It could happen anywhere. If they can shoot students at <orgName>Kent State</orgName>, they can shoot us anywhere. It’s us against them. This is—you know, I got a—I went to <placeName>Washington</placeName>—you know, the <placeName>Washington</placeName> march happened. I went to <name type="event">March on Washington</name>.</u>
+      <u who="HARRISON">Did <name type="event">Kent State</name> happen before or after your brother had died?</u>
+      <u who="HODES">Before. He died in the fall of <date when="1970">1970</date>, so that fall, the following fall—</u>
+      <u who="HARRISON">So you were a junior.</u>
+      <u who="HODES">He died. I was a junior. I left school. Missed the rest of the semester. I don’t remember what happened. He died, like, in November. </u>
+      <u who="HARRISON">How old was he?</u>
+      <u who="HODES">He was 15. I was 20. And I took off with my parents for a crazy European trip to try to get over it. My parents did not have the emotional faculties to discuss it or really deal with it. It was a devastating family event, as you can imagine. And when I returned to school—I mean, I was in the middle of, you know, improvisational dance. I had a major part in a show. We were doing Him, by <persName>E. E. Cummings</persName> [or HIM, by e e Cummings] at the time. I remember after he died, I had come back—I came back to school to finish that show and then left for the semester, just left. And I concentrated more on theater after I came back than I did on politics.</u>
+      <u who="HARRISON">Did you have the blues again?</u>
+      <u who="HODES">Have the blues again? I guess. I was—I was pretty blown away.</u>
+      <u who="HARRISON">Yeah.</u>
+      <u who="HODES">It was a—it was an interesting—interesting time. I lived in a series of different places off campus. And, you know, I did a lot of theater in <date when="1970">1970</date>, the summer of ’70, the summer of <date when="1971">’71</date>. Did theater professionally. In 1971 also. So there wasn’t much politics after 1970, as I recall. Not for me.</u>
+      <u who="HARRISON">What about at <orgName>Dartmouth</orgName>?</u>
+      <u who="HODES">Some, but it was—my recollection is muted, that there’d been this explosion that had been a shock to the campus community, and it had been such a shock that the effects lingered, but the activity was muted. That’s my recollection.</u>
+      <u who="HARRISON">Was there a relationship during the freshman year between music and—and—and the protests, between the electric guitar and the protests?</u>
+      <u who="HODES">Nnn, I don’t know. I mean, I still play the electric guitar.</u>
+      <u who="HARRISON">And you’re not in <placeName>Parkhurst</placeName>.</u>
+      <u who="HODES">What?</u>
+      <u who="HARRISON">And you’re not—</u>
+      <u who="HODES">I’m not at <placeName>Parkhurst</placeName>. I’m playing this Friday at a bar in downtown <placeName>Concord</placeName> with I call it geezer rock ’n’ roll. You know, some of the songs I still play. You know, I occasionally tried out “<placeName>Ohio</placeName>” by <persName>Neil Young</persName>. Go listen to the lyrics. “Four dead in <placeName>Ohio</placeName>.” You know, I mean, occasionally. So, I mean, growing up and having the experiences I had were not lost on me in life.</u>
+      <u who="HARRISON">Mmm. Okay. I want to ask you—I have a few more questions for you. I know we’ve spent a lot of time. Do you have time for a couple more questions?</u>
+      <u who="HODES">I have about 15 minutes before my rehearsal for the gig is.</u>
+      <u who="HARRISON">Okay. That’s perfect.</u>
+      <u who="HODES">Yeah.</u>
+      <u who="HARRISON">So we have to skip a lot of years. I know we’re skipping a lot of years. But I want to ask you why you decided to run for <orgName>Congress</orgName>.</u>
+      <u who="HODES">I’d had—after college, I went back to <placeName>New York</placeName> and had eight careers in show business, and at some point decided to go to law school, which I did.</u>
+      <u who="HARRISON">Where did you go to law school?</u>
+      <u who="HODES"><orgName>Boston College</orgName>. And I ended up getting hired by <persName>David Souter</persName>, who was then the attorney general of <placeName>New Hampshire</placeName>. I remember at law school I was thinking I—I finish law school, I better go look for work. I mean, I might as well try being a lawyer. And I was thinking of becoming an entertainment lawyer, but I didn’t want to live in a city. I wanted to live somewhere else, and I saw a postcard that was advertising jobs for the <placeName>New Hampshire</placeName> attorney general’s office. 
+
+And I came up for an interview in <date when="1978">1978</date>, and I was interviewed by <persName>David Souter</persName>, who was the most extraordinary, impressive person I felt I’d ever met. It just—I decided I wanted to work for him, and I decided I wanted to be a trial lawyer, and so he hired me, and I worked as a prosecutor in the attorney general’s office. Had a career there and then a career as a private attorney in a variety of firms, including starting my own and then joining a firm, <orgName>Shaheen and Gordon[, P.A.]</orgName>, where the wife of my partner, <persName>Jeanne Shaheen</persName>, was in politics, and the firm was involved in politics.
+
+And I first contemplated running for office in <date when="1996">1996</date>, after I had completed a stint as chairman of the board of a major arts organization, figuring that I had sufficient leadership skills to be able to galvanize opinion to help change things. And I was thinking of running for governor but decided not to and a good thing because <persName>Jeanne Shaheen</persName> ran and got elected governor.
+
+I then decided that I was going to wait until my kids were finished with school and on their way to college before I’d run for office. And that happened at around the time, in <date when="2003">2003</date> and <date when="2004">’4</date>, that we were—that President <persName>[George W.] Bush</persName> got us into the war in <placeName>Iraq</placeName>. And for me, it was the same kind of insanity that I had seen as a student back in <placeName>Vietnam</placeName>. And I thought, with the benefit of hindsight and a view that government is only as good as the people who run it, that I would—that I felt I needed to do something to change the course of the country.
+
+I didn’t know what that was, but my kids were now out of school, and I—to make a long story short, I ended up in <date when="2004">2004</date> running for <orgName>Congress</orgName> because I thought that we needed to have a change of course in a very serious way. I was concerned both about the war in <placeName>Iraq</placeName> and I was deeply concerned about economic policies, which meant opportunity for a few and not for all, and tax policies and fiscal policies which I thought were going to bankrupt this country.
+
+So I ran, knowing that I’d probably have to run twice, and I knew by now something about fund raising, having spent a lot of time leading not-for-profits and doing a lot of fund raising, and having found in <date when="2004">2004</date>, when I ran—I didn’t run a very effective campaign but found that I really wanted to talk about the kinds of issues that were still of the moment. And in <date when="2006">2006</date> the war in <placeName>Iraq</placeName> was still going on, and the <persName>Bush</persName> economic policies were still what they were.
+
+And something changed in the country, and I rode a wave into <orgName>Congress</orgName> in <date when="2006">2006</date>, as I think the second Democratic congressman from the 2nd District in <placeName>New Hampshire</placeName> in a hundred years.</u>
+      <u who="HARRISON">Mmm. In the campaigns that you ran, were there discussions of <placeName>Vietnam</placeName>?</u>
+      <u who="HODES">No.</u>
+      <u who="HARRISON">Why do you think—I mean—it seems like this parallel really motivated you.</u>
+      <u who="HODES">It did.</u>
+      <u who="HARRISON">Why do you think it didn’t come up?</u>
+      <u who="HODES">I don’t know. It didn’t come up. One of the reasons it didn’t come up was I was running against a <orgName>Dartmouth</orgName> ’83—a ’73, sorry—<persName>[Charles F.] Charlie Bass</persName>,—</u>
+      <u who="HARRISON">Right.</u>
+      <u who="HODES">—who early on, at one of the earliest parades in <date when="2004">2004</date>, came and said, “<persName>Paul</persName>, we were both at <orgName>Dartmouth</orgName> at the same time. There are things we’re not gonna talk about, okay?” And I said, “Fine, <persName>Charlie</persName>.” That’s where it began, and that’s where it ended. So, I mean, I’ve talked about things with you that I haven’t talked about before. I’m 63. I’m old enough now, done enough and accomplished enough I think that I can talk about all kinds of youthful indiscretions—</u>
+      <u who="HARRISON">Yeah.</u>
+      <u who="HODES">—without—without worrying. If I have to worry, this country isn’t what I think it is.</u>
+      <u who="HARRISON">Yeah.</u>
+      <u who="HODES">But it never really—it didn’t—it didn’t really come up as a parallel. I don’t know that people made the connection that I made between the misuse of government power in <placeName>Vietnam</placeName> and what I saw as a corrupt course of government power with President <persName>Bush</persName> and <persName>[Vice President Richard Bruce (Dick)] Cheney</persName> and <persName>[Donald H.] Rumsfeld</persName>.</u>
+      <u who="HARRISON">In the last couple of minutes we have, can you just tell me the anecdote I really think is worth recording that I read about with your son and <name type="event">Occupy Wall Street</name>?</u>
+      <u who="HODES">Yeah. My son—my son was one of the very earliest organizers or people involved in <name type="event">Occupy Wall Street</name>. He was living in <placeName>Brooklyn</placeName>, in <placeName>Bushwick</placeName>. He’s on his way moving to <placeName>Oakland, California</placeName>. He started on that journey today. And I was in <orgName>Congress</orgName>. So it was a very interesting position to be in. And I was torn between tacitly supporting what <name type="event">Occupy</name> was saying about income inequality and remembering my own experiences in what I came to view as more symbolic than practical in terms of what I had done as a student, the benefit of experience. You can see, you know, what did we really accomplish? What—you know, it was a symbolic gesture.
+
+And maybe that has its own importance, and so I—I didn’t really—not only did I not support him, I at one point said to him, “Look, you know, I’m a member of <orgName>the United States Congress</orgName>, and I’m asking you to consider how what you do could affect me and what I’m doing.” And I realized that that was unfair of me. He had very strong feelings.
+
+You know, if you look at a protest movement, it wasn’t really a movement; it was a protest that was nonviolent. It was having a real impact, actually, in terms of bringing the issue of income inequality and what our system has produced in terms of its policies and income inequality to the fore as a matter of discussion.
+
+And he also got arrested. He was one of the first people arrested, as I recall. There was an article in <orgName>The Wall Street Journal</orgName> when they took him away, and he was asked by <orgName>The Wall Street Journal</orgName> what he was arrested for, and he—he’s a clever kid, and he said, “For looking like I should be arrested.” He was arrested for wearing a bandana under a <placeName>New York</placeName> ordinance that prohibited masked gatherings, from, like, <date when="1871">1871</date>. And I thought the whole thing was so absurd and so crazy, it really turned my opinion, and I ended up posting a public apology to him on a blog called “The Recovering Politician.” I think that’s where I posted it, saying, you know, “You have a right to your opinion. You have a right to do what you want to do, and I apologize for thinking—you know, essentially thinking about myself and what impact it might have on me.”
+
+That’s pretty stupid. And I realized—I realized then that there was a small symptom from me of what happens when you get into the political bubble and you can be over self-referenced. And I was ashamed of what I had thought, and so I wanted to apologize to him.</u>
+      <u who="HARRISON">Is there a parallel between your experiences with your father during the Christmas break and your son’s experiences with you?</u>
+      <u who="HODES">Exactly.</u>
+      <u who="HARRISON">What do you think it is?</u>
+      <u who="HODES">I made a decision—I made a conscious decision in my life, in many ways, not to be like my parents. I thought I was headed for a career in the theater, and then I had a career in law, like my father, and that was tough for me because I’d given up theater, and these days I’m sort of back to my creative endeavors. But I’d gotten elected to <orgName>Congress</orgName>, and I now found myself in the unenviable position of being “the man.” I was the <placeName>United States</placeName> government. I attended funerals for the soldiers killed in <placeName>Iraq</placeName>. I attended every—every demonstration—I mean, every—every event that had to do with veterans, because I hadn’t gone to <placeName>Vietnam</placeName>, and I hadn’t sacrificed my life, and there were people who had, who had gone when the government had called them. And now President <persName>Bush</persName> was sending young men and women to die for a folly. And I’d gotten elected over it, and I would be damned if I didn’t show my support for the people who were fighting, because I came to understand the difference between those who were sent to fight and those who made the policy.
+
+It was not something I’d appreciated during <name type="event">Vietnam</name>, and it was something I appreciated now and was determined to make sure that both the veterans and the military had my fair, honest and full support for the people, and that I would do everything I possibly could to change the policy. And one of the things I did as a member of <orgName>Congress</orgName> and president of the freshman class was help organize the freshman class in <date when="2006">2006</date> to vote against funding <name type="event">Iraq</name> the way it had been funded.
+
+
+
+So with my son, I was determined to make up in my life for what I perceived as the way I’d been treated by my father and to do something in a different way. And I did.</u>
+      <u who="HARRISON">I think we’ll end there. <persName>Paul Hodes</persName>, thank you very much.</u>
+      <u who="HODES">You’re welcome.
+
+[End of interview.]
+
+
+
+
+
+
+
+
+
+</u>
+    </body>
+  </text>
+</TEI>
