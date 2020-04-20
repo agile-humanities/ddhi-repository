@@ -1,0 +1,19 @@
+uuid: 8d9453a1-cd84-4dd0-a287-aa6399f3c54d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_role_key
+    - taxonomy.vocabulary.role
+id: taxonomy_term.role.field_role_key
+field_name: field_role_key
+entity_type: taxonomy_term
+bundle: role
+label: 'Role Key'
+description: 'A unique identifier for this role.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

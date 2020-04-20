@@ -1,0 +1,13 @@
+uuid: 1805c1df-363a-4386-b620-664d110a31ea
+langcode: en
+status: true
+dependencies: {  }
+id: remote_audio
+label: 'Remote Audio'
+description: 'A remotely hosted audio file.'
+source: audio_file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_audio_file_1
+field_map: {  }

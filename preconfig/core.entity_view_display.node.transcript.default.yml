@@ -1,0 +1,169 @@
+uuid: 7a9c9139-54fa-4e95-a660-c7abcf957af2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.transcript.body
+    - field.field.node.transcript.field_checksum
+    - field.field.node.transcript.field_entities_dates
+    - field.field.node.transcript.field_entities_events
+    - field.field.node.transcript.field_entities_named
+    - field.field.node.transcript.field_entities_organizations
+    - field.field.node.transcript.field_entities_persons
+    - field.field.node.transcript.field_entities_places
+    - field.field.node.transcript.field_item_key
+    - field.field.node.transcript.field_language_temp
+    - field.field.node.transcript.field_message
+    - field.field.node.transcript.field_participants
+    - field.field.node.transcript.field_primary_recording
+    - field.field.node.transcript.field_project
+    - field.field.node.transcript.field_setting
+    - field.field.node.transcript.field_tei_transcription
+    - field.field.node.transcript.field_version
+    - node.type.transcript
+  module:
+    - entity_reference_revisions
+    - file
+    - text
+    - user
+id: node.transcript.default
+targetEntityType: node
+bundle: transcript
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_checksum:
+    weight: 105
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_entities_dates:
+    weight: 113
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_entities_events:
+    weight: 114
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_entities_named:
+    weight: 118
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_entities_organizations:
+    weight: 117
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_entities_persons:
+    weight: 115
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_entities_places:
+    weight: 116
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_item_key:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_language_temp:
+    weight: 110
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_message:
+    weight: 106
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_participants:
+    type: entity_reference_revisions_entity_view
+    weight: 109
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_primary_recording:
+    weight: 111
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_project:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_setting:
+    type: entity_reference_revisions_entity_view
+    weight: 108
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_tei_transcription:
+    weight: 112
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_version:
+    weight: 104
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

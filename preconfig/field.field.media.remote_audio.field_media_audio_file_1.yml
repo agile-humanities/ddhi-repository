@@ -1,0 +1,27 @@
+uuid: 5364b9d9-db1e-4199-bbde-2b0527425788
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_audio_file_1
+    - media.type.remote_audio
+  module:
+    - file
+id: media.remote_audio.field_media_audio_file_1
+field_name: field_media_audio_file_1
+entity_type: media
+bundle: remote_audio
+label: 'Audio file'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_extensions: 'mp3 wav aac'
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

@@ -1,0 +1,19 @@
+uuid: 9c63b434-0539-42e9-a892-de7587d864c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_entity_key
+    - node.type.profile
+id: node.profile.field_entity_key
+field_name: field_entity_key
+entity_type: node
+bundle: profile
+label: 'Entity Key'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

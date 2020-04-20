@@ -1,0 +1,19 @@
+uuid: 36fcc90b-0810-4a06-98ca-21dfd84ba48b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_entities_dates
+    - node.type.transcript
+id: node.transcript.field_entities_dates
+field_name: field_entities_dates
+entity_type: node
+bundle: transcript
+label: 'Extracted Entity List (Dates)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

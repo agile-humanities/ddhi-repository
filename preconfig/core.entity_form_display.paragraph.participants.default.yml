@@ -1,0 +1,36 @@
+uuid: 95d704ae-32b6-4cc3-bdbd-5e47b2a35e97
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.participants.field_profile
+    - field.field.paragraph.participants.field_role
+    - paragraphs.paragraphs_type.participants
+id: paragraph.participants.default
+targetEntityType: paragraph
+bundle: participants
+mode: default
+content:
+  field_profile:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_role:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true

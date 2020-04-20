@@ -1,0 +1,19 @@
+uuid: 85528b35-caaa-48ff-af25-0279ab90e6cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_setting_locale
+    - paragraphs.paragraphs_type.setting
+id: paragraph.setting.field_setting_locale
+field_name: field_setting_locale
+entity_type: paragraph
+bundle: setting
+label: 'Setting locale'
+description: 'The location of the interview.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

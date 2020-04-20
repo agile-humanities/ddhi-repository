@@ -1,6 +1,6 @@
 {
-    "name": "agile/drupal-project",
-    "description": "Project template for Drupal 8 projects with a relocated document root",
+    "name": "ddhi/ddhi-repository",
+    "description": "The Dartmouth Digital History Initiative Drupal-based oral history repository.",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "homepage": "https://www.drupal.org/project/drupal",
@@ -61,12 +61,13 @@
         "drupal/ctools": "^3.2",
         "drupal/devel": "^2.1",
         "drupal/diff": "^1.0",
-        "drupal/entity_print": "^2.1",
+        "drupal/entity_usage": "^2.0@beta",
         "drupal/field_delimiter": "^1.0",
         "drupal/field_group": "^3.0",
         "drupal/htmlmail": "^3.0@alpha",
         "drupal/inline_entity_form": "^1.0@RC",
         "drupal/mailsystem": "^4.2",
+        "drupal/media_entity_audio": "^3.0",
         "drupal/migrate_plus": "^4.2",
         "drupal/migrate_source_csv": "^3.2",
         "drupal/migrate_tools": "^4.5",
@@ -75,6 +76,7 @@
         "drupal/pathauto": "^1.6",
         "drupal/phpmailer": "^3.0@beta",
         "drupal/rabbit_hole": "^1.0@beta",
+        "drupal/redirect_after_login": "^2.5",
         "drupal/smtp": "^1.0@beta",
         "drupal/svg_image": "^1.9",
         "drupal/token": "^1.6",
@@ -82,9 +84,7 @@
         "drupal/vbo_export": "^3.1",
         "drupal/views_bulk_operations": "^3.6",
         "drush/drush": "^9.0.0",
-        "jackmoore/colorbox": "^1.6",
-        "mikehaertl/phpwkhtmltopdf": "~2.1",
-        "tecnickcom/tcpdf": "~6"
+        "jackmoore/colorbox": "^1.6"
     },
     "require-dev": {
         "drupal/core-dev": "^8.8"
@@ -120,6 +120,6 @@
             "include-keys": ["homepage", "support"]
         },
         "patches": {
-        }        
+        }
     }
 }

@@ -1,0 +1,33 @@
+uuid: 5926d49b-ad4a-4495-9f0f-99e8ae4e6b42
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.setting.field_setting_date
+    - field.field.paragraph.setting.field_setting_locale
+    - paragraphs.paragraphs_type.setting
+  module:
+    - datetime
+id: paragraph.setting.default
+targetEntityType: paragraph
+bundle: setting
+mode: default
+content:
+  field_setting_date:
+    weight: 0
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_setting_locale:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

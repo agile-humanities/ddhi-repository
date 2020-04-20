@@ -1,0 +1,27 @@
+uuid: bb014839-2322-49c1-863a-5b928eeb8225
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.remote_audio.field_media_audio_file_1
+    - media.type.remote_audio
+id: media.remote_audio.media_library
+targetEntityType: media
+bundle: remote_audio
+mode: media_library
+content:
+  name:
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    weight: 0
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  field_media_audio_file_1: true
+  path: true
+  status: true
+  uid: true

@@ -1,0 +1,22 @@
+uuid: 742c0928-382d-4093-a901-6d84c08984c3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: transcript_alias
+label: 'Transcript Alias'
+type: 'canonical_entities:node'
+pattern: '/transcripts/[node:title]'
+selection_criteria:
+  a4ed98a4-c20c-4491-bec1-c6601a7163d8:
+    id: node_type
+    bundles:
+      transcript: transcript
+    negate: false
+    context_mapping:
+      node: node
+    uuid: a4ed98a4-c20c-4491-bec1-c6601a7163d8
+selection_logic: and
+weight: -5
+relationships: {  }

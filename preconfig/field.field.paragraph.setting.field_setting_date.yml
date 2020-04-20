@@ -1,0 +1,21 @@
+uuid: c6f85452-9567-4d36-a7fe-f616bcf79cea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_setting_date
+    - paragraphs.paragraphs_type.setting
+  module:
+    - datetime
+id: paragraph.setting.field_setting_date
+field_name: field_setting_date
+entity_type: paragraph
+bundle: setting
+label: 'Setting Date'
+description: 'The date of the interview.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

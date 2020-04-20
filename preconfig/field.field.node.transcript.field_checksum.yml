@@ -1,0 +1,19 @@
+uuid: 4fd74200-d228-45ab-be2b-d5600cb3a0d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_checksum
+    - node.type.transcript
+id: node.transcript.field_checksum
+field_name: field_checksum
+entity_type: node
+bundle: transcript
+label: 'Import Checksum'
+description: 'A SHA512 hash used to identify changes in imported items. Generated automatically.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

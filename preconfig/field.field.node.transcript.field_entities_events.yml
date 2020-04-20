@@ -1,0 +1,19 @@
+uuid: 546e2346-099d-4d85-9bfa-c1e7f4e0a3cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_entities_events
+    - node.type.transcript
+id: node.transcript.field_entities_events
+field_name: field_entities_events
+entity_type: node
+bundle: transcript
+label: 'Extracted Entity List (Events)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

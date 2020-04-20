@@ -1,0 +1,27 @@
+uuid: feb4fdea-1d37-4020-a4af-4ea4afbde534
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tei_transcription
+    - node.type.transcript
+  module:
+    - file
+id: node.transcript.field_tei_transcription
+field_name: field_tei_transcription
+entity_type: node
+bundle: transcript
+label: 'TEI Transcription'
+description: 'The canonical TEI version of this transcription.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: tei
+  file_extensions: xml
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

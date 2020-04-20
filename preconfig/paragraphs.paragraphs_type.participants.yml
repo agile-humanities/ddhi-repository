@@ -1,0 +1,10 @@
+uuid: d9da7838-dae8-4406-b45e-72f13276cbe3
+langcode: en
+status: true
+dependencies: {  }
+id: participants
+label: Participants
+icon_uuid: null
+icon_default: null
+description: 'The participants in an interview.'
+behavior_plugins: {  }

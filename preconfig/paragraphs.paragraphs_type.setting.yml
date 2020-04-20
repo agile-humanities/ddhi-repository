@@ -1,0 +1,10 @@
+uuid: 20ec2383-4f99-4a7c-8bde-0991f309f851
+langcode: en
+status: true
+dependencies: {  }
+id: setting
+label: Setting
+icon_uuid: null
+icon_default: null
+description: 'The setting for an interview.'
+behavior_plugins: {  }

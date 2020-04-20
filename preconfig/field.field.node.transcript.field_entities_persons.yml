@@ -1,0 +1,19 @@
+uuid: adb293bf-5dc1-4023-b715-a7214a015a88
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_entities_persons
+    - node.type.transcript
+id: node.transcript.field_entities_persons
+field_name: field_entities_persons
+entity_type: node
+bundle: transcript
+label: 'Extracted Entities List (Persons)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

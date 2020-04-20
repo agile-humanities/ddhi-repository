@@ -1,0 +1,8 @@
+uuid: 5cc72080-5bf9-48b3-95c0-cd07e81aef57
+langcode: en
+status: true
+dependencies: {  }
+name: Role
+vid: role
+description: 'A controlled list of roles. Provisionally using values from http://www.onix-codelists.io/codelist/17 .'
+weight: 0

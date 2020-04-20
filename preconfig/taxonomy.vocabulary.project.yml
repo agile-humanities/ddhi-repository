@@ -1,0 +1,8 @@
+uuid: c347048f-4bac-4489-85ed-699968d8f95d
+langcode: en
+status: true
+dependencies: {  }
+name: Project
+vid: project
+description: 'Represents a body of transcripts.'
+weight: 0

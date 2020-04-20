@@ -1,0 +1,23 @@
+uuid: 5416bf96-8387-4f08-9ef2-5fdfa100fae5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.transcript
+  module:
+    - text
+id: node.transcript.body
+field_name: body
+entity_type: node
+bundle: transcript
+label: Transcription
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

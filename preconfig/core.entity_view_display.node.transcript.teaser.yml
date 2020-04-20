@@ -1,0 +1,62 @@
+uuid: 54c5f585-cca7-4e97-9296-213b74cc9fd3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.transcript.body
+    - field.field.node.transcript.field_checksum
+    - field.field.node.transcript.field_entities_dates
+    - field.field.node.transcript.field_entities_events
+    - field.field.node.transcript.field_entities_named
+    - field.field.node.transcript.field_entities_organizations
+    - field.field.node.transcript.field_entities_persons
+    - field.field.node.transcript.field_entities_places
+    - field.field.node.transcript.field_item_key
+    - field.field.node.transcript.field_language_temp
+    - field.field.node.transcript.field_message
+    - field.field.node.transcript.field_participants
+    - field.field.node.transcript.field_primary_recording
+    - field.field.node.transcript.field_project
+    - field.field.node.transcript.field_setting
+    - field.field.node.transcript.field_tei_transcription
+    - field.field.node.transcript.field_version
+    - node.type.transcript
+  module:
+    - text
+    - user
+id: node.transcript.teaser
+targetEntityType: node
+bundle: transcript
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_checksum: true
+  field_entities_dates: true
+  field_entities_events: true
+  field_entities_named: true
+  field_entities_organizations: true
+  field_entities_persons: true
+  field_entities_places: true
+  field_item_key: true
+  field_language_temp: true
+  field_message: true
+  field_participants: true
+  field_primary_recording: true
+  field_project: true
+  field_setting: true
+  field_tei_transcription: true
+  field_version: true

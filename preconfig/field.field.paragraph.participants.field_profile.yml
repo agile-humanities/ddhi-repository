@@ -1,0 +1,29 @@
+uuid: d787479d-9e75-43e6-9971-0cd0d4389605
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_profile
+    - node.type.profile
+    - paragraphs.paragraphs_type.participants
+id: paragraph.participants.field_profile
+field_name: field_profile
+entity_type: paragraph
+bundle: participants
+label: Profile
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      profile: profile
+    sort:
+      field: title
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

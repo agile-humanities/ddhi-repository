@@ -1,0 +1,18 @@
+uuid: 4f3aada6-6362-498e-909f-f70c8efdc9e3
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Transcript
+type: transcript
+description: 'A transcript of an interview.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

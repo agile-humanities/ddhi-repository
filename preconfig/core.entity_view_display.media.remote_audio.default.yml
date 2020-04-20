@@ -1,0 +1,30 @@
+uuid: dac859c0-75fe-445e-ae42-8bcc8794c678
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.remote_audio.field_media_audio_file_1
+    - media.type.remote_audio
+  module:
+    - file
+id: media.remote_audio.default
+targetEntityType: media
+bundle: remote_audio
+mode: default
+content:
+  field_media_audio_file_1:
+    type: file_audio
+    label: visually_hidden
+    weight: 0
+    settings:
+      controls: true
+      autoplay: false
+      loop: false
+      multiple_file_display_type: tags
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

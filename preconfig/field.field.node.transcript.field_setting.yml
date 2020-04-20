@@ -1,0 +1,34 @@
+uuid: 1d9d7580-8961-40c9-8b7d-1901666f72bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_setting
+    - node.type.transcript
+    - paragraphs.paragraphs_type.setting
+  module:
+    - entity_reference_revisions
+id: node.transcript.field_setting
+field_name: field_setting
+entity_type: node
+bundle: transcript
+label: Setting
+description: 'Information about the context for this interview.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      setting: setting
+    target_bundles_drag_drop:
+      participants:
+        weight: 3
+        enabled: false
+      setting:
+        enabled: true
+        weight: 4
+field_type: entity_reference_revisions

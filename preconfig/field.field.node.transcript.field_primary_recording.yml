@@ -1,0 +1,27 @@
+uuid: 014988a9-427a-4469-b7e6-a4c8cdd5eb29
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_primary_recording
+    - node.type.transcript
+  module:
+    - file
+id: node.transcript.field_primary_recording
+field_name: field_primary_recording
+entity_type: node
+bundle: transcript
+label: 'Primary Recording'
+description: 'The primary recording of this interview.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: audio/primary
+  file_extensions: 'mp3 m4a ogg wav'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

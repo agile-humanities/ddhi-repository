@@ -1,0 +1,30 @@
+uuid: 087a043c-da36-4074-b9ec-784bf302dce8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.role.field_role_key
+    - taxonomy.vocabulary.role
+  module:
+    - text
+id: taxonomy_term.role.default
+targetEntityType: taxonomy_term
+bundle: role
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_role_key:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }
