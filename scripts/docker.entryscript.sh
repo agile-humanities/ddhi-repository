@@ -35,8 +35,17 @@ then
       --account-mail=$DRUPAL_SITE_ADMIN_ACCOUNT_MAIL \
       --account-pass=$DRUPAL_SITE_ADMIN_ACCOUNT_PASSWORD
 
+    # Extract system UUID
+
+    SITE_UUID=$(grep -m2 'uuid:'  ./preconfig/system.site.yml | tail -n1  | awk '{ print $2}')
+    # drush -y cset system.site uuid $SITE_UUID
+
+    #temp: Copy config files
+    cp /repository/preconfig/* /repository/config/sync
+
+
     # Run configuration suite
-    drupal config:import --directory=/repository/preconfig
+    # drupal config:import --directory=/repository/preconfig
 
     # Use Drush to install module suite. @todo: may require a more sophisticated profile
     # system here
