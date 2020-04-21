@@ -64,3 +64,4 @@
 
 .editorconfig
 .gitattributes
+/docroot/sites/default/settings.php
