@@ -1,10 +1,29 @@
 # Ignore core when managing all of a project's dependencies with Composer
 # including Drupal core.
 /docroot/core
+/docroot/index.php
 /docroot/modules/contrib/
 /docroot/themes/contrib/
 /docroot/profiles/contrib/
 /docroot/libraries/
+/docroot/sites/default/setting.php
+/docroot/sites/default/services.php
+
+# Rando Core files
+
+/docroot/.csslintrc
+/docroot/.eslintignore
+/docroot/.eslintrc.json
+/docroot/.ht.router.php
+/docroot/INSTALL.txt
+/docroot/README.txt
+/docroot/autoload.php
+/docroot/example.gitignore
+/docroot/sites/example*
+/docroot/sites/README.txt
+/docroot/sites/default/default*
+/docroot/update.php
+/docroot/web.config
 
 
 # Ignore dependencies that are managed with Composer.
