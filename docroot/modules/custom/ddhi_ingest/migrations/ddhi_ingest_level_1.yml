@@ -40,13 +40,17 @@ process:
     plugin: ddhi_ingest_body
     source: body
   field_entities_places:
-    -
-      plugin: callback
-      callable: var_export
-      source: placenames
+    # -
+    #  plugin: callback
+    #  callable: var_export
+    #  source: placenames
+    # -
+    #  plugin: callback
+    #  callable: strlen
+    #  source: placenames
     -
       plugin: extract_named_entities
-      source: placenames
+      source: body
 destination:
   plugin: entity:node
   default_bundle: transcript
