@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains ddhi_ingest.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function ddhi_ingest_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the ddhi_ingest module.
+    case 'help.page.ddhi_ingest':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Migrates data from Level 1 Encoded DDHI TEI data.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

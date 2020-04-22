@@ -1,0 +1,9 @@
+name: 'DDHI Ingest'
+type: module
+description: 'Migrates data from Level 1 Encoded DDHI TEI data.'
+core: 8.x
+package: 'DDHI'
+dependencies:
+  - migrate
+  - migrate_tools
+  - migrate_plus
