@@ -20,21 +20,43 @@ class ExtractNamedEntities extends ProcessPluginBase {
    */
   public function transform($value, MigrateExecutableInterface $migrate_executable, Row $row, $destination_property) {
     
-    if (empty($value) || !is_object($value)) {
+    
+    if (empty($value) || !is_array($value)) {
       return '';
     }
     
-   
-    $value->registerXPathNamespace("tei","http://www.tei-c.org/ns/1.0");
-    $items = $value->xpath('//tei:placeName');
+    $element = $value[0];
+    $xml = $value[1];   
+    $xml->registerXPathNamespace("tei","http://www.tei-c.org/ns/1.0");
+    $items = $xml->xpath('//tei:' . $element);
     $values = [];
     
         
     if ($items !== false) {
     
       foreach ($items as $item) {
-        $text = $item->__toString();
-        $values[strtolower($text)] = $text; // Creates unique values and natural sorting order
+        
+        switch ($element) {
+          case 'date':
+            $item->registerXPathNamespace("tei","http://www.tei-c.org/ns/1.0");
+            $date = $item->attributes()->when;
+            $text = $date ? $date->__toString() . " (" . $item->__toString() . ")" : $item->__toString();
+            break;
+          default:
+            $text = $item->__toString();
+        }
+        
+        if ($element == 'date') {
+          $key = $date ? strtotime($date->__toString()) : strtotime($item->__toString());
+        }
+        
+        $key = strtolower($text); // natural sort
+        $key = preg_replace('/^the/','',$key); // remove articles
+        $key = preg_replace('/^a/','',$key);
+        
+        if (!empty(trim($text))) {
+          $values[trim($key)] = $text; // create unique values
+        }
       }
       
       ksort($values);
@@ -42,18 +64,6 @@ class ExtractNamedEntities extends ProcessPluginBase {
       return join("\r",array_values($values));
     
     } 
-    
-         /*   
-    foreach((array)$value as $item) {
-      $values[] = $item;
-    }
-    
-    $values = array_unique($values);
-    asort($values);
-    $output = join("\r",$values);
-    
-    return $output;
-    */
   }
 
 }
