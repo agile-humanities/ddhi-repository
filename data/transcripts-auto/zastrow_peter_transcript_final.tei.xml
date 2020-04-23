@@ -1,0 +1,681 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="WEINSTOCK"/>
+        <person xml:id="ZASTROW"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="WEINSTOCK">This is <persName>Benjamin Weinstock</persName> here at <orgName>Rauner Special Collection Library</orgName> at <orgName>Dartmouth College</orgName> in <placeName>Hanover</placeName>, <placeName>New Hampshire</placeName>. I am speaking over the phone with <persName>Peter [H.] Zastrow</persName>, who is in <placeName>Evanston</placeName>, <placeName>Illinois</placeName>. The time is 12:05 p.m. Eastern time, and the date is <date>February 2nd, 2016</date>.</u>
+      <u who="ZASTROW">My name is <persName>Peter Zastrow</persName>. </u>
+      <u who="WEINSTOCK">And where are you from?</u>
+      <u who="ZASTROW"><placeName>Evanston</placeName>, <placeName>Illinois</placeName>.</u>
+      <u who="WEINSTOCK">What was it like growing up in <placeName>Evanston</placeName>?</u>
+      <u who="ZASTROW">Well, I didn’t grow up in <placeName>Evanston</placeName>. I grew up all over the country: in <placeName>New York City</placeName>; in <placeName>Bloomington</placeName>, <placeName>Illinois</placeName>; in <placeName>Cuyahoga Falls</placeName>, <placeName>Ohio</placeName>. And I actually went to <placeName>Dartmouth</placeName> from <placeName>Fort Thomas</placeName>, <placeName>Kentucky</placeName>.</u>
+      <u who="WEINSTOCK">And what were the names of your parents?</u>
+      <u who="ZASTROW"><persName>Peter</persName> and <persName>Mary Louise</persName> [Danforth] Zastrow.</u>
+      <u who="WEINSTOCK">Did you have any siblings?</u>
+      <u who="ZASTROW">Two sisters.</u>
+      <u who="WEINSTOCK">And what were their names?</u>
+      <u who="ZASTROW"><persName>Catherine</persName> [now <persName>Catherine Zastrow Onyemelukewe</persName>] and <persName>Beth [Zastrow Hardy</persName>].</u>
+      <u who="WEINSTOCK">Great. So the first place you really grew up in was <placeName>New York</placeName>. Is that right? <placeName>Long Island</placeName>?</u>
+      <u who="ZASTROW">Yeah, I was very small. I remember nothing of it.</u>
+      <u who="WEINSTOCK">[Chuckles.] Well, what was the first place that you have memories of?</u>
+      <u who="ZASTROW">Mmm, that would probably be <placeName>Washington</placeName>, <placeName>Illinois</placeName>.</u>
+      <u who="WEINSTOCK"><placeName>Washington</placeName>, <placeName>Illinois</placeName>. And how old were you when you moved to <placeName>Washington</placeName>, <placeName>Illinois</placeName>? </u>
+      <u who="ZASTROW">Maybe three or four.</u>
+      <u who="WEINSTOCK">And so this would have been <date>1942</date>?</u>
+      <u who="ZASTROW">Yes, I’m afraid so.</u>
+      <u who="WEINSTOCK">[Chuckles.] Well, what was it like growing up there? Do you—what sorts of memories do you have from <placeName>Washington</placeName>, <placeName>Illinois</placeName>?</u>
+      <u who="ZASTROW">I remember almost drowning in a fish pond.</u>
+      <u who="WEINSTOCK">[Chuckles.] Can you tell me a little about that?</u>
+      <u who="ZASTROW">[Laughs.] No, except I was saved by a cousin who lived nearby. And that was back in <date>the day</date> when many houses had fish ponds out in back of the house. </u>
+      <u who="WEINSTOCK">A Victory Garden for <name type="event">World War II</name>, yeah?</u>
+      <u who="ZASTROW">I remember having my sixth birthday party disturbed because [President] <persName>Franklin</persName> [D.] <persName>Roosevelt</persName> died <date>that day</date>.</u>
+      <u who="WEINSTOCK">How did you feel about that?</u>
+      <u who="ZASTROW">Oh, I didn’t—I had not much of a clue who <persName>Franklin Roosevelt</persName> was at <date>the age of six</date>, except he was a very important person, and my parents were very attracted to him and were very sad that he died. And nobody quite knew what to do with this strange vice president of his that no one knew much about.</u>
+      <u who="WEINSTOCK">And he ruined your birthday. [Chuckles.]</u>
+      <u who="ZASTROW">Well, yeah. We ran the party, but then everybody was sad, and I couldn’t have the right kind of sixth birthday party.</u>
+      <u who="WEINSTOCK">Sure. What did you parents do for a living?</u>
+      <u who="ZASTROW">My father was an engineer with AT&amp;amp;T. My mother at that time was a piano teacher.</u>
+      <u who="WEINSTOCK">Did you take piano at all?</u>
+      <u who="ZASTROW">I started when I was about three or <date>four years old</date>.</u>
+      <u who="WEINSTOCK">Have you played since?</u>
+      <u who="ZASTROW">I still have a job as a musician at the Great Lakes Naval Training Center [sic; Station] to provide the music for Catholic masses.</u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="ZASTROW">So I still play the piano.</u>
+      <u who="WEINSTOCK">Would you say that music had a pretty big impact on your life over <date>the years</date>?</u>
+      <u who="ZASTROW">It was always a part of my life.</u>
+      <u who="WEINSTOCK">Sure. What sort of music did you listen to mostly?</u>
+      <u who="ZASTROW">Oh, my parents listened to classical music, and I guess I pretty much did that, too, until <date>maybe years later</date>, when I started listening to [<persName>James M.] “</persName>Jimi” Hendrix and Janis [L.] <persName>Joplin</persName>, the crew. Now I guess if I listen to any music, it’s likely to be classical.</u>
+      <u who="WEINSTOCK">Yeah. </u>
+      <u who="ZASTROW">We left there after I—after the first grade.</u>
+      <u who="WEINSTOCK">And what <date>year</date> was this?</u>
+      <u who="ZASTROW">It must have been ’<date>45</date> or ’46.</u>
+      <u who="WEINSTOCK">Do you remember the end of <name type="event">World War II</name> at all, then?</u>
+      <u who="ZASTROW">No.</u>
+      <u who="WEINSTOCK">No? Hmm. Well, where did you go to after—</u>
+      <u who="ZASTROW">My father—because my father wasn’t in the military, unlike many of my friends, I didn’t have that kind of intimate connection with the war going on. I do remember a wonderful tire swing in one of my friends’ back yards, which we would swing and jump off, yelling, “Bombs over <placeName>Tokyo</placeName>!”</u>
+      <u who="WEINSTOCK">[Laughs.] It’s hard to relate to that <date>today</date>, I’ll tell you.</u>
+      <u who="ZASTROW">I’ll bet it is.</u>
+      <u who="WEINSTOCK">[Chuckles.] It must have been very strange to listen to that.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">Normal, <placeName>Illinois</placeName>.</u>
+      <u who="WEINSTOCK">And how long were you there?</u>
+      <u who="ZASTROW">Through, mmm, the sixth grade, I think.</u>
+      <u who="WEINSTOCK">What sort of memories do you have from Normal?</u>
+      <u who="ZASTROW">Normal was a great place. We lived right down the street from what was then called <orgName>Illinois State Normal University</orgName> [now <orgName>Illinois State University</orgName>]. I went to their lab school, so we had a main teacher and four or five student teachers all the time. That was kind of a selective school. And it was just a very pleasant educational experience.	We had many more opportunities than people did at probably the public school across the street.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="ZASTROW">Yeah. I remember them being very much in favor of [<persName>Harry S.]</persName> <persName>Truman</persName> being reelected as president, having no use whatsoever for [<persName>Thomas E.] Dewey</persName>. All of my—well, my father, whose family was German—but my mother’s family lived in <placeName>Danforth</placeName>, <placeName>Illinois</placeName>, and were lifelong Democrats. In fact, I have a grandfather who was appointed to <orgName>the Federal Land Bank</orgName> [now <orgName>Farm Credit Bank</orgName>] board by [President] <persName>Woodrow</persName> [<persName>T.] Wilson</persName>.</u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="ZASTROW">But they were all adamantly Democratic.</u>
+      <u who="WEINSTOCK">And so what was—what—what was going through your head as a little seven-, <date>eight-year-old</date> hearing about a hydrogen bomb? Were you scared? Were you kind of awed by the technology? Did you think that another war was coming?</u>
+      <u who="ZASTROW">Well, I remember being very much interested in the countdown because they did, on the radio, count it down until we could all hear the boom. I was vaguely conscious that we had ended the war with the use of a remarkable bomb, several of them. And it’s only sounded like a graduated version of the same thing, which in fact I guess it was.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">After sixth grade. It was <persName>Cuyahoga Falls</persName>, <placeName>Ohio</placeName>.</u>
+      <u who="WEINSTOCK">And how was that.</u>
+      <u who="ZASTROW">It was a suburb of <placeName>Akron</placeName>. I did pretty much normal sixth, seventh, eighth grade things.</u>
+      <u who="WEINSTOCK">What were those?</u>
+      <u who="ZASTROW">If I recall correctly, this got <date>up past June of 1950</date>, and I do very much remember and was quite interested in how <persName>Truman</persName> had manipulated things so that <orgName>the United Nations</orgName> went to war in <placeName>Korea</placeName>. This all took place in part because he managed to get a declaration of war from <orgName>the United Nations</orgName> when the <placeName>Soviet Union</placeName> delegation, for some reason or another, was not present because otherwise, they would have vetoed it and it would have been an American venture instead of a <orgName>United Nations</orgName> venture.</u>
+      <u who="WEINSTOCK">And you were pretty aware of the intricacies of this and —as a <date>six-year-old</date>—<date>six-year-old</date>?</u>
+      <u who="ZASTROW">Yes. It was—I seem to recall being very interested in reading all the newspaper accounts of—it was considered quite a diplomatic coup at the time. And, of course, then I pretty much followed the war as—I don’t know if you’re a <name type="event">Korean War</name> fan or not, but the war kind of moved up and down the Korean peninsula, finally up to the Yalu [River]. And then the Chinese came in.</u>
+      <u who="WEINSTOCK">What were your parents’ thoughts about all this—<persName>MacArthur</persName> and <placeName>Korea</placeName>?</u>
+      <u who="ZASTROW">[Short pause.] You know, I don’t really know. When you asked me, I tried to think back at a time—of course, they were aware of it, and they were aware that I was very interested in it, but like I said, I remember them being very much in favor of <persName>Truman</persName>. My father a very strong union—<orgName>the Communications Workers of America</orgName>. In fact, left home for, oh, probably <date>a month and a half</date> to be a chief steward during a <orgName>CWA</orgName> strike, which—and I can’t recall when that was.  </u>
+      <u who="WEINSTOCK">Huh! And was this the reason that you were moving around a lot, because of your dad’s career?</u>
+      <u who="ZASTROW">Yeah. He was involved in starting the cables that would eventually carry television around the country, so in doing that, he moved from office to office to office and eventually ended up in the office in <placeName>Cincinnati</placeName>, <placeName>Ohio</placeName>, which was right across from my next residence, which was <placeName>Fort Thomas</placeName>, <placeName>Kentucky</placeName>.</u>
+      <u who="WEINSTOCK">So before we move on to <placeName>Kentucky</placeName>, did you—did you guys have—have a TV pretty early on, then, because your dad worked in the industry?</u>
+      <u who="ZASTROW">Oh, as a matter of fact, he refused to buy a television as long as we didn’t have a separate room in which to put the piano,—</u>
+      <u who="WEINSTOCK">Huh!</u>
+      <u who="ZASTROW">—because he said that people should play the piano, not watch television. Or if you had a television, you stopped playing the piano. He had no musical talent of his own, but he said he did the most important job, which was to listen. Which he did.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="ZASTROW">And it wasn’t—actually, the first television we ever had was when we moved to <placeName>Kentucky</placeName>, where the house had a separate room, a music room, where the piano could go.</u>
+      <u who="WEINSTOCK">Wow. And how old were you when you—when you moved to <placeName>Kentucky</placeName>?</u>
+      <u who="ZASTROW">That was eighth grade, so—</u>
+      <u who="WEINSTOCK">So this would have been what <date>year</date>?</u>
+      <u who="ZASTROW">Nineteen fifty-two, maybe?</u>
+      <u who="WEINSTOCK">Okay. And what—what were some of your memories from <placeName>Kentucky</placeName>? Did you like it as much as your past couple homes?</u>
+      <u who="ZASTROW">Yeah. You know, after a certain point, you got over the fact that you were leaving all your friends and had to go make some new ones.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">I mean it wasn’t fun. It never was fun. But eventually I made the new ones in—in <placeName>Kentucky</placeName>.</u>
+      <u who="WEINSTOCK">Were you close with your sisters at all?</u>
+      <u who="ZASTROW">Probably closer because we kept moving.</u>
+      <u who="WEINSTOCK">Sure. How—how old were they compared to you?</u>
+      <u who="ZASTROW">One sister is <date>a year and a half</date> younger, and the other one is <date>seven—seven years</date> younger.</u>
+      <u who="WEINSTOCK">Okay. And so you were—but by the time you moved to <placeName>Kentucky</placeName>, it was <date>1952</date>. You stayed there until you graduated high school. Is that correct?</u>
+      <u who="ZASTROW">Right. And actually,—</u>
+      <u who="WEINSTOCK">And can you tell me—sorry.</u>
+      <u who="ZASTROW">—my family continued to live there all the way through the time I was in college and in graduate school, and my parents left the country to live on the island of <placeName>Madeira</placeName> [<placeName>Portugal</placeName>] and gave the house to my younger sister and I.</u>
+      <u who="WEINSTOCK">Huh!</u>
+      <u who="ZASTROW">That’s an interesting question, and I don’t have a real good answer for it. My sense is that it was kind of a non-political time. We were interested in local elections. In <placeName>Kentucky</placeName> in <date>those days</date>, if you wanted to vote in state elections, you had to be a Democrat; if you wanted—you had to declare your party, of course, in order to vote because the primaries pretty much decided the answers. If you were a Democrat, you could vote for governor; if you were a Republican, you could vote for local offices. </u>
+      <u who="WEINSTOCK">So very status quo.</u>
+      <u who="ZASTROW">Yes. And I, of course, was aware of things like <name type="event">the Korean War</name> ending, but once again, I had no particular personal involvement in—I had nobody whose father was fighting in the war, anything like that, nobody even who had older brothers who were involved in the war. It was a kind of community where I’m sure you had an ability to avoid the war as much as possible.</u>
+      <u who="WEINSTOCK">What were some of your other interests?</u>
+      <u who="ZASTROW">Well, there was always music. I was a reader. I played football (badly). I ran track (pretty much badly). </u>
+      <u who="WEINSTOCK">What did you like to read?</u>
+      <u who="ZASTROW">Anything. Even in grade school, I would go through a biography a day back in <date>the day</date> when you could check out books from the library. If you finished your math assignment early, you could go to the library, and I would check out these orange biographies. (The books were orange.) And I went through one of those a day for <date>months</date>.</u>
+      <u who="WEINSTOCK">What sort of people did you like reading about—political figures, athletes?</u>
+      <u who="ZASTROW">Anybody, but I think probably more historical than anything else because that’s what was, of course, mostly available. But most anything. I remember Gone with the Wind a couple of times through. Anything that I could get my hands on, pretty much.</u>
+      <u who="WEINSTOCK">And can you tell me a little bit more about the high school that you went to in <placeName>Kentucky</placeName>?</u>
+      <u who="ZASTROW">[Chuckles.] it was called <orgName>Highlands High School</orgName>. In <date>the years</date> after I left, it became the football power in the state of <placeName>Kentucky</placeName>, which is very strange because it was a relatively small school. I had a graduating class of 75, of whom at least 65 went on to college. Many of the teachers had been there long enough to know my classmates’ parents and, in some cases, even grandparents. I suspect it was very traditional in what we were taught. There was, of course, nothing like <orgName>AP</orgName> [advanced placement] classes in <date>those days</date>. </u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">We would have fitted in probably fairly well with many of the sitcoms that were on at the time. I mean, that was the kind of place it was. It was just pretty traditional. I don’t think I realized how traditional until I was long out of there, but we didn’t—we had no students of color. The town was fairly famous in <date>the years</date> long before I moved there, having made sure that nobody—none of the black maids and housekeepers did not stay there, that they were out of the town before dark.</u>
+      <u who="WEINSTOCK">Yeah. So, you know, <date>you’re—you’re</date> painting a pic- —</u>
+      <u who="ZASTROW">I still get their town newspaper, the reports from the high school,—</u>
+      <u who="WEINSTOCK">[Chuckles.] No kidding.</u>
+      <u who="ZASTROW">—from all the grade schools and high schools—high school in town. And in <date>the last one</date>, I finally saw a black student. Which struck me as a step forward.</u>
+      <u who="WEINSTOCK">Yeah. You know, so speaking along the lines of that, you know, you painted a picture of a very sort of <date>normal 1950s</date>, easy-going <placeName>America</placeName>, but, you know, of course, there were very divisive events going on at the time. Do you remember anything about things like, you know, <orgName>the Brown v. Board of Education</orgName> [<orgName>Supreme Court</orgName> ruling]? This would have been your junior or <date>senior year</date>, I imagine?</u>
+      <u who="ZASTROW">I remember it happening and thinking, What a great idea! I’m trying to think. When did <persName>Medgar</persName> [<persName>G.] Evers</persName> go to <orgName>the University of Mississippi</orgName>? Was that around that time? </u>
+      <u who="WEINSTOCK">I believe so. I’m not as familiar with that, sorry.</u>
+      <u who="ZASTROW">I remember Governor <persName>George [C.] Wallace [Jr.</persName>] standing in the doorway and thinking what an absolute dog he was. And the same way with whoever that police chief who did his best to stop the march across the [<persName>Edmund Pettus] Bridge</persName> in <placeName>Selma</placeName> [<placeName>Alabama</placeName>]. </u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">Again, it didn’t have the kind of personal connection.</u>
+      <u who="WEINSTOCK">Would—would these sentiments have been shared by your community back then?</u>
+      <u who="ZASTROW">Yes, I think—well,—yes, I think probably—I’m sure I heard some of what caused my feelings about this from teachers at school, and they would not have been talking about these sorts of things had it not been pretty much community allowed.</u>
+      <u who="WEINSTOCK">Right. </u>
+      <u who="ZASTROW">Well, it wasn’t that obvious.</u>
+      <u who="WEINSTOCK">—about the college hunt?</u>
+      <u who="ZASTROW"><persName>Hm</persName>?</u>
+      <u who="WEINSTOCK">Can you tell me a little bit about the college hunt?</u>
+      <u who="ZASTROW">Go ahead.</u>
+      <u who="WEINSTOCK">Yeah.</u>
+      <u who="ZASTROW">Well, of course, it was not like it is <date>today</date>. You didn’t start thinking about it from birth—</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">—or at least start thinking about it so seriously when you were a junior. In <date>my senior year</date>, I was aware that college was coming. I was aware that I was supposed to go to college. I picked several colleges that sounded kind of interesting, <orgName>Dartmouth</orgName> being one of them, and <placeName>Amherst</placeName> [College] and <persName>Williams</persName> [College]. I would be hard put to say why those. I got, of course, catalogs from the colleges and thought they sounded really great. And my recollection is that I applied to all three of those but was always aware that if I wanted to, I could go across the river to <orgName>the University of Cincinnati</orgName> or downstate to <orgName>the University of Kentucky</orgName>.</u>
+      <u who="WEINSTOCK">[Chuckles.] And so what made you finally choose <orgName>Dartmouth</orgName>?	</u>
+      <u who="ZASTROW">[phone line glitch; unintelligible].</u>
+      <u who="WEINSTOCK">Could you say that one more time?</u>
+      <u who="ZASTROW">I think because my grandmother, who had lots of money, had once gone out with a boy from <orgName>Dartmouth</orgName> and talked about it. How’s that for a reason?</u>
+      <u who="WEINSTOCK">[Chuckles.] Hey, you know, we all have to have some reason to come up here.</u>
+      <u who="ZASTROW">[Laughs.] Do you have a better reason than that? [Laughs.] Probably.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">Well, my father drove me up there, along with my sister, who was scouting colleges, herself, for <date>the following year</date>. So on the way up there, I remember I think spending a night in a motel someplace near <persName>Niagara Falls</persName> and watching the <persName>Miss America</persName> contest on television, and <persName>Bert Parks</persName> singing, but I no longer can remember who won.</u>
+      <u who="WEINSTOCK">Wow. [Chuckles.]</u>
+      <u who="ZASTROW">[Chuckles.] Which I assume is still there, although I don’t really know.</u>
+      <u who="WEINSTOCK">There is a <orgName>Hitchcock</orgName>. I think it’s been renovated, though.</u>
+      <u who="ZASTROW">Probably. And, of course, it was hard not to appreciate what a gorgeous campus it was.</u>
+      <u who="WEINSTOCK">Yeah, can you tell me a little bit more about that? What did it look like back then?</u>
+      <u who="ZASTROW">Probably much like it looks now. I mean, there was the [<orgName>Dartmouth] Green</orgName>, of course, which was in the middle of everything, and spread around it were the major buildings: Parkhurst [Hall], someplace—something next to it, the library, <persName>Webster Hall</persName> (which would have been the concert hall), and then on the other side was Dartmouth Hall. Of course, Hopkins Center [for the Arts] was not there, so that end of the <persName>Green</persName> was nothing but <orgName>the Hanover Inn</orgName> [<orgName>Dartmouth</orgName>].</u>
+      <u who="WEINSTOCK">Huh.</u>
+      <u who="ZASTROW">And, let’s see, the gym was a ways toward—it would have been the southeast part of the campus. And, of course, the football field was there. There was some married housing, of which there wasn’t very much in <date>those days</date>, but a little, down next to <orgName>Tuck School [of Business</orgName>], which would have been close to the river. The dining hall was behind <persName>Parkhurst</persName>.</u>
+      <u who="WEINSTOCK">It all does sound pretty similar.</u>
+      <u who="ZASTROW">Yeah. I’m not surprised. I realize building has gone on, but I think probably away from the center of—what was then the center of the campus.</u>
+      <u who="WEINSTOCK">Sure. </u>
+      <u who="ZASTROW">Well, I joined <orgName>the Glee Club</orgName>, <orgName>the Freshman Glee Club</orgName> in <date>those days</date>. Academically, we weren’t allowed to pick a major, so I think pretty much <date>the first year</date> were—we had a few choices, but not all that many. I remember taking astronomy because we told it was an easy class. <persName>George Z. Dimitroff</persName>, who was the professor of astronomy in <date>those days</date> and who spoke with a beautiful accent, in keeping with his name.</u>
+      <u who="WEINSTOCK">Still have what?</u>
+      <u who="ZASTROW">[Laughs.] It was called <orgName>Great Issues</orgName>. It was a class for freshmen where all the freshmen met once a week to discuss great issues. And we had distinguished speakers. <persName>Robert [L.] Frost</persName>, for instance, would come and say his poems for us. And we had to keep a journal. It seems to me we had the session with everybody once a week, and then it broke down into much smaller groups, also once a week, with a faculty adviser who when we were with them would talk about what we had heard during Great Issues.</u>
+      <u who="WEINSTOCK">What sort of things did you talk about in Great Issues? What sort of issues?</u>
+      <u who="ZASTROW">All kinds of issues. I think all—all sorts of political issues, though I have to say that I no longer remember what they were. I think things that were going on in the world at the time. Of course, <placeName>the Soviet Union</placeName> was our—the great menace in <date>those days</date>. <placeName>China</placeName> was undergoing major changes, which we only were interested in because they, of course, had been involved in the—in what was then the end of <name type="event">the Korean War</name>, not because we ever thought they would be a world power. There were only two world powers, and we were one of them. We must have talked about economics. It was actually a pretty useful sort of class.</u>
+      <u who="WEINSTOCK">Sure. Well what—</u>
+      <u who="ZASTROW">Go ahead.</u>
+      <u who="WEINSTOCK">Well, I was going to say, you know, what other things were you interested in? When did you realize that you really liked English?</u>
+      <u who="ZASTROW">A lot of that had to do with English professors, of course, at the time, but I’d always been a reader, and I had some very good English professors. I also got involved, of course, with <orgName>ROTC [Reserve Officers’</orgName> <orgName>Training Corps</orgName>], in part because my favorite history professor, whose name was <orgName>Stillwell</orgName>, also taught military history to <orgName>ROTC</orgName> classes. And if you wanted to take his military history class, the only way you could go to it was to enroll in <orgName>ROTC</orgName>.</u>
+      <u who="WEINSTOCK">[Chuckles.] And that’s why you decided to do it, huh?</u>
+      <u who="ZASTROW">Pretty much. Of course, they were going to pay us, too. That was another incentive. You got paid after your—in your junior and senior year. I think you got $33 a month, if I recall correctly. And all it really meant was taking an extra class, which, it being a military class, tended to be very easy and could do nothing but improve your grade average. And go to drill once a week, I think. Yeah. That was pretty much it.</u>
+      <u who="WEINSTOCK">Can you tell me a little bit more about your experiences in <placeName>ROTC</placeName>? Did you ever think at the time that you would, you know, wind up serving in the—the military for—in an actual combat role?</u>
+      <u who="ZASTROW">No, although our teachers at the time were all—I think all—<name type="event">Korean War</name> veterans, so they, of course, spent a good part of the time telling us war stories, but that all seemed very distant. War in <date>those days</date>, if there was going to be one, was probably going to be a nuclear war, and individual participation in something like that was pretty much irrelevant.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="ZASTROW">I’m sorry, what?</u>
+      <u who="WEINSTOCK">Can you tell me a little bit more about the—<date>the beginning of the 1960s</date>? You were still at <orgName>Dartmouth</orgName> in ’60 and for part of ’61. Can you tell me, were there any sort of political or social or cultural shifts that you could notice?</u>
+      <u who="ZASTROW">Well, when we went out on our—what was it?—Armed Forces Day—the <orgName>ROTC</orgName> would get together and march around campus. There was a—a small group of protesters who said we shouldn’t be—we shouldn’t have <orgName>ROTC</orgName> at—at a college. But it was very small, and not—not particularly influential. It was very much considered a sort of fringe group. Probably still would be at <orgName>Dartmouth</orgName>. But anyhow,—</u>
+      <u who="WEINSTOCK">And, you know, for instance, the—you know, <persName>John F. Kennedy</persName> is elected as president in <date>1960</date>. What were your thoughts about that? Do you remember any sort of conversations about that?</u>
+      <u who="ZASTROW">I remember him coming to <orgName>Dartmouth</orgName> as a—before the—the primary or during the primary, when he was looking for votes in <placeName>New Hampshire</placeName>.  </u>
+      <u who="WEINSTOCK">Did you go hear him?</u>
+      <u who="ZASTROW">Oh, yes. I did a lot of that in <date>those days</date>. I went to hear all kinds of—I went to concerts. I went to hear speakers, even though nobody told me I had to. I remember some wiseass student asking what he thought about the famines that were then going—I think the <placeName>U.S.</placeName> was shipping wheat to <placeName>India</placeName>, and he asked something about that, which was really kind of a sneaky way of getting around to: “You’re Catholic. Can you be in favor of birth control?” Which—</u>
+      <u who="WEINSTOCK">Really?</u>
+      <u who="ZASTROW">—yeah. Without ever asking that question, that’s what the question really was. And, you know, it was a pretty big deal in the election in <date>those days</date> because he was, of course, the first Roman Catholic, and there was a certain group of thinkers who said of course the Pope would rule <placeName>America</placeName>, which, in case you’re interested, did not happen.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">But it was—it certainly was talked about, kind of in the same way as <persName>Obama</persName>’s birth certificate in more recent times.</u>
+      <u who="WEINSTOCK">Right. </u>
+      <u who="ZASTROW">I was a long ways away from my parents in <date>those days</date>. [Both chuckle.]</u>
+      <u who="WEINSTOCK">You never called home?</u>
+      <u who="ZASTROW">Well, yes, I called home once a week, because with AT&amp;amp;T we could get free long-distance phones, and they would set it up so that I could call, and my sister could call from <orgName>Mount Holyoke [College</orgName>], which is where she was at the time, and we could have a little conference call on <date>Sunday</date> afternoons. And I don’t think we talked about politics. We talked about important things, like food and vacations and what was going on with my mom, who was teaching school in <date>those days</date>. Nothing that I can recall as very political.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">I did take the time to do the absentee ballot and vote for <persName>Kennedy</persName>. That, I do remember. And, in fact, we could do that by taking a ballot to our <orgName>ROTC</orgName> instructor and having him sign it as a witness to send back to <placeName>Kentucky</placeName>.</u>
+      <u who="WEINSTOCK">Hmm. </u>
+      <u who="ZASTROW">No. Whether there was talk that I ignored or that I have since forgotten, my first real recollection is President <persName>Kennedy</persName>, on television, which his map behind him, telling us where <placeName>Vietnam</placeName> and <placeName>Laos</placeName> and <placeName>Cambodia</placeName> were and why we needed to be interested in—in that.</u>
+      <u who="WEINSTOCK">And this was after college, yeah?</u>
+      <u who="ZASTROW">Yeah. Sixty-two, maybe.</u>
+      <u who="WEINSTOCK">So what were you doing in <date>’62</date>? What—what did you decide to do after <orgName>Dartmouth</orgName>?</u>
+      <u who="ZASTROW">Well, I didn’t really know what I wanted to, so—but one of the things I did was that <orgName>ROTC</orgName> provided a <date>day</date>’s worth of testing to see if you could join <orgName>the Regular Army</orgName>. And so it was a big psychological test, and I said, well, did I really want to be an <orgName>Army</orgName> officer for the rest of my life? Well, I don’t know. So I went and I took the test honestly. I mean, so much of it you could read—you know, what was the answer they wanted if you were going to become an <orgName>Army</orgName> person, but I actually took it honestly and said I would rather read than go out and hunt buffalo or whatever. And I remember the great disappointment of my chief in <orgName>ROTC</orgName> saying they didn’t want me!</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">It didn’t surprise me a great deal, anyhow. So since I couldn’t become a <orgName>Regular Army</orgName> officer and since all I really knew how to do was go to school, I went to graduate school.</u>
+      <u who="WEINSTOCK">And where’d you go for that?</u>
+      <u who="ZASTROW"><orgName>Indiana University</orgName>.</u>
+      <u who="WEINSTOCK">What were you studying there?</u>
+      <u who="ZASTROW">English.</u>
+      <u who="WEINSTOCK">Can you tell me a little more about your—your experiences there?</u>
+      <u who="ZASTROW">[Chuckles.] Well, it’s a very big campus, not like <orgName>Dartmouth</orgName> at all. I didn’t live in a dorm anymore. Classes were a bit more demanding, in a—in a different sort of way. And I’m trying to think. I—I started teaching as a—one of their systems of giving scholarships in <date>those days</date> was to hire you as a teaching assistant, which meant that—nobody ever told you how to teach. They kind of threw you into a class and said, “Here are your textbooks. Now teach these incoming freshmen how to read and how to write.” Which was an interesting experience.</u>
+      <u who="WEINSTOCK">How—</u>
+      <u who="ZASTROW">So I did that.</u>
+      <u who="WEINSTOCK">—how—how did you get on with that?</u>
+      <u who="ZASTROW">Well, very well! I enjoyed—</u>
+      <u who="WEINSTOCK">Did you think you maybe want—sorry?</u>
+      <u who="ZASTROW">I enjoyed the students. It was—because the big deal was you had to write I think it was ten themes every semester, and at least some of these you had to do in class, and I took this all very seriously, far more seriously, I’m sure, than I needed to. I even remember getting one student thrown out because when I read his essay, I could remember having read it already.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">And I went and searched through the stacks of the library and found the magazine that the essay had been written in. [Laughs.]</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">And pointed out to him that he was—he was plagiarizing. He didn’t just plagiarize; he just took it, whole hog, from the magazine and stuck it in his theme for me.</u>
+      <u who="WEINSTOCK">The lazy man’s plagiarizing.</u>
+      <u who="ZASTROW">[Laughs.] Well, yeah, there was no Internet. So you didn’t have that kind of opportunity.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">Yeah. I remember going into a graduate class—it was a graduate French class, and we were discussing whether the war was going to take place in <date>the next week</date>, and <name type="event">the Cuban Missile Crisis</name> was only half of the concern. The other half of the concern was the fact that <placeName>India</placeName> and <placeName>Pakistan</placeName> were having some kind of major confrontation, I think over <placeName>Kashmir</placeName>, and they were both nuclear powers at that time, and so not only was the Cuban Missile Crisis going on, but that was going on. And the possibility of us all dying and why were we wasting our time in this French class for graduate students—but, yeah, that was very clear.</u>
+      <u who="WEINSTOCK">Can you tell me a little bit more—can you tell me a little bit more about the <persName>Kennedy</persName> assassination?</u>
+      <u who="ZASTROW">Yeah. I, of course, was listening—I listened to it or heard about it on the radio at first. My first thought when they actually said he had died was, Oh, God, no, not <persName>Lyndon Johnson</persName>!</u>
+      <u who="WEINSTOCK">[Chuckles.] Why’d you say that?</u>
+      <u who="ZASTROW">Well, <persName>Kennedy</persName> was progressive, and <persName>Johnson</persName> was, in our probably naïve political sense in <date>those days</date>, the conservative who had been picked so that <persName>Kennedy</persName> could get elected because he would bring <placeName>Texas</placeName>, the votes of <placeName>Texas</placeName> into the Democratic fold. They had very little use for <persName>Johnson</persName>, which was kind of misplaced, I have to say. As it turns out, he was rather more progressive than any of us would have guessed in <date>those days</date>.</u>
+      <u who="WEINSTOCK">Yeah. I was about to say. So, you know, come ’64 and the Civil Rights Act, did your thoughts on <orgName>Johnson</orgName> change at all?</u>
+      <u who="ZASTROW">Well—oh, yeah, of course. He became—he grew, and the country grew, and it wasn’t only civil rights; it was <name type="event">the War on Poverty</name>, a lot of things that he actually espoused as years went by that we would have never believed back in <date>the days</date> when he was <persName>Kennedy</persName>’s vice president. </u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="ZASTROW">I remember <placeName>the Gulf of Tonkin Resolution</placeName>, and there were people at the time who said, “This is really a fraud.” And there were a few senators who voted against it. I want to say there was one from <placeName>Alaska</placeName>. [<placeName>Arkansas</placeName> Senator <persName>J. William] Fulbright</persName>, we were very enthused about because he was very much an opponent of going into <placeName>Vietnam</placeName>.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="ZASTROW">—seemed to be wanting to turn the war into <orgName>another General Motors [Company</orgName>]. “We could win it if only we had better machinery.”</u>
+      <u who="WEINSTOCK">Did the—did the military-industrial complex come to mind at all?</u>
+      <u who="ZASTROW">I’m sure it was mentioned at the time. There was some fool—it might have been [General] <persName>Curtis</persName> [<persName>E.] LeMay</persName>—who wanted to bomb the country and pave it over.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">There were people like ex-General <persName>Edwin [A.] Walker</persName>, who, along with <orgName>the John Birch Society</orgName>—I guess that was probably a little earlier—who were these rabid anti any kind of <placeName>Vietnam</placeName>, but we had to go and “stomp out communism before the communists were at the beaches in <placeName>San Francisco</placeName>.”</u>
+      <u who="WEINSTOCK">Did you buy that argument?</u>
+      <u who="ZASTROW">I’m sorry, what?</u>
+      <u who="WEINSTOCK">Did you buy that argument? What—what were your thoughts about the—the Red Scare, as it were?</u>
+      <u who="ZASTROW">No, I was very much anti war at the time.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="ZASTROW">And probably taught that in my English classes. I remember some student from <placeName>Indianapolis</placeName>, which is the home of <orgName>The Indianapolis Star</orgName>, a in <date>those days</date> staunchly conservative (and that is polite) newspaper, and I’ve said something about it, and he told me, “It was in <orgName>The Indianapolis Star</orgName>, so it must be true.” And he kept telling me—</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">—that. “Sorry, I read the <placeName>Kentucky</placeName>—<orgName>The Louisville Courier-Journal</orgName>” [chuckles], which was in <date>those days</date> quite a progressive newspaper.</u>
+      <u who="WEINSTOCK">And so what—what was your status in the military at the time? Were—were you get a grad school deferral or deferment, rather?</u>
+      <u who="ZASTROW">A grad school deferment, which meant I had to report to <persName>Fort Benjamin Harrison</persName> [in <placeName>Indiana</placeName>] once a year for a physical. And it was pretty much an automatic deferment for up to—I think it was <date>up to eight years</date>.</u>
+      <u who="WEINSTOCK">So did you still—did you still think you were pretty much in the clear at the time, that you really wouldn’t have to go over there?</u>
+      <u who="ZASTROW">You know, because—as I say, I—I reported for a physical once a year. I didn’t really pay a whole lot of attention to the fact that I was in reality obligated to the military. It was way back on the back burner, and I seldom thought about it.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">I of course paid attention to what was going on in the world and was aware of the increasing American involvement. My friends who had—who had gone through <orgName>ROTC</orgName> with me at <orgName>Dartmouth</orgName> had gone into the military immediately and spent a year or two in <placeName>Germany</placeName> and, of course, were now long out of the military. </u>
+      <u who="WEINSTOCK">Sure. What—what about as, you know, things, like you said, begin to heat up a little bit? You know, in <date>’65</date> we get the—<name type="event">the Battle of la Drang</name>. Did you have a sense that things were becoming a little more eminent—imminent? Sorry.</u>
+      <u who="ZASTROW">Well, of course, I followed the news and was—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">—reasonably aware of what was going on in <placeName>Vietnam</placeName>. I was also very much against the fact that we were continuing to put more and more people in <placeName>Vietnam</placeName>. Obviously, <placeName>U.S.</placeName> troop strength was growing. I guess it was sometime around then when I actually started paying attention to what we were doing there, how we had kind of put the <placeName>Vietnam</placeName>—the South Vietnamese government in place and then had it call for us to help them, and thinking that somehow this wasn’t exactly  the right way to do things.</u>
+      <u who="WEINSTOCK">Sure. And so how—how much longer did you continue to be at <placeName>Indiana</placeName>? What—what did you do in the <orgName>mid-’60s</orgName>?</u>
+      <u who="ZASTROW">Well, I was taking graduate school classes. I got a master’s degree. I studied for a <persName>Ph.D.</persName> I took the <persName>Ph.D.</persName> qualifying exam. I was working on a <persName>Ph.D.</persName> thesis. And then the military said, “It’s time!”</u>
+      <u who="WEINSTOCK">When—when did they do that?</u>
+      <u who="ZASTROW">Must have been sometime in 1960—toward the end of ’67? Maybe <date>September</date> or <date>October of 1967</date>.</u>
+      <u who="WEINSTOCK">What happened after they came knocking?</u>
+      <u who="ZASTROW">Well, they sent me, ord- —I had to go to <persName>Fort Benjamin Harrison</persName> and take a physical exam again. But eventually sent me to officer basic at <placeName>Fort Benning</placeName>, <placeName>Georgia</placeName>, and it seems to me that would have been—hmm—’67?—’68, the beginning of <date>’68</date>. And I spent <date>a couple of lovely months</date> in <placeName>Georgia</placeName>, again taking military classes. You’ve probably never taken a military class, have you?</u>
+      <u who="WEINSTOCK">[Chuckles.] Only history.</u>
+      <u who="ZASTROW">These are the kinds of things where they give you the answer ahead of time and then they’re supposed to teach you so you can write down the right answers? Military classes are—are really kind of stupid. And because I’d once a week get together with choir up at Great Lakes Naval Training Center [sic; Station], a choir of recruits were now going through their own basic training. I find that they’re still doing exactly the same sort of thing, and when I happened to run into one who was a little bit smarter than the others, he will tell me, “Why am I teaching these classes? They’re such a waste of time! I could do this all in an hour.”</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">And he’s right.</u>
+      <u who="WEINSTOCK">Just jumpin’ through the hoops, though, right?</u>
+      <u who="ZASTROW">Yeah. Military classes are—are geared to the lowest common denominator, and if you start taking them, you get used to that.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">This is beside the point. So I went through <orgName>Army</orgName> basic training and then had orders to go to <placeName>Fort Leavenworth</placeName>, <placeName>Kansas</placeName>!</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">Where I worked for—<placeName>Fort Leavenworth</placeName> is a very strange base. It had no real soldiers there except the ones who were playing “guarding the base.” It was basically a school for upper-level officers, the command and general staff college.</u>
+      <u who="WEINSTOCK">Was it a prison yet?</u>
+      <u who="ZASTROW">The prison was there.</u>
+      <u who="WEINSTOCK">Okay.</u>
+      <u who="ZASTROW">That kind of a prison territory. The <placeName>Kansas</placeName> prison is near—the federal prison that’s <placeName>Leavenworth</placeName> was there. There was the <placeName>Leavenworth</placeName> DB, the disciplinary barracks, which was the military prison was there. The <placeName>Kansas</placeName> state prison was right down the road. </u>
+      <u who="WEINSTOCK">Just going for your <date>annual</date> checkup. [Chuckles.]</u>
+      <u who="ZASTROW">Right. And in fact, the first time I got paid at Fort Benning, I went in and said, “Look, you’re giving me much too much money.”</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">I would never do that now, but then I did.</u>
+      <u who="WEINSTOCK">[Laughs.]</u>
+      <u who="ZASTROW">And they said, “Oh, no, you have—<date>you’re</date> a lieutenant, but you have over <date>eight years</date> of service,” because they had started the service from when I got my commission at <orgName>Dartmouth</orgName> in <date>June of 1961</date>. </u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">So I did all of that, and eventually one of the colonels left to go run an artillery battalion in <placeName>Vietnam</placeName>, and so they gave me his job, which was to write this strange field manual, which would tell you things like: “If you have to move a battalion of troops 100 miles in the rain, where there are no railroads and the roads are paved with such-and-such,”—it would tell you how long that would take. It was a book of many, many tables. “How many bullets are you going to fire in this kind of conflict or that kind of conflict?”</u>
+      <u who="WEINSTOCK">So pretty dry stuff.</u>
+      <u who="ZASTROW">Hmm?</u>
+      <u who="WEINSTOCK">I said, “Pretty dry stuff,” yeah?</u>
+      <u who="ZASTROW">Yeah, pretty dry. But along with this came a contract, which was <orgName>Booz Allen</orgName> and Associates [now <orgName>Booz Allen Hamilton Inc.</orgName>], who in <date>those days</date> were a fairly major military contractor and had an office in <placeName>Kansas City</placeName>, and I would go down there several times <date>a week</date> to—I would be taken down there, because I could have a military driver, since this was such an important job. And we would talk about them coming up with all these ways to get the information we needed. </u>
+      <u who="WEINSTOCK">Right.	And so did you continue to be at <placeName>Leavenworth</placeName>?</u>
+      <u who="ZASTROW">I was at <placeName>Leavenworth</placeName> until I got orders to go to <placeName>Vietnam</placeName>, which would have been in <date>December of 1968</date>. Now, there’s a—</u>
+      <u who="WEINSTOCK">Can you tell me a little bit—</u>
+      <u who="ZASTROW">Let me tell you a side story first.</u>
+      <u who="WEINSTOCK">Please.</u>
+      <u who="ZASTROW">While I was still in graduate school and spending <date>the summer</date> in <placeName>Kentucky</placeName>, in our house in <placeName>Fort Thomas</placeName>, I had written a letter to the local newspaper, <orgName>The Cincinnati Enquirer</orgName>, saying, “<placeName>Vietnam</placeName> is a terrible thing. It’s the wrong war for the wrong reasons and the wrong place at the wrong time,” laying out all the reasons that those of us who were against the war back then used.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">—that the <placeName>U.S.</placeName> government was really working the will of the South Vietnamese people. And after two or three hours of this, I said, “Okay.” So when the orders came to go to <placeName>Vietnam</placeName>, my commanding officer said, “Well, look, I have friends who could change these orders for you, but I think you should go to <placeName>Vietnam</placeName>.” And so that’s what happened. Now what was your question? </u>
+      <u who="WEINSTOCK">So what happened next?</u>
+      <u who="ZASTROW">Hmm?</u>
+      <u who="WEINSTOCK">Well, yeah. I mean, I was going to ask kind of, you know, how—how it all came about. What was your reaction upon hearing those orders? Did you—did you ever have any idea of about, you know, taking drastic action, going to <placeName>Canada</placeName> or something like that to get out of that duty?</u>
+      <u who="ZASTROW">No. I don’t know if this makes any sense or not, but in fact I was kind of comfortable with the <orgName>Army</orgName> life I was living at <placeName>Fort Leavenworth</placeName>. I was doing jobs that were way above my pay grade. People liked me. We had lots of parties. Because I was one of the few eligible young officers, colonels’ wives loved for me to meet their daughters. It was—despite the fact that it was the military, it was a pretty comfortable existence. I lived well. I got paid well. Everything was taken care of for me.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="ZASTROW">The idea of continuing to be in the military was not that unpleasant.</u>
+      <u who="WEINSTOCK">Right. Can you</u>
+      <u who="ZASTROW">Now, what did I expect to find in <placeName>Vietnam</placeName>? I really didn’t know.</u>
+      <u who="WEINSTOCK">Right. And before we move on to that—</u>
+      <u who="ZASTROW">My idea—my idea of <placeName>Vietnam</placeName> was the big picture.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">We shouldn’t be there, and these were all the reasons we shouldn’t be there. they weren’t the little picture, which was, “God, it’s hot!”</u>
+      <u who="WEINSTOCK">Yeah.</u>
+      <u who="ZASTROW">“And it doesn’t smell good. And shooting people isn’t fun.”</u>
+      <u who="WEINSTOCK">Right. And before we get to <placeName>Vietnam</placeName>, you know, you said you had some parties on the base, and you also said that, you know, your interest in music was alive. What was it like being in the military while the sort of counterculture movement is—is getting under way?</u>
+      <u who="ZASTROW">[Laughs.] You couldn’t believe the comments that all of these fine officers at <placeName>Fort Leavenworth</placeName> during the Democratic Convention of ’<date>68</date>—</u>
+      <u who="WEINSTOCK">Can you tell me about it?</u>
+      <u who="ZASTROW">Sure. It was simple. You’d form up a group of soldiers, and go in and you’d wipe them all out. They found it absolutely hilarious when <persName>Jackie Kennedy</persName> [<persName>Jacqueline B. Kennedy Onassis</persName>] was going to be married to—what was his name? <persName>Aristotle Onassis</persName>. This was kind of—it means nothing <date>today</date>, but then it was pretty much: This is the end of the <persName>Kennedy</persName> era.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">I had long arguments with all these people who were far above me in terms of rank, and because they liked me and because I did a good job and all of that sort of thing, they were always companionable arguments. I mean, they were well aware that I didn’t have much use for a lot of the things they thought. </u>
+      <u who="WEINSTOCK">Right. Wow.</u>
+      <u who="ZASTROW">People were seeing—the military people I was with were seeing a revolution being fomented that, of course, they would have absolutely no use for and in fact they’d want to do in.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">I was—I started there on <date>December fifth</date>. Prior to that, I spent—oh, what was <date>it?—a week</date>, <date>two weeks</date>? I can’t remember anymore—at some like <placeName>fort</placeName> out in the middle of <placeName>Kansas</placeName> in <placeName>Vietnam</placeName> training, which was supposed to acclimate you to what you were going to find once you got to <placeName>Vietnam</placeName>. And about all I can remember from it was that we spent a lot of time in the officer’s club, drinking, and that you were not supposed to throw away batteries because the bad guys would get them and use them to blow you up by attaching mines to them. And you had to watch out for the holes that the bad guys would dig and then put spikes in the bottom of them and dip the spikes in some kind of animal shit, if I recall correctly, which would then poison you when you fell in the hole and became impaled on these spikes.</u>
+      <u who="WEINSTOCK">Wow. Yeah. Can—can you tell me a little bit about the actual journey over to <placeName>Vietnam</placeName>?</u>
+      <u who="ZASTROW">Yeah. It was on a <orgName>Braniff [Airways, Inc.</orgName>] airline [sic; airplane]. “We wag our tail for you” or something like that.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">I can’t remember. It was something like that, was its motto in <date>those days</date>. It was a normal airplane flight. We stopped in <placeName>Hawaii</placeName>, I think. We stopped in <placeName>Hong Kong</placeName>. And eventually we were—the stewardesses, I do remember, were all very old, which I found out later was true because they got some kind of combat pay, so the senior stewardesses would all try to grab those flights. </u>
+      <u who="WEINSTOCK">[Chuckles.] Can you tell me a little bit about arriving there?</u>
+      <u who="ZASTROW">Got off the airplane. We went to barracks. Of course, officers had special barracks to go to. There was an officers’ club there. This is beginning to sound like it was a very special sort of treatment, which it is true for military officers, by and large, [coughs] excuse me, live a whole lot better than their troops, though not so much in <placeName>Vietnam</placeName>. It was an air-conditioned officers’ club, where some of us spent some time.</u>
+      <u who="WEINSTOCK">Huh.</u>
+      <u who="ZASTROW">At Biên Hòa we spent <date>several days</date> while they tried to figure out what to do with us, and eventually we had sign up—well, not sign ups. [Unintelligible] told us where we were going.</u>
+      <u who="WEINSTOCK">And where were you assigned?</u>
+      <u who="ZASTROW">I read mine, and it said, “The 1st Air Cavalry Division [sic; <orgName>1st Cavalry Division (Airmobile</orgName>)]. And I said to myself, Oh, I don’t think I really wanna go there.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">But since I didn’t have a whole lot of choice, I went there. And I got on a helicopter and went from <persName>Biên Hòa</persName> to <persName>Phước Vĩnh</persName>, which was in <date>those days</date> the headquarters of <orgName>the 1st Air Cavalry Division</orgName>.</u>
+      <u who="WEINSTOCK">And why—why when you got your assignment were you apprehensive about being in the <orgName>1st Air Cavalry</orgName>? Did—did they have a reputation?</u>
+      <u who="ZASTROW">Oh, I heard about them. They had—one of their major activities of the recent past was la <placeName>Drang Valley</placeName>, and before that—where the hell were the Marines up north? <orgName>Khe Sanh</orgName>,—</u>
+      <u who="WEINSTOCK"><orgName>Khe Sanh</orgName>?</u>
+      <u who="ZASTROW">—where the famous line was—the <orgName>Marines</orgName>, of course, who were besieged there for <date>weeks</date> and <date>weeks</date> and <date>weeks</date>, and suddenly, then they said, the sky turned black with helicopters. And that was the 1st Cav coming to save them, which in fact they did. Helicopter—air mobility helicopters were still new, and the <orgName>Cav</orgName> was I think the first division ever to be an air mobile division. We had 400-and-some-odd helicopters, of which maybe 200 would actually be working on any given day, because they broke a lot. But the <orgName>Cav</orgName> had a reputation already and had just recently moved from Khe Sanh and the la <placeName>Drang Valley</placeName> to the area just north of <placeName>Saigon</placeName>, with the mission of preventing the bad guys from infiltrating the <placeName>Saigon</placeName> region.</u>
+      <u who="WEINSTOCK">Can you tell me a little bit about your—your—your duties at <persName>Phước Vĩnh</persName> [Base Camp] with the 1st <orgName>Air Cav</orgName>?</u>
+      <u who="ZASTROW">Oh, well, I started out going to a place called An Lộc, which was an old <placeName>Cav</placeName> base up in the middle of the country, where we spent—oh, I don’t know—a week learning how to be <orgName>Cav</orgName> troopers. And, you know, we got outfitted. We got our weapons and all that sort of stuff and had to—to zero in our rifles. Anyhow—</u>
+      <u who="WEINSTOCK">So—</u>
+      <u who="ZASTROW">One of the interesting things you did in <placeName>Vietnam</placeName> is you went to the local helicopter port and kind of shouted at the helicopters that were taking off, “Where are you going?” And if there was room, you got on and went.</u>
+      <u who="WEINSTOCK">So—</u>
+      <u who="ZASTROW">What was the question?</u>
+      <u who="WEINSTOCK">Well, I was going to say—but before you—you went to the—the information office, can you tell me any sort of particular memories from <date>the month</date> that you were being shuffled around as a first lieutenant?</u>
+      <u who="ZASTROW">Uhh! That’s a pretty dim period of time, because I never really knew what I was doing.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">Let’s see, I remember being in the jungle as a acting company commander, but I pretty much relied on the company’s first sergeant, who knew what was going on when I didn’t,—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">—and he told me what needed to be done, and I would give the necessary orders to do it. Because of the way the war was set up, we would have a company on the ground, supposedly in a particular location, and flying overhead would be the battalion commander, and flying over his head would be the brigade commander, and maybe, if it was an interesting sort of activity going on, the division commander would be in—so there were levels of helicopters further and further above what was going on.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">The way the jungle was set up was there was no way in the world they could see where we were. Periodically, we were supposed to “pop smoke,” let off a smoke grenade, which would locate us. And they would do that more or less regularly. We would get sometimes communications from these various command levels. But this was in <date>the days</date> before cell phones. It was in <date>the days</date> before radios worked terribly well. So you could kind of ignore the commands because you could always say, “Oh, that didn’t come through.” And it was often true: It wouldn’t come through. You would get nothing but static.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">And we would put our company across it, and the—or we would set up ambushes along this trail. And, of course, the—the Viet Cong were well aware of what we were doing, and they wouldn’t come down this trail; they’d take another one.</u>
+      <u who="WEINSTOCK">[Chuckles.] So they were a step ahead of you.</u>
+      <u who="ZASTROW">Hmm?</u>
+      <u who="WEINSTOCK">They were a step—they were a step ahead of you, it seems, yeah?</u>
+      <u who="ZASTROW">Oh, always. Of course they were. It was their country. Why wouldn’t they? I can’t think of any particularly amazing events that took place during that time. I know I certainly worked to make sure there were no events taking place. Being—</u>
+      <u who="WEINSTOCK">Right, so it’s a good sign, yeah.</u>
+      <u who="ZASTROW">We used to hold what were called “search and avoid” missions, which I suspect the Viet Cong were doing also. And if we were successful, we would all avoid one another, and that’s fine.</u>
+      <u who="WEINSTOCK">So to--to clarify that, the orders from above would have been to, you know, implement some sort of search and destroy assignments, right? You were meant to actively seek engagement, correct?</u>
+      <u who="ZASTROW">Well, not so much so, because what we were doing was keeping them from coming further south so that—</u>
+      <u who="WEINSTOCK">Okay. </u>
+      <u who="ZASTROW">—we would set up ambushes on trail and so forth. That wasn’t really a search and destroy mission; it was—I can’t remember what they called it. But it was a little different than search to destroy. Because we were or tended to be pretty much stationary, and every time somebody would find a new path, we would send a platoon over to take care of that path and so forth. But that—that—it was pretty unexciting in terms of—of being gung-ho military,—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">—which I can’t recall any of us were. But even if we had been, there wouldn't have been a whole lot for us to do,—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">—given the nature of—</u>
+      <u who="WEINSTOCK">But—</u>
+      <u who="ZASTROW">—assignment at the time.</u>
+      <u who="WEINSTOCK">But like you said, you were—you would—you were actively seeking to avoid engagements.</u>
+      <u who="ZASTROW">Personally, yes.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">And I was quite proud of getting nobody shot.</u>
+      <u who="WEINSTOCK">Yeah! That sounds like no small feat over there.</u>
+      <u who="ZASTROW">[Laughs.] Well, it was easier than it sounds like because a good bit of the time it was search and avoid, and that wasn’t just us.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">Well, it started at <persName>Phước Vĩnh</persName>. Then I was sent to <persName>Tây Ninh</persName> [Combat Base], which was where one of the brigade headquarters was; to <persName>Quần Lợi</persName> [Base Camp], which was another one, and there was a third one that I can’t even remember where it was. Anyhow, I went to all of them to find out what their information officers were doing, which wasn’t much. </u>
+      <u who="WEINSTOCK">So you were—you visited—</u>
+      <u who="ZASTROW">That’s all. [Unintelligible]. Go ahead.</u>
+      <u who="WEINSTOCK">You—you visited many different information offices and, you know, given the name, it sounds like in—in theory, these offices should all be on the same page. In really, was—was that your experience?</u>
+      <u who="ZASTROW">Well in reality, they didn’t whatever the person who was in charge of them had them do. We had—during the time I was at <orgName>the 2nd Brigade</orgName>, we had, at the most, two photographers, two writers and maybe a sound person who would go out with a tape recorder, and for a while, we had someone who went out with a movie camera.</u>
+      <u who="WEINSTOCK">And what—what was the—the end goal of these little—these little groups? Were you providing information to the—the brigade? Was this information to go back home?</u>
+      <u who="ZASTROW">The information was to go back home. We were publicizing the great activities of the <orgName>1st Air Cavalry Division</orgName>. We also—when anybody came in country, they were supposed to fill out a little form saying where were you from, what high school did you go to, that sort of thing. And we were supposed to get these regularly and send them in with a little paragraph saying, “Mr. So-and-so, a recent graduate of So-and-so <orgName>High School</orgName>, is now a distinguished member of <orgName>the 1st Air Cavalry Division</orgName>.” His company—this brigade—“fighting for freedom and justice and the American way.” And these were called hometown news releases, and these were sent to (as you might guess) hometown newspapers.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">Which, if they were hard up for news, they would put a little blurb like that in the paper. And <date>three months later</date>, whoever it was would get a letter from their mother saying, “Oh, look! I saw”—and we would have accomplished our task.</u>
+      <u who="WEINSTOCK">And what—what was that process like? What—what was your individual role in all of this?</u>
+      <u who="ZASTROW">We would write these things up. We would send writers and photographers out with the companies of <orgName>the 2nd Brigade</orgName>, or I would go myself, and we would attempt to discover stories. Well, what stories were depended. We had one enterprising young man who found out that a group had been—a platoon; It might have been only a squad—had been on watch someplace, and somebody had noticed hostiles creeping up on them. Well, not wanting to move in such a way as to get them all shot, he started whistle, “Hey <persName>Jude</persName>.”</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">And in some way alerted the other people the bad guys were coming, and they managed to all be saved. Well, I mean, it was a stupid story, but because of the “Hey <persName>Jude</persName>” bit, it suddenly became kind of catchy and interesting. So this was the kind of story we would send. It would either be in the local <orgName>Cav</orgName> newspaper or, if it was really good, it would go in the <date>quarterly</date> <orgName>Cav</orgName> magazine, or it would be sent to Stars and Stripes, which was the newspaper that went to all the military in <placeName>Vietnam</placeName>.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">And if it was extraordinarily good of course, it would be sent back to people like <orgName>the Associated Press</orgName> and <orgName>the United Press</orgName> [International] and so forth. </u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">We also were involved with any time a television or newspaper or a magazine writer from back in the <placeName>States</placeName> wanted to see what was going on, we would shepherd them around to the various companies, where they could see whatever kind of action they wanted to see.</u>
+      <u who="WEINSTOCK">Did it feel manufactured at all?</u>
+      <u who="ZASTROW">I’m sorry, what?</u>
+      <u who="WEINSTOCK">I said, “Did it feel manufactured at all?” Did it—did it feel very kind of mechanical, the way you were reporting these stories and showing people certain places?</u>
+      <u who="ZASTROW">Well, I don’t if I would say “manufactured” is the right word. It was—some of the stories were actually kind of interesting, and they were good human interest stories. Lots of good pictures of—of people looking in caves, where there might have been a <placeName>Viet Cong</placeName> <date>a week ago</date>. </u>
+      <u who="WEINSTOCK">Right, open arm—</u>
+      <u who="ZASTROW">They would be relocated.</u>
+      <u who="WEINSTOCK">This is the open arm—the open arms program?</u>
+      <u who="ZASTROW">That’s exactly it. So at the time, because we were dropping bombs, a number of these people were in fact coming into the American center, which was in—might have been <placeName>Sông Bé city</placeName>; I can’t remember for sure. But in any case, there were a lot of them. There were, like, hundreds. And we would send helicopters out, and they would be filled with these poor souls who were bleeding from their ears because of the American bombs. And we would see that they would be brought to this resettlement center.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">Well, I can recall doing that. And this was going on at the same time when I <orgName>Cav</orgName>-based—at some location I no longer remember where; it was a helicopter base—had been infiltrated by a couple of Vietnamese kids, who had been playing along the fence and had dropped matches by the fence, which eventually ended up blowing up tons and tons of helicopter fuel, along with the many helicopters that were there.</u>
+      <u who="WEINSTOCK">Why was that?</u>
+      <u who="ZASTROW">Because that wasn’t what they were supposed to be doing!</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">They were there to—</u>
+      <u who="WEINSTOCK">What do you mean by that?</u>
+      <u who="ZASTROW">Well, they were there to see the wonders of the <orgName>Cav</orgName>, all the good things we were doing to save the people from the evil enemy. They were not supposed to be noticing that the <placeName>U.S.</placeName> military was screwing up royally because they didn’t have a guard in front of where two kids were playing near helicopter fuel.</u>
+      <u who="WEINSTOCK">So—</u>
+      <u who="ZASTROW">Well, let me tell you one more example. Just—</u>
+      <u who="WEINSTOCK">Please.</u>
+      <u who="ZASTROW">We—we were told that one of the companies had discovered a—I don’t remember if it was sort of a cave or a bunker that had been a Vietnamese shelter and that there might be things left in there that were important. So I got in a helicopter—there was a company on the ground that was supposed to secure the area, and I got in a helicopter with I think they were TV people who were going out to film <placeName>U.S.</placeName> troops going into this bunker, whatever it was, to capture these important documents. Who knows? Maybe dead bodies.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">—which sent shrapnel in a number of directions and did no good either for the helicopter blade nor for the helmet. Well, this was a problem because here were these TV people, but, no, they weren’t going to take pictures of that. “Let’s go over here and look at this bunker, where there may be important enemy documents.” And I think there were something like—the ledgers—the Viet Cong were kind of famous for keeping diaries, and there were some in there, I think, and, oh, probably zero military value.</u>
+      <u who="WEINSTOCK">Huh! So it sounds like both the reporters and you had—had a very set agenda.</u>
+      <u who="ZASTROW">Yeah. I would go every evening to the local brigade commander’s briefing, where people told him what had gone on during <date>the day</date> and got reports from the various people who were working for him. And I would periodically be asked, “Now, this television <persName>person”—I</persName> can’t even remember who they were <persName>anymore—“is</persName> said to be coming out here. We’ve heard that he says very bad things about the <placeName>U.S.</placeName> involvement in <placeName>Vietnam</placeName>. If he comes here, what should we do with him?”</u>
+      <u who="WEINSTOCK">Very conveniently.</u>
+      <u who="ZASTROW">This was not as simple as it sounds, because, of course, those of us who were there working on this had no idea what was going on in terms of newscasts back in the States. We, of course, never saw an American newspaper. Our information source was maybe Stars and Stripes, which we would get periodically. Sometimes we wouldn’t see it for <date>a month</date> at a time.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">—this was a fairly subjective sort of thing, that you found a leg somewhere because a bomb had torn somebody apart, or you could count the leg, but then you don’t count the arm and—needless to say, these were very strange assessments sometime. But we would have them all listed for the brigade commander at the briefing that night. And we would find out whether the brigade had had—</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="ZASTROW">—<date>a successful day</date>, and how many people we’d killed.</u>
+      <u who="WEINSTOCK">Huh.</u>
+      <u who="ZASTROW">Someplace along the line I should tell you we became politically correct, and they were no longer “dinks,” which was how it was put up on the board for briefings: “Dead Dinks.” And they became “hostiles.” That’s all.</u>
+      <u who="WEINSTOCK">When did that happen?</u>
+      <u who="ZASTROW">I’d like to say maybe <date>May</date> or <date>June</date>. </u>
+      <u who="WEINSTOCK">And so how—</u>
+      <u who="ZASTROW">If I had had a wider view of the war, which I got much later, but if I’d had a wider view of the war then, I would have realized this was the beginning of the attempts at Vietnamization of the war. You know, [cross-talk; unintelligible]—</u>
+      <u who="WEINSTOCK">Right. Can you tell me about your understanding of that process?</u>
+      <u who="ZASTROW"><orgName>Vietnamization</orgName>?</u>
+      <u who="WEINSTOCK">Yeah.</u>
+      <u who="ZASTROW">We didn’t see any of it. We were—<orgName>the 1st Air Cavalry Division</orgName> was known at the time as being particularly ferocious. Other divisions would have a company go into a [cough], go somewhere near a village and would have shots fired at them from the village, and they would go into the village and try to pacify it. The <orgName>Cav</orgName>, if there were shots fired from a village, would go in and blow it away. </u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="ZASTROW">So <orgName>Vietnamization</orgName>—and pacification, for that matter—while they were terms we were aware of, they didn’t mean a whole lot because we didn’t change the way we operated. From what I could see, from where I was—and, again, you know, I was looking at a very tiny segment of the war, though probably more—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">—than I would have if I had been an infantryman walking around the jungles, trying to avoid getting shot. But still pretty narrow.</u>
+      <u who="WEINSTOCK">Can you—can you tell me a little bit—can you tell me a little bit about your thoughts on your role of providing these very sort of manicured stories for the reporters? Did you feel any sort of moral obligation to actually tell the truth, or were you just following orders?</u>
+      <u who="ZASTROW">Well, I was following orders, and at the same time, we would, whenever possible, get together with these reporters off camera and tell them, “We think this really sucks.” And they would normally—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">—say the same thing. This not only works for the stories that reporters would do; it worked for the stories we did. We had one wise-ass sergeant who was a writer for me, and he wrote what was actually a very nice sort of piece about troops sitting around, talking about home and reminiscing about their high school days and so forth, kind of sitting around a campfire at night after being on patrol <date>all day</date>. And it was rejected by the censors, who said, “You can’t really talk about people longing for home.” So he changed It [chuckles] and rewrote the story, saying they were singing “The Star-Spangled Banner.” And it was published.</u>
+      <u who="WEINSTOCK">[Laughs.] So that’s a pretty big change.</u>
+      <u who="ZASTROW">Yeah. It was a little more subtle than that, but essentially that was it.</u>
+      <u who="WEINSTOCK">Yeah.</u>
+      <u who="ZASTROW">Yes. I was in the information office until <date>my last day</date>. [cross-talk; unintelligible]—</u>
+      <u who="WEINSTOCK">Can you tell me a little bit about the—the end of your experiences over there?</u>
+      <u who="ZASTROW">Well, things didn’t change outside of the fact that because we were part of the brigade headquarters, whenever the headquarters moved, we of course would move with them, which meant building new places to stay and putting up more sandbags and all of that sort of stuff. The activities—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">—pretty much stayed the same. We would get different officers in. For instance, we had one young lieutenant who joined the brigade as their G5, which was their civil affairs officer. And I remember going with him, because we had blown up a Vietnamese—several Vietnamese families, and his job was to provide I think it was $100 each to the families for their children we had managed to kill. And as not part of the same mission but part of the same money-paying activity, we were paying the <orgName>Michelin</orgName> people, the rubber plantation, $1,000 for every tree we destroyed. Well, there was a kind of equality or lack of equality there that was pretty bothersome: a hundred bucks for a kid, a thousand bucks for a tree.</u>
+      <u who="WEINSTOCK">Right. Yeah.</u>
+      <u who="ZASTROW">And there were other little—</u>
+      <u who="WEINSTOCK">Yeah.</u>
+      <u who="ZASTROW">—things like that. We had decided—or the division had decided that this village, the Montagnard tribesmen who lived up toward the Cambodian border were too friendly with the—with the hostiles, so we thought we needed to relocate them. So we put up large tents in an area which at one point had been an American landing zone. And I had my photographers there, as a matter of fact, taking pictures of these people in their ox carts, with their oxen pulling their entire family possessions, which weren’t much, down a road into this place that <orgName>the 1st Air Cavalry Division</orgName> had decided they should stay.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">—was the head man of the Montagnard village invited me into his tent with his family and invited me to join them in eating this snake, which they had been broiling on some sticks by a fire nearby. And being the good American, knowing that we had to be nice to the locals, I took a couple of bites of snake, which was not terribly tasty,—</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">—and washed it down with some pretty foul alcoholic beverage that he had in their glass, which I hoped the alcohol was sufficient to sterilize. </u>
+      <u who="WEINSTOCK">[Chuckles.] No. No, no, thank you. No, I—I was asking about, you know, any sort of relevant, you know, experiences or memories towards the end of your service over there, but, yeah, the—the soiree, if you will, with the chieftain—it’s pretty telling.</u>
+      <u who="ZASTROW">Well, yeah, there were—there were so many things like either of those stories, that kind of underlined what the <placeName>U.S.</placeName> was doing. And these were just the little things. You know, the footnotes you would put in the story of why are we there or why should we not be there.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">But those—those were the kinds of things you could see—again, from a very narrow perspective. The helicopter pilots who were the bank tellers <date>the year earlier</date>. You know, these were young people, at <date>the age of 18 or 19</date>, who were now flying helicopters for <orgName>the U.S. Army</orgName> with [unintelligible] pronouncements saying, “<persName>Kill</persName> all the gooks. Let God sort ’em out,” that sort of thing.</u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="ZASTROW">They were now men.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">You would try to sleep someplace that was semi-dry, and you would wake up in the morning wet—no matter what you did to protect yourself—wringing out socks was one of my least favorite activities. </u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="ZASTROW">But every once in a while, we’d get mortar rounds in the base. Of course, <date>the big year</date> for [the] Tet [Offensive] was <date>1968</date>, so I missed that, but <date>a year</date> from then—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">—there were many attacks all over <placeName>Vietnam</placeName>. And I certainly remember mortar rounds landing on whatever base we were at at the time. But by and large, I did not feel endangered. So I didn’t leave with the feeling of relief that—that the people who were, who thought every day was going to be their last. I did not have that feeling of relief. But I sure was glad to get out of there.</u>
+      <u who="WEINSTOCK">Yeah. Can you—can you tell me a little bit more about leaving, actually leaving the country? Where did you fly to?</u>
+      <u who="ZASTROW">We were supposed to—let’s see, we left—again, I think we stopped at <placeName>Hawaii</placeName>. I don’t remember what airline it was. I do remember it was very old stewardesses again. I think we were supposed to land at San Francisco International Airport, and for some reason, weather—I think we couldn’t, and so we ended up at <placeName>Travis</placeName>, which was the Ari Force Base.</u>
+      <u who="WEINSTOCK">[Laughs.] You were set on leaving.</u>
+      <u who="ZASTROW">I had no intention of staying in. We got paid, all that sort of stuff, and eventually I ended up at the San Francisco International Airport. I think they bused us there. And I wanted to rent a car. That, I do remember because I decided I would go see—I had friends who lived in <placeName>Palo Alto</placeName> [<placeName>California</placeName>], college roommates, as a matter of fact.</u>
+      <u who="WEINSTOCK">Okay. </u>
+      <u who="ZASTROW">And I went to the rent-a-car, and they wouldn’t let me rent one because I didn’t have a credit card. </u>
+      <u who="WEINSTOCK">Huh!</u>
+      <u who="ZASTROW">I had probably six or seven thousand dollars in cash in my pocket, because I’d gotten paid all the back pay from <placeName>Vietnam</placeName>, plus I had on a uniform. I had captain’s bars on the uniform. I had several rows of ribbons. All that stuff. But, no, they wouldn’t let me rent a car.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">So eventually I called friends, and they came and picked me up, and that was that.</u>
+      <u who="WEINSTOCK">So what—what did you do for the next couple of—what did you say?</u>
+      <u who="ZASTROW">Let me finish the story. <date>A couple of days later</date>—</u>
+      <u who="WEINSTOCK">Please.</u>
+      <u who="ZASTROW">—because I was still staying with the same friend, we went to a speech.—it must have been on <orgName>the Stanford [University</orgName>] campus—by [<persName>Abbot H.] “Abbie” Hoffman</persName>, who was, of course, one of the Chicago Eight that—one of the loudest and most obnoxious of antiwar activists at the time. And I was blown away. How could this person talk like this? He said “fuck” in every other sentence.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">But I acclimated, and eventually ended up—so I went home for a little while, then went back to <placeName>Palo Alto</placeName> and spent a good deal of time in Haight-Ashbury [a neighborhood in <placeName>San Francisco</placeName>], doing antiwar things and going to demonstrations. When <placeName>Kent State</placeName> happened, going to <date>the first days</date> at <orgName>Stanford</orgName>, when they sent up balloons, and the <placeName>San Francisco</placeName> cast of [the musical] Hair came and sang for us—you know it was just—it was a great period of time, of being loosely anti war and kind of hippie-ish.</u>
+      <u who="WEINSTOCK">Yeah. I mean, can you tell me some of your experiences in Haight-Ashbury? You know, I—I have to imagine that was some of the real, real hotbed for radical antiwar sentiment.</u>
+      <u who="ZASTROW">Well, I think they would like to persuade people that it was political, and it was more lifestyle, I think, than anything else, so that if you asked anybody, they would say, “Fuck the war,” in fact they were much more interested in where the next dope was coming from. Or—</u>
+      <u who="WEINSTOCK">[Chuckles.] Yeah.</u>
+      <u who="ZASTROW">I mean that’s just how it was. And I remember thinking at the time, when I [unintelligible] have an answer of—it was a very pleasant place to be in. You felt very comfortable walking around there. And a lot of them had kids, and these were kids who were named Peace or <orgName>Harmony</orgName> and—I remember thinking at the time, Now, what are these kids going to grow up to be?</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">And I, of course, don’t know.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">They probably ended up in asylums, though, you know, I really have—</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">—no idea. Friends of mine—again, college roommates, who lived in <placeName>Palo Alto</placeName>, had children of that age and were going to the local <placeName>Montessori</placeName> school. I still remember going to a fundraiser there when one of the classmate’s father came and played the guitar, and his name was [<persName>Jerome J.] “Jerry” Garcia</persName>, who of course was—</u>
+      <u who="WEINSTOCK">No kidding!</u>
+      <u who="ZASTROW">—one of the founders of <orgName>the Grateful Dead</orgName>. [cross-talk; unintelligible]—</u>
+      <u who="WEINSTOCK">Can you tell me a little bit more about the mu- —</u>
+      <u who="ZASTROW">Hmm? I’m sorry, what? That was an aside.</u>
+      <u who="WEINSTOCK">Uh-huh. No worries.</u>
+      <u who="ZASTROW">[cross-talk; unintelligible]. Go ahead.</u>
+      <u who="WEINSTOCK">Can you—can you tell me a little bit—can you tell me a little bit more about the music of <date>the day</date>?</u>
+      <u who="ZASTROW">Yeah. We several times gathered ourselves and went to <placeName>the Fillmore West</placeName>, where you would stand around on the floor and have your eardrums blasted.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">I can’t even remember the names of the—it was some kind of—Morning? Early Morning? Something like that, that was a big group at the time. Cold Blood was another one. I remember [<persName>Charles E. A.</persName>] “<persName>Chuck</persName>” <persName>Berry</persName> being at the <persName>Fillmore</persName>, beating on a piano. But, you know, of course, <persName>Janis</persName> [L.] <persName>Joplin</persName> was around, though I never saw here. <date>A year later</date>, I went to a rock concert. It was called The Atlanta Pop Fest. Of course, it was the wonderfulness of <placeName>Woodstock</placeName> [<orgName>Music &amp;amp</orgName>; <orgName>Art Fair</orgName>] had taken place while I was in <placeName>Vietnam</placeName>. We only kind of—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">—heard vaguely about that at a great distance. But <orgName>the Atlanta Pop Festival</orgName> was an attempt to do the same—something similar a little bit later. It was near <placeName>Macon</placeName>, <placeName>Georgia</placeName>, and [<persName>James M.]</persName> “Jimi” Hendrix was playing “The Star-Spangled Banner” at midnight on the Fourth of <date>July</date>, which I, of course, in my drug-induced phase, can still remember.</u>
+      <u who="WEINSTOCK">[Laughs.]</u>
+      <u who="ZASTROW"><persName>Richie Havens</persName> was one of the people opening it—there were hundreds of thousands of people. And, of course, there was a drug bazaar on the way in, and there was a private swimming club down the way—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">—where everybody ripped off their clothes and went swimming in the private club after overwhelming the fence. I, basically there were just so many people that—the police weren’t happy with any of this; there wasn’t much they could do.</u>
+      <u who="WEINSTOCK">Yeah.</u>
+      <u who="ZASTROW">[cross-talk; unintelligible]—</u>
+      <u who="WEINSTOCK">Did it—did it—</u>
+      <u who="ZASTROW">Go ahead.</u>
+      <u who="WEINSTOCK">Did it—did it ever feel like, you know, you—you had sort of missed the heyday of, like you said, <placeName>Woodstock</placeName> in I guess more of the peaceful days, you know? I guess you would have been in the country or probably coming right back into the country around <placeName>Altamont</placeName> [<name type="event">Speedway Free Festival</name>]. Did—did you have a sense that things were starting to become less peaceful?</u>
+      <u who="ZASTROW">I was in <placeName>California</placeName> when <placeName>Altamont</placeName> was going on. And I remember reading about it, hearing about it, seeing it on television, and being sorry I hadn’t been there, of course. No, it did not feel like the end; it felt like the beginning. It was just—it was growing. It was going to be a wonderful world,—</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">—and we were going to do not much but eat free food, smoke free dope and listen to lots and lots of free music.</u>
+      <u who="WEINSTOCK">[Chuckles.] So how—how did that continue, then?</u>
+      <u who="ZASTROW">[cross-talk; unintelligible]—</u>
+      <u who="WEINSTOCK">Did—did—did that turn out to be like you expected?</u>
+      <u who="ZASTROW">Not quite. In early 19- —let’s see, I think in—I can’t remember when <placeName>Vietnam</placeName> Veterans Against the War put on <placeName>Dewey Canyon III</placeName> [an antiwar protest in <date>April 1971</date> in <placeName>Washington</placeName>, <placeName>D.C.</placeName>]. <persName>Dewey Canyon III</persName>? I think that’s right. Which was the veterans, <placeName>Vietnam</placeName> veterans going to <placeName>Washington</placeName> and throwing away their medals. And their spokesperson was very articulate and talked to <orgName>the Senate Foreign Relations Committee</orgName> [sic; <orgName>U.S. Senate Committee on Foreign Relations</orgName>] about why we shouldn't be in <placeName>Vietnam</placeName>. And it was the first time, really, that—that—that veterans had gotten this involved. There were, I think like, there were over a thousand of them, all going as members of <orgName>Vietnam Veterans Against the War</orgName>. And the spokesperson was, of course, <persName>John [F.] Kerry</persName>, who has since gone on—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">—to other jobs. But he was—had been a naval lieutenant in <placeName>Vietnam</placeName> and was very articulate. Still is, for that matter. And a lot more was being investigated by a great many people about where this war had come from, not only what we were doing but why. And, of course, the huge demonstrations were just really getting started. There were local ones all over the country. There were huge ones in <placeName>Washington</placeName>.</u>
+      <u who="WEINSTOCK">How did—what was your—what was your reaction to that?</u>
+      <u who="ZASTROW">Well, I knew they were right, and I knew that I should do something about it. And so I did.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">And eventually I started writing the local newsletter and eventually became head of the local chapter and got arrested for carrying a flag in <date>a Veterans Day</date> parade—and you know also—which is one of the things that actually got us really off the ground in <placeName>Cincinnati</placeName>. And eventually got the job of coordinating a whole region full of chapters of the organization.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">—elected to be in <orgName>the national office of the organization</orgName>, which at that point had just moved to <placeName>Chicago</placeName>, and I had that job for <date>the next 25 years</date>, more or less.</u>
+      <u who="WEINSTOCK">Were you—were you involved with—were you involved with <placeName>Vietnam</placeName> Veterans Against the War when <orgName>the Winter Soldier Investigation</orgName> was going on?</u>
+      <u who="ZASTROW">No, that was before I started. We used movies from <orgName>the Winter Soldier Investigation</orgName>.</u>
+      <u who="WEINSTOCK">Okay. </u>
+      <u who="ZASTROW">I met several times with—well, some of the people who talked—who were talking at that were the people I knew because I worked with them in VVAW. Some of the people who sponsored it, I got to know over a period of time. We met fairly—well, several times, anyhow, with <persName>Jane Fonda</persName> and ]<persName>Thomas E.] “Tom” Hayden</persName>, who were at that time working on <orgName>the Indochina Peace Project</orgName> [sic; Indochina Peace Campaign]. </u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">—gender equality and on and on and on. So we ended up  being—</u>
+      <u who="WEINSTOCK">Can—</u>
+      <u who="ZASTROW">—[cross-talk; unintelligible].</u>
+      <u who="WEINSTOCK">[Chuckles.] Can you—can—can you tell me a little bit about your responsibilities as a national coordinator for <orgName>VVAW</orgName>?</u>
+      <u who="ZASTROW">Yeah. When I started, the war was still going on, and we were trying to make sure that it stopped, and in fact “bring our brothers home” was a big part of what we were saying. The organization had gotten—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">—a big push from [<orgName>Playboy</orgName> magazine founder] <persName>Hugh</persName> [<persName>M.] Hefner</persName>, who had published an ad for the organization: “We are the silent majority”—or “This is the silent majority.” It’s a picture of a coffin. “We must speak for them. And it was in Playboy, and as you might guess, Playboy was popular in <placeName>Vietnam</placeName>, and this brought in—</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">—thousands and thousands of people, troops in country, writing wives to join the organization. So we were pretty good-sized at the time, and we had a number of people who were doing work at the various military bases. We actually had chapters, fairly secretly, in <placeName>Vietnam</placeName> at the time, amongst any active-duty military. But our job was we published a newspaper <date>every month</date>. We of course kept track of what our main chapters were doing, tried to suggest things to do, were involved with the leadership of any number of other organization, particularly in planning things like, for instance, the <date>march</date> to the <placeName>Fontainebleau</placeName> [luxury hotel in <placeName>Miami Beach</placeName>, <placeName>Florida</placeName>] during the [President <persName>Richard M.]</persName> <persName>Nixon</persName> nomination in—was that ’72?</u>
+      <u who="WEINSTOCK">Yeah. This is—this is <persName>Nixon</persName>’s reelection, right?</u>
+      <u who="ZASTROW">Yeah.</u>
+      <u who="WEINSTOCK">Can you—can you tell me about that particular event?</u>
+      <u who="ZASTROW">Oh, Lord! We mobilized people from all over the country. We had—I think there were six people who were—we had one of them who were on the coordinating committee for I think it was officially <placeName>Flamingo Park</placeName> in <placeName>Miami Beach</placeName>, which we of course immediately renamed People’s Park. We had a convoy from—that started in <placeName>Milwaukee</placeName> for <placeName>the Middle West</placeName>, and more cars would join in all the way along. We couldn’t go any faster than 45 miles an hour because one of the chapters had a school bus, where they were probably smoking dope, but I don’t know—remember that part. Anyhow [chuckles], it couldn’t go more than 45 miles an hour.</u>
+      <u who="WEINSTOCK">Huh!</u>
+      <u who="ZASTROW">There were women on the stage that we saw as we were coming in, and they were being manhandled by a group of local Nazis! Well, of course, the upstanding young veteran—we immediately grabbed some chairs and started hitting the Nazis over the head with them and threw them off the stage, and we were much beloved by the Jewish community of <placeName>Miami</placeName>—<placeName>Miami Beach</placeName>. Little old ladies would stop us on the street and see the <orgName>VVAW</orgName> button and give us candy and buy us food. They thought we were the greatest thing going. And we were, of course. </u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="ZASTROW">—on the night of—I think when <persName>Nixon</persName> was going to be nominated, we had—the march was a silent march on the convention headquarters. And there were thousands of people were absolutely quiet. It was really a very moving sort of thing. If you’ve ever seen the movie, [Born on] the Fourth of <date>July</date>, it was [<persName>Ronald L.] “Ron” Kovic</persName> who was one of the veterans in a wheelchair involved in that, who was one of several veterans who made it into the convention center. And we didn’t prevent <persName>Nixon</persName> from getting nominated, and we didn’t prevent <persName>Nixon</persName> from getting reelected. But he did sign a peace treaty, so—</u>
+      <u who="WEINSTOCK">Do you think that—do you think that the protests had—had encouraged that, the signing of the peace treaty?</u>
+      <u who="ZASTROW">Oh, not directly, but indirectly, yeah. I mean, we were one manifestation of what was at that point I think a general movement that the war needed to end. It was only after—I think the war needed to end because we—we—we couldn’t win the war. It was only in <date>the period of years</date> after that that I think more and more people came to see that the war was just—had been a mistake from the first,— </u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">—that a military-industrial complex had needed a war to try out a bunch of new war machines, and they were using <placeName>Vietnam</placeName> as a testing ground, that things like <placeName>the Gulf of Tonkin</placeName> [incident] were a manufactured incident, that the government had lied with great consistency.</u>
+      <u who="WEINSTOCK">Right. Well, you know, speaking of <persName>Tonkin</persName>, you know, somewhat of an earlier event, obviously, being in ’64, I actually came across one of your articles on the <orgName>VVAW</orgName> website titled “History of the U.S. War in <placeName>Vietnam</placeName>.” </u>
+      <u who="ZASTROW">Right.</u>
+      <u who="WEINSTOCK">And I saw that it mentions, you know, a much broader <placeName>U.S.</placeName> involvement in <placeName>Vietnam</placeName> beginning with, you know, Capt. [John] “Mad Jack” <persName>Percival</persName> firing into <placeName>Da Nang</placeName> in <date>1845</date> and <persName>Bảo Đại’s</persName> conflict with the Buddhists and so on. When did you—you start having an interest in the—the broader <placeName>U.S.</placeName> involvement, and do you think that people were becoming more aware of the broader <placeName>U.S.</placeName> involvement and that it ultimately led to more resentment of the—the current situation?</u>
+      <u who="ZASTROW">That’s a fairly major sort of question. Because we were consistently going out and broadcasting our view of the war as VVAW, it obviously was to our advantage to do all we could in terms of researching the history of the war. So we read,—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">—and we studied, and the more we read and the more we studied, the clearer it became that the war was not just a mistake but that it was worse than just a mistake. And that was a view that we certainly did our best to put forward. And I think we did it pretty effectively. We always had going for us the fact that we’d been there.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">—it doesn’t mean you know a damn thing, but it makes it seem as if we did. </u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">“Well, don’t you think you’re doing things in the wrong way?” It meant a whole lot just because you had this paper say you’d been there. Again, it didn’t give us any more knowledge, but it looked like it did. But because we didn’t [cross-talk; unintelligible]—</u>
+      <u who="WEINSTOCK">Did you ever experience sort of—[Pause.]</u>
+      <u who="ZASTROW">What?</u>
+      <u who="WEINSTOCK">Sorry. I—I—I was saying, did you ever experience any sort of outright rejection of veterans or—or mistreatment from the general public?</u>
+      <u who="ZASTROW">No. I’m aware of—of course I’m aware of all the stories about, “Oh, you’re baby killers” and—and, you know, all of that sort of stuff.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">And we looked pretty hard to try to find people who had been spit on when they came home, and we couldn’t find anyone. Now, having said that, one: Those of us in <orgName>VVAW</orgName> were a little different because we were very public. A lot of <placeName>Vietnam</placeName> veterans were not public and came home and I don’t think ever said very much about the fact that they’d been there. That’s point one.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">—though all—we couldn’t find people who really were threatened or whatever for being in <placeName>Vietnam</placeName>. You know, I can’t say it didn’t happen. I don’t think it was normal to happen, have that happen. But the fact that no one said, “Good job. Thanks for defending <placeName>us”—and</placeName> they shouldn't have said that, but the fact that nobody did was a different world than <date>today</date>. I mean, how many pictures on television do you see the fathers coming home and surprising their little kid in their second grade class? Because the father had been in <placeName>Afghanistan</placeName> for <date>six months or eight months</date> or whatever. Well, that’s almost a staple of <placeName>U.S.</placeName> television <date>today</date>. Never would have happened in <placeName>Vietnam</placeName> during the war.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">Oh, yeah, very radical. Like I say, we were way to the left of [<placeName>U.S.</placeName> senator from <placeName>Vermont</placeName> and presidential candidate in <date>2016</date> Bernard] “<persName>Bernie</persName>” [<persName>Sanders</persName>].</u>
+      <u who="WEINSTOCK">What do you mean by that? Were—were—were you—were you a communist?</u>
+      <u who="ZASTROW">[laughs] Whatever that means.</u>
+      <u who="WEINSTOCK">Right. You know, I—I—[Chuckles.]</u>
+      <u who="ZASTROW">It’s really hard to answer that question because, you know, the—<orgName>the American Communist Party</orgName> [sic; <orgName>Communist Party USA</orgName>], while—in <date>the days</date> that we were doing the antiwar work, were always on the side of truth and justice, but it was also a very feeble group of old people. And as far as I could tell—while we may have had people who joined <orgName>the Communist Party</orgName> or joined various other communist organizations, the organization was never communist.</u>
+      <u who="WEINSTOCK">Who was that?</u>
+      <u who="ZASTROW"><persName>Linda</persName> somebody, and I can’t remember her name anymore.</u>
+      <u who="WEINSTOCK">Okay. </u>
+      <u who="ZASTROW">No, I would only be guessing anymore.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">That would have been, I don’t know, ’92, ’93, something. I don’t remember when the—the first <name type="event">Iraq War</name> was. But anyhow, we opposed that. We of course opposed <placeName>U.S.</placeName> activities in <placeName>Iraq</placeName>, in <placeName>Afghanistan</placeName>. We became kind of a Big Brother organization to <orgName>Iraq Veterans Against the War</orgName>, and I think we funneled money to them for a while until they became quite self-sufficient, which I think they are by now. </u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">And I ended up choosing family. And while in some ways I feel a little guilty about that, it was still the right thing to do, so—so be it.</u>
+      <u who="WEINSTOCK">Are there—are—are—are there any other memorable experiences from your time as a coordinator for <orgName>VVAW</orgName>? Can you talk a little bit more about maybe some more fringe protests or, you know, some more consequential protests?</u>
+      <u who="ZASTROW">We did protests centered around Agent Orange in <placeName>Washington</placeName>, in—oh, let me think, when would that have been? Sometimes in the <date>’90s</date>, I think. And we had, I don’t know, four or five hundred veterans camping on the [National] Mall. It was—we had originally—through the work of <placeName>Bella</placeName> [<persName>S.] Abzug</persName>, who was a <placeName>Brooklyn</placeName> [<placeName>New York</placeName>] congresswoman. Had originally gotten the right to camp on the mall during <placeName>Dewey Canyon III</placeName>. Now we were back to camping on the mall. And we had our lawyers. You know, we got it all arranged, so we camped there once again.</u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="ZASTROW">Good for you! Of course, we were all, at the same time, working for amnesty for the people who had gone to <placeName>Canada</placeName>, which eventually happened. We did a march to <placeName>Arlington</placeName> [National] Cemetery. I can still remember because I was kind of the administrator of <date>this march</date>, being hauled into this little office by the park police, saying, “You can’t march there.” And I’d say—I’m telling them, “We’re going to <date>march</date>, and if you arrest us, you’ll look like fools.” And, you know, it went back and forth and back and forth. And eventually we marched, but I can’t remember. We had to take down our Agent Orange banner or something. I can’t remember all the details.</u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="ZASTROW">And it made the local newspapers.</u>
+      <u who="WEINSTOCK">What about—what about the memorial?</u>
+      <u who="ZASTROW">Hmm? Oh, <name type="event">the Vietnam Veterans Memorial</name>? We—</u>
+      <u who="WEINSTOCK">Yes.</u>
+      <u who="ZASTROW">I remember we went there, too, but that was—that had just been built at that time, and we marched there, but we—we didn’t do anything there. I’m not sure if it was even all the way opened yet. I remember going there and finding a couple of names that—that looked familiar, but I don’t think we had any organized activity there. And I’m not sure that we ever did.</u>
+      <u who="WEINSTOCK">What did—what are your personal thoughts on the memorial?</u>
+      <u who="ZASTROW">It’s a beautiful memorial, and it’s—it’s—it speaks truth in a pretty vivid way. Now, our figures always were that probably twice as many people as whose names are on that wall were veterans who committed suicide after the war. </u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="ZASTROW">And their names should probably be there, too. But, you know, that’s never going to win any traction, so—it was one of the things we would say whenever the question came up. Whenever we talked about the war and what it had done to people.</u>
+      <u who="WEINSTOCK">Right. So—</u>
+      <u who="ZASTROW">The one thing that it seems to me that VVAW did was instead of feeling guilty for having been there, guilty for having shot at Vietnamese—(I don’t know if I ever hit any or not.)—guilty for the whole affair of being in <placeName>Vietnam</placeName>, in a country where we didn’t belong to fight against the people who did belong there. </u>
+      <u who="WEINSTOCK">Right. Yeah.</u>
+      <u who="ZASTROW">Mmm, they carried my name as one of the national coordinators for <date>years</date> after I basically—I mean, I would go to demonstrations. We have a Memorial Day and a Veterans Day gathering in downtown <placeName>Chicago</placeName> <date>years</date> after that. I mean, those still go on <date>today</date>, and I still go to them. But they carried my name through <date>the ‘90s</date>. Probably by <date>the year 2000</date>, I was—somebody called and said, “We need different votes on our—as the national coordinator.”</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="ZASTROW">“Would you mind resigning?” And, of course, what could I say? I wasn’t doing anything, so, yes, I resigned.</u>
+      <u who="WEINSTOCK">And what have you done since?</u>
+      <u who="ZASTROW">I have helped raise a family. I have been a church musician, and I was a mailman for <date>35 years</date>.</u>
+      <u who="WEINSTOCK">And do you—do you still have any ties to sort of antiwar protests? How—how did your time at VVAW—how does it continue to affect you?</u>
+      <u who="ZASTROW">Well, it’s a big part of my history. And my children are aware of it. They went to all the activities with me when they were young. My wife was very good about it. I—I went off to meet with [Panamanian dictator <persName>Manuel] Noriega</persName> in <placeName>Panama</placeName> at one point, as a <orgName>VVAW</orgName> representative when we were afraid that the <placeName>U.S.</placeName> was about to invade <placeName>Panama</placeName>, which of course it did. Yeah, little things like that.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">But it became more than I could do, and frankly I was very much interested in the politics of—of <placeName>Vietnam</placeName> and foreign policy and less interested in more immediate and probably more vital politics of <orgName>the Veterans Administration</orgName> and so forth. VVAW, I know now,—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">—it’s on—I think they call it a stand-down for homeless vets <date>every year</date>, where they, you know, feed them, they find a place where they can get clean, they bring in doctors—you know, all of that kind of stuff. Well, it’s a great thing to do, but it was not something that I wanted to do.</u>
+      <u who="WEINSTOCK">Right. And so—</u>
+      <u who="ZASTROW">So [cross-talk; unintelligible]—</u>
+      <u who="WEINSTOCK">—you—you continued to—</u>
+      <u who="ZASTROW">Go ahead. I’m sorry, I didn’t hear that.</u>
+      <u who="WEINSTOCK">I mean, you know, I was just saying you—you continue—you continue to live in <placeName>Evanston</placeName> now, right?</u>
+      <u who="ZASTROW">Yes. And <placeName>Evanston</placeName> is a pretty liberal town. They have—</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="ZASTROW">—demonstrations about wanting to get out of <placeName>Afghanistan</placeName>. They have Black Lives Matter type demonstra- —that sort of thing. And I will occasionally go to those,—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="ZASTROW">—though I have never joined any of those groups. What can I tell you? I’m—I’m old. And I’m tired. [Laughs.]</u>
+      <u who="WEINSTOCK">[Chuckles.] Well, you know what? I—I—I like that as—as a note to end on. Thank you so, so much for your time.</u>
+      <u who="ZASTROW">Oh, you’re quite welcome.</u>
+      <u who="WEINSTOCK">I really appreciated talking with you <date>today</date>, Mr. <persName>Zastrow</persName>.</u>
+    </body>
+  </text>
+</TEI>

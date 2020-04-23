@@ -1,0 +1,579 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="OSCADAL"/>
+        <person xml:id="BURACK"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="BURACK">So my name is <persName>Emily Burack</persName>. I’m sitting here in <orgName>Rauner</orgName> [<orgName>Special Collections] Library</orgName> on <date>August 20th</date>. What time is it? At 1 p.m. in the afternoon. With <persName>Fran Oscadal</persName>. And we will get started.</u>
+      <u who="OSCADAL">Hi, <persName>Emily</persName>.</u>
+      <u who="BURACK">Let’s start with basics. Where were you born, and when?</u>
+      <u who="OSCADAL">I was born in <placeName>Buffalo</placeName>, <placeName>New York</placeName>, and my birth date is <date>December 23rd, 1949</date>. My parents grew up in one of the oldest parts of the city, still known as the First Ward. And <placeName>Buffalo</placeName>—if you want, we can talk about background information.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. Sure.</u>
+      <u who="OSCADAL"><placeName>Buffalo</placeName> was, and I think probably still is, to some extent, largely an ethnic city: Polish, Italian, very Irish, African-American, there used to be a German population, and we lived, as I said, in one of the oldest parts of town. It was a combination of residential and sort of industrial. It was down near the waterfront, and the waterfront was dominated by flour mills and other small industries related to shipping that came over <placeName>the Great Lakes</placeName>. </u>
+      <u who="BURACK">The bare bones of the background. What were your parents’ names, and what did they do?</u>
+      <u who="OSCADAL">My father’s name was <persName>Cyril</persName> [<persName>F.] Francis</persName>, and he went by either “Cy” or “<persName>Frank</persName>,” depending on the people who were talking to him. As I said, he worked at <orgName>Pillsbury</orgName> most of his life. He was a millwright and a master mechanic. So he repaired virtually anything or everything that—he had a crew. There were a number of them. Repaired everything that broke down in this mill. This was a large mill. When this mill opened in <date>1929</date>, just before the <name type="event">Depression</name> struck, it was the largest flour producing mill in the world, and it stayed that way for a number of <date>years</date>. </u>
+      <u who="BURACK">Did most parents of your friends or other kids in the neighborhood growing up work in the industry, in the flour mills?</u>
+      <u who="OSCADAL">Well, <placeName>Buffalo</placeName> had a number of industries. People in the First Ward—a lot of them worked in flour mills, but many other people worked at steel plants. There were two huge steel plants in <placeName>Buffalo</placeName>, Republic [Steel] and <orgName>Bethlehem Steel [Corporation</orgName>]. <orgName>Bethlehem Steel</orgName> ran five or seven miles along <placeName>Lake Erie</placeName>.</u>
+      <u who="BURACK">Wow.</u>
+      <u who="OSCADAL">So there were a lot of factory, industrial kind of jobs and then a lot of industry that supported that kind of work. There were also automobile-related industries: the <orgName>Ford</orgName> [Motors] Stamping Plant. <orgName>General Motors [Company</orgName>] had a plant there. There were tire manufactures in <placeName>Buffalo</placeName>. <orgName>Trico</orgName> windshield wipers had, like, four or five plants. I mean, it was a huge blue-collar city. The money—white-collar people or the people with real money in <placeName>Buffalo</placeName> at that time lived in the north part of the town. Italians had the west side. The Irish had the south side, and blacks were on the east side. And it was a divided city in that sense.</u>
+      <u who="BURACK">Yeah, I was about to ask: Did you feel the—like, growing up in <date>the ’50s</date>, did you feel, like, the economic divides and the ethnic divides?</u>
+      <u who="OSCADAL">Ethnic, yes. The economic, no, I don’t think kids were aware of that. I mean, sometimes you read about people who grew up in the <name type="event">Depression</name> and they didn’t know they were poor because everyone was in the same boat. And socioeconomically, I think, <placeName>South Buffalo</placeName> was pretty—everyone was pretty similar, although there was—there’s certainly a mix of incomes, but people weren’t building McMansions at that time. You know, people were living in more ordinary homes. </u>
+      <u who="BURACK">But in your neighborhood, as you said, it was largely Irish or Irish-Catholic.</u>
+      <u who="OSCADAL">Yes, yes, very much so.</u>
+      <u who="BURACK">Yeah. Were both your parents raised like that as well, as Irish Catholic?</u>
+      <u who="OSCADAL">Well, yes. I mean, my father was—both my parents were raised in the First Ward, and even then, back at <date>the turn of the 20th century</date>, the First Ward was very Irish. There was a mix of people, but the Irish were dominant. And that was true—and then when people from the First Ward got some money, they generally moved either to <placeName>South Buffalo</placeName> or to one of the southern suburbs, and so it was a very similar—</u>
+      <u who="BURACK">Experience.</u>
+      <u who="OSCADAL">—experience, yeah.</u>
+      <u who="BURACK">And you mentioned before, in an earlier conversation we had, that your dad had served in <name type="event">World War</name> I.</u>
+      <u who="OSCADAL"><name type="event">World War II</name>.</u>
+      <u who="BURACK">Oh, <name type="event">World War II</name>, excuse me. [Chuckles.] Not <name type="event">World War I.</name> Can you talk about what your impression of that was like from him? Like, did he talk about it? Did it shape your–</u>
+      <u who="OSCADAL">My father was in the [U.S.] <orgName>Army Air Force</orgName>, so that was <orgName>the Air Force</orgName> before it became a separate branch of the service. And my recollection of his stories were that he didn’t leave the States until late in the war. He trained I think it was in <placeName>Georgia</placeName>, where he learned to fly. And I can remember him telling stories about coming home from training, and I don’t know why he—I’m not sure when he went into the service, how long it took to be drafted or why. I don’t recall why he was in training as long as he was. </u>
+      <u who="BURACK">Interesting.</u>
+      <u who="OSCADAL">Actually, coincidentally, I’ve just finished [<persName>Lawrence R.]</persName> “Rick” Atkinson [IV’s] book on the <placeName>Sicily</placeName> and Italian Campaign, and so I know have an idea of just how difficult and awful that campaign was, so it’s understandable that he wouldn’t want to talk about it.</u>
+      <u who="BURACK">Yeah. I can imagine. So as a kid listening to your dad talk about these war stories, did you ever feel like you wanted an experience like that as well, because it was so significant for him and for the other fathers in the neighborhood?</u>
+      <u who="OSCADAL">What I took away from those things was their sense of duty and the camaraderie, the shared experience and, to some extent, the shared suffering. They all lost friends. And, yes, that to me was—that was somewhat inspiring, and I looked for that in my own life. And I know—since I’ve been a kid, I read a fair amount. I probably went to the library as a kid, even as a young kid, <date>seven or eight years old</date>, once a week to get books. I’ve always read history.</u>
+      <u who="BURACK">So in school, in elementary school and middle school—you said you went to Catholic school?</u>
+      <u who="OSCADAL"><persName>Mm-hm</persName>. </u>
+      <u who="BURACK">Did this love of reading carry through, and love of history, and how was that tied in with your Catholic education? How was it taught, and just kind of what was your school experience like?</u>
+      <u who="OSCADAL">Uh,—</u>
+      <u who="BURACK">Broad question.</u>
+      <u who="OSCADAL">Well, in parochial school at that time, it was basic courses. I mean, you took history and literature, basic sciences. The arts were sort of a luxury in terms of Catholic schools. There was a little bit on it, but not enough, and not in terms of both things like painting and/or music. And, of course, they always taught religion, so you had a pretty basic education.</u>
+      <u who="BURACK">Would you consider yourself a good student, growing up and were always within the discipline?</u>
+      <u who="OSCADAL">I studied—I was a mediocre student. I think I’m a better student now. I can’t remember—you know, in parent-teacher conferences, I was sometimes described as being a daydreamer, so—I had decent grades, but the atmosphere was not totally—you know, academics weren’t the most important thing. Certainly parents encouraged that, the teachers encouraged that, and kids sort of rebelled against it. But everyone was bright enough or above average enough to do well enough, certainly to get in to go to college and to do go reasonable colleges.</u>
+      <u who="BURACK">So if academics weren’t the most important thing, what would you say the most important was, the religion, the aspect of it, or that was included within academics?</u>
+      <u who="OSCADAL">Well, for me, academics were pretty important; I just wasn’t that great a student. Athletics were very important in our neighborhood. Everyone played sports.</u>
+      <u who="BURACK">Did you play a sport?</u>
+      <u who="OSCADAL">Everyone played baseball and basketball. Well, mostly it was <orgName>rec league</orgName> things. Like, during the summer the police in <placeName>Buffalo</placeName> and <orgName>the Police Athletic League</orgName> [of Buffalo]—and so there were baseball games all summer long. I didn’t mention, but our residential street—the Catholic church happened to be right across the street, and so there was a gymnasium in the school building that we had access to, if parents would supervise. There was a parking lot that had a full basketball court, and so people were playing basketball every night after dinner. We played softball, every night after dinner. So that was a big deal. Started to be an athlete.</u>
+      <u who="BURACK">Yeah. Did that carry over when you went to high school? Did you play for any—</u>
+      <u who="OSCADAL">I didn’t play on organized teams. I still just played pickup things, but, yes, athletics were very important in my high school, at least as important as academics. I went to a high school that was run by Franciscans, and they were great guys, also disciplinarians, but they weren’t the greatest teachers. It was pretty well understood that—and it’s still fairly well understood that if you want to be taught by the best in terms of Catholic education, you are taught by Jesuits or Dominicans.</u>
+      <u who="BURACK">That’s what you go for.</u>
+      <u who="OSCADAL">That’s the top.</u>
+      <u who="BURACK">Okay. </u>
+      <u who="OSCADAL">And there was a Jesuit high school in <placeName>Buffalo</placeName>. There were neighborhood high schools. <placeName>Buffalo</placeName> was a very Catholic city, and so there were any number of Catholic grammar schools and then high schools, and there were some that were almost like neighborhood schools. The high school I went to was a mile from my home, so most people I think went to schools close by. But there were schools like—<orgName>Canisius High School</orgName> was the Jesuit school, and that was considered the top.</u>
+      <u who="BURACK">So you would have started high school in <date>1963</date>?</u>
+      <u who="OSCADAL"><persName>Mm-hm</persName>. </u>
+      <u who="BURACK">Is that correct? So was living in <placeName>Buffalo</placeName>, were you aware of anything that was beginning to happen in the world in terms of <placeName>America</placeName>’s involvement, beginning involvements or—</u>
+      <u who="OSCADAL">Yes. Yes. Of course, <persName>John [F.]</persName> <persName>Kennedy</persName> was elected president. It was a big deal in places like <placeName>South Buffalo</placeName>, <placeName>South Boston</placeName>. He was Irish-Catholic. He was a Democrat. And so his presidency was followed very closely, certainly by everyone’s parents, and all of that sort of trickled down. <persName>Kennedy</persName> was not the first to involve <placeName>the United States</placeName>. I mean, we became involved in <placeName>Vietnam</placeName>—</u>
+      <u who="BURACK">Earlier.</u>
+      <u who="OSCADAL">—earlier on.</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="OSCADAL">And certainly [President <persName>Dwight D.] Eisenhower</persName> sent some advisers. <persName>Kennedy</persName> picked it up. And I was aware or became aware in <date>1963</date>, ’64—more aware of <placeName>Vietnam</placeName>. I started following it. I can remember discussing the <date>1964</date> presidential election. <persName>Kennedy</persName> had been assassinated. [<persName>Lyndon B.]</persName> <persName>Johnson</persName> is now the president. He’s running part of <persName>Kennedy</persName>’s record. He creates <orgName>the Great Society</orgName>. He has to address the idea of <placeName>Vietnam</placeName> and our presence there. So I can remember his discussions—or not his discussions but the differences between he and [Senator] <persName>Barry</persName> [<persName>M.] Goldwater</persName>, for example, as to how they would approach <placeName>Vietnam</placeName>. </u>
+      <u who="BURACK">Just to back up quickly, before we continue onwards.</u>
+      <u who="OSCADAL">Yeah.</u>
+      <u who="BURACK">So when <persName>JFK</persName> was elected, was your parents—do you remember how they—they were in support of him or—because of his Irish-Catholic background?</u>
+      <u who="OSCADAL">Everyone was very excited. Well, everyone—the working-class people in <placeName>Buffalo</placeName>, the blue-collar people in <placeName>Buffalo</placeName> were, I would guess—my impression is they were overwhelmingly Democratic. Even as a young kid, when <persName>Eisenhower</persName> was running against [Gov. <persName>Adlai E.]</persName> <persName>Stevenson</persName> [II], it was—we knew the difference between Republican and Democrat. Virtually everyone—</u>
+      <u who="BURACK">Everyone was Democrat.</u>
+      <u who="OSCADAL">Everyone we knew was a Democrat. I found out later that there were people who weren’t, but it was quite the dominant party. So, yeah, everyone was excited. You can remember—people hung photos of <persName>Kennedy</persName> on their wall. I don’t think we had on, but you’d go into homes and—</u>
+      <u who="BURACK">There he was.</u>
+      <u who="OSCADAL">—there he was. So when he was assassinated, it was devastating. I mean, it was devastating to the whole country.</u>
+      <u who="BURACK">Do you remember kind of your reaction to it or where you were when you heard the news?</u>
+      <u who="OSCADAL">Uh,—</u>
+      <u who="BURACK">It’s one of those events where, you know—</u>
+      <u who="OSCADAL">I was home sick from school <date>that day</date>, and so I heard it on TV, and I ran to tell my mom, who was upstairs in the house, and so then everyone was glued to television for the next—for <date>that weekend</date>. I think that occurred on <date>Friday</date>. So, yes, that was devastating for a number of reasons in this particular community.</u>
+      <u who="BURACK">Yeah. Did people have the same type of enthusiasm towards <persName>Johnson</persName>?</u>
+      <u who="OSCADAL">No, not the personal connection.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="OSCADAL">I mean, <persName>Kennedy</persName> was charismatic, and <persName>Johnson</persName> was more of a politician—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="OSCADAL">—in the traditional mode.</u>
+      <u who="BURACK">So the first—so when you enter high school in ’63—the ’64 election, you talked about being very aware of—did you start having, like, political—when did your, like, political opinions begin to really solidify and form? Was it in high school or earlier?</u>
+      <u who="OSCADAL">My opinions about <placeName>Vietnam</placeName> solidified in high school, and I can remember deciding, when I was 15—so then I’m either a sophomore or a junior, and I’d read enough about the war that I had decided that I wasn’t going to serve in this war, and I had a feeling that this war was going to be there for me, even though I was 15 and the draft would come at 18.</u>
+      <u who="BURACK">Why did you have such a feeling?</u>
+      <u who="OSCADAL">Just from what I was seeing, reading the papers, the idea of this being a war against communism. This was the huge bugaboo at the time. It struck me that it was going to be there for us, that we just—with <persName>Johnson</persName>—after the election in <date>’64</date>, it just seemed to be creeping incrementally toward a deeper and deeper involvement, so I just had a feeling, and I decided at that point that I wasn’t going to serve. </u>
+      <u who="BURACK">Why not?</u>
+      <u who="OSCADAL">My parents weren’t great readers. We had things like LIFE and The Saturday Evening Post, their mix of easy text and pictures, but we didn’t have things like TIME or <orgName>Newsweek</orgName>. Friends of mine down the street did, so I saw some of theirs. And I thought, Well, I want to know what’s going on, and so I subscribed for myself. And there’s an irony in that because later on I found out that the reporting in TIME in particular was slanted to support the war—</u>
+      <u who="BURACK">interesting.</u>
+      <u who="OSCADAL">—because <persName>Henry</persName> [<persName>R.] Luce</persName>, the publisher, was having reports coming out of <placeName>Vietnam</placeName> revised so that they could be more positive about our presence there.</u>
+      <u who="BURACK">But you read it as an antiwar—</u>
+      <u who="OSCADAL">No, I just read it for information.</u>
+      <u who="BURACK">Just to, to get some information.</u>
+      <u who="OSCADAL">But there were other things to read.</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="OSCADAL">I mean, as I said, I was used to going to the library on a regular basis, so either the local library in our neighborhood or the library downtown, which was the main library. So I was reading enough. And I began to look for things. And you could. I can remember a couple of the books I was reading that were published at about that time, so, say, ’<date>65</date>, ’66, ’67.</u>
+      <u who="BURACK">What I’m curious about is where did you begin to kind of develop these notions? Was it in classrooms, talking to your brothers? Were your parents opposed to it? Kind of where did it come, your awareness of what was going on?</u>
+      <u who="OSCADAL">I think it came from my reading,—</u>
+      <u who="BURACK">From your reading.</u>
+      <u who="OSCADAL">—because I don’t know that a lot of other people were talking—as I said, I remember talking with friends in high school about the election in ’64,—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="OSCADAL">—and that had to do with—some of that had to do with <placeName>Vietnam</placeName>. I can remember talking to a guy who was a year or two older than me in high school, and he was a <persName>Barry Goldwater</persName> supporter, and we would argue about this, and he would say, “It doesn’t matter who’s president. They’re going in.” <persName>Goldwater</persName> was as in favor of military action then as, say, some of the Republican presidential candidates are now for going back into <placeName>Iraq</placeName>.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="OSCADAL">Anyway, we would have these arguments and discussions. So—</u>
+      <u who="BURACK">So it really started around that ’64 election for you, when you remember talking about it.</u>
+      <u who="OSCADAL">Oh, sure, yes.</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="OSCADAL">And it seems early, but I don’t think that meant that I was precocious in any way. I think these things were beginning to be out there. If you exposed yourself or allowed yourself to be exposed to newspapers and magazines, this stuff was being written about, and it was current events at that time. Now it’s history.</u>
+      <u who="BURACK">And as someone who was an avid reader, I’m sure you were pretty exposed, in general.</u>
+      <u who="OSCADAL">Yeah. But, again, even <date>today</date>, you have to put yourself in a position to find this material. But, I mean, I’ve been working in a library or academic libraries for <date>40 years</date>. One of the great things about that is having access to all of these things.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="OSCADAL">It’s hard to stay informed. It’s hard to be informed. So you have to go looking for published material.</u>
+      <u who="BURACK">So as you started, around <date>14</date>, 15 to kind of think, No, this is not for me or I don’t want to participate, did you talk to your family about this, or did they agree with you? As a vet, what did your dad think?</u>
+      <u who="OSCADAL">We wouldn’t—I don’t remember talking specifically about whether or not I would go in the service.</u>
+      <u who="BURACK">More just general feelings.</u>
+      <u who="OSCADAL">We did talk about the war,—</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="BURACK">—certainly. And initially, my mother wouldn’t voice an opinion one way or the other, but my father trusted the government initially. I mean, he’d been in the service. You know, he thought he knew what it was about. But then, as—I mean, this war went on and on, as our current wars do, he saw it I think as a mistake. He saw it as a waste of young people’s lives. I don’t know what he would have done had he been a young man at that point. And eventually, when I determined that I was a conscientious objector and that I would go for that status, I don’t know if he agreed with me. I don’t know if he fully understood my reasons for that. But I think at that point he was opposed to the war in the sense that he didn’t want his sons—at that point it would have been primarily males—his son—and he only had sons—or anyone else’s son at that point to be wasted in this conflict,—</u>
+      <u who="BURACK">Right.</u>
+      <u who="OSCADAL">—because at that point it seemed like a waste. This would have been <date>a few years later</date>.</u>
+      <u who="BURACK">Yeah. So, but while you were still in high school, still Catholic education, was it ever talked about in classrooms, or it wasn’t part of discourse from teachers?</u>
+      <u who="OSCADAL">In high school, I don’t really remember if we talked about this in high school. In college, it would have come up. The idea of the just war theory—I also went to a Catholic college in <placeName>Buffalo</placeName>, <persName>Canisius Collage</persName>, and everyone had to take four or five courses in theology, three or four courses in philosophy, and the philosophy was basically Catholic philosophy. </u>
+      <u who="BURACK">So can you just expand on what the just war theory is? I’m not too familiar.</u>
+      <u who="OSCADAL">Well, there are some wars that are worth fighting or you can justify them from a moral standpoint, and there are other wars, wars of aggression, that are unjustifiable. And there’s also—part of that—I haven’t read about it or studied up on that in a while, but part of that just wart theory is the idea of proportionality, that you can defend yourself—just war—basically, you should be defending yourself rather than being the aggressor. And so the idea of defense is one piece of it.</u>
+      <u who="BURACK">Question, yeah. So going from high school to college—was that transition kind of more—did it make you more aware of, like, theories and discussions like this or it was kind of it felt like the same type of thing?</u>
+      <u who="OSCADAL">Well, it was a gradual—</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="OSCADAL">It was an evolution, I think.</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="OSCADAL">Your thought evolves and matures somewhat the more you read, the more you talk with people.</u>
+      <u who="BURACK">So you started college—sorry to interrupt you—in <date>1967</date>?</u>
+      <u who="OSCADAL">Yes, <date>the fall of 1967</date>.</u>
+      <u who="BURACK">Okay. </u>
+      <u who="OSCADAL">And <date>my first year</date> of school, I was at <orgName>Marquette University</orgName>, another Jesuit school. And one of the interesting things about that year was I discovered how many people were in college to avoid the draft. I had no idea. I went to college because my parents—as I said earlier, you know, “You are going to go to college.”</u>
+      <u who="BURACK">That was assumed.</u>
+      <u who="OSCADAL">That was the idea. And I had already decided that I was not going in the service, so I didn’t really think about that as a reason. I wasn’t avoiding the draft; I was just simply going to refuse. I didn’t know that the conscientious objection existed. I didn’t learn about that until I was 19—sometime in ’69. So for <date>those few years</date>, I just assumed that I would refuse induction and that I would be convicted. </u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="OSCADAL">We had absolutely no clue. But anyway—and amongst this group there were a number of <orgName>ROTC</orgName> [pronouncing it ROT-cee] students, and so we had discussions about our positions on these things. So that was interesting.</u>
+      <u who="BURACK">Turn it down, yeah.</u>
+      <u who="OSCADAL">He didn’t press it.</u>
+      <u who="BURACK">So coming into <orgName>Marquette</orgName>, you were ready to go to jail for not being in the—</u>
+      <u who="OSCADAL">Yes.</u>
+      <u who="BURACK">—for not serving.</u>
+      <u who="OSCADAL">Yes.</u>
+      <u who="BURACK">So how did that kind of impact your relations with the <orgName>ROTC</orgName> members? Did you, like, talk about their motivations or if they wanted to go into war?</u>
+      <u who="OSCADAL">Yes, we had those discussions. Again, I can’t recall if I would have discussed my moral reasoning with them. There were enough points, political points to argue about—you know, the intelligence of being there, whether or not we were doing any good or not, whether we were winning or losing. I honestly don’t recall if I had discussions with those guys. And it wasn’t that we weren’t friendly to one another. A couple of them were friends of mine. We just differed.</u>
+      <u who="BURACK">So do you think your objections were based primarily on moral reasons rather than political?</u>
+      <u who="OSCADAL">Eventually. As I said, I think when I was 15 and I said to myself initially that this is not—this is crazy, that was probably a more political decision and opinions. But my reasoning evolved. I read a lot more. I mentioned—well, part of the just war discussion we had earlier—one of the book—<persName>Ronald</persName> [<persName>H.] Bainton</persName> is a historian who wrote a book on Christian Attitudes Towards War and Peace: A Historical Survey and Critical Re-evaluation]. That had a great influence on me. Eventually I read [<persName>Mahatma] Gandhi’s</persName> autobiography. There’s a woman who wrote a book based on the Gandhian theory of nonviolence. <persName>Joan</persName> [V.] <persName>Bondurant</persName> wrote a book entitled The Conquest of Violence: The Gandhian Philosophy of Conflict], and that was sort of a religious, philosophical extrapolation or an explanation of <persName>Gandhi</persName>’s theories. So the older I got, the more I read, and the more it became a moral position, not just political. </u>
+      <u who="BURACK">Just one more question—</u>
+      <u who="OSCADAL">—questions.</u>
+      <u who="BURACK">—before we talk about kind of how you became a CO—</u>
+      <u who="OSCADAL"><persName>Mm-hm</persName>.</u>
+      <u who="BURACK">—and what that process was like. Were your moral—as you had read more and kind of got older and advanced into your college years at <orgName>Canisius</orgName> and whatnot—do you think it was based in what you were reading, and was what you were reading religiously based? I’m just kind of wondering the influence of the Catholicism on it.</u>
+      <u who="OSCADAL">Some of it was religiously based, but for me, coming from my background in the Catholic church, there’s enough of this tradition in the church that you could go back to it. At the same time—’63, ’65, ’67 and beyond—there is a Catholic antiwar movement, and the <persName>Berrigan</persName> brothers [<persName>David J.</persName> and <persName>Philip F. Berrigan</persName>] are Catholic priests. One’s a <orgName>Jesuit</orgName>; one is another order. They were conducting nonviolent protests against the war, so there is this Catholic tradition. The Catholic church isn’t officially a peace church. There are many, many more Catholics who joined the service and are not either COs or pacifists than are, but there is a tradition in the church, and it was easy enough to find those examples at that time. The Berrigans were famous, or infamous, depending on your perspective.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="OSCADAL">They were destroying draft records. They were breaking into draft offices, <orgName>Selective Service</orgName> offices, and destroying records, pouring blood on things like that. That was in the paper. You could, if you chose, get beyond, you know, the news reports to read their reasoning behind this and where they were coming from. And even within the church, itself, there’s enough in the <date>Gospels</date>, there’s enough in the life of <persName>Jesus</persName>—this is what—I also went back to that. As I said, I’m still a religious person, and I realized—it’s a combination of religion and history in my life. Both are important to me, and at some point fairly early on—I was always interested in history in high school; it was my major in college—at some point you realize that religion touches everything. You can’t study anything without some religious aspect, even if it’s science, economics, anything.</u>
+      <u who="BURACK">For sure.</u>
+      <u who="OSCADAL">So my position was, I think, based on both my Catholic background and faith and the other things I was reading. There’s an Eastern part of this.</u>
+      <u who="BURACK">With the <persName>Gandhi</persName>.</u>
+      <u who="OSCADAL">Yes, and even Buddhism. But some of that came later. But certainly in college—I mentioned no matter what you majored in in a Catholic college at that point, they had—most of them had requirements. I mentioned theology and the philosophy. If you took one extra course, you had a minor in theology; you had a minor in philosophy. And they—you know, they had a broad spectrum of courses. This is where Catholic education is, in addition to history and English and business and other things. So, no, I think it was based both in my Catholic faith and the other, more general things I was reading about nonviolence.</u>
+      <u who="BURACK">Could we take a quick break before we get into that, just I can use the restroom? I don’t know if you want a break.</u>
+      <u who="OSCADAL">Sure.</u>
+      <u who="BURACK">Okay. </u>
+      <u who="BURACK">So we’re back after a brief break. It’s still <date>August 20th, 2015</date>, and we’re still in <orgName>Rauner Library</orgName>. So we just left off talking about your thoughts on your moral and political oppositions to the war and whatnot, so can we get, now, into kind of what led you down the path of conscientious objection and what that process was like? You mentioned briefly that you didn’t know about it until you were a junior.</u>
+      <u who="OSCADAL">Yes. So I discovered that in fact you could ask for an exemption. At that point, of course, I was 2-S, which was the [Selective Service System classification for] student deferment. And there were any number of—you know, there’s a whole range of deferments for various things. And going to school, as I said earlier, was—you know, that was just understood. You grew up, you were going to college. That was fine with me because I liked school. I was an ordinary student, but I liked school, and it put off my day of reckoning, as far as I was concerned.</u>
+      <u who="BURACK">What he talk about?</u>
+      <u who="OSCADAL">He talked about what conscientious objection meant, how it’s defined by the statute, and this is all based on the statute having to do with <orgName>Selective Service</orgName>. Some of the things that I remember from that—I remember when I left, I was frightened about some of the things that I’d heard, because this was a serious responsibility you were taking on. It was not only—it not only had to do with you, but it had to do with people who came after you because if you were thinking about doing this and applying for this exemption, what <persName>Larry Scott</persName> and others wanted to be sure [of] is that you are sincere, that you’re not doing this to avoid the draft, that you’re doing this because you feel you must; for moral reasons, you can’t accept this obligation, because if you were to go through this process and be denied and then turn around and join the military, then your draft board has every reason to think that there are going to be other people who are faking it as well.</u>
+      <u who="BURACK">Oh.</u>
+      <u who="OSCADAL">—if I still have the papers that I compiled in doing all this. I can’t find them. But I did find on the Web a copy of the form, and it’s Selective Service Form 150, and it asks you whether or not you want to apply for 1-O or 1-A-O status. And then it asks for questions. And basically, they want you to describe the nature of your belief and is it—they don’t use the language of “supreme being”; they had to remove that, but—do you want me to read this, briefly?</u>
+      <u who="BURACK">Yeah, sure.</u>
+      <u who="OSCADAL">So the second section, after you decide which exemption you’re going to ask for, is the religious training and belief, and “Describe the nature of your belief which is the basis of your claim and state why you consider it to be based on religious training and belief.” And I think the things we’ve  discussed earlier are probably the things that I wrote there. My answers, I think, were relatively brief. So mine, as I said earlier, was based on a religious upbringing and the moral position that I ultimately came to, and that’s also based on my religion.</u>
+      <u who="BURACK">In so many ways.</u>
+      <u who="OSCADAL">—to support many positions, and very often, we were told, in draft boards it would not be uncommon to find a minister, for example.</u>
+      <u who="BURACK">Interesting.</u>
+      <u who="OSCADAL">And they’re going to know the Bible a lot better than you are, so certainly, you know, you’re going to use—if yours is a religious claim, you’re going to use your religion, and you may use—you’re going to make references to <persName>Jesus</persName>, to whatever. But you don’t want to get into a Bible quoting contest.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="OSCADAL">—it all went pretty well. I don’t remember—the questions they asked I think were, for the most part, to expand on my answers. One of the questions that was quite commonly asked and was asked of me was, “What would you have done in <name type="event">World War II</name>?” The unspoken text is that <name type="event">World War II</name> was the good war. The evil was obvious. Today the question might be asked, “What would you do about <orgName>ISIS</orgName> [<orgName>Islamic State of Iraq</orgName> and <persName>al-Sham</persName>]?” </u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="OSCADAL">So that was, as I said, <date>January</date> or <date>February</date> of ’70. Prior to that, in <date>December</date> of ’69, the first draft lottery was held.</u>
+      <u who="BURACK">So it’s right as you were applying for that CO?</u>
+      <u who="OSCADAL">Yes. It would have occurred—yes, when I was going through the process—</u>
+      <u who="BURACK">The counseling.</u>
+      <u who="OSCADAL">—of being counseled before I had applied, probably. So everyone is—you know, everyone is waiting to see what their lottery number would be. And I knew I wasn’t going, so it didn’t make much difference to me. I wonder how many of us still remember our numbers. I do. Mine was 162, and so then, at that point—that was interesting. That was an interesting time because at that point, a lot of people knew they were done. If you had a number, they were guessing, higher than 200 or 225, perhaps, you were probably safe.</u>
+      <u who="BURACK">Yours wasn’t.</u>
+      <u who="OSCADAL">Well, mine was 162. No one knew how far they were going to go. In fact, I think they went to 195. My number was called, but I still had—you know, I was still in school for <date>another full year</date>, <date>a year and a half</date>. And so that was good for some people, and for some people it was—they knew they were going to be drafted at some point. And for people who were graduating that spring, it was a very serious thing.</u>
+      <u who="BURACK">Could it switch like that?</u>
+      <u who="OSCADAL">If they made a mistake, and I think they did. So now I had three—</u>
+      <u who="BURACK">Different ones.</u>
+      <u who="OSCADAL">Yeah, three classifications and two deferments. But that was a mistake, so that was corrected.</u>
+      <u who="BURACK">At the physical or the counseling center?</u>
+      <u who="OSCADAL">No, at the counseling center.</u>
+      <u who="BURACK">Okay. </u>
+      <u who="OSCADAL">And so I went through that, and I have flat feet. So they said, “Okay, we’re going to send you to a doctor, and he may or may not write you a letter.” And so they sent me to this guy who—he was a young doctor.</u>
+      <u who="BURACK">Do you remember his name?</u>
+      <u who="OSCADAL">No, no. I remember going for the physical with this guy. And so he examined me, and he wrote me a letter for the draft board saying that I should get out of service—</u>
+      <u who="BURACK">Alternate service as well?</u>
+      <u who="OSCADAL">—because I—or I should fail the physical because of flat feet. And I took that letter to the physical, and you go through the whole thing, and there are some guys—so it’s like a lock- —you’re in a locker room. You’re down to your T-shirt and shorts, and you walk through the door, and the door is a scale. So some guys don’t even—they literally get out of the locker room and they failed because they’re overweight. And I remember that because the sergeant who was yelling at us and pushing us along was furious when anyone would be overweight. And he would start swearing at them and everything. And these guys would immediately go to the back of the room. They were done. They had already failed.</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="OSCADAL">So then you go through the physical. You go station to station to station, and at the very end, if you have a doctor’s letter or some other letter that you want them to see, you go up to the table and there’s a group of doctors, and you hand them the letter, and they read it. The guy that I sat before was relatively young, and he looked at the letter—</u>
+      <u who="BURACK">a huge favor.</u>
+      <u who="OSCADAL">And the reason he did it was because 1-O’s do not count or did not count toward that draft center’s, that induction center’s quota for inductees, so—every induction center had a <date>monthly</date> quota of people they were expected to induct into the service. 1-A-O’s would go to the service. They would go to the military. 1-O’s did not, so—</u>
+      <u who="BURACK">At this point, you already had the 1-O.</u>
+      <u who="OSCADAL">Right. And he knew that. He knew what my classification was. And so he failed me, and, as I said, on one level, he did me a favor, and we can talk about alternate service and the idea behind it. On another level, it would have been better, I mean, for me growing up, maturing as a person—it would have been better for me to do my service, I think.</u>
+      <u who="BURACK">Why do you say that?</u>
+      <u who="OSCADAL">Well, it would have pushed me out of my neighborhood, out of my house, out of my comfort zone. It would have forced me to grow up a bit. But I was just—I said earlier so many people go with the flow, and they simply go to the military. Well, in this counseling situation, I was going with the flow.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="OSCADAL">And in hindsight—it wasn’t long after, I was not proud of avoiding alternate service. I’m still not proud of it. And I think that that was an aspect of the counseling center that was political. At one level, it was a contest for the counselors to see how often they could beat <orgName>the Selective Service System</orgName>. I understand that, but I don’t totally agree with it. And I felt badly about that.</u>
+      <u who="BURACK">Which was what?</u>
+      <u who="OSCADAL">Which means you’re either physically or—I can’t quite remember how they phrase it—you’re physically or morally unable to—</u>
+      <u who="BURACK">Unable to serve.</u>
+      <u who="OSCADAL">—to serve, yes. So if you’re a depraved person as well as a physically disabled person, you can get a 4-F deferment.</u>
+      <u who="BURACK">Wow. So you had four deferments at this point. You were still a student.</u>
+      <u who="OSCADAL">Well, they’re in there in hierarchical order.</u>
+      <u who="BURACK">Exactly.</u>
+      <u who="OSCADAL">But that’s how it ended.</u>
+      <u who="BURACK">So you were still in school when you did the physical?</u>
+      <u who="OSCADAL">Yes. Yeah, I think I was.</u>
+      <u who="BURACK">And just to back up a little, do you remember if the counseling center had told you there’s anything you should say or should do, either during the hearing that you had before <orgName>Selective Service</orgName> or during the physical? Was there anything that they made sure that you did in terms of presenting your argument or—</u>
+      <u who="OSCADAL">No, nothing other than, I think, what we talked about.</u>
+      <u who="BURACK">To not quote the Bible.</u>
+      <u who="OSCADAL">They knew the sorts of questions—</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="OSCADAL">—that might be posed, and they wanted you to be aware of those and to have thought about them beforehand.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="OSCADAL">They wanted you to be sincere in your statement. “Don’t make statements that you can’t back up verbally, and articulate.” So, no, they weren’t pushing an agenda in that regard. But, yet, they were also part of the antiwar movement, right? I mean, this was not just a—this was a center for military and draft counseling, so they were also counseling people who were in the military, so people who went AWOL [absent without leave], people who deserted from the service and went to <placeName>Canada</placeName> or to <placeName>Europe</placeName>.</u>
+      <u who="BURACK">You didn’t totally agree—</u>
+      <u who="OSCADAL">—it to be a little less political in some instances than they were. And in doing the training, I learned—one of the things in doing the training or in—yeah—was that I would be on the phone, taking phone calls. And we were careful to say, you know, “No last names, and don’t tell me where you’re calling from,” because these people could be on the run from the military at that point. The phone was tapped. That was interesting.</u>
+      <u who="BURACK">You knew. This was a fact</u>
+      <u who="OSCADAL">Everyone knew the phone was tapped. We kept—there was a log that—if you were on phone duty, the log was there, and a call would come in. It was very crude. You could hear clicks and buzzes, and you would dutifully log in this information on the log, and this was before the breakup of the telephone company, so it was all “Ma Bell” [<orgName>Bell System</orgName>]. And <date>every month</date>, the counseling center would dutifully report this to the phone company, and <date>every month</date>, the phone company would say, “There’s nothing wrong, and there’s nothing going on.” But it was obvious. It was so crude.</u>
+      <u who="BURACK">So with that phone being tapped—I want to go back into how you became a counselor in a second, but with the knowledge that the phone was tapped, how did that inform kind of what you were saying? Could it get you in trouble?</u>
+      <u who="OSCADAL">No. I mean, giving basic information, as long as you weren’t telling people to break the law, you weren’t encouraging them to break the—many of them had already broken the law—and many people were just calling for information. I mean, you know, there are people like when I started, I called to find out about—</u>
+      <u who="BURACK">What it was.</u>
+      <u who="OSCADAL">—conscientious objection counseling or draft counseling, so many people are calling for information. Other people were calling because they were in more dire <placeName>straits</placeName>. They had already—they had made a decision. You know, they had run from the draft. They may have been calling from <placeName>Canada</placeName>. They may have been calling from anywhere. Calls came in from a lot of different places. That was another—</u>
+      <u who="BURACK">To your center in <placeName>Buffalo</placeName>.</u>
+      <u who="OSCADAL">Yes. Somehow people got the number. You know, other places—I mentioned other—these were other, much more major cities. They were getting the same kind of calls. So they did a fair amount of military counseling as well. People who were in the military and who felt that—came to a determination while they were in the service that they were COs, so there were a variety of reasons why military people might call.</u>
+      <u who="BURACK">So was it your—the counsel center that you went to—was it part of a network? Did they kind of communicate with each other or, as you said before, it was sort of a competition?</u>
+      <u who="OSCADAL">No, the competition was between the counseling center—</u>
+      <u who="BURACK">Oh, the counselors themselves.</u>
+      <u who="OSCADAL">—and <orgName>Selective Service</orgName>.</u>
+      <u who="BURACK">Oh. Interesting. Okay.</u>
+      <u who="OSCADAL">That was—you know, they—</u>
+      <u who="BURACK">Oh, I got confused.</u>
+      <u who="OSCADAL">—they considered themselves part of the antiwar movement,—</u>
+      <u who="BURACK">Okay. </u>
+      <u who="OSCADAL">—what they were doing. They were doing—they were doing good, but they were doing it for both moral and political reasons.</u>
+      <u who="BURACK">Political reasons, yeah. </u>
+      <u who="OSCADAL">Some of the people there were—</u>
+      <u who="BURACK">Were active in the antiwar movement.</u>
+      <u who="OSCADAL">Yes. Well, this was their basic activity.</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="OSCADAL">Many of them—several of them were law students at <orgName>SUNY Buffalo [</orgName><orgName>State University of New York at Buffalo</orgName>], and they were very, very bright. They knew the law inside and out. But they’d been doing it for <date>a few years</date> at that point.</u>
+      <u who="BURACK">Were you at all involved with antiwar—in college?</u>
+      <u who="OSCADAL">Protests, but just participating in protests. I was never an organizer or anything like that. You know, I was part of the crowd. And there were—you know, certainly during college <date>years</date>, there were any number of major protests in <date>1968</date>, ’69, when there was the <date>March</date> on <placeName>Washington</placeName>, there were protests around the country that coincided with that, for example. So there were protests that occurred [in] downtown <placeName>Buffalo</placeName>. They occurred on individual college campuses, and you attended things like that. <orgName>SUNY Buffalo</orgName> was drawing a lot of speakers at that time, so you could go and hear relatively famous antiwar people, so things like that.</u>
+      <u who="BURACK">What was your impression of these protests and these speakers?</u>
+      <u who="OSCADAL">Uh,—</u>
+      <u who="BURACK">Like, in terms of kind of do you agree with their methods, their message?</u>
+      <u who="OSCADAL">Well, the protests that I attended were—they were loud and nonviolent. Police were probably present. As I remember, there was a large, large protest in downtown <placeName>Buffalo</placeName> at one point. That may have been—that may have coincided with the <date>March</date> on <placeName>Washington</placeName>, and so there were police everywhere, but it was nonviolent, and there’s a large square in front of City Hall, and there were probably several thousand people there.</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="OSCADAL">I didn’t agree with violent protests. And one of the other things that one heard about and still hears about in <placeName>Vietnam</placeName> was the way veterans were treated when they returned. You know, people held them guilty of something, one thing or another, and spit at them and that sort of thing. That was something that never occurred in our neighborhood. People who went to the service, went to <placeName>Vietnam</placeName>, people who didn’t have to make a decision, people who chose the CO path—we never had a problem with one another. We knew each other as friends, first and foremost. And this was a neighborhood where you made a lot of friends for life, and these people are still my friends, as I said earlier. So I never understood blaming the service people. They were more or less victims of this, as far as I was concerned. They did what they thought was right. They were caught in a very, very difficult and sometimes savage situation, and they hoped to come out of it alive, and we hoped they did, too.</u>
+      <u who="BURACK">Did you have friends that went through the CO process with you who were then denied?</u>
+      <u who="OSCADAL">No.</u>
+      <u who="BURACK">Everyone—</u>
+      <u who="OSCADAL">I had three other friends that I recall, and everyone went through. And later on, when I was training to be a counselor, I learned that this counseling center had a very high success rate, like 90 percent or something like that.</u>
+      <u who="BURACK">Wow.</u>
+      <u who="OSCADAL">So the preparation—they prepared—anyone who went through—you were prepared very well. But this is self-selecting. If there were 20 people the morning—the first morning I appeared there to hear <persName>Larry Scott</persName> speak about this, probably very few of them came back, and people may have dropped out along the way. And so by the time you went through the whole thing, you were very well informed, and you should have thought things out for yourself. Not that the draft board couldn’t make, you know, oddball decisions. I mean, they could look at your form and turn you down for pretty weak reasons, if they wanted to, if they wanted to be that way about it. </u>
+      <u who="BURACK">You said before that the counseling center was based in the Quaker Meeting House?</u>
+      <u who="OSCADAL"><persName>Mm-hm</persName>. </u>
+      <u who="BURACK">Did you see a lot of impact of <orgName>Quakerism</orgName> or <orgName>Quaker</orgName> theology on kind of how the counselors went about—as you started training for it as well?</u>
+      <u who="OSCADAL">As I mentioned earlier, I know <persName>Larry Scott</persName> was a <orgName>Quaker</orgName>, but I don’t know if any of the others were. So the <placeName>Quakers</placeName> were doing—they were contributing to this by supplying the venue—</u>
+      <u who="BURACK">The place, yeah.</u>
+      <u who="OSCADAL">—and a place for it to operate. So that part of it coincided with the <orgName>Quaker</orgName> philosophy and their religion, but it wasn’t—</u>
+      <u who="BURACK">It wasn’t, like, the dominant—</u>
+      <u who="OSCADAL">No, not necessarily. I mean, nonviolence was a large portion of it, but not necessarily from the <orgName>Quaker</orgName> tradition.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. So you got your 1-O designation in, like, <date>January</date> and <date>February of 1970</date>?</u>
+      <u who="OSCADAL">I probably would have heard in—yeah, in <date>February</date> or <date>March</date>.</u>
+      <u who="BURACK">And then you graduated <date>the following year</date>.</u>
+      <u who="OSCADAL">Seventy—yes, yes, in spring of ’71.</u>
+      <u who="BURACK">So you had the student designation and the 1-O took effect after graduation. When did you wind up—think about becoming a draft counselor? Was it while you were still in school, in undergraduate school?</u>
+      <u who="OSCADAL">Let’s see, after I—when I graduated, I left town <date>that summer</date>. I moved to <placeName>Washington</placeName>, <placeName>D.C.</placeName>, where a couple of my friends were living. And one of them was a CO doing his alternate service in <placeName>D.C.</placeName> </u>
+      <u who="BURACK">What was alternate service? What was he doing?</u>
+      <u who="OSCADAL">What was he doing?</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="OSCADAL">He was working in a hospital.</u>
+      <u who="BURACK">Okay. Was alternate service mainly a domestic—</u>
+      <u who="OSCADAL">Yes. Oh, yeah, we could talk about that. Once your were—say I had passed my physical. I would receive a notice eventually calling me up, and then I had <date>30 days</date> to find a job that would be acceptable to the draft board. And while you’re going through the CO process, you’re also being counseled about alternate service. And they kept a manual there of possible job openings. These were things that were probably shared, because you could tell all this stuff was Xeroxed and mailed around. These were things that were shared among counseling centers, and so they had a binder that—you know, the jobs fluc- —the number of openings that they knew about fluctuated over time. So you had a certain amount of time to find a job or the draft board would find a job for you.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="OSCADAL">And, of course, the disruption for anyone going in the service was much, much greater. </u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="OSCADAL">But you were given an opportunity to find a position and then have it approved by the draft board. If you didn’t find one, they would find one for you. What I can recall from the draft counseling center, being told about alternate service, is that they weren’t really concerned about you doing—really providing service to the country; they wanted to disrupt your life. whether or not that was true or not.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. So many went to <placeName>D.C.</placeName> Your friend was completing his alternate service. And what did you do that summer?</u>
+      <u who="OSCADAL">I was working—I ended up working for a publishing company. I was working in <orgName>the Library of Congress</orgName> to microfilm congressional hearings.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="OSCADAL">Do you know what microfilm is?</u>
+      <u who="BURACK">Yes.</u>
+      <u who="OSCADAL">Good.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="OSCADAL">Because most students don’t now. So the company was <orgName>Greenwood, Greenwood Press</orgName>, and they were going to set up their own camera in <orgName>the Library of Congress</orgName>, and my job was to run around the library and gather up—literally gather up copies of congressional hearings and set them aside and make them ready to be filmed. And I was starting <date>two or three months</date> before the camera was supposed to show up—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="OSCADAL">—so that there would be a workflow. And I stayed there for <date>about six months</date>, and then I went back to <placeName>Buffalo</placeName>.</u>
+      <u who="BURACK">So, like, <date>winter</date>, fall, <date>winter</date> of ’71?</u>
+      <u who="OSCADAL">Let’s see, I was back in <placeName>Buffalo</placeName> by <date>Christmas</date>, so I was there for five or six—</u>
+      <u who="BURACK">Okay. </u>
+      <u who="OSCADAL">—I was down in <placeName>D.C.</placeName> for <date>five or six months</date>. And when I went back to <placeName>Buffalo</placeName>, I can’t even remember what I worked at. I had a job. I may have been working in a department store because I worked in a department store when I was an undergraduate. It was a part-time job. So I worked for a while, and then I applied to graduate schools, and I was accepted for fall of—</u>
+      <u who="BURACK"><date>Seventy-two</date>.</u>
+      <u who="OSCADAL">—’72, into the history program, a master’s program at <orgName>SUNY Buffalo</orgName>.</u>
+      <u who="BURACK">Okay. </u>
+      <u who="OSCADAL">And it was—after I returned to <placeName>Buffalo</placeName>, and I don’t remember exactly when, that I went back to the counseling center and signed on to learn to be a counselor. And so I did that for a period of time, and after I trained, I was, you know, a neophyte counselor, so I did very basic first interviews of people coming to the center. I worked at the phone bank, just gaining experience. And I did that in <date>’72</date>. And then the draft ended in <date>January</date>, I think, of <date>1973</date>, so for <date>about a year</date>, I was at the counseling center.</u>
+      <u who="BURACK">What was it like being on the other side of the process?</u>
+      <u who="OSCADAL">Well, it was the same—most of the same people were there.</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="OSCADAL">So we knew each other. And I thought it was very interesting. I don’t remember many of the people I met with. I remember a few of the cases. </u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="OSCADAL">I was supposed to know what questions to ask and write down the answers and, you know, a basic interview to get background information and all of that. And then, as I recall, we would go upstairs or wherever, into where the more senior counselors were, and then the three of us would have a further discussion or, at that point, the client would then talk to a more senior counselor who would go over the statement and everything and see what was what and then go from there.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="OSCADAL">—to his situation with the draft. And so—you know, I just felt so much empathy or sympathy for this kid because at that point—I mean, this is <date>the mid ’60s</date>—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="OSCADAL">—gay rights is—well, [the] Stonewall [riots] occurred in <placeName>New York City</placeName>—right?—in <date>1969</date>.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. Yes, just beginning of the movement.</u>
+      <u who="OSCADAL">So gays are beginning to be more proactive about their rights and everything. So I didn’t know, you know, what was going to become of him in terms of the draft, but that was a very—I remember some of it, but I don’t remember all of it, the meeting and everything. But that was a moving experience that, you know, this young kid would have to make this explanation. And he was going to have to make it to his draft board in order to—</u>
+      <u who="BURACK">Was the explanation based on his sexuality?</u>
+      <u who="OSCADAL">Yeah, yeah. So, again, people came there for a number of reasons,—</u>
+      <u who="BURACK">Yeah, for a number of reasons.</u>
+      <u who="OSCADAL">—you know. It wasn’t just the CO exemption. So it was  a very interesting experience. And then when it ended, I—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. From the draft center. When the draft ended.</u>
+      <u who="OSCADAL">Well, when the draft ended, my work ended because I was just still an apprentice, really. They went on with military counseling for—</u>
+      <u who="BURACK">But you weren’t involved in that.</u>
+      <u who="OSCADAL">—<date>a few more years</date>. I don’t know that they’re there now. But military counseling wouldn’t have ended, even though the draft did.</u>
+      <u who="BURACK">So you were only involved in the draft side of this counseling center.</u>
+      <u who="OSCADAL">Yes, yes.</u>
+      <u who="BURACK">Did you ever interact with the <orgName>H&amp;amp;M</orgName>?.</u>
+      <u who="OSCADAL">The military people, I would catch on the phone. But, again, you would give them—</u>
+      <u who="BURACK">You weren’t the one giving their intake interviews, yeah.</u>
+      <u who="OSCADAL">—basic information. No, you wouldn’t give them—you wouldn’t be interviewing them so much as giving them information.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. I guess it’s a different type of thing.</u>
+      <u who="OSCADAL">Absolutely. Military counseling was very—that’s why—it was important that several of the senior counselors were law students or lawyers—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="OSCADAL">—at that point. By the time I went back, after my graduation and after <date>the few months</date> in <placeName>D.C.</placeName>, one or two of them had graduated and they were now lawyers, and they were still doing this, this work.</u>
+      <u who="BURACK">In addition to their practice.</u>
+      <u who="OSCADAL">Yeah, the one guy I remember was in a firm. And for them—you know, if they were going to continue this, they had to work in a firm that was sympathetic to this sort of thing. There are a lot of people, you know, who would think that draft counseling was more treasonous than patriotic, so that was interesting. All of that was—</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="OSCADAL">—yeah, sort of fascinating to be a part of and just to witness it.</u>
+      <u who="BURACK">So as you start ’<date>72</date>, you started grad school at <orgName>SUNY Buffalo</orgName>?</u>
+      <u who="OSCADAL"><persName>Mm-hm</persName>. </u>
+      <u who="BURACK">And you were still working as a draft counselor.</u>
+      <u who="OSCADAL">In <date>the fall</date>.</u>
+      <u who="BURACK">In grad school, in <date>the fall</date>.</u>
+      <u who="OSCADAL">Yes.</u>
+      <u who="BURACK">Before the draft ended.</u>
+      <u who="OSCADAL">Yes, yes.</u>
+      <u who="BURACK">Had you noticed a shift in public opinion or a shift in the <placeName>Buffalo</placeName> residents, like perspectives on <placeName>Vietnam</placeName> at this point?</u>
+      <u who="OSCADAL">I think nationally everything—</u>
+      <u who="BURACK">Yeah, had changed, yeah.</u>
+      <u who="OSCADAL">—had shifted, right. I think <persName>Lyndon Johnson</persName> has a famous quote about [journalist] <persName>Walter [J.] Cronkite [Jr.</persName>]. You know, “When we lost <persName>Walter</persName>, we lost the war.”</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="OSCADAL">I don’t recall when that occurred.</u>
+      <u who="BURACK">What was his name?</u>
+      <u who="OSCADAL">Um,—</u>
+      <u who="BURACK">It’s okay if you don’t remember.</u>
+      <u who="OSCADAL">His name was [<persName>Stephen T.] “Steve” Banko [III</persName>]. </u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="OSCADAL">And <persName>Steve</persName>—he was <date>a few years older</date> than me. He went to my high school. Went to the service. He was regularly quoted in—one of the local papers had sort of a right-wing local columnist. He was always writing—for him, it was “my country, right or wrong.”</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="OSCADAL">“My country.” Anyone who didn’t support <placeName>Vietnam</placeName> was treasonous. He was always writing about <persName>Steve Banko</persName> and quoting him and everything. So throughout the war, there was always a percentage of people who believed in the mission. The longer it went on,—</u>
+      <u who="BURACK">The smaller it got.</u>
+      <u who="OSCADAL">Yeah. And the more and more—but by then, too, after the lottery was instituted, so many people knew—young people—I mean draft-age males knew whether they were in or they were out. And if you were in the clear, you know, you were much less likely to find a reason to protest. And then when the draft ended, there was less of a reason. The war still went on for <date>a couple of more years</date> before <persName>Nixon</persName> and [Secretary of <orgName>State</orgName> <persName>Henry A.]</persName> <persName>Kissinger</persName> wound it down. But people were tired of it.</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="OSCADAL">And even blue-collar guys like my father saw the score.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. Were your brothers—did you talk to them about being a CO? Were they COs?</u>
+      <u who="OSCADAL">I may have talked—my youngest brother is <date>four years</date> younger, and that was just young enough that—</u>
+      <u who="BURACK">He wasn’t even—</u>
+      <u who="OSCADAL">—we wouldn’t have talked about it. My middle brother is <date>only a year</date> younger than me, and, in fact, he went in the service. This was after <placeName>Vietnam</placeName>. What did he do? His trajectory was—let’s see, he went to—he graduated from college. He was in a <orgName>Navy</orgName> ROTC program that—</u>
+      <u who="BURACK">Did he go to <persName>Canisius</persName> as well?</u>
+      <u who="OSCADAL">No, he went to a school in <placeName>Rochester</placeName>, <placeName>New York</placeName>, <orgName>St. John Fisher</orgName> [College]. And he was—he spent <date>his last year</date> at <orgName>SUNY Buffalo</orgName>, but as sort of a transfer student. He still graduated from the other school. And he was accepted to law school. He joined this <orgName>ROTC</orgName> program that—where you went—this is fascinating to me, because you didn’t have much to do at all—</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="OSCADAL">He went to <placeName>Rhode Island</placeName> for <date>two summers</date> and then was commissioned an ensign in the [<placeName>U.S.</placeName>] <orgName>Navy</orgName>. And I met a guy here at <orgName>Dartmouth</orgName> when I came here. He was one of the librarians. He graduated from <placeName>Dartmouth</placeName>, and he was in <date>the same program years earlier</date> than my brother. It was full of Ivy League, Ivy-plus people except for my brother and black people in this program.</u>
+      <u who="BURACK">Interesting.</u>
+      <u who="OSCADAL">I don’t know how my brother got into this thing.</u>
+      <u who="BURACK">Yeah. Was it a competitive, like, prestigious—</u>
+      <u who="OSCADAL">Very, yeah.</u>
+      <u who="BURACK">Okay. </u>
+      <u who="OSCADAL">Because it allowed you to—I mean, you only had to go for <date>two summers</date>.</u>
+      <u who="BURACK">And that was it.</u>
+      <u who="OSCADAL">Like, <date>two or three months</date>.</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="OSCADAL">And then you were gone, and you came back. I don’t even think he had to attend, like, <date>monthly</date> <orgName>ROTC</orgName>—not meetings but where you’d go and drill. He did <date>the two summers</date>, and then he was an ensign in the <orgName>Navy</orgName>. And they postponed his service so he could go to law school. He graduated from law school, and then he went in the service as a lawyer for the <orgName>Navy</orgName>.</u>
+      <u who="BURACK">Oh, wow.</u>
+      <u who="OSCADAL">He was in the Judge <orgName>Advocate General’s [JAG</orgName>] Corps. I think he had to do <date>three or four years</date> of service.</u>
+      <u who="BURACK">So definitely a different path from what you took.</u>
+      <u who="OSCADAL">Yeah.</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="OSCADAL">Yeah. And then he became an <orgName>FBI</orgName> [<orgName>Federal Bureau of Investigation</orgName>] agent. [Laughs.]</u>
+      <u who="BURACK">[Chuckles.] Did you ever ask him about if they tapped the phones in your counseling center?</u>
+      <u who="OSCADAL">Yes, I did.</u>
+      <u who="BURACK">What did he say?</u>
+      <u who="OSCADAL">When he was in the <orgName>FBI</orgName>, I asked him.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="OSCADAL">I asked him if I had a file.</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="OSCADAL">He said I didn’t have a file. He couldn’t talk about the wiretaps.</u>
+      <u who="BURACK">Did you expect to have a file?</u>
+      <u who="OSCADAL">I didn’t know. One reason I asked is because of my time at the counseling center, and the reason it seemed possible is because when I was there as a CO—you know, a potential CO—one of the counselors, a young woman, turned up on <persName>Nixon</persName>’s Enemies List, and she did not know why, and it frightened her terribly. I, for myself, determined later, much later, that she was on the list. She was on the second list. There were two lists.</u>
+      <u who="BURACK">Can you explain quickly what the Enemies List was?</u>
+      <u who="OSCADAL"><persName>Nixon</persName>’s Enemies List? <persName>Nixon</persName> and the <persName>Nixon</persName> administration put a list of their adversaries together, and then they would—you know, they played a number of political tricks. <name type="event">Watergate</name> [the <name type="event">Watergate</name> scandal] brought down <persName>Nixon</persName> and the administration. But they were doing a lot of things to individuals to hurt them.</u>
+      <u who="BURACK">Was this list a public list? How did you find out?</u>
+      <u who="OSCADAL">It became public.</u>
+      <u who="BURACK">Oh, okay.</u>
+      <u who="OSCADAL">It was sort of infamous.</u>
+      <u who="BURACK">So this counselor—</u>
+      <u who="OSCADAL">Well, she turned up on the second list, and it turns out that most of the people on the second list were somehow connected to the [<persName>George S.]</persName> <persName>McGovern</persName> campaign, presidential campaign. Either they donated money or they volunteered. And so she was a very ordinary citizen. She was involved in the draft counseling center. You know, she was—you know, she would be considered left wing.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="OSCADAL">The famous list was the very first—the first list. There were entertainers, several television news broadcasters, reporters and <placeName>Hollywood</placeName> personalities. If they were considered too liberal or left-leaning, they might end up on this list. If they spoke out too vociferously or loudly against the <persName>Nixon</persName> administration, you could end up on the list.</u>
+      <u who="BURACK">So you were concerned that—</u>
+      <u who="OSCADAL">I was never concerned.</u>
+      <u who="BURACK">You were never concerned.</u>
+      <u who="OSCADAL">I was curious.</u>
+      <u who="BURACK">Okay. And your brother said you weren’t.</u>
+      <u who="OSCADAL">He said I wasn’t, yes.</u>
+      <u who="BURACK">Okay. So that’s comforting to know. [Chuckles.]</u>
+      <u who="OSCADAL">But he was an agent. I don’t know if he was telling me the truth or not.</u>
+      <u who="BURACK">[Chuckles.] Do you still wonder if—</u>
+      <u who="OSCADAL">No, it’s—</u>
+      <u who="BURACK">No, no, no.</u>
+      <u who="OSCADAL">—irrelevant.</u>
+      <u who="BURACK">It’s irrelevant.</u>
+      <u who="OSCADAL">No, I was accepted in the history program.</u>
+      <u who="BURACK">Okay. </u>
+      <u who="OSCADAL">And it was a master’s program. It wouldn’t lead to the doctoral program.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="OSCADAL">The master’s would have been the terminal degree for that program. But it was a very small program. I think it was experimental. There were only two or three of us in it, and <orgName>the history department</orgName> at <orgName>SUNY Buffalo</orgName> did not have a master’s program, but for whatever reason, they tried this as an experiment. </u>
+      <u who="BURACK">Switching?</u>
+      <u who="OSCADAL">—a job—</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="OSCADAL">—and finding a life’s work, because I really hadn’t thought about it. For <date>the few years</date> that I was—you know, from, say, 15 to 19, when I had decided that I wasn’t going to go in the service, I didn’t know about the CO exemption. I assumed I would be convicted and go to jail and be a felon, convicted felon, so I didn’t really think about what I was going to do for a job, my life’s work.</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="OSCADAL">I thought, Well, librarians seem like nice people. They would probably hire me.</u>
+      <u who="BURACK">Even though you would be—</u>
+      <u who="OSCADAL">A felon.</u>
+      <u who="BURACK">—a felon, yeah.</u>
+      <u who="OSCADAL">You know, they might hire you.</u>
+      <u who="BURACK">How long would you have served had you just refused?</u>
+      <u who="OSCADAL">I think they could—if you were convicted, they could sentence you for <date>up to five years</date>.</u>
+      <u who="BURACK">Okay. So as a 15-, 16-year-old you were ready to do that.</u>
+      <u who="OSCADAL">Well, you know, I was—I didn’t—I couldn't have fully known what that meant.</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="OSCADAL">I did decide that—I decided I was not going to go in the service. I was not going to be a part of this war. And, as I said, eventually that evolved into a moral thing against not just this war but war.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="OSCADAL">And so I doubt that I fully thought through the consequences of what I was saying I was going to do, and fortunately it didn’t come to that. As I was older and in college, I still had a conviction that I would not join the service, and I understood better what that was going to entail. But anyway, that all fell out to my advantage.</u>
+      <u who="BURACK">To have both degrees to show.</u>
+      <u who="OSCADAL">Yes. So I stuck with the program, and in the summer I began the library program. And so through <date>the summer</date> and <date>the following fall semester</date>, I was doing both programs concurrently, and I finished both—let’s see, I probably got the history degree in <date>January of ’</date>73.</u>
+      <u who="BURACK">And you had started the—</u>
+      <u who="OSCADAL">I started in <date>the fall</date> of <date>’72</date>.</u>
+      <u who="BURACK">And the library program started in <date>the summer</date> of—</u>
+      <u who="OSCADAL">Seventy- —</u>
+      <u who="BURACK">—’73.</u>
+      <u who="OSCADAL">The library program started in the fall of—in <date>the summer</date> of <date>’73</date>, so that was <date>a full year</date>.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="OSCADAL">So I got the history degree in <date>January</date> of ’73, and I think the library degree <date>a year</date> after that, or <date>a year after the summer</date>.</u>
+      <u who="BURACK">So then you’ve graduated. What happens next? You stay in <placeName>Buffalo</placeName>?</u>
+      <u who="OSCADAL">For a while. While I was in graduate school, I was hired at the library as a student assistant, and so they assigned me to the history bibliographer, and I worked for him, with him for a while. And then the guy he reported to was head of reference, head of the subject librarians, and he and I struck up a friendship, and he hired me away from the subject bibliographer, and so I worked with him. And then an opening occurred for the political science bibliographer’s job, and so they put me in that job temporarily.</u>
+      <u who="BURACK">Still as a grad student?</u>
+      <u who="OSCADAL">Uh,—</u>
+      <u who="BURACK">Or you graduated.</u>
+      <u who="OSCADAL">I may have graduated by then.</u>
+      <u who="BURACK">Okay. </u>
+      <u who="OSCADAL">And so I was working full time at the library at <placeName>Buffalo</placeName>. They posted the job for permanent position, but I wasn’t allowed—I was encouraged not to apply because they went to the political science department and said that they had me in the position and they were going to encourage me to apply, but the political science faculty said, “No, he doesn’t have a degree in political science, and so we really aren’t excited about this guy.” Which makes perfect sense—</u>
+      <u who="BURACK">You had the degree in history.</u>
+      <u who="OSCADAL">—to me, that they would want someone with that academic background—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="OSCADAL">—to be their librarian. And then in <date>May of 1975</date> I was laid off. A bit <date>earlier in the year</date>, <orgName>SUNY Buffalo</orgName>—well, the <orgName>SUNY</orgName> system made large cuts in—well, large budget cuts, and a significant portion of the library cut from across the <orgName>SUNY</orgName> main campuses came from <placeName>Buffalo</placeName> because <placeName>Buffalo</placeName> was the most well-funded at that point.</u>
+      <u who="BURACK">And you were still living in <placeName>Buffalo</placeName>.</u>
+      <u who="OSCADAL">Yes. And then in <date>the fall</date>, I had a job offer from <orgName>Boston University</orgName>, so I moved to <placeName>Boston</placeName>. And <persName>Joanne [Farrell Oscadal]</persName>, my wife, and I were married in <date>August</date> of ’76. I was in <placeName>Boston</placeName>. </u>
+      <u who="BURACK">Where’s she from?</u>
+      <u who="OSCADAL"><persName>Joanne</persName> came to <placeName>Boston</placeName>.</u>
+      <u who="BURACK">Was she from <placeName>Buffalo</placeName> as well?</u>
+      <u who="OSCADAL">Yes, we grew up in the same neighborhood.</u>
+      <u who="BURACK">Oh, okay. So you had known her.</u>
+      <u who="OSCADAL">I didn’t know <persName>Joanne</persName> all that long. I went to—although we lived in the same neighborhood—by that I mean <placeName>South Buffalo</placeName>—and I went to high school with a couple of her brothers, but I didn’t meet <persName>Joanne</persName> until I was in graduate school, I think.  And so I was in <placeName>Boston</placeName> in <date>the fall</date> of <date>’75</date>. <persName>Joanne</persName> and I married in <date>the summer</date> of <date>’76</date>. We stayed in <placeName>Boston</placeName> till <date>1978</date>, so I was there <date>about four years</date>.</u>
+      <u who="BURACK">So different than <placeName>Buffalo</placeName>.</u>
+      <u who="OSCADAL">It’s a little different than the <placeName>East</placeName>.</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="OSCADAL">Actually, I had a chance to move back to <placeName>Buffalo</placeName>, and I turned it down. When we were trying—when I was trying to leave <persName>BU</persName>, we were trying to leave <placeName>Boston</placeName>, the history job opened up at <placeName>Buffalo</placeName>.</u>
+      <u who="BURACK">And you turned it down.</u>
+      <u who="OSCADAL">Yes.</u>
+      <u who="BURACK">Why? You just didn’t want to go?</u>
+      <u who="OSCADAL">No. Well, <placeName>Buffalo</placeName> is a much nicer and easier place to live in than it is to visit. And having grown up there, had we gone back, we would never have left.</u>
+      <u who="BURACK">Okay. </u>
+      <u who="OSCADAL">And so I applied for the job. I had the intent of taking it. It would have been a very easy life for us. We had a lot of friends there, family there. During the interview—well, before the interview, I learned—library jobs are advertised in three or four different places. Everyone is looking in the same three or four places. And I noticed that there was virtually the same job, different subject area but the same job open at <orgName>SUNY Albany</orgName> [<orgName>State University of New York at Albany</orgName>]. And they were offering three or four thousand dollars more for the position.</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="OSCADAL">So I thought, Well, that’s the end of that. That’s fine. But then they virtually offered me the job at <date>the end of the day</date>, which they’re not supposed to do, but we all knew each other. And I said, “Well, not for this salary.” And they said, “Fine.” And so then I had to go and call <persName>Joanne</persName> and tell her I turned the job down.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="OSCADAL">And so that was—okay, so then I go back to <placeName>Boston</placeName>. And, like, <date>three days later</date>, they call me again, and they offer me the job again, and I said, “Is the salary the same?” And they said, “Yes.” And I said, “No.” And so then I had to tell <persName>Joanne</persName> I turned the job done again. [Both chuckle.] So that was sort of difficult—</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="OSCADAL">—because—just the way we grew up: the neighborhood—I mean, we wouldn’t necessarily have lived in the neighborhood, but there were just so many connections to town. And that would be good and bad, as I alluded to. I mean, <placeName>Buffalo</placeName>—one of the things I learned, even in working at <orgName>SUNY Buffalo</orgName> in the library with people—none of those  were local. You know, they were all—they’d all come from different places. I was learning how parochial and not so cosmopolitan <placeName>Buffalo</placeName> is.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="OSCADAL">But, having grown up there, as I said, it’s a very easy place to live. So it was sort of difficult, turning it down, but I’m not sorry I did. And so after <placeName>New Mexico</placeName>, we wanted—well, we wanted to leave <placeName>New Mexico</placeName> because we knew that was a temporary stop. It was a great place. I went—I took the job to work with the woman who would be my supervisor because she was incredible, and she turned out to be incredible, so it was a very good situation as long as she was there.</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="OSCADAL">You can see people when you wanted to. And this seemed like a very nice place to be.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="OSCADAL">And when I interviewed, the library seemed very impressive. And it is. And it was. It was and is.</u>
+      <u who="BURACK">Yeah. And so when did you come to <orgName>Dartmouth</orgName>?</u>
+      <u who="OSCADAL">In the fall of 1980—no, <date>August of 1982</date>.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="OSCADAL">My anniversary is <date>August 23rd</date>. </u>
+      <u who="BURACK">So you’re <date>three days</date> away from there.</u>
+      <u who="OSCADAL">Right.</u>
+      <u who="BURACK">Wow. Are you doing anything special [laughs] for your library anniversary?</u>
+      <u who="OSCADAL">No. No. [Laughs.]</u>
+      <u who="BURACK">So you get to <orgName>Dartmouth</orgName>. Was the campus different from, like, the schools you had gone to or, like—I mean, I guess being on the faculty now or working in the library.</u>
+      <u who="OSCADAL">Uh,—</u>
+      <u who="BURACK">Like, in comparison to <placeName>Buffalo</placeName> and <placeName>Boston</placeName>.</u>
+      <u who="OSCADAL">It’s different. It’s different. It’s the smallest campus I’ve worked on.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="OSCADAL"><orgName>SUNY Buffalo</orgName> is 25[,000] or 30,000 students. <placeName>New Mexico</placeName> is 25,000. <persName>BU</persName> is probably smaller than that, but they probably had 15[,000] or 18,000 students there.</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="OSCADAL">So the work situation or the campus situation was different in that the schools were smaller. This is primarily an undergraduate campus. Coming here and being in the social sciences and humanities—there are some graduate programs now, some master’s programs, but they didn’t exist then, except for <orgName>MALS</orgName> [pronounced like MALES; Master of Arts in Liberal Studies]. <orgName>MALS</orgName> existed, but it wasn’t as developed a master’s program as it is now.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="OSCADAL">And even though I worked at large universities, this library was much better funded. The collection—actually, the collection at <placeName>Buffalo</placeName> is very good, but this is a very deep collection in the social sciences and the humanities. Undergraduates can do master’s level work here without any trouble. </u>
+      <u who="BURACK">Have you seen any dramatic changes since you’ve arrived?</u>
+      <u who="OSCADAL">I think the student body is more balanced in terms of gender.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="OSCADAL">The balance between teaching and research I think has changed. Research has stepped up, and I think—I think teaching is still very important here, but over time, research has become more important, and I think there were people who were on the faculty here when I arrived and into the <date>’90s</date> who probably would not be hired <date>today</date>. They were more teachers than the combination of teaching and research. But as a librarian here, I have the opportunity to see candidates for faculty positions, and they’re all very impressive, and they all have—I don’t think they would come here if they didn’t want the balance of teaching and research, and so that’s different than what you encounter in larger universities.</u>
+      <u who="BURACK">All right. I don’t have many more questions. If there’s anything you want to add to your narrative, your dialogue?</u>
+      <u who="OSCADAL">I don’t. Thank you.</u>
+      <u who="BURACK">You don’t think so? All right. Well, thank you so much. It’s wonderful speaking with you.</u>
+      <u who="OSCADAL">Thanks, <persName>Emily</persName>.</u>
+      <u who="BURACK">I think we can end it there.</u>
+    </body>
+  </text>
+</TEI>

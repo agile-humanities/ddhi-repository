@@ -1,0 +1,197 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="FRIEDMAN"/>
+        <person xml:id="CUMMINGS"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="CUMMINGS">So this is <persName>Emily Cummings</persName>. I’m sitting with Dr. <persName>Matthew</persName> [<persName>J.] Friedman</persName> at the VA Hospital [<orgName>White River Junction Veterans Affairs Medical Center</orgName>] in <placeName>White River Junction</placeName>, <placeName>Vermont</placeName>. It’s <date>November 10th, 2015</date>.</u>
+      <u who="FRIEDMAN">I grew up in <placeName>Newark</placeName>, <placeName>New Jersey</placeName>. My father’s name was <persName>Harry Friedman</persName>. He was a general practitioner, neighborhood practice in <placeName>Newark</placeName>. My mother’s name was <persName>Gertrude Plain</persName>, and then she became <persName>Gertrude Plain Friedman</persName>. Both of them were from <placeName>Newark</placeName>. </u>
+      <u who="CUMMINGS">So where you grew up. Were you in a suburb or—</u>
+      <u who="FRIEDMAN">No, we were in the city. It was a very urban experience, you know, and I—I enjoyed growing up in <placeName>Newark</placeName>. I think one of the interesting things for me growing up in <placeName>Newark</placeName> was we were only ten miles from <placeName>New York City</placeName>, so if I wanted to go to the art museum or the ballet or—you know, I’d just get on a bus, and I’d get to <placeName>New York</placeName>.</u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>. So, then, you enjoyed growing up there.</u>
+      <u who="FRIEDMAN">I did.</u>
+      <u who="CUMMINGS">Okay. And did you have any siblings?</u>
+      <u who="FRIEDMAN">I did. I had a brother <date>two years</date> younger than me. </u>
+      <u who="CUMMINGS">And so were you and your brother close growing up?</u>
+      <u who="FRIEDMAN">We were exactly <date>two years</date> apart. We were very close, yeah. He died in—very young. He was 23. He was in an automobile accident.</u>
+      <u who="CUMMINGS">Okay. So when you went to high school, did you go in <placeName>Newark</placeName>, or did you go—</u>
+      <u who="FRIEDMAN">Yes.</u>
+      <u who="CUMMINGS">Okay. And what was that experience like?</u>
+      <u who="FRIEDMAN">It was good. You know, I mean, I was—I went to a small private school, and I was able to—you know, I played football. I, you know, was on the newspaper. I was editor of the yearbook and, you know, did all kinds of stuff. I had a good—I had a good—a good time in high school.</u>
+      <u who="CUMMINGS">Okay. And you mentioned that your father was a general practitioner?</u>
+      <u who="FRIEDMAN">Correct.</u>
+      <u who="CUMMINGS">So did you know that you wanted to go into medicine, or—</u>
+      <u who="FRIEDMAN">No. In fact, I—he really wanted me to be a doctor. I mean, he—he was a—he was a great doctor, and he loved it, and he couldn’t imagine why anyone who could become a doctor, wouldn’t want to be it. But he pushed me too hard, and so I pushed back, and basically I didn’t want to become a doctor. And ironically I became one and have enjoyed it, you know. So it’s a long, tedious story, but—and he died before I became a doctor. He didn’t—he died believing I wasn’t going to be a doctor. But he just pushed too hard, and I was made of the same stuff he was made of, and I pushed back even harder.</u>
+      <u who="CUMMINGS">So throughout school, were you—I mean, did you know that you wanted to go to college from—</u>
+      <u who="FRIEDMAN">[Back at microphone] Oh, yeah. Yeah, that was—in fact, I remember a funny story. When I was a kid in the first grade, and a couple of us were outside, and we were playing marbles, and we were talking about—so I was—<placeName>what?—six</placeName> years old, something like that—I was talking about what I was going to be when I grew up, and I—and I wanted to be a cowboy. And so what I told everyone—I says—I said, “I’m gonna go to college, and then after college, I’m gonna come back and be a cowboy.” You know, so for me, going to college—I mean, education was—was really very, very highly prized.</u>
+      <u who="CUMMINGS">So when you were looking at schools, how did you choose—or how did you know where you wanted to go to school?</u>
+      <u who="FRIEDMAN">Well, you know, I mean, I was <date>17</date>. I didn’t know anything, really. I had an older cousin, who was <date>five years</date> older than me, who went to <orgName>Dartmouth</orgName>. And actually he did <orgName>Dartmouth</orgName> in <date>three years</date> and then went to <orgName>Dartmouth Medical School</orgName> [now the <persName>Audrey</persName> and <persName>Theodor Geisel</persName> School of Medicine at <orgName>Dartmouth</orgName>] and then finished up at <orgName>Harvard [Medical School</orgName>]. And I—and that’s really why I applied. I mean, he was sort of the closest thing I ever had to an older sibling. </u>
+      <u who="CUMMINGS">Okay. So you get to <orgName>Dartmouth</orgName>, and did you know what you wanted to study? You said that sort of in the beginning you were pushing against—</u>
+      <u who="FRIEDMAN">No, I—I—I didn’t know what I wanted to study. I knew—have you ever read Look <persName>Homeward</persName>, <persName>Angel</persName> by <persName>Thomas</persName> [C.] <persName>Wolfe</persName>?</u>
+      <u who="CUMMINGS">No, I haven’t.</u>
+      <u who="FRIEDMAN">Well, <persName>Thomas Wolfe</persName>, a great writer, who grew up in <placeName>Ashville</placeName>, <placeName>North Carolina</placeName>, described his—his first time when he got a scholarship of some sort. I think he was at <orgName>University of North Carolina</orgName>. Maybe he was at Duke [University], but I think it was <orgName>North Carolina University</orgName>. And he described his absolute joy of—of being, you know, in a place where he could really learn. I know it sounds a bit corny, but I really was very, very thrilled about—about learning, about knowledge, and so I—and I was pretty omnivorous. I mean, I—I love literature. I had some pretentions of being a writer of fiction, poetry. I think that—I had two professors, maybe three—I had two professors who really influenced me.</u>
+      <u who="CUMMINGS">Yeah, I think so.</u>
+      <u who="FRIEDMAN">Yeah. So my friend became a senior fellow, and so I was the first psych-math major at <placeName>Dartmouth</placeName>. And that really—it really changed my life, I think, in many ways. I think that—I think had I followed the normal course, despite all my yelling and screaming and anger at my father, you know, I would have majored in psych-philosophy or I would have majored in English. I would have gone straight into medical school, and I would have become a doc. And even though I did become a doc, my road to that was a much longer road, I think a much more interesting one, and my whole career has been entirely different as a result of it.</u>
+      <u who="CUMMINGS">All right. So before we move past <orgName>Dartmouth</orgName>, I just want to—so this is in <date>the late ’50s</date> that you’re a <placeName>Dartmouth</placeName>, <date>early 60s</date>?</u>
+      <u who="FRIEDMAN">Yeah, I graduated in <date>1961</date>, so I matriculated in <date>’57</date> and graduated in ’61.</u>
+      <u who="CUMMINGS">So that’s kind of before <placeName>Vietnam</placeName> was picking up. Did you have any sense of what was going on or what might, you know, turn in <date>the later years</date>?</u>
+      <u who="FRIEDMAN">Well, so for me—so when I graduated <orgName>Dartmouth</orgName>—and I am answering your question,—</u>
+      <u who="CUMMINGS">[Chuckles.]</u>
+      <u who="FRIEDMAN">—in my own, tortuous, circuitous way—I had absolutely no desire to be in the military. And the—the military event that occurred right after my graduation was the crisis in <placeName>Berlin</placeName> [in <date>1961</date>], the—the Berlin Wall and the <placeName>Berlin</placeName> airlift—you know, airlifting supplies into—into <placeName>Berlin</placeName>. And I was almost—I was almost drafted. Actually, I was almost drafted four times. The last time, the physicians’ draft. At that point, it was <placeName>Vietnam</placeName>, but that—that was <date>ten years later</date>, in <date>the ’70s</date>, but <placeName>Vietnam</placeName>—I  mean, people—it was <placeName>Indochina</placeName> then—it was French <placeName>Indochina</placeName>—I mean, he wasn’t even <placeName>Vietnam</placeName> at that time, at least not to me.</u>
+      <u who="CUMMINGS">[No immediate reply.]</u>
+      <u who="FRIEDMAN">I’m trying to remember what I—because I was trying to make a point.</u>
+      <u who="CUMMINGS">You were in <placeName>New York</placeName>, working at—</u>
+      <u who="FRIEDMAN">Ah, ah, yes. And I got the letter from my draft board, and I went to—and I had my two mentors at <orgName>the Association for the Aid of Crippled Children</orgName>. One was an Englishman who worked in charitable—he was a psychol- —he was a sociologist. But the other guy was a man named “Herb” [<persName>Herbert G.] Birch</persName>, who was a very famous—he was a psychologist who had—a very famous psychologist, who had gone back to medical school to become a pediatrician. He was really interested in—in how kids develop their different sensory capacities, so he did research with kids who had been blind from birth, deaf from birth—so that’s why [unintelligible].</u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>.</u>
+      <u who="FRIEDMAN">So, you know, I—I love—I loved the last part of—I mean, no one really loves medical school, I don’t think, but I loved taking care of patients. And so I determined that I wanted to do both.</u>
+      <u who="CUMMINGS">So can you tell me a little bit more about how that developed your hatred of the war in <placeName>Vietnam</placeName> and your sort of understanding of where you would fall into it if you were drafted?</u>
+      <u who="FRIEDMAN">I don’t understand your question.</u>
+      <u who="CUMMINGS">So sort of when you were going through your medical school—</u>
+      <u who="FRIEDMAN">Right.</u>
+      <u who="CUMMINGS">—or going through research and things, you developed this opinion about the war in <placeName>Vietnam</placeName>, that it was bad, that you would go to <placeName>Canada</placeName> if you weren’t—if you were drafted. Can you tell me a little bit more about that process?</u>
+      <u who="FRIEDMAN">Well, I’m thinking back—you know, I’m thinking back at <orgName>Dartmouth</orgName>. I mean, at <placeName>Dartmouth</placeName>—and one of the things at <orgName>Dartmouth</orgName> when I was there—<orgName>Dartmouth</orgName> had a very highly regarded <orgName>Navy</orgName> ROTC [Naval Reserve Officer Training Corps]. In fact, people came to <orgName>Dartmouth</orgName> because they wanted to go into the <orgName>Navy</orgName>, and they wanted to go to an Ivy League school and be prepared for the <orgName>Navy</orgName>. They’d come to <orgName>Dartmouth</orgName> for—for that reason.</u>
+      <u who="CUMMINGS">A little—not very well, but—</u>
+      <u who="FRIEDMAN">Okay. So one of the things that we psychiatry residents were seeing were a lot of people that wanted a military deferment for mental reasons, you know, and—and the way <placeName>Boston</placeName>—I mean, the Unitarian church, <orgName>the Arlington Street Church</orgName> is right by the [Boston] Public Garden, so all they had to do was walk across the Public Garden and—and—and <orgName>Boston Common</orgName> and—and over <placeName>Beacon Hill</placeName> or down <placeName>Charles</placeName> [Street]—you know, they worked at <orgName>MGH</orgName>, so we saw a lot of these—these people that wanted psychiatric deferments.</u>
+      <u who="CUMMINGS">So, then, you’re at <orgName>Mass General</orgName>.</u>
+      <u who="FRIEDMAN">Correct.</u>
+      <u who="CUMMINGS">And how did that lead you to your later focus? You were primarily focused on drugs and—</u>
+      <u who="FRIEDMAN">Right. So—so what happened was I got—so there were a lot of things going on at that time. It was a very exciting time. I mean—and politically, you know, it was the antiwar stuff, there was—the, you know, feminist, you know, stuff was really happening. And another thing was happening, was the counterculture, the hippie counterculture. And I was part of that. I used to come up here from <placeName>Boston</placeName>. I became very friendly with a number of people that were living in hippie communes, and I decided I wanted to be a part of that.</u>
+      <u who="CUMMINGS">From—</u>
+      <u who="FRIEDMAN"><persName>Nixon</persName>.</u>
+      <u who="CUMMINGS">Yeah.</u>
+      <u who="FRIEDMAN">Those were <persName>Nixon</persName>’s, you know, henchmen. I raised chickens. I raised goats. I used to come to grand rounds in my bib overalls. I went to the forest and got my own wood with—three of us went in on a chainsaw. And I had—didn’t use electricity. I had <orgName>Aladdin lamps</orgName>, wood stove—you know, I did the whole thing. </u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>. </u>
+      <u who="FRIEDMAN">Okay. So the idea was that if you are not making enough epinephrine and norepinephrine, you’re going to be depressed, and if you’ve got too much of it, you’re going to be manic. In fact, the father of that theory, [<persName>Joseph J.]</persName> “Joe” <placeName>Schildkraut</placeName>, was the mentor of the current chair of psychiatry, <persName>Alan</persName> [I.] Green. I heard <placeName>Schildkraut</placeName> speak when I was a graduate student at <persName>Einstein</persName>. He first came out in <date>’65</date>. So this was just—this was really very exciting stuff.</u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>.</u>
+      <u who="FRIEDMAN">So—so Homer, [<persName>William]</persName> <persName>Shakespeare</persName>’s <persName>Henry IV</persName> has a combat dream. You know that?</u>
+      <u who="CUMMINGS">Right. Yeah.</u>
+      <u who="FRIEDMAN">You know.</u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>.</u>
+      <u who="FRIEDMAN"><persName>Charles Dickens</persName>, in A Tale of Two Cities, Dr. [<persName>alexander]</persName> <persName>Manette</persName> has a dissociative reaction after his—his daughter <persName>Lucie [Manette</persName>] wants to marry the nephew of the man that threw him in the <placeName>Bastille</placeName> prior to the [French] Revolution. <persName>Erich Marie</persName> [sic; <persName>Maria] Remarque</persName>, All’s Quiet on the Western Front—and on and on and on.</u>
+      <u who="CUMMINGS">All right. No problem. I’m going to pause.</u>
+      <u who="CUMMINGS">So we were at your article, in which you—</u>
+      <u who="FRIEDMAN">Right.</u>
+      <u who="CUMMINGS">—said it’s preventable.</u>
+      <u who="FRIEDMAN">So we were doing, up here in <placeName>Vermont</placeName>—I mean, I didn’t know—I didn’t know what was going on in the rest of the country. I just knew that I was very, very moved by the—the depth of despair of the <placeName>Vietnam</placeName> vets. And, of course, I fell in love with <persName>Gayle</persName> [<persName>M. Smith</persName>], and she helped—one of the things that <persName>Gayle</persName> did for me—one of the many things that <persName>Gayle</persName> did for me was veterans were very, very alienated from, you know, general society. And she gave me some credibility. You know, they said, “You know, if she can—if she can stand him, maybe we can, too.”</u>
+      <u who="CUMMINGS">[Chuckles.]</u>
+      <u who="FRIEDMAN">And that was—that was sort of the—the state of the art at that time. And I started—and I started seeing these guys, and some of it was so distressful—I mean, they would—they would have a—there’d be—I disarmed people. I’d take their guns away from them. I said, “I’m to gonna talk to you if you don’t”—you know. Sort of like these old westerns, right? You check your—check your guns at the—or you can’t get into the saloon type of thing.</u>
+      <u who="CUMMINGS">Yes, from <placeName>New York City</placeName>.</u>
+      <u who="FRIEDMAN">Oh, you are from—you are from <placeName>New York</placeName>.</u>
+      <u who="CUMMINGS">Uh-huh. </u>
+      <u who="FRIEDMAN">Whereabouts?</u>
+      <u who="CUMMINGS">In <placeName>Manhattan</placeName>.</u>
+      <u who="FRIEDMAN">Whereabouts?</u>
+      <u who="CUMMINGS">84th [Street] and <placeName>East End [Avenue</placeName>].</u>
+      <u who="FRIEDMAN">Nice.</u>
+      <u who="CUMMINGS">Yeah.</u>
+      <u who="FRIEDMAN">That’s a nice area. I lived in—I lived around Tompkins Square for a while and then up around <placeName>Columbia</placeName> [University]. Those are the places where I lived when I was—when I was in the ci- —and in the <placeName>Bronx</placeName>, when I was doing my dissertation. And I got so sick from the air pollution. We would look at—I called it “the foo.” You could see the—the air pollution, and I’d look at how far it was above <orgName>Riverside Church</orgName>, to see what it was being—you know, if the wind was blowing toward <placeName>New Jersey</placeName>, it was going to be <date>a good day</date>, but if it was coming the other way, it wasn’t good at all.</u>
+      <u who="CUMMINGS">Right.</u>
+      <u who="FRIEDMAN">And they asked me to chair it. Now, I was just this young—young psychiatrist up in—up in <placeName>Vermont</placeName>. Who knows where—actually, there’s a picture of me, the upper left-hand picture—that’s sort of what I was [chuckles] what I looked like in <date>those days</date>. So—and I’m convinced that they must have asked about 20 people before they got to me, because it was a dangerous thing if you had a career in it. I didn’t give a damn. You know, I didn’t give—of course, as you see, there’s a certain anti-authoritarian—</u>
+      <u who="CUMMINGS">Yeah.</u>
+      <u who="FRIEDMAN">—consistency starting at probably age—age five. But, you know, I was so excited about the opportunity to effect policy. So I took—I took—I accepted. And we raised hell. We raised hell. I mean, I think what they expected was we would, you know, make a lot of speeches. I said—I said, “We’re gonna”—and some of the top people in the country—and that’s how I began to un- —to—to—to have a national perspective. I mean, these were people I never would have met.</u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>.</u>
+      <u who="FRIEDMAN">I mean, I’m sure if it hadn’t been for <name type="event">the Vietnam War</name>, I wouldn’t have stayed in medical school. I didn’t like medical school. But I knew that I would like it—dislike it less than being in the service. So who knows where I’d be today? Something very different, probably. I’m not complaining. I mean, I think I—I think my life is a—is an homage to serendipity. I mean, my—my whole—all of the decisions and paths that I followed have not been paths that I had thought about in advance. It just was opportunistic, and sometimes I didn’t have much choice, I felt.</u>
+      <u who="CUMMINGS">I don’t think so.</u>
+      <u who="FRIEDMAN">Yeah, they discontinued it. This was started by some psychologist named <persName>Chauncey</persName> [<persName>N.] Allen</persName> [Class of <date>1924</date>], probably in <date>the late ‘40s</date> or something, because when I matriculated in ’50 , I remember I took the <orgName>MMPI</orgName>. You know, we were all in the old gymnasium, and there was all this nervous laughter, you know, asking about, you know, bedwetting and masturbation and all that kind of stuff.</u>
+      <u who="CUMMINGS">[Chuckles.]</u>
+      <u who="FRIEDMAN">[Laughs.] <persName>Paula</persName> and I have been together a long time.</u>
+      <u who="CUMMINGS">Yes. </u>
+      <u who="FRIEDMAN">So then in 1988—as I said, there was a, first <orgName>National Center</orgName> for <placeName>PTSD</placeName> was established outside of <placeName>Cleveland</placeName>, and it was—it was a failure, and the government pulled the plug. And then in ’88 there was a national competition, and our group competed, and we won, so we’ve been <orgName>the National Center for PT</orgName>—ever since <date>1989</date>. </u>
+      <u who="CUMMINGS">Yeah that would be great.</u>
+      <u who="FRIEDMAN">You want those?</u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>. </u>
+      <u who="FRIEDMAN">All right. I’ll—I’ll fi- —I’m pretty sure I know where they are.</u>
+      <u who="CUMMINGS">Okay.</u>
+      <u who="FRIEDMAN">So—so basi- —so what happened was there was this confer- —so really what happened was we decided that there was no single—so <orgName>the National Center</orgName> had to be at a—at a <placeName>VA</placeName> [facility] with a strong academic affiliation. And a couple of people got together—<persName>Terry</persName> at <orgName>BU [Boston University School of Medicine</orgName>] and <persName>Dennis</persName> [<persName>S.] Charney</persName> at <orgName>Yale</orgName> and <persName>Fred</persName> at <placeName>Palo Alto</placeName>. And they said, “Well, we”—they really didn’t trust each other, so they asked me to lead it. So I didn’t put it together. </u>
+      <u who="CUMMINGS">Yeah, great. Thanks for sharing that, the story.</u>
+      <u who="FRIEDMAN">Well, we didn’t come up with—so basically, the—do you know about the <orgName>DSM</orgName>?</u>
+      <u who="CUMMINGS">No.</u>
+      <u who="FRIEDMAN">Oh, I’m sorry. I’ve used that term many, many times. So the official—the official diagnostic manual for psychiatric disorders is called <orgName>the Diagnostic and Statistical Manual</orgName>, and it originally was a statistical manual. They wanted to see how many schizophrenics or how many— So the <orgName>DSM</orgName>-I came out in <date>1952</date>. [Apparently turns to retrieve the book.] So this is the DSM-1. No, no, this is the DSM-II, <date>1968</date>. I don’t even have a DSM-I.</u>
+      <u who="CUMMINGS">It’s just too much.</u>
+      <u who="FRIEDMAN">It’s just too much, you know, you know. And it’s not just psychiatry, you know? There’s a forensic literature,—there’s an obstetrical literature. I mean, it’s—much of our actual literature, and movies, are about <orgName>PTSD</orgName> now, you know.</u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>. So when you see a patient who you haven’t seen before,—</u>
+      <u who="FRIEDMAN">Right.</u>
+      <u who="CUMMINGS">—what’s the process that you use?</u>
+      <u who="FRIEDMAN">Well, the process I use is I ask them—I ask them how can I help them; why are they here. Some people have come to see me because they think they have <orgName>PTSD</orgName> or their significant other thinks they have <orgName>PTSD</orgName>, or they’re not sure, or something bad has happened to them. You know, now a major public misconception is, you know, if you’ve been in a traumatic situation, you got <orgName>PT[SD</orgName>]. Well, that’s not true. Most people don’t get <orgName>PTSD</orgName>. And so that’s—that’s another, you know, job of the clinician, to say, “Hey. You know, it’s terrible, what happened to you, but, you know, the good news is you’re dealing with it reasonably—pretty well, and you don’t have <orgName>PTSD</orgName>.”</u>
+      <u who="CUMMINGS">[No audible response.]</u>
+      <u who="FRIEDMAN">Well, you know, it may happen. You know, we know more than half of all adult American men and women have been exposed to at least one traumatic episode, so you got a 50 percent chance that that will happen to you, you know. It’s happened to me a few times. And I—and it’s very, very painful to talk about this stuff. I mean, one of the main reasons why rape victims don’t come forward is not because of the, you know, callous and stupid way that they are interrogated by the police or whatever or some of medical professionals, perhaps; it’s because just the retelling of the event is so awful and so painful, which is why so many people that have been trauma- —rape victims, vets, whatever—don’t want to talk to their families. They don’t want to have to relive it.</u>
+      <u who="CUMMINGS">All right. So your work with <placeName>Vietnam</placeName> veterans. How has that been different than your work with veterans from other wars?</u>
+      <u who="FRIEDMAN">Well, I think in one way, it hasn’t—</u>
+      <u who="CUMMINGS">Don’t worry about it.</u>
+      <u who="FRIEDMAN">I’m sorry. I have to do this.</u>
+      <u who="CUMMINGS">No, that’s okay. [Short pause.]</u>
+      <u who="FRIEDMAN">There is a universality to the veteran experience. An organization that’s not very big in this country but is very big in <placeName>Europe</placeName> and <placeName>Asia</placeName> and I guess <placeName>Africa</placeName> and <placeName>Australia</placeName> is called <orgName>the World—</orgName>World—I think it’s called <orgName>the World Veterans Federation</orgName>. Let’s see. The—no I thought—yeah, <orgName>the World Veterans Federation</orgName>. And—and the premise is that there is something special about being a veteran that transcends nationality. It transcends what war you fought in.</u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>.</u>
+      <u who="FRIEDMAN">You know. I mean, my kids make fun of me because I still write everything out in longhand, you know. I mean, I can do some things. Because of e-mail, I’m—a little more facility with—with the keyboard. But I—if I’m writing something important, I do it longhand, you know. And I like the way a “J” feels, and I like crossing a “t,” you know. </u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>.</u>
+      <u who="FRIEDMAN">It’s one of the most poignant memorials there are. I mean, I think that <name type="event">the Vietnam Veteran War</name> [sic; <placeName>Vietnam</placeName> Veterans Memorial]—and I think <persName>the Nurses Memorial</persName> [sic; <name type="event">the Vietnam Women’s Memorial]—I</name> mean, are—are—are moving and grand. But—but the Korean—I mean, these guys in these ponchos. You can just feel the sleet that they’re—and the mud that they’re walking in and how—how agonizing it is. </u>
+      <u who="CUMMINGS">[No audible reply.]</u>
+      <u who="FRIEDMAN">Guess.</u>
+      <u who="CUMMINGS">Ten?</u>
+      <u who="FRIEDMAN">Try one percent. If you add the families, it’s three percent. So whereas everyone in the <placeName>Vietnam</placeName> era was affected by the war—whether they served or whether they were like me, they didn’t serve—everybody was affected. Because of the draft. I was almost drafted four times, you know. </u>
+      <u who="CUMMINGS">Right.</u>
+      <u who="FRIEDMAN">And it should be.</u>
+      <u who="CUMMINGS">So where do you see—just as an ending point, because I know time is almost up, but where do you see the study continuing? Where do you see <orgName>PTSD</orgName> and treatment going—</u>
+      <u who="FRIEDMAN">Okay. </u>
+      <u who="CUMMINGS">—in <date>the next few years</date>?</u>
+      <u who="FRIEDMAN">So I see a few things. One thing is—one of the main things I do these days is I started <orgName>the National PTSD Brain Bank</orgName> [sic; National Posttraumatic Stress Disorder Brain Bank]. There’s never been a <orgName>PTSD</orgName>—there’s—there’s about a hundred brain banks globally, about 50 in <placeName>the United States</placeName>. They’re devoted to—to Alzheimer’s [disease] and Parkinsonism and schizophrenia and dif- —not a single PTS- —so something I’ve been trying to get done for <date>12 years</date>. And thanks to Sen. [<persName>Patrick J.] Leahy</persName>, who was able to get bipartisan support in both houses of <orgName>Congress</orgName>, we now have money. So I’ve started this brain bank. So we’re—we’re—we’re off and running, and it’s—it’s—it’s an eight-part consortium, and it’s fabulous. </u>
+      <u who="CUMMINGS">Well, thank you so much for talking with me <date>today</date>.</u>
+      <u who="FRIEDMAN">You’re welcome.</u>
+      <u who="CUMMINGS">That was very informative. So I’m just going to turn off the recording now.</u>
+    </body>
+  </text>
+</TEI>

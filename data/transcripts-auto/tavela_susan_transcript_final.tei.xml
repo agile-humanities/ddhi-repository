@@ -1,0 +1,261 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="TAVELA"/>
+        <person xml:id="SOLOMON"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="SOLOMON">Hello. This is <persName>Hanna Solomon</persName>. I’m a student interviewer with <orgName>the Dartmouth Vietnam Project</orgName> in <placeName>Rauner</placeName> [<orgName>Special Collections] Library</orgName> at <orgName>Dartmouth College</orgName>. <date>Today</date> is <date>March 11th, 2016</date>, and I am speaking with [<persName>Susan E.]</persName> “Sue” Tavela [pronounced <persName>TAV</persName>-eh-luh], who is calling in from—where are you calling in from?</u>
+      <u who="TAVELA"><placeName>Silver Spring</placeName>, <placeName>Maryland</placeName>, near <placeName>Washington</placeName>, <placeName>D.C.</placeName></u>
+      <u who="SOLOMON">Near <placeName>Washington</placeName>, <placeName>D.C.</placeName> Thank you so much for speaking with me <date>today</date>.</u>
+      <u who="TAVELA">I’m doing this because my husband, <persName>John [E. Tavela</persName>, Class of <date>1964</date>], was a <placeName>Vietnam</placeName> veteran, and it had a big impact on him and our lives, and he’s hospitalized now and can’t do it himself, so—and I had just—he wanted to revise the novel he wrote when he came back from <placeName>Vietnam</placeName>, but can’t do that, either, so this is my chance to get—to get more information about him out, and about how it affects us.  </u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">And then later, we were so disgusted with him because of what happened in that war. And you just—</u>
+      <u who="SOLOMON">Sorry. Go ahead.</u>
+      <u who="TAVELA">Oh, you just get—you do what seems right at the time, and then later on, you look back and it’s just really strange and interesting.</u>
+      <u who="SOLOMON">[Chuckles.] Well, thank you so much for—for doing this interview. I’d like to start back way at the beginning. Tell me a little bit about your family, about your childhood. When were you born?</u>
+      <u who="TAVELA">My childhood or <persName>John</persName>’s?</u>
+      <u who="SOLOMON">Your childhood. We’ll start with you.</u>
+      <u who="TAVELA">I moved all over the country. I was born in <placeName>Utah</placeName>. I moved 12 times before I graduated from high school. <persName>John</persName> and I were high school sweethearts. He was my memory [chuckles], which is kind of ironic because now he’s in a memory institution, and—I don’t know, he was—he was the most—I’ll choke up.</u>
+      <u who="SOLOMON">Take your time.</u>
+      <u who="TAVELA">Moving around is very hard. And after a while, you get to feel like it doesn’t matter what you do or what you say because you’ll just leave it behind. And <persName>John</persName> was this change in my life. And then, you know, if I get talking about myself, that could take forever. [Laughs.] I’m a garrulous old woman of 74 now, so [chuckles] I really—</u>
+      <u who="SOLOMON">I would love to hear it. No, I would love to hear your story, though. I’d like to build up some background, if you would like to talk about it.</u>
+      <u who="SOLOMON">Wow. [Chuckles.]</u>
+      <u who="TAVELA">Yeah. This was—that—but my mother is the least racist woman of her generation that I’ve ever known. I mean, she was totally unprejudiced, herself. But I think—and I think that was because she—she knew that he was part Indian and—because one time—and this came out when I was talking about having my hair done and how I couldn’t have French braids. “Well, you have that greasy Indian hair, like I do.” And so that’s how she thought of it, you know?</u>
+      <u who="SOLOMON">Wow.</u>
+      <u who="TAVELA">Through her parents. And so—but she loved her father more than her mother. I know because her mother was mean to her, although she was—my grandmother was a really funny lady. And then move all over the place. And that’s kind of—kind of how I was. [Both chuckle.]</u>
+      <u who="SOLOMON">Where else did you live?</u>
+      <u who="TAVELA">Hmm? Where else did I live?</u>
+      <u who="SOLOMON">Yes.</u>
+      <u who="TAVELA">Oh, let’s see. After—lived a couple of places in <placeName>Utah</placeName>. Lived in <placeName>Indiana</placeName>, near <placeName>Terra Haute</placeName>. Lived in <placeName>Oak Park</placeName>, <placeName>Illinois</placeName>. Lived in <placeName>Chicago</placeName>. Lived in garden homes <placeName>Wisconsin</placeName>, which were kind of—that was—<placeName>West Chicago</placeName> wasn’t the west side of <placeName>Chicago</placeName>. It was this little hick town. And then we moved into <placeName>Milwaukee</placeName> [<placeName>Wisconsin</placeName>], and because they didn’t want to have another mortgage, we bought this house that was in a terrible neighborhood [both chuckle], and there was all kinds of tough kids. And—and my parents—oh, my mother made me register myself in the third grade. [Laughs.] That was scary enough. They never believed us that the schools there were just terrible, and the kids brought zip guns to school, things like that.</u>
+      <u who="SOLOMON">My gosh!</u>
+      <u who="TAVELA">But anyway, the [<orgName>Milwaukee] Journal [Sentinel</orgName>] published an article where the kids had broken into the school and busted it up in the summertime, and then they finally believed us, and then we moved out into the country, the other extreme.</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">[Chuckles.] And then we ended up in <placeName>Wauwatosa</placeName>, <placeName>Wisconsin</placeName>, which is like an upper-class suburb, which was at one time the second-richest suburb in the country, is its claim to fame.</u>
+      <u who="SOLOMON">Oh, wow. So quite the change.</u>
+      <u who="TAVELA">Hmm? At what age?</u>
+      <u who="SOLOMON">Quite the change.</u>
+      <u who="TAVELA">Oh, quite the change, you bet.</u>
+      <u who="SOLOMON">And, yeah, how old were you when you moved there?</u>
+      <u who="TAVELA">When I was there—let’s see, the first time, it was—I was—I must have been around 12. I was in sixth grade. And then—then we moved to <placeName>New York</placeName>, to <placeName>Pleasantville</placeName>. We stayed for <date>a month</date> in a hotel in <placeName>Armonk</placeName> first, and then I was there for junior high and ninth grade, and I wrote—I came into eighth grade, and we had to write a paper on the most important machine, and I wrote about computers. My dad was—</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">—applying for a job. And how they were going to revolutionize the world. And they had just [chuckles]—I didn’t know, but the eighth-grade teacher just finished a section on all the primitive machines and how the wheel is the basis of life, you know? [Both chuckle.] So everyone wrote about the wheel but me, and I got a D on my paper. [Laughs.]</u>
+      <u who="SOLOMON">And you were right. [Chuckles.]</u>
+      <u who="TAVELA">[Laughs.] Ahh! Otherwise, I was a real good student, a really good student. I should say.</u>
+      <u who="SOLOMON">It’s ok. [Chuckles.]</u>
+      <u who="TAVELA">But while I was there—while I was there, and I thought that was where my parents would be, they moved to <placeName>Baltimore</placeName>.</u>
+      <u who="SOLOMON">Oh, wow.</u>
+      <u who="TAVELA">Kind of broke me up with <persName>John</persName>. And—and then—and then there’s stuff I don’t want to talk about. [Laughs.] I would talk about it, but it would take too long. [Chuckles.], being a child [unintelligible].</u>
+      <u who="SOLOMON">That’s fine.</u>
+      <u who="TAVELA">And <persName>John</persName> and I got back together when he was at <placeName>Dartmouth</placeName>. Actually, I think he first learned about <orgName>Dartmouth</orgName> from me, because one time, my parents were gone and I was staying with this girl who was a couple—well <date>three years</date> older than I was, and it was in the high school in <placeName>Pleasantville</placeName>, and a really wonderful family, just wonderful. And her brother went to <placeName>Dartmouth</placeName>, so that’s how I had heard it was such a good place. And—</u>
+      <u who="SOLOMON">What <date>year</date>—oh sorry. What <date>year</date> did you meet <persName>John</persName>?</u>
+      <u who="TAVELA">Met <persName>John</persName>, let’s see, I guess in <date>1963</date>. No. No, no, no. No, no, no. When did I graduate? Nineteen fifty-eight. Nineteen fifty-eight. I was dating a friend of his and had a neighbor who was a friend, named <persName>Marsha</persName>, and so I invited him over. You know, the four of us were there together. And <persName>John</persName> and <persName>Marsha</persName> were going, “<persName>John</persName>!” “<persName>Marsha</persName>.” [Laughs.] </u>
+      <u who="SOLOMON">[Laughs.]</u>
+      <u who="TAVELA">And I just thought—I wanted her to go out with him because I thought he was too good to waste. [Laughs.]</u>
+      <u who="SOLOMON">[Laughs.] That’s funny.</u>
+      <u who="TAVELA">Then we started going out. Walked into town in the rain. [Laughs.] All the way from the suburb of <placeName>Milwaukee</placeName> in rain. [Laughs.] Went into an air-conditioned theater. [Laughs.] A lot of, you know, [laughs] things like that.</u>
+      <u who="SOLOMON">[Laughs.]</u>
+      <u who="TAVELA">We walked everywhere we went. We liked to walk. </u>
+      <u who="SOLOMON">Of course.</u>
+      <u who="TAVELA">So he’s walking around <placeName>this Copper Ridge</placeName> [Memory Care] place where he is now, inside. It’s all locked. Moving around, usually.</u>
+      <u who="SOLOMON">Can you tell me anything about—about his childhood?</u>
+      <u who="TAVELA">Oh, yeah. He was born in <placeName>Milwaukee</placeName> and raised in <placeName>Wauwatosa</placeName>. He was in a total of three houses in his life, all of them within a bus ride of <placeName>Milwaukee</placeName>, <placeName>Wisconsin</placeName>. [Both chuckle.] That’s right, he’s very stable. His dad was Finnish. Died very young from complications from diabetes, but “young” to me now is 60. And <persName>John—John</persName> was a really good student, and he was a football player and a track person and just very patient, very reliable, just—and funny. Funny, funny, funny. We both have this—pretty dark—but we both have the same sense of humor, and that—that’s a story there, too.</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">And he said, “That’s not enough.” [Laughs.]</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">But he married us anyway. <persName>John</persName> actually was hoping that this rabbi that he liked a lot would be there and would marry us, but the guy who—I can’t remember his name, but he was somebody <persName>John</persName> had a lot of respect for. And neither one of us is religious now. Spiritual maybe for me, but not—no conventional religion. </u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">And so <persName>John</persName> stormed out of the room, slammed the door. I’m sitting on my pile of laundry, thinking [chuckles], you know—thinking—you know, knowing that I’ve been foolish, but still mad. And then <persName>John</persName> came back, opened the door, and we both, at the exact same time, said, “And let the farce be with you.” [Laughter.] We had just seen Star Wars, then—</u>
+      <u who="SOLOMON">[Laughs.]</u>
+      <u who="TAVELA">And then we laughed and laughed, and then we went and played some prank on somebody, I think. [Laughter.] But it’s [unintelligible] how far humor can get you. [Chuckles.]</u>
+      <u who="SOLOMON">Of course. It’s a wonderful memory.</u>
+      <u who="TAVELA">Yeah, and it kind of [unintelligible] funny things if you look for them. </u>
+      <u who="SOLOMON">So you were married in ’64. You met in ’58. Were either of you political at this point? Were you sort of following what was going on in the world news and that kind of stuff?</u>
+      <u who="TAVELA">Oh, yeah. I mean, yes, we—we—both of us were always very political. I know—oh, when I was in <placeName>New York</placeName> and we had to do some kind of little paper, I did something about <persName>Emmett</persName> [L.] Till. And both of us were really very civil rights conscious. And <persName>John</persName>—oh, <persName>John</persName>’s mother is a Holocaust denier, and <persName>John</persName> is—is, you know—you know how people—they would say—somebody would say, “My best friend is Jewish”?</u>
+      <u who="SOLOMON"><persName>Mm-hm</persName>. </u>
+      <u who="TAVELA">Well, at one point, like, marriage [chuckles], it was, like, “Our best friends are Jewish,” including the maid of honor and best man and [chuckles]—you know.</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">I thought—you know. So, you know, I mean, that’s important. That’s—that’s something good I got from my mother, was that—you know, she—at one time—in all this moving, some—some—oh, a new friend I had made—we had agreed to wear our new spring coats <date>that day</date>, and I wore mine and she didn’t wear hers, and it just crushed me, and my mother said, “She’s not worth it. You know, if she doesn’t do what she says she’s gonna do, then she’s—don’t feel bad. She’s not worth your time.” And that’s—you know, she told me—taught me to look for people who were genuine.</u>
+      <u who="SOLOMON"><persName>Mm-hm</persName>.</u>
+      <u who="TAVELA">That—and <persName>John</persName> and I have always felt like that, so we’ve worked for justice, and that’s why we campaigned for <persName>Lyndon Johnson</persName>. [Laughs.] And we were part of the northern student movement and tutored in <placeName>Baltimore</placeName> one—the summer of <date>’63</date>, I think. And we were, again—I can’t get the time on <name type="event">the civil rights march</name>. I’m pretty sure we were there, but we didn’t even buy a button, and I think later somebody gave us a button from the thing and said, “Look, you know, you were activists, and I just went. [Chuckles]. [Unintelligible].</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">But—</u>
+      <u who="SOLOMON">Which—which <date>march</date> would that be?</u>
+      <u who="TAVELA">HUH?</u>
+      <u who="SOLOMON">Which <date>march</date> would that be?</u>
+      <u who="TAVELA">Freedom.</u>
+      <u who="SOLOMON">What <date>year</date>?</u>
+      <u who="TAVELA">In <placeName>D.C.</placeName>, the big one, the one—</u>
+      <u who="SOLOMON">The big one, okay, got you.</u>
+      <u who="TAVELA">We were in both the civil rights march, and we were in the Peace March [<orgName>Kent State/Cambodia Incursion</orgName> protest] when the buses rallied around <orgName>the White House</orgName> to protect President [<persName>Richard M.] Nixon</persName>, and we had—we had voted for [<persName>Spiro T.] Agnew</persName> for jobs and freedom. Yeah. We went to the 50th anniversary of that, even though <persName>John</persName> had dementia at the time. </u>
+      <u who="SOLOMON">Can you tell me a little bit about  what it was like to march on <placeName>Washington</placeName>? Describe that experience a little bit?</u>
+      <u who="TAVELA"><persName>John</persName> came back from <placeName>Vietnam</placeName>? That one? [Chuckles.]</u>
+      <u who="SOLOMON">Sure, yeah.</u>
+      <u who="TAVELA">Because that was—well, <persName>John</persName>—okay, in—let’s see, it was nine- —in the—1966 is when he signed up to go—</u>
+      <u who="SOLOMON">Okay.</u>
+      <u who="TAVELA">—to the [<orgName>U.S.] Army</orgName>. And the reas-—</u>
+      <u who="SOLOMON">Let’s start there. [Chuckles.]</u>
+      <u who="TAVELA">Can I jump there?</u>
+      <u who="SOLOMON">Yes. Perfect. Start there.</u>
+      <u who="TAVELA">Okay. What happened was—what he did was after he graduated from <orgName>Dartmouth</orgName> and after we did some civil rights type stuff, then he went to [<orgName>Johns] Hopkins [University</orgName>] and got a master’s degree. But after he got the master’s degree, they offered him a chance to get a <persName>Ph.D.</persName> and to have even more money from teaching, and he turned it down because he felt like it was defeat—you know, not—just too safe a life or something, I guess. I don’t know.</u>
+      <u who="SOLOMON">Where did you go to—where did you go to college?</u>
+      <u who="TAVELA"><orgName>The University of Maryland</orgName> [in <placeName>College Park</placeName>]. And I had had—had a scholarship, but I left that college. I had—got a—I at first had gone to <placeName>Valparaiso</placeName> [University] because  thought that would impress <persName>John</persName>’s mother, who was a staunch <placeName>Lutheran</placeName>. [Both chuckle.] And it’s not the best way of choosing a college, but we were both—what is it? You know, the National Merit [Scholarship]—like, you’re a finalist, you don’t get any money I guess as a semi-finalist or something. Anyway—</u>
+      <u who="SOLOMON">Right. [Chuckles.]</u>
+      <u who="TAVELA">But <persName>John</persName> got lots—he had a full scholarship from <orgName>Dartmouth</orgName>, which he lost when he got married. His father asked me, “Why did you get married?” [Laughs.] But he got through <orgName>Dartmouth</orgName>, and did better after—after he was married, so anyway—I’m losing track of myself.</u>
+      <u who="SOLOMON">That’s okay. [Chuckles.]</u>
+      <u who="TAVELA">Yeah. Okay. I’m trying to get to—yeah, it was—so he went to the draft board with a lot of guys from the football team at <orgName>the University of Maryland</orgName>, all of whom were too injured and were 4-F [Selective Service classification meaning “not acceptable for military service”]. But he was, like, all A’s, you know? [Laughs.] </u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">So he didn’t have a chance, and he was going to get drafted because he was out of state, and he had passed the physical, you know, the exams with really high marks, so he got—after he did that, he went around to the draft boards to see what the best deal he could get was. And he didn’t want to kill anybody in the stupid war, so he went to <orgName>the Medical Service Corps</orgName>. He went to the <orgName>Army</orgName>, and they got him in <orgName>the Medical Service Corps</orgName>. And he was commissioned as a reserve second lieutenant and got credit for, you know, having a college degree, and so then he went down to Fort Sam <placeName>Houston</placeName> [in <placeName>Texas</placeName>] and in <date>March</date> he graduated from their program. And I think that’s where he got his CBR [Chemical, <orgName>Biological</orgName>, Radiological] training. I know he got an award or some place for—he has these—we have this collection of sheets of paper [chuckles]—</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">And it’s “OUTSTANDING!”—you know, “use of the comma,” you know, that kind of thing.</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">Anyway, he had something outstanding for his <orgName>CBR</orgName> training for—and—so anyway, he would send these [unintelligible] and then he was sent to <orgName>Ireland Army Hospital</orgName> [sic; <orgName>Ireland Army Community Hospital</orgName>, now <orgName>Ireland Army Health Clinic</orgName>] in <placeName>Fort Knox</placeName>, <placeName>Kentucky</placeName>. And—and I finished college, so from <date>March till June</date>—you know, as soon as I finished my exams, I left and joined <persName>John</persName> in <placeName>Kentucky</placeName>. And we lived off post until probably around <date>June</date>, and then when we moved from this—we’d been living in a basement in what’s called E-town, <placeName>Elizabethtown</placeName>, <placeName>Kentucky</placeName>, and—let’s see—oh, and when we moved in, he got chicken pox. I remember that. [Chuckles.] </u>
+      <u who="TAVELA">I had no sympathy for him because—</u>
+      <u who="SOLOMON">[Laughs.]</u>
+      <u who="TAVELA">—we had a downstairs—had really good friends in this apartment building we were living in when I was going to school, <orgName>University of Maryland</orgName>. And—and the little children—this one family all had chicken pox, and they never seemed very sick, and <persName>John</persName> was just—he was the most pitiful I’d ever seen him, almost. And I—I wasn’t that sympathetic, but later I found out that’s a big deal, to have chicken pox [chuckles] when you’re old.</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">Ah, and then—so he—he was at Fort Knox, and he—I can read you some of the letter here.</u>
+      <u who="SOLOMON">Sure. Just give me the date of the letter that you’re reading.</u>
+      <u who="TAVELA"><date>March 15th, 1967</date>. Okay. I’ll just read a part of it. Okay. “As far as I can tell at <date>this early date</date>, I think this assignment will be at least palatable, as soon as I learn my job. Well, actually jobs. In addition to being commander of <orgName>the 2nd Hospital Unit</orgName>, I’m activities and recreation officer for the hospital, <orgName>CBR</orgName> officer, and will probably be security control officer. <persName>Captain Entolbe</persName> [archivist note: spelling uncertain] is young, on the way up and pretty reasonable. A nice guy. It should be fairly pleasant working under him. At least he doesn’t want to go to <placeName>Vietnam</placeName>. He also made the statement that he didn’t ever want to receive the Purple Heart or the Medal of Honor, so it seems that he’s pretty rational for a <orgName>BMT</orgName> graduate.” Or <orgName>VPM</orgName>, whichever. Anyway, career type soldier.</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">It was an <orgName>Army</orgName>—and there was a commissary and—you know—oh, whatever the—the other store. I can’t even think of the word you use for it. But military post—you know, that’s a life to themselves, and it’s—and it’s—it’s—<persName>John</persName> said—sometimes—some study was—somebody said something about [Bernard] “<persName>Bernie</persName>” <persName>Sanders</persName> being a socialist, and they were—they were kind of militant person. And he said, “Well, you know, the <orgName>Army</orgName> is just communism.” [Laughter.] Ah!</u>
+      <u who="SOLOMON">Oh, wow.</u>
+      <u who="TAVELA">—and talking to his wife I asked—you know, he said how did it affect him, and she said, “He hasn’t laughed. He doesn’t—he doesn’t laugh anymore.” And that’s just—that’s to me the telling thing about that. That was just—people who want to start wars are just so ignorant, so ignorant for what it does in so many ways. Because he was in <orgName>the Medical Service Corps</orgName>, and so was <persName>John</persName>, and I think a lot of the—the really bad things he’s going through now with dementia are just left over from <placeName>Vietnam</placeName>. So if he sort of—when he’s in the sort of Mr. <persName>Hyde</persName> [as opposed to Dr. <persName>Jekyll</persName>] state of mind, he—it’s like he’s asleep. It’s like he’s asleep. It’s just weird. </u>
+      <u who="SOLOMON">Right.</u>
+      <u who="TAVELA">If you see something moving in the dark right now because it was right at the twilight time, when vision is very dodgy. So that’s what <persName>John</persName> figured out, was that he’d sent these men at a time of day when vision isn’t clear over to where new recruits were, and so he stopped it right away, and nobody was hurt.</u>
+      <u who="SOLOMON">Wow.</u>
+      <u who="TAVELA">But you know, avoiding friendly fire isn’t something you get a medal [chuckles; unintelligible]—</u>
+      <u who="SOLOMON">[Laughs.]</u>
+      <u who="TAVELA">Friendly fire while you’re a commander is not something you get a badge for.</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">But he did—you know, he did a lot of things. He did them honorable.</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">—full run of the place. It’s right on the ocean, almost.” [Chuckles.] So that’s what we did. And I took <persName>Eric</persName>, as a little tiny baby to <placeName>Hawaii</placeName>. There’s just a million stories I could—I could go on and on too long. But I was really ticked that he didn’t—you know, that that happened. And now people hear about it, at least, that these soldiers that go off—they leave pregnant women, they leave little children, and a lot of times—you know, I did learn from  a friend, whose father was in <name type="event">World War II</name> and never had a good relationship with his father—but his mother wrote nothing but letters about the baby [both chuckle] to his—to him.</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">Somebody with a Bronze Star. [Chuckles.] But then a captain in a war zone. “Lacks management experience.”</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">[Laughs.] For car rental. He eventually got into the printing industry and worked his way up there, and—and we—after—and we—we put up with the lousy jobs that are in <placeName>the Upper Valley</placeName> [region of <placeName>New Hampshire</placeName> and <placeName>Vermont</placeName>] unless you’re well connected, and used that and worked that, which neither one of us has ever wanted to do, even if we could. </u>
+      <u who="SOLOMON">So it was pretty—go ahead.</u>
+      <u who="TAVELA">Oh, just—I have a friend, whose husband was in <placeName>Korea</placeName>—another little prize war, but at least some things were to come out of that. You know, maybe <placeName>North Korea</placeName> is—also—that’s also an outcome of <name type="event">the Korean war</name>. Maybe all the sane people stayed in the south, or the ones that were harder to brainwash. But this friend of mine and her husband had shrapnel in his legs. It just—you know, no sympathy.</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">[Unintelligible]. Right until they’re happy. Never look back. And now with the drones—I really think [<persName>Barack H.] Obama</persName> is a great president and one of the best that’s we’ve seen, although I think [<persName>James Earl “Jimmy”]</persName> <persName>Carter</persName> gets little credit for even bringing any kind of peace for <placeName>the Middle East</placeName>. But <persName>Obama</persName>’s using drones, and it just makes it more remote and easier to indiscriminately kill people, and I—I think <persName>Obama</persName> has the good sense to use it in a very cautious way, but that doesn’t guarantee that the next president—you know, can you imagine [<persName>Donald J.] Trump</persName> with a fleet of drones?</u>
+      <u who="SOLOMON">[Chuckles.] I don’t want to. [Laughs.]</u>
+      <u who="TAVELA">Yeah. I’m going to—<persName>John</persName> can’t vote anymore because he’s mentally incompetent and he’s locked up, but I’m going to go out and campaign this time. And I did last time too. I’m—and, you know, that was something we would do, we would always—I mean, we would talk about politics. So anyway—so I’m a screaming socialist,—</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">— and I hope <persName>Bernie</persName> wins. And I’m upset because the women that—I just hear women saying, “Oh, you know, <persName>Hillary</persName> [<persName>Rodham Clinton</persName>] a smart—good background woman. You know, if you’re a woman, you should vote for her.” And I just think, Yeah, and there were a lot of people I knew who were intelligent, black women who voted for—you know, who were saying that <persName>Clarence Thomas</persName> should get in, because it’s prejudice was what was stopping him. And until they appoint <persName>Anita</persName> [<persName>F.] Hill</persName> to <orgName>the Supreme Court</orgName>, I’m going to be outraged. You know.</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">It shouldn’t be—you shouldn’t be loyal to, you know,—like my mother would say, you should look for genuine people. It doesn’t matter where they come from. You know, nothing else matters, there is a quality of genuineness that some people have, so—</u>
+      <u who="SOLOMON">A good thing to remember.</u>
+      <u who="TAVELA">When he came home from—</u>
+      <u who="SOLOMON">What <date>year</date> was that? Yeah. You said that was ’69?</u>
+      <u who="TAVELA">Yeah, it was <date>November</date> of ’69. And they wouldn’t even hold the plane to let the veterans get on. He was scheduled for some flight, but it took off before they delivered the guys from wherever they were holding the veterans on <placeName>the West Coast</placeName>. I went to the airport and had to come home and go back later. [Chuckles.]</u>
+      <u who="SOLOMON">Oh, my gosh. So he came home, and you said he went back to working at his old job?</u>
+      <u who="TAVELA">Back to work at the insurance company. It was a different job. He came back. They made him a systems analyst, I think.</u>
+      <u who="SOLOMON">Okay. And then you said he worked for the government? Go ahead, sorry.</u>
+      <u who="TAVELA">Yeah, then he got a job—let’s see, where did he—let’s see, I think—which was <orgName>the Occupational Safety and Health Review Commission</orgName> [sic; <orgName>Occupational Safety and Health Review System</orgName>]. And that was a just a new—a new entity that they created to review the enforcement of occupational safety and health laws. And that was a good bunch. And that was such a—that was such an ideal job, but <persName>John</persName>—I don’t think <persName>John</persName> ever had a job he was really happy in.</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">“[unintelligible]?” “No.” And so I said, “I don't think [chuckles] that’s a good idea.” And then—and then what he really wanted to do was to join the <orgName>Army</orgName> and go into the infantry because he thought he could save lives. And I said, “Would you be assigned to <placeName>Fort Huachuca</placeName> [<placeName>Arizona</placeName>]? Would we move all the time?” And he said, “Yes.” And I said, “I couldn’t—I don’t want to do that. I really don’t want to do that to our kids.” Moved enough as a child. I could not—it’s not—when you’re a military, at least you’re moving into a community where others were moving all the time, but it’s still not the best way to raise kids. And certainly not while a war’s going on.</u>
+      <u who="SOLOMON">That’s okay. It’s okay.</u>
+      <u who="TAVELA">Marching in <placeName>Washington</placeName>?</u>
+      <u who="SOLOMON">Yeah. You said after he came back.</u>
+      <u who="TAVELA">Yeah, yeah, after he came back, yeah. Well, that was just—it was—it was powerful for him to do that, for both of us. And—but he didn't want to give up his Bronze Star. I remember that. He wouldn’t do that. But it was—we still have—I have a button from that one, though. [Both chuckle.] And it was—it felt so strong. And to see—see the buses around the White House! [Chuckles.] That was really—that was, like, you know, you kind of—you felt like—oh, it wasn’t as party-like, in a way. I mean, the civil rights march—it was sort of real upbeat. You know, you’re singing “We Shall Overcome,” and it—and it was—seemed like fun. I mean, it was—it was in <date>the time of year</date> when it’s pretty down here, and I don’t really remember what it was like when <persName>John</persName> came back from <placeName>Vietnam</placeName>, what time that was, if it was, you know, so early in the spring that it was maybe still cold. I don't think it was cold—warm enough. But it was huge. It was huge. And they were reporting that the crowd was, like, 250,000, and they were saying that there were many—much bigger than that. It was just—you couldn’t—and neither of us likes crowds. <persName>John—John</persName> and I are very, mmm—we’re happy to be alone. We don’t—we don’t really need—we don’t like cocktail parties. You know, didn’t like—</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">—the faculty club, <orgName>Dartmouth</orgName> or <orgName>Hopkins</orgName> particularly not, that kind of thing. Like, kind of have friends that throw good dinner parties and enjoy them, but, eh! But just—but this is just—you know, you can’t breathe! You can hardly turn around. It was just so crowded. And I—I don’t remember a lot of it. I don’t—I would remember music. Also I remember we got closer—we got closer to the front of it in that march than in the civil rights one. But both of them were just huge, just huge. And it made me feel good. And it made <persName>John</persName> feel good too. I mean, we were—we were real glad we went. And think it—it helped change things, and—</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">—but we, you know, because we were civil right people, we went out and voted for [<persName>Spiro T.] Agnew</persName>. That’s the only time [chuckles] we voted for a Republican, I think. But we voted for <persName>Spiro Agnew</persName> as governor of <placeName>Maryland</placeName> because the guy that ran—instead of having one of the liberal tidings family run as a Democratic candidate, there was so much racist stuff going on in the country at that point that the Democrats had elected as their candidate some guy [<persName>George P. Mahoney</persName>] who could barely structure a sentence and whose motto was “Home is your castle.” [sic; “Your home is your castle: protect it.”] I can’t remember the guy’s name, but he was a racist jerk. So we actually campaigned somewhat for <persName>Agnew</persName>. [Laughs.]</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">To keep him out. [Chuckles.] And then he becomes vice president! Good, God! [Both chuckle.] And it—I just—well, what I wish for this country is—I wish—if you’re going to consider money and corporations as signs of free speech—if money is speech, then you’ve got to keep your money in your state, in your voting district. You cannot spread it across the country. You cannot, you know—you can’t drive some yokel from, like, <persName>Agnew</persName>, with money from interests that aren’t right in <placeName>Maryland</placeName>. [Chuckles.] You know, I think that’s a big mistake. I want to see money get out of the elections. That—that would be a big thing. That, and the genetics research. I think all change for the much better, possibly—I hope you see it in your time. [Both chuckle.]</u>
+      <u who="SOLOMON">I hope so too. All right. Well, is there anything else you’d like to talk about?</u>
+      <u who="TAVELA">Excuse me? I—would you repeat that, please?</u>
+      <u who="SOLOMON">Is there anything else you would like to talk about?</u>
+      <u who="TAVELA">What do you think about <placeName>Vietnam</placeName> after doing all this research, being part of this project? Do you have any impressions?</u>
+      <u who="SOLOMON">I tend to feel the way that many of the—the people who I’ve spoken with feel, that it was an enormous human cost with not much hope of a good result. I don’t know if you would put it a different way.</u>
+      <u who="TAVELA">Yeah, in a truly pragmatic way, war is just pretty stupid.</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">You blow stuff up. You know, you waste material and human lives. The only good thing that came out of <placeName>Vietnam</placeName> is that there is—Oh!</u>
+      <u who="SOLOMON">Right.</u>
+      <u who="TAVELA">Now, there’s a reason! [Laughs.] <persName>Achh</persName>! Yeah. Well I just hope people—you know what I hope? Actually, my big—I have—I have two—I have several hopes. One is for robots to have compassion, empathetic robots.</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">Let’s see, what was the other? Oh, oh, that in the genetic research and everything, people will learn—will finally have the ability to learn to live long, healthy lives so that they have to live with the consequences of their actions, instead of their grandchildren living with them. That’s what I’d like to see. [Chuckles.]</u>
+      <u who="SOLOMON">I’m going to keep those in mind. [Chuckles.]</u>
+      <u who="TAVELA">Okay. [Chuckles.]</u>
+      <u who="SOLOMON">Wow! So all right. Is there anything else you’d like to say about <placeName>Vietnam</placeName> and the way that it affected your life, your relationship? I know we’ve talked a lot about that, but if there’s anything else you’d like to add?</u>
+      <u who="TAVELA">I don’t think I can’t—you know, these are just, like, anec- —I don’t—I should—it affected us in some way that’s, you know, sort of—like <persName>John</persName>’s dreams. You know, it’s like this is a dream that’s not obvious but it’s definitely there. I know our sons have said, you know, “Oh, <placeName>Vietnam</placeName>, <placeName>Vietnam</placeName>. Everything’s because of <placeName>Vietnam</placeName>. We’ve heard that one.” [Chuckles.] But it is! A lot of it is. A lot of it—a lot of things changed.</u>
+      <u who="SOLOMON">Do you have anecdotes you would like to tell?</u>
+      <u who="TAVELA">Hmm?</u>
+      <u who="SOLOMON">Are there any anecdotes you would like to tell?</u>
+      <u who="TAVELA">Let’s see. Well, I’m sort of preachy, so I’ve done my preaching, but there—there aren’t a lot—a lot of memories. It also leaves you with a lot of fond memories, like when we were at—stationed at Fort Knox, we had good friends and going to parties. And I met this one woman—actually, this couple were good friends of ours, and—and I learned a lot from this woman because she was just a really great artist and—and she taught me that it’s a lot easier to turn out really good products if you have really good equipment. I never realized that. [Both chuckle.] </u>
+      <u who="SOLOMON">Yes. [Chuckles.]</u>
+      <u who="TAVELA">Thank you for taking all this time and doing this. I really appreciate this.</u>
+      <u who="SOLOMON">Oh, thank you so much for speaking with me. It’s really—it’s an honor to hear your story and to hear <persName>John</persName>’s story as well.</u>
+      <u who="TAVELA">Well, I wish <persName>John</persName> were—could tell it [chuckles] because he’d do a better—</u>
+      <u who="SOLOMON">Yes.</u>
+      <u who="TAVELA">You know, I said the <date>march</date>—the march didn’t really—you know, that was good, and it felt like, you know, you’re having your say and—and it helps. It helps put things in a kind of perspective. But the thing that really hit <persName>John</persName> and me the most is seeing the Wall [<name type="event">the Vietnam Veterans Memorial</name> in <placeName>Washington</placeName>, <placeName>D.C.</placeName>]. That is the best memorial to that war. And I know lots of people say that and mean that. But that’s—that is the right way for that war to be captured, with that memorial. To have some sculpture that was, you know, dramatic some way wouldn't say it like—like that Wall does with all the names. And wonder what it will be like in <date>50 years</date>—you know, if people will still come there, but I imagine they will. It always gets to <persName>John</persName> and me to see that place.</u>
+      <u who="SOLOMON">It’s a beautiful memorial.</u>
+      <u who="TAVELA">And the other—Hmm?</u>
+      <u who="SOLOMON">Go ahead, go ahead.</u>
+      <u who="TAVELA">I was going to say, on the other hand, the [National] <name type="event">World War II</name> [Memorial is, like, this, you know, tribute to unity and camaraderie and—you know, it’s not stark like <name type="event">the Vietnam Memorial</name> is, so it seems—they seem right. [Chuckles.]</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">Let’s just stop with this stuff, you know?</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">Think it over, you know? How much—you sign up if you’re so—<persName>Donald Trump</persName>—go you know, get your little gun—</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="TAVELA">—and, you know, go talk to [Russian President <persName>Vladimir V.] Putin</persName> or somebody or—you know. So anyway, good luck to you and your generation. [Chuckles.]</u>
+      <u who="SOLOMON">[Laughs.] Thank you. I think we’re going to need it. </u>
+      <u who="TAVELA">Thank you, too.</u>
+    </body>
+  </text>
+</TEI>

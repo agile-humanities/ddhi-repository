@@ -1,0 +1,206 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="SOLOMON"/>
+        <person xml:id="STRAUSS"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="SOLOMON">Hello. This is <persName>Hanna	 </persName><persName>Solomon</persName> speaking from <persName>Rauner</persName> [<orgName>Special Collections] Library</orgName> at <orgName>Dartmouth College</orgName> in <placeName>Hanover</placeName>, <placeName>New Hampshire</placeName>, and I am currently speaking with Dr. <persName>Dona</persName> [<persName>Anschel</persName>] <persName>Strauss</persName>, who is calling in from <placeName>London</placeName>, correct?</u>
+      <u who="STRAUSS">Yes.</u>
+      <u who="SOLOMON">Thank you so much for speaking with me <date>today</date>.</u>
+      <u who="STRAUSS">Well, I was born in <placeName>South Africa</placeName> in <date>1934</date>. I left <placeName>South Africa</placeName> when I was a 20-year-old student. Didn’t want to live under apartheid. And I—after that, I was a graduate student, first in <placeName>Cambridge</placeName> [<placeName>England</placeName>] and then in <placeName>Paris</placeName> [<placeName>France</placeName>]. After getting my <persName>Ph.D.</persName>, I had a post at <orgName>the University of London</orgName>. </u>
+      <u who="SOLOMON">So—</u>
+      <u who="STRAUSS">Sorry.</u>
+      <u who="SOLOMON">If you don’t mind, I’d like to—I’d like to—to go back quickly. I would love to hear some more about your—your childhood and how you grew up, your family.</u>
+      <u who="STRAUSS">Oh, right. My family were Jewish immigrants from <placeName>eastern Europe</placeName> to <placeName>South Africa</placeName>, and like many Jewish immigrants to <placeName>South Africa</placeName>, they lived in the countryside. My grandparents—both my grandparents had small trading stores in the South African countryside, in <placeName>the Eastern Cape</placeName>.</u>
+      <u who="SOLOMON">Right.</u>
+      <u who="STRAUSS">I became—I became a student at <orgName>Cape Town University</orgName> [sic; <orgName>University of Cape Town</orgName>] and graduated with a master’s degree in mathematics.</u>
+      <u who="SOLOMON">Excuse me? Say that again?</u>
+      <u who="STRAUSS">Is there anymore that you would like to know about my childhood?</u>
+      <u who="SOLOMON">Can you tell me about your parents?</u>
+      <u who="STRAUSS">Right. My father was a physicist. He became the head of the physics department in <placeName>Cape Town</placeName> and was widely respected as an—both as an academic and as an individual because he was a person of great integrity and dignity.</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="STRAUSS">And when my father—</u>
+      <u who="STRAUSS">—my father retired when he turned <date>65</date>, and he and my mother moved to <placeName>Israel</placeName>, and one of my brothers was already established there.</u>
+      <u who="SOLOMON">So <orgName>Judaism</orgName> played a large role in your home life?</u>
+      <u who="STRAUSS">In a sense. In a sense it did. Neither my mother nor my father were observant Jews, and they didn’t go to—they didn’t go to synagogue services or keep kosher, but and my father called himself an agnostic. But they were very aware of their Jewish heritage, and they were ardently Zionist, as all, almost all Jews were who had witnessed the Holocaust. It seemed—</u>
+      <u who="STRAUSS">Of course.</u>
+      <u who="STRAUSS">—it seemed a necessity to Jews of that generation that there should be a homeland somewhere to which Jewish refugees could go.</u>
+      <u who="SOLOMON">And how did they end up in <placeName>South Africa</placeName>?</u>
+      <u who="STRAUSS">They—they were opposed to racial discrimination, and  politically they would have called themselves liberal, but they were never really involved in anti-apartheid political activity. I was when I became a student at <orgName>Cape Town University</orgName>. I had joined the movement, an anti-apartheid movement called <orgName>the Non-European Unity Movement</orgName>, which nowadays few people have heard—have heard of. It has disappeared. But it had quite a large following, certainly a following numbering in the thousands, perhaps tens of thousands at the time that I joined it in <date>the 1950s</date>.</u>
+      <u who="SOLOMON">And can you tell me a little more about that—that environment,—</u>
+      <u who="STRAUSS">Well,—</u>
+      <u who="SOLOMON">—what it was like?</u>
+      <u who="STRAUSS"><placeName>South Africa</placeName> was in the grip of a process which was a very ugly system. It means in your <date>daily</date> life you had to classify yourself by race in everything you did. If you sat down on a park bench, it had to be a bench that was marked “Whites Only.” If you went to a post office, you had to go through a door that was marked “Whites Only.” And white and non-white people were kept apart in every aspect of life. They had to live in different areas, do different kinds of work. There were laws that forbad black people to become skilled workers. And they had to go to different schools and universities. In fact, universities were based on your racial identity, so there were different universities, not just for whites and non-white people but for white people, black people, Indian people, <placeName>Cape</placeName> colored people. And it was—it was a bizarre and ugly system. And it’s the main reason that I didn’t want to live in <placeName>South Africa</placeName>.</u>
+      <u who="SOLOMON">So what was it like attending university there, in that environment, for you personally?</u>
+      <u who="STRAUSS">Well, when I became a student at <orgName>Cape Town University</orgName>, this would have been, let’s see—I was only 15 at the time, and so this would have been in <date>1949</date>. <orgName>Cape Town</orgName> still had students of all races. There were non-white students at <orgName>Cape Town University</orgName>. Not many, not more than 10 percent of the student body. But for the first time in my life, I was able to have friends of all races.</u>
+      <u who="SOLOMON">So your—so your—okay.</u>
+      <u who="STRAUSS">Sorry, what were you going to ask?</u>
+      <u who="SOLOMON">Were both your parents involved in this, or was it just your father?</u>
+      <u who="STRAUSS">Just my father. I don’t think my mother took part. But my mother hated apartheid, and she hated with more emotion, I think, than my father did. My mother and father were quite anxious about the fact that I was moving in circles when I was a student, where some of my friends were non-white. I remember them asking me not to go to a particular party where some of the people would be non-white. They felt I was putting my father’s position at <orgName>Cape Town University</orgName> in jeopardy. I had a lot of conflict. I didn’t like going to the party against my parents’ wishes, but I felt it was impossible to refuse to associate with people because of their race. I felt that would be a betrayal of everything I believed in.</u>
+      <u who="SOLOMON">So how long were you at <orgName>Cape Town University</orgName>, then?</u>
+      <u who="STRAUSS"><date>Four full years</date>. I completed a master’s degree in mathematics, and then I got a—then I got a scholarship to study at <placeName>Cambridge</placeName>. I came to <placeName>Cambridge</placeName> and discovered that it was <placeName>Paris</placeName>, that was the exciting center of the kind of mathematics I was doing, so—and I also had discovered I could go and study in <placeName>Paris</placeName> and remain registered as a <placeName>Cambridge</placeName> student. </u>
+      <u who="SOLOMON">What <date>year</date> was that?</u>
+      <u who="STRAUSS">That—we moved to <placeName>America</placeName> in <date>1965</date> and bought our farm <date>the next year</date>, in <date>1966</date>.</u>
+      <u who="SOLOMON">So that must have been a big change from <placeName>South Africa</placeName> to <placeName>Europe</placeName> to <placeName>Vermont</placeName>.</u>
+      <u who="STRAUSS">Yes, it was. It was, indeed. It was a big change, and it was—our farming was very small scale. You couldn’t make a living by farming in <date>those days</date>. We made a living from the fact that I had a position at <orgName>Dartmouth</orgName> and <persName>Ed</persName> had a position at a community college. </u>
+      <u who="SOLOMON">So at this point—</u>
+      <u who="STRAUSS">The work involved on the farm was quite demanding. For example, the cow had to be milked twice a day, without fail. And there was all [unintelligible], the farm work involved.</u>
+      <u who="SOLOMON">Did you enjoy it?</u>
+      <u who="STRAUSS">Yes. Yes, I did. It was a new experience, and in some ways quite rewarding, but I was quite glad that I didn’t have to do farm work once I had my children because there was no way I could have looked after small children and had a full-time position as an academic and done farm work.</u>
+      <u who="SOLOMON">Of course.</u>
+      <u who="STRAUSS">So I was quite relieved that that phase of my life had ended—</u>
+      <u who="SOLOMON">[Chuckles.]</u>
+      <u who="STRAUSS">—before I had children.</u>
+      <u who="SOLOMON">So at this point, <name type="event">the Vietnam War</name> had sort of been escalating for <date>a few years</date> now. Had you been keeping up with world news in that aspect, or were you aware—</u>
+      <u who="STRAUSS">Yes. As <persName>Ed</persName> and I were very politically aware, very left-wing, anti-Stalinist, and we were in the <orgName>States</orgName> in <date>1965</date>, when there was a large demonstration in <placeName>Washington</placeName> against <name type="event">the Vietnam War</name>. Have I got the date right? Yeah, I think it was actually <date>1966</date>. </u>
+      <u who="SOLOMON">I believe so.</u>
+      <u who="STRAUSS">I think it was <date>1966</date>. There was a large demonstration in <placeName>Washington</placeName> against <name type="event">the Vietnam War</name>, which <persName>Ed</persName> and I both participated in. </u>
+      <u who="SOLOMON">Can you tell me about what the experience was like, going to that protest in <placeName>D.C.</placeName>?</u>
+      <u who="STRAUSS">I don’t think I have too much to say about it. It was a large protest. I don’t remember the precise numbers involved. I would guess it was in the hundreds of thousands. <persName>Ed</persName> and I were in the <persName>SDS</persName> coach with some of our friends and took part in a <date>March</date>. And that’s really about all I have to say about it.</u>
+      <u who="SOLOMON">Okay. </u>
+      <u who="STRAUSS">In <date>1966</date>, yes.</u>
+      <u who="SOLOMON">And I believe—were you one of the only female professors at the time?</u>
+      <u who="STRAUSS">There was another female professor, <persName>Marianne [Silverstein] Brown</persName>. <persName>Marianne</persName> and her husband [<persName>Edward M.]</persName> “Ed” became close friends of ours. But really it was the only time in my career as a mathematician that I had a colleague who was a woman. In <date>those days</date>, it was unusual for women to be mathematicians.</u>
+      <u who="SOLOMON">Can you tell me a bit about the campus climate once you got to <orgName>Dartmouth</orgName>?</u>
+      <u who="STRAUSS">The campus climate?</u>
+      <u who="SOLOMON">The environment.</u>
+      <u who="STRAUSS">Yes, it was—coming from <placeName>England</placeName>, I was surprised that—how cautious people were about stating their political attitudes and when these attitudes were anti-establishment. For example, I would take around petitions against <name type="event">the Vietnam War</name> to ask my colleagues to sign them, and there were lots of people who would sort of whisper to me, in a corridor, that they agreed with the petition but they were afraid to sign it. And I was surprised by that. <placeName>America</placeName> is supposedly a country where there is freedom of speech, and no one should be afraid of stating what they believe. But, unlike present, large numbers of academics did not have tenure and were quite fearful about their future position.</u>
+      <u who="SOLOMON">So you seem to have taken on a—a leadership position, then, as far as the on-campus movement, went?</u>
+      <u who="STRAUSS">Well, I wouldn’t say leadership position, but in certainly an activist position, I was certainly actively involved in the antiwar movement. I wouldn’t have called myself a leader.</u>
+      <u who="SOLOMON">[Laughs.] What other types of activities were you involved in then, antiwar activities?</u>
+      <u who="STRAUSS">I think it was the dominant activity because that was a dominant issue at the time. The war in <placeName>Vietnam</placeName> was a very large issue on the campuses. I wasn’t—I don’t remember being actively involved in any other issues or that I had—or that I had, or that I had strong, left-wing feelings on many issues. <name type="event">The Vietnam War</name> was certainly the dominant issue.</u>
+      <u who="SOLOMON">So in what ways were you involved, then, in <name type="event">anti-Vietnam [War</name>] activism? What other types of things did you do?</u>
+      <u who="STRAUSS">Well, apart from farming and teaching mathematics and doing research in mathematics. I don’t think I did much else—</u>
+      <u who="SOLOMON">So, then, <date>1969</date> was [the] <persName>Parkhurst</persName> [Hall takeover on <date>May 6, 1969</date>], correct?</u>
+      <u who="STRAUSS">That’s right, which happened in <date>1969</date>. Is that a group of students, known students in <persName>SDS</persName> occupied the admin building. This was a protest against <name type="event">the Vietnam War</name> and against the fact that <orgName>Dartmouth</orgName> was actively involved because <orgName>Dartmouth</orgName> had a <orgName>ROTC</orgName> [pronounced it ROT-c, Reserve Officers’ <orgName>Training Corps</orgName>] program, which was training students to join the military and to fight in <placeName>Vietnam</placeName>. So we saw <placeName>Dartmouth</placeName> as actively involved in the war. And then the sit-in was a protest against that involvement, in particular against the <orgName>ROTC</orgName> program. </u>
+      <u who="SOLOMON">Can you tell me what it was like being a part of that protest, being inside the building?</u>
+      <u who="STRAUSS">Well, I wasn’t really a part of the protest. There were two faculty members. The other was a lecturer in <orgName>the chemistry department</orgName>, called <persName>Paul</persName> [<persName>S.] Knapp</persName>, and myself. We went into the building during the process and to tell the students we supported what they were doing. We had both left before the police arrived. We weren’t really part of the protest, but, then, we did support it.</u>
+      <u who="SOLOMON">Can you describe the scene?</u>
+      <u who="STRAUSS">Well, there were—there were students occupying the admin building, many of them students in <orgName>SDS</orgName>, and people were talking and discussing and listening to—to speeches. After the sit-in had ended, <persName>Paul Knapp</persName> and I, the two faculty members who had gone in and said that we supported the students, were put on trial by <orgName>the CAP, Committee Advisory</orgName> to the President. The outcome of the trial was that we were suspended from our positions for <date>two years</date>.</u>
+      <u who="SOLOMON">Yes.</u>
+      <u who="STRAUSS">—to <placeName>Vermont</placeName> to defend <persName>Paul</persName> and me.</u>
+      <u who="SOLOMON">That would be wonderful, yes.</u>
+      <u who="STRAUSS">I’ll do that. I’ll do that this evening.</u>
+      <u who="SOLOMON">Thank you. Wonderful.</u>
+      <u who="STRAUSS">Anyway, the—the decision of the CAP was to suspend us from our positions for <date>two years</date>. So <persName>Ed</persName> and I decided to return to <placeName>England</placeName>, and I spent the next—this was in 1969—I spent <date>the next 40 years</date> as a lecturer at <orgName>the University of Hull</orgName> in <placeName>England</placeName>. We didn’t become seriously involved in political activity, but I recently—<persName>Ed</persName> has joined a political—a small political group in <orgName>England called Association for Workers</orgName>’ Liberty [sic; <orgName>Alliance for Workers’</orgName> Liberty], which—</u>
+      <u who="SOLOMON">Did you ev- —go ahead.</u>
+      <u who="STRAUSS">I had my turn.</u>
+      <u who="SOLOMON">Once you left <orgName>Dartmouth</orgName>, what were your feelings?</u>
+      <u who="STRAUSS">Sorry? About <orgName>Dartmouth</orgName>?</u>
+      <u who="SOLOMON">Yes.</u>
+      <u who="STRAUSS">Well, I felt that <orgName>Dartmouth</orgName> had reacted too harshly to the protest by having students put in prison, and by dismissing members of the faculty were doing no more than stating something they believed. And as I said, this is harsher than the behavior of any other university.</u>
+      <u who="SOLOMON">Yes, I’m still here.</u>
+      <u who="STRAUSS">All right, because I don’t [unintelligible] recording machine anymore. Is it still on?</u>
+      <u who="SOLOMON">Yes, it is still on.</u>
+      <u who="STRAUSS">All right. Is there anything else you’d like to know?</u>
+      <u who="SOLOMON">Any of your—any of your thoughts and feelings about the—the whole situation, anything more regarding the war in <placeName>Vietnam</placeName> specifically or the environment on campus, <orgName>Dartmouth</orgName>’s reaction.</u>
+      <u who="STRAUSS">Well, I think the protest movement against the war did achieve something. I believe it was a major factor in ending the war, and it was important to end the war because it was costing so many lives. I—I didn’t feel enthusiastic about the regime that took over in <placeName>North Vietnam</placeName>, but I think it was right that the war was ended and that it was right for to want it to end.</u>
+      <u who="SOLOMON">Were you ever disappointed that there wasn’t more of a reaction on campus?</u>
+      <u who="STRAUSS">I’m sorry. I didn’t quite catch that. Could you—</u>
+      <u who="SOLOMON">Were you ever disappointed that there wasn’t more of an antiwar movement in any of the places that you were?</u>
+      <u who="STRAUSS">In a way, I don’t think so. I wasn’t disappointed that there wasn’t a stronger reaction against the war because there was, in fact, a strong and widespread reaction, and I think this is one of the factors which ended the war. But I do feel disappointed that people don’t react more than they do against, well, against suffering being caused to others. This isn’t connected with <name type="event">the Vietnam War</name>, but in <placeName>England</placeName> at the moment, we have a government that is causing a lot of suffering by attacking the welfare society we have so that in <date>the last few years</date>, people are going hungry. There are people who can only eat because they go to food banks. People are becoming homeless. Child poverty has soared. And I feel there isn’t enough reaction to this happening. People should really care more than they do or appear to. </u>
+      <u who="SOLOMON">Do you think maybe that’s a result of your upbringing and of your—your involvement in movements, that maybe your generation was more invested in things that were going on?</u>
+      <u who="STRAUSS">I think—I think my generation was more involved than young people are <date>today</date>, because when I was—when I became a student, <name type="event">the Second World War</name> had just ended, and we’d seen immense tragedies like the <name type="event">Holocaust</name>. And I belong to a generation which feels committed to build a better world. And to some extent, we did. To some extent, the welfare state that emerged in western <placeName>Europe</placeName> were built on the basis that nobody should go cold or hungry or without shelter or medical treatment if they needed it. We did create societies based on that principle, which are being undermined at the moment.</u>
+      <u who="SOLOMON">Do you—</u>
+      <u who="STRAUSS">–of having the will to rebuild and build on a better basis.</u>
+      <u who="SOLOMON">Do you think your experience at <placeName>Dartmouth</placeName>, being suspended by the administration, affected the way that you made decisions when it came to living in—in <placeName>London</placeName> afterwards and particularly not being as politically active?</u>
+      <u who="STRAUSS">I don’t think so. I didn’t see it as having been a catastrophe in my life because I was able to continue working and living comfortably in another country. I didn’t think of my suspension by <orgName>Dartmouth</orgName> as having been a catastrophe for me. And I—</u>
+      <u who="SOLOMON">Do you—</u>
+      <u who="STRAUSS">I was glad to leave because I didn’t have farm work to do—</u>
+      <u who="SOLOMON">[Laughs.]</u>
+      <u who="STRAUSS">—when my children were born. And it was in fact—</u>
+      <u who="SOLOMON">When were your—</u>
+      <u who="STRAUSS">—the same—<date>the year</date> after, in <date>1970</date>, my first child was born.</u>
+      <u who="SOLOMON">And do you think that changed the way that—maybe that you reflected on how your parents reacted to your actions, or the way that you saw your own actions in retrospect?</u>
+      <u who="STRAUSS">I’m sorry. My hearing isn’t too brilliant, and I don’t always hear what you are asking.</u>
+      <u who="SOLOMON">Having children—did it change your perspective on the way that you had acted in the past?</u>
+      <u who="STRAUSS">No. No, I don’t think it did. I didn’t ever change my mind about the way I had acted. I didn’t ever think that I would have acted, that I should have acted differently. I don’t think that having children made a difference. If anything, it made me more convinced that it was right to protest against the war because once you have children, you realize how horrifying it is that children should suffer.</u>
+      <u who="SOLOMON">Do you have any other—any other thoughts on <placeName>Vietnam</placeName> or the way it affected your life?</u>
+      <u who="STRAUSS">The only way it affected my life was that I left the <placeName>States</placeName> and came to <placeName>England</placeName>, which I haven’t really regretted, no. I’ve had a good life in <placeName>England</placeName>, and so that I don’t have any bitter regrets. I brought up my children in <placeName>England</placeName>, and they have good lives. </u>
+      <u who="SOLOMON">So over the course of your life, you lived in many different places during really turbulent times.</u>
+      <u who="STRAUSS">Yes.</u>
+      <u who="SOLOMON">Did you see notable differences in the ways that people reacted to situations—you know, such as apartheid in <placeName>South Africa</placeName> and <name type="event">the Vietnam War</name> in <placeName>the United States</placeName>?</u>
+      <u who="STRAUSS">The main difference I was aware of, is that at American universities academics seemed more fearful of saying what they believed if it was—if what they believed was in conflict with the establishment. I have never experienced this in <placeName>England</placeName>. I’ve never found in <placeName>England</placeName> that an academic would say that he believed something, felt fearful about saying something.</u>
+      <u who="SOLOMON">How about the—the student movements?</u>
+      <u who="STRAUSS">When we came to <placeName>England</placeName>, there was an anti-apartheid student movement in <placeName>England</placeName>, a genuine anti-apartheid movement in <placeName>England</placeName> and a boycott directed against <placeName>South Africa</placeName>, which I think did play a role in ending apartheid. And <persName>Ed</persName> and I, to some extent, were involved in that. In fact, at <orgName>Hull University</orgName> in <date>the 1970s</date> there was a sit-in which was part of an anti-apartheid protest, which <persName>Ed</persName> and I took part in. But it wasn’t the same drama of the police being called and staff suspended.</u>
+      <u who="SOLOMON">Were you at all involved in the civil rights movement or the <orgName>Dartmouth</orgName> move towards coeducation when you were on campus?</u>
+      <u who="STRAUSS">No, not really. We were obviously—we would have been involved in the civil rights movement, because that was something we—we deeply cared about, except that during <date>the years</date> we were in the <placeName>States</placeName>, from <date>1965</date> to ’69, it was the <name type="event">anti-Vietnam War</name> movement which was the major movement, which was absorbing everyone’s energies.</u>
+      <u who="SOLOMON">Of course.</u>
+      <u who="STRAUSS">We would have—we would have been involved in the civil rights movement except that it was taking a back stage then.</u>
+      <u who="SOLOMON">But you didn’t feel any—I mean, you didn’t extensively get involved in the push for coeducation when you were at <orgName>Dartmouth</orgName>?</u>
+      <u who="STRAUSS">It didn’t exist at the time.</u>
+      <u who="SOLOMON">Okay. </u>
+      <u who="STRAUSS">In <date>the 1960s</date>, there was no real movement calling for coeducation at <placeName>Dartmouth</placeName>. I would have been involved if there had been because I do believe ardently in—in rights for women as well as for rights for all people, whatever their race, so movements for women’s rights or the civil rights movements are movements that I would ardently support, but I wasn’t actually involved in—in that kind of activity.</u>
+      <u who="SOLOMON">All right. Is there anything else you’d like to talk about?</u>
+      <u who="STRAUSS">I don’t think so. I don’t think. Is there anything else you’d like to ask me?</u>
+      <u who="SOLOMON">I think we’ve pretty much gone through it. Yes.</u>
+      <u who="STRAUSS">Maybe you could send me a copy of what you write up. Would that be possible?</u>
+      <u who="SOLOMON">Of course. Yes. I will keep you updated. We have somebody who transcribes the—the interviews, so when that is ready, I will let you know.</u>
+      <u who="STRAUSS">Thank you. Thank you.</u>
+      <u who="SOLOMON">Thank—</u>
+      <u who="STRAUSS">And I’ll send you—I’ll send you scans of those—of the speech I made at my <orgName>Dartmouth</orgName> trial and of the <orgName>Valley News</orgName> article about it.</u>
+      <u who="SOLOMON">That would be fantastic. Thank you so much.</u>
+      <u who="STRAUSS">No prob- —Well, thank you for calling. It was—it was good to talk to you.</u>
+      <u who="SOLOMON">Thank you so much. Thank you for speaking with me.</u>
+      <u who="STRAUSS">Well, thank you for taking an interest.</u>
+      <u who="SOLOMON">[Chuckles.] Always. All right.</u>
+      <u who="STRAUSS">Bye, then.</u>
+      <u who="SOLOMON">Have a good night.</u>
+      <u who="STRAUSS">You too. You too.  Goodbye.</u>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,153 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="WALDEN"/>
+        <person xml:id="RIDKER"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="RIDKER">This is <persName>Elena Ridker</persName> with <orgName>the Dartmouth Vietnam Project</orgName>. <date>Today</date> is <date>Thursday</date>, <date>May 21st, 2015</date>. It’s about 10 a.m., and <orgName>I’m</orgName> in <orgName>Rauner</orgName> [<orgName>Special Collections] Library</orgName>, and I have <persName>Dan Walden</persName> from the Class of <date>1965</date> on the other line for a phone interview.</u>
+      <u who="WALDEN"><persName>Elena</persName>, thank you so much for your courtesy that you’ve shown me so far, and I think the project is terrific, and I look forward to the interview.</u>
+      <u who="RIDKER">Great, as do I, and so let’s get started and just with some biographical information up front. So where were you born, and what were your parents’ names?</u>
+      <u who="WALDEN">I was born in <placeName>Boston</placeName>, <placeName>Massachusetts</placeName>. My parents were <persName>John [A.] and Grace [C.] Walden</persName>. We lived in the suburb of <placeName>Watertown</placeName> for a number of <date>years</date>, and when I was halfway through high school, my father got transferred to <placeName>Los Angeles</placeName>, so we lived out there, and that’s where I lived when I matriculated to <orgName>Dartmouth [College</orgName>] then.</u>
+      <u who="RIDKER">Do you have any memories of your childhood? Anything specific stand out?</u>
+      <u who="WALDEN">Yes, as a matter of fact. We lived on the banks of <placeName>the Charles River</placeName>, not the genteel <persName>Charles</persName> down by <placeName>Cambridge</placeName> and <placeName>Brighton</placeName> and that area, but up where it was fairly wild. And along with my boyhood chums, we took great delight in going down to <placeName>the Charles River</placeName> and doing all kinds of things, some of which were not so praiseworthy. </u>
+      <u who="RIDKER"><persName>Mm-hm</persName>. And so you mentioned your father. I’m wondering, did you have a close relationship with him?</u>
+      <u who="WALDEN">Absolutely, yes. He was—among other things, he was a devoted father, an excellent teacher and a complete gentleman. He and my mother insisted on—that I develop decent manner, and I try to honor that teaching to <date>this day</date>, sometimes not perfectly. But he was a terrific tower of example. Among other things, he started a stamp club, a stamp collecting club at the <placeName>Connecticut</placeName>—Connecticut!—the <placeName>Concord</placeName>, <placeName>Massachusetts</placeName>, state penitentiary [<orgName>Massachusetts Correctional Institute</orgName> at <placeName>Concord</placeName>]. Philately was his hobby, and I had the example of one of my parents being a very, very good public servant, so to speak, in a quite unusual way: a stamp club at a prison.</u>
+      <u who="RIDKER">[Chuckles.]</u>
+      <u who="WALDEN">As I mentioned, the outdoors life, so to speak, really appealed to me, and I had experience in <placeName>New Hampshire</placeName>, <placeName>New Hampshire</placeName>’s out-of-doors attractions, and it felt like a natural place for me to attempt to go back to school, so I applied to <orgName>Dartmouth</orgName>, among others, other schools. And when I was admitted, that was my first choice, and bingo: I wound up matriculating.</u>
+      <u who="RIDKER">And what kind of things were you involved in on campus?</u>
+      <u who="WALDEN">I’m sorry, say that again, <persName>Elena</persName>?</u>
+      <u who="RIDKER">What kinds of activities were you involved with on campus?</u>
+      <u who="WALDEN">Well, the principal one that was notable for our discussion was <orgName>ROTC</orgName>, <orgName>Army</orgName> ROTC [Army Reserve Officers’ <orgName>Training Corps</orgName>] specifically. In <date>those days</date>, in the <orgName>mid-’60s</orgName>, it was, among other things, common for students to have some sense of feeling that they ought to get involved in, oh, public service of some kind. There was also the impetus that you could get drafted and wind up involuntarily serving in the armed services. I thought it would be a good idea because, among other things, there was a small stipend that came with it—I don’t know, fifty bucks a month or something like that, not a great inducement, but a little bit of spending cash. </u>
+      <u who="RIDKER">[Chuckles.]</u>
+      <u who="WALDEN">And I will always tell you the truth. [Chuckles.] Or most of it.</u>
+      <u who="RIDKER">[Chuckles.]</u>
+      <u who="WALDEN">It’s one of my best stories. <persName>Joann</persName> was—when <date>another year elapses</date>, we will have hit our 50th wedding anniversary, and <date>a few years</date> more than that, courting. But she keeps my nature suppressed a little bit, which is desperately needed sometimes.</u>
+      <u who="RIDKER">[Chuckles.]</u>
+      <u who="WALDEN">I managed to scrape by by getting every grade that was possible to get in the <orgName>Dartmouth</orgName> of those days and had a great time. I had an enormously good feel for the college.</u>
+      <u who="RIDKER">And so at the time, you know, during your senior year, I know the war in <placeName>Vietnam</placeName> was just starting to become Americanized with the introduction of ground troops, and I’m wondering if there was much talk on campus about the war and if you were involved in that at all.</u>
+      <u who="WALDEN">I don’t remember a whole lot. My notion was that, you know, there had been stirrings of dissent about <name type="event">the Vietnam War</name> had begun, of course, at that time. But when I graduated in <date>June of 1965</date>, there had not yet developed the kind of furor that occurred later. And we had a few troops over there, but nothing approaching the heavy-duty assignments that came later. And it wasn’t an everyday travelogue, so to speak, in the <date>nightly</date> news.</u>
+      <u who="RIDKER">[Chuckles.] So, yeah, just in kind of going back to when you were graduating from <orgName>Dartmouth</orgName>, did you have any other friends from <placeName>Dartmouth</placeName> who had also decided that they were going to join the military as well?</u>
+      <u who="WALDEN">Yes, as a matter of fact. My <date>two senior year</date> roommates [coughs] were both in <orgName>Army</orgName> ROTC, and both served in <placeName>Vietnam</placeName> at the same time as I did, although in different units and different specialties. [<persName>Thomas L.] “Tommy” Miller</persName> [Class of <date>1965</date>] was a commander in an armored personnel unit. [<persName>Donald</persName> McK.] “<orgName>Don” Boardman [</orgName>Class of <date>1965</date>] was a staff officer in a—basically, a finance outfit headquartered out of the <placeName>Saigon</placeName> area.</u>
+      <u who="RIDKER"><persName>Mm-hm</persName>.</u>
+      <u who="WALDEN">So it was commonplace for the people I associated with at <orgName>Dartmouth</orgName> to participate in <placeName>ROTC</placeName>. Not all of them did. Not all my friends and associates did but enough of them that, you know, it was—set my standards, let’s say.</u>
+      <u who="RIDKER"><persName>Mm-hm</persName>. And then so what was the first thing you did after graduating?</u>
+      <u who="WALDEN">Well, by that time, I was enrolled in the <orgName>Army</orgName>, and it was time for some training. There was an arbitrary—I didn’t particularly want to become an infantry officer, or armored or any of those straight combat branches, which—which was fine in a way, but I knew nothing about electronics, so they shipped me off first to <placeName>Fort Gordon</placeName>, <placeName>Georgia</placeName>, for basic signal officer training, then to <placeName>Fort Sill</placeName>, <placeName>Oklahoma</placeName>, for advanced communications officer training, then to <placeName>Fort Benning</placeName>, <placeName>Georgia</placeName>, for airborne training, a <date>three-week</date> jump school experience.</u>
+      <u who="RIDKER">[Chuckles.]</u>
+      <u who="WALDEN">And, of course, it was <persName>Joann</persName>, and she was watching—one of the guys who was tending the ropes associated with the tower exercise had run right into a communications pole and knocked himself out. So he was sprawled on the ground, and <persName>Jo</persName> was gasping at this spectacle. So the <persName>sarge</persName> said, “Whose wife is that?” There was no one answering. He said, “Well, if nobody’s gonna tell me whose wife that is, you’re all gonna pay for it.” So I raised my hand.</u>
+      <u who="RIDKER">[Chuckles.]</u>
+      <u who="WALDEN">He said, “Give me 50 pushups.”</u>
+      <u who="RIDKER">[Chuckles.]</u>
+      <u who="WALDEN">So—[Laughs.]</u>
+      <u who="RIDKER">[Chuckles.]</u>
+      <u who="WALDEN">We had this spectacle. This, by the way—there may have been two or three other officers in this platoon, but mostly it was enlisted men, so they got a great chuckle out of this, and I’m sure the sergeant got a charge out of it as well.</u>
+      <u who="RIDKER">[Chuckles.]</u>
+      <u who="WALDEN">In any event, one has—whether in the <orgName>Army</orgName> or elsewhere in life, one has to keep up a sense of humor.</u>
+      <u who="RIDKER">Okay. One <orgName>sec</orgName>. All right. So that was Fort Benning when you were doing jump school?</u>
+      <u who="WALDEN">Yes, it was.</u>
+      <u who="RIDKER">And so do you have any other sort of memories like that that stand out to you in particular about training, either at Fort Gordon for basic or at Fort Benning?</u>
+      <u who="WALDEN">Well, my next assignment after jump school was to join my first duty unit, which was—my assignment was to be the signal officer, brigade signal officer for <orgName>the 3rd Brigade of the 82nd Airborne Division</orgName> at <placeName>Fort Bragg</placeName> [<placeName>North Carolina</placeName>]. The most notable experience during that was we—the brigade got detailed to go—to fly up to <placeName>Detroit</placeName> and suppress the riots that were occurring there that particular summer. So off we went.</u>
+      <u who="RIDKER">[Chuckles.]</u>
+      <u who="WALDEN">And I got detailed by the brigade commander to ride around the perimeter at night, warding these young ladies off and interrupting their various would-be trysts by the troops and so forth. It was both hilarious in its way and painful. [Laughs.]</u>
+      <u who="RIDKER">[Chuckles.]</u>
+      <u who="WALDEN">As you might imagine. Eventually, after <date>a week or so of</date> first putting down the riots and then resisting the young lovelies, we came back to <placeName>Fort Bragg</placeName>.</u>
+      <u who="RIDKER">And so you mentioned that was the 82nd?</u>
+      <u who="WALDEN">Yes.</u>
+      <u who="RIDKER"><orgName>Airborne Brigade</orgName>. And so how were you feeling at that time about kind of your rising military career? And were you nervous about the prospect of being deployed to <placeName>Vietnam</placeName>?</u>
+      <u who="WALDEN">The answer is yes. By that time, I knew it was coming because the war had heated up, and friends of mine had been deployed to <placeName>Nam</placeName>, and I had this <orgName>Regular Army</orgName> commission, which was kind of dumb at that point. By that time, I knew that—I didn’t think that this was going to be my career. I didn’t like the strictures, if you will, of <orgName>Army</orgName> life. And <persName>Joann</persName> couldn’t see—she was in training to be a schoolteacher, and she couldn't see most—as you probably know, most, if not many—many, if not most of the <orgName>Army</orgName> posts are in the <placeName>South</placeName>, and we didn’t fancy living in that kind of environment. But it was coming no matter what.</u>
+      <u who="RIDKER">[Chuckles.]</u>
+      <u who="WALDEN">It remains what I regard as an interesting [chuckles]—interesting episode.</u>
+      <u who="RIDKER">Mmm. [Chuckles.]</u>
+      <u who="WALDEN">And I mention it because guys in combat need to—need to have a sense of humor, have some diversion, so to speak. We were not under constant combat conditions, but we did get ambushed from time to time, particularly when we were on road marches, and we did get shelled with mortars and 106 mm rockets. </u>
+      <u who="RIDKER">Do you mind—would you mind speaking a little bit more about what your experiences were like during <name type="event">the Tet Offensive</name> on your road march?</u>
+      <u who="WALDEN">Say it again, <persName>Elena</persName>, please?</u>
+      <u who="WALDEN">Do you mind speaking a little bit more about your specific experiences on your road march back up to I <orgName>Corps</orgName> during the Tet Offensive?</u>
+      <u who="WALDEN">No, not at all. It took us <date>about three days</date> to get up there. We would—this was during <date>the dry season</date>, which was a blessing because the roads were typically washed out during <date>the monsoon season</date>. But, I mean, the dust was impenetrable from the heavy vehicles we were using. So it was both exhausting and enervating in a way that you could not tell what might be on the road beside you, awaiting you, so to speak.</u>
+      <u who="RIDKER">[Chuckles.]</u>
+      <u who="WALDEN">But they did it. And the reason for doing that was the bunkers typically in heavy rain became insecure from the amount of wind. Sure enough, the unit next to us, on the fire base, had one of its bunkers—actually, several of its bunkers collapse. The one in question buried one of their troops, and we helped dig him out, but he was dead. [Pause. Clears throat.] Again, I’m not suggesting that anything I did along those lines was heroic; it was just reasonably smart, and I had the advantage of having those weather guys literally talking face to face to me, and not everybody had that advantage. By the grace of God, I got through <date>the year</date> without having to write a letter to anybody along the lines I feared.</u>
+      <u who="RIDKER">So you mentioned kind of the mental burden of your <date>march</date> during the <placeName>Tet</placeName> offensive and other, similar events, and I’m just wondering: How did you cope with stress and with kind of that fear?</u>
+      <u who="WALDEN">In several ways. I mentioned <persName>Larry Miracle</persName>, my supply sergeant. He was extraordinarily ingenious, and he would—every once in a while we came across captured weapons, small arms, and they were in heavy demand in the base areas. People in base areas—we called them REMFs (R-E-M-F), the first two words of which are <orgName>Rear Echelon</orgName>. [Transcriber’s note: M-F stands for Mother Fucker.] And it was a term of disdain, as you can imagine. Miracle would take the captured weapons and go down to the base, the Marine base at <placeName>Da Nang</placeName>, for example, and trade them in for stuff that we needed, including alcohol. We ran out of virtually everything in <date>my year</date> in <placeName>Vietnam</placeName>, but we never ran out of ammunition, and we never ran out of alcohol.</u>
+      <u who="RIDKER">Mmm. Did you have—you mentioned that there were no casualties in your own unit, but were there any close friends of yours that were wounded or killed in action?</u>
+      <u who="WALDEN">Yes, in—<date>four days</date> from now, on <date>the 25th</date>, that will be the anniversary of [<persName>James H.]</persName> “Hunter” Shotwell’s death. He was killed in action. This was <persName>Hunter</persName>’s second tour in <placeName>Vietnam</placeName>. He was a [<placeName>U.S.</placeName>] Military Academy [at <placeName>West Point</placeName>] graduate, close friend of me from—now, his wife, <persName>Jean Barker Shotwell</persName>, was the daughter of the doctor, who delivered <persName>Jo</persName> when <persName>Jo</persName> was born. And the <persName>Barker</persName> family and the <persName>North</persName> family, <persName>Jo</persName>’s family, were closely tied as friends and so forth, for generations.</u>
+      <u who="RIDKER">So I’m also wondering—so you mentioned that your wife <persName>Joann</persName> kind of was dealing with a lot of the stress at home, so back when you were in <placeName>Vietnam</placeName>, I can imagine camaraderie must have been a big aspect of kind of just, like, keeping—something that kept you going. I’m wondering if there—if you made any close friendships that stick out in your memory when you were over in <placeName>Vietnam</placeName>.</u>
+      <u who="WALDEN">Yes, I had an executive officer who was quite effective, and we joined arms as long as I was there. I have continued affection for some of the non-commissioned officers who served with me. My first sergeant, a man by the name of <persName>Johnny Qualls</persName>, came right out of <placeName>Kentucky</placeName>, and he was a hick, but he was a very, very skilled and diligent soldier and an excellent teacher and leader of troops. </u>
+      <u who="RIDKER">[Chuckles.]</u>
+      <u who="WALDEN">—it’s the kind of feeling that—it’s fairly widespread among the veterans I know.</u>
+      <u who="RIDKER">Was there anything that you would do for good luck when you were in <placeName>Vietnam</placeName>?</u>
+      <u who="WALDEN">Yes. Good question. Before I flew over there, <persName>Joann</persName> and I went down to our beach in <placeName>Fairfield</placeName>, and we each picked up a pure white stone, round, smooth. And I carried mine in my pocket the entire time I was in <placeName>Nam</placeName>, and <persName>Jo</persName> carried hers consistently here. And that was—that was our physical tie during <date>that year</date>. </u>
+      <u who="RIDKER">Thanks for sharing that. That’s really nice. Have you gone back to the Memorial there since?</u>
+      <u who="WALDEN"><persName>Mm-hm</persName>. Yes.</u>
+      <u who="RIDKER">And then—did your receive any war medals for your service?</u>
+      <u who="WALDEN">Yes, I received a <orgName>Bronze Star</orgName> and an <orgName>Army</orgName> Commendation Medal, and the usual campaign ribbons.</u>
+      <u who="RIDKER">And you’ve mentioned a little bit about hearing about the antiwar movement from, like, news reports when you were in <placeName>Vietnam</placeName>, and I’m just wondering if you were keeping up at all with campus climate over at <placeName>Dartmouth</placeName> and sort of some of the protests that were happening there about the <orgName>ROTC</orgName> program and things of that sort.</u>
+      <u who="WALDEN">Ah, yes. When I got back, I was quite upset with the continuing agitation on campus over the <orgName>ROTC</orgName> programs. My experience in <placeName>Nam</placeName> taught me that what the <orgName>Army</orgName> needed was the kind of well-rounded, thinking, caring officers that <orgName>Dartmouth</orgName> could and did produce. So I wrote a letter to <persName>John Sloan Dickey</persName>, who then was the president of the college, expressing my views and urging that the college not abolish <orgName>ROTC</orgName>. After a period of time, I got a letter back from one of his minions expressing the view that I had no idea what I was talking about and that the protest movement on campus [was] a far more intelligent and valid viewpoint on the <orgName>ROTC</orgName> issue. That put an end to my contributions to the alumni fund [sic; <orgName>Dartmouth College Fund</orgName>] for <date>a period of many years</date>, actually.</u>
+      <u who="RIDKER"><persName>Mm-hm</persName>. </u>
+      <u who="WALDEN">But I—I thought the whole ROTC episode was poisonous, that at a time when the country and the troops that the country had sent into danger were being not led as well as they should be and not cared for as properly as they should be, that the college needed to be taking a leadership role, as it had for generations. So I was—the letter I got from <persName>Dickey</persName>’s office was—it absolutely closed me down in my relationship with <orgName>Dartmouth</orgName>, with one exception—two exceptions: I still had friends that I was and still am in contact with and will be again in <date>a couple of weeks</date> in reunion, and I still had a great affinity for the outdoor programs offered by the college and continue to take advantage of the [<orgName>Dartmouth</orgName>] Outing Club’s cabins up in the Second College Grant and so forth. We couldn’t get there <date>this past year</date> because of medical considerations, but I think that was an absolutely marvelous opportunity for <orgName>Dartmouth</orgName> students and alumni. Oh, and I’m back in the alumni fund, by the way.</u>
+      <u who="RIDKER">There's a—</u>
+      <u who="WALDEN">I’m sorry?</u>
+      <u who="RIDKER">Sorry. There’s a cabin down at the Mooselauke Ravine Lodge being dedicated to the Class of <date>1965</date>.</u>
+      <u who="WALDEN">I know, yup.</u>
+      <u who="RIDKER">Yeah, it looks great. I recently saw it, so—</u>
+      <u who="WALDEN">Oh, you did. Great! I hear it’s pretty good.</u>
+      <u who="RIDKER">Yeah, it’s great. I think it’s going to be a good one.</u>
+      <u who="WALDEN">I think it helped solidify, inculcate, whatever the right set of words is, a set of values for me that started from what I was taught by my parents and I continued to learn in other ways. The military experience, while it had many things about it that were unpleasant, distasteful, unfortunate, negative—it taught me the value of human life and my obligation to, if given responsibility, to safeguard that human life and to give people with whom I have any influence an opportunity to succeed. I’m thinking specifically of our children here but not necessarily only that narrow scope.</u>
+      <u who="RIDKER"><persName>Mm-hm</persName>. </u>
+      <u who="WALDEN">And, by the way, young lady, I’m very grateful for what you’ve been doing, it is a—this is a valuable relationship we have. Thank you.</u>
+      <u who="RIDKER"><persName>Mm-hm</persName>, yeah. <persName>Dan</persName>, thank you so much. Thank you, you know, for your participation in this project and your willingness to share your stories. It’s been really wonderful for me to have an opportunity to speak with you and get to know you, so thank you so much again.</u>
+      <u who="WALDEN">You’re most welcome.</u>
+    </body>
+  </text>
+</TEI>

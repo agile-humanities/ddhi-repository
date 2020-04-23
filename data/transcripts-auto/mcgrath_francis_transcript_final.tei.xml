@@ -1,0 +1,366 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="McGRATH"/>
+        <person xml:id="EVERHARD"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="EVERHARD">This is <persName>Emily Everhard</persName>, and I am at <orgName>Rauner</orgName> [<orgName>Special Collections] Library</orgName> at <orgName>Dartmouth College</orgName> in <placeName>Hanover</placeName>, <placeName>New Hampshire</placeName>. <date>Today</date> is <date>the 18th of August, 2016</date>. It’s approximately 1:56 p.m., and I’m interviewing <persName>Francis</persName> [C.] “Bud” McGrath, and this interview is for the Dartmouth <placeName>Vietnam</placeName> Project.</u>
+      <u who="McGRATH">I was actually born in <placeName>Malden</placeName>, <placeName>Massachusetts</placeName>, <date>July 22nd, 1942</date>, and I lived there until was <date>about seven years old</date> and them moved to <placeName>Wakefield</placeName>, which was more of a suburban community. <placeName>Malden</placeName> was mostly urban. But I grew up in <placeName>Wakefield</placeName>, basically.</u>
+      <u who="EVERHARD">And what were your parents’ occupations? Did they work? And do you have any brothers or sisters?</u>
+      <u who="McGRATH">I did. I had—I had—I have three siblings. I had four. One died when he was three and I was six. But I have two brothers and a sister, both of—all of whom still live in <placeName>Massachusetts</placeName>. I was the only one who sort of left.</u>
+      <u who="EVERHARD">And what—</u>
+      <u who="McGRATH">And my parents. My mother was a stay-at-home mom, and my father was a lawyer, although he got his law degree before a college degree was required for law school, and he went to law school nights. Most of my upbringing, he had a couple of jobs that kept him going while he tried to get a law practice going. He was in naval intelligence, and he worked for <orgName>General Electric</orgName> for a while, and then he finally developed his law practice sufficiently to do that full time.</u>
+      <u who="EVERHARD">Great. And what was <placeName>Wakefield</placeName>, <placeName>Massachusetts</placeName>, like when you were growing up? What sorts of things did you like to do?</u>
+      <u who="McGRATH">I was very active in sports, and my mother had a great way of encouraging us to stay out on the ball field. You know, if we stayed at home, we would be given chores [chuckles], and so I spent a lot of time out on the ball field, playing baseball and football, and also, I played hockey in <date>the winter</date>. So <placeName>Wakefield</placeName> was a good place to do it. It was sort of a typical <placeName>New England</placeName> suburban town. I rode my bicycle everywhere, did all kinds of—all kinds of things. Back in <date>those days</date>, parents did not ferry you around from one activity to another. You went under your own steam, one way or another, either walking or on your bicycle. And we just—we just had a good time. I had a lot of good friends, and we were always doing something <date>all day</date> every day when we weren’t in school.</u>
+      <u who="EVERHARD">Wonderful. And, yeah, what was your school like?</u>
+      <u who="McGRATH">I actually went through Catholic schools for both elementary school and high school. And I don’t think I was especially well prepared for <placeName>Dartmouth</placeName>. I know that students here who had gone to prep schools breezed through <date>the first couple of years</date>, whereas I struggled. But by the time junior year came along, I was used to working, and they weren’t. [Chuckles.] And so in the end, I think it all evened out.</u>
+      <u who="EVERHARD">Yeah. And so was Catholicism something that was really important to your family while you were growing up?</u>
+      <u who="McGRATH">Yes and no. I mean, I would define my parents as habitual Catholics. I mean, they weren’t really into the theology, just what they had grown up with, and they performed the various ritual practices but were sort of mandatory but didn’t go much beyond that.</u>
+      <u who="EVERHARD">Yeah. And kind of outside of that, was your family, I mean, ever involved in politics, or were they, you know, ever involved in the military or—</u>
+      <u who="McGRATH">My father was in the [U.S.] <orgName>Navy</orgName> in <name type="event">World War II</name>, but he actually never went overseas. He was in naval intelligence, and as he describes it, he was a desk jockey in <placeName>Washington</placeName>, <placeName>D.C.</placeName> But he was away most of the time. I was born in <date>’42</date>, and I didn’t see much of him until the war was over because he was in <placeName>D.C.</placeName>, and my mother and I did not accompany him there. And I was—my surrogate father was basically my mother’s father, my grandfather, who I got along with very well and got my nickname from him.</u>
+      <u who="EVERHARD">Bud?</u>
+      <u who="McGRATH">Yes.</u>
+      <u who="EVERHARD">Is that your nickname?</u>
+      <u who="McGRATH">He called me his “little buddy.”</u>
+      <u who="EVERHARD">[Chuckles.]</u>
+      <u who="McGRATH">That’s where it came from. [Chuckles.]</u>
+      <u who="EVERHARD">That’s wonderful.</u>
+      <u who="McGRATH">Certainly not the war. I mean, you know, I was not very much aware of the war until much later in my life, you know, through school and reading about it myself and so forth. It was—you know, it was <date>the 1940s and 1950s</date>, and in suburban <placeName>America</placeName> it was pretty dull.</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">The main stimulation—as I said, I was—you know, it was sort of sports and activities with friends and stuff like that, and we really weren’t into partying or anything like that. It was just—you know in fact, in the summertime we organized a <date>summer</date> <orgName>hockey league</orgName>, where we played games in an indoor rink at a town that was five or six miles away. And we just—you know, we did a lot of things like that—</u>
+      <u who="EVERHARD">Yup.</u>
+      <u who="McGRATH">—you know, just dreaming up things, visiting the zoo in the next town over or visiting my cousin, who lived near the zoo or—you know, riding our bikes around to do—to do stuff like that. And it was sort of the leave-it-to-Beaver existence, which was fine while I was that age, but by the time I was a senior in high school, I was bored to tears.</u>
+      <u who="EVERHARD">Yeah, and so that’s sort of a great segue into the next thing I want to talk about, which is how did you end up choosing <orgName>Dartmouth</orgName>, and what sort of motivated you to want to go to college?</u>
+      <u who="McGRATH">It was very specific. My father told me he was not sending me to college until I decided what I wanted to do. I had no idea at the time what I wanted to do, but if I didn’t give him an answer, I wasn’t going to college. So I said, “Okay, I’ll be an engineer.” [Laughs.] But I knew—I didn’t know I wanted to be an engineer, and so what I did is I went through various college catalogs to find out who had engineering programs that were coordinated with liberal arts programs. And <orgName>Cornell</orgName> [University], <orgName>Dartmouth</orgName> and <orgName>Tufts</orgName> [University] had what were 3-2 programs. At <date>the end of five years</date>, you had a B.A. [Bachelor of Arts] and also a B.S. [Bachelor of Science] in engineering. </u>
+      <u who="EVERHARD">[Chuckles.] What course was that?</u>
+      <u who="McGRATH">I don’t—it was engineering. I don’t know, 101 or whatever.</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">But I remember the moment, the exact moment that it happened. We were—we were doing a problem of a truss bridge that had these crisscrossing girders above, and—this was back in <date>the day</date> before computers, don’t forget.</u>
+      <u who="EVERHARD">Okay. </u>
+      <u who="McGRATH">We had to work this out with slide rules. And we had to compute all the different stresses that were on each joint in order to figure out the size of the rivet that was needed in the top center of the bridge. And so you were working through this member and that member and so forth, and I got halfway there, and I said I really didn’t care. </u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">And I said, That’s not a good attitude for an engineer. And so after that course, I floundered around in other majors. I explored math and found out a lot of other people were much better at math than I was and I wasn’t going to succeed in that area. I tried physics. And we had a physics professor here then that had very entertaining classes, which I thoroughly enjoyed, but I also explored economics. But the whole time I was here, it was my English courses that I really got excited about. And so the third term of my junior year, I had to get permission from <orgName>Dean [Thaddeus] Seymour</orgName> to change my major. I really didn’t have a major before that, but anyway—and he—he allowed me to do it. And I had to take all English courses in order to fulfill the requirements for graduation, for the rest of the time I was here. But I did, and I haven’t regretted it.</u>
+      <u who="EVERHARD">Yeah. That sounds like it ended up working out in the end.</u>
+      <u who="McGRATH">It did. It did. You know, when I left <orgName>Dartmouth</orgName>, I didn’t know what I wanted to do. I was in ROTC [Reserve Officers’ <orgName>Training Corps</orgName>], so I went directly into the military right after graduation, and I was in the [<orgName>U.S.] Army</orgName> for <date>two years</date> before I decided that I wanted to go back to graduate school, in English.</u>
+      <u who="EVERHARD">Yeah. And speaking of being in <orgName>the ROTC Army</orgName> at <placeName>Dartmouth</placeName>, I was just wondering, you know, what that was like and how that impacted your experience at <placeName>Dartmouth</placeName> and if you could just talk a little bit about that.</u>
+      <u who="McGRATH">I don’t know that im- —had a significant impact on my experience here. I know we had to go to, you know, periodic drills, which I considered a pain. And we took military history courses that were part of the <orgName>ROTC</orgName> program. Probably the most important thing for me was that—that affected me afterwards—was when I graduated, I had the option of either going into <orgName>the Army Reserves</orgName> [sic; <orgName>U.S. Army Reserve</orgName>] or taking a <orgName>Regular Army</orgName> commission, which is the same type of commission West Pointers [cadets at <orgName>the U.S. Military Academy</orgName> at <placeName>West Point</placeName>] have.</u>
+      <u who="EVERHARD"><persName>Mm-hm</persName>. And so just going back a little bit before, what was your motivation for joining <orgName>the ROTC Army</orgName>?</u>
+      <u who="McGRATH">I didn’t want to be drafted.</u>
+      <u who="EVERHARD">Okay. </u>
+      <u who="McGRATH">Okay? And I knew I had to—and in <date>those days</date>, you were expected to do military service because of the draft. And I said, Well, if I have to go into the military, I’d rather go in as an officer than as a draftee, and so that was my primary motivation for <orgName>ROTC</orgName>.</u>
+      <u who="EVERHARD">And so when you were in <placeName>ROTC</placeName>, did you have the expectation that you would end up, you know, fighting in a war? Did you think that that was possible?</u>
+      <u who="McGRATH">Well, I mean, certainly when you join the military, that’s always a risk. But at the time, my first assignment was really part of a <name type="event">Cold War</name> experience. I mean, we were in—we were in <placeName>Germany</placeName>. Our mission was to keep the East Germans and the Russians from coming across the border, and I was in two different units over there, in the artillery. And one of those units was an Honest <persName>John</persName> rocket battalion, which had nuclear capability. So, you know, if there had been any attempt, you know, to invade the <placeName>West</placeName>, we were sort of the first line of defense, and that was the mission that we had over there.</u>
+      <u who="EVERHARD">And so what was your training like?</u>
+      <u who="McGRATH">For the military?</u>
+      <u who="EVERHARD">Yeah, for the <orgName>Army</orgName>.</u>
+      <u who="McGRATH">Well, I went to the artillery school at Fort Sill, <placeName>Oklahoma</placeName>, and I think I was there for <date>a couple of months</date>, and that gave me the basic artillery training. And while I was in <placeName>ROTC</placeName> here, we had our basic training—you know, the little boot camp portion of it—between our junior and senior year. We went to <placeName>Fort Devens</placeName>, <placeName>Massachusetts</placeName>, for that. And actually, <placeName>Fort Devens</placeName> was my first assignment after <orgName>Dartmouth</orgName>. My class at Fort Sill didn’t start until I think <date>July</date> sometime, so they assigned me to <placeName>Fort Devens</placeName> to—basically, I was helping to train people in the boot camp, who were in <placeName>ROTC</placeName> at the time.</u>
+      <u who="EVERHARD">So do you feel like being in <orgName>ROTC</orgName> at <orgName>Dartmouth</orgName> helped you after you graduated to sort of move forward and have a higher position or a higher role in the military?</u>
+      <u who="McGRATH">Uh,—yes. I think that partly—I mean, I—I certainly had confidence in my intellectual abilities as a result of my experience at <placeName>Dartmouth</placeName>. I did extremely well at—in the artillery school compared to some of the people in the same class who struggled with it. I was able to do well in, you know, my various assignments. So I would say yes. I mean I, you know, that combined with the expansion of <name type="event">the Vietnam War</name>, people started getting promoted, you know, faster than they did in the past. I mean, I was a captain when I got out of the <orgName>Army</orgName> after <date>four years</date>.</u>
+      <u who="EVERHARD">Yeah. And just—you know, going back a little bit before we move forward, to talking about your experience in <placeName>Vietnam</placeName>, I just have a few more questions about your experience at <placeName>Dartmouth</placeName>—</u>
+      <u who="McGRATH">Sure.</u>
+      <u who="EVERHARD">—while you were an undergrad. And I was wondering if you could tell me a little bit about your other activities—like, the hockey team and <orgName>Alpha Theta</orgName> and <orgName>the Newman Club</orgName> and how those sort of impacted your experiences before you went to <placeName>Germany</placeName>.</u>
+      <u who="McGRATH">Well, certainly the fraternity experience—I mean, the fraternities were basically the only social life here on campus in <date>those days</date>. I mean, we occasionally had mixers with girls’ colleges. <orgName>Colby Junior College</orgName> [now Colby-Sawyer College]—I don’t know if that—it’s now I think <persName>Colby Sawyer</persName> or something like that. I don’t even know if it’s still all female. I remember, you know, there were some of the—I can’t remember whether it was <orgName>Vassar</orgName> [College] or something—you know, they would send up busloads of girls for mixers on <date>weekends</date> and stuff. It was such an artificial situation, it was excruciating.</u>
+      <u who="EVERHARD">Yeah, absolutely. And just sort of the last thing I’m a little curious about is what was it like—I mean, you were at <orgName>Dartmouth</orgName> 1960 to <date>1964</date>, which—you know, there was a lot of political events happening at that time. I was wondering sort of if you remember <persName>JFK</persName>’s [President <persName>John F. Kennedy</persName>’s] assassination and, you know, what that was like when you were at school, or any other big events.</u>
+      <u who="McGRATH">I do. In fact, I remember the exact moment that I found out about that. I had pulled an all-nighter, and I came—I was living in the fraternity at the time, and when I came downstairs, it was, I don’t know, mid-afternoon by the time I woke up, and everybody was sitting around the television, which was very unusual for mid-afternoon. I said, “What’s goin’ on?”—you know. And that’s when I found out that, you know, <persName>Kennedy</persName> had been shot. I don’t think at the time they knew that he had died, but it wasn’t long after that that—you know, certainly before <date>the day</date> was over, we all knew that he had been assassinated.</u>
+      <u who="EVERHARD"><persName>Mm-hm</persName>. And, you know, being part of the <placeName>ROTC</placeName> and being in that community, what was it like having this, you know, <name type="event">Cold War</name> tension, and did you feel like there was <name type="event">Cold War</name> tension permeating at <orgName>Dartmouth</orgName>, or was it not really impacting you that much?</u>
+      <u who="McGRATH">I can’t say that I personally felt it very much, although I remember in my freshman composition course, for my—for my term paper toward the end, I—I wrote it on nuclear arms control. And I remember writing—we were actually assigned a paper, to write about [President <persName>Dwight D.] Eisenhower</persName> and his—his presidency. But to tell you the truth, I was very naïve politically back in <date>those days</date>. I was—I didn’t pay close attention to politics, and I suppose the <persName>Kennedy</persName> assassination was a huge, you know, wakeup call. </u>
+      <u who="EVERHARD"><orgName>The Great Issues Scholars</orgName>?</u>
+      <u who="McGRATH">Yeah.</u>
+      <u who="EVERHARD">Yeah, I was—yeah. That’s interesting.</u>
+      <u who="McGRATH">And, I mean, we went to those lectures, and, you know, I think that those Great Issues lectures was the sort of opening up of my mind to political realities, and it’s—has continued ever since.</u>
+      <u who="EVERHARD">Great. And so, then, you know, you leave <orgName>Dartmouth</orgName>, and you are now in <placeName>Germany</placeName>. And then you talked about how you came back and started doing some training, and I am just curious to ask you kind of about what it was like the moment you found out that you were going to go to <placeName>Vietnam</placeName>.</u>
+      <u who="McGRATH">It didn’t fit in with my plans [chuckles] that I for myself. But I can’t say that it was entirely unexpected, because others were getting orders to go to <placeName>Vietnam</placeName> as well. Actually, I was expecting orders to <placeName>Vietnam</placeName> instead of <placeName>Arizona</placeName>, and when I went to <placeName>Arizona</placeName>, I said, Well, maybe I won’t get sent to <placeName>Vietnam</placeName>. But I was, in the end. So—but, you know, you’re in the military. I mean you, you’re expected to serve. I mean, if there’s a war, you go and do your job.</u>
+      <u who="EVERHARD">And when you were in <placeName>Arizona</placeName>, were men that you were training being sent to <placeName>Vietnam</placeName> while you were there?</u>
+      <u who="McGRATH">Yes.</u>
+      <u who="EVERHARD">Okay. And</u>
+      <u who="EVERHARD">So sort of picking back up where we left off at, we were talking about when you were in <placeName>Arizona</placeName> and when you found out you were going to <placeName>Vietnam</placeName>, and I’m just curious about sort of what the protocol was and after that if you got a letter—you know, how you sort of found out.</u>
+      <u who="McGRATH">Usually, it comes in the form of orders that are sent down through the chain of command, and so [tone sounds] I was a company commander at the time in <placeName>Arizona</placeName>, and my battalion commander called me in and said, “Here are your orders. You leave on such-and-such a date.” And I was married, and my daughter was actually born in <placeName>Fort Huachuca</placeName>. And so we had to arrange for them to go back, and my wife at the time stayed with her mother, and she and my mother stayed there while I was in <placeName>Vietnam</placeName>. And she was born in <date>June</date>, and I shipped out to <placeName>Vietnam</placeName> in <date>September</date>, so for most of <date>the first year</date> of her life, I didn’t see her. I didn’t see her till I got home from <placeName>Vietnam</placeName>.</u>
+      <u who="EVERHARD">Wow. And what was, you know, that like, having to sort of leave your family? Did you feel like you were able to stay in good communication with them while you were away?</u>
+      <u who="McGRATH">[Tone sounds.] Yes. I mean, you know, we didn’t have cell phones or Internet at the time, you know, so it was all done through snail mail, and so I wrote regularly, and my wife wrote back regularly, and so that’s how we kept in touch. She would send photographs and so forth.</u>
+      <u who="EVERHARD">Yeah. And at this point in time, what did you know and sort of think about the American involvement in <placeName>Vietnam</placeName>?</u>
+      <u who="McGRATH">To tell you the truth, I didn’t have a clue. I mean, I was still fairly naïve politically. I—you know, all I knew about <placeName>Vietnam</placeName> was what the government was telling us about it, okay?</u>
+      <u who="EVERHARD"><persName>Mm-hm</persName>.</u>
+      <u who="McGRATH">And in the military, you know—the military newspapers are not like regular newspapers. You basically get the information that is coming down from government sources, and so as far as we knew, you know, it was about the spread of communism in <placeName>Southeast Asia</placeName> and that we were over there to inhibit that spread. That’s the story they told, and it wasn’t until sometime after that it was clear that there were many other things involved and that that was probably the least of our worries.</u>
+      <u who="EVERHARD"><persName>Mm-hm</persName>. And at this point in time, did you feel like—were you, you know, committed to this idea of stopping the spread of communism, and were you fearful about it, or what were kind of your thoughts on that?</u>
+      <u who="McGRATH">[Tone.] My attitude was more that I, you know—I knew I would have a job to do over there, and sure—I mean, in a war zone fear enters into it the most your <date>first week</date> there and your <date>last week</date> or two there. And in between, you just shut it out. Becau- —you have to in order to be able to do your job. But, you know, walking into a war zone is very unnerving, and when you know you’re going home in <date>a week or two</date>, you don’t want to expose yourself, you know, any more than you have to. But, you know, in between, you do what you have to do.</u>
+      <u who="EVERHARD">Yeah. So speaking of walking into the war zone, what was it like when you got to <placeName>Vietnam</placeName>? And, you know, how did you get there? Where did you enter? Can me sort of, you know, talk about the beginning.</u>
+      <u who="McGRATH">They were flying [tone] commercial flights for replacement GIs [soldiers; acronym meaning government issue or general issue]. In other words, all of the units and their equipment had already been moved over there in <date>’66</date>, ’67. And so the commercial flights were—were flying out of mostly <placeName>the West Coast</placeName>, and so we flew into Biên Hòa Air Base, which was north—just north of <placeName>Saigon</placeName>, and we would stay there for <date>two or three days</date>, until they assigned us to a unit. You didn’t have a unit assignment, a specific unit assignment, until you got there. So you had <date>two or three days</date> of walking around this base with no weapon and, you know, hearing, you know, explosives going off, mostly at night. And it was kind of unsettling.</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">But in <placeName>Vietnam</placeName>, the only people doing multiple tours were the ones that volunteered to do them.</u>
+      <u who="EVERHARD">Okay.</u>
+      <u who="McGRATH">You didn’t have to do a second tour over there. So when I arrived at the battalion where I was assigned, everyone was having parties, celebrating going home.</u>
+      <u who="EVERHARD"><persName>Mm-hm</persName>.</u>
+      <u who="McGRATH">And I spent my first night in this base camp, listening to an incredibly [tone] loud recording of <orgName>Simon &amp;amp</orgName>; <persName>Garfunkel</persName>’s “Homeward Bound” all night long, over and over and over again. [Chuckles.]</u>
+      <u who="EVERHARD">Oh, man, I can’t imagine!</u>
+      <u who="McGRATH">And it took my mind off my fear, I could tell you that! [Laughter.] But I wasn’t getting much sleep.</u>
+      <u who="EVERHARD">Yeah. Yeah, and so then when they went home, were there a bunch of new <orgName>Army</orgName> men who, like, joined with you, joined the battalion with you?</u>
+      <u who="McGRATH">Well, there were new people that had come in. They were all coming in over a period of, you know, <date>days</date> and <date>weeks</date>, you know, so as—as the older people—or the people who had been there for <date>a year</date> were being rotated out. But I was actually very fortunate. I was a company commander there, and I had excellent NCOs [non-commissioned officers] and warrant officers working for me. And, you know, my philosophy ever since has been: You hire good people, and then let them do what they do. You don’t try to micromanage them. And so I was very fortunate in that I had good subordinates, who I did not have to micromanage.</u>
+      <u who="EVERHARD">Yeah. And can you talk a little bit about what your role as the company commander was like and what your responsibilities were?</u>
+      <u who="McGRATH">Well, you’re basically responsible for everything your company does [chuckles], or doesn’t do. And so you supervise everything, from, you know, maintenance, preparedness, making sure that you’ve got supplies, ammunition, that everyone is doing the job that they’re supposed to be doing, and—and, you know, you’re basically responsible for—for everything.</u>
+      <u who="EVERHARD">Yeah. And you talked about how you had, you know, great people working under you. Did you form any strong friendships with them?</u>
+      <u who="McGRATH">While I was there I did, but, you know, I haven’t—I didn’t keep up with any of them after I left the <orgName>Army</orgName>, because I got out of the <orgName>Army</orgName> right after my <placeName>Vietnam</placeName> tour. And partly I think I wanted to forget about the <orgName>Army</orgName> and get on with my life, you know, which at that point was graduate school.</u>
+      <u who="EVERHARD">Yeah, definitely. And you know, were there any parts of, like, the day-to-<date>day</date> base camp life that really stick out to you, that you really remember? What sort of—what was the base camp like?</u>
+      <u who="McGRATH">Most—I think most wars, you spend a lot of time, you know, preparing and not doing much. The infantry is a little bit different. If you’re in the infantry or the Marines and you’re out there slogging through the rice paddies on a <date>daily</date> basis, your life is very different. I mean, in the artillery—you’re always sort of behind the lines, and you’re usually in a base camp with security provided by an infantry platoon or company for you. But a lot of the times, just waiting.</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">And, you know, being in actual combat—well, the infantry do it a lot more frequently, but I think in the whole time that I was over there, I was only actually shot at twice.</u>
+      <u who="EVERHARD">Do you—I’m sure you remember—do you remember those times that—</u>
+      <u who="McGRATH">Oh, yeah. [Laughs.]</u>
+      <u who="EVERHARD">Do you want to talk about it?</u>
+      <u who="McGRATH">Well, one I did in the essay that I wrote. This was the infamous Tet Offensive, and they kept telling us that, you know, the Viet Cong were planning this offensive and to be prepared for action. And the way it worked in <placeName>Vietnam</placeName> is that, you know, we sort of ran our operations in <date>the day</date>, and the Viet Cong ran their operations at night, you know. </u>
+      <u who="EVERHARD">Yeah. [Laughs.]</u>
+      <u who="McGRATH">I took off all my gear, got in my cot, and, I mean, we were in these sort of flimsy-erected hooches that were sandbagged all around, up to about this level [demonstrates]. And so that night, they—they didn’t attack—we were in a huge base camp, and so they didn’t attack the base camp, but they rocketed and mortared us. And a rocket landed right next to our hooch on the—and, you know, I woke up to the sound of the explosion and the shrapnel raining down on the roof of the—of the hooch, and that was a clear signal: I needed to get outta there! [Chuckles.]</u>
+      <u who="EVERHARD">I can’t even imagine.</u>
+      <u who="McGRATH">And we had—we had sandbagged bunkers next to everybody’s living quarters, and so I quickly got dressed, put on all my gear and ran out the door into the bunker, which was just a few feet away— </u>
+      <u who="EVERHARD">Yeah</u>
+      <u who="McGRATH">but I forgot to tie my shoelaces, my bootlaces— </u>
+      <u who="EVERHARD">Oh my gosh</u>
+      <u who="McGRATH">—and I stepped on them on the top step of the bunker and summersaulted into the bunker. And there I was, lying flat on my back on the floor, and my first sergeant was just standing there, grinning. And he saluted me. “Good evening, sir.” [Laughs.] </u>
+      <u who="EVERHARD">Oh no! Wow.</u>
+      <u who="McGRATH">So that was the first—the first time, the first time it happened.</u>
+      <u who="EVERHARD"><persName>Mm-hm</persName>. They could see it.</u>
+      <u who="McGRATH">They could see it.</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">And I—so there was no way I was standing up and running out the door.</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">So I just stayed there, and I kept pushing the door open, pushing it open at very even internals [tone], until they stopped shooting at it, and then I crawled out on my belly and got into the nearest drainage ditch and crawled down to the nearest bunker.</u>
+      <u who="EVERHARD">Wow.</u>
+      <u who="McGRATH">So, and then I had—when I we were back from that base camp—I had gone up by <orgName>Jeep</orgName>. This is—that’s—this story is in the essay that I wrote, where halfway up the road was empty and I knew we shouldn’t been on it. I had been told it was secure. But anyway, we got to <persName>Xuân Lộc</persName> that way, but when we went back from <persName>Xuân Lộc</persName>, I flew by helicopter. But I was in one of these little observation helicopters. They’re—you know, they’re just a bubble.</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">They’re like a helicopter version of a motorcycle. They’re designed for two people. We had three people in it, and we were flying at treetop level, and the engine started to sputter, and I was—that’s probably the moment I was most scared—</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">—the whole time I was over there, because I thought we were going down, and we were on top of a rubber plantation. There was nothing but trees down there. But the pilot got the engine going again, and we continued on our way. You’ve—in <placeName>Vietnam</placeName>, you were safer flying at treetop level because if someone tried to shoot at you, you were a faster moving target than if you were—than if you were higher up, so—</u>
+      <u who="EVERHARD">Yeah. And then I remember in your essay you sort of talked about how after the road incident, you didn’t have very much you know—or after the Tet Offensive, you didn’t have very much trust in the sort of intelligence [tone] of <orgName>Army</orgName> and—</u>
+      <u who="McGRATH">No.</u>
+      <u who="EVERHARD">Yeah. And I was wondering if you could talk about that.</u>
+      <u who="McGRATH">Well, the Viet Cong and the Vietnamese, <orgName>the North Vietnamese Army</orgName> always seemed to know more about what we were doing than we knew about what they were doing. And—and it was just, you know—it—it—it—there were just so many inexplicable things. I mean, they always happen in—in—in any war zone anyway, but you don’t think about your own military that had, you know, some of the best resources in the world to fight with being at that much of a disadvantage, and we really were. And some of the reactions over there were kind of, you know, knee-jerk reactions. And I—I just—you know, on the few occasions that I was either providing or relying on military intelligence, they did some—they—we did some pretty—either did some stupid things or didn’t ha- —didn’t get it right.</u>
+      <u who="EVERHARD">And with, you know, sort of that feeling of not being able to get it right, do you feel like a lot of your time in <placeName>Vietnam</placeName>—were you frustrated, or did you feel like, you know, the <placeName>U.S.</placeName> was making any progress?</u>
+      <u who="McGRATH">When I left <placeName>Vietnam</placeName>, I felt—I had not seen any evidence of any progress whatsoever. It looked like we were in exactly the same situation that we were in when I got there. And, I mean, at the time I had no understanding why, but I, you know, just—you know, at my level, your experience on the ground is limited to, you know, the sector that you’re in and, you know, what your units have been involved with and so forth. But we had no more control over the territory or the people than we had when I got there. And so that—that—that started me thinking much more negatively about the war. Just, you know, your own experience there. You give up a year of your life and risk your life and you don’t see anything for it.</u>
+      <u who="EVERHARD">Yeah, and especially—I mean, you were in <placeName>Vietnam</placeName> during <name type="event">the Tet Offensive</name>,—</u>
+      <u who="McGRATH">Yeah.</u>
+      <u who="EVERHARD">—which was a huge, huge event, and I was sort of wondering, do you feel like things changed a lot after the three waves of the offensive and sort of how that—if it had an impact or if it changed your guys’ plans.</u>
+      <u who="McGRATH">Well, only what I know—sense in reading about it. I mean, there are things that I was never aware of while I was there, but it was—the counterattacks that our military engaged in after Tet were devastating to the Viet Cong and North Vietnamese units that were there. But the psychological impact was in the other direction. It was a huge psychological victory for the North Vietnamese and <placeName>the Viet Cong</placeName>. And it seriously damaged the support, what little support the war had, back here in the States.</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">—to—to challenge—challenge it. But they wanted to make an impact. They wanted to make an impact everywhere, and they blew up a substantial amount of ammunition in the <placeName>Long Binh</placeName> ammunition dump, which was only about ten miles from where we were.</u>
+      <u who="EVERHARD">And so do you feel like—</u>
+      <u who="McGRATH">By the sapper who was employed by the people of the dump.</u>
+      <u who="EVERHARD">Can you elaborate a little on that? Because, you know, earlier you talked about how a lot of the Viet Cong were employed during <date>the day</date>.</u>
+      <u who="McGRATH">Yes. Well, I don’t know if this story is apocryphal or not, but it is very believable, given my knowledge of what went on over there, is that they—they captured a couple of the sappers, who were explosive experts for the Viet Cong, who were responsible for blowing up a good part of the ammunition dump. And he was the barber in the local officers’ club. So this guy had a razor to the throats of generals on a <date>daily</date> basis, and he was the enemy.</u>
+      <u who="EVERHARD">And so do you feel like by, you know, unknowingly having these, you know, Viet Cong sappers working on the base camp it really put the <placeName>U.S.</placeName> at a disadvantage?</u>
+      <u who="McGRATH">Sure. They knew where everything was.</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">You know, and we often didn’t know where they were or who they worked for or what their loyalties were. And the infantry had a lot of—you know, when they went into villages, a lot of the villagers just wanted to lead a peaceful life, but we would harass them during <date>the day</date>, and <orgName>the Viet Cong</orgName> would harass them at night, you know, and they were sort of caught in between. Sometimes the Viet Cong would force them to support them, and then we would identify it as a <placeName>Viet Cong</placeName> village—I mean, some of them were and some of them weren’t, but it was—you know, it was an extremely difficult situation. I mean, there were no front lines the way there were in the conventional warfare of <name type="event">World War I, World War II</name>, because everybody was intermingled.</u>
+      <u who="EVERHARD">Yeah. And so what were—I mean, on a day-to-<date>day</date> basis, do you—did you interact with a lot of, you know, Vietnamese villagers—</u>
+      <u who="McGRATH">No.</u>
+      <u who="EVERHARD">—and what were your relations like?</u>
+      <u who="McGRATH">Not in the artillery. We did not.</u>
+      <u who="EVERHARD">Okay.</u>
+      <u who="McGRATH">I mean, the only Vietnamese we interacted with really were the ones that worked on the base.</u>
+      <u who="EVERHARD">Okay. And what were those interactions like?</u>
+      <u who="McGRATH">They were just minimal. I mean, they would, you know—they were just performing, you know, mostly cleaning—cleanup type of duties, really.</u>
+      <u who="EVERHARD">What did it—how did it feel to be in—you know, in <placeName>Vietnam</placeName>—like, in oc- —like, sort of not in—I don’t know how to phrase this, but not really in your homeland—like, to be in another country? Did you—what was sort of like the cultural differences like, and do you feel like the base did a good job of creating, like, a sense of maybe the calm and, like, bringing you know feelings of, like, <persName>Americanness</persName>, I guess, back to, you know, this completely foreign environment that you were in?</u>
+      <u who="McGRATH">No, we were—it varied. I mean, there was—there were some people there who were attached to Vietnamese units, you know, who lived with the Vietnamese on a day-to-day basis. I was not in one of those units. We had very little, you know, interaction with them. </u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">—in terms of, you know, their allegiances, although military intelligence [chuckles] again, we were lying right? [Laughs.]</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">And so we went to dinner there, and it was very—it was extremely pleasant. I mean, we also discovered why we were invited for dinner. He had three daughters he wanted to marry off. [Laughs.] And he was hoping that maybe he could get some—</u>
+      <u who="EVERHARD">One of you.</u>
+      <u who="McGRATH">—some officers interested. Not just enlisted men; he wanted them married off to officers. And this was a family that was fairly well-to-do in <placeName>North Vietnam</placeName>, but I guess he was seeing the way the war was going and just wanted to get his family out of there—</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">—if he could. And I don’t think—I don’t think any romances came out of that dinner. But it was a pleasant episode. I mean, it was one of the more memorable episodes of—of being there.</u>
+      <u who="EVERHARD">Oh, no!</u>
+      <u who="McGRATH">[Laughs.] And we had escaped.</u>
+      <u who="EVERHARD">You were just fine. You were all good.</u>
+      <u who="McGRATH">We were just fine, yes.</u>
+      <u who="EVERHARD">That’s rich. That’s a good one.</u>
+      <u who="McGRATH">No, we had—I had a—I had an excellent first sergeant, and he took care of the business of the enlisted men extremely well, and we would occasionally—the mess sergeant and a couple of other sergeants and the first sergeant and the warrant officers—and I had a lieutenant also who worked for me, and the lieutenant and the warrant officers and myself used to play pinochle at night in the hooch when there was nothing else to do. And the mess officer was always scrounging up interesting food for us to eat, because, you know, the regular mess hall stuff just got very old, and so he would find some barbecue sauce to put on the chicken, and we—he made up a barbecue outside of the hooch that we—that we used. </u>
+      <u who="EVERHARD">And at this point, did you guys—like, while you were in <placeName>Vietnam</placeName>, were you sort of aware of the political climate at home in the <placeName>U.S.</placeName>, and, you know, how people were feeling towards the war, and do you think that impacted the base?</u>
+      <u who="McGRATH">To a certain extent we were. I mean, we knew there were demonstrations going on, but we never had any detailed descriptions of it because the only—the only news outlet we had was the Stars and Stripes, which was the official military newspaper.</u>
+      <u who="EVERHARD">Okay.</u>
+      <u who="McGRATH">And, of course, the generals were trying to create a certain impression of how the war was going. It turned out it wasn’t an entirely accurate impression. But the news that we got was—was filtered. I won’t say it was completely censored, but it was certainly filtered, and so there was just a limited amount that we were aware of what was going on. If there were major demonstrations, yeah, we would hear about them, but you didn’t get a whole lot of detail about it.</u>
+      <u who="EVERHARD"><persName>Mm-hm</persName>. And were there any other—I mean, we talked about the times that you were shot at, which were, you know, very memorable. Were there any other—any other events or moments that really stick out to you from your time in—in <placeName>Vietnam</placeName>?</u>
+      <u who="McGRATH">Well, that other story, I guess, that I told in the essay that I wrote, where I was on guard duty one night, and you were responsible for a quarter of the sector. I mean, the base camp was, like, two miles long and a half mile wide, so you had, you know, about a half mile by a mile earthen berm that was built up, and then there was a cleared area between the berm and the jungle, and that cleared area had—was mined, and it also had barbed wire in it.</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">And at dawn they sent up a patrol out there in the area where the—you know, the first explosion was heard. And all they found was one well-mutilated monkey, </u>
+      <u who="EVERHARD">Wow.</u>
+      <u who="McGRATH">—and they—it turned out, on investigation, that one of the soldiers on guard duty had got jittery, and he fired off his grenade launcher without permission or without letting anyone know, and that explosion was interpreted as incoming fire, which open—which meant that set off the machine gunners, and the whole thing just esculated—escalated from that. And so they spent untold millions of dollars destroying that monkey. And it was, you know—I mean, it was you know, sort of incomprehensible things like that that struck a—maybe I was looking for these kinds of ironies. I don’t know. </u>
+      <u who="EVERHARD"><persName>Mm-hm</persName>.</u>
+      <u who="McGRATH">I probably was. But, you know, it just didn’t make any sense.</u>
+      <u who="McGRATH">Yeah.</u>
+      <u who="McGRATH">Oh, they all happened at night.</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">I mean—</u>
+      <u who="EVERHARD">Yeah, and so what was—what was sort of the feeling around, like, when the sun went down? Was it, you know, <date>every day</date> you were a little tense, or was it only occasionally, or did you get used to it?</u>
+      <u who="McGRATH">No. I mean, you just—you just get used to it. You know, it’s <date>only the first week</date> and <date>the last week</date> or two that, you know, you’re really worried about it because, you know, if you’re worried about it all the time, it just—it interferes with your ability to function.</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">You know, and you just—you know, you just go about your business. I mean, during <date>the day</date>—the day—the day was fine, you know?</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">And at night, you were sleeping, you know, below the, you know, the height of the sandbags, and so it would take a direct hit, you know, to kill you, so, you know, you just deal with it,—</u>
+      <u who="EVERHARD">Yeah, and so—</u>
+      <u who="McGRATH">—although the first night I came—I was back from <placeName>Vietnam</placeName>, my wife’s parents were renting a place at <placeName>Hampton Beach</placeName> in <placeName>New Hampshire</placeName>, and they gave us the place for <date>a couple of nights</date>, and the first night I was there, they had a fireworks display after I’d fallen asleep. And I rolled out of bed, on to the floor, looking for my gear.</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">But that was the only time that that happened. But a lot of guys came back from—from <placeName>Vietnam</placeName> with, you know, serious <orgName>PTSD</orgName> [post-traumatic stress disorder], and but they were—they were mostly Marines and infantry, you know, were out, you know, in the boonies and the villages and so forth, and, you know, you didn’t know who was friendly and who was not. You just—even as you walk up to them, you did not know.</u>
+      <u who="EVERHARD">Yeah, and I think that—you know, off of that idea of not really knowing who you could and couldn’t trust. What was it like, knowing—like, I’m curious, kind of, about the guerilla warfare tactics of the Viet Cong and, you know, how that whole attack happened, because there was sort of this misunderstanding and thinking that something was out there. What was that like, especially as, like, a commander? You know, how did that affect kind of the leadership and your plans and ideas about how you wanted to handle the war?</u>
+      <u who="McGRATH">I don’t—it really didn’t affect anything significantly. You know, you’re trained to operate in certain ways. You trained in, you know, how to set up defenses, how to set up offenses and so forth, and you—you know, if—you know, you do the same thing whether you’re attacked every night or once or twice a year. It was—as with any war, a lot of it was boredom. You know, nothing much was happening. You were just checking on your vehicles, checking on your weapons.</u>
+      <u who="EVERHARD">And so earlier we kind of were talking about how it was the first and <date>the last weeks</date>.</u>
+      <u who="McGRATH">Yeah.</u>
+      <u who="EVERHARD">And just to sort of, like, move forward, like, what was, you know, your experience in <placeName>Vietnam</placeName>? I kind of want to, you know, jump to talking about those, you know, <date>last couple of weeks</date> and sort of what was going on around that and what it was like, knowing you were going home and the feelings around that and sort of—yeah.</u>
+      <u who="McGRATH">[Chuckles.] Well, I think I—somebody asked me during my <date>last week</date> or so there if I wanted to go into <placeName>Saigon</placeName>. I said, “Uh-uh.” [Laughs.] “Nope, I’ll just stay right here.” I mean, one thing the <orgName>Army</orgName> did do for me is that normally you’re supposed to spend <date>12 months</date> in <placeName>Vietnam</placeName>, but I was not—I was going to miss the start of <date>the fall semester</date>, because I had gone over there in <date>September</date>, and I wasn’t due to leave there till <date>the end of September</date>. But they did let me out <date>a few weeks early</date>, so I could go to graduate school, which I was grateful for.</u>
+      <u who="EVERHARD">My gosh.</u>
+      <u who="McGRATH">And we were lucky. You know, we weren’t hit. Everybody cheered.</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">[Laughs.] You know. It was a full plane. We were delighted to get out of there. But there it was, our last seconds in <placeName>Vietnam</placeName>, and, you know, we were still vulnerable.</u>
+      <u who="EVERHARD">Yeah. Now, what was it like kind of knowing that you were leaving, and how did you feel about—you know, did you feel like you had accomplished what you wanted to, or, you know, what was the feeling around leaving <placeName>Vietnam</placeName>? Were you ready to go?</u>
+      <u who="McGRATH">Oh, yeah! I mean, I was—I was ready to go before I got there. But, you know, I mean, in terms of sense of accomplishment, I didn’t think that the military as a whole had accomplished anything in the time that I was there. I didn’t see any improvement in anything. And, I mean, I think Tet probably had a lot to do—that came—well, I got there in <date>September</date>, and <persName>Tet</persName> was <date>early February</date>. When I left there, my feeling was, you know, another Tet could come any time.</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">I mean, it was possible. I mean, we hadn’t done anything to destroy their capability of it. So in that sense, I did not feel that we had accomplished anything.</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">And so for me—and then it was at that point, about midway through <date>my four years</date> in the <orgName>Army</orgName>, that I decided I wanted to go to graduate school, and so I actually applied from <placeName>Vietnam</placeName>.</u>
+      <u who="EVERHARD">Really!</u>
+      <u who="McGRATH">Yes. [Laughs.]</u>
+      <u who="EVERHARD">So how did that work?</u>
+      <u who="McGRATH">I just filled out the applications and sent them in.</u>
+      <u who="EVERHARD">Mhm. And so then, when you got back home—you said that, you know, the <orgName>Army</orgName> let you out a little bit early. Did you go directly to <orgName>UT</orgName> [<orgName>University of Texas</orgName> at <placeName>Austin</placeName>] or did you [cross-talk; unintelligible]?</u>
+      <u who="McGRATH">No, I went back to <placeName>New England</placeName> to pick up my wife and daughter, and then we drove across country to <placeName>Texas</placeName>. And I actually had gotten into a couple of other graduate schools, but there was only one other one, in <placeName>Illinois</placeName>, that I was thinking about. And actually, when we got in the car and headed west, I hadn’t made up my mind yet which one I was going to. And so I did on the way.</u>
+      <u who="EVERHARD">How did you settle on <placeName>Texas</placeName>?</u>
+      <u who="McGRATH">Well, they had a really good collection in modern literature, and I knew I wanted to focus on modern literature, and, and so that was the main reason that I—that I went to <placeName>Texas</placeName>.</u>
+      <u who="EVERHARD">Great. And I just want to check in if you want a glass of water, if you want a break or anything right now.</u>
+      <u who="McGRATH">No, I’m fine.</u>
+      <u who="EVERHARD">Okay, cool.</u>
+      <u who="McGRATH">Well, I mean, it was very nice. I mean, I mean, you know, it was just relief, you know, to get away from <placeName>Vietnam</placeName> and just to be around my daughter, who I hadn’t seen in <date>a year</date>. I mean, she was—what?—about <date>a year and three months old</date>. And the last time I had seen here, she was <date>only three months old</date>, so I had missed that whole—that whole first year. </u>
+      <u who="EVERHARD">Yeah. And how did you feel like you were received when you returned as a veteran? I mean, at this point, was—you know, were a lot of people in your family and were a lot of your friends very anti war? Were they pro war? And what was it like coming back into that?</u>
+      <u who="McGRATH">My family wasn’t a problem. I mean, they were—they were supportive. You know, they were—I mean, they were anti war but not in a political sense— </u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">-you know? They didn’t want me over there, but they were not supporters of the war, either. You know, I—it would be wrong to say they were indifferent; that’s not quite the right word. But they didn’t know what to make of it any more than I did, really, except after my experience there, I had a little clearer notion of, you know, how I felt about it.</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">And it was. I mean, it was a war of nationalism, in which there were two, you know, internal factions struggling for control after the French departed, and one of the mai- —primary theoretical approaches I take to literature is post-colonial approaches, and the <placeName>Vietnam</placeName> situation was a classic post-colonial situation. I mean, I didn’t see it as that at that time that I was there, but certainly looking back on it, I can—I can—I can see it.</u>
+      <u who="EVERHARD">Yeah, and so do you feel like when you started graduate school—you know, you mentioned how you kind of wanted to forget about your experience. Do you feel like you spent time, like, reflecting on <placeName>Vietnam</placeName> while you were at graduate school, or did you really just pour yourself into your work?</u>
+      <u who="McGRATH">I just poured myself into my work.</u>
+      <u who="EVERHARD">And do you feel like not being around, like—you know, you said no one else in your program had served in the war. Do you think that sort of facilitated not having to think about it or talk about it?</u>
+      <u who="McGRATH">Yes and no. I mean, there was plenty of people talking about it because there were significant, you know, antiwar movements at <orgName>the University of Texas</orgName>. And I only got involved with it when [President <persName>Richard M.]</persName> <persName>Nixon</persName> started bombing <placeName>Cambodia</placeName>. I figured, Oh, my God! I mean, what is he doing? You know, seeing the mess that <placeName>Vietnam</placeName> was, now he’s expanding it into <placeName>Cambodia</placeName>? And so I participated in the—you know, the demonstrations that resulted from him getting involved in <placeName>Cambodia</placeName>.</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">—and not very subtly. </u>
+      <u who="EVERHARD">Yeah. What was the tension like between, you know, the antiwar student protests—student protesters and, you know, more pro-war supporters? And do you feel like there were students at <orgName>UT</orgName> that were very pro war? Was it mostly, you said, the rednecks outside?</u>
+      <u who="McGRATH">No, it was mostly people outside the university. I mean, if there were pro-war people on campus, they weren’t vocal about it. And it was—you know, the really vocal people were the antiwar people.</u>
+      <u who="EVERHARD"><persName>Mm-hm</persName>. And, yeah, you were at <orgName>UT</orgName> in a very interesting time of escalation, and one major event was [the] Kent State [shootings].</u>
+      <u who="McGRATH">Yeah.</u>
+      <u who="EVERHARD">And I was wondering if, you know, we could sort of talk about <placeName>Kent State</placeName> and—I read that there was, like, a big demonstration in <placeName>UT</placeName> I think after <placeName>Kent State</placeName> and if you were involved in that, and just sort of—</u>
+      <u who="McGRATH">I wasn’t involved in that—in that situation.</u>
+      <u who="EVERHARD">Okay. </u>
+      <u who="McGRATH">But, I mean, you know, I felt that <placeName>Kent State</placeName> was a tragic situation and that why is this stuff happening back here over a war that is going so poorly, and we’re shooting each other over it? I mean, it was just beyond comprehension that we were doing this, you know. And as <orgName>National Guard</orgName> troops—they were shooting the students, you know. I don’t know, it just was extremely upsetting.</u>
+      <u who="EVERHARD">Yeah. And at this time, do you feel like there was a lot of tension between the student groups and between the police and <orgName>National Guard</orgName> and even the government?</u>
+      <u who="McGRATH">Yes. I mean, fortunately, though, while I was in <placeName>Texas</placeName>—I mean, there was—there were no fatal encounters, but there was certainly a lot of tension. And, I mean, it was—you know, hippie culture was growing, and, yeah, there was conflict between—and even—even within the hippie culture, you know, some people were ardently anti war. Some were only interested in drugs; they didn’t care about the war. And there was still a lot of straight-laced people—I would say that within campus, there was probably more conflict between, you know, the straight-laced people and the—and the hippie culture.</u>
+      <u who="EVERHARD">Yeah. And, you know, with straight-lace versus hippie culture versus, you know, sort of the generation above you guys, what was it like? Did you feel there was a lot of intergenerational differences that were happening at the time concerning the war and concerning the climate?</u>
+      <u who="McGRATH">Intergenerational in what sense?</u>
+      <u who="EVERHARD">Like, between, you know, the graduate students versus—</u>
+      <u who="McGRATH">Undergraduates?</u>
+      <u who="EVERHARD">Well, like, older—like, your—your parents or, you know—</u>
+      <u who="McGRATH">Oh. Well, my father had—I mean, as I got more involved with antiwar sentiments, myself—and also at one time I had a beard down to here [demonstrates], and my father wasn’t too happy with the direction that my ideology was taking, and I remember one—I think I was home for <date>Thanksgiving</date> dinner or something, and the subject came around to antiwar demonstrators.</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">You didn’t have conversations, you know, with a give-and-take with him. And so I was avoiding the subject altogether. But someone else at the dinner table brought it up, and my father said, “If one of those protest- —antiwar protesters came around in my back yard, I’d shoot them.”</u>
+      <u who="EVERHARD">Mmm.</u>
+      <u who="McGRATH">Which I found, you know, kind of upsetting at the time, but I also knew he didn’t—he didn’t really mean in, but there was—what he did mean was his attitude, so—so there was a certain amount of intergenerational conflict there. And, you know, <name type="event">World War II</name> veterans had a very different experience. I mean, a lot of them came home with <orgName>PTSD</orgName>, but, you know, the attitude was, especially after the opening up of the concentration camps, that it was a war worth fighting.</u>
+      <u who="EVERHARD"><persName>Mm-hm</persName>.</u>
+      <u who="McGRATH">But even people who weren’t anti war about <placeName>Vietnam</placeName> didn’t necessarily think it was a war worth fighting. I mean, what were we fighting for over there?</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">I mean, in the end, you know, I think we delayed <placeName>Vietnam</placeName>’s entry into the modern world by <date>about ten years</date>, and we are now trading partners with them, and so if we hadn’t had the war, we would have been trading partners with them much earlier, perhaps. </u>
+      <u who="EVERHARD">Mhm. </u>
+      <u who="McGRATH">So in the final analysis, what was that all about?</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH"><persName>Lyndon Johnson</persName> said he didn’t want to be the first president to lose a war, so was it his vanity we were supporting? You know, I don’t know. I mean—I—I—I still—you know, in looking back, I still don’t think that we accomplished anything over there, and so that my—in a—in a way, the year I spent there was a metaphor for the whole war.</u>
+      <u who="EVERHARD">Yeah. And, you know, this sort of sense of not knowing what we were fighting for and this aimlessness—you know, what was it like after you came back and, you know, still <placeName>U.S.</placeName> troops <placeName>didn’t</placeName>—they weren’t pulled out until I think it was <date>1973</date>.</u>
+      <u who="McGRATH">Seventy-five, I think, was the las-—</u>
+      <u who="EVERHARD">Seventy—Seventy-five I think was the end of the war. Yeah.</u>
+      <u who="McGRATH">Yeah, the end, yeah. Yeah, ’73. I think you’re right.</u>
+      <u who="EVERHARD">Seventy-three I think they were pulled out, and ’75 they finally ended. And so there was sort of this long wait time. And did that just sort of reinforce your disillusionment with <orgName>Army</orgName> intelligence, or did you—you were involved in antiwar protests, but, like, what was it like having, you know, these, like, <date>three-plus years</date>, of still kind of waiting for the conflict to end?</u>
+      <u who="McGRATH">Well, I left—I left <placeName>Texas</placeName> for my first job in <date>’73</date>, at—I went—I went to <orgName>the University of Pennsylvania</orgName>, and I was totally focused on getting research done and my teaching. One of the big gaps in my—in my graduate school was <date>18th-century</date> literature.</u>
+      <u who="EVERHARD"><persName>Mm-hm</persName>.</u>
+      <u who="McGRATH">One of the first—my first semester at <orgName>Penn</orgName>, they wanted me to teach—guess what: <date>Eighteenth-century</date> literature! [Laughs.]</u>
+      <u who="EVERHARD"><date>Eighteenth-century</date> literature. [Chuckles.]</u>
+      <u who="McGRATH">And so, I mean—my first few years there, I was just mired in my work.</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">So, and that—that was okay with me. I mean, I didn’t want to think about the war, really.</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">I mean, I just—I just didn’t. And I was—I don't think I gave it much serious thought until I was asked to do an essay for the—for the collection that we ultimately published. And I’m glad I did. I mean, I’m glad I’ve done this now. And I think—you know, and <persName>Ed Miller’s</persName> course and coming to talk to the students has done, you know, an enormous amount of good for me in terms of coming to terms with it. </u>
+      <u who="EVERHARD">Yeah. I think, you know, it’s really helping us out to have you guys here and sharing your, like, honest experiences with us. </u>
+      <u who="McGRATH">Well, I became more politically aware. You know, I certainly followed, you know, the political scene much more carefully. I mean, that was certainly another consequence of <placeName>Vietnam</placeName>. </u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">And we weren’t trying to gentrify it, either.</u>
+      <u who="EVERHARD">Yeah. And so what was it like, you know, being a teacher at the university, or what university—were you teaching at a university? </u>
+      <u who="McGRATH">I started at <orgName>the University of Pennsylvania</orgName>.</u>
+      <u who="EVERHARD">Okay. Yeah. Right. [Chuckles.] And at <orgName>the University of Pennsylvania</orgName>, what were the students kind of like, and, you know, was there also these, like, demonstrations and these protests at <orgName>the University of Pennsylvania</orgName>? Or by that time, had it kind of settled?</u>
+      <u who="McGRATH">No, they had pretty much died out. There really wasn’t much of that going on, because, you know, the troops were pulled out in <date>’73</date>, and so that—that sort of put an end to most of the active demonstrations, and there really wasn’t much going on at <orgName>Penn</orgName>, so it was just—you know, <orgName>Penn</orgName> had good students. They were great to teach, and I was just enjoying, you know, getting into the academic world again.</u>
+      <u who="EVERHARD">Yeah. And did you ever have any interactions with veterans after you had returned after <orgName>UT</orgName>, and at <orgName>Penn</orgName> or—</u>
+      <u who="McGRATH">Not really. In <placeName>Maine</placeName> I did. I mean there’s—I mean, but mostly veterans from more recent wars, but I’ve only interacted with them, you know, over the—over the academic stuff, not—not with the veterans stuff. But I am starting to work with a fellow who actually started in <placeName>Vermont</placeName>, who is trying to use horses to deal with <orgName>PTSD</orgName> and vets of <placeName>Iraq</placeName> and <placeName>Afghanistan</placeName>. And so I volunteered our farm and use of some of our horses if he wants—if he wants to do it. So this is something that—and I’ve also approached the person who’s in charge of veterans at my university, to try to, you know, connect with them there. But I haven’t—I’m just in the early—early stages of doing that.</u>
+      <u who="EVERHARD">Yeah. </u>
+      <u who="McGRATH">No, I also taught at <orgName>Rutgers University</orgName>, and then I just got—I wanted to get out of <placeName>Philadelphia</placeName>, and so I applied for jobs in northern <placeName>New England</placeName>, and then the <placeName>Maine</placeName> job came up.</u>
+      <u who="EVERHARD"><persName>Mm-hm</persName>. </u>
+      <u who="EVERHARD">I’m sorry were you going to say something?</u>
+      <u who="McGRATH">No, go ahead.</u>
+      <u who="EVERHARD">Yeah, I feel like we covered a ton of stuff, and if there’s anything else—</u>
+      <u who="McGRATH">No, I can’t think of anything else. I mean, about the [Rev. Dr.] <persName>Martin Luther King</persName> [Jr.] assassination, I, you know, I was horrified at that as I was, you know, with the assassination of <persName>Kennedy</persName>. You know, the potential for violence in our own political system is something that troubles me.</u>
+      <u who="EVERHARD">Yeah.</u>
+      <u who="McGRATH">And I just—you know, another thing that troubles me, I guess, is that we keep getting involved in civil wars in other countries, and it’s always a mess. Always. And, you know, one of the things that we were involved with in <placeName>Vietnam</placeName> is what Professor <persName>Miller</persName> talks about in his book, about the [Ngô Đình] <persName>Diệm</persName> regime, and that is, you know, nation building. We seem to think we can go around the world building up one nation after another after our own model, and I don’t know how many failures we’re going to need to realize that it’s—it’s just not—it’s not that easy—</u>
+      <u who="EVERHARD"><persName>Mm-hm</persName>.</u>
+      <u who="McGRATH">—and that when a country is either in civil war or when a colonial government departs, as the French did in <placeName>Vietnam</placeName>, there is almost always a power vacuum that is contested, and we keep getting into one situation after another. It’s <placeName>Iraq</placeName>, <placeName>Afghanistan</placeName>, now <placeName>Syria</placeName>. I mean, how much more of a mess can something be than <placeName>Syria</placeName>?</u>
+      <u who="EVERHARD">Yeah. And in your essay, you sort of ended off by talking about this kind of binary American idea that we used to have about, you know, good and evil. And I was just wondering what did it feel like when you came back from <placeName>Vietnam</placeName>? You know, you talked about how it was so different from <name type="event">World War II</name> and that generation. And, you know, how did it feel when you really kind of thought about this idea of right versus wrong and, you know, good versus evil?</u>
+      <u who="McGRATH">I don't think I thought about it in terms of right and wrong, and good and evil. When I came back from <placeName>Vietnam</placeName>, I think my attitude was more like This is not a solution for anything. You know, we’re not solving anything, okay? We’re not helping the Vietnamese, you know? We’re not helping ourselves. </u>
+      <u who="EVERHARD"><persName>Mm-hm</persName>.</u>
+      <u who="McGRATH">And that, I think, is one of the more frustrating things. I mean, for me, I saw it first hand in <placeName>Vietnam</placeName>, and—and I see it repeated over and over again now in other countries. I mean, there’s always, you know, some excuse, like “weapons of mass destruction.” That’s another version of “saving the world for democracy,” was the slogan for <placeName>Vietnam</placeName>. You know, there’s always some slogan they have to come up with in order to sell supporting the conflict. But we don’t seem to become any wiser as a result of our experience in <placeName>Vietnam</placeName>, and that for me is both disappointing and depressing.</u>
+      <u who="EVERHARD">All right. Well, thank you so much for sitting down and speaking with me about your experience.</u>
+    </body>
+  </text>
+</TEI>

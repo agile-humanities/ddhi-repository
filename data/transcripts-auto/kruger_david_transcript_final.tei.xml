@@ -1,0 +1,532 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="CHUNG"/>
+        <person xml:id="KRUGER"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="KRUGER">My pleasure. Again.	</u>
+      <u who="CHUNG">Uh-huh. Right. And, yeah, so like we did the last time, we’ll start again with—from your memories of childhood, and maybe going back all the way to your parents, if you can start with that.</u>
+      <u who="KRUGER"><persName>Mm-hm</persName>. </u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. </u>
+      <u who="KRUGER">Well, I, actually being an amateur and public genealogist, I could go back a bit further than just my parents, but I will not.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. </u>
+      <u who="KRUGER">Both of my parents were born, as I was, in the town of <placeName>Exeter</placeName>, <placeName>New Hampshire</placeName>. My father was the first generation born in <placeName>the United States</placeName>. His father was born in <placeName>Germany</placeName>, in the part that is now in <placeName>Poland</placeName>, and came from the wheat fields. His father brought the family to <placeName>Exeter</placeName> to work in the woolen mill. So my father is of immigrant stock, although his mother was of both Yankee, from <date>the 17th century</date> partly, but also the other half of her heritage was French-Canadian, so it’s a mixed heritage, which is very typical of <placeName>the United States</placeName>.</u>
+      <u who="CHUNG">Oh!</u>
+      <u who="KRUGER">So the family on my mother’s side is a long-time Yankee from <placeName>New England</placeName>, predominantly <placeName>Massachusetts</placeName> and <placeName>New Hampshire</placeName>. My parents, as I said, were born in <placeName>Exeter</placeName>. I grew up in <placeName>Exeter</placeName> and <date>six years</date> to the north of <placeName>Hanover</placeName>, in </u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. </u>
+      <u who="KRUGER">At graduation, did <date>four years</date> at <placeName>Dartmouth</placeName> in <orgName>the ROTC [Reserve Officers’</orgName> Training Corps] and <date>the day</date> before graduation was commissioned as a second lieutenant in the <orgName>Army</orgName>. </u>
+      <u who="CHUNG">Wow!</u>
+      <u who="KRUGER">We’ve had two children and have two grandchildren, and after the military career, which we will get into, I’m sure, a bit more, but which was <date>four years</date>, I spent, then, <date>almost thirty years</date> as a commercial and international banker. It was a great career, but as I rose to high levels in a commercial organization, I finally decided that the stress levels were more than I cared to cope with. I did not have financial worries, and at the age of fifty-three found retirement, and that was now <date>20 years ago</date>. Very happily retired. If you want any more on what retirement’s been, we can get into that in due course as well.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Of course. Yeah, so I guess just trace back a little bit to talk a little bit more about your childhood in <placeName>Exeter</placeName>.</u>
+      <u who="KRUGER">Yeah.</u>
+      <u who="CHUNG">So, like, what was your childhood experience like in <placeName>New England</placeName> during that time?</u>
+      <u who="KRUGER">Oh, I don’t know where to focus.</u>
+      <u who="CHUNG">Like, what did you do when you had, like, free time? I mean, which is mostly the case with children. [Chuckles.]</u>
+      <u who="KRUGER">Well, had plenty of friends in the town. Actually, as it turned out, including one famous author. <persName>John Irving</persName> was a classmate and friend. It was—school was—of course, you went to school, and in the <date>winter</date>, it was snowy enough that we had sledding and tobogganing and skiing, and in <date>the summer</date>, baseball. But I was more interested in tennis. But it was, I guess, a pretty regular, pretty normal—nothing outstanding, just learning, learning how to get on with life.</u>
+      <u who="CHUNG">Right. Uh-huh. </u>
+      <u who="KRUGER">And speaking of learning, that was probably the real benefit of a <orgName>Phillips Exeter</orgName> education because with its Harkness program, very small classes around an oval table, where there’s no place to hide, you learned how to learn. And that is a lifelong endeavor, and it’s something that I’m not sure I really knew it at the time, but I certainly learned how to learn and have not stopped.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Right. That actually makes me wonder—because <orgName>Phillips Exeter Academy</orgName>, even till nowadays, is a very selective school, and I guess—kind of what made you decide to apply to a private academy?</u>
+      <u who="KRUGER">In my case, it was a bit different in that it was right in the same town, and although when I was there, there were I think in a student body, then all boys at the time, of 750, I think when I was there, there were <date>26 day</date> students, 20 of whom were what we called faculty brats, children of the faculty, which meant that there were only six of us that came from the town. I don’t recall that it was my decision at all. I think it was something my father said, “It’s there, and you can do it, and you’re gonna do it.” In retrospect, it is a very difficult course of instruction. I did not excel, but I certainly did not fail. </u>
+      <u who="CHUNG">So, yeah, I guess I’m a little bit curious about the town of <placeName>Exeter</placeName>. Like, what did the neighborhood look like? Like, general atmosphere and environment?</u>
+      <u who="KRUGER">Well, <placeName>Exeter</placeName>—a fairly typical <placeName>New England</placeName> or <placeName>New Hampshire</placeName> town founded in the <date>1630s</date>, had been there a long time. And the town, in reality, was—there were—I guess I would say there were three different towns within the town, all intermixed. You had the Yankee part of town, or the Yankee population that had been there from way back. Then you had the immigrant population, of which my father was part, although there were very few Germans, and they were more readily assimilated into the Yankee part of time. But the immigrant population—heavily French-Canadian and southern European and Greeks and Italians and a few Polish, but they tended not to be assimilated as rapidly as the Germans. </u>
+      <u who="CHUNG">I see. It seems like it was a diverse town for back in <date>the day</date>—like, with lots of immigrants.</u>
+      <u who="KRUGER">Yeah, it was. I know as I’ve looked at the family histories, I think of the population, as much as a third were immigrant, of whatever variety.</u>
+      <u who="CHUNG">Right. Great.</u>
+      <u who="KRUGER">Well, first of all, there was almost no down time. That did not happen.</u>
+      <u who="CHUNG">Okay. </u>
+      <u who="KRUGER">The <placeName>Exeter</placeName> community was one of going to class actually <date>six days</date> a week, <date>five and a half days</date>. We had classes on <date>Saturdays</date>. Every class had tons of homework, and heaven help you if you didn’t do it, especially with some of the old-line instructors, because you were—as I said, you were sitting around a table of no more than 12 kids, and there was no place to hide. And the instructors, of <orgName>course,—their radar</orgName> was perfect. They knew—they could immediately tell who hadn’t done the homework and zeroed right in on them, and that was the last time you didn't do it.</u>
+      <u who="CHUNG">Right.</u>
+      <u who="KRUGER">So some of the friendships among my classmates that were—the bonding that took place during <date>those years</date> was much deeper when you were living with the kid 24/7. I was only there for the 12 hours, and then I was at home, so it was a different experience. I can’t say bad, but it was different. </u>
+      <u who="CHUNG">Right.</u>
+      <u who="KRUGER">That said, I still now <date>every week</date> have lunch with two of my <placeName>Exeter</placeName> classmates that now are again living in the <placeName>Exeter</placeName> area, and class officer and—okay, you know, there’s a loyalty to the school. It’s done well by us.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. </u>
+      <u who="KRUGER">But the activities <date>every day</date>: It was lots of study, which was fine. In retrospect it was good.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Great.</u>
+      <u who="KRUGER">Yup.</u>
+      <u who="CHUNG">You said that your father wanted you to go to <orgName>Harvard</orgName>.</u>
+      <u who="KRUGER">Yup.</u>
+      <u who="CHUNG">But you had decided to go to <orgName>Dartmouth</orgName>. I would like to hear a little bit more about that.</u>
+      <u who="KRUGER">Well, the selection process in <date>the late 1950s</date> I am sure is totally different than the selection process now fifty-some-odd years later. First of all, everybody from the high school, with a couple of very minor exceptions,—everybody went off to college. Nobody just, you know, went off into the workforce. It was not that kind of a school. In <date>the 1950s</date>, as I said, <orgName>Exeter</orgName> was viewed as a pipeline to <orgName>Harvard</orgName>. Actually, [<orgName>Phillips Academy] Andover</orgName>, our chief rival, was viewed as a pipeline to <orgName>Yale</orgName>, although each—no, we sent—I think the final number was 60 of 250 classmates went to <orgName>Harvard</orgName>; <date>30</date> went to <orgName>Yale</orgName>. Thirteen came to <placeName>Dartmouth</placeName>, and I think 13 went to <orgName>Princeton [University</orgName>].</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. </u>
+      <u who="KRUGER">So for whatever reason—and now I don’t remember why I fixated on <orgName>Dartmouth</orgName>. It may have been because an older cousin of mine was Class of <date>1953</date>? Or—no, ’53 out of <placeName>Exeter</placeName>, ’57 out of <orgName>Dartmouth</orgName>. It may have been, you know, he spoke highly of <orgName>Dartmouth</orgName>. That may have been, but I don’t remember that. But I do remember that I said, “Nope, it’s not in a big city, and I like the countryside. I think I’d like to stay, you know, far enough from home but near enough that it’s not foreign.”</u>
+      <u who="CHUNG">[Chuckles.]</u>
+      <u who="KRUGER">Not too much. [Chuckles.] So I have no regrets about avoiding <orgName>Harvard</orgName>. As a matter of fact, I’m very pleased to have been able to have avoided it, and certainly no regrets coming to <orgName>Hanover</orgName>.</u>
+      <u who="CHUNG">Great. So once you arrived in <placeName>Hanover</placeName> to start your <date>first year</date> at <placeName>Dartmouth</placeName>, was it pretty much like what you had expected?</u>
+      <u who="KRUGER">I think so. I had observed, at least during the 12 hours of every day, dormitory life at a boarding school, so it was not totally foreign coming here and having 24/7 boarding. <date>My freshman year</date>, I was assigned into, <date>the very first year</date> it opened, <orgName>Bissell Hall</orgName> down on Choate Road, a brand-new dormitory, with all of the—I mean, even the landscaping hadn’t been done; they were still doing that. And at the same time, the math and psychology buildings were abuilding, and they’re now gone. They were built when I was coming in, and they’ve been torn down and rebuilt just down North Main Street.</u>
+      <u who="CHUNG">Right. Yeah. <persName>Mm-hm</persName>. </u>
+      <u who="KRUGER">And as I said, the course of instruction was, after the <placeName>Exeter</placeName> experience—it frankly was easy.</u>
+      <u who="CHUNG">Mmm. Easy.</u>
+      <u who="KRUGER">I suppose I could or even should have exempted out of a lot of the courses I took and reached to higher, but nah! So went through and did not—I can’t honestly say I distinguished myself at <orgName>Dartmouth</orgName>, either, but I had a good—I don’t know. I don’t remember now what it was. Somewhere between a 2 and 3.0—I don’t know, somewhere in there, in the middle, the great unwashed C+, B- average for <date>the four years</date>. And enjoyed the winters and did a lot of skiing, a lot of road-tripping. And, of course, <orgName>Dartmouth</orgName> at that time was—it was all men, as well—so, again, very different than what you see <date>today</date>.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Right.</u>
+      <u who="CHUNG">Took advantage of—I was a Spanish language and literature major. I had, on my own, studied Spanish <date>two years</date> in junior high. Took it for <date>four years</date> at <placeName>Exeter</placeName> and then took it <date>four more years</date> at <placeName>Dartmouth</placeName>. Took Latin for this entire period as well and enjoyed language and linguistics. Therefore, early on, when <orgName>Dartmouth</orgName> was—it was not <date>the first year</date> but it was one of <date>the early years</date>, where <orgName>Dartmouth</orgName> had the foreign study program, and so I was in one of the early contingents. There were a dozen of us in it must have been <date>1962</date>. We went to <orgName>the University of Salamanca</orgName> in <placeName>Spain</placeName>.</u>
+      <u who="CHUNG"><placeName>Salamanca</placeName>, in <placeName>Spain</placeName>!</u>
+      <u who="KRUGER">Yup.</u>
+      <u who="CHUNG">Great.</u>
+      <u who="KRUGER">I should also say that when I arrived in <placeName>Hanover</placeName> in <date>the fall of 1960</date>, I had not stepped foot out of the four northern <placeName>New England</placeName> states, and was very provincial. Had no opportunity to travel. Since then, I’ve seen all but one state and I don’t know how many countries. It’s well over a hundred countries since then, so broke out of the—[Chuckles.]</u>
+      <u who="CHUNG">Right.</u>
+      <u who="KRUGER">And started that at <orgName>Dartmouth</orgName>. There was virtually no question in my mind that <orgName>ROTC</orgName> was something I had to do, because you have to remember that in the ’50s and <date>early ’60s</date>, the draft was strong, in place, and you served. And so—my father was asthmatic and was not able to serve during <name type="event">the Second World War</name>, so he then spent much of the wartime years doing what he could for the war effort and was at the Portsmouth Naval Shipyard, building submarines for the fleet. But, no, he—an ulterior motive, doing the <placeName>ROTC</placeName>, although it was not like the <orgName>Navy</orgName> program, which is fully paid. The <orgName>Army</orgName> ROTC did pay I think I remember it was something like 20 dollars a month. But in <date>the early 1960s</date>, 20 dollars a month was—it was a meaningful amount of money. That, plus working part time for all sorts of faculty members, doing painting and whatever—I always enjoyed painting and plumbing and electrical and whatever and all of that hands-on stuff. Worked at that, even at <placeName>Hanover</placeName> during <date>the four years</date>, to earn enough money to get by.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Yeah.</u>
+      <u who="KRUGER">Where were we? The college <date>years</date>—</u>
+      <u who="CHUNG">Yeah. Yeah, I would actually like to talk a little bit more about your college <date>years</date>—</u>
+      <u who="KRUGER">Yeah.</u>
+      <u who="CHUNG">—and on your experience of studying Spanish language and literature.</u>
+      <u who="KRUGER"><persName>Mm-hm</persName>. </u>
+      <u who="CHUNG">Any kind of, like, literatures or, like, the discussions or professors you remember?</u>
+      <u who="KRUGER">Actually, it’s interesting. I did not bond very deeply with any of the professors at <orgName>Dartmouth</orgName>. They were all good. [Professor <persName>John A.]</persName> <persName>Rassias</persName> was here when I was, but I never had him. He was never in the Spanish end of things. I can’t honestly say that I was excited by any of the professors. I mean, I read everything in Spanish. I still can read a Spanish newspaper. And the experience living with the Spanish family and going to <orgName>the University of Salamanca</orgName> was just a wonderful experience. Academically, it was an absolute wasteland because while you lived with a Spanish family, who spoke no English, you had to be immersed in the language and the culture, and it was great. </u>
+      <u who="CHUNG">Great. What got you interested in Spanish language and literature?</u>
+      <u who="KRUGER">I have no memories. That was, you know, <date>60</date>, <date>70 years ago</date>, who knows. It was different and something that I found that I could do, and not many other kids were doing it, so, Fine, lemme do it.</u>
+      <u who="CHUNG">Right. <persName>Mm-hm</persName>. </u>
+      <u who="KRUGER">There were no—I don’t think there were any Spanish-speaking immigrants in <placeName>Exeter</placeName> when I was growing up. None. French, a lot; Italian, a bunch; Greek and Polish, but no Spanish. Latino had not come anywhere near <placeName>Exeter</placeName>, nor had racial diversity. In my class of—we graduated 250-some-odd—we had one black. We had—no, I’m wracking my brain—I think we had exactly no Asians. None. Today there is almost—not quite, but there’s almost an Asian majority at <placeName>Exeter</placeName>. There are hundreds of Asian kids at <placeName>Exeter</placeName>. Hundreds, out of now an enrollment of 1,000. And much more organized with blacks at <placeName>Exeter</placeName>.</u>
+      <u who="CHUNG">So, like, you never really got to observe the civil rights movement?</u>
+      <u who="KRUGER">No, not at all, not at all, no. By the same token, with <placeName>Vietnam</placeName> heating up, there was almost no discussion or thought or even observation of what was going on in <placeName>Vietnam</placeName> in <placeName>Hanover</placeName>. We were very insular. Not isolated, but insular.</u>
+      <u who="CHUNG">I see.</u>
+      <u who="KRUGER">Very different time.</u>
+      <u who="CHUNG">Right, a very different time. Yeah, before we kind of get more into I guess your kind of <orgName>post-Dartmouth</orgName> and <orgName>ROTC</orgName> experience, I’m actually more curious to hear a little bit more about your experience in <placeName>Spain</placeName>, because I think that was something very unusual at that time.</u>
+      <u who="KRUGER">It was. It was not usual. No, I was able—I was there officially for <date>three months</date> in class. I think there were 12 of us. At the same time, I think there may have been as many as 30 that had gone to universities in <placeName>France</placeName> and another dozen that went to a university in <placeName>Germany</placeName>. And we were <orgName>the Foreign Study Program</orgName> in <date>the early 1960s</date>. We all flew over on a chartered airplane, propeller driven. It took forever to get there. [Chuckles.] But it was better than taking a boat.</u>
+      <u who="CHUNG">Right.</u>
+      <u who="KRUGER">We arrived in and left from, both, <placeName>Paris</placeName>, and then from there took trains to wherever we were going to school. I mean, it was clearly way beyond anything else I had ever seen before. I mean, eyes wide open. You had to keep your thumb on your chin to keep your mouth from flopping open to look at <placeName>Paris</placeName>, which is a beautiful city. But then a train to <placeName>Madrid</placeName> and then on to <placeName>Salamanca</placeName>. And then we were introduced to our families and spent <date>three months</date> with the families.</u>
+      <u who="CHUNG">How?</u>
+      <u who="KRUGER">Well, very simple. Every day the meat wagon would go by, and <date>every day</date> the vegetable wagon would go by, and <date>every day</date> the milk wagon would go by. The grocery store was on carts or on the backs of mules that went down every street every day. And the wife, the mother, the woman of the family—part of her job was <date>every day</date> to be out there to acquire that <date>day</date>’s whatever you want to eat, and that was that.</u>
+      <u who="CHUNG">Wow.</u>
+      <u who="KRUGER">We didn’t starve. We ate well, but relatively simply. No, I remember—I mean, some very different things that I’m not sure you can get <date>today</date>. Well, you can get calamare [sic; calamares] en su tinta, calamare in their own ink. Very black. I mean, you can get that <date>today</date>, but that was something that [unintelligible!; 40:42] then, and actually liked it.</u>
+      <u who="CHUNG">Ohh!</u>
+      <u who="KRUGER">And they liked the eye, and spit out the cornea. I said, No, I cannot do that. So the fight was between the two of them as to who was going to get my eye. [Both chuckle.]</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Right. And were you able to meet any kind of Spanish friends while you were there?</u>
+      <u who="KRUGER">Yeah, I have <date>today</date>—I’ve even lost contact with the Spanish family. I have none remaining. I’ve been back in <date>recent years</date> a couple of times to <placeName>Spain</placeName> and again tried to find the Spanish family but was unable to, so I guess we just weren’t there long enough.</u>
+      <u who="CHUNG">Okay. </u>
+      <u who="KRUGER">No, actually the only people that I share that experience with are—still there are couple of the dozen of us, of my classmates from <orgName>Dartmouth</orgName>—we periodi- —I saw a couple of them <date>last spring</date> at reunion, and we talk about the—you know, “Didn’t we have a great time?” “Yeah. Yeah, we did.” So anyhow, so traveling all over <placeName>Spain</placeName> and seeing a little bit of <placeName>France</placeName> was the first experience outside of actually—you know, for all practical purposes, outside <placeName>New England</placeName>.</u>
+      <u who="CHUNG">Right. And also it’s really interesting that you were in <placeName>Spain</placeName> during the <persName>Franco</persName>’s regime. Were you able to kind of observe any of—I guess particularly any of that regime?</u>
+      <u who="KRUGER">Oh, sure, because when I was in <date>my last month</date>, when I was traveling around, I probably—I think it was something—it was <date>30 days</date>, and probably at least a half a dozen of those days, arranged it so I didn’t have to spend any money. I just took an overnight train. Slept on the train. </u>
+      <u who="CHUNG">Right.</u>
+      <u who="KRUGER">So, yeah, it was a right-wing dictatorship, no question. But that was part of the—you know, part of the experience.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. So other than that—like, you didn’t really see it on [a] <date>daily</date> basis.</u>
+      <u who="KRUGER">Well, you couldn’t because everybody was toeing the line, and you certainly did not talk about it.</u>
+      <u who="CHUNG">Oh, okay.</u>
+      <u who="KRUGER">You know, it was—was it really a repressive society? [Sighs.] Probably not. I mean, there were—I mean, you didn’t have to worry about where you went, but you didn’t have the financial wherewithal to go anywhere, so everybody—you know, as long as they had enough food to eat and a warm place to stay, there was not a lot of—I certainly saw no resistance to the <persName>Franco</persName> regime. I’m sure there was some, but I certainly never saw it.</u>
+      <u who="CHUNG">Mmm. Okay.</u>
+      <u who="KRUGER">I don’t ever recall speaking at all about the politics of <placeName>Spain</placeName> with the Spanish family. You just didn’t do it.</u>
+      <u who="CHUNG">So—</u>
+      <u who="KRUGER">Again, before the information age.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Right. I guess that does make a difference.</u>
+      <u who="KRUGER">No Internet, no e-mail, no social media, no <orgName>Twitters</orgName> and <orgName>Facebooks</orgName> and whatevers, which makes it a whole new world.</u>
+      <u who="CHUNG">Yeah, I guess that does make a very big difference from—</u>
+      <u who="KRUGER">It’s huge, yeah.</u>
+      <u who="CHUNG">Yeah, it definitely is huge. So was it during your <date>second year</date> or <date>third year</date> at <placeName>Dartmouth</placeName> that you were in <placeName>Spain</placeName>?</u>
+      <u who="KRUGER"><orgName>Foreign Study Program</orgName> was fall semester of junior year.</u>
+      <u who="CHUNG"><date>Junior year</date>. Okay. So once you got back from <placeName>Spain</placeName>, now back to <placeName>Hanover</placeName>. Like, do you think your experience in <placeName>Spain</placeName> kind of made you see things differently now you’re—</u>
+      <u who="KRUGER">Nyah. Ech! I don’t know. It was not a revolution; it was an evolution, and, you know, looking back on it now, I could not tell you that at that point in time, oh boy, there was a sea change. There wasn’t. There was not.</u>
+      <u who="CHUNG">Okay. </u>
+      <u who="KRUGER">Yup.</u>
+      <u who="CHUNG">And I would like to learn more about what it was to be a part of <orgName>ROTC</orgName> in [the] ‘<date>60s</date>. </u>
+      <u who="KRUGER">You had to have—there was actual, formal courses, classes in military—military classes. You had <date>weekly</date>—I think it was, if I remember correctly, <date>Wednesday</date> afternoons. You had marching and parading and drilling. And I also chose to join a subset of <orgName>ROTC</orgName>, which was the Mountain and <name type="event">Winter Warfare</name> detachment that in <date>the spring</date> and fall you’d go over to <orgName>Norwich [University</orgName>] and rappel off some of the cliffs over there. And during <date>the winter</date> you’d strap on snowshoes, the big old-fashioned ones, the heavy ones, and go out and—after every snowfall, we’d go out and we’d tramp the cross- country ski trails for the ski team. We’d be the first ones out to snowshoe the trails. It was, you know,—I must say I enjoyed it. The physical activity was certainly there, and, frankly, it was paying some of the bills.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Right. And it sounds like a lot of people were—like, a great percentage of the student body was involved back then.</u>
+      <u who="KRUGER">Yeah. You’d have to look at it, and we have—our class has looked at it a little bit, but we had a class of, say, 650. Between <orgName>Army</orgName>, <orgName>Air Force</orgName> and <orgName>Navy</orgName>, I don’t think there were even as many as 200, so the majority of the class was not in <placeName>ROTC</placeName>. There’s no question of that. We were not looked down on. It was, okay, you know, it was a choice and you did it or it was a choice and you didn’t do it, and so be it.</u>
+      <u who="CHUNG">Great. It sounds like it’s a lot of—like, it’s a big deal of time commitment that there were, like, courses on <date>Wednesdays</date>,—</u>
+      <u who="KRUGER">Well, you know, the only extra time commitment that you had were the drills, because you got college credit for military science. The courses you had to take were part of the curriculum. They were integrated into the whole process, so these were not extra courses you had to take; these were all part of the standard package. I can’t remember. I don’t think—[Sighs.] Yeah, I think it may have been one course a year during one of the semesters. It was not every semester.</u>
+      <u who="CHUNG">Wow.</u>
+      <u who="KRUGER">Now, he had then a commitment. He was into the—a Regular officer into the <orgName>Navy</orgName> with a <date>four-year</date> commitment. I had a <date>two-year</date> commitment, and I was a <orgName>Reserve</orgName> officer, not a Regular officer. And it made a difference.</u>
+      <u who="CHUNG">I see.</u>
+      <u who="KRUGER">And, again, I don’t think that even at <orgName>Dartmouth</orgName> at the time with a <orgName>Navy</orgName> program with fully-paid students—there were probably 30 or 40 of my classmates who were in that program. The extra work required to do that I don’t think was onerous at all. It was part of the—it was all integrated by the college into whatever the package was.</u>
+      <u who="CHUNG">Right. Yeah, it’s really interesting—so does that mean that even the students who were not in <orgName>ROTC</orgName> took, like, some kind of military [cross-talk; science?; 53:46]?</u>
+      <u who="KRUGER">No, no, no, no. As a matter of fact, I don’t know this, but I would be surprised if anyone who was not in the <orgName>ROTC</orgName> program wanted to take it. I don’t think they could.</u>
+      <u who="CHUNG">Okay. Oh, you were not allowed to.</u>
+      <u who="KRUGER">I would be surprised if they had been allowed to, although I don’t know that for sure, so—</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Okay. I see.</u>
+      <u who="KRUGER">The Mountain and <name type="event">Winter Warfare</name>—</u>
+      <u who="CHUNG">Yeah.</u>
+      <u who="KRUGER">I think I, you know, basically told you all there was. We—a few times, they’d put us into a van and we’d go over to <placeName>Norwich</placeName> and get up on the top of this vertical cliff, and you’d get all strapped in and rappel down the cliff. I probably did that three or four times, and that was it. And during the winters, I was out doing the snowshoeing. And those are the only things that set you apart from the regular program.</u>
+      <u who="CHUNG">Okay. And did you stay overnight in the wilderness?</u>
+      <u who="KRUGER">No, no.</u>
+      <u who="CHUNG">No. It was just the daytime.</u>
+      <u who="KRUGER">Well, actually, I may be wrong on that. We may have done a <date>weekend</date> or two with the Mountain and <name type="event">Winter Warfare</name>. We may have gone out and done—yeah, maybe we did. But, again, it was not memorable. It was just something you did.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. So I’m assuming there were, like, different types of subgroups other than Mountain and—</u>
+      <u who="KRUGER">I don’t think so.</u>
+      <u who="CHUNG">No? That was the only one?</u>
+      <u who="KRUGER">That was the only—everybody else did the same thing for the rest—I mean, you either learned how to take a rifle apart and put it back together again and shoot it, so—</u>
+      <u who="CHUNG">Right. Uh-huh. What got you to, like, decide to join the subgroup?</u>
+      <u who="KRUGER">I don’t remember, other than it looked like a cool thing to do when it was—you know, it was probably predicated more on the snowshoeing than it was the falling off of a rock front, but I don’t remember now. It was just something that we did.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Yeah. So I guess we can wrap up a little bit with your <placeName>Dartmouth</placeName> experience, then talk about the time that now you have to decide what you’re going to do after you graduate, so—</u>
+      <u who="KRUGER">Yeah, yeah. Well, I started by—I applied to I think it was [University of] <placeName>Michigan</placeName> for a graduate program in Spanish language and literature, and was accepted but then said, Well, gee, how am I gonna pay for it? And I’m getting very serious about this young lady I’d met. You know, I’ve got a military commitment, and I got some bills to pay.  I said, Well,—so finally—a lot of my fellow graduates that were in the <orgName>Army</orgName> ROTC upon graduation immediately went on to active duty to start their <date>two-year</date> program.</u>
+      <u who="CHUNG">Right.</u>
+      <u who="KRUGER">So upon graduation, was—at that point, then, Okay, now what do you do? And so those of us—there were a lot of us in that one course, going through <orgName>IOBC</orgName>—still remember it—Infantry Officers [sic; Officer] Basic Course, <orgName>IOBC</orgName>—going through the <orgName>IOBC</orgName> course. Many, maybe most, maybe all of us were military intelligence officers that were in that particular flight going through. No, we weren’t all—no, now I remember. I can remember some memorable fellow officers coming in, really the first time that I really had the opportunity, then, and <date>today</date> I continue to call it an opportunity, to get up close and personal with some fellows in the <orgName>Army</orgName> of same rank that were not of the same color. There was a contingent of brand-new second lieutenants, as I was, that had come out of a small black <placeName>South Carolina</placeName> college and had all been commissioned into the <orgName>Army</orgName>, and there were a bunch of them that were there in the same <orgName>IOBC</orgName> group. And totally different from—you know, part of the education—said, “Gee, there’s a whole different world out there.”</u>
+      <u who="CHUNG">Right.</u>
+      <u who="KRUGER">And they were looking at us, and we were looking at them—and actually got on with them just fine.</u>
+      <u who="CHUNG">Interesting.</u>
+      <u who="KRUGER">Especially out in the <placeName>puckerbush</placeName>. But anyway, so—but the infantry training was something that, okay, you got to do it, and we did okay and passed with reasonably flying colors—you know, all the requirements of—okay, now I’m qualified to be a platoon leader. </u>
+      <u who="CHUNG">Mmm.</u>
+      <u who="KRUGER">And so I put in that as—that was my request, and it came back and said, “Aha! You’re accepted in the language school, but we don’t have any need right now for <orgName>Serbo-Croatian</orgName>, so how about Vietnamese?” I said, “Well,”—by then, you know, the <placeName>Vietnam</placeName> [sic] was beginning to heat up, and, you know, I’d been in the Mountain and <name type="event">Winter Warfare</name> with my—you know, I like the winters, and I said, “You know, winters don’t happen in <placeName>Vietnam</placeName>.”</u>
+      <u who="CHUNG">[Chuckles.]</u>
+      <u who="KRUGER">And so I said, “Okay, thanks but no thanks.” Okay. So my name went back into the pot. Then the next—they came at me the next time and said, “Okay, we’d like to have you stay at Fort Benning for <date>another six months</date>.” “Okay. Well, that’s—you know, it’s kind of warm here, too, but okay. And what will I do?” They said, “Well, we want you to go through <orgName>Ranger School and Airborne [School</orgName>] for jump training.” And said, “We see your Spanish language abilities, and we will then assign you to <orgName>the 101st Military Intelligence Battalion</orgName>.” I said, “Okay, well, let me think about this.”</u>
+      <u who="CHUNG">Oh!</u>
+      <u who="KRUGER">It was the unit based in <placeName>Washington</placeName>, <placeName>D.C.</placeName>, that, although I was never—I spent <date>four years</date> with that unit, with that organization in various postings, but I was never senior enough to brief the president. The colonels always did that. But on occasion I did have the opportunity to give the <date>daily</date> briefings to the secretary of defense, so it was—</u>
+      <u who="CHUNG">Wow.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. </u>
+      <u who="KRUGER">And it was protecting it—and very successfully, I might add—protecting it and disseminating, as appropriate, the analysis that you did from it.</u>
+      <u who="CHUNG">All right!</u>
+      <u who="KRUGER">And did that for <date>the four years</date>, including <date>the year</date> in <placeName>Vietnam</placeName>.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Okay. </u>
+      <u who="KRUGER">Oh, it was all over the map, depending on—<date>the first two years</date> was in <placeName>Washington</placeName>, <placeName>D.C.</placeName>, with <orgName>the Army Materiel Command</orgName>, right at what was then National Airport, now [<persName>Ronald] Reagan Airport</persName>, in an old, temporary building—temporary from <name type="event">the First World War</name>, that is finally gone. But it was every day—well, a combination of—you know, we had an office that was a vault. I mean, it literally—the whole office was a vault. And one of us had to be sitting outside, guarding the door, and generals coming in, saying, “I want to come in,” and saying, “General, you don’t have the appropriate security clearances. You can’t go in.” “I’m a general, and you’re a lieutenant, and I’m goin’ in.” I said, “Sir, you’re not goin’ in.” [Both chuckle.] And making it stick. In that job, it was much less synthesizing the intelligence; it was much more guarding it in <date>those two years</date>, was basi- —and making the—we had a group of military and civilian contractors that had the appropriate clearances, that we would then provide—that we’d have in the vault the information. They’d come in, sit down, and we’d give them the documents, and they’d work on the documents to do whatever had to be done. And we were basically the safeguards.</u>
+      <u who="CHUNG">Okay. </u>
+      <u who="KRUGER">And actually <date>the fourth year</date>, at Fort Belvoir, when I came back from <placeName>Vietnam</placeName>, was similar, much more making sure that we were appropriately vetting the people for clearance and then protecting the information. In <placeName>Vietnam</placeName>, it was much less that; it was much more taking the information real time, putting it together and then saying, “Okay, General [raps table several times], this is where the guys are. Let’s go get ’em.” </u>
+      <u who="CHUNG">Right.</u>
+      <u who="KRUGER">So it was delivering the intelligence in <date>the year</date> in <placeName>Vietnam</placeName>.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Okay. Yeah, so definitely we’re getting there. We now—we’ll talk about your decision—because it says that—from your memoir I read—that you volunteered to go to <placeName>Vietnam</placeName>.</u>
+      <u who="KRUGER">Yeah, I did, because I’d been <date>two years</date> in the <placeName>Washington</placeName>, <placeName>D.C.</placeName>, area. By then, I guess I’d been promoted to first lieutenant, and I think it was maybe <date>18 months</date> into the promotion to first lieutenant. And the lifestyle as a lieutenant in <placeName>Washington</placeName> actually was very good, because there was almost none of us at first lieutenant. I mean, lieutenants didn’t happen in <placeName>Washington</placeName>. We were always out in the <placeName>puckerbush</placeName>, but—so I was an unusual persona in <placeName>Washington</placeName>, and every time a general would throw a party, he’d love to have a lieutenant there as a token, so my wife and I were always invited to the [general’s? generals’?] parties, and the colonels’, of which they were a dime a dozen. There were thousands of colonels, always, “[Makes grumbling sounds.] How did you get invited to that party? I wanted to go to that party!” They’re trying, you know, to get their careers, you know, ahead. And I said, “Colonel, what can I tell you?” [Chuckles.] “I didn’t ask for it, but I got the invite, and I can’t give it to you.” “[Makes grumbling sounds again.]” [Laughs.]</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. So, yeah. I guess, as you said, by this point, <date>the end of 1966</date>, like, <name type="event">the Vietnam War</name> has been building up for quite a bit of time, and there has been—you know, I’m pretty sure there’s been a lot of discussion, like, you know,  outside of [the] military, just, like, within, like, <placeName>United States</placeName> society, and, like, there are some things that you are, like, learning and hearing from, like, I guess, <orgName>the Special Security Group</orgName>—</u>
+      <u who="KRUGER">But it was not until <date>January of 1968</date> that it really hit the fan and that the antiwar movement became galvanized. Before then, it was—yeah, it was there. It was always there.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Yeah, I was going to say—</u>
+      <u who="KRUGER">But it was not potent at all until [the] Tet [Offensive], which was <date>January of 1968</date>. At <date>the end of 1966</date>, when I was looking at it, especially in <placeName>Washington</placeName>, especially being a little bit isolated within the military, we all thought we were doing the right thing for the right reasons, and the few people that you saw dissenting—you know, “They don’t know what they’re talkin’ about.” </u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Okay. </u>
+      <u who="KRUGER">The antiwar movement was not big time, certainly that we saw at all at <date>the end of 1966</date>. I arrived in <placeName>Vietnam</placeName>, I don’t know, something like the 10th of January, <date>1967</date>.</u>
+      <u who="CHUNG">Okay. So I guess there was, like, not much of, like, a social atmosphere—</u>
+      <u who="KRUGER">No.</u>
+      <u who="CHUNG">—to kind of influence—</u>
+      <u who="KRUGER">No.</u>
+      <u who="CHUNG">—your ideas.</u>
+      <u who="KRUGER">No, no, no, not at all. That did not enter into it at all. </u>
+      <u who="CHUNG">Mmm. Okay. </u>
+      <u who="KRUGER">A little bit of—you know, my parents saying, “Oh, my God, you’re goin’ to war.” I said, “Yeah,” but with more than just resignation saying, “Well, it’s the right thing to do.” So certainly family support. Wife didn’t like it but said, “I understand.” So she stayed <date>that year</date> and moved in with three single schoolteachers. The four of them had an apartment in <placeName>Alexandria</placeName> or <placeName>Arlington</placeName>, <placeName>Virginia</placeName>—and all teaching school for <date>the year</date>. And had a ball.</u>
+      <u who="CHUNG">Right. <persName>Mm-hm</persName>. </u>
+      <u who="KRUGER">So.</u>
+      <u who="CHUNG">Yeah.</u>
+      <u who="KRUGER">So, no, the antiwar movement, I can’t remember even focusing on it one minute before I went.</u>
+      <u who="CHUNG">I guess, then, what was kind of the atmosphere or the attitude towards, like, [<name type="event">the] Vietnam War</name> within, like, <orgName>the Special Security Group</orgName>? Were there any discussions—like,—</u>
+      <u who="KRUGER">No.</u>
+      <u who="CHUNG">—formal or informal?</u>
+      <u who="KRUGER">Oh, no, no, absolutely not. It was being ordered from on high as the right thing to do; we gotta do it. No, no, there was—I never remember—actually, within—from my entire career in the military, where I was in these specialty units, I never, never had any discussions about should we be doing this or not? It was not questioned. Many may have had thoughts about it, but they were never articulated, certainly not in my presence.</u>
+      <u who="CHUNG">Right. Uh-huh. </u>
+      <u who="KRUGER">No, these—no, I can honestly say we all looked at it. We had a job to do, and we were going to do it the best we could.</u>
+      <u who="CHUNG">And did you have access to, like, I guess, then, what’s going on in <placeName>Vietnam</placeName>? Like, those information while you were in <orgName>Special Security Group</orgName>?</u>
+      <u who="KRUGER">Oh, yes. Probably more than the press had because we were on the inside looking out. We were, in retrospect, although we did not look at it this way, I clearly remember we did not look at body count as being the way we were counting success. I certainly do remember the emphasis on “How many did we shoot <date>today</date>?” But I don’t think it really occurred to us that it was looking at the wrong thing. In retrospect, it was the wrong thing to look at, but at the time, it was—you know, it was just, okay, that’s one way of counting how we’re succeeding, because the year I was there, we really thought we were succeeding.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Right.</u>
+      <u who="KRUGER">It was not until—well, it was <date>two weeks</date> after I left is when Tet blew up. And when it blew up, the unit I was with got shipped up to <orgName>ICOR</orgName> [Infantry Combat Regiment] to go relieve the Marines at Khe Sanh. So I missed that. I missed that thing by <date>two weeks</date>.</u>
+      <u who="CHUNG">Mmm! Right.</u>
+      <u who="KRUGER">I’d rather be lucky than good anytime. [Chuckles.]</u>
+      <u who="CHUNG">Right. So I guess by the time you have made [the] decision to go to <placeName>Vietnam</placeName>, like, you had a very clear, like, more understanding of what’s going on there than any [cross-talk; other office?; 1:22:42].</u>
+      <u who="KRUGER">Oh, I don’t know. It was—you know, generically you knew there was a shooting war going on, and it was what we needed to do, so let’s go do it. The specifics of it, I don’t think that many of us, if any, really looked at that closely.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Okay. </u>
+      <u who="KRUGER">In part because the minutia, the detail that you have <date>today</date> in the information age even in the military wasn’t available. We knew generically what was happening, but the playing out of the war in the living room in <placeName>the United States</placeName> was something new to <placeName>the United States</placeName>. It was really at the forefront or the beginning of the true information age. It was—[Sighs.] I don’t know how—even <date>today</date>, I don’t know how I think about it. But in <name type="event">World War II</name>, the press was deeply controlled, and <date>today</date>, with the embedded reporters in all the military units, I’m not sure that’s the thing to do, because it has led to—well, in part—and even in <date>the year</date> I spent there, we had the deep sense that the civilian political realities were not allowing the military to do what it needed to do to win the war, even at the time. </u>
+      <u who="CHUNG">Right.</u>
+      <u who="KRUGER">It’s a road not taken. You’ll never know.</u>
+      <u who="CHUNG">Yeah. Yeah. Actually, we’ll take a brief break, and then we’ll, after the break, go into details about your experience in <placeName>Vietnam</placeName>.</u>
+      <u who="KRUGER">Okay. </u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Great.</u>
+      <u who="CHUNG">Okay. So, now, going to <placeName>Vietnam</placeName> in <date>January 1967</date>, correct?</u>
+      <u who="KRUGER">Right.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. So, yeah, if you could describe, like, kind of the location that you landed [in] and, like, your first impression of the place?</u>
+      <u who="KRUGER">Well, at the front end, it was a whirlwind. As I said, I was <date>a couple of days</date> in <placeName>Saigon</placeName> and then on a military aircraft up to—first went up to An Khê, which is up in <placeName>the Central Highlands</placeName>, which was the headquarters of <orgName>the 1st Cav</orgName>. That was where they—although the division, itself, was down in <placeName>the Bồng Sơn</placeName> plain, down on the coast—you know, I don’t know, maybe 50, 60 kilometers away. </u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. </u>
+      <u who="KRUGER">And I don’t remember that we had very many casualties from the intermittent rocketing, the rocketing attacks, in large part because we all—we took precautions against it. You know, you knew that it was inevitable that they were going to sling rockets at you, so you—certainly for sleeping, you dug a hole, and you slept in it.</u>
+      <u who="CHUNG">Right. Whoof!</u>
+      <u who="KRUGER">Yeah. And I had a two-and-a-half-ton truck from my funny little unit, with a big trailer on it. But it was the only deuce-and-a-half truck that I saw that had an automatic transmission. It was—and what a—oh!—underpowered, terrible piece of equipment, but the only thing we did with it was run it once a month with the landing zone’s ration tickets. </u>
+      <u who="CHUNG">Right. <persName>Mm-hm</persName>. </u>
+      <u who="KRUGER">Refrigeration was something that—you know, that’s not in the arsenal of things to do.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Yeah.</u>
+      <u who="KRUGER">But I spent—you know, based at that <orgName>LZ</orgName>, but during <date>the year</date>, I don’t know how many hundreds of hours that I flew around in helicopters, in carrying out whatever it was I was having to carry out and was therefore awarded two <orgName>Army Air Medals</orgName> for I don’t know how many hours it was, at least a hundred each, I think. </u>
+      <u who="CHUNG">Mmm. Yeah.</u>
+      <u who="KRUGER">I don’t ever remember ever actually shooting anybody. I did kill a rat in my tent, but that doesn’t count.</u>
+      <u who="CHUNG">Right.</u>
+      <u who="KRUGER">I do remember—and speaking about the period rocket attacks coming in, yeah, you saw those, but I do remember the worst of the incoming fire at the landing zone was probably a long round overshot from our own 105 [mm] Howitzer. At noon, everybody was sitting out on top of their bunkers and reading the mail, because noon lunch was usually mail call, and all of a sudden, probably about a hundred yards from where I was sitting out, reading the mail, was where the round hit, on another guy’s bunker, and there was a minute—just before, there was a guy sitting there, and after the explosion, I mean nothing was found of him. He was gone. And it was, you know, friendly fire. And that happened all too much. Everybody—when that starts happening, boy, you duck for cover, but fortunately that was the only round that came in. And as near as we could tell later, it was just, you know, the artillery guy down the line that mischarged the round and fired probably too long. He was shooting for somewhere in the middle, and it kept going. But friendly fire was always an issue.</u>
+      <u who="CHUNG">Right. So you said that you were, like, in air, like, on helicopters for a lot of times—</u>
+      <u who="KRUGER">Yep.</u>
+      <u who="CHUNG">—like, I think the most time.</u>
+      <u who="KRUGER">Yep.</u>
+      <u who="CHUNG">And so I guess now I’m a little bit curious about, like, more details about the unit that you were attached to and, like, your role and organization of that unit.</u>
+      <u who="KRUGER">Well, I mean, <orgName>the 1st Cavalry Division</orgName> was air mobile. We would provide information—we and all the intelligence sources would provide information as to where we thought the bad guys were, and it was up to the generals—the general and his staff to decide when and how and where to dispatch platoons or companies or battalions to helicopter in and around where we thought they were, to go find them. And that was—that cat-and-mouse was <date>every day</date>, <date>all day</date>. And so that was—</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Right. So what were the things that, like, kind of you were looking after or the signs that you were looking for when you were on helicopters, like?</u>
+      <u who="KRUGER">Well, most of the time I was on helicopters, I was not—it was not intelligence gathering; that was getting from here to there.</u>
+      <u who="CHUNG">Okay. </u>
+      <u who="KRUGER">Most of it was. And I was—no, I guess I never did go with one of the attack units, but on occasion would go in after—in the after action. But, no, my role was to help find them and report it, not to go in and take care of them.</u>
+      <u who="CHUNG">Right. Okay. <persName>Mm-hm</persName>. </u>
+      <u who="KRUGER">And, you know, I was—I guess I did a good enough job. Got two Bronze Stars out of the experience, both for service, not for valor.</u>
+      <u who="CHUNG">Right. So you collected information about, like, certain site and send those information to—</u>
+      <u who="KRUGER">Yeah, you’d give them to the staff, and it was an ongoing exercise. You know, we were tracking all of the units, all the Viet Cong and <orgName>NVA</orgName> [<orgName>North Vietnamese Army</orgName>] units that we could, <persName>and—“Okay</persName>, we think they’re going here, and if they’re heading there, they’re probably going to end up over here” when you look at the terrain and whatever.</u>
+      <u who="CHUNG">Right. <persName>Mm-hm</persName>. Yeah, and also you mentioned one time that your helicopter was almost shot down.</u>
+      <u who="KRUGER">No, it was shot down. I mean, we took gunfire and it stopped the engine.</u>
+      <u who="CHUNG">Oh. Okay. Do you remember when that was, by any chance?</u>
+      <u who="KRUGER">I don’t know, sometime during <date>the summer of 1967</date>. Who knows when? I mean, that happened a lot. A lot of helicopters went down. Thousands. Of crashes. Most of them, the helicopters were irreparable. You’d drag them out—you know, go and pick them up and take them out and repair them and back in the air.</u>
+      <u who="CHUNG">Right. And you said that there were quite a number of crash landing as well.</u>
+      <u who="KRUGER">Well, yeah. I mean in a harsh environment and over-using the equipment, you had a lot of mechanical failures where you didn’t get shot but the engine still stopped. You were all right as long as your main rotor blade kept going around, even without power, provided that the tail rotor also kept going. The worst event was to have your tail rotor stop while your main rotor was going around, because then the entire helicopter will go around with the main rotor, and it’s fatal.</u>
+      <u who="CHUNG">Mmm. I see.</u>
+      <u who="KRUGER">But if you lose the power, you can tilt the blades, and these warrant officers flying these things knew how to do it, because it was [chuckles] self-preservation, understanding how lift works. With the power—when you power up, the main rotors go around, you’re pushing air through the blades to give you lift. If you lose power and you start falling, if you tilt the blades a little bit differently, the air—as you’re coming down, the air is in effect rushing up through, and it gives you some lift, and it’s what’s known as auto rotating. And in all four cases where we went down, where I went down, the warrant officers were able to auto rotate. You hit hard, but you didn’t land in a fatal pile.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Right.</u>
+      <u who="KRUGER">But auto rotation was—I mean, that’s what you—that saved most of the crashes, which makes the helicopter a valuable tool. You don’t have quite the opportunity with a fixed-wing because when it’s time to come down, you know, you come down.</u>
+      <u who="CHUNG">Right. Yeah, so I just looked up some, like, things that <orgName>1st Cav</orgName> was up to during all your time there in <date>1967</date>, and I found out that <orgName>1st Cav</orgName> was assisting in marine operation [legion?; <placeName>1:50:40</placeName>] to <persName>Đức Phổ</persName> (Duc Pho). So did you guys ever kind of—</u>
+      <u who="KRUGER">I don’t remember the specifics. It all blurred into one great big—every single day, there was something else going on, and going someplace else, but it was all in the area around—in II [pronounced like the number two] <orgName>Corps</orgName>, up from <persName>Quy Nhơn</persName> and well below <placeName>Da Nang</placeName>. I mean, <persName>Đức Phổ</persName> (Duc Pho)—yeah, I mean—yeah, it’s there, but I’m not sure—there’s nothing that really stood out to me. It was just another of the engagements. </u>
+      <u who="CHUNG">Mmm. I see.</u>
+      <u who="KRUGER">Some big, some small, but there was always something going on. </u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. I see. And what was your interaction with your other—like, other fellow—I guess generals and colonels and infantrymen?</u>
+      <u who="KRUGER">Well, I’d see the general every day, probably two or three times <date>every day</date> and usually with his intelligence officer and chief of staff. You know, we weren’t bothered by any of the other—we were not part of <orgName>the 1st Cav</orgName>; we were assigned as support to them. But it was known that we were providing a service that was not to be sneered at, so we were well treated. The actual collection of the intelligence was largely in the hands of <orgName>the 371st RRC [Radio Research Company]</orgName>, which we affectionately called <orgName>thee Refrigerator Repair Company</orgName>. But <orgName>RRC</orgName> is radio reconnaissance, and it was, you know, basically direction finding. And that was done with ground stations but, most importantly, with fixed-wing aircraft that would fly around with <orgName>RDF</orgName> [radio direction finding] equipment.</u>
+      <u who="CHUNG">Okay. I see. And did you grow close, like, to your colleagues? Like, did you become, like, kind of good friends with them? Because that’s kind of the narrative you hear, usually.</u>
+      <u who="KRUGER">It is, but you hear that in the accounts that are now given, especially in the media, but they are focused almost exclusively on the combat units and in the support units, which were 90 percent of the people there. Only 10 percent were actually combat. The 90 percent—the camaraderie, while okay, was never close. And I have—is that true? Yeah, I guess I have no contacts now from <date>the year</date> in <placeName>Vietnam</placeName>. None. And, frankly, not overly interested in finding any of them.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Great. So—and I read from your memoir that you had a <date>midyear</date> break in <placeName>Hawaii</placeName>?</u>
+      <u who="KRUGER">Yup.</u>
+      <u who="CHUNG">And <date>five days</date> in <placeName>Bangkok</placeName> as well?</u>
+      <u who="KRUGER">Yup, yup.</u>
+      <u who="CHUNG">Yeah, so could you—</u>
+      <u who="KRUGER">The R&amp;amp;R [Rest and Recuperation] was for morale purposes. It was part of the deal that everybody, including the combat troops, all got an R&amp;amp;R somewhere. And among the available places was to <placeName>Hawaii</placeName> to meet—usually to meet wife, which I what I did. And so <persName>Jean</persName> flew in from <placeName>Washington</placeName>, and, you know, we had <date>a nice week</date> in <placeName>Hawaii</placeName>, and then back to it.</u>
+      <u who="CHUNG">So the trip to <placeName>Bangkok</placeName> was almost on the end of your—</u>
+      <u who="KRUGER">Yeah, it was at the very end, yeah, yeah.</u>
+      <u who="CHUNG">And when did you go to <placeName>Hawaii</placeName> for mid-break?</u>
+      <u who="KRUGER">I don’t know. It must have been <date>mid-year</date>. It was probably <date>June</date> or <date>July</date>. I don’t remember. I’m sure I could go back and find stuff that would tell me, but it was in <date>the summer</date>. It was just about halfway through, <date>about six months</date> through.</u>
+      <u who="CHUNG">Okay. And was that your first time in <placeName>Hawaii</placeName> as well as, like, [your] first time in <placeName>Bangkok</placeName>?</u>
+      <u who="KRUGER">Certainly, the first time on the ground in <placeName>Hawaii</placeName>. I don’t remember now when we first flew to <placeName>Vietnam</placeName> in <date>January</date> of ’67—I don’t—it was a commercially chartered [<orgName>Boeing</orgName>] 707. We must have stopped somewhere, although I don’t think we ever got off the plane. No, we would not have gone to <placeName>Hawaii</placeName>. I’m sure we would have gone from—went from <placeName>California</placeName> to <placeName>Tokyo</placeName> and then <placeName>Tokyo</placeName> to <persName>Cam Ranh</persName>. </u>
+      <u who="CHUNG">Right. Was <placeName>Bangkok</placeName> to you, like, very different from the scenery in <placeName>Vietnam</placeName> that you were in?</u>
+      <u who="KRUGER">Still is.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. It always is.</u>
+      <u who="KRUGER">Yup, yup. And if I thought <placeName>Vietnam</placeName> was warm, <placeName>Bangkok</placeName>, of course, is tropical. You’ve been there, I trust?</u>
+      <u who="CHUNG">No, I haven’t.</u>
+      <u who="KRUGER">Oh, you haven’t been!</u>
+      <u who="CHUNG">Yeah. <persName>Mm-hm</persName>. </u>
+      <u who="KRUGER">But it’s very different. The Thai people are very different from the Vietnamese. Of course, the Vietnamese are very different from the Chinese, and the Chinese are very different from the Koreans, which are very different from the Japanese. I mean, everybody—there are all sorts of different cultures. </u>
+      <u who="CHUNG">Right.</u>
+      <u who="KRUGER">In the aftermath.</u>
+      <u who="CHUNG">Yeah. <persName>Mm-hm</persName>. Yeah. And I—also kind of going off on that, I’m curious if you were able to get in kind of contact or was able to ever encounter any, like, Vietnamese, like, local people or—</u>
+      <u who="KRUGER">Did, but only—they were—usually they were wanting something from us, and, yeah, you’d go out into the villages near the camp, and you could get a cold beer there. They did have—somebody—I think they did manage to figure out how to get some manufactured ice, so you could go out and you could get a cold beer. And so you’d interact with them, but—I mean, they were, you know, trying to survive the war, themselves, and trying to—you know, they’re doing whatever business they could do.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Right.</u>
+      <u who="KRUGER">And as long as we were protecting them from the Viet Cong, the ones especially right near the camp, actually, their life wasn’t all that bad until we left, and then, of course, it’s back to terrible.</u>
+      <u who="CHUNG">Right. <persName>Mm-hm</persName>, <persName>mm-hm</persName>. I see.</u>
+      <u who="KRUGER">But, no, made no, no lasting contacts at all.</u>
+      <u who="CHUNG">Oh, okay.</u>
+      <u who="KRUGER">And in large measure, given the sensitivity of the intelligence work that I was doing, was encouraged not to make contacts with foreigners.</u>
+      <u who="CHUNG">Okay. Uh-huh. </u>
+      <u who="KRUGER">Makes sense.</u>
+      <u who="CHUNG">Right. So you were not really in contact with I guess other, like, units, like, from other countries.</u>
+      <u who="KRUGER">I did on occasion sanitize the information we had, and I on occasion would go right next door to <orgName>the White Horse Division</orgName> [<orgName>9th Infantry Division of the Republic of Korea</orgName>], the Korean division that was in the operating area next to ours. Three or four times went and sat down with their intelligence people to talk about, “Okay, where are they? Where do we think they’re going? What are they doing?” And I never operated or cooperated at all, ever, with the Vietnamese forces. That was left to other people.</u>
+      <u who="CHUNG">Okay. I see.</u>
+      <u who="KRUGER">As I said, I did deal on occasion with the Koreans.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Okay. </u>
+      <u who="KRUGER">And never with the [<placeName>U.S.</placeName>] Marines—</u>
+      <u who="CHUNG">Mmm. Never with the <orgName>Marines</orgName>. I see.</u>
+      <u who="KRUGER">—to the north, largely because what we were looking at was not in their area of operation anyhow, so—</u>
+      <u who="CHUNG">Mmm. Okay. I see. Interesting.</u>
+      <u who="KRUGER"><persName>Mm-hm</persName>.  </u>
+      <u who="CHUNG">Right! So is there anything else about your time in <placeName>Vietnam</placeName> that you would like to add?</u>
+      <u who="KRUGER">Oh, geez. It was—actually, from a health standpoint, did just fine. I don’t remember—well, I might have had a cold or some form of stomach discomfort with some of the crap that we were <orgName>fed</orgName>, but I don’t remember ever having any down time. If I had a headache or a stomach problem, you know, if <orgName>I’m</orgName> just—you know, stuck through it and never took any time off for health reasons.</u>
+      <u who="CHUNG">Wow.</u>
+      <u who="KRUGER">And was not in bad shape. But skinny as a rail, about 130 pounds. The climate was that kind of debilitating, which was one of the reasons that we were actually encouraged to drink the beer, for liquid. But, yeah, I was not in bad shape at all, just skinny.</u>
+      <u who="CHUNG">I see. So how did you—were there ways for you to kind of remain in contact and kind of get yourself updated with what’s happening in the <placeName>States</placeName> while you were there?</u>
+      <u who="KRUGER">Only through the Stars and Stripes newspaper, which is biased, and, of course, whatever you read in the mail coming in from family and friends. Had lots and lots of letters. But I don’t ever remember any letters referring at all to the controversial aspects of why we were there. I don’t ever remember, ever, any of that. Just family and friends were not focused on that, and it was more a report on what they were doing, and I was reporting what I doing back to them, but not in any real military detail.</u>
+      <u who="CHUNG">Mmm. Okay. </u>
+      <u who="KRUGER">Of course, social media didn’t happen. We did—and my wife always tells the story that, you know, when the press would say that this place or that place or whatever place that she knew was somewhere near where I was bombed, she’d get on the phone and talk to the lieutenant colonel that I had worked for in <placeName>Washington</placeName> and say, “Oh, Col. <persName>Bussey</persName>, oh! Oh, what’s goin’ on?” And our funny little organization had a communications network that was just for us, and so periodically I’d get a message from the colonel saying, “Okay, give me the assurances I can send to <persName>Jean</persName> that you’re okay.” [Chuckles.] But that was—it happened probably three or four times, where she’d read something in the press which—when I found out about it and got to the bottom of it, I mean, it had zero to do with me or anybody close to me, but it’s what the press makes of it.</u>
+      <u who="CHUNG">Right.</u>
+      <u who="KRUGER">I mean, it’s like the press <date>today</date>. You watch the local news programs, and all you hear are the murders and the robberies and the whatevers, and you don’t hear anything about normal life.</u>
+      <u who="CHUNG">That’s true.</u>
+      <u who="KRUGER">And so all of the bad stuff gets blown waay out of proportion, even in a war. But it was good to have that private communication channel, but it was not used to pass rumor. It was business and more business and business on top of that. It was professional in the best sense of the word. It was a good unit. Still is a good unit. It is still in operation. I can just imagine what they’re dealing with <date>today</date> in this whole new world. But an elite unit that I expect is still doing its job well.</u>
+      <u who="CHUNG">Right. <persName>Mm-hm</persName>. </u>
+      <u who="KRUGER">Okay, what’s next?</u>
+      <u who="CHUNG">Right. So you returned to the <placeName>States</placeName>, and that was <date>two weeks</date> before the Tet Offensive.</u>
+      <u who="KRUGER">Yup, <date>two weeks</date> before Tet.</u>
+      <u who="CHUNG">So what a timing.</u>
+      <u who="KRUGER">I’d rather be lucky than good any time. [Chuckles.]</u>
+      <u who="CHUNG">Right. Uh-huh. And you said that on your memoir that you were reassigned to <placeName>Washington</placeName> and spent <date>another very interesting year</date> in the <orgName>Army</orgName>.</u>
+      <u who="KRUGER">Yep, yup.</u>
+      <u who="CHUNG">I would like to hear a little bit about—</u>
+      <u who="KRUGER">It was not unlike <date>the two years</date> before going to <placeName>Vietnam</placeName>. This time, at Fort Belvoir, the headquarters of <orgName>the Army Corps of Engineers</orgName>. Again, providing the commanding general and his senior staff with intelligence in materials, very highly-classified materials for the engineers to plan and to reequip and to do what they do. But it was—again, it was protection of the materials and the vetting of the individuals that were allowed to see it and preventing those that weren’t authorized from seeing it. And so it was, again, <date>a productive year</date>. You know, again, at Fort Belvoir, lived in another vault [chuckles], where—and the communication system we had was highly encrypted. Well, even the channels that my wife got messages passed on was all highly encrypted. And to my knowledge, we were never hacked, not when I was there.</u>
+      <u who="CHUNG">And I guess—I guess along with the,—like, your, more like your courier, like on a military side of your life, but it must have been quite of a bit of a transition, like, from, like, living in <placeName>Vietnam</placeName> for <date>a year</date> and then coming back to the States.</u>
+      <u who="KRUGER">Yeah, but it was hardly a difficulty. I was expecting to go back to the way it was, and it was. And, again, by then I was captain, but there weren’t many captains around, either, although I was no longer invited to all the general’s parties because there were a few more lieutenants around, but that was just fine. But it was only for <date>that last year</date>. </u>
+      <u who="CHUNG">Right.</u>
+      <u who="KRUGER">And so put in the paperwork. And had lined up a job, actually, doing—because of the position I was in and because of the contacts that you have with the civilian contractors—you know, they were looking at me and saying, “Well, gee, we’d like to have you come work for us on the civilian side of things, to protect all this information, because you’ve got the security clearances and we know you can do it.”</u>
+      <u who="CHUNG">Right.</u>
+      <u who="KRUGER">And so I immediately landed a job. It wasn’t protecting <orgName>Army</orgName> material; it was <orgName>Navy</orgName>, but same stuff. I said, “Fine.” So it was all lined up to come back to <placeName>Nashua</placeName>, <placeName>New Hampshire</placeName>, and so things were looking great, and go to my exit physical to get out of the <orgName>Army</orgName>, and they said, “Well, Captain, you have a medical problem.” I said, “Oh, yeah? Tell me more.” So we talked about it. They said, “Well, sign here and you can go.” I said, “Well, wait a minute. It says here that if I sign this, I’m waiving all of your responsibility for causing me these medical problems.” He said, “Yeah, but if you want to get out, that’s what you have to do.” And I said, “No, I’m not gonna sign that.”</u>
+      <u who="CHUNG">Right. <persName>Mm-hm</persName>. </u>
+      <u who="KRUGER">So I was in <date>two months</date> longer than anticipated. And all the while—I mean, I kept on at Fort Belvoir doing what I was doing. I might as well because I enjoyed it and they liked having me do it, so—but then finally <date>the day</date> came, and I got the exit, and I was out of there. In that <date>two-month</date> period, the company up here in <placeName>New Hampshire</placeName> lost its <orgName>Navy</orgName> contract, so—oop! No job.</u>
+      <u who="CHUNG">Great.</u>
+      <u who="KRUGER">And so now here I am. I came—first stayed with my wife’s parents in <placeName>Reading</placeName>, <placeName>Mass.</placeName>, and said, “Okay, what are you gonna do now?” I said, “Well, I think I’ll start interviewing with insurance companies, because they have training programs, and, okay, I’ll see if I can get into a management training program and get my feet into the business world, and then from there I’ll find a good company to go work for.” My father-in-law said, “I have a very good friend that’s—I think he’s pretty senior at a bank in <placeName>Boston</placeName>. Would you talk to them?” I said, “Sure, I’ll talk to anybody.”</u>
+      <u who="CHUNG">Ah!</u>
+      <u who="KRUGER">And he, of course, had found out that I was as well. And a <name type="event">World War II Navy</name> carrier pilot. And so the—you know, the college tie went down pretty well with him, and the military uniform went down pretty well with him, and he lined me up to interview with six other bank officers, every one of which were <orgName>Dartmouth</orgName> graduates. And I think three or four of them were also <orgName>Navy</orgName> carrier pilots during <name type="event">World War II</name>. And at <date>the end of the day</date>, said, “Okay, offer you a job.” So I said, “Well, okay.”</u>
+      <u who="CHUNG">Right.</u>
+      <u who="KRUGER">And that was a reasonable salary at that time. That was not bad.</u>
+      <u who="CHUNG">Yeah. No. I can imagine. <persName>Mm-hm</persName>. </u>
+      <u who="KRUGER">So things have changed a little bit.</u>
+      <u who="CHUNG">Right.</u>
+      <u who="KRUGER">And so went to work in the credit training program, assuming that I’d do that for <date>a year or two or three</date> and make some business contacts and get hired away by a company. And never did. Stayed with that bank for <date>almost 30 years</date>.</u>
+      <u who="CHUNG">Oh, wow.</u>
+      <u who="KRUGER">So it worked out fine.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. And at some point you also went to <placeName>Hong Kong</placeName>.</u>
+      <u who="KRUGER">Yeah, during <date>those 30 years</date>—basically, half of it was in commercial lending and there, had great success in sort of funny little—back where—I became a specialist in lending to transportation companies. And with great success for the bank. Made the bank a lot of money. But as I progressed up through the ranks, was then—I’d always had an international desire, if you will. I had actually, with one of my big customers—I sorted out their European financing for them, so I was in <placeName>London</placeName> a lot. And having made that step across the <placeName>Atlantic</placeName>, you know, took my lending specialty to three or four other companies that were also dealing in <placeName>Europe</placeName> and helped them out in European finance, so, you know, understood a little bit about international.</u>
+      <u who="CHUNG">Ahh!</u>
+      <u who="KRUGER">[Chuckles.] Trying to move teenage children from everything they had known, all their friends and all the schools and whatevers was not what they wanted to hear. Needless to say, we went and enjoyed the sullen silence from our children for <date>a few months</date> upon arrival, but once they figured out what had happened to them, they are now changed people and, they will both admit, best thing that ever happened to them.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Right.</u>
+      <u who="KRUGER">And the children, after their initial negative reaction, that decided that having two round-the-world business class plane tickets <date>every year</date> was not all that bad. Because everywhere in the world is on the way home.</u>
+      <u who="CHUNG">Right.</u>
+      <u who="KRUGER">So every summer, we’d meet somewhere. In <date>the summer</date> and at <date>Christmas</date> we’d always go somewhere for <date>ten days or</date> <date>two weeks</date>. So, you know, <placeName>the Nile River</placeName> and <placeName>Sweden</placeName> and <placeName>Scandinavia</placeName> and Australian beaches, <placeName>Nepal</placeName>, went to <placeName>Korea</placeName> for <date>ten days</date> at one point. I mean, all over. So both of our children <date>today</date> are very international in their outlook as well which is great.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Right. Great. So you stayed in <placeName>Hong Kong</placeName> for <date>six years</date>.</u>
+      <u who="KRUGER"><date>Six years</date>, yup.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. And then?</u>
+      <u who="KRUGER">Then back to <placeName>Boston</placeName> for a very senior role. I actually took over the entire commercial lending function of the bank. And after <date>five years</date> of that, they needed to go fix <placeName>Asia</placeName> again and asked me to go back to <placeName>Asia</placeName> for <date>the year</date>. In <date>1993</date> went back, to <placeName>Singapore</placeName>. And exactly <date>one year:</date> <date>1st of January to the 31st of December</date>. </u>
+      <u who="CHUNG">Right.</u>
+      <u who="KRUGER">When I was looking, you know, <date>30</date>, <date>40 years ago</date>, now <date>almost 50 years ago</date>, if you had more than three names on your résumé, “What’s wrong with you? You can’t hold a job?”</u>
+      <u who="CHUNG">Mmm.</u>
+      <u who="KRUGER">It’s quite a reversal. You know, it’s not good or bad; it’s just the way it is.</u>
+      <u who="CHUNG">Right. <persName>Mm-hm</persName>. </u>
+      <u who="KRUGER">So anyhow, now <date>20 years ago</date> <date>this month</date>, was asked to yet again go back to <placeName>Asia</placeName> to fix it and said that “I’m not goin’ back.” “Well, what do you want to do?”  I said, “I want you to shoot me. Take me out back and make me a proposal I can’t turn down. I want out.” And so was given a package to retire at age fifty-three. And best decision I ever made.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Right.</u>
+      <u who="KRUGER">It was working—although it was very senior, working was no longer fun. Dog eat dog. I don’t need this. So I’ve been perfectly happy <date>20 years</date>.</u>
+      <u who="CHUNG">Right. <persName>Mm-hm</persName>. So before you retired, you went at one point into <placeName>Hồ Chí Minh City</placeName>.</u>
+      <u who="KRUGER">Yeah, I did. In <date>1988</date>, near the end of our living in <placeName>Hong Kong</placeName>,  we had the opportunity, through the—I think it was <orgName>the Hong Kong University Art Association</orgName> or one of the cultural organizations in <placeName>Hong Kong</placeName>—had the opportunity to put together a trip to <placeName>Vietnam</placeName> and to <persName>Angkor Wat</persName>. And so we saw that and said, “Hey, that looks like something to do.” So we did. We joined a group of 22 in <date>1988</date>, and we were among the very first western groups allowed back into <placeName>Vietnam</placeName> as tourists. We were—I think it was something like <date>ten days</date>. <placeName>Hồ Chí Minh City</placeName>, and then <placeName>Phnom Penh</placeName> and <persName>Angkor Wat</persName>.</u>
+      <u who="CHUNG">Interesting. <persName>Mm-hm</persName>. </u>
+      <u who="KRUGER">A very different experience than what you see <date>today</date>. It was in many respects worse than <date>the year spent</date> in <placeName>Vietnam</placeName>, from a—I mean, <placeName>Saigon</placeName>, <placeName>Hồ Chí Minh City</placeName> was a dump.</u>
+      <u who="CHUNG">Yeah. So the memory is full. I have no idea why. Let’s see. Yeah. Which means—well, it’s good that we have a backup recorder here, so I think we’ll just have to go with that. I have no idea why that’s the case, because it usually allows us to record, like, five hours at <persName>max</persName> when there’s, like,—</u>
+      <u who="KRUGER">More memory in there?</u>
+      <u who="CHUNG">Let’s see. No, they only have the <placeName>US</placeName> drive [sic; <orgName>USB</orgName> drive].</u>
+      <u who="KRUGER">Batteries.</u>
+      <u who="CHUNG">Yeah, just batteries. Because here it says, “Using the recommended recording mode, the maximum recording time is five hours and 55 minutes,” and we didn’t hit that yet.</u>
+      <u who="KRUGER">Didn’t make it.</u>
+      <u who="CHUNG">Yeah. It’s really—</u>
+      <u who="KRUGER">Unless you went to “super” recording. Who knows?</u>
+      <u who="CHUNG">Oh, because I actually checked the recording mode, and it was the recommended mode.</u>
+      <u who="KRUGER">Okay. </u>
+      <u who="CHUNG">But, I mean, it’s good that we have the other one here.</u>
+      <u who="KRUGER">Okay. </u>
+      <u who="CHUNG">So we’ll just go on with that for now.</u>
+      <u who="KRUGER">Okay. </u>
+      <u who="CHUNG">So, yeah. So what was the experience like when you visited there? Like, you said it’s really difference from, like, from—</u>
+      <u who="KRUGER">Everything when I was there in <date>1967</date>, while a raucous city, lots of military traffic with lots of traffic in the streets and lots of noise and yelling and screaming and very vibrant—the economy, I mean, driven by war spending, but driven nonetheless. Lots of employment. The hotels were well maintained for the westerners. You could get good food. I mean, everything was available. </u>
+      <u who="CHUNG">Wow.</u>
+      <u who="KRUGER">The police state was certainly at work. I mean, the distrust for us was, I mean, enormous. </u>
+      <u who="CHUNG">Ah. <persName>Mm-hm</persName>. </u>
+      <u who="KRUGER">Did go to a nightclub, where 20-something Vietnamese were there, all in their <date>20s and 30s</date>, obviously children of the power elite, the cadre. Alcohol flowing freely. Drugs—no question, the drug community—with impunity. So you know, said, “Okay, you know, we see what’s going on at the upper end of this society <date>today</date>.”	</u>
+      <u who="CHUNG">I see.</u>
+      <u who="KRUGER">—that the Vietnamese—I mean, we weren’t treated as royalty, but we were totally protected against any potential backlash, because at that point, in <date>1988</date> they were making a turn. They’ve got to do something. From <date>’75 to ’85</date>, <placeName>Vietnam</placeName> was in real extremis. And by ’88 they had figured out, “We’ve got to turn this tide.” And they were doing it.</u>
+      <u who="CHUNG">Right. <persName>Mm-hm</persName>. </u>
+      <u who="KRUGER">What else?</u>
+      <u who="CHUNG">You also went back to <placeName>Vietnam</placeName> once again, in <date>1993</date>.</u>
+      <u who="KRUGER">Ninety-three was to—was invited with the bank to—the <placeName>Vietnam</placeName> minister of finance wanted to convince us to open a branch in <placeName>Vietnam</placeName>. This was <date>a year</date> before we had actually reestablished diplomatic ties, but it was clear it was going to happen. And so the minister of finance had invited us to come, so I went. My wife and I were—we went to the hotel, stayed at the <placeName>Metropole</placeName> [<orgName>Sofitel Legend Metropole</orgName> <placeName>Hanoi</placeName>]. Wonderful hotel. Wonderful hotel. Even in <date>1993</date>. It’s even better now.</u>
+      <u who="CHUNG">I see. Great.</u>
+      <u who="KRUGER">And then we’ve been back—my wife and I have been back—we were there <date>a couple of months</date> after <date>9/11</date>, when we had the country to ourselves. Had a wonderful trip from <placeName>Hanoi</placeName> to <placeName>China Beach</placeName>. I mean, same itinerary you went on.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>.</u>
+      <u who="KRUGER">And nobody else was there because <date>9/11</date> had killed the tourist business.</u>
+      <u who="CHUNG">Right. <persName>Mm-hm</persName>. </u>
+      <u who="KRUGER">And then we were again there <date>last year</date>. <date>Last year</date>? Yeah, <date>March last year</date>, and going again in <date>December of this year</date>. I think it’s the only way for <placeName>the United States</placeName> to get over it, is to—you know, we’ve got to put it in our past.</u>
+      <u who="CHUNG">Right. <persName>Mm-hm</persName>. And, I guess, what about <placeName>Vietnam</placeName> that kind of keeps you kind of drawn back, like going back there constantly, again and again?</u>
+      <u who="KRUGER">There are several countries in the world—we’ve been to about everywhere, almost literally, so we’re going back to the places that we really enjoy. On that list of “really enjoy” are <placeName>China</placeName>, <placeName>India</placeName>, <placeName>Brazil</placeName>, <placeName>Vietnam</placeName>. That’s about it. Any time you say, “Let’s go,” we’ll go. And we’ve been to all of those multiple times, but we will continue because we enjoy the people, the countryside, the whole ambiance.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Right.</u>
+      <u who="KRUGER">A good place to go and—and we see something new and different every time.</u>
+      <u who="CHUNG">Yeah. Great. Yeah, we’ll actually talk more about your life after retirement after my class. It’s about that time. I’m packing up, right?</u>
+      <u who="CHUNG">Right.</u>
+      <u who="KRUGER">We are back.</u>
+      <u who="CHUNG">Yes, we’re back, and now I would like to learn about, hear about your life after retirement.</u>
+      <u who="KRUGER">[Chuckles.] Well, after my first retirement.</u>
+      <u who="CHUNG">Uh-huh. All right.</u>
+      <u who="KRUGER">I am not yet retired from the rest.</u>
+      <u who="CHUNG">Right. <persName>Mm-hm</persName>. </u>
+      <u who="KRUGER">Retirement from the business world, as I told you—took a decision in <date>1995</date> that—enough of the stress. I didn’t need any more money. I didn’t need any more of the aggravation. It was no longer fun being in the business world, so I said, “I want out.” Had no problem transitioning into the next phase of life because I’d thought it through pretty carefully. I said that I wanted to spend half my time working on family history, research and writing family histories; a quarter of my time I would devote to pro bono work, boards of not-for-profit entities; and a quarter of my time on what I call the strong back, weak mind activity of working on an 18-acre, <date>18th-century</date> farmhouse in <placeName>Exeter</placeName>, <placeName>New Hampshire</placeName>.</u>
+      <u who="CHUNG">Wow.</u>
+      <u who="KRUGER">We don’t start out a <date>year</date> planning to actually do it, but it just works out that way. We’ll normally take two <date>one-month</date> trips a year, and then <date>the third month</date>, six, <date>seven days</date> here, <date>ten days</date> there, most of it international. So we continue to see the world. There are very few places still on the list that we’ve not been to that I would like to go to, so we are repeating a lot now.</u>
+      <u who="CHUNG">Wow.</u>
+      <u who="KRUGER">But we’re not doing it just to check off countries; we’re doing it to enjoy.</u>
+      <u who="CHUNG">Wow.</u>
+      <u who="KRUGER"><orgName>The Wentworth Institute of Technology</orgName>—I joined that board when I was still at the bank, as a senior officer in the bank, we were all expected to serve on boards around in the <placeName>Boston</placeName> area, and that one fell to me. It became a very nice fit. It’s a school for not the brightest of students. It’s looking, quite frankly, at the B students from high school that are good kids—they’re not dumb, but they’re not going to <orgName>MIT [Massachusetts Institute of Technology</orgName>]. They’re very much doers rather than thinkers, and they need good training, and that’s what <placeName>Wentworth</placeName> provides. </u>
+      <u who="CHUNG">Wow.</u>
+      <u who="KRUGER">There is not, I don’t think, any other—certainly not in the liberal arts area—even <orgName>Dartmouth</orgName> can’t come close to that.</u>
+      <u who="CHUNG">Yeah.</u>
+      <u who="KRUGER">Now, it doesn’t compete with an <orgName>MIT</orgName>, although it’s in the technology world, but companies love us because, as they say, <orgName>MIT</orgName> will do all the thinking and come up with these bright ideas, and the <persName>Wentworth</persName> graduates are the ones who make them work. And that’s quite true. So very pleased with that. It’s been very rewarding to have that association. I was on that board, until I got off of it <date>the last few months</date>, <date>24 years</date>.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Right.</u>
+      <u who="KRUGER">Other than that, I’m traveling <date>90 days</date> a year, staying in reasonable health, still mowing the damn lawn.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. [Both chuckle.]</u>
+      <u who="KRUGER">What else can I tell you.</u>
+      <u who="CHUNG">I guess we’ve pretty much covered everything—you life—unless there’s anything else that you would like to kind of go back and add.</u>
+      <u who="KRUGER">Yeah, one thing. We didn’t—I’m pretty sure I mentioned it the last time we sat down, but go back a little bit and say: Okay, what was my reception coming back from <placeName>Vietnam</placeName>, back into <placeName>the United States</placeName>? Because that has—I’ve now learned, that has become quite a point of disappointment with a lot of my fellow veterans that were spit on, were blamed for the war, if you will, which is totally unfair. I do believe that it was a bad war, but we were good soldiers in that bad war.</u>
+      <u who="CHUNG">Mmm. Right.</u>
+      <u who="KRUGER">So I didn’t see a lot of it, other than in the press, but it was always somewhere else, in the distance. So, as I say, it didn’t affect me directly. I continued to have family support and friends—many of my friends had also served in the military, and even those that I had not served with, but—so I never had that bad experience, if you will, unlike I guess maybe even the majority of the returning veterans. </u>
+      <u who="CHUNG">Right.</u>
+      <u who="KRUGER">But I should also continue to say that I do not regret my <date>year</date> I spent in <placeName>Vietnam</placeName>, and I’ve said it—I have said it before, and I think I still believe that: To do it again—knowing what I knew then, would I do it again? And, yes, yeah, I would do it again for the first time. I would also decline to go back again. I think that was also the right decision. So I don’t regret my service. I think I did, for the military, some good. </u>
+      <u who="CHUNG">I agree.</u>
+      <u who="KRUGER">The one thing to change would have been that, yet some—I was going to say “small minds”; they weren’t small minds, they were simply minds that could not accept other people’s ways of thinking, and, no, we had to support the French because “they’re our friends,” and it was—you know, there was no way we could have won that war the way we played it, because it was a colonialist’s war, and the enemy were not communists; the enemies were nationalists. And there was no way in the long run we were going to win that. The only way to have done that would have been to find the way to work with the nationalists, not against them, because eventually it won’t happen, as history proved.</u>
+      <u who="CHUNG">Right.</u>
+      <u who="KRUGER">And then my longer view of <placeName>Vietnam</placeName>: While their system of government and of society is not my ideal, I have no basic issues with it because for them it works, and so, fine, you can call it communist, but communism is not in place in <placeName>Vietnam</placeName>. It is a market economy. There is not communal farming. I mean, it is not communism. They tried that very briefly after <date>1975</date>, and they immediately saw “it ain’t gonna work.” And quit.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Yeah.</u>
+      <u who="KRUGER">But as long as you treat people as equals, rather than subjects or slaves, then I think you’re going to be better off.</u>
+      <u who="CHUNG">Right.</u>
+      <u who="KRUGER">And <date>one day</date>—well, no. No, no, no. Never will the American people ever learn that other people in the world think differently and “if you don’t think my way, it can’t be any good.” Oh boy!</u>
+      <u who="CHUNG">Right.</u>
+      <u who="KRUGER">And that, I’m afraid, is the root of many problems. And there were lessons—all those lessons on nationalism, communism, all these issues—we still never learn.</u>
+      <u who="CHUNG">It’s true.</u>
+      <u who="KRUGER">Take a look at some of those against the intractable problems with <orgName>Islam</orgName>.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. True.</u>
+      <u who="KRUGER">So I’m not too optimistic about—well, no time soon are they going to come and gut us, but no time soon are we going to change them, either.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Yep. I agree.</u>
+      <u who="KRUGER">So anyhow, you got to somehow find a way to come to terms. You know, although you may have issues in your country, in <placeName>Korea</placeName>, I view that as another example of—for better or worse, it’s working.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. Yep.</u>
+      <u who="KRUGER">I can say that because in part it’s working to the American way of thinking. It may not be working the same way, but, hey, they’re an ally, so they can’t be all bad. [Both chuckle.]</u>
+      <u who="CHUNG">Right. </u>
+      <u who="KRUGER">Okay. I mean, I can go on and on and on and on, but I’m not going to. What else have you not asked me that you need to ask me?</u>
+      <u who="CHUNG">I have asked everything I have prepared.</u>
+      <u who="KRUGER">All right, how about some things you haven’t prepared?</u>
+      <u who="CHUNG">Let’s see.</u>
+      <u who="KRUGER">[Chuckles.]</u>
+      <u who="CHUNG">So I guess your plans for [the] future.</u>
+      <u who="KRUGER">I plan to live until forever.</u>
+      <u who="CHUNG">[Chuckles.]</u>
+      <u who="KRUGER">I plan to continue to travel. I plan to be available to talk to people when they want to talk. I actually talked to the father of a <orgName>Dartmouth</orgName> graduate <date>yesterday</date>, who at 91 was still trying to run his 37-year-old son’s life. Ahhh!</u>
+      <u who="CHUNG">Mmm.</u>
+      <u who="KRUGER">Again, there were things that we people never learn, and that is that parents will never stop trying to mold their children into their way of thinking, and children will never, never conform.</u>
+      <u who="CHUNG">Right.</u>
+      <u who="KRUGER">[Laughs.] And that is across all cultures—I’m sure Korean as well as Vietnamese as well as you name it.</u>
+      <u who="CHUNG"><persName>Mm-hm</persName>. That’s true.</u>
+      <u who="KRUGER">It was an interesting discussion with—actually the 91-year-old’s 37-year-old son was not only a <orgName>Dartmouth</orgName> graduate, he was also an <orgName>Exeter</orgName> graduate, and not gainfully employed. He’s enjoying himself and on occasion works as a carpenter. Well, okay. Hey, whatever. Daddy can’t stand it. Okay. As long as we have those differences of opinion, we will have interesting times.</u>
+      <u who="CHUNG">Yeah.</u>
+      <u who="KRUGER">So for the future, I’ll continue to travel. I will continue to put out the family history books because that is something I want to leave for posterity.</u>
+      <u who="CHUNG">Mmm. Right. Great.</u>
+      <u who="KRUGER">And other than that, I don’t know nothin’.	</u>
+      <u who="CHUNG">[Chuckles.] Yeah. Great! Thank you so much.</u>
+      <u who="KRUGER">Yup. <persName>Mm-hm</persName>. </u>
+      <u who="CHUNG">Thank you.</u>
+    </body>
+  </text>
+</TEI>

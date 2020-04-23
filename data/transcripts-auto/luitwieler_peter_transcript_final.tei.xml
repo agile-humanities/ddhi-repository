@@ -1,0 +1,529 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="NOPPENBERGER"/>
+        <person xml:id="LUITWIELER"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="NOPPENBERGER">This is <persName>Angela Noppenberger</persName> interviewing <persName>Peter Luitwieler</persName> on <date>Saturday, February 6, 2016</date>. I’m in the Bryant Room of the Rauner Special Collections Library. It is 10:04 when we’re starting our interview.</u>
+      <u who="LUITWIELER"><persName>Peter Edward Luitwieler</persName> [pronounced <persName>LUTE-wile</persName>-er], <date>October 5th, 1942</date>.</u>
+      <u who="NOPPENBERGER">And where were you born, Mr. <persName>Luitwieler</persName>?</u>
+      <u who="LUITWIELER">In <placeName>Winchester</placeName>, <placeName>Massachusetts</placeName>, just north of <placeName>Boston</placeName>.</u>
+      <u who="NOPPENBERGER">Great. And what were your parents’ names?</u>
+      <u who="LUITWIELER"><persName>Clarence Seward Luitwieler [Jr.</persName>], Class of ’24, and my mother’s name was <persName>Sarah Louise Holcomb Luitwieler</persName>, and she was a <orgName>Cornell</orgName> [University] grad, and I believe she graduated in <date>’25</date>. </u>
+      <u who="NOPPENBERGER">Wow, so Ivy League in your blood.</u>
+      <u who="LUITWIELER">And she—</u>
+      <u who="NOPPENBERGER">Can you tell me—oh, go ahead.</u>
+      <u who="LUITWIELER">Disappointed I didn’t go there. [Laughs.]</u>
+      <u who="NOPPENBERGER">Oh. [Chuckles.] Well, your father was a <orgName>Dartmouth</orgName> alum, then.</u>
+      <u who="LUITWIELER">Right, yes.</u>
+      <u who="NOPPENBERGER">I’m sure he was very excited you were going here, then.</u>
+      <u who="LUITWIELER">Oh, yes.</u>
+      <u who="NOPPENBERGER">Did you have any siblings?</u>
+      <u who="LUITWIELER">I had four older siblings, one of which passed away long before I was born, [unintelligible] born but died within <date>two weeks</date>, so I had three siblings as I grew up.</u>
+      <u who="NOPPENBERGER">And tell me a little bit about your childhood. What was your—what kind of town did you grow up in?</u>
+      <u who="LUITWIELER">I grew up in a town called <orgName>Winchester</orgName>, which is a very nice bedroom community of <placeName>Boston</placeName> and heavily—high education levels. I’d say out of our class at <orgName>Winchester High School</orgName>, out of 250 I’m guessing 220 went on to some <date>four-year</date> college. And in my particular class, three went to <orgName>Dartmouth</orgName>, and at least three or four that I can think of went to <orgName>Harvard</orgName> [University], and probably 20 went to Ivy League boys’ schools and probably 15 went to the equivalent women’s schools.</u>
+      <u who="NOPPENBERGER">Okay. So what was that like growing up? Was—were academics very heavily enforced from a young age, or was it a little—little less stressful in that?</u>
+      <u who="LUITWIELER">Well, I don’t remember it being stressful.</u>
+      <u who="NOPPENBERGER">[Chuckles.] Okay. </u>
+      <u who="LUITWIELER">I know I did my homework and wasn’t one to procrastinate and enjoyed using the library but also enjoyed playing multiple sports and socializing and being a class officer and working and, you know, just kept busy. Didn’t have all the stresses that the kids have <date>today</date>.</u>
+      <u who="NOPPENBERGER">Yeah. What kind of sports were you active with?</u>
+      <u who="LUITWIELER">In high school it was football, hockey and—what did I do in—I think I did some golf but not very much.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. </u>
+      <u who="LUITWIELER">I was a caddy, so I drifted towards golf.</u>
+      <u who="NOPPENBERGER">And you said you were a class officer. Was this in high school as well?</u>
+      <u who="LUITWIELER">Yes, <persName>mm-hm</persName>, all three—three out of <date>the four years</date>, I think.</u>
+      <u who="NOPPENBERGER">And any other sort of activities that you enjoyed, whether it was extracurriculars through school or any sort of personal hobbies, anything like that?</u>
+      <u who="LUITWIELER">Let’s see. I was in <orgName>Boy Scouts</orgName> a little bit, not—didn’t stay very active. I worked as a caddy—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="LUITWIELER">—for <date>several summers</date> and then ran a caddy camp in <placeName>New Hampshire</placeName> when I was at <placeName>Dartmouth</placeName>. I did that in the summertime.</u>
+      <u who="NOPPENBERGER">Oh!</u>
+      <u who="LUITWIELER">It seemed every year I’d have a different girlfriend. [Laughs.]</u>
+      <u who="NOPPENBERGER">[Laughs.]</u>
+      <u who="LUITWIELER">Pretty noble back then, I guess. </u>
+      <u who="NOPPENBERGER">Well, it sounds—it sounds like you were having a really great childhood. You knew—did you know from an early age that you’d be applying to either <orgName>Dartmouth</orgName> or <orgName>Cornell</orgName> or any of the other Ivy Leagues?</u>
+      <u who="LUITWIELER">Yeah, that was my—my goal. And they had a program back there, not very well known, but the earlier your application went in, the better room selection you would get if you got in, so I applied when I was a freshman.</u>
+      <u who="NOPPENBERGER">As a freshman in high school?</u>
+      <u who="LUITWIELER">Yeah. I mean, you couldn’t be—you just filled out an application, just to get in line, and then when you were—</u>
+      <u who="NOPPENBERGER">Oh.</u>
+      <u who="LUITWIELER">—seniors, then you did everything, but that gave you a very high—you could select the room you wanted and then had a choice of getting your roommate or whatever.</u>
+      <u who="NOPPENBERGER">Oh, wow! So—</u>
+      <u who="LUITWIELER">I—I did—</u>
+      <u who="NOPPENBERGER">So was <orgName>Dartmouth</orgName> your—<orgName>Dartmouth</orgName> was your first choice since you were a freshman in high school?</u>
+      <u who="LUITWIELER">Yeah, I did early admission and got in. I did go to <orgName>Cornell</orgName>. Really liked it. It’s just not [unintelligible].</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. Well, okay. So then let’s move on to your college years. Can you tell me <date>the year</date> that you were starting at <orgName>Dartmouth</orgName>?</u>
+      <u who="LUITWIELER">Yeah, <date>1960</date>.</u>
+      <u who="NOPPENBERGER">And tell me a little bit about your time there. What was it like moving? I guess you were still on <placeName>the East Coast</placeName>, but was it a big change for you?</u>
+      <u who="LUITWIELER">No, because we—we had a <date>summer</date> place in <placeName>New Hampshire</placeName>, and I had been to <orgName>Dartmouth</orgName> many times.</u>
+      <u who="NOPPENBERGER">Oh.</u>
+      <u who="LUITWIELER">And I had an event—the hockey team had an event called <orgName>Sons of Alumni</orgName>, so probably four different times <date>between the ages of 13 and 16</date> I’d come to <placeName>Hanover</placeName> with my dad to play in that. You didn’t have to be good; you just had to be the son of an alumni.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="LUITWIELER">No, the transition was—was pretty easy for me, and my good friend in high school—I convinced him that freshman year we ought to just go our separate ways and meet new people. And so we were in the same dormitory, one floor apart, and stayed very close, but we both regretted our—our decision.</u>
+      <u who="NOPPENBERGER">Mmm. Oh. [Chuckles.] Well, did you get good rooms?</u>
+      <u who="LUITWIELER">I had two good roommates, but we weren’t real strong friends socially, outside of our dorm room.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="LUITWIELER">But we all made it through, and we’d stay in touch a little bit. I stay in touch with one; the other, not at all.</u>
+      <u who="NOPPENBERGER">What were their names?</u>
+      <u who="LUITWIELER"><persName>[Harold H.]</persName> “Hal”—H-a-l— Weiler, W-e-i-l-e-r [Class of <date>1964</date>], and [<persName>David E.]</persName> “<persName>Dave” Larson</persName>, L-a-r-s-o-n [Class of <date>1964</date>].</u>
+      <u who="NOPPENBERGER">And who was your friend from high school?</u>
+      <u who="LUITWIELER"><persName>[Robert M.] “Bob” Freeman [Class of</persName> <date>1964</date>].</u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="LUITWIELER">And both my—</u>
+      <u who="NOPPENBERGER">So did you—</u>
+      <u who="LUITWIELER">—roommates went on to become doctors.</u>
+      <u who="NOPPENBERGER">[Chuckles.] So I’m sure they were studying lots of science.</u>
+      <u who="LUITWIELER">Yeah, they were, and that was not—not my high point.</u>
+      <u who="NOPPENBERGER">What was your major at <orgName>Dartmouth</orgName>?</u>
+      <u who="LUITWIELER">Technically, it’s economics, but I majored in Spanish, and then I did the 3-2 program, if you’re familiar with that.</u>
+      <u who="NOPPENBERGER">I’m not. What is that?</u>
+      <u who="LUITWIELER">Okay, the 3-2 program was something—I don’t know if they have it [unintelligible]. If you had good grades and a good profile, you could go to [<persName>Amos</persName>] Tuck School [of Business] or <orgName>Thayer School [of Engineering</orgName>] during your senior year. And you moved down onto their campus. So I in essence had to give up my senior year, <date>a favorite year</date> of school, but I still had to go to what they called <name type="event">the Great Issues</name> course, which was I think once a month a speaker would come, and we’d have to listen to him and then write a report or something.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="LUITWIELER">So I was a Spanish major, and I studied overseas in <placeName>Salamanca</placeName> [<placeName>Spain</placeName>], and then from <persName>Winchester Bob Freeman</persName>—he was also a Spanish major, and we both were there at the same time. That was, the fall of <date>’62</date>.</u>
+      <u who="NOPPENBERGER">It sounds like a lot of fun.</u>
+      <u who="LUITWIELER">Yeah, it was. And we both—he and I both joined [<orgName>Phi Delta Alpha</orgName>] “Phi Delt” fraternity. He played freshman basketball, and I played freshman hockey and football but never played any actual games; I was too low on the totem pole.</u>
+      <u who="NOPPENBERGER">[Chuckles.]</u>
+      <u who="LUITWIELER">And then in <date>sophomore year</date> I started playing rugby, and I played that for the rest of my college—even through graduate school.</u>
+      <u who="NOPPENBERGER">Did you see playing time with rugby, out on the field?</u>
+      <u who="LUITWIELER">Yeah, I eventually became the captain of the rugby team, and we had a trip to <placeName>Hanover</placeName>, <placeName>Germany</placeName>, for what was called Hands Across the Ocean. And it was a federally recognized program, so I got a little bit of help arranging it and getting access to different things, and then alumni helped pay our way, and we paid our way as well. Played in <placeName>Germany</placeName> and <placeName>Scotland</placeName>.</u>
+      <u who="NOPPENBERGER">Wow! So you got to travel quite a bit during your college <date>years</date>.</u>
+      <u who="LUITWIELER">Yeah. That was all one trip, but—</u>
+      <u who="NOPPENBERGER">Oh.</u>
+      <u who="LUITWIELER">—<orgName>the rugby club</orgName> itself travels around <placeName>the East Coast</placeName> to play teams. It wasn’t a funded program then, and it isn’t now, so you had to—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="LUITWIELER">—drive to each game usually, with teammates.</u>
+      <u who="NOPPENBERGER">Great. And during your time at <orgName>Dartmouth</orgName>, ’60 to your graduating year, ’64, did you—I see that says you were at <orgName>Dartmouth</orgName> until <date>’65</date>? Was there any reason for that?</u>
+      <u who="LUITWIELER">Yeah, because I did the 3-2 program.</u>
+      <u who="NOPPENBERGER">Okay, so you—</u>
+      <u who="LUITWIELER">My last <date>two years</date> were at <orgName>the Amos Tuck School [</orgName>of Business].</u>
+      <u who="NOPPENBERGER">Got it.</u>
+      <u who="LUITWIELER">And what transpired, actually, was as I was ending my junior year, my dad suddenly passed away. That was at the same time I had been selected—<date>about two weeks later</date>, I was selected captain of the rugby team and the rush chairman for fraternity. And then the dean from <orgName>Tuck School</orgName> called me and said that if I were interested, they would accept me in the 3-2 program, even though I hadn’t applied. But apparently my uncle, who was a graduate of <orgName>Dartmouth</orgName> and <orgName>Tuck School</orgName>, even earlier than my dad—he had called just to inquire.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. </u>
+      <u who="LUITWIELER">So that’s what I did. I went directly to <orgName>Tuck School</orgName> and bypassed my senior year, which was <date>a fun year</date> you all look forward to, but I never did that. It was probably the best thing to do ‘cause it saved me <date>years</date> of education.</u>
+      <u who="NOPPENBERGER">Yeah, yeah. </u>
+      <u who="LUITWIELER">I don’t recall it being high profile. Now, I, as a junior, got enrolled in the <orgName>Army</orgName> ROTC [Reserve Officers’ <orgName>Training Corps</orgName>] program—</u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="LUITWIELER">—and stayed in that for <date>about a year</date>. But because of my summer job being vital to getting through college financially, I had to drop out of <orgName>ROTC</orgName>. But I know by the time I was in <date>my second year</date> of grad school, it was becoming more evident that at some point one might get called up. But I was what was called—what is it called? 4-F [Selective Service System classification for not acceptable for military service], I think. Because I had injured my back playing fraternity hockey, and so I was not fit to be drafted.</u>
+      <u who="NOPPENBERGER">Right, yeah, of course.</u>
+      <u who="LUITWIELER">Okay. Back then, he was known as <persName>Cassius Clay</persName>, and he had the same classification I did. And they—without any further exams, changed his classification and thousands of others, including mine,—</u>
+      <u who="NOPPENBERGER">Oh, wow.</u>
+      <u who="LUITWIELER">—so I became eligible for the draft. <date>About a year</date> after I graduated from grad school, my number came up, and that’s when I first started thinking seriously of the best way to use my time in the service.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. Do you think that the fact that you had been in <orgName>ROTC</orgName> had any sort of effect on you being called into draft, or was it part of the random pull?</u>
+      <u who="LUITWIELER">Oh, no, I think it’s all random.</u>
+      <u who="NOPPENBERGER">Okay.</u>
+      <u who="LUITWIELER">I don’t think it has anything to do with it. But I obviously had a very positive outlook towards the service.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="LUITWIELER">I tried to get into the [<placeName>U.S.</placeName>] <orgName>Navy</orgName> and got turned down because of my back. And then, obviously, when I, the draft came, I just waited, but I did sign up for what they call a college officer candidate program.</u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="LUITWIELER">But if you had a college degree, you were guaranteed to get into <orgName>Officer Candidate School</orgName>, as long as you could pass basic training and advanced training.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. Just before we move on to your time being drafted, why had you joined <orgName>ROTC</orgName> when you were at <orgName>Dartmouth</orgName>? Was there a particular interest in the service before, or was it part of any other sort of program?</u>
+      <u who="LUITWIELER">It was twofold. One, I enjoyed the idea of going into the service, and it also provided funding. I just hadn’t thought about the way it would necessitate not having a full-time <date>summer</date> job. I just couldn’t do both.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. </u>
+      <u who="LUITWIELER">So that’s why I had to give it up.</u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="LUITWIELER">When I graduated from <placeName>Dartmouth</placeName>, I did go to work for <orgName>Gulf Oil</orgName> for <date>a little over a year</date>, and even asked if they wanted me to try to get a deferment or anything, and they thought it was a good idea that I serve, and I said, “that’s fine”.</u>
+      <u who="NOPPENBERGER">So can you tell me a little bit about when you were drafted? Do you remember the day or the moment that it happened?</u>
+      <u who="LUITWIELER">I remember my mother called me. The draft board head, who was a friend of hers, called her and said, “You know, your son’s got <date>about three months</date> before he gets drafted,” so then I went down to the <placeName>Pittsburgh</placeName> recruiting office and signed up for this Officer Candidate School program.</u>
+      <u who="NOPPENBERGER">So did you have a chance to work between graduation and being drafted?</u>
+      <u who="LUITWIELER">I worked for <date>a little over a year</date> with <orgName>Gulf Oil</orgName>, <placeName>Pittsburgh</placeName>.</u>
+      <u who="NOPPENBERGER">With what? Pardon, sorry? Where did you work?</u>
+      <u who="LUITWIELER">I worked with <orgName>Gulf Oil</orgName>.</u>
+      <u who="NOPPENBERGER">Oh, okay.</u>
+      <u who="LUITWIELER">In <placeName>Pittsburgh</placeName>, <placeName>Pennsylvania</placeName>.</u>
+      <u who="NOPPENBERGER">okay, okay. So you were working, and now you were drafted, and what was the process after that? What did you have to go through to get ready for training, to say—to talk to your family about it?</u>
+      <u who="LUITWIELER">Yeah, technically I didn’t get drafted. I knew I was going to be drafted, so I enlisted in this college <orgName>OCS</orgName> [Officer Candidate School] program, guaranteed—</u>
+      <u who="NOPPENBERGER">Okay, okay.</u>
+      <u who="LUITWIELER">And at that time, I was engaged to a woman who became my wife, and we talked about it. She had a job, and she was going to be living with her folks. As she had lived with her folks, so she stayed living with her folks, [cross-talk; unintelligible].</u>
+      <u who="NOPPENBERGER">How did you meet?</u>
+      <u who="LUITWIELER">After a rugby practice, another <orgName>Dartmouth</orgName> rugby player and I went and saw these good-looking ladies in a cocktail lounge and asked them out.</u>
+      <u who="NOPPENBERGER">[Chuckles.] Oh! Well, that worked out very nicely for you.</u>
+      <u who="LUITWIELER">Yep.</u>
+      <u who="NOPPENBERGER">Okay. So she would be living with her parents, and you were engaged. You didn’t plan to get married before leaving.</u>
+      <u who="LUITWIELER">No. We talked about that. It would have been just too much of a rush.</u>
+      <u who="NOPPENBERGER">Right, right. So, then, did you get a chance to stop by home, talk to your family before going off to basic training?</u>
+      <u who="LUITWIELER">No, and at that point it was just my mother. My dad had already passed away.</u>
+      <u who="NOPPENBERGER">Oh, yes. And your siblings, I’m sure, were out working.</u>
+      <u who="LUITWIELER">She knew I was going, and to be honest, I never even thought of a special trip to see my mother. [Chuckles.]</u>
+      <u who="NOPPENBERGER">Oh. Well, then, let’s get on to basic training. Where were you—where were you training at first?</u>
+      <u who="LUITWIELER"><date>The first eight weeks</date> was at <placeName>Fort Jackson</placeName> in <placeName>Columbia</placeName>, <placeName>South Carolina</placeName>.</u>
+      <u who="NOPPENBERGER">And was that part of the officer training program? </u>
+      <u who="LUITWIELER">No.</u>
+      <u who="NOPPENBERGER">Did you have—</u>
+      <u who="LUITWIELER">You had to get through two <date>eight-week</date> basic training and advanced training for infantry in order to be eligible for <orgName>OCS</orgName>. You had to successfully pass those, and then you were automatically involved in <orgName>OCS</orgName> with this particular program.</u>
+      <u who="NOPPENBERGER">Right, and this was for <orgName>Army</orgName> infiltry—infantry?</u>
+      <u who="LUITWIELER">Yes.</u>
+      <u who="NOPPENBERGER">Infantry, okay. So what was that like, this training in <placeName>Fort Jackson</placeName> at first?</u>
+      <u who="LUITWIELER">I’m glad that I had played sports most of my life and was in decent shape. But it was a very—a lifestyle I wasn’t used to, living in a barracks and, you know, being told when to get up and when to go to bed and what to do, and being exhausted pretty much every—every day. [Chuckles.]</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. </u>
+      <u who="LUITWIELER">But it taught you the importance of learning how to do things their way and how to depend on other teammates, and that, I understood from sports. My sports background helped a lot.</u>
+      <u who="NOPPENBERGER">Okay. And then, how about <date>the next eight weeks</date>?</u>
+      <u who="LUITWIELER">Yeah, <date>the next eight weeks</date>—</u>
+      <u who="NOPPENBERGER">Where was that at?</u>
+      <u who="LUITWIELER">I think that was also at <placeName>Fort Jackson</placeName>, just a different part. That was called advanced infantry training. And it was just everything that cranked up a little bit more and a lot more focus on <placeName>Vietnam</placeName>. It was pretty obvious that anybody that graduated at some point was going to be going to <placeName>Vietnam</placeName>.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="LUITWIELER">Training was a little more focused towards eventual combat.</u>
+      <u who="NOPPENBERGER">What had you heard about <placeName>Vietnam</placeName> leading up to this, before either at the base or before, when you were—when you were enrolling—or when you were signing up? What did you know about the war?</u>
+      <u who="LUITWIELER">Well, I knew there was a lot of disagreement on the war. I had heard about what they call the domino theory as to why we were in the war, that if <placeName>Vietnam</placeName> fell to communism, so would <placeName>Laos</placeName> and <placeName>Cambodia</placeName> and who knows what else?</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="LUITWIELER">And there was some demonstrations against it, but nothing large until <placeName>the Kent State</placeName> [University] event [referring to the shootings], and I don’t recall <date>the year</date>, whether that was while I was in or before I went in, but it was right around that time when some of those students were injured, and I’m not sure if one didn’t get killed. I don’t recall.</u>
+      <u who="NOPPENBERGER">Okay. So, then, during your <date>next eight weeks</date>, you got through that, so you got through your two mandated basic training sessions, and then were you enrolled in a specific program where you’d be with fellow college graduate officers?</u>
+      <u who="LUITWIELER">Well, officer candidates, right.</u>
+      <u who="NOPPENBERGER">Officer candidates. I’m sorry.</u>
+      <u who="LUITWIELER">Yeah, we were all taken to Fort Benning [<placeName>Georgia</placeName>], not in the same bus because some came from different, other forts from their training, but—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="LUITWIELER">—I can remember the very first time we were formed out in front of our building, and we were called <orgName>the 93rd Infantry Company</orgName> at Fort Benning OCS [sic; <orgName>93rd Company</orgName> OCS].</u>
+      <u who="NOPPENBERGER">In <placeName>Georgia</placeName>.</u>
+      <u who="LUITWIELER">Yes, uh-huh. And I believe there was, like, a 120 officer candidates, and we were standing in formation, having—just dropped our bags and stuff inside the building. Or we had ‘em with us, one way or the other. And the captain, who was called our tactical officer or TO—and he would be in charge of us for <date>the next six months</date>, to try to make <placeName>us</placeName> officers. His name was Capt. <placeName>Paris</placeName>, and just an awesome leader. </u>
+      <u who="NOPPENBERGER">Interesting.</u>
+      <u who="LUITWIELER">So three of us stepped forward, and all three of us happened to be athletic—one went to <orgName>Harvard</orgName>, I went to—I can’t remember where the third one went to. And he said, “Okay, drop and give me <date>30</date>, and then drop on the ground and give me 30 percent.” So while we were doing that, he was talking to everybody else. He said, “Now, from now on, when we do anything physical, these gentlemen will have to do more than you.”</u>
+      <u who="NOPPENBERGER">Wow! Why was that?</u>
+      <u who="LUITWIELER">Who knows, but it was great because, you know, we had the academic skills. I had good leadership skills. By the time I was done, I was in better shape than I’d ever been, and I thanked him—</u>
+      <u who="NOPPENBERGER">Wow!</u>
+      <u who="LUITWIELER">—for that. It was something I didn’t like when he said it, but it turned out to be good.</u>
+      <u who="NOPPENBERGER">[Chuckles.] Right. Wow! So what was that like? Was there any sort of—you know, the other—I guess—would they have been cadets or soldiers? Was there any sort of attempt to isolate the Ivy Leagues or sort of?</u>
+      <u who="LUITWIELER">No, not at all. No, everybody kind of—you knew that if you—if you work with other people, it might help you; if you didn’t, it’ll come back to bite you.</u>
+      <u who="NOPPENBERGER">Mmm.</u>
+      <u who="LUITWIELER">Everybody wanted everybody else to succeed, and everybody had two-man—you were in two-man rooms, and it was like being a freshman at [<orgName>the U.S. Military Academy</orgName> at] West Point. And a lot of things, you couldn’t do. Like, you couldn’t eat candies. We couldn't have any candy sent to you in the mail, or cookies or anything like that. If you did, you had to turn them over to the tactical officer. You couldn't step on the floor. You had to put your hands on the transom as you came into your room and swing onto your bed and get over to your desk.</u>
+      <u who="NOPPENBERGER">Wow!</u>
+      <u who="LUITWIELER">Your floor had to be polished at all times. And if you were walking down the hall on the rubber mat and an upperclassman or officer came by, you had to jump to the side. And your uniform and everything had to be spic and span, everything in your trunk had to be laid out a particular way. There was—everything was ordered and disciplined.</u>
+      <u who="NOPPENBERGER">And so this was for <date>six months</date>.</u>
+      <u who="LUITWIELER">Yeah, and if I thought that basic training was difficult, this jumped to an entirely new level. </u>
+      <u who="NOPPENBERGER">Wow.</u>
+      <u who="LUITWIELER">It was during this time that my wife and I also decided that during <date>Christmas</date> break we’d get married back in <placeName>Pittsburgh</placeName>. And I had a total of <date>three days</date>.</u>
+      <u who="NOPPENBERGER">Oh, wow. So did she plan most of it and then you arrived and—</u>
+      <u who="LUITWIELER">She was a professional caterer and food supervisor, so she prepared all the food for the reception back at her parents’ house. And we got married, and the next night we spent in <placeName>Pittsburgh</placeName> at a hotel and left early the next morning, in a snowstorm, to drive back to Fort Benning. [Chuckles.]</u>
+      <u who="NOPPENBERGER">Wow! That was—that was very rushed.</u>
+      <u who="LUITWIELER">And so—and we had been able to arrange to get an apartment with two bedrooms, but another couple—they were already married, so I had to go back and live in the barracks, obviously, and got to see my wife <date>some weekends</date> but not a lot. Yeah, maybe for three or four hours—</u>
+      <u who="NOPPENBERGER">Would she come down, or would you drive—</u>
+      <u who="LUITWIELER">No, she back—</u>
+      <u who="NOPPENBERGER">Would she come down to <placeName>Georgia</placeName>?</u>
+      <u who="LUITWIELER">She came back to Fort Benning and shared an apartment with another—</u>
+      <u who="NOPPENBERGER">Oh. Okay.</u>
+      <u who="LUITWIELER">—couple.</u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="LUITWIELER">And every time I’d see her, I’d drop off my uniforms, and she learned to starch them and polish the boots and stuff. [Chuckles.] Helped me get through it.</u>
+      <u who="NOPPENBERGER">Well, how—at what point—had you been—how long had you been at Fort Benning when you got married, and then how long did she have living on the base with you?</u>
+      <u who="LUITWIELER">Just about half-way, like, <date>three months</date>— </u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="LUITWIELER">—we had been there and then <date>three months</date> before I graduated.</u>
+      <u who="NOPPENBERGER">Okay. And so when you graduated, what happened next?</u>
+      <u who="LUITWIELER">Well, you fill out what’s called a “dream sheet,” like <date>a month</date> before you graduate. And you select the branch that you want, and unless it’s full, you get that. And then you—I think you try to pick where you could go, and I asked to go language school because I had scored extremely high, but I got turned down. I wanted to be in <orgName>Army</orgName> intelligence. That was what I was selected for. And then they sent me to <persName>Fort Holabird</persName>, outside of <placeName>Baltimore</placeName>, <placeName>Maryland</placeName>, which is now a federal prison.</u>
+      <u who="NOPPENBERGER">Oh.</u>
+      <u who="LUITWIELER">Back then, it was a nice, small fort.</u>
+      <u who="NOPPENBERGER">When you say the dream sheet—the dream sheet was to pick a branch, do you mean a branch within the <orgName>Army</orgName> or—</u>
+      <u who="LUITWIELER">Yeah, within the <orgName>Army</orgName>.</u>
+      <u who="NOPPENBERGER">Okay. Okay.</u>
+      <u who="LUITWIELER">Technically, you could have asked to become a Marine because you had all the trappings of a <orgName>Marine</orgName>, but that—that would have been hard to do, I think. But I had no interest in that.</u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="LUITWIELER">Yeah, did you want to be in artillery or infantry or intelligence or logistics or—there were, like, 15 different branches you could go into. And you’re right, they’re not called branches, but—</u>
+      <u who="NOPPENBERGER">Okay. And when you graduate, did you graduate with an officer title? </u>
+      <u who="LUITWIELER">Yes, you started as a second lieutenant.</u>
+      <u who="NOPPENBERGER">Okay, okay. So, sorry, please continue where you were. You had just—you had filled out your dream sheet.</u>
+      <u who="LUITWIELER">Yeah, and then I think, like, <date>a week</date> before you graduate, they tell you where you’re going. And so my wife and I loaded up our car and what few things we had, and we headed off to <placeName>Baltimore</placeName>. That was nice because we could then get back to <placeName>Pittsburgh</placeName> or <placeName>Boston</placeName> <date>one or two weekends</date> before I had to ship off to <placeName>Vietnam</placeName>.</u>
+      <u who="NOPPENBERGER">That was nice. And what was <placeName>Baltimore</placeName> like?</u>
+      <u who="LUITWIELER">It was a fun city. I had never—I think—I don’t think I’d ever been there before, and we made some new friends. We were making just enough money to pay the rent and not much more because she—she wasn’t working because it was too hard for <date>three months</date> to—to get a job, so we just enjoyed each other and had a good time.</u>
+      <u who="NOPPENBERGER">And when did you know that you would be going to <placeName>Vietnam</placeName>?</u>
+      <u who="LUITWIELER">I think within <date>three weeks</date> after starting intelligence school. It wasn’t long.</u>
+      <u who="NOPPENBERGER">And did they tell you how long you had before you were deploying?</u>
+      <u who="LUITWIELER">Yes, uh-huh. Like, I think <date>two days</date> after completing the course, I had tickets, ready to go to <placeName>Vietnam</placeName>. [Cross-talk; unintelligible].</u>
+      <u who="NOPPENBERGER">And so did your wife—I’m sorry,—</u>
+      <u who="LUITWIELER">Did my wife—</u>
+      <u who="NOPPENBERGER">Did your wife stay in <placeName>Baltimore</placeName>, or—</u>
+      <u who="LUITWIELER">No, no, she went back to live with her family because it was pretty clear there was nothing to come back to <persName>Fort Holabird</persName> to, unless you were going to teach. There wasn’t much in the way of active operations or anything there.</u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="LUITWIELER">Sure. First of all, on my <orgName>Army</orgName> records at that point, it was still stamped “Unfit for combat” because of my back injury, even though I had made it through <orgName>OCS</orgName>, which is pretty physically demanding. So I assumed I’d be working in <placeName>Saigon</placeName> in a military intelligence unit, probably involved with computers, doing analysis and stuff.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="LUITWIELER">From that point, it would be <date>about two years</date> away.</u>
+      <u who="NOPPENBERGER">So you knew—you knew how long you would be in <placeName>Vietnam</placeName>, <date>two years</date> at that time, they told you?</u>
+      <u who="LUITWIELER">No. Back in <date>those days</date>, the standard tour was <date>a year</date>, <date>365 days</date> exactly. </u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="LUITWIELER">If you wanted to stay more, they would encourage that, and you’d get what was called a reenlistment bonus, even for an officer. You’d get maybe $10,000 or something like that. And then you’d have to agree to stay in the service at least another two more years. So I knew I had a minimum of <date>a year</date> in <placeName>Vietnam</placeName> and then <date>about nine months</date> left on my military commitment, somewhere.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. Right. Okay. But you knew you’d have a job when you got back, which must have been—</u>
+      <u who="LUITWIELER">Yes. Yeah, I did. I didn’t have any concerns like <date>today</date>’s veterans. By the way, if you’re interested in getting into it more at the end if it’s of any interest. <date>Today</date> I do a lot of volunteer work with veterans in <placeName>Tulsa</placeName>.</u>
+      <u who="NOPPENBERGER">Veterans of <placeName>Vietnam</placeName> or just veterans in general?</u>
+      <u who="LUITWIELER">Just in general. I’m happening to work closely with a <placeName>Vietnam</placeName> vet that was there about the same time but had lots of problems. He became a drug addict—</u>
+      <u who="NOPPENBERGER">Uh-huh. </u>
+      <u who="LUITWIELER">—and then ended up in court, and that’s how I got to meet him.</u>
+      <u who="NOPPENBERGER">That’s—that is rough.</u>
+      <u who="LUITWIELER">I think it was ’67, but I was—if you can find the date of the Tet Offensive, if you backtrack <date>seven months</date>, that’s kind of when I started, and <date>five months</date> after the Tet Offensive is when I departed. That was—</u>
+      <u who="NOPPENBERGER">Okay. It says here that you served in the <orgName>Army</orgName>—you served in the <orgName>Army</orgName> <date>from 1966 to 1969</date>.</u>
+      <u who="LUITWIELER">Yes. So I think I went over in, like, <date>July</date> of <date>’67</date> and came back in <date>June</date> of ’68, something like that.</u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="LUITWIELER">I finished [unintelligible].</u>
+      <u who="NOPPENBERGER">What was it like—</u>
+      <u who="LUITWIELER">What was it like?</u>
+      <u who="NOPPENBERGER">Sorry. Sorry. No, no, the connection gave out a little bit. So what—but, yeah, I guess we can talk about that. What was it like landing in with—yeah, just start from the beginning.</u>
+      <u who="LUITWIELER">Yeah. We flew on a regular, it was a <orgName>TWA</orgName> [<orgName>Trans World Airlines</orgName>] flight. They were all chartered flights, so everybody there flew from I think it’s <placeName>Los Angeles</placeName>. Everybody on the flight was going to what was call <persName>Tan Son</persName> Nhut Air Base, outside of <placeName>Saigon</placeName>. And the base, itself, I think was called <placeName>Long Binh</placeName>, L-o-n-g B-i-h-n [sic; B-i-n-h]. Why I remember that, I don’t know.</u>
+      <u who="NOPPENBERGER">Well, okay, so you said that you landed <date>about seven months</date> after the Tet Offensive started? Is that—</u>
+      <u who="LUITWIELER">No, no,—</u>
+      <u who="NOPPENBERGER">—correct?</u>
+      <u who="LUITWIELER">—<date>seven months before</date>.</u>
+      <u who="NOPPENBERGER">Before. Okay. So the Tet Offensive started at <date>the beginning of 1968</date>, so you would have landed in <date>1967</date>?</u>
+      <u who="LUITWIELER">Right, uh-huh.</u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="LUITWIELER">Something like <date>August</date>, <date>early August ’67</date>, and finished in <date>July</date> of ’68 or something like that.</u>
+      <u who="NOPPENBERGER">Okay, okay. Sorry, just to get some clarity on the date there.</u>
+      <u who="LUITWIELER">I reported into <orgName>the Military Intelligence Command</orgName> in <placeName>Saigon</placeName>, and I stayed there for probably <date>three days</date>. You go through orientation and find out where I was being sent, and they sent me to the northernmost part of <placeName>Vietnam</placeName>, <persName>Quang Tri</persName>, Q-u-a-n-g and then another word, T-r-i. [sic; <persName>Quảng Trj Province</persName>.]</u>
+      <u who="NOPPENBERGER">And what were you doing up there?</u>
+      <u who="LUITWIELER">It was part of what was called <orgName>the Military Assistance Command</orgName>, <placeName>Vietnam</placeName>, <orgName>MACV</orgName>. And I was to go up there basically documented as a civilian but with—</u>
+      <u who="NOPPENBERGER">Really!</u>
+      <u who="LUITWIELER">Yeah. And—</u>
+      <u who="NOPPENBERGER">And was that because you weren’t—you weren’t technically fit for combat, even though you’re an officer?</u>
+      <u who="LUITWIELER">No. I’ll cover the combat part first. I did complain to the commanding officer that I had my first interview with, and I said, “You’re sending me into the high-combat region, and my profile says ‘unfit for combat.’” And he said, “Well, you’ll need to take that up with your senator” or something. “As far as I’m concerned, you’re fit for combat.” </u>
+      <u who="NOPPENBERGER">Oh!</u>
+      <u who="LUITWIELER">So I went up to <placeName>Vietnam</placeName>, to <persName>Quảng Trj</persName>, to serve a developed intelligence network as civilians and we were document as <orgName>USAID</orgName> [<orgName>U.S. Agency for International Development</orgName>] workers.</u>
+      <u who="NOPPENBERGER">Was this to sort of avoid any kind of suspicion, or was it just common practice to have you enrolled as a civilian? I guess I’m not that—</u>
+      <u who="LUITWIELER">Yeah, we were supposed to blend in with other agency people—</u>
+      <u who="NOPPENBERGER">Okay, got it.</u>
+      <u who="LUITWIELER">—and not be seen as intelligence officers. And three of us lived in a house, and agents that we were running with came in there or we’d meet in other places, prepare reports and send them out. But then we also had full access to the military compound, which was in walking distance. So did every aid person, and many of those were truly members of the <orgName>USAID</orgName> group.</u>
+      <u who="NOPPENBERGER">And what was your job as an intelligence officer while you were—</u>
+      <u who="LUITWIELER">We—we developed and analyzed intelligence reports to develop agents, et cetera. </u>
+      <u who="NOPPENBERGER">And were the Vietnamese people that you were in contact with—can you tell me a little bit about them?</u>
+      <u who="LUITWIELER">I don’t remember very much about them when I was working at <orgName>MACV</orgName>, to be honest. And that all changed <date>about two months</date> before the Tet Offensive.</u>
+      <u who="NOPPENBERGER">Tell me about that change.</u>
+      <u who="LUITWIELER">Yeah. They came up with a program that was called the <placeName>Phoenix</placeName>, like the city or like the bird that rose from the ashes?</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. </u>
+      <u who="LUITWIELER">And so I went back to <placeName>Saigon</placeName> for <date>five days’</date> training, and this was I think a much smarter way to operate an intelligence operation, like an American in <placeName>Vietnam</placeName>. Basically your job was to work with other, existing agencies, Naval, Vietnamese [unintelligible] and provide them guidance and funding and direction. And so I left <persName>Quảng Trj</persName> and went further north to a much smaller town, village, and lived in a compound with Vietnamese. [cross-talk; unintelligible]—</u>
+      <u who="NOPPENBERGER">And were you working on your language—</u>
+      <u who="LUITWIELER">Was I happy there?</u>
+      <u who="NOPPENBERGER">Well,—and how were—how were your language skills at this point? Were you still working on your language, on Vietnamese?</u>
+      <u who="LUITWIELER">Yeah. What I did was I helped teach English at a elementary school that was walking distance from the compound. And by doing that, I forced myself to learn a little bit of Vietnamese, but not much.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>, <persName>mm-hm</persName>. </u>
+      <u who="LUITWIELER">So I lived in the compound and shared a bunkhouse, I guess you’d call it, with five other military advisers: a major, a captain, another lieutenant and three sergeants. And our job was to work with the Vietnamese and teach them things around their skill level. At least the people who lived in the compound were like <orgName>National Guard</orgName> people. They would work their fields and be with their families during <date>the day</date>; then around seven o’clock they’d come into the compound. So I ran—</u>
+      <u who="NOPPENBERGER">And what were you—what were you teaching them? You said, “at your skill level.” What exactly did that mean?</u>
+      <u who="LUITWIELER">Yeah. I was teaching and working with different intelligence agencies like <orgName>the Provincial Reconnaissance Unit</orgName> and the local police and another seven or eight different agencies. And then I’d also deal with <orgName>the 1st Cavalry [Division</orgName>], and then moved into the area and helped set up operations based on my intelligence that I would provide.</u>
+      <u who="NOPPENBERGER">And this was all through <orgName>the Phoenix Program</orgName>.</u>
+      <u who="LUITWIELER">Yes, uh-huh, and this was <date>about a month and a half</date> before <name type="event">the Tet Offensive</name>. And I’ll tell you, <date>about a month</date> before that, I was sending in reports that there was a significant buildup, north of the demilitarized zone and approaching where we were.</u>
+      <u who="NOPPENBERGER">So you could sort of sense the rumblings that were happening before <name type="event">the Tet Offensive</name>.</u>
+      <u who="LUITWIELER">Well, we had agents who were getting reports from  [unintelligible]. I would get [unintelligible] Vietnamese and then giving me the report.</u>
+      <u who="NOPPENBERGER">Sorry, the audio sort of went funny there. Could you repeat that, please?</u>
+      <u who="LUITWIELER">Yeah. We had agents that we had that were reporting to us, and they would either verbally sit with me or with the Vietnamese and provide intelligence and we would then submit into <placeName>Saigon</placeName>. And that’s where we were getting the intelligence from.</u>
+      <u who="NOPPENBERGER">And did that intelligence sort of give any hint towards the Tet Offensive?</u>
+      <u who="LUITWIELER">Yes, absolutely. And I’m sure other <placeName>Phoenix</placeName> offices were getting the same stuff.</u>
+      <u who="NOPPENBERGER">Were you—or how was your time then affected once <name type="event">the Tet Offensive</name> started, both as someone living in <placeName>Vietnam</placeName>, the northern part of <placeName>Vietnam</placeName>, and as an intelligence officer?</u>
+      <u who="LUITWIELER">And also, by the way, at this point I was wearing combat fatigues, as they call it, and I had no insignia, and no one would know I was an officer or [unintelligible].</u>
+      <u who="NOPPENBERGER">Oh, okay, okay.</u>
+      <u who="LUITWIELER">—intelligence. I just looked like a normal <orgName>PFC</orgName>, without any rank on the shirt.</u>
+      <u who="NOPPENBERGER">And <orgName>PFC</orgName> would be?</u>
+      <u who="LUITWIELER">Private first class.</u>
+      <u who="NOPPENBERGER">Right, right.</u>
+      <u who="LUITWIELER">Enlisted—enlisted man.</u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="LUITWIELER">So I had never been—I’d never been under fire or been shot at or anything like that prior to the Tet Offensive, and after the Tet Offensive, that particular night—or <date>the day</date> of the—before, we had <date>a New Year’s</date> or Tet celebration inside the compound for all the locals, and had long tables set up, and the district chief gave a talk in Vietnamese. He was a Vietnamese, himself, and in the military. And it was just a day of celebration. </u>
+      <u who="NOPPENBERGER">And this was your first experience being under fire.</u>
+      <u who="LUITWIELER">Yes, uh-huh.</u>
+      <u who="NOPPENBERGER">Oh, my gosh.</u>
+      <u who="LUITWIELER">And we were surrounded on I think two sides. But the good news was <orgName>the 1st Cavalry</orgName> had moved into that region—you know, within 50 miles, <date>about two weeks earlier</date> because of all the intelligence reports.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="LUITWIELER">So we were able to call on them, and they had helicopter gunships, and they had—</u>
+      <u who="NOPPENBERGER">How many miles were they away?</u>
+      <u who="LUITWIELER">I don’t know exactly, they were within 50 miles, [unintelligible].</u>
+      <u who="NOPPENBERGER">Fifty or 15, sorry.</u>
+      <u who="LUITWIELER">Yeah, five-zero.</u>
+      <u who="NOPPENBERGER">Oh, okay, okay. Oh, yeah, I’m sure with helicopters that’s not—</u>
+      <u who="LUITWIELER">Yeah, they could be there within ten minutes.</u>
+      <u who="NOPPENBERGER">Okay.</u>
+      <u who="LUITWIELER">And they were able to—we had, you know, barbed wire out in the fields to stop anything, and but that didn’t stop them sending mortars in or firing rockets.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="LUITWIELER">But <orgName>the 1st Cav</orgName> kept them from overrunning us and the machine gun nest that we had built up on top of our building that we lived in. Not a building. It was a bunker [unintelligible]. And they were—it was being operated by two or three Vietnamese soldiers and a North Vietnamese rocket hit right between two of them and exploded behind [unintelligible] injured. But there was no way—they came running down the stairs [unintelligible] Vietnamese. They weren’t going back up. </u>
+      <u who="NOPPENBERGER">Yeah.</u>
+      <u who="LUITWIELER">You just did it. And it had to be done, and it wasn’t something to delegate. There wasn’t anybody to delegate it to. You couldn’t ask one of the Vietnamese to go up there because they were fighting, and we just left there. That was another [unintelligible] plus for <orgName>the 1st Cav</orgName>.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. And did that have a recording of the—of the machine gun or—</u>
+      <u who="LUITWIELER">Yeah, the mortars and things like that. My wife said it terrified her later. But she was happy that—</u>
+      <u who="NOPPENBERGER">Oh, yeah.</u>
+      <u who="LUITWIELER">But she knew I survived, <orgName>so—[Coughs</orgName>.] Excuse me.</u>
+      <u who="NOPPENBERGER">Yeah. No problem. </u>
+      <u who="LUITWIELER">[Unintelligible].</u>
+      <u who="NOPPENBERGER">—on the—on the—on the—on the base?</u>
+      <u who="LUITWIELER">Yeah.</u>
+      <u who="NOPPENBERGER">Or on the bunkhouse?</u>
+      <u who="LUITWIELER">Yeah, I wouldn’t call it a base. This was maybe a half mile by half mile facility with 120 Vietnamese inside it and eight Americans and one Australian. But, yeah, we—from that point on, I would do patrols, going into villages as part of <orgName>the Phoenix Program</orgName>, to identify, capture or eliminate North Vietnamese or—I’m trying to remember what the South Vietnamese were called that were not <persName>pro-Vietnam</persName>? Uch, I can’t remember it. But anyways, so—</u>
+      <u who="NOPPENBERGER">Do you mean, like, the Viet Cong?</u>
+      <u who="LUITWIELER"><persName>Viet Cong</persName>. That’s it, yeah. We were trying to eliminate North Vietnamese or <placeName>Viet Cong</placeName> or political leaders.</u>
+      <u who="NOPPENBERGER">And did that happen very often? I mean, did you come across—</u>
+      <u who="LUITWIELER">I’d say at least—at least twice a week.</u>
+      <u who="NOPPENBERGER">Okay. And what would you do with the captured persons?</u>
+      <u who="LUITWIELER">Generally, in the ones that we did, we would arrest people or would gain more intelligence or try to turn them into agents.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. And was that done all on your half mile by half mile building, or would you go to a larger base?</u>
+      <u who="LUITWIELER">No, no, no. As far as interviewing them?</u>
+      <u who="NOPPENBERGER">As far as any—any sort of dealings with them.</u>
+      <u who="LUITWIELER">Yeah, the patrol sometimes would do things right out in the field. I mean, you might walk or drive, no they had to walk, five or ten miles to get to where we were going, and then some of the operations followed through with <orgName>the 1st Cavalry</orgName> and assist them or they’d assist me.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. And when you say, “go out to the field,” do you mean for interviewing or for?</u>
+      <u who="LUITWIELER">Well, to—to encircle a village and then go through the entire village one by one to make sure everybody that was there was properly documented, talked to them to see when the Viet Cong were there, see if we could get names. Occasionally, we would find weapons, or we’d find somebody that was still there, and then arrest him and take him back to the Vietnamese to interrogate him.</u>
+      <u who="NOPPENBERGER">And this was—this was under the sort of umbrella of <orgName>the Phoenix Program</orgName>, yes?</u>
+      <u who="LUITWIELER">Yeah, uh-huh, right.</u>
+      <u who="NOPPENBERGER">Okay. And so how—how long did you do that sort of <date>day to day</date> of going to villages, finding either northerners or Viet Cong? How—how long did that last?</u>
+      <u who="LUITWIELER">Until I left.</u>
+      <u who="NOPPENBERGER">And when was that?</u>
+      <u who="LUITWIELER">I think that was in May. It must be <date>June</date>, I think, <date>June</date> or <date>July</date>.</u>
+      <u who="NOPPENBERGER">So <date>summer</date> of ’<date>68</date>?</u>
+      <u who="LUITWIELER">Sixty-eight, yeah. <date>Late spring</date>, <date>early summer</date> of <date>‘68</date>.</u>
+      <u who="NOPPENBERGER">Okay. And while you were in <placeName>Vietnam</placeName>, did you ever get to leave? I know sometimes—sometimes soldiers would get, like, <date>a week</date> to see family or to travel. Did you ever get to experience anything like that?</u>
+      <u who="LUITWIELER">Yup, they had what they call <persName>R&amp;amp;R</persName>, rest and recreation.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="LUITWIELER">My wife flew to <placeName>Honolulu</placeName>, and I flew down to what was called Cam Ranh Bay and then to <placeName>Honolulu</placeName>. And this was before <name type="event">the Tet Offensive</name>.</u>
+      <u who="NOPPENBERGER">Okay. And was that <date>a full week</date>?</u>
+      <u who="LUITWIELER">I think we probably saw each other for <date>five days</date> out of <date>a week</date>, because it took <date>a day</date> to get down and then <date>a day</date> to get back—</u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="LUITWIELER">—to my unit.</u>
+      <u who="NOPPENBERGER">And in <placeName>Vietnam</placeName> did you make any close friendships?</u>
+      <u who="LUITWIELER">They were—they were close when we were there. You know, we each left at different times, whenever <date>our year</date> was up. But my commanding officer <date>my last three months</date> was a Major John [M. D.] <persName>Shalikashvili</persName>, and I saw him being interviewed—</u>
+      <u who="NOPPENBERGER">Excuse me, could you repeat that name? The audio—</u>
+      <u who="LUITWIELER">Yeah, Major <persName>John Shalikashvili</persName>.</u>
+      <u who="NOPPENBERGER">Okay, and where was he from?</u>
+      <u who="LUITWIELER">I think he grew up in <placeName>Hungary</placeName>, but he was a <orgName>U.S. Army</orgName> major who later became chairman of <orgName>the Joint Chiefs of Staff</orgName>.</u>
+      <u who="NOPPENBERGER">Oh, wow.</u>
+      <u who="LUITWIELER">First foreign-born to become the chairman of <orgName>the Joint Chiefs of Staff</orgName>. But when he was interviewed by the [<placeName>U.S.</placeName>] <orgName>Senate</orgName>. I just—I’ve never watched C-SPAN [chuckles],—</u>
+      <u who="NOPPENBERGER">[Chuckles.]</u>
+      <u who="LUITWIELER">—and that particular day, I happened to turn it on and I saw him, and I wrote him a nice long letter, and he wrote back to me. That was the only contact I had with anybody recently.</u>
+      <u who="NOPPENBERGER">Oh. Oh, so this was recent. On <orgName>C-Span</orgName>.</u>
+      <u who="LUITWIELER">It was during the [President <persName>William J. “Bill</persName>”] <persName>Clinton</persName> <date>years</date>.</u>
+      <u who="NOPPENBERGER">Okay, so a good time after <placeName>Vietnam</placeName>, but—yeah.</u>
+      <u who="LUITWIELER">Oh, yeah, yeah.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="LUITWIELER">There were some—I’d have to look his name up, but a guy <date>about eight years ago</date> started pulling together people that had served in <persName>Quảng Trj</persName> in the victim services. And so he contacted me, and he’s bringing back friendships, himself. And that’s been kind of interesting.</u>
+      <u who="NOPPENBERGER">Yeah, yeah. </u>
+      <u who="LUITWIELER">Yeah.</u>
+      <u who="NOPPENBERGER">—anything?</u>
+      <u who="LUITWIELER">When I worked in <persName>Quảng Trj</persName>, there was another group like mine that lived in civilian housing, in a city called <persName>Hué</persName>, H-u-e, on <placeName>the Perfume River</placeName>. And I got to know them pretty well and went down the <persName>Hué</persName> a couple of times to share resources and analysis. During <name type="event">the Tet Offensive</name>, two of those guys were captured by the Viet Cong. And my understanding is they both escaped within <date>two or three weeks</date>, but that’s all I know. I can’t remember their names.</u>
+      <u who="NOPPENBERGER">uh-huh. Wow. </u>
+      <u who="LUITWIELER">And then—</u>
+      <u who="NOPPENBERGER">Do you ever—oh, sorry. Keep going.</u>
+      <u who="LUITWIELER">Yeah. When I was doing all these—what would you call them?—small, <date>one-day</date> operations, my radioman, a Vietnamese, had stepped on a land mine and had to call in to get a medevac [medical evacuation], and that was the only incident where we weren’t inside the compound, where one of my men got injured. We never got shot at during <date>the day</date>. We got shot at plenty of times at night in the compound after that. [cross-talk; unintelligible].</u>
+      <u who="NOPPENBERGER">What was that like?</u>
+      <u who="LUITWIELER">It was unnerving.</u>
+      <u who="NOPPENBERGER">What—what—I mean, how do you respond to that when you’re under fire at night? Do you—do you attack back, or do you try to—I mean, what is the process or the drill for that?</u>
+      <u who="LUITWIELER">Well, if you can identify where it’s coming from, then you’d call in artillery or what we generally—we’d call, on a secure communications system, and give them coordinates, and they’d either bring in what they called the [<orgName>Lockheed</orgName> U-2] “Dragon Lady,” which is a big airplane that had all these, not all, about four or five machine gun cannon. They would strafe wherever we would tell them to strafe, or they would bomb. That’s what we would do. [Pause.]</u>
+      <u who="NOPPENBERGER">Are you all right?</u>
+      <u who="LUITWIELER">Yeah, yeah.</u>
+      <u who="NOPPENBERGER">Okay. Sorry, I didn’t know if you were reaching for some water or for a lozenge anything like that.</u>
+      <u who="LUITWIELER">No.</u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="LUITWIELER">Well, it probably would help to just explain what—with <date>about three weeks</date> to go, a lot of my <placeName>Phoenix</placeName> work was done through the <orgName>CIA</orgName> [<orgName>Central Intelligence Agency</orgName>].</u>
+      <u who="NOPPENBERGER">Okay, okay.</u>
+      <u who="LUITWIELER">The head of the <orgName>CIA</orgName> province operation was kind of who I reported to, and if I needed any materials or anything like that, I didn’t go through the <orgName>Army</orgName>—I was told to go through this man because he could get it much quicker and much easier. So he invited me to a meeting in <placeName>Da Nang</placeName>, and they had a very nice steak dinner, and had a—I guess had a house, I think—I don’t think it was an officers’ club— and complimented me on what I had done. I kind of set some good goals for other people, et cetera. And, by the way, if I was interested, they could get me out of the <orgName>Army</orgName> within <date>three days</date> and make me a civilian and get paid equivalent to an <orgName>Army</orgName> captain, and they would fly my wife to the <placeName>Philippines</placeName>, and I’d get to see her <date>about every month</date> for <date>a weekend</date>. And I said, “I assume that means that I have to stay in <placeName>Vietnam</placeName>.” They said, “Oh, yeah.” I said, “Well, I’m not going to bother asking my wife because I know what the answer will be.”</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="LUITWIELER">I left <date>about two weeks later</date>, on very good terms. I was honored that they would ask, but I had no interest.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="LUITWIELER">And like when I was getting ready to graduate from <orgName>OCS</orgName>, I had to fill out another dream sheet, and <orgName>the Army Intelligence</orgName> has a military base outside of <placeName>Boston</placeName> called <placeName>Fort Devens</placeName>. And they generally tell you, “Don’t put your first choice first because the <orgName>Army</orgName> will never give it to you,” but I thought, Well, I’m not going to take any chances. I put down <placeName>Fort Devens</placeName>, and then I put two other places and to my pleasant surprise, <placeName>Fort Devens</placeName> came back, and this was a great chance for my wife to get to know my mother and for me to spend more time with my mother.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="LUITWIELER">So it worked out very well. So I was there for <date>my last eight months</date>. Doing—</u>
+      <u who="NOPPENBERGER">And did you—please continue</u>
+      <u who="LUITWIELER">—artillery intelligence operations. I’d just tell them I was a first lieutenant. And we were doing background investigations of people in <orgName>the U.S. Army</orgName> and writing up reports.</u>
+      <u who="NOPPENBERGER">Were these people who were under suspicion of some sort of—</u>
+      <u who="LUITWIELER">No, no. If they wanted a security clearance.</u>
+      <u who="NOPPENBERGER">Oh, okay, okay.</u>
+      <u who="LUITWIELER">Now, if somebody was under suspicion, that would have been the military police who do that or the <orgName>CID</orgName>, <orgName>the Criminal Investigation Division</orgName>. We were strictly doing security clearances, like for <persName>Hillary</persName> [<persName>Rodham Clinton</persName>].</u>
+      <u who="NOPPENBERGER">For who?</u>
+      <u who="LUITWIELER">Like <persName>Hillary Clinton</persName> <date>today</date>.</u>
+      <u who="NOPPENBERGER">Oh, okay, okay. That’s what I thought, but I just wanted to make sure. Okay. Wow.</u>
+      <u who="LUITWIELER">Strictly for military people, to you give access to different levels of classifications.</u>
+      <u who="NOPPENBERGER">Oh, okay, okay. And so—</u>
+      <u who="LUITWIELER">People—</u>
+      <u who="NOPPENBERGER">—you were in <placeName>Boston</placeName>. Your wife—did she live on the—on a base—on the base, or—</u>
+      <u who="LUITWIELER">They had officer housing there, and we had a split duplex, and we got to know the other couple next door, and we stayed friends with them, and I’m still friends with the man and his wife. My first wife passed away <date>about ten years ago</date>, but—</u>
+      <u who="NOPPENBERGER">Oh, I’m sorry.</u>
+      <u who="LUITWIELER">—we had a good bond with the couple next door, which wasn’t always the case. We just happened to enjoy each other’s company, so it worked out well.</u>
+      <u who="NOPPENBERGER">Mmm. </u>
+      <u who="LUITWIELER">Again, the commanding officer on that base—we had a discussion I think <date>about a month</date> before I left, and he again made it clear that if I stayed—not again, but he—he, himself, said, you know, “You’re on a clear path to become a captain within <date>the next four to five months</date>, and we’d love to keep you here.” And I said, “You know, I do enjoy the military and it’s been very good to me, and I feel very confident in what I’m doing.” I was also involved in doing computer work there. But I said, “If I do continue on, my chances of going back to <placeName>Vietnam</placeName> were about 90 percent.” He said, “Yes.”</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="LUITWIELER">This time I did talk to my wife because she was right there. She said no. She was ready to go back to work, for me to go back to <placeName>Pittsburgh</placeName> with <placeName>Gulf</placeName>. We did.</u>
+      <u who="NOPPENBERGER">And that was <date>1969</date>. Do you remember around what <date>month</date> that would have been that you finished your service?</u>
+      <u who="LUITWIELER">Yeah, it would have been—it would have been around <date>June</date>.</u>
+      <u who="NOPPENBERGER"><date>June 1969</date>. And did you ever stay—I mean, I know you stayed at—</u>
+      <u who="LUITWIELER">Sorry, it must have been earlier than that because my son was born in <date>June</date> of ’69, so that was probably <date>May</date> of ’69.</u>
+      <u who="NOPPENBERGER">Okay. So spring of—end of <date>the spring in 1969</date>?</u>
+      <u who="LUITWIELER">Uh-huh. </u>
+      <u who="NOPPENBERGER">Okay. And I know you said you—you know, you wrote letters to the general, and you were in contact with some people, but did you ever do anything, like join any sort of veteran groups, besides your volunteer work, just anything for yourself or other people that you—a way to talk to other people who had been serving at the same time as you?</u>
+      <u who="LUITWIELER">I did nothing like that for <date>the next 50 years</date>. <date>The last four years</date>, I’ve done a lot.</u>
+      <u who="NOPPENBERGER">And what—like what?</u>
+      <u who="LUITWIELER">Well, I’ve done volunteer work. You’ve read the chapter that we wrote for the—our class did on <placeName>Vietnam</placeName>.</u>
+      <u who="NOPPENBERGER">Could you—could you—could you—for future listeners, could you talk about that in this interview?</u>
+      <u who="LUITWIELER">Talk about which?</u>
+      <u who="NOPPENBERGER">Talk about the chapter that you wrote, if you—if you’d like.</u>
+      <u who="LUITWIELER">I think I’ve talked, but the basic message was that I matured thoroughly by going to <placeName>Vietnam</placeName> and was happy to serve but happy to leave. [Chuckles.]</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. And that—and that was in the Class of ’64 book.</u>
+      <u who="LUITWIELER">Right, mm-hm.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. And was this volunteer work spurred by anything in particular, or was it something that you just realized you had a passion for?</u>
+      <u who="LUITWIELER">No, a <orgName>Marine</orgName>, young <orgName>Marine</orgName> came and talked to our Bible study group just about two—a little over <date>two years ago</date>, and mentioned that 22 veterans a day were committing suicide.</u>
+      <u who="NOPPENBERGER">Wow.</u>
+      <u who="LUITWIELER">I was absolutely astounded. And I said, “So what—what can we do to help?” And he said, “If you’re a veteran, you can help keep them going through the court system,” and that’s when I started volunteering very actively.</u>
+      <u who="NOPPENBERGER">What kind of volunteer work is that with the court system? Do you go to court with them, or what exactly do you do?</u>
+      <u who="LUITWIELER">It’s called a mentor system and you’re required to have been in the military, not necessarily in combat, but it helps—and you meet with them <date>at least once a day</date>, and I once—I’m sorry, once a week. And you show up in court with them when they show up. I have since become a squad leader, so I have 12 mentors working underneath me, so I go to court every <date>Monday</date>, and they only go when their mentee shows up. But you’re there to help the veteran in any way that they need it, whether it means just being a good listener, which is the first part, and then helping them in any way you can, other than help provide them a lot of funding because you probably won’t get it back. [Chuckles.]</u>
+      <u who="NOPPENBERGER">Yeah. [Chuckles.] Well, that sounds like really great work. I know a lot of veterans, especially with <name type="event">Vietnam War</name>, struggled because of the public backlash to the war. Did you ever have to deal with anything like that, whether it was protesters or just people in your personal life disagreeing with the war?</u>
+      <u who="LUITWIELER">Yes, my—I think the second night I was back in <placeName>Pittsburgh</placeName>, my in-laws had a very nice welcome home party for friends of theirs in the neighborhood and any friends that we had. And this woman next door, who I had known fairly well—she had known my wife since she grew up—she was pleasant enough when I left to go in the military, and she came up on the patio where I was standing, and she—after about a minute of just simple chit-chat, she said, “I think it’s terrible that you were in that war. I don’t know why anybody would serve in that war. And can you explain it?” And I said, “I’m serving my country, <persName>ma’am</persName>, and if that doesn’t make sense to you, then I don’t see how I can get it across to you.” She goes, “Well, that’s a stupid answer.” [Chuckles.]</u>
+      <u who="NOPPENBERGER">Oh, wow.</u>
+      <u who="LUITWIELER">And I just turned—that was it. I mean, that was my—my welcome home from one neighbor, and—we were never friends. I mean, my wife heard the whole thing, and she just—she was insulted, like I was.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="LUITWIELER">So I didn’t—I went to one—my insurance agent had sent a bunch of stuff, collected a bunch of things to provide to the locals, and so I promised him I’d give a talk when I came back, so I gave two or three talks about life in <placeName>Vietnam</placeName>. I had done a lot of slides of—you know, what life was like, not military wise, just how people got around, what they ate and what the scenery was like. So I did that a couple of times for local groups. Met—and that was about it.</u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="LUITWIELER">My children—my children rarely asked me about it because they could tell I didn’t want to talk about it. Now they ask it all the time.</u>
+      <u who="NOPPENBERGER">How many children do you have?</u>
+      <u who="LUITWIELER">Three children.</u>
+      <u who="NOPPENBERGER">Three? I know you said your son, who was born right after you had gotten out of the <orgName>Army</orgName>—was that your oldest—</u>
+      <u who="LUITWIELER">Our first.</u>
+      <u who="NOPPENBERGER">—your oldest child?</u>
+      <u who="LUITWIELER">Yeah, uh-huh.</u>
+      <u who="NOPPENBERGER">And then sons, daughters afterwards?</u>
+      <u who="LUITWIELER">Then I had another son <date>about two years later</date> and then a daughter <date>about five years later</date>, and she was born in <placeName>London</placeName>.</u>
+      <u who="NOPPENBERGER">Oh! <date>What year</date> was that? What were you doing in <placeName>London</placeName>?</u>
+      <u who="LUITWIELER"><orgName>Gulf Oil</orgName>. I got transferred to <placeName>London</placeName> for <date>a year</date>.</u>
+      <u who="NOPPENBERGER">oh, okay. So wow! Thank you so much. This—I mean, we’ve covered <placeName>Vietnam</placeName>. If there is anything else that you’d like to talk about at all?</u>
+      <u who="LUITWIELER">No, I’ve kind of run my thing, and if you have any questions after you look at your notes, feel free to call back or e-mail back, and if you get any questions from reading that chapter, or if there’s any disagreements with what I said, let me know.</u>
+      <u who="NOPPENBERGER">Okay. Well, I’m going to end this recording at 11:19.</u>
+      <u who="LUITWIELER">Okay. </u>
+    </body>
+  </text>
+</TEI>

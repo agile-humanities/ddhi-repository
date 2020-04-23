@@ -1,0 +1,145 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="RIDKER"/>
+        <person xml:id="COONRAD"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="RIDKER"><date>Today is Tuesday, May 12th</date>. I am interviewing <persName>Douglas Coonrad</persName>, <orgName>Dartmouth</orgName> ’<date>67</date>. This is <persName>Elena Ridker</persName>, and I’m sitting in <orgName>Rauner</orgName> [<orgName>Special Collections] Library</orgName>. It’s about 3 p.m., and I have Mr. <persName>Coonrad</persName> on the other line, on a phone interview.</u>
+      <u who="COONRAD">You’re welcome, and you can go ahead and call me <persName>Doug</persName>.</u>
+      <u who="RIDKER"><persName>Doug</persName>, all right. That’s great.</u>
+      <u who="COONRAD">Just add “the great Class of ’67.” That’s a plug for the class.</u>
+      <u who="RIDKER">Best class ever, right?</u>
+      <u who="COONRAD">I was born to <persName>Robert</persName> and <persName>Charlotte Coonrad</persName> in <placeName>Troy</placeName>, <placeName>New York</placeName>. I have two older siblings that were <date>two years and four years</date> older than me. And stayed there all the way through high school.</u>
+      <u who="RIDKER">And what was your childhood like? Do you mind talking about that a little bit?</u>
+      <u who="COONRAD">I think fine. I’m not sure. There’s things in the past memory that I don’t remember quite vividly. I had a normal childhood. The family had a lot of kids in it. We put on little circuses and played a lot of outdoor games. Boys and girls played together without any recognition that there were differences. It was overall a good, wholesome time.</u>
+      <u who="RIDKER"><persName>Mm-hm</persName>. Were you close with your parents and your siblings?</u>
+      <u who="COONRAD">My brother and I were not close because I was a more outdoors-y type person, and he was a technical guy that liked ham radio, and he became an electrical engineer ultimately and designed the subway switching system for <placeName>Washington</placeName>, <placeName>D.C.</placeName>, when he worked for <orgName>Siemens</orgName>. He built an oscilloscope and a TV when he was, like, <date>7 or 8 years old</date> or something and far surpassed my efforts in those aspects of life.</u>
+      <u who="RIDKER">And so how did you end up at <orgName>Dartmouth</orgName> after that? Did your interests in hiking and skiing kind of lead you there?</u>
+      <u who="COONRAD">The guy that took us most of our hiking trips on <date>weekends</date>, doing <name type="event">the Long Trail</name> in <placeName>Vermont</placeName>, which is part of that—the lower part of it is part of the <placeName>Appalachian Trail</placeName> system, as is a large part of <orgName>the Dartmouth Outing Club</orgName> trail system—he was familiar—he was from <placeName>Boston</placeName> area and was more familiar with the lights and <orgName>the Appalachian Mountain Club</orgName> and the cabins that they have and just suggested, “Aw, jeez, a bunch of <placeName>Dartmouth</placeName> guys.” Worked for the [<placeName>Mount Washington</placeName>] Cog Railway and the hut masters and involved in that. He liked the outdoors. He liked skiing. <orgName>Dartmouth</orgName>’s got a ski area, as did <orgName>Middlebury</orgName> [College] at the time, and still does—which, by the way, I’ve learned I guess those are the only two schools that still have a ski area.</u>
+      <u who="RIDKER">And how did you spend much of your time at <placeName>Dartmouth</placeName>? What kind of activities did you do?</u>
+      <u who="COONRAD">Well, initially, at that time there was no pledging till <date>your sophomore year</date>. Pretty well. I don’t even think undergraduates were allowed or freshmen were allowed in fraternities. But I gravitated to <orgName>the Outing Club</orgName>, the [<orgName>Dartmouth] Mountaineering Club</orgName> because I’d done rock climbing. I was a rock climbing instructor my freshman year and actually went back to the 25th reunion, and a gentleman came up to me and said, “Do you remember me?” And I said, “No.” He’d remembered me because I’d been a rock climbing instructor.</u>
+      <u who="RIDKER">Do you mind speaking a little bit—sir?</u>
+      <u who="COONRAD">Go ahead.</u>
+      <u who="RIDKER">I’m sorry. I thought I lost connection. Do you mind speaking a little bit more about your experiences in <placeName>ROTC</placeName> and what those classes were like?</u>
+      <u who="COONRAD">Well, some of the classes were recognizing ships and aircraft and things like that or classes in navigation. Every <date>Wednesday</date> we’d dress up in uniforms and march around campus for our marching drills. </u>
+      <u who="RIDKER">[Chuckles.] Yeah.</u>
+      <u who="COONRAD">Oh. Yeah. Well, I did learn, when I was on the <persName>Forrest Sherman</persName>, I wasn’t real happy about ships, and I knew I didn’t want to be running landing craft and stuff. And even on the guided missile cruiser, short of where we went, it wasn’t my gig being ship-bound, basically. I’d had an interest in aviation. I think I took a ride in somebody’s plane when I was 13 or 14. My dad had a friend. And several of us—I think there were about seven or eight of us in the <orgName>ROTC</orgName> program at that time that wanted to go into aviation, expressed an interest in it.</u>
+      <u who="RIDKER">Hmm. So were you thinking about having a naval career at this time, or was this kind of just a hobby?</u>
+      <u who="COONRAD">Oh, at that time—yeah, by my senior—well, the war was—let me go back to the war. I had some fraternity brothers that came back. I joined a fraternity. It was <orgName>an Alpha Chi Alpha</orgName>. It was the big green house across from the president’s house. And people came back that had been on the ground, <orgName>Army</orgName> guys that were coming back to college, and the news wasn’t good at night. The reports were not good. The films were not good, which we saw on the national news. It was pretty obvious to me I didn’t want to be on the ground, either. [Chuckles.] Forget it, a ship’s better than the ground, but being in the air is a lot more fun.</u>
+      <u who="RIDKER">[Chuckles.]</u>
+      <u who="COONRAD">It was just a question of—you know, you die faster on the ground, I think, and it’s more personal. You just didn’t feel [unintelligible].</u>
+      <u who="RIDKER">Hmm.</u>
+      <u who="COONRAD">Finally escorted from the president’s office. It bothered me a little bit, and still does. I understand it’s the way you get things moved. That’s how you protest the war. Civil unrest works. The same students that were benefiting the endowment were critical of the way the endowment was invested, I thought was a big strange. </u>
+      <u who="RIDKER">I guess what was it like to be a member of <orgName>ROTC</orgName> at this time, when campus climate about the war was picking up and more protests and—</u>
+      <u who="COONRAD"><orgName>ROTC</orgName> was not abandoned until <date>the ’70s</date>, sometime in <date>the early ’70s</date>. I was upset by that because—I’ll come back and answer [your] question in the second, but I believe that—and I still believe that it’s important that people in the service predominantly be people who are not intending to make it a career, people who have a liberal arts education and can bring that to the table. And I’m not in favor of people that—I understand, have made friends that had been to military academies, but I think the mindset’s different. I like the citizen-soldier idea. I like the idea that people are not there getting hardened to it. They know that it’s an opportunity to serve their country.</u>
+      <u who="RIDKER">[Chuckles.]</u>
+      <u who="COONRAD">Big-time memory. Hike in three and a half miles. You carry your skis up between the rocks, fortify yourself with—if you’re lucky, you get four runs in in <date>a day</date>. You end up in corn snow and everything else you scraped up as you fall. You’d be skiing in shorts. It was a hoot.</u>
+      <u who="RIDKER">[Chuckles.]</u>
+      <u who="COONRAD">After I got a D in economics—and, by the way, I did get out of the gentleman a C-plus, but I didn’t study for the economics exam. One of the professors came up and said, “<persName>Doug</persName>,” he says, “you know, I’m disappointed in you.” [Unintelligible] wanted to do it within <date>the next two years</date>. If I don’t die, I’ll stay in touch, but I won’t remember my grade.</u>
+      <u who="RIDKER">[Chuckles.]</u>
+      <u who="COONRAD">I’d make that same decision <date>today</date>. There’s absolutely no doubt about it. The life before—it was kind of—it’s sort of like the moment when I interviewed with <persName>Jay</persName>. Just kind of, what are your values? What do you have? The values were to live for <date>today</date> and not worry about it, do what you can to get life’s experiences. Interestingly, there was a <orgName>National Geographic</orgName> adventure magazine that came out. I believe it has stopped publishing now, but they had a bucket list, and so I think I’ve done 37 of them, about.</u>
+      <u who="RIDKER">Oh! [Chuckles.]</u>
+      <u who="COONRAD">I keep adding to my bucket list, by the way, but I’ve been very fortunate in life to be able to race cars and fly the jets and scuba dive, and I have a daughter that did shark research, and I’ve got pictures of sharks in my office that I took. It’s been fun to enjoy different things.</u>
+      <u who="RIDKER">Mhmm.</u>
+      <u who="COONRAD">And part of that—I guess I’ll come back—I just got back from <placeName>London</placeName> and <placeName>France</placeName>, and [unintelligible] going to <placeName>Italy</placeName> <date>last year</date>, refreshed something. There was a course at <orgName>Dartmouth</orgName> called Darkness at Noon. It was one of the things we took for—it was a Art I type of thing. It showed you slides and things. Had to learn about the painters. And I used that in the pictures I took and used it again, and it really brought back a lot of memories. </u>
+      <u who="RIDKER">Oh, that’s cool.</u>
+      <u who="COONRAD">One of those things that comes back if you had the exposure to them as a youth. Those are kind of things that—you know, life is a journey, and you pick up tidbits from people that cross paths with you.</u>
+      <u who="RIDKER">Yeah.</u>
+      <u who="COONRAD">Okay?</u>
+      <u who="RIDKER">But, yeah, just to continue. So you mentioned that you knew that you were going to end up in <placeName>Vietnam</placeName>. Like, you just had that feeling. And I’m just wondering what that felt like and also what your plan was after graduation.</u>
+      <u who="COONRAD">It doesn’t feel good, but, you know, after—well, I guess there were good and bad, and it goes to what happened my first day of flight school, is we started—you don’t start flying. You go through a whole bunch of other stuff first, ground school, and you learn a lot of things about aerodynamics and about how the engines run and everything. But I’m a retired captain, which is like a colonel in the other forces.</u>
+      <u who="RIDKER">Hmm.</u>
+      <u who="COONRAD">They’re having a lot of problems with it. I think that preparation—I’m eternally grateful that we heard that kind of speech.</u>
+      <u who="RIDKER"><persName>Mm-hm</persName>. Um,—</u>
+      <u who="COONRAD">Go ahead.</u>
+      <u who="RIDKER">I’m sorry. Continue.</u>
+      <u who="COONRAD">Referencing the two movies, I do think that both Officer and a Gentleman and Top Gun mean a lot to me. Officer and a Gentleman—basically, it’s a teamwork of getting the fat guy over the wall. You did things where you belly-crawled underneath barbed wire to running through sand, which is difficult, to climbing a wall, scaling a wall with a rope and pulling yourself over. All kinds of stuff. And it’s the weakest link in a team—and I kind of go back to <date>the high school years</date>. I was on some winter mountaineering trips and ice climbing trips. We had people frostbit their toes and things. And it surprised me and shocked me as a high school kid, 17—16, <date>17 years old</date>—that every group faced an adversity. It doesn’t matter what it is. It takes two kinds of leadership. And one is the strong leader physically, and the other is the mental leader that keeps the spirits up. And no one person can break trail all the time in snowshoes or whatever you’re doing and be the leader all the time physically, and no one person can do the other. </u>
+      <u who="RIDKER"><persName>Mm-hm</persName>. </u>
+      <u who="COONRAD">The Top Gun is the cockiness aspect of it. You would never fly a military jet if you didn’t have a cocky attitude that you’re invincible. You just wouldn’t do it. The odds are against you. Very much so. I crashed one once, and I can talk about that, but there are too many things that happen that are going to get you. It’s a kind of thing where you have to be convinced you’re the best. </u>
+      <u who="RIDKER">[Chuckles.]</u>
+      <u who="COONRAD">But to have that—and every time somebody crashed, the question always has to be, “What did the pilot do wrong? We’re not going to accept that the aircraft has a maintenance problem. You’re not going to accept that it’s a fickle finger of fate.” It has to be the pilot. I’m convinced that whether on the ground, fighting, or your tank or you’re on a ship or whatever you’re doing, I think that same mindset has to be there, that you’re invincible. That you have to be. </u>
+      <u who="RIDKER">Hmm.</u>
+      <u who="COONRAD">That was my first experience with an aviation jet, and you sit there, a body—it's sobering.</u>
+      <u who="RIDKER">Sorry, <persName>Doug</persName>?</u>
+      <u who="COONRAD">Pardon?</u>
+      <u who="RIDKER">Sorry, I just lost—the connection is a little bad. </u>
+      <u who="COONRAD">It was sobering, the experience, when you’re ready to go, to find out you can’t go because somebody died. After that, we got off the ground. We were flying a T-2A <persName>Buckeye</persName>, straight wing, simple jet, one engine. Learned to fly that. You know, went through things where you just flew the aircraft to learning instrument flight, learning navigation, learning formation flight. Once you learned all those things, they shipped you off to <placeName>Pensacola</placeName>, <placeName>Florida</placeName>, where we did target practice. And they did that over the sea rather than the land, so you’re not shooting up people on the ground, but I won a bottle of liquor from getting more hits on the target that’s towed behind another aircraft than did my instructor shooting a 20mm machine gun from the aircraft. </u>
+      <u who="RIDKER">Hmm.</u>
+      <u who="COONRAD">In my group also was [<persName>Randall H. “Duke</persName>”] “<persName>Randy” Cunningham</persName>. “<persName>Duke</persName>” <persName>Cunningham</persName> was on wings a lot as a Congressman. Was a Congressman in <placeName>San Diego</placeName> that went to prison for taking kickbacks from defense contractors. But <persName>Randy</persName> was a brilliant man. Graduated from—was <date>a year older</date> than we were, going through flight training. He graduated from a college that was aviation oriented. And he was the first—well, first of all, before he was CO [commanding officer] of <orgName>TOPGUN</orgName> [<orgName>United States Navy Strike</orgName> Fighter Tactics Instructor program], he was the only <orgName>Navy</orgName> guy that got five <orgName>MiGs</orgName> in <placeName>Vietnam</placeName>. He lost his aircraft twice but always got rescued. And another <orgName>Air Force</orgName> guy also got five <orgName>MiGs</orgName>. And <persName>Randy</persName> was instrumental in getting the F-14 [<orgName>Grumman</orgName> F-14 Tomcat] approved because the F-4 [<orgName>McDonnell Douglas F-4</orgName> Phantom II] was not effective against the <orgName>MiGs</orgName>. That was kind of an interesting aside.</u>
+      <u who="RIDKER">Hmm.</u>
+      <u who="COONRAD">Anyway, they blamed pilot error that I didn’t bring the engine—shut it all the way down. I brought it back to idle, but I still had some thrust pushing it down. But quite honestly, the blown tires kind of screwed it up. Had the landing gear collapsed, I would have not been able to get out of the plane because the envelope on the ejection seat was if you didn’t have 100 knots of forward speed, it wouldn’t open before you hit the ground. That was a good reason to still be alive. I got by that one.</u>
+      <u who="RIDKER">Hmm.</u>
+      <u who="COONRAD">Any case, I also had another near miss in the <placeName>Philippines</placeName>, where we had one runway and I was doing an exercise with a squadron I was at. And an F-4, <orgName>Marine F-4</orgName> crashed right in front of me. I went downwind. I’m low on fuel. One runway. And I see this big fireball off to my right. Still have to land. Fortunately, as I came around and saw the runway, they landed on it. They crashed into a hillside alongside the runway. It turned out they survived. But I still had to concentrate on what I was doing.</u>
+      <u who="RIDKER">Mmm.</u>
+      <u who="COONRAD">Those are kind of the near-miss things, with one exception. I’ll talk about it and go back to I guess advanced training and getting my wings. I finally did do that. Despite this jet mishap, I finally succeeded in graduating and went to a squadron out in <placeName>California</placeName>, where they taught us to fly—taught me to fly the A-4 aircraft [<orgName>Douglas A-4 Skyhawk</orgName>], which I would be flying in my duties in the <placeName>Philippines</placeName> and perhaps on a carrier.</u>
+      <u who="RIDKER">Mmm.</u>
+      <u who="COONRAD">A lot of neat things. A lot of flying probably 100 feet, 50 feet over the water, a lot of it.</u>
+      <u who="RIDKER">And so when exactly was your first deployment to the <placeName>Philippines</placeName>? What year?</u>
+      <u who="COONRAD">Went over in <date>March</date> of ’69 for an 18-month deployment. Got back in fall of ’70. The commanding officer was a lieutenant commander, kind of middle grade. We were a detachment to a parent squadron off in <placeName>Okinawa</placeName>. And the CO is kind of a sore spot. There was a book written that mentioned him about three, <date>four years ago</date> that hit me pretty hard. There was a guy entered the squadron as I was leaving, just before I left. This guy, the CO was killed with the other people, and—through his stupidity. To memory three times, he almost killed me through his stupidity.</u>
+      <u who="RIDKER">Hmm.</u>
+      <u who="COONRAD">[Voice cracks with emotion.]</u>
+      <u who="RIDKER"><persName>Mm-hm</persName>. </u>
+      <u who="COONRAD">You’d never get that information. I had told somebody for the longest time that we were from <placeName>Waterloo</placeName>, <placeName>Iowa</placeName>, and really, the town call <placeName>Hudson</placeName>, just near there. The guy didn’t think anything of it till I said, “Well, we really live in this little town.” It turned out he had come from three states away to attend a graduation in our town <date>three months ago</date>. And so making those connections—until you get enough conversation going and you can have personal conversation, you’ll never get there. The connections to other people and friendships and family are, to me, all important.</u>
+      <u who="RIDKER"><persName>Mm-hm</persName>. </u>
+      <u who="COONRAD">I want to thank you and thank the department for the project. I hope the whole thing is beneficial. I do know some people probably won’t participate, but I consider it an honor to participate. It’s not “look at me”; it’s just—and I think particularly telling was the 25th reunion story. It touches a lot of people. And it still does.</u>
+      <u who="RIDKER"><persName>Mm-hm</persName>. </u>
+      <u who="COONRAD">You know, I pray for <date>the day</date> when we don’t need wars, when we don’t need to do any of that. I don’t know that humankind is going to let us get there, but it would be really, really nice if we all got along.</u>
+      <u who="RIDKER">Yeah. Well, thank you so much, <persName>Doug</persName>. It’s really a pleasure to have the opportunity to talk to you and have your experiences recorded, so thank you again.</u>
+      <u who="COONRAD">You’re welcome. Thank you.</u>
+    </body>
+  </text>
+</TEI>

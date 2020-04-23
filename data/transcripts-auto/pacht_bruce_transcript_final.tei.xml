@@ -1,0 +1,382 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="REED-WESTON"/>
+        <person xml:id="PACHT"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="REED-WESTON">All right. This is <persName>Anne Reed-Weston</persName>. I’m sitting down with <persName>Bruce Pacht</persName> in his home in <placeName>Lebanon</placeName>, <placeName>New Hampshire</placeName>. It is <date>August 4th, 2014</date>. Is it all right if I record this?</u>
+      <u who="PACHT">Yes, it is.</u>
+      <u who="REED-WESTON">Awesome. Can you please tell me your name and where you grew up?</u>
+      <u who="PACHT">My full name is <persName>Victor Bruce Pacht</persName>, but we don’t do the <persName>Victor</persName>. I go by <persName>Bruce Pacht</persName>, and I was born in <placeName>Newport</placeName>, <placeName>Rhode Island</placeName>, at the end of the war [<name type="event">World War II</name>], and when the war ended, we moved to <placeName>Brooklyn</placeName>, and I went to high school in Great Neck [Long Island, <placeName>New York</placeName>], and I came to <orgName>Dartmouth</orgName> after high school.</u>
+      <u who="REED-WESTON">Okay. <persName>Mm-hm</persName>. When were you born?</u>
+      <u who="PACHT"><date>Nineteen forty-five</date>.</u>
+      <u who="REED-WESTON">All right. So how much time did you spend in <placeName>Rhode Island</placeName> before—</u>
+      <u who="PACHT"><date>Six weeks</date>.</u>
+      <u who="REED-WESTON">Oh, so you grew up in—</u>
+      <u who="PACHT">Essentially, and then we moved after <date>three years</date> from <placeName>Brooklyn</placeName> to <orgName>Great Neck</orgName>.</u>
+      <u who="REED-WESTON"><orgName>Great Neck</orgName>.</u>
+      <u who="PACHT">I grew up in Great Neck.</u>
+      <u who="REED-WESTON">Grew up in <orgName>Great Neck</orgName>?</u>
+      <u who="PACHT">Yeah.</u>
+      <u who="REED-WESTON">What were your parents’ names?</u>
+      <u who="PACHT"><persName>Harold Pacht</persName> was my father,—</u>
+      <u who="REED-WESTON">Okay.</u>
+      <u who="PACHT">—and <persName>Jeanette Pacht</persName> was my mother.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. What did they do?</u>
+      <u who="PACHT"><persName>Harold</persName> was in the women’s knitted outerwear business.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="PACHT">He started with sweaters, and then in the <date>’60s</date> started making shells and pants and then things like that and got pretty big. <persName>Jeanette</persName> was at home, although she graduated high school at just 15 and couldn’t afford to go to college, so she started working as a secretary, and she did some accounting in the office, but she was at home when we were kids.</u>
+      <u who="REED-WESTON">Okay. Can you describe your childhood a little bit? What kinds of things did you do?</u>
+      <u who="PACHT">It was basically an upper-middle-class Jewish upbringing in the suburbs of <placeName>New York</placeName>. <orgName>Great Neck</orgName> had and still has one of the best school districts in the country. That’s why my parents moved there. So school was the most important thing in our—in my upbringing. You know, if I was doing okay in school, everything else was okay. So it was—that was basically what I did, was go to school. </u>
+      <u who="REED-WESTON">So did you have any siblings?</u>
+      <u who="PACHT">I have an older brother, <persName>Michael [Pacht</persName>], who went to law school and worked as a lawyer and a judge for a while and then bought a <persName>B&amp;amp;B</persName> [bed and breakfast]. He lives over in <placeName>Taftsville</placeName>, <placeName>Vermont</placeName>, with his spouse, doing the B&amp;amp;B. And I have a sister who’s <date>nine years</date> younger. She lives in <placeName>Wayne</placeName>, <placeName>New Jersey</placeName>, and she works for an orthopedic surgeon, in his office. Her husband is in the fragrance business. My youngest just got married, so everybody was up for the wedding over at <placeName>Lake George</placeName>, so that was fun.</u>
+      <u who="REED-WESTON">So did you do any sports or any extracurricular activities—</u>
+      <u who="PACHT">I played a little football when I was in high school, just junior varsity football. I was on the track team, and I enjoyed that. I threw shot and discus. And that was okay. I took a third once in a regional discus, but it was <placeName>New York</placeName>, and so the competition was pretty stiff. I remember that my best put, shot was just under 50 feet. Fifty feet was like—if you could get 50 feet, it would be great. Well, this is—</u>
+      <u who="REED-WESTON">Yeah, pause for a second. Hold on.</u>
+      <u who="PACHT">I remember football.</u>
+      <u who="REED-WESTON">[Unintelligible].</u>
+      <u who="PACHT">Yeah, so mine was 49 feet, 11 and a half inches, and that’s the best I ever did. It didn’t get me anything. But when I came up here, I read <orgName>the Valley News</orgName> and read about who the high school champions were, and I would have been the high school champion in <placeName>New Hampshire</placeName>. But there was just too much competition in <placeName>New York</placeName>. I was just another schlub on the track team. But what’s interesting is the people I remember most from high school were the people who were on the track team. There were a lot of people on the track team. It was a big deal. So I remember some of their names. And that was the place where, you know, even the cool guys and the nerds—everybody got together on the track team because it takes all kinds, especially the weight events, the runners. So that was neat. But when I got to <orgName>Dartmouth</orgName>, you know, I wasn’t interested in that.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="PACHT">And also I went out for the track team and saw what that was, and I didn’t want to lift weights as much as being a shot putter required. </u>
+      <u who="REED-WESTON">All right, we’re back.</u>
+      <u who="PACHT">I switched to guitar, because this was—you know, I got to <orgName>Dartmouth</orgName> in <date>’63</date>, and I taught myself how to play guitar <date>the summer</date> of ’60, when I was a camp. And <persName>Bob Dylan</persName> and <persName>Joan Baez</persName> started singing in <date>’62</date> and became—you know, the folk revival was happening back then, and it’s much easier to bring a guitar to a party than a trumpet, so I played guitar with a bunch of other guys. We’d get together and play at the Top of the Hop [at the Hopkins Center for the Arts]. And, of course, the cool guys would come and say [imitates, ironically, a dumb-sounding man], “Hey, we’re trying to read here.” And I’d say, “No, the <persName>Hop</persName> is for entertainment.” And had to go to the dean and get a ruling, so that was—</u>
+      <u who="REED-WESTON">Nn-nn. </u>
+      <u who="PACHT">He was a secretary of labor for [President <persName>William J.] Bill Clinton</persName>.</u>
+      <u who="REED-WESTON">Oh!</u>
+      <u who="PACHT">He’s an economist. He’s at <orgName>Berkeley</orgName> [<orgName>University of California, Berkeley</orgName>]. He’s a person of small stature. He’s about four-seven, four-eight. But he’s brilliant. He and <persName>Clinton</persName> met each other when they were both in a boat on their way to [<orgName>the University of] Oxford</orgName> because they both had—whatever that scholarship is there that everybody wants.</u>
+      <u who="REED-WESTON">Oh.</u>
+      <u who="PACHT">It begins with an R.</u>
+      <u who="REED-WESTON"><orgName>Rhodes Scholar</orgName>.</u>
+      <u who="PACHT">Yeah, they were both <orgName>Rhodes</orgName> scholars, so the apocryphal story is that <persName>Reich</persName> fed him chicken soup when he got seasick on the way over to <orgName>Oxford</orgName>. But they became friends, and <persName>Clinton</persName> had him in his first term. But <persName>Bob</persName> was much more liberal than <persName>Bill</persName>, and so he left in the second term. He’s written lots of books about it, but he’s a brilliant speaker. He comes up to <orgName>Dartmouth</orgName> every once in a while. In fact, you can go to his website and check it out. He simplifies economic things and draws pictures. He was a great actor. He was a great leader. He was a great speaker. He was the chair of <placeName>Palaeopitus</placeName>. He’s a great guy.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="PACHT">He said, “Go major in French, and you’ll be able to read the great French literature.” I said, “[Unintelligible], you’re right.”  So I did that. And then when I was getting to the end, I applied—I wanted to go to <orgName>Columbia</orgName> [University], the <persName>Ph.D.</persName> program, and I got accepted and then bought my victory keg. That was what you did when you got accepted in graduate school. I bought the victory keg, and then I was called over to the French department, and <persName>Gregerson</persName> and <persName>Harvey</persName> were sitting there, and they said, “Hey, how’d you like to go to <placeName>California</placeName>?” I said, “What do you mean?” They said, “Well, we have a <date>four-year</date>, all-expenses-paid, <orgName>National Defense Education Act Fellowship</orgName> to get a <persName>Ph.D.</persName> at <orgName>Stanford University</orgName>]. And I said, “I already bought the victory keg, c’mon!”</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="PACHT">And this paid everything: tuition, books and a living allowance and everything else. And so I said, “Aw, man! You know, I want to be a bachelor in <placeName>New York</placeName> and do that thing.” <persName>Dick</persName> says, “Look, if you don’t go to <placeName>California</placeName> now, when are you gonna go to <placeName>California</placeName>?” So with the same impeccable logic, that got me into a French—to be a French major. So I said, “Okay.” So I went off to <placeName>California</placeName> and started living in <placeName>Palo Alto</placeName>.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="PACHT">So things were happening, but we were pretty insulated from them. You know, it still took—at that time, it still took eight hours to get to <orgName>Dartmouth</orgName> from <placeName>New York City</placeName> because the interstate wasn’t finished until <date>’67</date>, so we were a long way—and you still couldn’t get [<placeName>New York</placeName>] Yankee games on the radio; that’s why I became a [<placeName>Boston</placeName>] <orgName>Red Sox</orgName> fan.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="PACHT">And it was—not everybody really knew what the hell was going on, you know? Protests against ROTC [Reserve Officers’ <orgName>Training Corps</orgName>] were just starting. I don’t even remember anything happening when I was on campus. But when I got to <orgName>Stanford</orgName>, things were really getting hot. It was the—I arrived in <date>September</date> of ’67, which was right after <name type="event">the Summer of Love</name>, which was when things were starting to turn bad. You know, Haight-Ashbury was starting to fall apart. The bad guys were getting into the trafficking in hallucinogenic drugs. You know, they weren’t—you couldn’t tell—you couldn’t be sure that what you were getting was what you were looking for. So things were starting to—things were starting to fray around the edges. </u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="PACHT">So what did I do? I ran away. I realized that I was so involved with politics that I my academic work—I wasn’t able to do the kind of work that would be necessary to finish a <persName>Ph.D.</persName> I couldn’t close myself off the way an academician needs to close himself off from what’s happening on a day-to-<date>day</date> basis in order to be successful. You can’t do the kind of scholarship that you need to do to get a <persName>Ph.D.</persName> while you’re paying attention to what’s going on <date>daily</date>. I mean, you just can’t, because you don’t have the time. Maybe after you get your <persName>Ph.D.</persName> and you get tenure and all that, you can become politically active, but if you do it while you’re a student, I don’t know how people would ever finish their theses, get the work done.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="PACHT">Make sure that I’m doing that right. Yep, “Add beans and stir.” That looks good.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="PACHT">But most of the time—most of the time we weren’t involved, so that’s the whole story.</u>
+      <u who="REED-WESTON">All right. So there are a few things I’d like to go back to,—</u>
+      <u who="PACHT">Sure.</u>
+      <u who="REED-WESTON">—just to talk a little bit more about.</u>
+      <u who="PACHT">Okay, sure.</u>
+      <u who="REED-WESTON">Thanks for giving that really good outline.</u>
+      <u who="PACHT">Okay.</u>
+      <u who="REED-WESTON">So when you were a kid, you said that there was a lot of pressure or a lot of emphasis placed on schooling.</u>
+      <u who="PACHT">Yeah.</u>
+      <u who="REED-WESTON">How do you think that affected how you viewed what you would do after high school?</u>
+      <u who="PACHT">Well, yeah, it’s true. My father had told me that he wanted to be doctor, and he was only able to do—is take a couple of courses at community college before he had to start working. He was born in <date>1917</date>, so he wasn’t drafted until <date>1943</date>, because he had a kid in <date>1942</date>, and having a kid kept you out until ’43, when they really needed everybody. And then he was assigned as a—he didn’t make chief petty officer, but he was a petty officer. He was the guy—have you ever watched the old war movies? There’s a guy up on a platform leading everybody in jumping jacks.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="PACHT">That’s who he was. He was the athletic instructor and the fitness guy. And he was training people, the sailors, who would go over. And he said—he told me that if he had been promoted to chief, he would have had to ship out, but the war—they dropped the atomic bombs, and the war ended before he made chief. So he really had dreams that he wasn’t able to fulfill, so he really wanted—he wanted to make sure that I did something that was meaningful. You know, he was very successful in the women’s clothing business. But that was part of it.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="PACHT">Till I have to get a job again, because [unintelligible] is not making enough to support us. So it was the values, you know, which learned in Hebrew school and which I learned from my parents that made me look forward—even when I, you know, was arguing with—my parents—you know, my mother was only afraid of my health and my safety, you know. She couldn't quite understand it. But when she couldn't understand it, my father helped her, and then when my father couldn’t understand it, she helped him. I get this from my sister, who was <date>nine years</date> younger. She was in the house in <date>the early days</date>, so when we dropped out—</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="PACHT">She was—oh, she got used to it, and she loved, you know, having a grandchild, and it’s a grandchild. Grandparents are suckers for grandchildren.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. So what did you think you were going to do after college—after high school?</u>
+      <u who="PACHT">After high school?</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="PACHT">Well, the first thing I thought, actually, was I wanted to go to a military academy. I wanted to become—I tested, you know, for engineering and all those kinds of things, and I knew that the military academies were good engineering schools, and I thought I looked great in a uniform. And we weren’t at war. And then suddenly we were at war. And so I—I didn’t want to go to any military—I didn’t want to fight anybody! I just wanted to—I thought it would be cool, but—</u>
+      <u who="REED-WESTON">Do you think your father would have approved of a military career when you were considering it?</u>
+      <u who="PACHT">You know, I think he—I mean, he—he—it took him a while to understand what I was doing when I was working. Even when I left the Wooden Shoe—I mean, he began to understand what I was doing there, and he sort of envied the freedom of that life, but when I came out, he really didn’t quite understand what my work does—what my work was for a long time. But then he began to understand it when the company got bigger and bigger, you know. The budget was a hundred and twenty thousand when I started. We had nine part-time employees and were serving 17 individuals. And when I stopped, it was seven million bucks, and we had 100 employees and 50 contractors and 250 families. Then he could grasp that it was okay.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="PACHT">It had nothing to do with actual war! So it was really unrealistic, I think. I was glad—you know, when the draft came along because I was born cross-eyed and had to have a couple of operations. Back then, that was the state of the art, because the—you know, the eye was turned in, so they figured, well, they’d cut a bit of the muscle out here [demonstrates] and then have the eye like this [demonstrates]. And then my eye continued to go out, so now my eyes are like that [demonstrates]. And that’s what I used to stay out of the war, stay out of the draft, was I went to an eye doctor and he measured it, and there was a certain number of diopters of separation that you would be let out for, so I got all the way to my pre-induction physical, but I had this letter that I held up, and I said—you know, we’re all standing in a circle, naked, and I said, “Excuse me.” And he grabbed the paper, and he made me go sit on the <orgName>Group W</orgName> bench. And I was classified 1-Y, which is “physically unfit to serve except in time of war.” And no war was ever declared, because we never declared war in <placeName>Vietnam</placeName>, so my 1-Y held up for a while.</u>
+      <u who="REED-WESTON">So do you think you just had a very idealistic view of the military as a child?</u>
+      <u who="PACHT">I think so, yeah. And, of course, you know, when I started studying why we were in <placeName>Vietnam</placeName>, that sort of disappeared. It’s, like, Who are we protecting over there, the oil interests, the rubber interests? What the hell are we doin’ over there? Those vague issues of the domino theory: You know, “If <placeName>Vietnam</placeName> falls, <placeName>Australia</placeName>’s gonna become Communist” or something. Just all that crap. So I didn’t believe that. But I believed in <placeName>America</placeName>. I believed in freedom and defending freedom, but I didn’t want to go to war for those reasons.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. What did you think of the draft at the time?</u>
+      <u who="PACHT">You know, I just thought of it as an immutable thing that needed to be dealt with. I didn’t really think—we started talk- —I thought it was unfair because the people that were actually going were overwhelmingly minorities and poor people, so—but I didn’t think so much as to say, Well, therefore I have to go, to equalize it. It was, No, sorry, I’m privileged, and I’m not goin’ if I don’t have to. So it was—you know, just dealt with it, you know.</u>
+      <u who="REED-WESTON">The lottery system?</u>
+      <u who="PACHT">The lottery system came out, and I got a, like, 340.</u>
+      <u who="REED-WESTON">Where were you when that happened?</u>
+      <u who="PACHT">I was already living in <placeName>Hartland</placeName>. That was <date>the first year</date> that—after we got out of jail. I think that’s—no, it must have been after that because while I was in <placeName>Hartland</placeName>, I went for my pre-induction physical, so it was the <date>winter</date> of ’69-’70, was when I went for my pre-induction physical, so the lottery must have been after that, because I had a high number, and was never—they never got beyond the low numbers, so—</u>
+      <u who="REED-WESTON">So did you worry about the draft at all while you were in college or—</u>
+      <u who="PACHT">Not till—it was not till I got to <orgName>Stanford</orgName>, so I became an active draft resister at that time. But I didn’t have the courage to go to <placeName>Canada</placeName> or the courage to burn my draft card or anything. I wanted to be—use my brains and see if I could get out of it, so I went to draft counseling, you know, and they had the regulation book like this [demonstrates], and they had all the physical requirements—you know, if your foot is this flat, you don’t have to go; if your eyes are this bad. And I did the research and then went back to my doctors in <persName>Great Neck</persName> and got the eye doctor to write something that was official, so—</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="PACHT">But that was when I was already in <placeName>California</placeName>.</u>
+      <u who="REED-WESTON">Okay. So why did you choose to go to <orgName>Dartmouth</orgName> for college?</u>
+      <u who="PACHT">Oh—[Laughs.] I—I’m going to try to remember all—but I applied to <orgName>Brown [University</orgName>], <placeName>Dartmouth</placeName>, <orgName>Oberlin</orgName> [College]—what else? <orgName>Oberlin</orgName> because there’s music coming out of every building when I went to <orgName>Oberlin</orgName>. Everybody was riding bicycles. It was flat, and there was music everywhere, and I thought music—I’d like to be there. <persName>Brown</persName> was my safe school, and <orgName>Dartmouth</orgName> was just because it was there. I mean, I don’t—I think—it’s all boys, and it was far enough away—as I said, it was, like, an eight-hour drive, far enough away my parents weren’t going to drop in. But it wasn’t—I didn’t want to go—nothing attracted me about the <placeName>Midwest</placeName>. (Sorry about <placeName>Kansas</placeName>.)</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="PACHT">It’s beautiful. I’ve been through it.</u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="PACHT">It’s lovely. But—no, 100 degrees in <date>the summer</date>; it didn’t really have any attraction for me. <placeName>California</placeName>? Maybe, but, you know, I didn’t need the earthquakes, and it was so far away, and I didn’t care much about that. I didn’t know much about the <placeName>Northwest</placeName>. But it was my—I had a cousin who went to <orgName>Dartmouth</orgName>. My father’s first cousin [<persName>Rudolph</persName> (<persName>Rudy</persName>) <persName>Pacht</persName>] was the Class of ’35. And he came to the house to visit, and he was talking about his father, who was my father’s uncle, having just received some award and they were going to have a dinner, and he said to my father, “Well, if you can’t go, I think a congratulatory telegram would be in order.” And I thought, You motherfucker! Who are you—you fuck! I’m definitely gonna go to <placeName>Dartmouth</placeName>. I’m gonna have a better record than you did, so I can piss on your grave.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="PACHT">But when we came up, you know, we flew up in <date>April</date> of ’63 in a [Douglas] DC-3. It’s a plane that sort of rests on its tail, along like that [demonstrates]. And I actually was on the same plane with <persName>Jerry [J.] Zaks</persName>. I don’t know if you ever heard of <persName>Jerry</persName>. </u>
+      <u who="REED-WESTON">[No audible response.]</u>
+      <u who="PACHT">Well, <persName>Jerry</persName> and I—we were each the first person we met from our class, so we went out—my father took us out to lunch, so <persName>Jerry</persName> and I knew each other, sort of, through life. He became very famous [as a movie and television actor and director]. But he was an interesting guy because he didn’t—he really changed when he got into acting. He went on a protein diet. He was kind of a chubby guy, and then he lost all this weight. Took up dancing and had a great career.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. So can you describe a bit of what the campus climate was like at the time? How much political activism there was?</u>
+      <u who="PACHT">There was almost no political activism. There was an accepted kind of cool, you know, and the cool was conservative. You know, you had short hair, khaki pants, penny loafers without socks, you know, with button-down shirts, and that was what you’d be. And your hair was a certain length, and you had to have a certain right-moderate outlook on life, you know? So—</u>
+      <u who="REED-WESTON">Yeah, we’ll pause for a second.</u>
+      <u who="REED-WESTON">All right, we’re recording.</u>
+      <u who="PACHT">So it was—you know, what can I say? It was not a very Jewish culture. To me, it was a culture with which I was somewhat familiar, although <orgName>Great Neck High School</orgName> was about 80 percent Jewish. But it was something that I could put up with because it was <orgName>Dartmouth</orgName>. You know, and having a degree from <placeName>Dartmouth</placeName> was going to be important. </u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Okay. So you wound up at <orgName>Stanford</orgName>—</u>
+      <u who="PACHT">Yeah.</u>
+      <u who="REED-WESTON">—after you went through <placeName>Dartmouth</placeName>.</u>
+      <u who="PACHT">Right.</u>
+      <u who="REED-WESTON">What did you think—how different was it?</u>
+      <u who="PACHT">Well, I thought it was completely different. It was <placeName>California</placeName>, and the football culture there was even worse [chuckles] than it was at <placeName>Dartmouth</placeName>. And, you know, when I was at <placeName>Dartmouth</placeName>, the guys in the French department would call <orgName>Stanford</orgName>—they called it the <orgName>Dartmouth</orgName> of the West, but the people in <placeName>Stanford</placeName> call it the <orgName>Harvard</orgName> of the West.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="PACHT">And it really is. It’s where all the privileged children who have a lot of money go, and if they have the academic moxie, they go to <orgName>Stanford</orgName> because it’s a great place, if they don’t go to <orgName>UCLA</orgName> [<orgName>University of California</orgName>, <placeName>Los Angeles</placeName>] or something like that. </u>
+      <u who="REED-WESTON">So how did you become involved with campus activism or political activism at <orgName>Stanford</orgName>?</u>
+      <u who="PACHT">At <orgName>Stanford</orgName> I actually sought out the <persName>SDS</persName> chapters there and joined an <orgName>SDS</orgName> chapter but only went to a couple of meetings because the wacky philosophy that I ran into with these guys was not to my liking. But there were lots of demonstrations. It was like having a demonstration <date>every week</date>. You know, <orgName>the Free Speech Movement</orgName> was happening at <placeName>Berkeley</placeName>, so there were all these things happening, and that’s where all the people who I thought had their heads on straight were hanging out, so I would hang out at the demonstrations, too. I could meet people and be part of it. So I didn’t put myself on the line very often. I got gassed once at a demonstration in <placeName>San Francisco</placeName> and got picked up by the cops but didn’t get arrested.</u>
+      <u who="REED-WESTON">What was your opinion of <name type="event">the Vietnam War</name> at that point in time?</u>
+      <u who="PACHT">Again, I thought it was, you know—I didn’t—I didn’t see the justification for us to be involved. That was basically it. I didn’t know what we were trying to prove about being there except protect the puppets that we had set up after the French. But, you know, the French had—it was a losing investment for the French, so I didn’t think that we were going to make it any better by stepping in and taking up their burden. We could have learned, but—so I was opposed to it, and I didn’t want more Americans to die for that reason.</u>
+      <u who="REED-WESTON">How did you choose the <orgName>SDS</orgName>?</u>
+      <u who="PACHT">Well, it was the most active thing that was going on at <orgName>Stanford</orgName>. You know, they were actually doing things, so they were engaging and putting bodies on the line. You know, I didn’t do a lot of research into it, but later on, when I came back and was living at the Wooden Shoe, we went to an anarchist convention in <orgName>Black River State Forest</orgName> in <placeName>Wisconsin</placeName>, and that was—you know, we weren’t really anarchists. You know, we were still living in the regular society. We weren’t really revolutionaries. But theoretically, at least, that was closer to what I thought was reasonable. Anarchism, the way we interpreted it, was the formation of groups for the purpose of getting something done, and then the group disperses, you know? You don’t just maintain the bureaucracy. But you can’t have a society of millions of people without a bureaucracy. You have to have a bureaucracy. So that was another idea that was just bullshit. Didn’t work out. </u>
+      <u who="REED-WESTON">Can you describe the culture of <persName>SDS</persName>? You mentioned previously that it was Maoist.</u>
+      <u who="PACHT">Well, I was in a lunatic Maoist—you know, a cell. It was divided into—they called them groups, but, you know, we called it a cell because that was more politically correct. But these guys were—you know, they thought <persName>Mao</persName> [<persName>Zedong</persName>] was the right way, you know, that he was representing the people and everything, and they were just—you know, they were saying, “Oh, well, property doesn’t have any rights, you know, and we’re just going to—when people come out of the city, you know, because we’re going to blow up the cities, you know, we’re going to need to take over your apartment.” And I said, “<persName>Jesus Christ</persName>, man! Not my apartment! I’m a good guy.” So it just didn’t seem a productive pathway to me, either. You know, it was just more yacking and more throwing around of power and this and that in unproductive ways.</u>
+      <u who="REED-WESTON">Did you find like-minded individuals in <placeName>California</placeName>?</u>
+      <u who="PACHT">You know, I was there from—let’s see, from <date>September</date> of <date>’67 to January</date> of ’69, so I was really there <date>only about 14 months</date> before I threw my stuff in the car and drove off to the <placeName>Northwest</placeName>. It was after [President <persName>Richard M.]</persName> <persName>Nixon</persName>’s inaugural ball. In fact, it was <date>January 20th</date>. The night that he was elected, I was watching the coverage on TV, and I just—I freaked out. I thought the world was going to come to an end because he became the president, and I had to—I really had to leave.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. You said earlier that you were exposed to different types of people in <placeName>California</placeName>, when you met different people, like black individuals. Can you describe how that was different from what you’d previously seen?</u>
+      <u who="PACHT">Yeah. I mean, again, the people who I met at <orgName>Dartmouth</orgName> were, you know, if not—no, we were middle class. We weren’t wealthy or anything; we were middle class. And, as I said, <orgName>Dartmouth</orgName> cost something that my father could afford, so I didn’t even have to ask for aid. But the way that has escalated—I mean, everybody else that I met there was pretty much the same, cut in the same—I mean, my group that I hung around with were mostly other Jewish kids from suburban <placeName>New York City</placeName>, from <placeName>Connecticut</placeName> or <placeName>New Jersey</placeName> or something else, who mostly had very similar upbringings to mine.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="PACHT">You really don’t care. You care about, like, “You’re almost 70. How the hell did you make it?”—you know?</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="PACHT">“What did you do?”—you know? And a lot of guys have, you know, regrets that they didn’t do more things that were outside the mold, you know. But then again, they have retirement and enough to live on. They don’t have to keep working when they’re <date>70 years old</date>.</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="PACHT">So you pays your money and takes your choice.</u>
+      <u who="REED-WESTON">[Chuckles.] So what did you think about <persName>Nixon</persName> while you were in <placeName>California</placeName>?</u>
+      <u who="PACHT">I thought he was just horrible. I thought he was going to get us into the war worse than we ever were, he was going to nuke <placeName>China</placeName> or something, that he was going to be completely out of bounds, and that it was going to be terrible, and that we had to not participate in the war economy. That was the driving thought. So that’s why we dropped out and decided to make our own economy, you know, in a small town in <placeName>New Hampshire</placeName>.</u>
+      <u who="REED-WESTON">Did you have regrets about leaving your program?</u>
+      <u who="PACHT">Yeah, I do. I mean, now that I’m—you know, I’ll be <date>70—well</date>, I’ll be 69 in <date>August</date>. <date>Three weeks</date>. And it would have been a nice life to be a French professor, and I was good at it. You know, I was getting accolades for it, and I could have had a nice career as a professor—and, you know, sabbaticals and visiting <placeName>France</placeName>. All that would have been great.</u>
+      <u who="REED-WESTON">Can you describe what it was like—I mean, you went to the <placeName>Northwest</placeName>. You mentioned that you were seeing communes there. Can you describe what that was like?</u>
+      <u who="PACHT">Yeah. Well, it was really—it felt like I had been an ox in a yoke and pulling this plow that had been put on me when I was <date>eight years old</date>, and I was, you know, living the script that had been written for me, to go to college and to go to graduate school. And I remember that night—I mean, like, it was the inaugural ball night. It was <date>January 20th, 1969</date>, and I put stuff in the car, and I just drove away, drove away from my apartment and got to <placeName>Yreka</placeName>, <placeName>California</placeName>, which is up in the north part, past the redwood forests and everything, and just parked and felt a sense of freedom that I’d never felt in my entire life.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="PACHT">There was clean mescaline, you know, which was—it’s a very nice drug if you can get it clean. And there was—I didn’t do any acid [LSD] when I was there. I’d done acid when I was at <orgName>Stanford</orgName>, and it was already going bad. They were cutting it with some stuff. You could tell because you’d get a backache. It just wasn’t good. But there was nice stuff there.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="PACHT">Okay. </u>
+      <u who="REED-WESTON">So did you want to stay in that kind of environment or did you—</u>
+      <u who="PACHT">No.</u>
+      <u who="REED-WESTON">—want to leave?</u>
+      <u who="PACHT">I’m trying to think about why—you know, why I left. I think I got a message that I had to go back to <orgName>Stanford</orgName> and wrap things up. You know, I had to tell the people at <orgName>Stanford</orgName> that I was definitely done, and I had to make arrangements to pay back the stipend, to give them back the money that was in my account, you know. And so I had to go back there to wrap that up. That’s what brought me back, so I went back to <placeName>Palo Alto</placeName>.</u>
+      <u who="REED-WESTON">[Chuckles.] </u>
+      <u who="PACHT">Everybody else was in <placeName>ROTC</placeName>, and there was nothing happening there. He commiserated with me, and he said, “No, man. You know, there’s nothin’ here. Nobody’s doin’ anything.” And then I just needed to go sit in the desert and see what that would do, so that’s what I did. And I had, you know, my little <persName>Svea</persName> stove, and I ate rice and pasta and wrote a song. I lived in a tent there, then came screaming out of the desert. </u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="PACHT">So it wasn’t marching. You know, it wasn’t just sitting down in front of the buses, although we continued to do that for <date>years</date>. It had to be something more than that. And so when I came—you know, I gradually figured I’d go back to <orgName>Dartmouth</orgName> to see what <orgName>Dartmouth</orgName> was doing, and that’s when I got into the takeover at <orgName>Parkhurst</orgName>.</u>
+      <u who="REED-WESTON">Did you have any specific goal of what you were looking for at this point?</u>
+      <u who="PACHT">Except for finding a woman who was big enough so that when she massaged me I could actually feel it in my muscles—</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="PACHT">—and who wasn’t a baby and, you know, who had had at least one significant relationship before and who knew—who would be able to be my equal. That’s really the biggest thing I was looking for. And I found that. Of course, she was with another guy at the time, but we both—<persName>Ed</persName>—she was with <persName>Ed Levin</persName>, who’s now—he passed away suddenly about <date>two or three years ago</date>. But <persName>Carol</persName> and <persName>Ed</persName> were together. But the way <persName>Carol</persName> told me, there were sort of at the end of their relationship. She was looking for something else. And I—he was in <persName>SDS</persName> at <orgName>Dartmouth</orgName>, and <persName>SDS</persName> was the leader of the occupation at <orgName>Parkhurst</orgName>, so when I got to <orgName>Dartmouth</orgName>, you know, I got into the <persName>Parkhurst</persName> thing, so I met <persName>Ed</persName> and <persName>Jake</persName>, and <persName>Ed</persName> and I were in the same jail. And so <persName>Carol</persName> came to visit him, and she said that’s the first time she remembers—she had to get him a message, and his visiting time was used up, and I was there at the visitors’ window, so she handed me the message. </u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="PACHT">And he was sort of grandfatherly to me. You know, I was <date>about 30 years old</date>; he was probably <date>55</date> or something, so he’d pinch my cheek, and he was jealous of my hair, so he always messed up my hair because he was bald. And he became like a grandfather to me. So that was—</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="PACHT">So we come up here, and we see all the hippies are still hanging around. You know, it’s <date>the summer</date> and everything. It’s <date>the end of July</date>, and we took something—I don’t know what it was. Something good. And the snack bar at the <orgName>Hop</orgName> used to have a grassy area out past it that you could just hang out in, you know, and we were all laying there, watching the clouds go by. </u>
+      <u who="REED-WESTON">No.</u>
+      <u who="PACHT">Death is leading a bunch of people up a mountain ridge, up to the clouds. Storm clouds were coming in from the west, and <orgName>Dartmouth Row</orgName> was still shining bright, and we walked right in front of it. And then just as we got into 41 College, thunder and lighting, crashing rain and everything, and we’re sitting there in this—I’m sitting on the floor, and <persName>Don</persName> is sitting up on his bed, you know, and he’s asking questions, and I said, “Yeah, this is the path.” Because we were brothers, you know. We spent <date>26 days</date> in a six by nine cell, so—he said, “Yeah, this is the right path.”</u>
+      <u who="REED-WESTON">Wow.</u>
+      <u who="PACHT">Yeah. [Both chuckle.]</u>
+      <u who="REED-WESTON">Why did you want to come back to <orgName>Dartmouth</orgName>?</u>
+      <u who="PACHT">Oh, because I—you know, I thought that—as I said, this union moment, you know, that if I was feeling this way, everybody in my generation would be feeling this way, and all of us who had been melted in the crucible at <orgName>Dartmouth</orgName> would be going back to campus for Green Key in <date>1969</date>. So I truly thought that maybe there’d be people there who would be thinking the same way, because I had been bent in a certain way by being at <orgName>Dartmouth</orgName> and that maybe these other people would come back; maybe something would grow from that. So that’s why I went back.</u>
+      <u who="REED-WESTON">Did the takeover actually happened as soon as you got there?</u>
+      <u who="PACHT">It was—no, I arrived—I don’t remember. I arrived there late one night, and I slept in my fraternity, on the floor. <date>The next day</date>, I went to see my mentor at about—it must have been after lunch. </u>
+      <u who="REED-WESTON">Did you know anything about the issues behind the <persName>Parkhurst</persName> takeover when you got there?</u>
+      <u who="PACHT">Not until I got there, not until I walked in. I could tell—I don’t remember whether I asked <persName>David</persName>, you know, “What are you doing?” and he said, “Well, it’s anti-ROTC” or something. But that was enough for me. You know, to know that it was antiwar was enough, and so I just went in. I found out, you know, about the deal about promises that had been made to stop this and stop that. You know, all of that shit didn’t really matter. What mattered was we needed to bring the war home because the war was being fought so far away and so many people were dying. It wasn’t until the middle class of <placeName>the United States</placeName> felt the deaths inside that they said, “I don’t want my kid to go there. Why is my kid dying? Is he dying for some good reason, or is it some bullshit?” And the more people that realized that it was some bullshit reason, the quicker the war was going to end.</u>
+      <u who="REED-WESTON">Did you know about the relationship and negotiations that had been occurring between the administration, faculty and students?</u>
+      <u who="PACHT">Nothing. I learned about that all afterwards. I learned about that during the 12 hours, and then I learned about it during <date>the 26 days</date>.</u>
+      <u who="REED-WESTON">Okay. Can you walk me through exactly what happened once you went inside the administration building?</u>
+      <u who="PACHT">I have to tell you that everything I wrote from 1973—1963—actually, it was before ’63. I started writing journals probably in ’59. Everything I’ve written from <date>1959</date> to when the barn at the Wooden Shoe burned in <date>1973</date> was destroyed, so all of my notes from this whole era are gone. So it’s simply memory. And I’ve learned—<persName>Lori</persName> just found some pictures of what our kitchen looked like before we redesigned—we redid it, which is probably <date>2003</date> or ’4. And when I describe what the kitchen looked like, it’s like a caricature of what it really looked like. I made it ten times darker and ten times smaller, and it was just ridiculous. So memory—and they’re discovering this in law. You know, eye witness accounts are just worthless. </u>
+      <u who="REED-WESTON">Can you just tell me about what you saw and what you experienced while you were in <persName>Parkhurst</persName>?</u>
+      <u who="PACHT">In <persName>Parkhurst</persName>? Well, like I said—I thought about it in retrospect as the first commune, you know? There were, I don’t know, upwards of 50 people—at the beginning, there were 50, 60 people in there, and nobody really knew what to do. You know, at the beginning it was trying to—there were people still working, and I remember <persName>Thaddeus Seymour</persName>, who was the dean of college, you know, and guys were taking him out, you know, and he was sort of token resisting, you know, because—later on he said, you know, he actually had some sympathies with the students because we were courageous enough to be taking action and things like that, so he got hustled out.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="PACHT">I think I have to turn this [stove] off, but let’s see if it gives me any sense—</u>
+      <u who="REED-WESTON">Did you know that [<orgName>Dartmouth</orgName> president <persName>John Sloan] Dickey</persName> had requested an injunction against the protesters?</u>
+      <u who="PACHT">No. What kind of injunction?</u>
+      <u who="REED-WESTON">Instead of having a criminal matter, he had talked to—he had previously talked to a judge and the <placeName>New Hampshire</placeName> governor and requested an injunction, which then came into effect, which was the—which was what eventually got the protesters out of the building.</u>
+      <u who="PACHT">Ah!</u>
+      <u who="REED-WESTON">Did you know anything about the legal aspects of that?</u>
+      <u who="PACHT">No, not really. The only thing I knew was we saw [Governor <persName>Walter R.]</persName> <persName>Peterson</persName>’s car parked. It was, like, “NH-1” or something like that. So we knew the governor was involved. But, no, all I knew was that there was a contempt of court citation, and that was going to be the charge. We could have gotten <date>up to one year</date>, contempt of court, and probably a heavier fine. </u>
+      <u who="REED-WESTON">Were you prepared to be arrested?</u>
+      <u who="PACHT">Yeah.</u>
+      <u who="REED-WESTON">Did you think that it was a very likely possibility?</u>
+      <u who="PACHT">Yes. Yeah, we were sort of expecting—I mean, this was civil disobedience, and you had to go to jail, so—</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="PACHT">We didn’t think we were going to go to jail for <date>26 days</date>.</u>
+      <u who="REED-WESTON">What were you expecting?</u>
+      <u who="PACHT"><date>A week</date>, overnight, something like that.</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="PACHT">But when <persName>Bill</persName> talked to us and he told us what we were risking, then we became aware, and we understood what was going on. But he said—you know, we were in that perfect position. I mean, we didn’t have kids, we didn’t have jobs, and this was our job, and we were trying to save the world. And so we had the time. We could do the time. And so it was a time in our lives to do this, so that’s why we were able to do it.</u>
+      <u who="REED-WESTON">Do you think the administration handled the incident appropriately, especially given the context of other college protests?</u>
+      <u who="PACHT">Yeah, no question. I think they handled it much better than <orgName>Columbia</orgName>, you know? But I think that—you know, when [President <persName>John G.]</persName> Kemeny was in, he was handling things in a different way. You know, when he closed—after <orgName>the Parrot’s Beak [Cambodia</orgName>] invasion, when he shut down the college for a talkathon or something like that—that was probably a better way. And even when—what’s the current president’s name again?</u>
+      <u who="REED-WESTON">[<persName>Philip J.] Hanlon</persName>.</u>
+      <u who="PACHT">Yeah. When <persName>Hanlon</persName>—when <persName>Phil</persName> faced that, the occupation, it was perfect, the way he handled it. You know what I mean? What are you going to do? Here are kids that, on the one—every day you tell them they’re the elite of the world and they need to find their own way, and you don’t respect them when they come to you and talk to you, and they want to sit around longer than the office hours? And so he just handled it, you know. And that’s the way to do it. </u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="PACHT">It’s not, you know? So we get to hear all the things that people need to say, and maybe the college changes its investment policy or whatever it does. But at least it’s taken seriously. So I thought <persName>Phil</persName> handled it better than anybody. But I don’t think he could have handled it if <persName>Kemeny</persName> hadn’t handled it the way he handled it and if <persName>John Sloan</persName> hadn’t handled it the way he handled it.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="PACHT">You know, he had to bridge some really old-fashioned attitudes about what was going on, you know, and <persName>Peterson</persName> was, like, the first Democratic governor in <date>a hundred years</date> or something, so they all had to handle it the way that their constituents would allow them to handle it. And so did we.</u>
+      <u who="REED-WESTON">What did you think about the college-specific punishments that happened for the students who were currently enrolled?</u>
+      <u who="PACHT">In the main, I thought they were commensurate with what the students had done. You know, the guys who wanted to finish got to finish. Even <persName>Dave Green</persName>, who was separated from the college—he became great buddies with <persName>Dean Seymour</persName> over <date>the years</date>, and he went back and finished. You know, I mean, it worked out. I mean, the college—like I said, the college has to do what the college has to do. But, you know, they divested from their investments in <placeName>South Africa</placeName> when they needed to. It was a hard pull, but they did. So institutions can’t change overnight.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="PACHT">But I thought we had, you know—<persName>Dickey</persName> was at the end of a long career, and I thought he was courageous to handle things the way he did. But <persName>Kemeny</persName> came along, and then there was, you know, <persName>James O. [James Oliver Freedman</persName>] did what he had to—<persName>Freedman</persName>. You know, all of these guys moved the college in better ways, and so far <persName>Hanlon</persName>’s done good things, you know?</u>
+      <u who="REED-WESTON">Yeah. Do you think that the <persName>Parkhurst</persName> takeover was successful?</u>
+      <u who="PACHT">Well, you know, that was <date>1969</date>. The war didn’t end until— what?—’76  or something?</u>
+      <u who="REED-WESTON">Seventy-three.</u>
+      <u who="PACHT">Seventy-three? Yeah. So I think we contributed a little something. You know, we changed some minds, and we mostly changed our own minds, too. I mean, you know, as district governor now, I’m going around—I have to speak to every one of the 42 clubs in my <placeName>Rotary district</placeName>. And the district governor is supposed to carry the message, the theme of the <orgName>Rotary</orgName> international president. And our theme <date>this year</date> is <orgName>Light Up</orgName> Rotary. I’m not going to talk about that. But I start out by telling them a little bit about who I am and how I got to where I was. And I can’t—</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="PACHT">You know, we got to figure out something else. So I think we contributed in a small way to changing a couple of things at the college, changing some consciousnesses of people, you know, from the classes of, mmm, ’69 to ’75 or something. Made some more even more conservative, but maybe opened some other minds. But, you know, it wasn’t earth changing or anything.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="PACHT">It was a little contribution.</u>
+      <u who="REED-WESTON">What was it like in jail?</u>
+      <u who="PACHT">Well, there’s nothing soft in jail. We had a plastic mattress about two inches thick on a steel frame that lowered down on a couple of chains from the wall. There were two of them. So if you put both of them up, it was about six feet wide by nine feet long by about eight feet high. And we were confined there for most of <date>the day</date>. We only got outside once in <date>the 26 days</date>. And everything was either concrete or steel. </u>
+      <u who="REED-WESTON">What was your goal with what you wanted to do after you got out of jail?</u>
+      <u who="PACHT">I think, again, you know, I wanted to settle down. I wanted to find somebody and make something meaningful out of my life and go in some meaningful direction, and so that’s why—I didn’t know whether it was going to be back in <placeName>Hartland</placeName>—that’s where they finally found the house, but it was testing out with <persName>Carol</persName> whether <persName>Carol</persName> was going to be the person. And then we went through that whole thing about whether we were going to have <persName>Jesse</persName>, and then once we were going to have a kid, we had to—I had to make an environment for this kid. So that was—there was no way—and the best way for me to make an environment without having a job was depending on these other people. You know, everybody had to do something. </u>
+      <u who="REED-WESTON">Were your parents still supporting you at that point—I mean, financially?</u>
+      <u who="PACHT">No. There was no money coming from the parents at that time.</u>
+      <u who="REED-WESTON">What kind of contact did you have with them?</u>
+      <u who="PACHT">Well, by then, you know, it became exotic, you know? Like, commune life was exotic. My mother—[Chuckles.] It’s funny, because my mother—they came up to visit, and, you know, we didn’t have any indoor plumbing. We just had a cold-water pump and the shit pit, so, you know—I actually built her an outhouse with a toilet and a five-gallon pail underneath it so she wouldn’t have to go down to the gas station every time she had to pee.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. You mentioned earlier that egalitarianism—</u>
+      <u who="PACHT">Yeah.</u>
+      <u who="REED-WESTON">—was a big part of that.</u>
+      <u who="PACHT">Oh, yeah.</u>
+      <u who="REED-WESTON">Can you talk a bit about that?</u>
+      <u who="PACHT">Well, the women’s movement was getting pretty hot at the time, and so the women who lived at the Wooden Shoe were wanting to be treated equally.</u>
+      <u who="REED-WESTON">How many were there?</u>
+      <u who="PACHT">Well, there was <persName>Carol</persName> and <placeName>Odessa</placeName>, <persName>Esther</persName> and <persName>Ann</persName> were the—</u>
+      <u who="REED-WESTON">Out of how many?</u>
+      <u who="PACHT">Well, it would have been—there would have been me, <persName>Jake</persName>, <persName>Ed</persName> and <persName>Rob</persName>, so it was four and four. You know, people would come in <date>the summer</date>. They’d come walking down, looking for some hippie haven or some shit like that, and we would say, “You’re on dishes.”</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="PACHT">And, you know, “When you use the shit pit and you come back in, here’s how you have to wash your hands, because if you don’t, you’re going to make everybody sick, and then we’ll kill you.”</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="PACHT">So not too many people stayed for <date>the winter</date>, because we were heating with wood. You had to work from <date>sunup to sundown</date> to keep the systems going, and people would come in and say, “Boy, you guys are pretty strict!” And we’d say, “Fuck you. You want to be a flower child, there’s the road.”</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="PACHT">You know, “We don’t have time for that shit. You’re here, you gotta work.” So that was it. I mean, the women—and it was much more subtle than that. I mean, the easy things were the big ones, like, “Okay, well, you have to learn how to fix the car,” and not everybody has the talent for fixing the car; your genitalia doesn’t matter. But we had to work through that, you know? So, “Yes, you have to change it,” and “You gotta learn how to do the babies”—we had to learn how to take care of babies because babies—everybody has to take care of babies. “And you gotta learn how to split the wood. I’m always gonna split it twice as fast because that’s the way it works, you know? And you’re always gonna be better at taking care of the kids.”</u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="PACHT">That’s the way it was. But it was more subtle. It was in the meetings that we had to learn to respect each other’s styles of speaking. Whether you were a man who didn’t speak up much or a woman who was assertive, we had to recognize that these things were—that’s the way it was, and that’s what—we had to deal with it. It didn’t matter—your place in the discussion—your genitalia didn’t matter, either. Or your sexual preferences didn’t matter, regardless of your genitalia. But we spent a lot of time working on that, and a lot of strong women came out of the Wooden Shoe.</u>
+      <u who="REED-WESTON">Do you feel like you developed interpersonal skills—</u>
+      <u who="PACHT">No question about it.</u>
+      <u who="REED-WESTON">—as a result of—</u>
+      <u who="PACHT">No question. Nobody had as tough an ass as I do to sit through a meeting—</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="PACHT">—without having to go pee. You know, you had to learn that. And then—that’s the only management training I ever had to then go out and get a job at <orgName>UDS</orgName> [<orgName>United Developmental Services</orgName>] and take over.</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="PACHT">I studied a lot, you know, once I got to <orgName>UDS</orgName>. I read a lot more about it. Also when I was in <placeName>California</placeName>, you know, I participated in encounter groups. I don’t know how much you know about that.</u>
+      <u who="REED-WESTON">Nn-nn. </u>
+      <u who="PACHT">Did you ever hear [of] <orgName>the Esalen Institute</orgName>, E-s-a-l-e-n? </u>
+      <u who="REED-WESTON">Nn-nn. </u>
+      <u who="PACHT">You should <orgName>Google</orgName> that because it was a big thing in the ‘60s. It’s still going on. E-s-a-l-e-n, <orgName>the Esalen Institute</orgName>. Some of the people who had been to <placeName>Esalen</placeName>—they developed these things called encounter groups, where we were supposed to encounter each other as pure human beings you know?</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="PACHT">Without all the trappings of society. So they—some people developed what they called marathon encounters, where 24 hours you’re all in the same room. You’re not allowed to leave the room—and see what happens. And people would talk to each other. And those could get pretty brutal. </u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="PACHT">—about masks that people wear and ways that we use to avoid talking about what’s really happening. We used to double so that two people having a conversation that are pussyfooting around what they really want to say, so somebody stands behind this person, stands—and then says what you think that person is really trying to say instead.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="PACHT">So we learned about all of those things. A lot of risk, but, you know, nobody could leave, so you can’t leave till it’s resolved. And that’s what happened to the Wooden Shoe. You know, you can’t keep living when you’re carrying some kind of thing about what you said or how you treated me or—so. And then, you know, we were practicing freedom, so people would have the freedom to have sex with anybody you want. You have to accept the consequences of having sex with anybody you want, but you’re free to do it. But the consequences took a lot of time to work out. So whether it was about sex—the important things: sex, money, religion, work—all of those things take a lot of time to work out.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="PACHT">So that’s one of the things I learned.</u>
+      <u who="REED-WESTON">What do you feel like you got out of that experience?</u>
+      <u who="PACHT">I think a deep understanding of humans, and more than I had before. I did psychotherapy for <date>nine months three</date> or four times a week, too, so I learned a lot about my own—I did that when I was at <orgName>Stanford</orgName>. So the communal experience after that was also learning a lot more about people and their motivations, so it helped me when I was a CEO, which is what I did for <date>40 years</date>.</u>
+      <u who="REED-WESTON">What was your relation and opinion on politics during that time period?</u>
+      <u who="PACHT">Strictly left. Very far left.</u>
+      <u who="REED-WESTON">Were you activist at that point?</u>
+      <u who="PACHT">Only through voting, you know, and helping get people elected and writing letters. I mean, I didn’t run for office, although I supported <persName>Carol</persName>. <persName>Carol</persName> was elected to the New Hampshire House. Did I tell you that already?</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="PACHT">Yeah. She got the largest plurality of anybody in—anybody who was running for anything in <placeName>Canaan</placeName> except the town clerk, who had been the town clerk for <date>15 years</date>.</u>
+      <u who="REED-WESTON">When was she elected?</u>
+      <u who="PACHT">She served in—I guess it must have been the elections of ’76, so she served ’78-’79.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="PACHT">And then she won the election in <placeName>Canaan</placeName>, in the election of ’78, but she had withdrawn already. Her name was still on the ballot, but she wasn’t going to serve.</u>
+      <u who="REED-WESTON">Okay.</u>
+      <u who="PACHT">You know, “If elected, I will not serve.” Because she was pregnant. By then she was pregnant with <persName>Orin</persName>.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="PACHT">In <date>’79</date>. We already had <persName>Jesse</persName>, who was <date>about nine years old</date>.</u>
+      <u who="REED-WESTON">Do you think your experience with <persName>Parkhurst</persName> and getting arrested there changed your political views at all?</u>
+      <u who="PACHT">More confirmed than changed. You know, I mean, back then what I was looking at was tactics. You know, my views have always been the same—you know, egalitarian and socialist, but the question was: What do we do about it? You know, what can we do about it? </u>
+      <u who="REED-WESTON">I’m going to pause for a second.</u>
+      <u who="REED-WESTON">All right, we’re back.</u>
+      <u who="PACHT">Yeah, so nothing—it didn’t really change my politics, but it made me realize that the tactic of taking over the administration building was—had played out. You know, there was no—it wasn’t going to take us anywhere. And that’s what everybody else realized. You know, you can keep doing this, but that wasn’t going to do it. What we had to do was go out and make a life that was different and show people that you could make a different life than supporting the death machine.</u>
+      <u who="REED-WESTON">What did you think when <name type="event">the Vietnam War</name> finally came to an end, and especially then when <placeName>Saigon</placeName> fell to the North Vietnamese?</u>
+      <u who="PACHT">Yeah. I mean, it was a great sort of ignominious—you know, the picture of everybody crawling up the ladders onto the helicopters. You know, it was too bad that it ended that way, but—and then too bad that the South Vietnamese collaborators of <placeName>the United States</placeName> got such harsh treatment after that. You know, we ignored them, and then they got killed or they got sent to slave camps and all of that.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>, <persName>mm-hm</persName>. </u>
+      <u who="PACHT">So it was a just a sad, sad time. I was delighted to see <name type="event">the Vietnam Veterans War Memorial</name> [sic; <name type="event">Vietnam Veterans Memorial</name>]. I loved it when—I forget her name—May—I can’t remember her whole name [<persName>Maya Lin</persName>]. But when the sculpture was chosen for that, it was a perfect design. I remember feeling reverential when I went there to see it. You know, you go down into the earth, and it just gets bigger and bigger and bigger, and then the deaths diminish toward the end. It was a fantastic concept. It was a wonderful thing. And I think it was a big step towards feeling some of the horror. But some of it will never be healed.</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="PACHT">You know?</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="PACHT">But it felt great to have it be done.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Yeah. What did you do after you left the commune in <date>1975</date>?</u>
+      <u who="PACHT">Oh. Well, <persName>Carol</persName> and I moved to—we became caretakers for a house in <placeName>Dorchester</placeName>, <placeName>New Hampshire</placeName>, and I got my job as the CEO of what became <orgName>United Developmental Services</orgName>.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="PACHT">Of course, I had to go to LISTEN [Community Services] to get a jacket for the interview.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="PACHT">It came down to here [demonstrates]. But I think that the people who were doing it realized that if I got the job, I would do it up to here [demonstrates], the way I did everything else in my life. And I did. It was a wonderful business to be in because the tide of civil rights reached people with developmental disabilities in <date>the 1980s</date>, and <placeName>New Hampshire</placeName> was right out front with that movement. We were the first state to close its institution for people with mental retardation in the whole country, so we were nationally known. </u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="PACHT">So it was nice to have some money and do great things, so it was a wonderful time. I really had a great time. It got bad toward the end because the politics, too, began to feed into everything that we were doing. This is toward the end, after <date>2000</date> or something. The government in <placeName>New Hampshire</placeName> had changed. You know, we had that guy [as governor] named <persName>Craig Benson</persName>, who was this Libertarian disguised as a Republican, and he really just raped <orgName>the Department of Health and Human Services</orgName> so that mental health and mental retardation services started going downhill, and we couldn’t keep up with kind of individualized services that were good. </u>
+      <u who="REED-WESTON">Mmm.</u>
+      <u who="PACHT">Because my management—everybody on my management team had been working for <date>15 years</date>, so even if you start at $10,000 a year and you get two or three percent raise a year, you’re making substantial money after <date>15 years</date>. So I had a very expensive management team, and they said, “Oh, we’re gonna save four hundred and fifty thousand”—actually, the combined agency lost seven hundred and fifty thousand <date>the first year</date>. And now everything came true. Their offices are in <placeName>Claremont</placeName>, you know.</u>
+      <u who="REED-WESTON">Yeah. What have you been doing since then?</u>
+      <u who="PACHT">Since then, for <date>the next six years</date> after I left, I got hired by <orgName>Twin Pines Housing Trust</orgName>, and I got into affordable housing, so I had to learn—John [H.] Vogle [Jr.], who’s a professor at the business school, was on the board of directors, and he said—I went from kindergarten to graduate school in <date>about eight months</date>. I had to learn the business—not only learn the business of affordable housing but learn how it was practiced in both <placeName>New Hampshire</placeName> and <placeName>Vermont</placeName> because <orgName>Twin Pines</orgName> operated in both states. </u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="PACHT">And they’re doing fine. So that’s what I did.</u>
+      <u who="REED-WESTON">[Chuckles.] What kind of impact do you think <placeName>Vietnam</placeName> has had on the rest of your life?</u>
+      <u who="PACHT">It completely changed my direction. The first thing I thought—I mean, I dropped out of my career. I would have been a teacher, and I wanted to come back and teach at <orgName>Dartmouth</orgName>, so at least half of that I got—you know, you live in the shadow of Mother <persName>Dartmouth</persName>, at least.</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="PACHT">Yeah.</u>
+      <u who="REED-WESTON">Okay. Is there anything else you want to talk about that we haven’t touched on already?</u>
+      <u who="PACHT">No. I’m just—I’m glad this is done. Periodically, we talk to people who are interested in it. It’s nice to have an academic—a comprehensive academic approach to looking at it.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="PACHT">And I’ll be looking forward to the product of your work.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="PACHT">After you shut this off, tell me what you’re going to—</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="PACHT">Where do you think you’re leading yourself?</u>
+      <u who="REED-WESTON">All right. Well, thank you very much for doing this.</u>
+      <u who="PACHT">Okay.</u>
+      <u who="REED-WESTON">All right.</u>
+    </body>
+  </text>
+</TEI>

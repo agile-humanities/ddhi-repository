@@ -1,0 +1,674 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="MARKOWITZ"/>
+        <person xml:id="KEILLER"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="MARKOWITZ">This is <persName>Hannah Markowitz</persName> in <orgName>Rauner</orgName> [<orgName>Special Collections] Library</orgName> on <orgName>Dartmouth College’s</orgName> campus on <date>February 23rd, 2017</date>. I’m here with [<persName>Alan C.] “Al” Keiller</persName>, and this interview is for <orgName>the Dartmouth Vietnam Project</orgName>.</u>
+      <u who="KEILLER">Oh, good. Well, I was born in <placeName>Paterson</placeName>, <placeName>New Jersey</placeName>, and my family lived in <placeName>North Haledon</placeName>, <placeName>New Jersey</placeName>, which is very close to <placeName>Paterson</placeName> and <placeName>Ridgewood</placeName>, so very much an area that was for commuters to <placeName>New York City</placeName>. So my dad worked in <placeName>New York City</placeName>. </u>
+      <u who="MARKOWITZ">Oh, yeah!</u>
+      <u who="KEILLER">—and we all went to <orgName>Tuck School [of Business</orgName>] on what was then the 3-2 program. My older brother and I went to <orgName>Dartmouth</orgName> on [<placeName>U.S.</placeName>] <orgName>Navy</orgName> scholarships, so we had to compete, take tests, much like the academies, and if you were accepted, you—you selected the college that you could go to or you could put in for the college, and if you—it was a ranking system. And it turns out my older brother came to <orgName>Dartmouth</orgName> on the <orgName>Navy</orgName> scholarship. And when it was my turn to—to go to college, I had applied to a number of places and ended up at <orgName>Dartmouth</orgName>. I had an appointment to the [<placeName>U.S.</placeName>] <orgName>Air Force Academy</orgName>, but decided <orgName>Dartmouth</orgName> was going to be probably better because I wasn’t planning to make the military a career. </u>
+      <u who="MARKOWITZ">Wow.</u>
+      <u who="KEILLER">—midshipmen.</u>
+      <u who="MARKOWITZ">Oh, that was just in <orgName>Navy</orgName> ROTC [Naval Reserve Officers’ <orgName>Training Corps</orgName>].</u>
+      <u who="KEILLER">Just in <orgName>Navy</orgName>.</u>
+      <u who="MARKOWITZ">Wow.</u>
+      <u who="KEILLER">And there was—virtually every—and it was all male then, obviously. Virtually—I would well over 50 percent, maybe closer to 75 percent as freshmen, we were involved with <orgName>ROTC</orgName> or <orgName>NROTC</orgName>, so virtually everybody drilled once a week.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">It was—it was just normal. And this, of course, was before <name type="event">the Vietnam War</name>. It was in <date>1962</date>, so it was peacetime and a different atmosphere than when we graduated in <date>1966</date>. That was at the height of a lot of the higher levels of action and then protests.</u>
+      <u who="MARKOWITZ">Right. You mentioned your father commuted into the city for work.</u>
+      <u who="KEILLER">Yes.</u>
+      <u who="MARKOWITZ">What was his profession when you were growing up?</u>
+      <u who="KEILLER">He was a salesman.</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="KEILLER">He worked as a sales manager for <orgName>Firestone Tire and Rubber Company</orgName>, and he was—he worked in the Empire State Building and then later in Rockefeller Center, so as kids we always enjoyed visiting the city and visiting his office.</u>
+      <u who="MARKOWITZ">What sort of—what spark you and your brothers’ interest in the <orgName>Navy</orgName> or a military career?</u>
+      <u who="KEILLER">Well, primarily the opportunity to go to college and have it paid for, so we knew we couldn’t afford to go to <orgName>Dartmouth</orgName> without scholarships, and so—or to an Ivy League school. And so to apply for the scholarship was important, and then to get it was even more important because that meant we could attend <orgName>Dartmouth</orgName>. I had gotten into <persName>Princeton</persName> [University] as well, but that was on a regular scholarship, which would have been about half of what I got from the <orgName>Navy</orgName>.</u>
+      <u who="MARKOWITZ">Wow.</u>
+      <u who="KEILLER">And I think most people of our generation or a good portion felt like they wanted to—it was expected that you’d spend some time in the military.</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">So being in the <orgName>ROTC</orgName> program was very normal and almost expected, so a lot of guys that graduated—of course, the war had an impact on it, but a lot of them went to <orgName>OCS</orgName> [Officer Candidate School] and then were officers, even though they didn’t come to school on a scholarship.</u>
+      <u who="MARKOWITZ">So growing—growing up in <date>the 1950s</date> and sort of the sort of suburban area, what—was the Cold—the beginnings of <name type="event">the Cold War</name> at all present in your childhood?</u>
+      <u who="KEILLER">Very much so.</u>
+      <u who="MARKOWITZ">Okay.</u>
+      <u who="KEILLER">Yeah. It was—</u>
+      <u who="MARKOWITZ">In what—in what ways?</u>
+      <u who="KEILLER">Well, you know, it’s—I think the underlying contextual information was that most of our fathers’ generation served in <name type="event">World War II</name>,—</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">—which was so cataclysmic. It’s hard probably for you to understand that, you know, I think it was 60 or 70 million people were killed in <name type="event">World War II</name>, and I think 500,000 Americans, which was very low compared to Germans or French or English or Russians, of course.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">So it was a time where people were still getting over <name type="event">World War II</name>. Everyone talked about “the war.” And everybody knew when they said, “the war,” it meant <name type="event">World War II</name>.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">You didn’t have to define it. And so I think, you know, that was sort of the context. And then when <placeName>the Soviet Union</placeName> became so aggressive and negative and there was this fear mongering that was going on, there was a real concern that, you know, bombers could take off, and so we did the duck-and-cover in the classroom, under our desks,—</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">—and learned a little bit about nuclear blasts and those kind of things. And so it was very—very much there. And in <date>1957</date>, when <persName>Sputnik</persName> [1] went up, that was a real shock. It was very dramatic because it said that the Russians, or the Soviets, could launch a missile—if they could launch that, they could launch a missile that could hit us, and that was very electrifying.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">It created a lot of interest in math and science and associated things, yeah.</u>
+      <u who="MARKOWITZ">So did your father serve in <name type="event">World War II</name>?</u>
+      <u who="KEILLER">He did not. No, he was—he was the only son—his father died when he was <date>only a week old</date>.</u>
+      <u who="MARKOWITZ">Wow.</u>
+      <u who="KEILLER">And so he was raised by his mother, and I think that had some element of why he was deferred, plus he worked in an industry at that time, not <orgName>Firestone</orgName> but at the earlier time, that was critical.</u>
+      <u who="MARKOWITZ">Right, right.</u>
+      <u who="KEILLER">So he was not drafted, and he did some civil defense work but not—he didn’t serve. But uncles and cousins and a lot of them served.</u>
+      <u who="MARKOWITZ">Okay. Had any of them been in the <orgName>Navy</orgName> or—</u>
+      <u who="KEILLER">No, most of them were either in the [U.S.] <orgName>Army</orgName> or Marines [<orgName>U.S. Marine Corps</orgName>].</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="KEILLER">Or [<placeName>U.S.</placeName>] <orgName>Army Air Force</orgName>, which became the [<placeName>U.S.</placeName>] <orgName>Air Force</orgName> after <name type="event">World War II</name>.</u>
+      <u who="MARKOWITZ">Right. So you—you mentioned before that you actually had an appointment to <orgName>the Air Force Academy</orgName> as well?</u>
+      <u who="KEILLER">Yes.</u>
+      <u who="MARKOWITZ">What—could you just talk a bit more about what pushed you to choose <orgName>Dartmouth</orgName> and the <orgName>NROTC</orgName> program here over that?</u>
+      <u who="KEILLER">I think it—the most important thing was that I—I—I came to a conclusion—and, you know, at <date>age 17</date>, it’s—you know, you’re just 17,—</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="KEILLER">—that I didn’t plan to make the military a career,—</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="KEILLER">—that I would be like many other people who had served, <date>four—five years</date> and then it would be a good experience, you’d serve your country,—</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">—you’d do your duty and then move on to other things. And I thought that anyone that went to <orgName>the Air Force Academy</orgName> should probably be someone who thought they would make it a career. There was—the offsetting factor was that <orgName>the Air Force Academy</orgName> was 100 percent paid for. When the <orgName>Navy</orgName> scholarship was—they paid your tuition and your books. They paid for your books and fifty dollars a month.</u>
+      <u who="MARKOWITZ">Oh, wow.</u>
+      <u who="KEILLER">So my parents paid for room and board.</u>
+      <u who="MARKOWITZ">Okay.</u>
+      <u who="KEILLER">—which, I mean, now—I have a daughter who was a <orgName>Dartmouth</orgName> ’<date>93</date>, and at the time I went to <orgName>Dartmouth</orgName> and for <date>many years</date> it was the cost of college education at <orgName>Dartmouth</orgName> was like buying a <orgName>Chevy</orgName> [a <orgName>Chevrolet</orgName>]. And when my daughter went, it was like buying a <orgName>BMW</orgName>, and crashing it <date>every year</date>. [Both chuckle.] Buy another one <date>the next year</date>. And now it must be—I don’t know, it’s $70,000 or whatever.</u>
+      <u who="MARKOWITZ">Buying a sports car, yeah. [Laughs.]</u>
+      <u who="KEILLER">Yeah. </u>
+      <u who="MARKOWITZ">So—</u>
+      <u who="KEILLER">That’s a long answer to a short question.</u>
+      <u who="MARKOWITZ">No, that was great. All very important. </u>
+      <u who="KEILLER">’Two.</u>
+      <u who="MARKOWITZ">What was campus like when you first got here?</u>
+      <u who="KEILLER">It was very exciting. I—I didn’t—I knew my brother, obviously.</u>
+      <u who="MARKOWITZ">Oh, right.</u>
+      <u who="KEILLER">He was <date>a year older</date>, but he lived in Hitchcock [Hall]. And I was in <placeName>Woodward</placeName> [Hall]. And I—I never lived away from home. I never went to camp during <date>the summer</date>, and so it was a big difference. I roomed with a guy who was from <placeName>Nebraska</placeName>, a <orgName>guy I’m</orgName> still good friends with. And over a hundred of us out of—I guess it was about 750—well over a hundred played freshman football. So I was a football—I played football in high school, and it was a great experience to be on the freshman football team, and I got to know a lot of people quickly. And that really kind of got me going. And I think we had a very close group of people in our dorm, <persName>Woodward</persName>. And so I felt very comfortable right away.</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>. </u>
+      <u who="KEILLER">I had—my wife and I dated from—she was a freshman; I was a sophomore in high school.</u>
+      <u who="MARKOWITZ">Oh, wow.</u>
+      <u who="KEILLER">So we dated through high school, all through <orgName>Dartmouth</orgName>, got married as soon as I got commissioned, and so I—I—my social life was directed towards her,—</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">—as opposed to going on trips and stuff. I was—I—I enjoyed the football, and I wasn’t a super student <date>the first two years</date>, and then I stopped playing football after <date>the first year</date> because we had very good football players. I wrestled <date>the first two years</date> and then stopped that, and then I buckled down. I got very good grades my junior year, and that allowed me to get into Tuck.</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="KEILLER">And the <orgName>Navy</orgName> allowed you to have <date>one extra year</date> of school, so I was able to complete the undergraduate and the MBA [<orgName>Master of Business Administration</orgName>] in <date>five years</date>, which—you know, there were twelve of us from my class, ’66, that were <persName>Tuck</persName> ’67s.</u>
+      <u who="MARKOWITZ">Okay.</u>
+      <u who="KEILLER">And then I went into the <orgName>Navy</orgName>.</u>
+      <u who="MARKOWITZ">What was—what was the <orgName>Navy</orgName> ROTC like when you were here?</u>
+      <u who="KEILLER">Oh, it was interesting. Once a week, you would drill, so you would—you had a uniform to put on, and I’m trying to think where we went. [Both chuckle.] I think we did it mainly in the gym. And there were—there was a faculty, and the faculty was made up of officers and some enlisted men, and I was just thinking about this this morning because—probably because of this discussion.</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="KEILLER">You took naval science courses, so in your <date>first year</date> was naval history, you had naval engineering, you had naval navigation, and they were regular credit courses, but they were on top of your nine courses—during <date>the year</date>, you took nine courses?</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER"><orgName>Navy</orgName> ROTC took ten. So you had an extra course.</u>
+      <u who="MARKOWITZ">Okay.</u>
+      <u who="KEILLER">And it wasn’t an easy course, but—so you had the <orgName>Navy</orgName> courses, and then you had the drill, so you got a lot of understanding of the <orgName>Navy</orgName>, but—and then in <date>the summer</date>, <date>between your first and second years</date>, you went on a midshipman cruise, and I went on a destroyer out of Norfolk [Naval Station Norfolk, <placeName>Virginia</placeName>] down to the <placeName>Caribbean</placeName> [Sea]. And your job was like an enlisted man. So you were lowest of the low.</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="KEILLER">And you wore a hat, a white <orgName>Navy</orgName>—sailor’s hat? But it had a blue rim around it, so everybody knew you were—you were a college boy being run around. </u>
+      <u who="MARKOWITZ">Oh, wow.</u>
+      <u who="KEILLER">So it was—you got indoctrinated in the <orgName>Navy</orgName> as—in <date>the summers</date>, so that when you graduated, you were commissioned, and you were expected to function.</u>
+      <u who="MARKOWITZ">Right, right.</u>
+      <u who="KEILLER">And you were not nearly as good as the people who went to <orgName>the Naval Academy</orgName> because they had <orgName>Navy</orgName> three six- —you know, it was a <date>year-round</date>, 365. But you pretty—you caught up pretty quickly.</u>
+      <u who="MARKOWITZ">I’m sure you—you were forced to [chuckles] in some situations.</u>
+      <u who="KEILLER">Yeah.</u>
+      <u who="MARKOWITZ">What did you—so you did the <persName>Tuck</persName>. You got your MBA within <date>a year</date> of graduating.</u>
+      <u who="KEILLER">Yeah, so you skip your senior year at <orgName>Dartmouth</orgName>—</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">—and took <date>two years</date> at Tuck—</u>
+      <u who="MARKOWITZ">Okay, <date>two years</date> at Tuck.</u>
+      <u who="KEILLER">And that’s how it worked. Once you left your junior year, you didn’t—you didn’t take any more courses at <orgName>Dartmouth</orgName>.</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="KEILLER">You were down the road, which was kind of—from a social and a maturing perspective, it would have been nice to stay with my class.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">But I—you know, I knew my track was I had to go in the <orgName>Navy</orgName>, and I knew I was going to get married.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">So we were—you know, wanted to get that done, and so—yeah.</u>
+      <u who="MARKOWITZ">Yeah. So then did you also get—what was your degree from <placeName>Dartmouth</placeName> in?</u>
+      <u who="KEILLER">It was in government.</u>
+      <u who="MARKOWITZ">Okay.</u>
+      <u who="KEILLER">But I never finished the major. I just—you know, you would take most of the courses in your senior year.</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="KEILLER">And then at Tuck I—they called concentration and accounting, so when I got out of the <orgName>Navy</orgName>, I ended up decid- —I was in the nuclear power program. I could have been a nuclear engineer or an accountant,—</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="KEILLER">—and I ended up being an accountant. Quite successful accountant.</u>
+      <u who="MARKOWITZ">[Chuckles.] Good, good.</u>
+      <u who="KEILLER">Yeah.</u>
+      <u who="MARKOWITZ">—tours through <placeName>ROTC</placeName>. What—was that very—I guess that was sort of the beginning of [President <persName>Lyndon B.]</persName> <persName>Johnson</persName>’s escalation of <name type="event">the Vietnam War</name>.</u>
+      <u who="KEILLER">Yes.</u>
+      <u who="MARKOWITZ">Was that very present among the <orgName>Dartmouth</orgName> people who were doing <orgName>ROTC</orgName>, among the students in general?</u>
+      <u who="KEILLER">I think people had an awareness of it. It wasn’t so earth shattering, though. It seemed pretty benign. And you know that the war kind of just—just gradually got bigger and bigger. It wasn’t like <name type="event">the Iraq War</name>, where [claps hands]—throw everything in and just overwhelm everything. It was just—it was always this gradual, gradual, gradual “It’s gonna get better. We just need more men.” And it just, you know, never worked.</u>
+      <u who="MARKOWITZ">Right. Did you—was there a sense at all that you—did you know for sure that you would be going to <placeName>Vietnam</placeName>, sort of your class while you were here?</u>
+      <u who="KEILLER">I—you know, as we approached graduation—and, again, I’m a little bit distant from my <orgName>Navy</orgName> class because they all left in <date>June</date> of ’66,—</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">—and I left in <date>June</date> of <date>’67</date>. A number of the guys—and <orgName>I’m</orgName> still very close to that group. We had a tremendous group. A number of the guys went into aviation, and they knew that they would be flying off of carriers and they would be flying in <placeName>Vietnam</placeName>, or a high probability. And one—one made admiral—</u>
+      <u who="MARKOWITZ">Wow.</u>
+      <u who="KEILLER">—eventually. He was a naval aviator, and then he became a nuke, and then an admiral. Another guy who was a good friend in college—I’m not as close now, but he flew [<orgName>A2F</orgName> <orgName>Grumman</orgName>] intruders over <placeName>Vietnam</placeName>, and that was a very difficult—so the answer is yes. I think people knew that there was a risk. And the <orgName>Navy</orgName>, though, was—was less directly involved, unless you were a aviator than, certainly, the <orgName>Army</orgName>, the <orgName>Army</orgName> and the Marines. We did have a number of guys go in the Marines from the <orgName>Navy</orgName> because the <orgName>Marines</orgName>, despite what they say, is part of the <orgName>Navy</orgName>.</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="KEILLER">They are—and they saw combat.</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">And so if you decided you wanted to be a <orgName>Marine</orgName>, you—you knew you were likely to go.  Yeah.</u>
+      <u who="MARKOWITZ">Could you talk a bit more about what exactly happened after <date>June</date> ’67, what the process was after you graduated,—</u>
+      <u who="KEILLER">Okay. </u>
+      <u who="MARKOWITZ">—getting commissioned and sort of what happened next? You mentioned you also got married around that time, so—</u>
+      <u who="KEILLER">Yes. So, yeah, we—we were engaged for—we had dated all those <date>years</date>, and then—and really didn’t date other people, and so we had got engaged <date>about nine months</date> before we got married, but we sort of knew we were. And it was—we got—I graduated I guess it was, like, <date>June</date> whatever, 10th or <date>12th</date> or something. The day before, you get commissioned, so you’re a commissioned officer then, and your in. [Chuckles.]</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">And I think it was <date>a week later</date> we got married, <date>June 18th</date>. And I was quite unusual in that when I was at <orgName>Tuck School</orgName> in <date>the spring of my second year</date>, I thought I was going to go into the [<orgName>U.S. Navy] Supply Corps</orgName> in the <orgName>Navy</orgName>, which is sort of the business end of the <orgName>Navy</orgName>, supporting the ships and so forth, and they needed extra—there was a request that came from <placeName>Washington</placeName> [<placeName>D.C.</placeName>] that [they] needed additional nuclear officers, so the situation was that if you said you would volunteer, you flew down to <placeName>Washington</placeName> and you were interviewed by Admiral [<persName>Hyman G.] Rickover</persName>. Do you know who Admiral <persName>Rickover</persName> was?</u>
+      <u who="MARKOWITZ">No, I haven’t heard that.</u>
+      <u who="KEILLER">You should write that down and look him up. <orgName>Google</orgName> him.</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="KEILLER">Rickover. He was the father of the nuclear <orgName>Navy</orgName>, and he had—<persName>Hyman Rickover</persName>, <orgName>Naval Academy</orgName>. I think ’22. He was the guy who developed the [USS] Nautilus, the first nuclear-powered submarine, and then a series of submarines after that. And eventually, when I was in, there were four surface ships that were powered by nuclear power plants. So most of the people who were in the nuclear power program were engineers, and all of the people who graduated from <orgName>the Naval Academy</orgName> were all engineers, so they were prime people to go in.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">—so they needed more people to go in and officers to go in, so I volunteered, thinking there was no way they would pick an accountant [both chuckle], right? And I had my interview with <persName>Rickover</persName>, and sure enough, I got selected. So we—soon—like, <date>two weeks</date> after we got married—we got married. Had a wonderful honeymoon in <placeName>Bermuda</placeName>, came up on temporary duty station to <placeName>Dartmouth</placeName> for <date>about three or four weeks</date>, and then I had to report to nuclear power school in <placeName>San Francisco Bay</placeName> area. So my wife and I drove across the country in <date>about two weeks</date>. We had a second honeymoon,—</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">—driving across the country. And then I had <date>six months</date> of training in classroom. Very, very intense training.</u>
+      <u who="MARKOWITZ"><date>Six months</date>?</u>
+      <u who="KEILLER"><date>Six months</date>.</u>
+      <u who="MARKOWITZ">Oh, wow.</u>
+      <u who="KEILLER">What they call nuclear power school. And most of the people in my class—there were 60 of us—were <orgName>Naval Academy</orgName> graduates. We were all brand-new ensigns. I mean—and over half were just married, just like me. You couldn’t get married until you were commissioned, so everybody is newlywed. [Chuckles.] And you had this school that was—it was 10, 12, hours a day that you had to study. Either you were in class or studying to be able to—</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">So you—people like myself, officers and enlisted men, would learn how to operate the nuclear power plant that ran the ship,—</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">—safely. And you had to be what they called qualified, in essence licensed by <persName>Rickover</persName>’s process. <orgName>GE</orgName> ran the place, but it was under <persName>Rickover</persName>’s control. And then—so it was <date>a whole year</date> of training before I went to my ship, and my ship was in [Naval Station] Long Beach, <placeName>California</placeName>, so it was <date>September</date> of ’68 that I was assigned to my ship, which was a nuclear-powered frigate.</u>
+      <u who="MARKOWITZ">Did you enjoy this sort of intensive training in nuclear power and nuclear propulsion?</u>
+      <u who="KEILLER">In retrospect I did.</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="KEILLER">It was very tough. I mean, we were newlyweds. I mean,—and unlike <date>today</date>—no one lived together then. I mean, you were truly newlyweds. You were new to one another. And here, I was studying 12, 13 hours a day.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">And so it was—it was a little difficult to begin with. And for me, not being an engineer was very hard. Eventually, I—I graduated 10th out of 60th [sic], but I was—I started off the chart. Rickover would be sent a graph <date>every week</date> of where everybody stood. They had to add something to the bottom—</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="KEILLER">—the—the guy showed me. [Chuckles.] He had to—I was so low. </u>
+      <u who="MARKOWITZ">So were they—were they really getting into the sort of detail- —the nitty-gritty details of the—the reactors, or was it sort of just what you needed to know?</u>
+      <u who="KEILLER">It was very much—what you learned in the school portion of it was all the theory.</u>
+      <u who="MARKOWITZ">Wow.</u>
+      <u who="KEILLER">So you learned, you know, about nuclear fission: how it happens, why it happens, how it’s controlled. You had to learn all about the metallurgy of the reactor containment vessel, so—you know, there were risks that it could fail, and you had to understand how that could happen. You had to learn all of them thermodynamics of steam and how it turns a turbine and how you generate electricity. So there was a lot of theory, so that when you were operating it, you knew—you just didn’t learn, “Turn that valve, and open that switch.” You had to understand why,—</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">—because sometimes it didn’t work, and you had to fix it. Quickly.</u>
+      <u who="MARKOWITZ">Was this—was this novel technology for the <orgName>Navy</orgName> at the time?</u>
+      <u who="KEILLER">It was—yes, it was—it wasn’t top secret; it was classified either confidential or secret. And it was protected. We knew the Russians had nuclear submarines, but we had the first one. It was—this <persName>Rickover</persName> guy—</u>
+      <u who="MARKOWITZ">Yeah.</u>
+      <u who="KEILLER">—was brilliant. He—he not only helped engineer it—I mean, he was smart enough to understand how to engineer it, but then organizationally he was able to put together teams of people to make it work, so it was—it’s a fascinating thing when—our reactor—we had two of them. Maybe from here to that fireplace and twice as high as this room was the reactor vessel. </u>
+      <u who="MARKOWITZ">Wow.</u>
+      <u who="KEILLER">Maybe a little bit bigger. We had two of them, and it would drive a ship for <date>three or four years</date> and light all the lights. Now, a convention ship would burn oil.</u>
+      <u who="MARKOWITZ">Right. </u>
+      <u who="KEILLER">And it had to be refueled <date>every three of four days</date>, which was a very dangerous process to do it at sea. Plus the faster you went, the quicker you burned it.</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">We just opened our throttles, and the ship would go. It was abs- —it’s a brilliant, brilliant—</u>
+      <u who="MARKOWITZ">Wow. Did you know what the role of these ships would be in <placeName>Vietnam</placeName>, or were you just—</u>
+      <u who="KEILLER">I did. Our ship was unique in that we were a offshore controller of aircraft, so we stayed in <placeName>the Gulf of Tonkin</placeName> and directed planes to go on bombing runs, and then we were available to help recover anyone who was shot down. We had a helicopter on board that we could launch to help rescue. </u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="KEILLER">That’s up—up on top, and that’s where the—what’s known as the officer of the deck stands. The officer of the deck is the person in charge of directing the ship where it’s driving and what it’s doing, you know. In the case of an emergency or a combat situation, you would—the captain would take over, the captain being the CEO, the person in charge.</u>
+      <u who="MARKOWITZ">Okay.</u>
+      <u who="KEILLER">—back and forth and probably do a bit loop. And we were often by ourselves, so we didn’t have—like, an aircraft carrier has a number of other ships being with it. And this sort of cloud of fishing boats would come around us, and you never knew—I mean, there could be a combat ship.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">And thank goodness they weren’t doing things like the—<orgName>ISIS</orgName> [<orgName>Islamic State of Iraq</orgName> and <placeName>Syria</placeName>, officially known as <orgName>Islamic State of Iraq</orgName> and the <placeName>Levant</placeName>, or <orgName>ISIL</orgName>] does or <orgName>Al-Qaeda</orgName> does with ships that—like, the ship in—that was hit, the [USS] Cole. Remember that,—</u>
+      <u who="MARKOWITZ">Yeah.</u>
+      <u who="KEILLER">—when the ship was hit?</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">I mean, when I think of it, any one of those little dots could have been a Swift Boat that could have hit us,—</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">—but it never happened, so—</u>
+      <u who="MARKOWITZ">So they were—they were truly just fishing boats, or—</u>
+      <u who="KEILLER">We presume. I would think that some of them were people listening to us.</u>
+      <u who="MARKOWITZ">Okay.</u>
+      <u who="KEILLER">Yeah, that were out there.</u>
+      <u who="MARKOWITZ">What was the—what was the protocol when that happened and you would see it on your watch?</u>
+      <u who="KEILLER">You just—you try to avoid them. You didn’t want to run them over, because there was always—there were some incidents, particularly with Thai- —<placeName>Thailand</placeName>—Thai fishermen that were hurt by American ships, and it would cause an international incident. But if they happened to be Vietnamese—or North Vietnamese, I don’t think it would have been too—too much tears would have been shed.</u>
+      <u who="MARKOWITZ">Right, right.</u>
+      <u who="KEILLER">And <placeName>Hainan Island</placeName> [sic; <placeName>Hainan</placeName>], which is part of <placeName>China</placeName>, was right there too, so you went in between North Vietnamese and <placeName>Hainan Island</placeName>, so there were Chinese fishing.</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">Of course, back in <date>’67</date> it was a very—’68, ’69, ’70, <placeName>China</placeName> was very closed. It was—it was this big unknown. You know, they were very backward, very—</u>
+      <u who="MARKOWITZ">Right. So you did your <date>year-long</date> training from ’67 to ’68,—</u>
+      <u who="KEILLER">Yep.</u>
+      <u who="MARKOWITZ">—and then in <date>’68</date>, you said, you—</u>
+      <u who="KEILLER">I was on my ship for <date>two years</date>.</u>
+      <u who="MARKOWITZ">Okay, and which—that was the—</u>
+      <u who="KEILLER">It was USS Truxtun.</u>
+      <u who="MARKOWITZ">Okay.</u>
+      <u who="KEILLER">So I was on that for <date>two years</date>, and then my <date>last year</date>, I went back to <placeName>Saratoga Springs</placeName> as an instructor—</u>
+      <u who="MARKOWITZ">Okay.</u>
+      <u who="KEILLER">—at the training facility.</u>
+      <u who="MARKOWITZ">Was <date>two years</date> the—the length of service that they required from you?</u>
+      <u who="KEILLER">It’s typically that you would be on a ship <date>two to three years</date>, because very much like the corporate world, the <orgName>Navy</orgName> has you in a position and then changes your job, so you continually are learning different things?</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">So people who were on—the basic breakdown of the <orgName>Navy</orgName> is the submarine service; the air, naval aviation; and then the regular ships.</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">And so—what they call line officers. So I would—I was unique that I was a nuke, and I would always have a nuclear billet, meaning job.</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="KEILLER">So if I had stayed in, I probably would have gone back to another nuclear-powered ship and had more responsibility. When I left the <placeName>Truxtun</placeName>, I was the electrical officer, so I had what they call two divisions of people, men, under my direction. And so we had probably 70 men. I had one other officer, chief petty officers—there’s sort of a pyramid of people. [Chuckles.]</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">All of them were nukes, so—so all the people that I supervised were—virtually all of them were trained to be nuclear trained, so they were much better trained than the regular people on the ship. Much higher level of intellectual capability, responsibility and technical skill.</u>
+      <u who="MARKOWITZ">Do you think that facilitated a different dynamic on the <placeName>Truxtun</placeName> than maybe on other ships?</u>
+      <u who="KEILLER">It did. It did, because sort of the nukes were looked on—now, you had—I say “the nukes,” meaning—if you’re on a nuclear-powered ship and you were nuclear qualified, you were called a nuke.</u>
+      <u who="MARKOWITZ">Right, right.</u>
+      <u who="KEILLER">And the rest of the people, like the people who handled the guns and the missiles and the torpedoes, the radio, the radar—they were not nukes. And there wasn’t any animosity between the officers. There was respect. But when it came to the enlisted guys, the—I think they felt like the nukes were snobs a little bit. They were the smart guys. I had a couple of incidents with some of my men, where they got into trouble because they were a little bit haughty in their way with other people, so—</u>
+      <u who="MARKOWITZ">Towards—towards—towards other enlisted men—</u>
+      <u who="KEILLER">Yes.</u>
+      <u who="MARKOWITZ">—who weren’t nukes?</u>
+      <u who="KEILLER">Yeah. </u>
+      <u who="MARKOWITZ">I see.</u>
+      <u who="KEILLER">There was a situation where one of my guys got in trouble on—on the mess line. You know, you get your food on a tray, the enlisted guys did, and the guys who were the cooks were generally, probably the least intellectual—</u>
+      <u who="MARKOWITZ">Right, right.</u>
+      <u who="KEILLER">—people in the—on the ship. And one of our nukes, my <orgName>Navy</orgName> guy—my electricians did something to—and they got into a bit of a scuffle. So you were called up before the captain, what was called captain’s mast. Have you ever heard of that?</u>
+      <u who="MARKOWITZ">No, I haven’t heard that term.</u>
+      <u who="KEILLER">So on a ship, if there’s a judiciary process that needs to take place, an arbitration process, a judiciary process or a legal process, it goes to the captain of the ship. The captain is the boss.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">And he—and at that time it was always a he—would hear evidence. So I—if you had this mess guy came up with his officer and he told his story, and the officer supported him, and I gave my story, and I thought my guy had—you know, he had it all right. You know, it was perfect. The captain got mad at my guy for being a know-it-all nuke, and we were both, like, “Oh, my God!”</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="KEILLER">And usually the punishment was pretty minor. It was more the embarrassment.</u>
+      <u who="MARKOWITZ">Right, right.</u>
+      <u who="KEILLER">To go before a captain’s mast was not a good thing. And what they call—you’d be written up. So <date>there’s</date>—on a ship you had somebody called the sergeant at arms? And they—they’re like the MPs or the police?</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">And they could write up a person if they did something wrong, and then there’d be two sides to the story, and they’d have to go to captain’s mast. The captain would say, “All right, next time you’re in port, you don’t have liberty. You can’t go—you can’t leave the ship.” And that’s normally what the deal was. And that was very painful because people lived to get off the ship. [Chuckles.]</u>
+      <u who="MARKOWITZ">How often would you go to port on the <placeName>Truxtun</placeName>?</u>
+      <u who="KEILLER">On the <placeName>Truxtun</placeName>, we would go in—we were off of <placeName>Vietnam</placeName> for <date>six months</date>, and we probably went in four or five times? We went into a place called <placeName>Sasebo</placeName> [pronounced SASS-uh-boh], <placeName>Japan</placeName>—no, we went into <placeName>Sasebo</placeName>, <placeName>Japan</placeName>. There was a place called [Naval Station] <placeName>Subic Bay</placeName>, <placeName>Philippines</placeName>, which is very close to where the <placeName>Bataan</placeName> is, <placeName>the Bataan Peninsula</placeName>?</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="KEILLER">Have you ever heard of the <orgName>Bataan</orgName> [Death] March?</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">Well, very—it was a great big—the naval base there was probably the biggest staging area for certainly naval forces supporting <name type="event">the Vietnam War</name>. And you would go in there to get replenished for food and—now, you could get—be replenished at sea, but generally is was good to allow sailors [chuckles] to get off a ship.</u>
+      <u who="MARKOWITZ">I’m sure they enjoyed that, too. [Chuckles.]</u>
+      <u who="KEILLER">Yes, yes. So it was—and we also went into—during that time, we went into <placeName>Singapore</placeName>, and then on the way home, we went to <placeName>Sasebo</placeName>, <placeName>Japan</placeName>, which is still a big naval base.</u>
+      <u who="MARKOWITZ">What were the—so you were involved with air—with <orgName>Air Force</orgName> missions that were—</u>
+      <u who="KEILLER">It could be <orgName>Air Force</orgName> or <orgName>Navy</orgName>.</u>
+      <u who="MARKOWITZ">Okay. And what—what was your—the role of the ship, either—I know you were involved with the engineering side of things, but your role or the role of the ship in relation to these other aviation ones?</u>
+      <u who="KEILLER">The most important role that—we were far enough up, and we had special radar that we could see when North Vietnamese planes took off, so we could warn our—our incoming planes that “the enemy has taken off, and you can expect interference.” So we were early warning. </u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>. </u>
+      <u who="KEILLER">So there were spaces that were just not long enough. I mean, they would—they would risk getting too close to land, and too confined. So the aircraft control—once they left their aircraft carrier, which would be further out to sea?</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">Directing the planes would be coordinated with our ship, so if you—</u>
+      <u who="MARKOWITZ">Oh, so you were in between the aircraft carriers and the land.</u>
+      <u who="KEILLER">Yes.</u>
+      <u who="MARKOWITZ">Okay.</u>
+      <u who="KEILLER">Yeah, so if you had—it’s—oh, well.</u>
+      <u who="MARKOWITZ">[Chuckles.] We can visualize it.</u>
+      <u who="KEILLER">Yeah, yeah, yeah. So <placeName>Vietnam</placeName> comes down like this level. You know, it’s like a question mark.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">Right? And <placeName>Hainan Island</placeName> is here. We would go up between the two of them, and the aircraft carriers would have to stay out here.</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="KEILLER">This area here was close to the land.</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">There was some risk that you could get shot by a missile, and you didn’t want your aircraft carrier to do that. And when they’re landing and launching, they’re pretty vulnerable because they absolutely have to go straight because these guys are trying to land and take off. So they’re very vulnerable. So we were more vulnerable. Plus we were closer to the action, and we could direct the planes?</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>. </u>
+      <u who="KEILLER">I think the target—the targets were selected—we didn’t select the targets, but we would know the coordinates where they were supposed to go, so we would help direct them. And then if any enemy aircraft, we could—and then, of course, if anybody got shot by antiaircraft guns or missiles and they were returning damaged, we could help that process. I mean, we could either recover them if they landed in water, which—I think we had one incident like that, and somebody else picked them up, not our—not our helicopter. </u>
+      <u who="MARKOWITZ">But you—did your ship have weapons on—ammunition on board?</u>
+      <u who="KEILLER">Yes.</u>
+      <u who="MARKOWITZ">Okay.  </u>
+      <u who="KEILLER">So we had a 5”/54 [spoken as five-inch fifty-four] gun forward, and it—it’s a more advanced gun than the older ships had? And could shoot farther. We had ASROC rockets [sic; missiles], so the rockets that we had could shoot down planes.</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="KEILLER">They could be programmed to shoot at other ships, and they could also drop depth charges. And we had the capability—we always said we had the capability of carrying nuclear weapons. Now, I didn’t—since I wasn’t part of the weapons department, I—they didn’t tell us. I suspect that at some point, we probably had nuclear weapons on board,—</u>
+      <u who="MARKOWITZ">Wow.</u>
+      <u who="KEILLER">—tactical nuclear weapons, but I—I don’t know.</u>
+      <u who="MARKOWITZ">Right, right.</u>
+      <u who="KEILLER">And then we had several different kinds of torpedoes, so that—and they were primarily antisubmarine weapons? So we were always very conscious of submarine activity.</u>
+      <u who="MARKOWITZ">Okay. That’s actually something that I’ve been wondering about a lot, because I feel like you always hear about antisubmarine activity in <name type="event">World War II</name> and the beginnings of <name type="event">the Cold War</name> but never in terms of <placeName>Vietnam</placeName>. It’s sort of—you always just hear about the—you know, the land war that was going on there, so—</u>
+      <u who="KEILLER">So the Vietnamese didn’t have much of a navy.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">The North Vietnamese. They had some boats. They didn’t have any submarines. So anybody—any submarine enemy would be <placeName>the Soviet Union</placeName>, and that’s it. I don’t think <placeName>China</placeName> had any at that time.</u>
+      <u who="MARKOWITZ">But you were definitely conscious—</u>
+      <u who="KEILLER">Oh,—</u>
+      <u who="MARKOWITZ">—of the potential for Soviet—</u>
+      <u who="KEILLER">There was—</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="KEILLER">So all of—most of the people who went into the nuclear <orgName>Navy</orgName> were submariners, and people I went to nuclear power school and prototype weren’t submariners, so we kept in touch with them. And there’s some really scary stories.</u>
+      <u who="MARKOWITZ">Oh, wow.</u>
+      <u who="KEILLER">There are two type of submarines. There’s the ballistic missile submarines that are very big and kind of—they’re not slow, but they’re very big and noisy, noisier. And they carried, I think, 16 missiles. So on the top of their ship, in the middle was these missile—well, they still are—</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">And they can fire them from underwater. And they can only be fired by the order of the President.</u>
+      <u who="MARKOWITZ">Oh, wow.</u>
+      <u who="KEILLER">Yeah. You can’t fire—you can’t use a nuclear weapon—</u>
+      <u who="MARKOWITZ">[cross-talk; unintelligible], yeah.</u>
+      <u who="KEILLER">—without President’s—</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">And then there’s attack submarines, and these were much smaller. They had a very sleek shape. And their primary job was to watch other ships but, more importantly, other submarines, so they would listen for other submarines. Have you seen [The <persName>Hunt</persName> for] Red <date>October</date>?</u>
+      <u who="MARKOWITZ">Yeah, I have.</u>
+      <u who="KEILLER">Well, that’s what they—this thing about the [USS] <placeName>Dallas</placeName> coming around?</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>. </u>
+      <u who="KEILLER">They do that stuff.</u>
+      <u who="MARKOWITZ">Wow. [Chuckles.]</u>
+      <u who="KEILLER">It’s a very dangerous—so there was—when I was in—right before—let’s see, <date>1964</date> is when I think when the[USS] <persName>Thresher</persName> went down? There’s a nuclear-powered submarine called the <persName>Thresher</persName>,—</u>
+      <u who="MARKOWITZ">Okay, <persName>Thresher</persName>.</u>
+      <u who="KEILLER">—which was an attack submarine. That was being tested before it was commissioned, and it was off of <placeName>Cape Cod</placeName>, an apparently a bow broke,—</u>
+      <u who="MARKOWITZ">Wow.</u>
+      <u who="KEILLER">—and water came on board, and it sank. And as you go down, eventually the water just crushes everything. It’s like you’re in a can, and—</u>
+      <u who="MARKOWITZ">The pressure?</u>
+      <u who="KEILLER">—so everybody died. And then there was another submarine called the [USS] Scorpion, and this was probably in <date>1967</date> or ’69. And it went down off of the coast of—right off of <placeName>Gibraltar</placeName>, and no one has ever said what happened. But sort of the speculation was that they were doing something with a Russian submarine and they either collided or—I don’t think there was any proof that there was a torpedo shot, but it was more of a combat, and all of those people were lost.</u>
+      <u who="MARKOWITZ">Wow.</u>
+      <u who="KEILLER">Yeah. But other than that—and the nuclear <orgName>Navy</orgName>—there’s never been, as far as I know, any accident on a nuclear-powered ship that was nuclear—the engineering part of it, because the training is so good, and—</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>. So did you—when you were on the <placeName>Truxtun</placeName>, did you ever—how involved were you in the submarine aspect?</u>
+      <u who="KEILLER">In my—because I was dri- —we were supplying the power to the ship—</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">—very little. If I were in what they called operations, I would have known what was going on, but I—I really didn’t know.</u>
+      <u who="MARKOWITZ">You mentioned there were some scary stories from friends you kept in touch with?</u>
+      <u who="KEILLER">Yes.</u>
+      <u who="MARKOWITZ">Is that—was that in terms of the two submarines you mentioned before, or was that <placeName>Vietnam</placeName> specific?</u>
+      <u who="KEILLER">I think part of it was <placeName>Vietnam</placeName> because they were—they were watching off of <placeName>Vietnam</placeName>. They were watching off of <placeName>China</placeName> and <placeName>North Korea</placeName>. And I think—you know, there’s been books published, so I—and, again, I don’t have any inside knowledge other than what I’ve heard and read. But they would do spying. So they would go up rivers—</u>
+      <u who="MARKOWITZ">Oh, the submarines would?</u>
+      <u who="KEILLER">Yeah.</u>
+      <u who="MARKOWITZ">Oh, okay.</u>
+      <u who="KEILLER">So they were clearly inside territorial waters. They also were able to tap a cable that was carrying—it was like a phone line that you tap?</u>
+      <u who="MARKOWITZ">Yeah.</u>
+      <u who="KEILLER">They were able to tap a cable that was—I don’t know whether it was Vietnamese or <placeName>China</placeName> or <placeName>Russia</placeName>, but it was one of those—and it helped the Viet- —that war effort because you got intelligence, not detail of what a battalion on the ground was going to do, but more strategic, bigger-picture stuff.</u>
+      <u who="MARKOWITZ">Right. In terms of the—the engineering specifically of these nuclear-powered ships, besides—were there any big advantages or big downsides besides the—you mentioned they could go for <date>years</date> without being—needing to be refueled.</u>
+      <u who="KEILLER">Yeah. Well, that was probably the biggest issue. You didn’t have to be refueled, and you could go at high speeds for a long period of time,—</u>
+      <u who="MARKOWITZ">Okay.</u>
+      <u who="KEILLER">—whereas a conventional ship could—could go at a high speed for maybe <date>a day</date>, and then it would just burn too much oil because the faster you go, the more resistance you have? But with the nuclear plant, you just were—you were cracking atoms. You know, you were splitting atoms, and it was all contained and—and the fact that, you know, that you saved a lot of time when you were on station. You didn’t have to be refueled. And I think they lasted longer. I think they—because they were built better. They were built to last because of the nuclear plant.</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">There was—the downside was that you always had to be—protect against an accident.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">And they had multiple layers of protections for that. There was a lot of redundancy in every alarm system and every pump system, and <persName>Rickover</persName> made sure there was a tremendous amount of redundancy.</u>
+      <u who="MARKOWITZ">Yeah.</u>
+      <u who="KEILLER">And then the—the biggest thing was the training of the people to protect the reactor.</u>
+      <u who="MARKOWITZ">So—</u>
+      <u who="KEILLER">So I think, you know, that would be the biggest advantage. It’s very much more expensive.</u>
+      <u who="MARKOWITZ">Okay. I’m sure.</u>
+      <u who="KEILLER">So the ones that are being built—still being built that are surface ships now are all the carriers, so the [USS Dwight D.] Eisenhower, the [USS Abraham] Lincoln, the [USS George H.W.] <persName>Bush</persName>, the—whoever’s next.</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="KEILLER">Great big aircraft carriers.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">They have two reactors. The first great big reactors— the first nuclear-powered carrier was the [USS] Enterprise, and it had eight reactors. So you had to have eight engine rooms, eight groups of people running them,’</u>
+      <u who="MARKOWITZ">Yeah.</u>
+      <u who="KEILLER">Much more complicated. The big aircraft carriers—and they’re billions of dollars now—are nuclear. Plus all the submarines. Submarines are much more—a nuclear submarine has a huge advantage because it can stay underwater. The old diesel submarines were—they had to come up periodically in order to recharge the batteries. They could only run underwater on their batteries, and they’d run out of battery power, much like a <orgName>Tesla</orgName> [a battery-powered automobile] would.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">In order to recharge them, they would have to start a diesel engine, and to do that, you have to have combustion and you have to have air, and so submarines are much more—huge advantage.</u>
+      <u who="MARKOWITZ">As an engineer, was there ever a fear that something would go wrong?</u>
+      <u who="KEILLER">Oh, yeah. All the time.</u>
+      <u who="MARKOWITZ">[Laughs.]</u>
+      <u who="KEILLER">No, you were always on guard, and the way that <persName>Rickover</persName> developed the—the protection was to go through training. You’d have emergency training activities. So some would be announced; some would not be announced. So you would very often, like,—there was—the water that was in the—what was called the primary system could be radioactive. There’d be particles in the water that were irradiated, and it could be radioactive.</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">Not super highly radioactive, but still radioactive. And so occasionally you would have to take samples of that water and treat it very carefully, and you could have a spill of that, so you had—you had lots of training about how do you contain that. You’d have training that if you lost one of your main engines—we had two propellers. One of them stops.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">What do you do, and how does that affect the other reactor? Because now it has to do twice as much work. And so, yeah, it’s—so you’re always training, but you would always be watching everything. It’s very—we have to be very vigilant.</u>
+      <u who="MARKOWITZ">Yeah, I’m sure.</u>
+      <u who="KEILLER">And we had—now I hope it’s all different—</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="KEILLER">—but we had no digital readouts, so it was all before <orgName>digital</orgName>, so our temperature and pressure gauges on the reactor were all analog, so there was something that went into the—breached the wall of the pipe, and there was a sensor there that then sent an electrical signal that pushed a gauge that went like this. [Demonstrates.]</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">You know what analog is?</u>
+      <u who="MARKOWITZ">Yeah.</u>
+      <u who="KEILLER">Versus digital?</u>
+      <u who="MARKOWITZ">Versus digital, yeah.</u>
+      <u who="KEILLER">Yeah. Now the cars have analog displays, but they’re all digital.</u>
+      <u who="MARKOWITZ">[Chuckles.] Just for the look of it?</u>
+      <u who="KEILLER">Yeah, for the look of it. Yeah, exactly.</u>
+      <u who="MARKOWITZ">Yeah.</u>
+      <u who="KEILLER">So back then—so a lot of what you did was you took a lot of readings of temperatures. You know, people would go around with clipboards and write down, once an hour, all the readings so they could see a trend?</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">It also demon- —forced you to look at the reading. But when you were operating the reactor, I would sit and there would be three people in front of me, and then all of these gauges, and you’d be constantly going back and forth and looking and making sure—</u>
+      <u who="MARKOWITZ">Making sure nothing goes wrong.</u>
+      <u who="KEILLER">Yeah.</u>
+      <u who="MARKOWITZ">So were you—you were still on the <placeName>Truxtun</placeName> in <date>’68</date>, correct?</u>
+      <u who="KEILLER">Yes.</u>
+      <u who="MARKOWITZ">Okay.</u>
+      <u who="KEILLER">I was there—let’s see, <date>September</date> of <date>’68</date> until <date>July</date> of ’70? Yeah.</u>
+      <u who="MARKOWITZ">Okay. Did—with the—’68 sort of being discussed as, you know—or factually <date>the bloodiest year</date> of the war in terms of casualties on both sides, did that change at all how you felt on the ship, or were you removed enough from what was going on?</u>
+      <u who="KEILLER">We were concerned. There were guys on our ship that would be assigned to, you know, their next duty station. There was a young guy in particular I was fairly friendly with, and his next assignment was a Swift Boat.</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="KEILLER">And so we were all very concerned about him going off to that. </u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>. </u>
+      <u who="KEILLER">—carries a weapon, and there are weapons available. But we were—we had hoses laid out. In case we had protestors come, we could put the hoses on them. And so the sense of a great deal of disruption, even reaching onto a naval base, even reaching to the ship, was still—</u>
+      <u who="MARKOWITZ">Yeah.</u>
+      <u who="KEILLER">But we were very much aware of the casualties that were going on while we were on the ship, either off shore or—once we came back, we went into training. We had to have some work done at a shipyard, but everybody—I mean, it was pretty all-cons- —not all-consuming. That’s a little—that’s—it was certainly top of mind. The war was very much top of mind.</u>
+      <u who="MARKOWITZ">You—you said earlier that you came back and were—you were an instructor—</u>
+      <u who="KEILLER">Yes.</u>
+      <u who="MARKOWITZ">—for a little bit back in <placeName>New York</placeName>?</u>
+      <u who="KEILLER">Yes.</u>
+      <u who="MARKOWITZ">What <date>year</date> was that?</u>
+      <u who="KEILLER">That would have been from <date>August</date> of ’70 until I left the <orgName>Navy</orgName> in <date>September</date> of ’71. </u>
+      <u who="MARKOWITZ">Okay. And what—was that your decision or was that—okay.</u>
+      <u who="KEILLER">No, it was—so I was ready—you know, I had my <date>two years</date> in on the <placeName>Truxtun</placeName>, and it was time for me to move on. I had very good what they call fitness reports (that’s your evaluation) in my duty on the <placeName>Truxtun</placeName>, and so I was a good candidate to be an instructor. I at that time had—we had a child. Our son was born, and so it was—I don’t know whether I put in for it or it was—it was a list of options. I can’t remember now. I was probably asked, “Would you be interested in being an instructor?” And I—“That would be great.” I mean, I enjoyed—I thought I could do a good job. It was shore duty, with a young baby.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">And so I went back to <placeName>Saratoga</placeName>. I had to requalify on—I was very fortunate that the prototype that we trained on was very like the ship I had?</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">And so when I went back, it was, like, I had basically—all the same. Now, other guys could have trained on that and then went to a submarine and then went to another training facility that was even different, but—so I was very fortunate. I was very familiar with all of that.</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">So—and that was good because it was—you felt like you were really doing an important work, bit of work because these were people that were manning submarines and ships that were absolutely needed at that time. I mean, the submarines in particular.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">And the ballistic missile submarines were the first line of defense against the Soviets. And that would—the first line of deterrence against the Soviets was the ballistic missile submarines. You know, they talk about the triad that [President <persName>Donald J.] Trump</persName> “forgot about”? [Chuckles.] The triad being airborne bombs, the missiles that are in silos and then the shipboard nuclear weapons.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">That was by far the most important, because you couldn’t find them. You know, you could shoot down a plane or you could direct your missile to the silos in <placeName>North Dakota</placeName>, but you couldn't—you didn’t know where the submarines were.</u>
+      <u who="MARKOWITZ">Right, right.</u>
+      <u who="KEILLER">So that was a very—that was a very rewarding job. It was still—as an instructor, I still spent probably 12 hours a day because you’re on ship for eight hours, but you had to prepare about an hour before, and then there’s usually paperwork or, you know, things to grade or what have you afterwards.</u>
+      <u who="MARKOWITZ">But—and you were still training people who would inevitably be going to <placeName>Vietnam</placeName>, or not?</u>
+      <u who="KEILLER">The nuclear ships.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">They were not going to Swift Boats.</u>
+      <u who="MARKOWITZ">Right, right.</u>
+      <u who="KEILLER">They were going to submarines and—but they were very important to operate the surface ships that were off of—like the Enterprise and, more importantly, the submarines. The submarines were sort of the key at that time for—we were so involved with the war, it was such a distraction, that it was really comforting to have the submarines and the deterrent of the submarines—</u>
+      <u who="MARKOWITZ">Sure.</u>
+      <u who="MARKOWITZ">Right, right.</u>
+      <u who="KEILLER">That was sort of the ace that you always had while you were doing this—what turned out to be a very destructive and not very helpful war.</u>
+      <u who="MARKOWITZ">Yeah. That must have been interesting to have, on one hand, to on one hand be involved with the—you know, the air—sort of <orgName>Air Force</orgName> or naval aviation—</u>
+      <u who="KEILLER">Naval aviation.</u>
+      <u who="MARKOWITZ">—naval aviation that was going in and doing all these very destructive missions and then having the submarines on the other hand.</u>
+      <u who="KEILLER">Yeah.</u>
+      <u who="MARKOWITZ">That was more of a deterrent or defensive—</u>
+      <u who="KEILLER">A deterrent, yeah.</u>
+      <u who="MARKOWITZ">Yeah.</u>
+      <u who="KEILLER">It was—ultimately, when I left the <orgName>Navy</orgName>, it was I just—I mean, I thought it was a wonderful learning experience. It was very hard. I worked very hard. My wife and I had—I think we had eight different apartments during this period of time. We traveled across country six—three times each way, so six times, or eight times. I forgot. She’ll—she would remember. So we learned a lot about the country. We had wonderful colleagues. I had wonderful—because they were very highly trained and motivate people. But it was—ultimately, I just didn’t feel like I could make a career out of ultimately killing other people. I just—that’s just not me. I mean, your ultimate job is—it’s deterrent, but at some point, you have to be prepared to kill other people, and that just—I felt like I did my duty. I was ready to do it. But it’s just not what I wanted to do.</u>
+      <u who="MARKOWITZ">This may be a difficult question to answer, but do you feel like if not for having your wife and son at home, you would have stayed on your—stayed in your ship position, or—</u>
+      <u who="KEILLER">No, I might have gone to another ship.</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="KEILLER">I probably would have gone to another ship. They probably would have assigned me to another ship.</u>
+      <u who="MARKOWITZ">Would you have—would you have cho- —would that have been a—a choice for you, or—</u>
+      <u who="KEILLER">It depends—you know, if you were a good performer, the <orgName>Navy</orgName> has a list of billets, these positions. And so—but the person in <placeName>Washington</placeName> who assigns people looks at your qualifications, where you are in your career, and then often will give you a choice.</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">If you’re not a good performer, you get Swift Boats.</u>
+      <u who="MARKOWITZ">You get no choice.</u>
+      <u who="KEILLER">Yeah. [Chuckles.] Not too many people volunteer for Swift Boats.</u>
+      <u who="MARKOWITZ">Oh, really?</u>
+      <u who="KEILLER">No. It was a very, very dangerous—I don’t know if Secretary [of <orgName>State</orgName>] [<persName>John F.]</persName> <persName>Kerry</persName> did. He—I don’t know if he went on <placeName>ROTC</placeName> or—I think he—I think he went—did he go to <orgName>Harvard</orgName> [University]?</u>
+      <u who="MARKOWITZ">Yeah, I’m not sure of his background, actually.</u>
+      <u who="KEILLER">Yeah. I—anyway, he was an officer, and he got assigned and served admirably, and—very difficult. That was not good duty.</u>
+      <u who="MARKOWITZ">Right, right.</u>
+      <u who="KEILLER">Some people—I have colleagues and classmates—for [the] 50th reunion, I was class president, and we just had this past—so leading up to it, we decided to have remembrances of the <placeName>Vietnam</placeName> era, and we did it in our newsletter. And it upset some people, and other people were delighted to tell their story.</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">So for <date>about a year and a half</date> before our reunion, in our newsletter we had people write in their stories—invite them to. And they’re fascinating. Some were absolutely harrowing. You know, just awful stuff. Some were aviators that had very difficult—you know, saw colleagues shot down—</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">—and so forth. Others had—you know, these <placeName>Thailand</placeName> things that were just—they were doing a job where they had to supply something to someplace, but somebody had to do it, and they were there, and it was—not the time of their life—</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="KEILLER">—but it was—so there’s a lot of luck of the draw.</u>
+      <u who="MARKOWITZ">Yeah.</u>
+      <u who="KEILLER">Other people got sent to <placeName>Germany</placeName> if they were in the <orgName>Army</orgName>, because we had a big occupying <orgName>Army</orgName> there. My brother was primarily on—he was on line ships, but he was in the <placeName>Mediterranean</placeName> [Sea].</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="KEILLER">So we had to keep a presence in the <placeName>Mediterranean</placeName> back then all the time, except of his <date>last year</date>, and then he was on <placeName>the West Coast</placeName> on an old ship. But—so it—</u>
+      <u who="MARKOWITZ">Varied a lot.</u>
+      <u who="KEILLER">It all varied, yeah. People—luck of the draw.</u>
+      <u who="MARKOWITZ">Where do you feel your service fell on that spectrum, sort of?</u>
+      <u who="KEILLER">You mean between luck of the draw and—</u>
+      <u who="MARKOWITZ">Or between, you know, some of these more harrowing experiences and then the—</u>
+      <u who="KEILLER">Oh, mine wasn’t—I didn’t feel—only a few times did I feel that I—we were in danger or I was in danger. So that wasn’t it. I felt like we were doing a very important job, and I had very important colleagues. I’m very proud of that. I think it’s by far the most responsibility I ever had. I mean, as a 25-year-old, having responsibility for two reactors—</u>
+      <u who="MARKOWITZ">Right. Wow.</u>
+      <u who="KEILLER"><date>One day</date>, we were coming out of <placeName>San Diego</placeName>, and I had control of the one reactor, and the other reaction ha- —was shut down for maintenance. So if my reactor went down, the ship was in big trouble because there’s a lot of land there [chuckles] when you’re coming up—and that was very fulfilling to have that type—</u>
+      <u who="MARKOWITZ">I would love to hear it. I would love to hear it. [Chuckles.]</u>
+      <u who="KEILLER">So I was—spent most of my time in the engine room, running the reactor and the crew, the team that was down there, but eventually, the skipper said, “We should have these nukes get out of the—the dungeons and come up to the bridge.” And so I was the junior officer of the deck. So there’s two people running the ship. The officer of the deck was very highly qualified, and he’s the guy who actually—when you’re coming in and out of a harbor or driving—he drives the ship.</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>. </u>
+      <u who="KEILLER">He doesn’t—there’s a guy who turns the wheel and—but he’s the one who says, “Left full rudder” or, like, you know. And then he has an assistant. And you could—he would turn over the con, which is the control of the ship, to the junior officer of the deck when things were very calm.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">Like, “Just keep it going straight there.”</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="KEILLER">“And after a half hour, turn there.”</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="KEILLER">But the junior officer of the deck, on a ship that size, is the boat captain, so on the ship were motor whaleboats, so these are small—longer than this room, but they’re traditionally designed boats. They’re very seaworthy.</u>
+      <u who="MARKOWITZ">That just sort of sat on the deck.</u>
+      <u who="KEILLER">They’re on davits, so they’re hung,—</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="KEILLER">—so they can be swung out over the side and then dropped—</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">—in the water. Well, you—you—when you’re the junior officer of the deck and <date>you’re</date>—and you’re boarding somebody, that’s a very scary thing because you wear a weapon, you go off in this little boat—like, somebody says, “That fishing boat’s a real problem. We gotta board it.”</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">So [laughs], you’re the guy—now, we had a couple of Marines on board that would go with us, but—</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="KEILLER">—<date>this particular day</date>, it was <date>Christmas Eve 1969</date>. We had to move the motor whaleboat from one side of the ship to the other side of the ship, right? And so you put the crew in. Now, I have to go because I’m the cap- —I’m the—the—in charge of the boat, and there were three other guys, I guess. And these guys are not nukes. They’re regular guys. I mean, they’re what they call deck hands.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">They know how to run this boat, but—not intellectuals. [Both chuckle.] So we go down in the water, and the water is pretty choppy, so it’s going like this. [He apparently pantomimes action of the waves.] So we take the boat around, go around to that side, and so they drag a rope, and you have to grab the rope, and then they lower the hooks to put on either end of the boat.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">You have to clip them on real quickly and then lift you up.</u>
+      <u who="MARKOWITZ">Oh, jeez! [Chuckles.]</u>
+      <u who="KEILLER">And so the seas were getting heavier and heavier, and we’re going like this [demonstrates], and of course the ship is absolutely steady, because it’s huge. You know, it’s not going to—</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="KEILLER">But we’re going, like—so “Grab the rope!” So we—we couldn’t—we couldn’t get it, and at one point we got hooked up, and then one—the back one let go, so we had to emergency drop the front. And then all of a sudden—so <orgName>we’re</orgName>—we have to—you have to circle around to catch the rope.</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">You can’t just keep bumping. You have to kind of make another pass.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">So we keep on making these passes. We can’t get it. All of a sudden, the ship takes off.</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="KEILLER">The ship just takes off. Disappearing. And we’re—I don’t think we had even walkie-talkies or anything like that. There’s no radio. We had flares and that kind of stuff.</u>
+      <u who="MARKOWITZ">Yeah.</u>
+      <u who="KEILLER">But nothing—nothing—no <orgName>iPhones</orgName>.</u>
+      <u who="MARKOWITZ">[Laughs.] Can’t text them. [Chuckles.]</u>
+      <u who="KEILLER">What happened was there was some kind of emergency, and they had to go someplace. We never absolutely lost sight of them,—</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">—but we were very concerned. [Chuckles.]</u>
+      <u who="MARKOWITZ">Wow.</u>
+      <u who="KEILLER">They eventually came back. We eventually got hooked up. But all of us were absolutely soaked because we’re—[Makes sound psshhhh!]—you know, the water’s coming over. <persName>Pssshhhh</persName>! So I finally get up—so I go back up to the officer of the deck, who’s on the bridge, and I’m just absolutely—</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="KEILLER">It’s <date>Christmas Eve</date>, and he said, “Okay, go down below and just get warmed up.” But it was the—I guess the most harrowing moment of my naval career,—</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="KEILLER">—is seeing this ship just leaving us in <placeName>the Gulf of Tonkin</placeName>. [Laughs.]</u>
+      <u who="MARKOWITZ">Just having no idea when it will return. [Laughs.]</u>
+      <u who="KEILLER">Yeah, when it was going to—</u>
+      <u who="MARKOWITZ">That’s funny. But also scary. [Laughs.]</u>
+      <u who="KEILLER">Yeah, yeah. No, it’s a good story for the rest of your life.</u>
+      <u who="MARKOWITZ">Yeah. [Chuckles.]</u>
+      <u who="KEILLER">Yeah, no I put money in—let me see, what time did we start, 2:30?</u>
+      <u who="MARKOWITZ">Yeah.</u>
+      <u who="KEILLER">I’m good till 4 or 4:15.</u>
+      <u who="MARKOWITZ">Okay, perfect.</u>
+      <u who="KEILLER">So he was a very—very short man, very ornery. He—he was very—very, very smart, but he had to buck the <orgName>Navy</orgName>, and what he did was he wanted to build these ships. And he was very successful, but other people sort of took credit. And he figured out that if he approached the [<placeName>U.S.</placeName>] <orgName>Congress</orgName> and wooed the <orgName>Congress</orgName>, he could get money for his program. And it just annoyed the dickens out of the rest of the brass. He eventually got set up in something called Naval Reactors, and it was like its own fiefdom within the <orgName>Navy</orgName>.</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">I mean, he had direct control over the appointment of the officers to ships. Normally that goes through the normal brass, but because they had to be nuclear qualified, and he was the guy who ran the program that qualified them, he had the say-so. He would always have prospective commanding officers, particularly of submarines, working for him, so he could pick which ones he could trust. And he was—he was a dictator, and he would bite people’s head off and—you know, people said—my interview with him was only a couple minutes. He asked me four questions, and then that was it. Other people spent an hour with him. Other people would look at you and throw you out, just—and then they’d bring them back in and, “Throw him outta here!” He was just—he was testing people.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">But he had several peculiar things. He had—he never had many uniforms, so when he went to a ship to inspect it, he expected people to lay out shirts and stuff for him in case he needed one. He always ate a particular kind of grape, and he had to have a certain type of stationery. So if he came to your ship and see—you know, our commanding officer had been hand picked by him, so—</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">—you know, he’s trying to make sure he does the right thing. So he came to our ship <date>one day</date>. I never physically saw him.</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">But because I was about the same size, I had to lay out a uniform, a khaki uniform for him. It wasn’t touched. It wasn’t used. But I had to lay out—so that was my only—but he—he went around our ship. I forget whether I was down below or—everybody was on edge. And all I knew was he was gone. You know, he came and went.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">He never came down in my space, because he would go around literally—you know, [knocks on table], touch stuff and—</u>
+      <u who="MARKOWITZ">So it’s probably a good thing he didn’t go down where you were. [Chuckles.]</u>
+      <u who="KEILLER">Yeah. It’s an interesting thing because one of my—I was on the board over at <orgName>Dartmouth-Hitchcock [</orgName><orgName>Memorial Hospital</orgName>] for <date>ten years</date>. My career was in healthcare accounting, and in my retirement—and one of the guys who was a senior executive there worked for <persName>Rickover</persName> in his <placeName>Washington</placeName> bureau. And he had all of the same stories. You just—you knew when to stay clear of him when you heard him down the hall. </u>
+      <u who="MARKOWITZ">No, I was—I was really interested—</u>
+      <u who="KEILLER">Fascinating man. <persName>You’ll</persName>—you’ll enjoy—</u>
+      <u who="MARKOWITZ">—in learning a little more about him. Definitely want to check it out more.</u>
+      <u who="KEILLER">Yeah. I’m sorry I don’t have much more on <placeName>Vietnam</placeName>.</u>
+      <u who="MARKOWITZ">No, that’s—that was great.</u>
+      <u who="KEILLER">Yeah.</u>
+      <u who="MARKOWITZ">I’m curious in sort of the trajectory after that, if you—</u>
+      <u who="KEILLER">Yeah, sure.</u>
+      <u who="MARKOWITZ">—want to—so you finished up this—so you were an instructor for <date>a year</date> in <placeName>New York</placeName>, and then?</u>
+      <u who="KEILLER">In <placeName>Saratoga</placeName>.</u>
+      <u who="MARKOWITZ">In <placeName>Saratoga</placeName>. What led you to then decide to leave the <orgName>Navy</orgName>?</u>
+      <u who="KEILLER">Well, we—we had our second child, and so I knew that the life in—and I had very good fitness reports when I was at the prototype, and I would have been recommended to a good job. But I knew it would have been a life of family separation, and so it was primarily the family separation. And, as I said, I didn’t want to have as my primary career goal killing other people. Just not me.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">And so I could have—I then looked for a job, and I looked at working in the nuclear industry, because they would hire a lot of people who had this superb training.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">Or I—I—Corning Glass [Works, not <orgName>Corning Incorporated</orgName>] was another company that I looked at, and then <persName>Arthur Anderson</persName> [LLP], the public accounting firm—and I went to <persName>Arthur Anderson</persName>. So I had a 28-year career with <persName>Anderson</persName>.</u>
+      <u who="MARKOWITZ">Oh, wow. And that was right—you began that right after you got out of the <orgName>Navy</orgName>?</u>
+      <u who="KEILLER">Yep. I went—we ended up moving back—I didn’t want—neither one of us wanted to live in <placeName>New Jersey</placeName> again, but we ended up living basically in my wife’s hometown, which was next to mine.</u>
+      <u who="MARKOWITZ">Oh, my.</u>
+      <u who="KEILLER">Which was nice because the grandparents were still there, and I commuted to <placeName>New York</placeName> for <date>four years</date> and got very good experience working in a big office, and then I moved—we got transferred to <placeName>Hartford</placeName>, <placeName>Connecticut</placeName>, and <date>24 years</date> there, and then I retired. I don’t know if you know the history of <persName>Anderson</persName>, but it—it was the firm that went out of business when <orgName>Enron</orgName> [Corporation] collapsed.</u>
+      <u who="MARKOWITZ">Okay.</u>
+      <u who="KEILLER">You’re too young. When were you born?</u>
+      <u who="MARKOWITZ">I was born in ’96.</u>
+      <u who="KEILLER"><date>Ninety-six</date>. Well, I retired in <date>’99</date>. [Chuckles.]</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="KEILLER">So you were only five when <persName>Anderson</persName> went under.</u>
+      <u who="MARKOWITZ">I have—I have heard of <orgName>Enron</orgName>, though. [Chuckles.]</u>
+      <u who="KEILLER">Yeah. Well, <persName>Anderson</persName> were the auditors for <orgName>Enron</orgName>, and it was right after [the] <date>9/11</date> [attacks].</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">And the chairman of <orgName>Enron</orgName> was good friends with [President] <persName>George</persName> [<persName>W.] Bush</persName>, and they needed—they needed someone to throw under the bus, and our firm got put out of business, and it was a very tragic event for people like myself who worked—I had been retired for <date>two years</date>, but I was still receiving some pension, and that stopped because of the collapse of the firm, and so it wasn’t a happy—</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">But I always look back on my <orgName>Navy</orgName> training as being critical to my business success. And the <orgName>Navy</orgName> training—I don’t think I could have done that if I hadn’t gone to <orgName>Tuck School</orgName>, and I couldn’t have gone to Tuck without <orgName>Dartmouth</orgName>, so it all kind of fit together.</u>
+      <u who="MARKOWITZ">It all circles back.</u>
+      <u who="KEILLER">It just kind of—there were building blocks. And certainly being in the nuclear <orgName>Navy</orgName> was a very important aspect.</u>
+      <u who="MARKOWITZ">Yeah.</u>
+      <u who="KEILLER">And living through the <placeName>Vietnam</placeName> era. I’m really sorry that we don’t have required public service. And military is not a bad—it’s—it’s such a good way of—of getting—having your stake in the country,—</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">—as opposed to just expecting something.</u>
+      <u who="KEILLER">Yeah, I do, actually. One of my—my uncle, who I’m very close with, served in the—or currently serves in <orgName>the Air Force</orgName>.</u>
+      <u who="KEILLER">Oh, wow!</u>
+      <u who="MARKOWITZ">Now he was—he was in <placeName>Afghanistan</placeName>, but now he is stationed in <placeName>Colorado</placeName> and has a more instructor type role there.</u>
+      <u who="KEILLER">Does he fly?</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>. Yeah.</u>
+      <u who="KEILLER">What does he fly?</u>
+      <u who="MARKOWITZ">I couldn’t tell you exactly.</u>
+      <u who="KEILLER">Is he a pilot?</u>
+      <u who="MARKOWITZ">Yeah, he’s a pilot. And then I have—actually, the reason I sort of was interested in the <orgName>Navy</orgName> and its role in <placeName>Vietnam</placeName> in the first place is that we have some good family friends who were—one of them was on SEAL [<orgName>U.S. Navy Sea</orgName>, Air and Land] Team 2—</u>
+      <u who="KEILLER">Oh.</u>
+      <u who="MARKOWITZ">—in <placeName>Vietnam</placeName>.</u>
+      <u who="KEILLER">Wow.</u>
+      <u who="MARKOWITZ">Just—was—has been very vocal about that. So—</u>
+      <u who="KEILLER">Did he have—</u>
+      <u who="MARKOWITZ">—from hearing that—</u>
+      <u who="KEILLER">—difficult experiences there?</u>
+      <u who="MARKOWITZ">Yeah, yeah, I think he—and he also sort of remain—I guess they had a Vietnamese translator who was with them or worked closely with a lot of people from the South Vietnamese navy, and has recently reconnected with them—</u>
+      <u who="KEILLER">Oh, wow.</u>
+      <u who="MARKOWITZ">—and sort of is looking back more critically on his memories—</u>
+      <u who="KEILLER">Oh.</u>
+      <u who="MARKOWITZ">—and talking about it a lot more, so that—that’s what sparked my interest in the Vietnamese navy and the <orgName>Navy</orgName>’s role in <placeName>Vietnam</placeName> in particular.</u>
+      <u who="KEILLER">Yeah. It—it was a difficult time because, as I said, the context was your father’s generation was <name type="event">World War II</name>, the expectation of serving was very high, and so it was so easy to kind of—</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">—the people who were in the military didn’t push back at all. That was their duty. But there were a lot of people who saw it differently that, you know, frankly had it right, probably. It just was a bad mistake.</u>
+      <u who="MARKOWITZ">Did you discuss your service with your kids at all when they were growing up, or—</u>
+      <u who="KEILLER">No. Oh, we’ve talked about the <orgName>Navy</orgName> experience—</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="KEILLER">—but not from the point of a military life, no, just that it was a very good experience. And neither one served—you know, my daughter or my son. But there was no pressure to. </u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">And there wasn’t such a demand. You know, it was before <name type="event">the Iraq War</name>—it was after—let’s see, they went to college after the first <name type="event">Gulf War</name> but before <date>2003</date>.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="KEILLER">So—yeah.</u>
+      <u who="MARKOWITZ">Okay. Great. </u>
+      <u who="KEILLER">Oh, good.</u>
+      <u who="MARKOWITZ">Well, if you don’t have anything to add, I’ll—</u>
+      <u who="KEILLER">No, no, I’m—</u>
+      <u who="MARKOWITZ">—go ahead and stop the recording.</u>
+      <u who="KEILLER">Yeah.</u>
+    </body>
+  </text>
+</TEI>

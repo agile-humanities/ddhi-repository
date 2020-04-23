@@ -1,0 +1,540 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="NOPPENBERGER"/>
+        <person xml:id="NIXON"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="NOPPENBERGER">This is <persName>Angela Noppenberger</persName>. I am in the Ticknor Room at <placeName>Rauner</placeName> [Special Collections] Library. I am interviewing <persName>Daniel D. Nixon</persName> on <date>February 18th</date>. It’s a <date>Thursday</date>, 12:35 in the afternoon. Mr.—or Dr. <persName>Nixon</persName>, could you state your full name, <date>the year</date> you were born and where you were born?</u>
+      <u who="NIXON">Certainly. I was born in <date>1934</date>, <date>January 7th, 1934</date>, in <placeName>Los Angeles</placeName>, <placeName>California</placeName>. I grew up in a small town in western <placeName>Pennsylvania</placeName>.</u>
+      <u who="NOPPENBERGER">Do you—</u>
+      <u who="NIXON">Pardon?</u>
+      <u who="NOPPENBERGER">Oh, do you remember the move to western <placeName>Pennsylvania</placeName>, or were you very young?</u>
+      <u who="NIXON">No, I was <date>about 10 years old</date>.</u>
+      <u who="NOPPENBERGER">Oh, okay.</u>
+      <u who="NIXON">Let’s see, I was <date>13 years old</date>.</u>
+      <u who="NOPPENBERGER">Oh, so you definitely would remember—</u>
+      <u who="NIXON">Yeah.</u>
+      <u who="NOPPENBERGER">—and understand. What were your parents’ names?</u>
+      <u who="NIXON">My parents names. My father was <persName>Irving</persName> [<persName>J.] Nixon</persName>, and my mother was <persName>Sara Cohen Nixon</persName>.</u>
+      <u who="NOPPENBERGER">Did you have any siblings, growing up?</u>
+      <u who="NIXON">I have one sib, still have a sib.</u>
+      <u who="NOPPENBERGER">[Chuckles.] Brother? Sister?</u>
+      <u who="NIXON">A brother who’s, let’s see, <date>13 months</date>, I think, younger than I.</u>
+      <u who="NOPPENBERGER">Okay. So would you consider most of your growing up to have been in <placeName>California</placeName>, <placeName>Pennsylvania</placeName> or pretty evenly split?</u>
+      <u who="NIXON">The two communities were so different. Basically, I sort of—my adulthood my began moving to western <placeName>Pennsylvania</placeName>. I went to high school there and then went to <placeName>Dartmouth</placeName>.</u>
+      <u who="NOPPENBERGER">Right. Well, what was it like growing up in <placeName>California</placeName>?</u>
+      <u who="NIXON"><placeName>California</placeName> was great! </u>
+      <u who="NOPPENBERGER">[Chuckles.]</u>
+      <u who="NIXON"><placeName>Los Angeles</placeName>—<placeName>Los Angeles</placeName> was a small city then. In other words, the population in <date>1934</date> of <placeName>Los Angeles</placeName> was about two and a half million—you know, it’s much larger than that.</u>
+      <u who="NOPPENBERGER">Wow.</u>
+      <u who="NIXON">I mean, I look at—you know, I look at my—The Aegis now, and look at—see what people did. I mean, if I applied to <orgName>Dartmouth</orgName> now, I’d be the last—</u>
+      <u who="NOPPENBERGER">[Laughs.] Oh, no!</u>
+      <u who="NIXON">—I’d be the last off the street corner. I mean—but it was very—you know, being born in the [Great] Depression and growing up in the <name type="event">Depression</name>, when you didn’t think yourself—you didn’t consider yourself poor because everyone was poor, but you were no poorer than anyone else. But it was a very—it really changed, you know, my whole family’s orientation as to what expectations were and what education should be. You know, my mother—my mother went back to teach school so I could afford to go to <orgName>Dartmouth</orgName>—you know, that sort of thing. So it was an interesting time to grow up.</u>
+      <u who="NOPPENBERGER">What kind of things do you remember from your childhood, being affected by the Depression era? I mean, you say everyone else was poor, so that wasn’t as big of a deal status wise, but just any other memories?</u>
+      <u who="NIXON">You know, for instance, I don’t think I ever had a—and my brother and I talk about this—I don’t—I don’t think I ever had a new jacket or a new—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="NIXON">—pair of pants. I always had some—my cousin or my unc- —or my uncle—get—you know, we would get his clothes. I would get a dictionary for my birthday as a president. It’s not exactly—</u>
+      <u who="NOPPENBERGER">Right, but not unhappy.</u>
+      <u who="NIXON">No, not unhappy at all.</u>
+      <u who="NOPPENBERGER">Not unhappy. You don’t sound unhappy about it. Yeah.</u>
+      <u who="NIXON">I mean, it’s just a different, parallel existence.</u>
+      <u who="NOPPENBERGER">Right. What was your father working as? You said your mom went back to teaching later. What was your dad doing during—in <placeName>California</placeName>?</u>
+      <u who="NIXON">My dad—my dad had a small haberdashery store.</u>
+      <u who="NOPPENBERGER">Mmm!</u>
+      <u who="NIXON">My grandfather had a small haberdashery store in <placeName>Youngstown</placeName>, <placeName>Ohio</placeName>, which is close to <placeName>New Castle</placeName>, where I grew up. And during—when things got really bad in the <name type="event">Depression</name>, he moved out to <placeName>Los Angeles</placeName>. And the reason he moved to <placeName>Los Angeles</placeName> is because one of the—you know, the <orgName>Warner</orgName> brothers [<persName>Harry</persName>, <persName>Albert</persName>, <persName>Sam</persName> and <persName>Jack Warner</persName>, founders of <orgName>Warner Bros.</orgName> entertainment company]</u>
+      <u who="NOPPENBERGER">Right, of course.</u>
+      <u who="NIXON">You know <orgName>the Warner Bros. In</orgName>—It’s a funny story, but the—one of the <orgName>Warner</orgName> brothers moved—let’s see, one of the <orgName>Warner</orgName> brothers had a butcher shop in—in <placeName>Youngstown</placeName>, and—</u>
+      <u who="NOPPENBERGER">The <orgName>Warner</orgName> brothers that make—the <orgName>Warner</orgName> brothers that make movies?</u>
+      <u who="NIXON">Yes, the first <orgName>Warner</orgName> brothers movie—movie show was in <placeName>New Castle</placeName>, as a matter of fact, the first commercial movies.</u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="NIXON">But in the <name type="event">Depression</name>, when people didn’t have jobs, the would go to <persName>Jack</persName> [L.] Warner, who was still in <placeName>Youngstown</placeName>, and they’d say, “My boy needs a job,” and they would fix him up with a job in—in <placeName>Los Angeles</placeName>. So I have a lot of family in the movie industry. And you ask, “What did they do in the movie industry?” They were paperhangers or electricians. They worked in the studios there. Their entire lives.</u>
+      <u who="NOPPENBERGER">Oh, okay.</u>
+      <u who="NIXON">Very—very romantic.</u>
+      <u who="NOPPENBERGER">[Chuckles.] Yeah!</u>
+      <u who="NIXON">Hunger. [Laughs.]</u>
+      <u who="NOPPENBERGER">Oh, okay.</u>
+      <u who="NIXON">It was right after the w- —it was immediately after <name type="event">World War II</name>, and things were just getting—becoming better, and my father was offered—my—my mother’s side of the family were in the meat packing business, and they asked my dad if he wanted to join them in the—in the new packing plant that they were involved with, and my dad said yes, and that’s when we moved out to the—back to <placeName>Pennsylvania</placeName>.</u>
+      <u who="NOPPENBERGER">Okay. Any—any particular memories of growing up during <name type="event">World War II</name>?</u>
+      <u who="NIXON">Oh, sure! I mean, you know, I remember—you remember—in the first place, during <name type="event">World War II</name> in <placeName>Los Angeles</placeName>, the <placeName>studi</placeName> —some of the small studios were taken care of, were converted to military bases, so you’d have soldiers marching, platoons marching in the street. You’d have aircraft overhead, you know, all the time. You had blackouts and brownouts. You had—let’s see, you collected—you collected food—food drippings—</u>
+      <u who="NOPPENBERGER">Wow. Wow.</u>
+      <u who="NIXON">—for—it wasn’t for shortening. It was used—my wife is in the background—</u>
+      <u who="NOPPENBERGER">No problem.</u>
+      <u who="NIXON">It was used for—to make—</u>
+      <u who="NOPPENBERGER">Like, stews?</u>
+      <u who="NIXON">Explosives. Pardon?</u>
+      <u who="NOPPENBERGER">Was it to eat?</u>
+      <u who="NIXON">No, it was collected as a—as a—you used to make nitroglycerine. Used to make explosives.</u>
+      <u who="NOPPENBERGER">Oh, oh. Oh, wow!</u>
+      <u who="NIXON">You’d collect—everything would ra- —shoes would be rationed, clothes would be rationed, gasoline was rationed, sugar was rationed, the beef was rationed, so it was a very, very different—all of these things were—everyone had Victory Gardens.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. </u>
+      <u who="NIXON">It was a very interesting time.</u>
+      <u who="NOPPENBERGER">Yeah, very different. Okay, so now you’re in <placeName>Pennsylvania</placeName>. You are in high school or middle school at the time that you moved there?</u>
+      <u who="NIXON">I—I got—we moved in <date>the spring</date>, what would have been the eighth grade, I guess.</u>
+      <u who="NOPPENBERGER">Okay. Before or after eighth grade?</u>
+      <u who="NIXON">During eighth grade.</u>
+      <u who="NOPPENBERGER">Oh. Okay. All right. And so this is postwar—</u>
+      <u who="NIXON">Which was terri- —</u>
+      <u who="NOPPENBERGER">Yeah.</u>
+      <u who="NIXON">—which was absolutely terrible, and I thought I was going to die at the time. And how can I leave <placeName>Los Angeles</placeName> and end up in a grubby town in western <placeName>Pennsylvania</placeName>? [Laughs.]</u>
+      <u who="NOPPENBERGER">Yeah. What was this town like?</u>
+      <u who="NIXON">I mean, <placeName>New Castle</placeName> was at one time—was a—at one time was a very active, strong economy. It had the largest tin mills in the world. Population was up close to 100,000, and when I was there, the population of <placeName>New Castle</placeName> was about 35,000 or so, which is, you know, a small industrial city. Terrible school system, I must admit.</u>
+      <u who="NOPPENBERGER">But then <placeName>Pennsylvania</placeName>. What was—what was it like—sorry, what was it like growing up now that you’re in the post-war, <name type="event">post-Depression</name>, very different sort of <placeName>America</placeName>. What was that like?</u>
+      <u who="NIXON">I was a teenager. That was neat.</u>
+      <u who="NOPPENBERGER">[Laughs.] Yeah. What kind of things—oh, go ahead.</u>
+      <u who="NIXON">You first.</u>
+      <u who="NOPPENBERGER">Oh. I was just going to say, what kind of things were you involved with in high school?</u>
+      <u who="NIXON">Very little.</u>
+      <u who="NOPPENBERGER">Activities. Oh.</u>
+      <u who="NIXON">I mean, I was looking at the high school yearbook, and I was, you know, things like, a manager of the track team and, you know, sort of parallel—I was—I—I—very inactive—you know, looking at—looking at my record. Really was not outstanding in any way. I think probably—you know, my parents felt that I was in school to—that was the—being in school was my job, and I was supposed to perform it and do the best I possibly could. Tremendous stress on academic performance.</u>
+      <u who="NOPPENBERGER">Were you thinking about going to <orgName>Dartmouth</orgName> during high school? Was that something that had been a goal, or—</u>
+      <u who="NIXON">I never—I had never heard of <orgName>Dartmouth</orgName>, and I really mean that. We—we—we—the family legend, and it’s absolutely true—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="NIXON">—that when we decided it was our—it was my—I guess <date>the fall</date> was <date>my senior year</date>. My mother and I sat at the dining room table, and we decided that I wasn’t smart enough to go to <orgName>Harvard</orgName> [University] or <orgName>Yale</orgName> [University]—</u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="NIXON">—and that I didn’t want a city school, I wanted a—you know, a campus school. And we finally narrowed it down to a couple of schools, including <orgName>Dartmouth</orgName>. And I went to the encyclopedia to find out where <orgName>Dartmouth</orgName> was and what it was. And we—it turned out that I was admitted to every—the schools. The only school I wasn’t admitted to was <persName>Princeton</persName> [University]. So I got to <orgName>Dartmouth</orgName> by default.</u>
+      <u who="NOPPENBERGER">Wow! Well, all right, let’s—go ahead.</u>
+      <u who="NIXON">And the other thing, you know, was very—very important. Our family physician was a <orgName>Dartmouth</orgName> graduate, and his name—his name is <persName>Wilbur [E. “Walter”] Flannery</persName>, and it was the Class of <date>1929</date>. He was originally—he was originally—had a degree in—a doctorate in religion and subsequently decided he’d rather be a physician. He was an extremely good physician and very, very active politically. He was president of <orgName>the American Medical</orgName>—of <orgName>the Pennsylvania Medical Society</orgName> for <date>years</date> and <date>years</date> and was very instrumental in—in recruiting me for <orgName>Dartmouth</orgName> and sponsoring me through <placeName>Dartmouth</placeName>. He was a wonderful man.</u>
+      <u who="NOPPENBERGER">Yeah. Was he—was he your family’s physician or a family friend? Is that how you knew him?</u>
+      <u who="NIXON">Family physician.</u>
+      <u who="NOPPENBERGER">Okay, great.</u>
+      <u who="NIXON">I was a ’55—graduated high school in <date>’51</date>, and at <orgName>Dartmouth</orgName>, ’55</u>
+      <u who="NOPPENBERGER">So fall of ’51 would have been your first term at <orgName>Dartmouth</orgName>?</u>
+      <u who="NIXON">Correct.</u>
+      <u who="NOPPENBERGER">And what was that transition like?</u>
+      <u who="NIXON">Horrible. Horrible.</u>
+      <u who="NOPPENBERGER">Really!</u>
+      <u who="NIXON">I mean, firstly—first, <orgName>Dartmouth</orgName> had—<orgName>New Castle Senior High School</orgName> was distinguished as having one of the best football teams in <placeName>Pennsylvania</placeName>, and because of that, no one wanted to break up the size of the school because that would impair the performance of the football team.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="NIXON">So we had a—the school was I think about 1,500 or so. Big school. Academically, it was absolutely terrible. I mean, in retrospect. The—there was—the—academically, the transition from high school to college was—it was—I break out in a cold sweat when I think about it.</u>
+      <u who="NOPPENBERGER">Wow!</u>
+      <u who="NIXON">At the end of my freshman year, I had a—well, my first semester I had a 1.8 average, if you can imagine that.</u>
+      <u who="NOPPENBERGER">A 1.8 <orgName>GPA</orgName> [grade-point average]?</u>
+      <u who="NIXON">Yes. Not distinguished in any way.</u>
+      <u who="NOPPENBERGER">Right!</u>
+      <u who="NIXON">In fact, I was called in by <persName>Dean MacDonald</persName> to discuss my academic performance, and that—that was <date>the end of the first semester</date>. <date>The second semester</date>, I had I think a 2.8 average, and you know, by the time I graduated, I would have had a distinguished history except for <date>the first semester</date> of <date>my freshman year</date>, and I did very well the rest of the—</u>
+      <u who="NOPPENBERGER">Right. You got it—got it together.</u>
+      <u who="NIXON">Yeah, I got it—well, it wasn’t—you know, it was a question of not really being very prepared for—</u>
+      <u who="NOPPENBERGER">Right, right.</u>
+      <u who="NIXON">—you know a god, a very good secondary school. I—I—I—it was expected to do better than I had been doing. </u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="NIXON">And, as you say—and pulled it together.</u>
+      <u who="NOPPENBERGER">Great!  Okay, so were you really involved on campus? I mean, you said you weren’t so active in extracurriculars in high school. What was your either extracurricular, sports, social life in—while you were at <orgName>Dartmouth</orgName>?</u>
+      <u who="NIXON">Yeah. It was really—it was one of those periods of one’s life when one stops and looks around and says to themself, This is really great.</u>
+      <u who="NOPPENBERGER">[Chuckles.]</u>
+      <u who="NIXON">And not only is it great, I know it’s great. You know, I just had—I was in a fraternity.</u>
+      <u who="NOPPENBERGER">Which one?</u>
+      <u who="NIXON"><orgName>TEP</orgName>. Now—I don’t know what it’s called now. </u>
+      <u who="NOPPENBERGER">What was that? What were the letter?</u>
+      <u who="NIXON">T-E-P, <persName>Tau Epsilon Phi</persName>.</u>
+      <u who="NOPPENBERGER">Oh, okay.</u>
+      <u who="NIXON">It was—</u>
+      <u who="NOPPENBERGER">That may be—</u>
+      <u who="NIXON">It was a Jewish—I’m Jewish. It was a Jewish fraternity, as much as fraternities were secular and non- —</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. </u>
+      <u who="NIXON">My closest friends were and still are my <orgName>Dartmouth</orgName> friends.</u>
+      <u who="NOPPENBERGER">Wow!</u>
+      <u who="NIXON">I’m just trying to think. I just got back from a trip to <placeName>Cuba</placeName> with a couple of my <placeName>Dartmouth</placeName> friends. We travel every—excuse me one moment. My closest traveling friends are all <placeName>Dartmouth</placeName> people. My son’s a <orgName>Dartmouth</orgName> grad.</u>
+      <u who="NOPPENBERGER">Could you give me the names of your friends? I mean, that’s always great information to have.</u>
+      <u who="NIXON">Sure. [<persName>Peter M.]</persName> “Pete” Fishbein, [<orgName>M.]</orgName> <persName>Paul Zimmerman</persName>, <persName>Barry [M.] Rubens</persName>, <persName>David [K.] Page</persName>—who else?—Bernard [R.] <persName>Siskind</persName>, [<persName>Franklin R.] “Frank” Davidson</persName>, I think I mentioned [all Class of <date>1955</date>]. There were—our class was about—let me think—the class size was about 20 people, and they have, you know, been the closest and dearest friends that I have. </u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. That’s—that’s—I mean, that’s really great to hear. So besides <orgName>TEP</orgName>, what else did you get into while on campus?</u>
+      <u who="NIXON">I’m trying to—you know, basically I was a pre-me- —actually, I was an English major but having said that I was a pre-med.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>, <persName>mm-hm</persName>.</u>
+      <u who="NIXON">So, you know, my career was strongly oriented toward the academic.</u>
+      <u who="NOPPENBERGER">Right. Oh, no, that’s great. When did you decide to become pre-med?</u>
+      <u who="NIXON">Somewhere probably my junior year or so. I said I need to find something I can do and do well and make a living with.</u>
+      <u who="NOPPENBERGER">Right. Which med school did you go to?</u>
+      <u who="NIXON"><orgName>University of Pittsburgh</orgName>.</u>
+      <u who="NOPPENBERGER"><orgName>University of Pittsburgh</orgName>, okay. So you graduate <orgName>Dartmouth</orgName> in ’<date>55</date>?</u>
+      <u who="NIXON">Right.</u>
+      <u who="NOPPENBERGER">And then do you go to <orgName>University of Pittsburgh</orgName> right away?</u>
+      <u who="NIXON">Yes.</u>
+      <u who="NOPPENBERGER">And what was your time there like?</u>
+      <u who="NIXON">Say again?</u>
+      <u who="NOPPENBERGER">What was your time at <orgName>University of Pittsburgh</orgName> like?</u>
+      <u who="NIXON">Well, it—it was the equivalent of going to <placeName>New Castle</placeName> but in reverse.</u>
+      <u who="NOPPENBERGER">Oh.</u>
+      <u who="NIXON">In other words, I came to—I went to medical school, and I found myself very well prepared, as opposed to going—going to college. And, you know, there’s a period of stress, I guess with any change—</u>
+      <u who="NOPPENBERGER">Right.</u>
+      <u who="NIXON">—of that sort, but I was in the upper—I was <orgName>AOA</orgName> [Alpha Omega Alpha], which is the medical honorary society, so that’s the upper tenth of your class.</u>
+      <u who="NOPPENBERGER">Great!</u>
+      <u who="NIXON">And, you know, had, you know, very strong graduate—you know, very strong internships and residencies all through my training. I really was performing very well.</u>
+      <u who="NOPPENBERGER">Yeah. So what <date>year</date> do you graduate from med school?</u>
+      <u who="NIXON">Fifty-nine.</u>
+      <u who="NOPPENBERGER">Fifty-nine. And what’s your next step from there career wise?</u>
+      <u who="NIXON">I was an intern at <placeName>Mount Sinai</placeName> [Hospital, now <orgName>Mount Sinai Health System</orgName>] in <placeName>New York City</placeName>. Went back to <placeName>Pittsburgh</placeName> for residency, went back to <placeName>Sinai</placeName> for fellowships in hematology, and then to <orgName>Columbia Presbyterian [Hospital</orgName>, now <orgName>NewYork-Presbyterian/Columbia University Medical Center</orgName>] for a medical oncology fellowship.</u>
+      <u who="NOPPENBERGER">And during this time, were you married yet? Had you met your wife?</u>
+      <u who="NIXON">I met my—I met my wife <date>about a month</date> before—right after I graduated <orgName>Dartmouth</orgName>, and she had just started <orgName>Wellesley</orgName> [College]. [cross-talk; unintelligible].</u>
+      <u who="NOPPENBERGER">Oh, where did you meet?</u>
+      <u who="NIXON">Where did we meet?</u>
+      <u who="NOPPENBERGER">Yeah.</u>
+      <u who="NIXON">We met at a swimming pool—</u>
+      <u who="NOPPENBERGER">[Chuckles.] Oh!</u>
+      <u who="NIXON">—at the Nautilus Hotel [now <placeName>Nautilus South Beach</placeName>] in <placeName>Miami Beach</placeName>.</u>
+      <u who="NOPPENBERGER">and so then—</u>
+      <u who="NIXON">She had just—she had just graduated high school.</u>
+      <u who="NOPPENBERGER">And so did you do long distance then, while you were—</u>
+      <u who="NIXON">Very long distance. [Chuckles.]</u>
+      <u who="NOPPENBERGER">Yeah. How long was the long distance for, just through her entire college—college <date>years</date>?</u>
+      <u who="NIXON">No, we graduated—we graduated <date>about two weeks</date>—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="NIXON">Hello.</u>
+      <u who="NOPPENBERGER">Hi, there. Is everything all right?</u>
+      <u who="NIXON">Yeah, everything’s fine. I just had an alarm going off in my pocket.</u>
+      <u who="NOPPENBERGER">Oh, okay. Well, all right, we were talking about your wife and you graduating.</u>
+      <u who="NIXON">Right, right, she graduated—in a <date>two-week</date> period, we both graduated our respe—I graduated from medical school; she graduated from <placeName>Wellesley</placeName>, and we got mar- —and we got married, and then we had—we have thirteen moves or so for <date>the next nine years</date>.</u>
+      <u who="NOPPENBERGER">Wow.</u>
+      <u who="NIXON">A lot—a lot of—it was better than the long distance part of the [cross-talk; unintelligible]—</u>
+      <u who="NOPPENBERGER">Yeah. [Chuckles.] Okay, so let’s orient ourselves. You are getting towards you time serving in <placeName>Vietnam</placeName>. It says here that you found out you’d be serving in <date>January 1966</date>.</u>
+      <u who="NIXON">Correct.</u>
+      <u who="NOPPENBERGER">Where were you living at that time?</u>
+      <u who="NIXON">We were—I had finished training in <date>1962</date> and had just gone into practice with a friend—with a friend of mine in Rockville Centre], which is [a village] on <placeName>Long Island</placeName>. And then I got, you know, my notice that I was going to be—I was given the opportunity to serve.</u>
+      <u who="NOPPENBERGER">Okay. So did you have any children at the time? You were married.</u>
+      <u who="NIXON">We were married. Had three—two children. </u>
+      <u who="NOPPENBERGER">Two children when you—when you received the call.</u>
+      <u who="NIXON">Right.</u>
+      <u who="NOPPENBERGER">Okay. And can you—can you tell me a little bit about that moment, getting a call like that?</u>
+      <u who="NIXON">Horrible. [Chuckles.]</u>
+      <u who="NOPPENBERGER">Did you—did you expect it at all? Had you been hearing—</u>
+      <u who="NIXON">Well, thereI don’t know if—there was—there was various types of—one was aware of the draft, and as I joked about it, I belonged to not the Berry Plan but the “Ostrich Plan,” a plan that meant that if I stuck my head in the ground, no one would see me, my tail sticking up very vulnerably behind me.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="NIXON">And I really—you know, life was—you know, I was just getting started,—</u>
+      <u who="NOPPENBERGER">Right.</u>
+      <u who="NIXON">—which represented, you know, just a lot of work and a lot of—and a lot of—how would I—development—was on—it was just a lot of work at that time, a lot of <orgName>house</orgName> calls. <orgName>Thangs</orgName> that you—you look back on, you know, and sort of chuckle, but you were involved in all—you know, all these things when you try to get started. So it was—it was actually a—it was a very tough and stress- —very stressful—</u>
+      <u who="NOPPENBERGER">Right.</u>
+      <u who="NIXON">—experience. </u>
+      <u who="NOPPENBERGER">So how old are you when you are—because, I mean, I imagine with an established—an established practice and a family, <date>you’re</date>—you know, you weren’t <orgName>ROTC</orgName> [in <orgName>the Reserve Officers’</orgName> Training Corps]. You weren’t coming fresh out of college or anything like that.</u>
+      <u who="NIXON">Right.</u>
+      <u who="NOPPENBERGER">So how—how old were you when you were drafted?</u>
+      <u who="NIXON">I was drafted in <date>’62</date>, drafted in <date>’66</date>, so I would have been 22. Is that right, there? I was 32.</u>
+      <u who="NOPPENBERGER">Thirty-two, okay. So after you received the call, what is the next—what’s the next step in this process before you leave—before you leave for training?</u>
+      <u who="NIXON">One of the—I had to get rid of a house. I had to take care of a—and I was in practice with another person, and he—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="NIXON">—and he didn’t—we basically split up because I had no ability to support all the loans—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="NIXON">—involved in this, so—so I left that practice and didn’t go back, you know, after—after my military service.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. And where did—</u>
+      <u who="NIXON">And basically what happened is that I was—I—you know, I went to <placeName>Vietnam</placeName> and came back and then spent <date>the year</date> at <orgName>Columbia</orgName> doing medical oncology because I wasn’t sure what I wanted to do the rest of my life, and I was pretty sure that I didn’t want to do it in the <placeName>New York</placeName> area. I was just disaffected.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.  Well, we can—we can definitely get to that. Let’s talk about—you know, so you’re selling your house. Your wife and two children—where do they move?</u>
+      <u who="NIXON">They—they went down to—moved to <placeName>Miami</placeName>, where <persName>Tam</persName> [<persName>Tamara Fredman Nixon</persName>], my wife’s family was and where <persName>Tam</persName> grew up.</u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="NIXON">And I had had—during my various training periods, I had connections and friends in different communities, and I was—I looked around, and I had a lot of invitations to join—to go to various communities. And I decided to—I wouldn’t stay in <placeName>New York</placeName>, and then moved down to <placeName>Florida</placeName>.</u>
+      <u who="NOPPENBERGER">Is this before leaving for <placeName>Vietnam</placeName>?</u>
+      <u who="NIXON">This is af- —this is—it was Colum- —</u>
+      <u who="NOPPENBERGER">Oh, so when you—</u>
+      <u who="NIXON">When I graduated college—graduated medical school, I had various internships and residencies, and after—after that, I decided I didn’t want to stay in <placeName>New York</placeName>, and I moved down to <placeName>Miami</placeName>.</u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="NIXON">Basic training was at <placeName>Fort Sam</placeName> [Fort Sam Houston, <placeName>Texas</placeName>], which is where all doctors went for training, and because—so that was—that was in <placeName>San Antonio</placeName>. And then I was supposed to—we were—when I went—when I finished <placeName>Fort Sam</placeName>, we were supposed to go to I think <persName>Biên Hòa</persName> [Air Base]. I was supposed to—I was—I was going to be the—I was chief medical officer of <orgName>the 12th Evac[uation Hospital</orgName>], which is—and we—but—</u>
+      <u who="NOPPENBERGER">The 12th what? The 12th—</u>
+      <u who="NIXON"><orgName>The 12th Evac Hospital</orgName>.</u>
+      <u who="NOPPENBERGER">Okay.</u>
+      <u who="NIXON">Okay. So we were told—I was drafted. We were supposed to go to <persName>Biên Hòa</persName> immediately, so we—before—“immediately” meaning before <date>the 21st of</date>—<name type="event">the 21st Evac[uation Hospital</name>], as I recall. And, well, all of a sudden there was a change because we were needed immediately. The war couldn’t go on unless we were—were shipped overseas immediately. So we—<persName>Tam</persName> came out to <placeName>California</placeName> with the—with the children. She was going to spend our la- —we were going to spend out last two weeks together. And it turned out to be <date>six months</date> in <placeName>Monterey</placeName>, <placeName>California</placeName> [chuckles],—</u>
+      <u who="NOPPENBERGER">Wow!</u>
+      <u who="NIXON">—which was probably—probably the—the most pleasant period of my life. Just not much to do, and it was a great place to be, and the people I was working with were all, you know, just solid people and weren’t—you know,—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. Can I—sorry, so can I clarify something? </u>
+      <u who="NIXON">Sure.</u>
+      <u who="NOPPENBERGER">So you were in basic training, and they cut your training short because they needed you in <placeName>Vietnam</placeName> right away? Is this right?</u>
+      <u who="NIXON">They changed the assignment.</u>
+      <u who="NOPPENBERGER">Okay. And that’s why you had the—you had <date>the six months</date> instead of the immediate—</u>
+      <u who="NIXON">Right. They said, “We need you right away,” and then it turned out that they didn’t need us at all.</u>
+      <u who="NOPPENBERGER">[Chuckles.] Okay. All right.</u>
+      <u who="NIXON">So they just sort of hung—so of hung around pebbles—<placeName>Monterey Peninsula</placeName>. It was very nice.</u>
+      <u who="NOPPENBERGER">So then when did you actually deploy, physically leave to go to <placeName>Vietnam</placeName>?</u>
+      <u who="NIXON">That would have been <date>August</date> of <date>’66</date>.</u>
+      <u who="NOPPENBERGER"><date>August</date> of <date>’66</date>. Okay. And what was—again, another big—a big move. What was this transition like?</u>
+      <u who="NIXON">I mean, it was very interesting because in the first place, when we got to Vi- —when we got to <placeName>Vietnam</placeName>, they didn’t need us again. They didn’t need us at all, so we ended up instead of the hospital, which we were setting up, which was the 12th Evac, they split that hospital up, and different members went to different places, and I went to <placeName>Cam Ranh Bay</placeName>, to the 6th Convalescent Center.</u>
+      <u who="NOPPENBERGER">Is that where you worked the whole time, or was this for a short period of time?</u>
+      <u who="NIXON">That was for <date>a couple of months</date>. And what was interesting—you know, I was a—my specialty was hematology/oncology. I had never seen a case of malaria in my life, and I get there <date>the first day</date>, I have 180 patients with malaria.</u>
+      <u who="NOPPENBERGER">Wow.</u>
+      <u who="NIXON">It was a very fast learning cur- —curve.</u>
+      <u who="NOPPENBERGER">Right. Were these patients American soldiers or Vietnamese locals or any sort of mix?</u>
+      <u who="NIXON">They were mostly—on a med- —they were <orgName>Army</orgName> medical.</u>
+      <u who="NOPPENBERGER">The patients that you had?</u>
+      <u who="NIXON">The patients were—yes, the patients were <orgName>U.S. Army</orgName> medicals.</u>
+      <u who="NOPPENBERGER">Were medical personnel or just they’re—or just soldiers?</u>
+      <u who="NIXON">Well, we basically we were a convalescent hospital, so—I mean, we didn’t take—we didn’t—our major mission was not to take care of wounds; we took care of people with colitis, malaria, hepatitis—you know, various tropical diseases, for which we had no—no experience at all, I must admit</u>
+      <u who="NOPPENBERGER">Right. So then what—what were the treatments? Were you dealing mostly with administering medicine and things like that, or diagnosis?</u>
+      <u who="NIXON">Yeah.</u>
+      <u who="NOPPENBERGER">What—</u>
+      <u who="NIXON">Diagnosis. You know, the same as if you were—if you were in—in <placeName>Africa</placeName>. You’d have a completely different set of illnesses you were dealing with. There are certain things that you—if you’re well trained, you—you—you can han- —you do pretty well, without any—</u>
+      <u who="NOPPENBERGER">Right. And how was—how was the supply situation, like medicines, cots, any sort of things? What was—what was your situation at the hospital like?</u>
+      <u who="NIXON">It was really—it was—for the doctors, it was really very comfortable. </u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="NIXON">We—we had—we shared a tent with—the hospital itself was Quonset huts. You know, you treated people with malaria, which was medicines. You followed their course to see whether they were relapsing or they were responding to treatment.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="NIXON">You know, the—you know, the—the—the hospital was there before you were, so there was an algorith- —or algorithms that one followed. I mean, it was not—for the most part, it was not a extraordinarily—I was going to say it was not exciting. It was, in its way.</u>
+      <u who="NOPPENBERGER">Right.</u>
+      <u who="NIXON">But there are certain things which were sort of fun. I mean, we had—a group of the docs shared—you know, you shared living quarters, but everyone—everyone would be getting food like caviar or gourmet cheeses from their spouses at home.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. Right.</u>
+      <u who="NIXON">You’d go out—the hospital was right on the beach. It was just—I mean, just a glorious, glorious sight. And you worked during the morning, and then you’d, it would be very hot, at noon you could sort of find a cool place—a cool spot to hide in, and then at about six o’clock you’d all come back to the tent, and you’d go out, get some clams and break open the gourmet delicacies from home. It was—it was much more of a—I don’t think the <orgName>Army</orgName>—it was more like a MASH—</u>
+      <u who="NOPPENBERGER">Right, M*A*S*H, the TV show.</u>
+      <u who="NIXON">Pardon?</u>
+      <u who="NOPPENBERGER"><orgName>M*A*S*H</orgName>, the TV show.</u>
+      <u who="NIXON">Yes, exactly. </u>
+      <u who="NOPPENBERGER">Right.</u>
+      <u who="NIXON">You lived—you did your work, and you did it good, and you did it as well as you could, but you lived by a different set of rules. I mean—</u>
+      <u who="NOPPENBERGER">As doctors, right?</u>
+      <u who="NIXON">Pardon?</u>
+      <u who="NOPPENBERGER">You mean you lived with different rules as doctors, with different responsibilities.</u>
+      <u who="NIXON">Exac- —exactly. I mean, most doctors had—really were very well—were respected because you had the ability to—you know, you were making major decisions as to where people were going to go and when they could get back to work. You—you lived—you—you—you—what you did was very empirical. It didn’t have to be done the <orgName>Army</orgName> way as long as you got a good result. It was—it was a—it was a very interesting—and I—period. I—none of my parents, no parents or grandparents, had ever been in the military, and it became very obvious, you know, when you’re put in a situation like that, that—you know, in the military, and they were doing what they were supposed to be doing. Could do it very well. And you’d—you’d see line officers, someone a major or above, a lieutenant or at least lieutenant colonel or above would be talented—the talented people who would do just as well in the civilian life as in the military. You developed—I developed a tremendous sense of respect for the military. They did good. They did what they were supposed to do, and did it well.</u>
+      <u who="NOPPENBERGER">Yeah. I mean, it’s good to hear that you had a positive experience in that aspect.</u>
+      <u who="NIXON">Well, our hospital was supposed to be—it was supposed to be set up, and we—and—and—it was split—it was—it was divided, people were sent out to fill other spots. And then when our hospital was called—you know, it was said, “Okay, let’s—let’s set up the—let’s set up the evac hospital that we’re supposed to,” which was the 12th Evac, and that was in <persName>Củ Chi</persName> [Base Camp]. And then, so we were <date>a couple of months</date> in <placeName>Củ Chi</placeName>.</u>
+      <u who="NOPPENBERGER">And what was that like? Was it a very similar experience, or—</u>
+      <u who="NIXON">No, it was—</u>
+      <u who="NOPPENBERGER">Of that particular city? No, I don’t. Please inform me.</u>
+      <u who="NIXON">Okay. <persName>Củ Chi</persName> is where our—our—our new hospital was. But we did not know—I’m sure someone knew, but we did not know that we were sitting over a huge underground <placeName>Viet Cong</placeName> base, tunnel system.</u>
+      <u who="NOPPENBERGER">It was—it was underneath you.</u>
+      <u who="NIXON">Yeah, it was under- —it was underground.</u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="NIXON">Okay, and we were sitting right on top of it. And because of that, it is now one of the major tourist sites in <placeName>Vietnam</placeName>, and I know this because we went back to <placeName>Vietnam</placeName>—<date>what?—two years ago</date>, and one of the things that they do on tours of <placeName>Vietnam</placeName>, they take you through the tunnel system. And it amazes me that I ever got out. [Chuckles.] I was nice and thin in <date>those days</date>. I wouldn't want to go through the tunnels again. I thought they’d have to drag me out with a bulldozer. But—so we—</u>
+      <u who="NOPPENBERGER">I mean, that sounds incredible, though, that you could see—did you ever—when did you find out that that tunnel system existed, while you were in <placeName>Vietnam</placeName> or was it not till much, much later?</u>
+      <u who="NIXON">Not till much, much later. I mean, there’s a whole—it was—the <placeName>Hồ</placeName> Chí Minh trail came down from the north through <placeName>Laos</placeName> into—into the rice areas. And all of the—they had, you know, barracks and—I mean, it was a very intricate system, where they could travel underground. It’s—it was really amazing to get back and see what we were sitting on top of, but I mean—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. Yeah, well, no, that is very—very kind of surreal, really, that so much was going on underneath you. But what else can you tell me about your time in <persName>Củ Chi</persName>?</u>
+      <u who="NIXON">I got a kidney stone.</u>
+      <u who="NOPPENBERGER">Oh! While there.</u>
+      <u who="NIXON">Yeah, because—you know, when you were in the north—when you were in the north, it wasn’t so hot. The farther south you got, it was—you had really very tropical—very uncomfortably hot areas. And we—you know, we were working physically. We were working fairly hard because we were digging trenches and digging fox holes and places where you—to hide, the shelters.</u>
+      <u who="NOPPENBERGER">Would you be doing this, a—sorry, as a doctor, medical personnel? Would you be doing this physical work as well.</u>
+      <u who="NIXON">If you wanted a hole to hide in, that’s what you were—</u>
+      <u who="NOPPENBERGER">Oh, wow!</u>
+      <u who="NIXON">You were responsible for your own holes, yeah. [cross-talk; unintelligible].</u>
+      <u who="NOPPENBERGER">Were you in—were you in a lot of imminent danger that you would want to have this hole, or was it more of a precaution?</u>
+      <u who="NIXON">It was expected of you to—I mean we tell stories, and some of them are probably apocraful, but for instance we would have a standard bridge game, or a poker game, and you—you would—you’d be sitting there, and you’d hear a mortar, 155 mortar, being—being shot, and you’d—after you were there a while, if you were playing cards, you’d hear the shot and then you’d decide very quickly whether this was going in or coming out. If it was going out, you’d look at your hands and keep playing. If it was coming, If you felt it was coming in, you—you hit—you got to your shelter and you jut put your cards down, and you’d play—finish the hand later on. </u>
+      <u who="NOPPENBERGER">Were you ever in combat? I mean, as a doctor I know you wouldn’t be going out necessarily, but did you ever have to use any of the training or weapons you had been trained in during your time?</u>
+      <u who="NIXON">Again, most of what we were doing was medical—you know, in the medical service.</u>
+      <u who="NOPPENBERGER">Right.</u>
+      <u who="NIXON">And I left—as we will talk about—I—I—I had attenuated service because we all left <placeName>Vietnam</placeName> in <date>December</date> of ’66, and that’s because my mother-in-law, <persName>Tam</persName>’s mother and <persName>Tam</persName>’s father died. Medical problems. And was alone with two kids, and I didn’t know it but—at that time, I guess, one of the—I don’t know who initiated a request for compassionate reasignment, but all of a sudden I found myself on a plane going back to <placeName>the United States</placeName>.</u>
+      <u who="NOPPENBERGER">Oh, so you—you hadn’t requested anything; it was sort of given to you, or—</u>
+      <u who="NIXON">I think what happened— actually I don’t know what happened. Our rabbi I guess initiated through <orgName>the Red Cross</orgName>, you know, and said that there’s a lot of stresses and it would be recommended that I go back. I had absolutely no concept that I was going to go back and stay back.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="NIXON">My expectation was that the war wouldn’t go on without me.</u>
+      <u who="NOPPENBERGER">Right. [Chuckles.]</u>
+      <u who="NIXON">But I better get back—I’d go back—I expected myself just to—to go home for the funeral and then stay for a short period of time—they sent me— When I got back, It took me <date>about a week</date> before I became comfortable with the concept of not going back. You develop a very strong sense of—of, you know, participating in what you were setting up, and everything.</u>
+      <u who="NOPPENBERGER">Right. </u>
+      <u who="NIXON">This was a medical practice, and our own hospital—we were just getting—just getting setup, you know, after everyone moving out and then—everyone—what happened is that we—the 12th Evac was setting up in <persName>Củ Chi</persName>. <persName>Củ Chi</persName> already had a hospital, which was <orgName>the 6th Surgical Hospital</orgName>, which was a MASH hospital. What we would have bee doing when we were fully set up would be primarily in medical rather than—rather than—rather than—trauma.</u>
+      <u who="NOPPENBERGER">Surgical or that sort of thing?</u>
+      <u who="NIXON">Right. We were basically a medical outfit.</u>
+      <u who="NOPPENBERGER">Okay. And what was <date>a typical day</date> for you? Like, if there was such a thing while you were in <persName>Củ Chi</persName>. I know you described going out to the beach at your first—at your—at the first place where they split you up, but what was it like now that you were in <persName>Củ Chi</persName>?</u>
+      <u who="NIXON">We were—basically we were establishing—at that time, we were just establishing our hos- —our hospital.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="NIXON">Setting up operators, setting up our wards, our medical wards. And one of the major things that we—we did was triage people. In other words, if someone was sick, you had to decide what they—they would—you could get them back to—to a combat facility—get them back to their own units within <date>five days</date>.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="NIXON">If it was going to be longer than <date>five days</date>, then they wouldn’t—they wouldn’t—you might keep them a day or two, but then ship them to another—to someplace which had more sophisticated care.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="NIXON">So you were—when you accepted—when people were brought to you for admission, you would have to decide, you know, where they would finally end up, you know, and whether they were going to stay in <persName>Củ Chi</persName> or go to the <placeName>Philippines</placeName> or go to <placeName>Saigon</placeName> or wherever.</u>
+      <u who="NOPPENBERGER">And did you ever interact with Vietnamese locals? Was that something that occurred, ever?</u>
+      <u who="NIXON">Only on a very superficial level. I mean, you’d have people taking care of your—let’s say you needed—you had housekeepers, you know, that cleaned up your huts.</u>
+      <u who="NOPPENBERGER">So more like an employee sort of level?</u>
+      <u who="NIXON">So you—you—you—the only civilians that we treated, the only people, Vietnamese we treated were domestics, if you will. I mean,—</u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="NIXON">—that would be the—that would be the—I mean, there was not a lot of fraternization between the military—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="NIXON">—and the—</u>
+      <u who="NOPPENBERGER">Right.</u>
+      <u who="NIXON">It was—it was very disjointed because the whole—the whole service experience, I never knew where I was going to be and how long I was going to be there.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="NIXON">It was just a—it was—I—and I guess that was probably a—a good précis of—of what the war was like. I mean,—</u>
+      <u who="NOPPENBERGER">Yeah, no problem.</u>
+      <u who="NIXON">You can talk to my wife. She’s—she’s charming.</u>
+      <u who="NOPPENBERGER">Oh, that’s—okay.</u>
+      <u who="NOPPENBERGER">Afternoon! Hi, there! This is a bit unexpected, but can I get your name, please?</u>
+      <u who="NIXON"><persName>Tamara</persName>, T-a-m-a-r-a.</u>
+      <u who="NOPPENBERGER"><persName>Nixon</persName>?</u>
+      <u who="NOPPENBERGER">Yes. Oh, okay. Well, while Dr. <persName>Nixon</persName> is away, then I’ll just ask you what was it like for you having him over in <placeName>Vietnam</placeName>? Were you able to be in contact very often?</u>
+      <u who="NOPPENBERGER">Oh! That’s very sweet.</u>
+      <u who="NOPPENBERGER">Oh.</u>
+      <u who="NOPPENBERGER">Like a walkie-talkie? Sorry, sorry. Like a—</u>
+      <u who="NOPPENBERGER">Okay. And do you still have any of those tape recordings? That sounds like a really awesome piece of history to have.</u>
+      <u who="NOPPENBERGER">Long distance.</u>
+      <u who="NOPPENBERGER">Oh. Wow.</u>
+      <u who="NOPPENBERGER">Okay. Great. It was lovely talking to you.</u>
+      <u who="NIXON">Thank you. I’m here.</u>
+      <u who="NOPPENBERGER">Hi, there! Are we all good again?</u>
+      <u who="NIXON">Yep.</u>
+      <u who="NOPPENBERGER">Okay. Well, I mean, it was lovely to get a chance to speak to your wife. Let’s get back to where we were. We were just at you returning back home on compassionate assignment. So how long in total were you physically in <placeName>Vietnam</placeName>?</u>
+      <u who="NIXON">It depends on—you start counting—in the military, your time of service is not when you get to <placeName>Vietnam</placeName>, it’s when you leave the continental <placeName>United States</placeName>.</u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="NIXON">So we—and we came by boat, which is the slowest way possible, and I think—</u>
+      <u who="NOPPENBERGER">Wow!</u>
+      <u who="NIXON">I think it was, like,—I think we spent <date>about three weeks</date>—</u>
+      <u who="NOPPENBERGER">Wow! Tell me what  that’s like, because that is—</u>
+      <u who="NIXON">That was great.</u>
+      <u who="NOPPENBERGER">I mean, I’m sure—oh, really? I was going to say that’s very—</u>
+      <u who="NIXON">It was great. You know—well, for instance, we—we—we shared—the accommodations were a one—there were two rooms. You had—you had five guys with two baths. The officers ate at—special food. There was nothing to do. You know, basically you spent <date>the day</date> reading, playing cards. Everyone was afraid of being seasick, but no one was. Except for the first one or <date>two days</date>, no one was. And you figured that every day you were on a boat is one day less you were in <placeName>Vietnam</placeName>. So—</u>
+      <u who="NOPPENBERGER">Yeah. Was there any particu- —any particular reason that you went by boat instead of plane?</u>
+      <u who="NIXON">I’m sure there was, but no one asked me. [Chuckles.]</u>
+      <u who="NOPPENBERGER">Oh, all right. Well, so then, if you want to include your <date>weeks</date> at sea, what was your total time away from the continental <placeName>U.S.</placeName>?</u>
+      <u who="NIXON">Okay, so that would have been—let me—I guess you would have to say from <date>early August</date>—</u>
+      <u who="NOPPENBERGER">Of <date>’66</date>.</u>
+      <u who="NIXON">—to—to <date>December</date> of <date>’66</date>. </u>
+      <u who="NOPPENBERGER">Okay. So let’s say <date>August, September, October, November, December</date>. <date>Roughly five months</date>?</u>
+      <u who="NIXON">Yeah, I think that’s it.</u>
+      <u who="NOPPENBERGER">And when you got back, I know for most people, the way military enrollment worked was you would have to serve <date>a full year</date>. Was that the case for you as well?</u>
+      <u who="NIXON">No, my total time in the service was <date>two years</date>. It was <date>two years</date>.</u>
+      <u who="NOPPENBERGER">Oh! So then what did you—</u>
+      <u who="NIXON">Because of my—</u>
+      <u who="NOPPENBERGER">—what did you do—</u>
+      <u who="NIXON">When I got back from <placeName>Miami</placeName>? When I got back from <placeName>Vietnam</placeName>, I was—I had a choice of various assignments that would have been—you know, complete my military service. And I ended up in <placeName>Valley Forge</placeName> [<orgName>Army Hospital</orgName>, now <orgName>Valley Forge General Hospital</orgName>], which—which was just outside of <placeName>Philadelphia</placeName>.</u>
+      <u who="NOPPENBERGER">And what was your job there?</u>
+      <u who="NIXON">I was a medical officer and basically treating very much the same sort of patients that I—that we were treating in <placeName>Vietnam</placeName>. In fact, it would be funny—not funny, but it—it—it was interesting that I—I had a lot of patients who—with malaria, for instance,—</u>
+      <u who="NOPPENBERGER">In—in <placeName>Pennsylvania</placeName>?</u>
+      <u who="NIXON">In <placeName>Pennsylvania</placeName> because they were—they would—they would—people decided that they would rather have malaria than be shot, so they didn’t take their malaria pills,—</u>
+      <u who="NOPPENBERGER">Wow.</u>
+      <u who="NIXON">—and in that way <orgName>they’d</orgName>—they’d be counted as relapsing malaria, and that would be an indication for these people to be shipped back to <placeName>the United States</placeName>, and I’d see them—</u>
+      <u who="NOPPENBERGER">Wow.</u>
+      <u who="NIXON">—the same patients that I was seeing in <placeName>Vietnam</placeName>, I would be seeing [chuckles] I would be seeing in—</u>
+      <u who="NOPPENBERGER">Like—</u>
+      <u who="NIXON">—<placeName>Philadelphia</placeName>.</u>
+      <u who="NOPPENBERGER">—the exact same people? Like, the same person?</u>
+      <u who="NIXON">Yes.</u>
+      <u who="NOPPENBERGER">Wow! That’s a—that’s an interesting place to have a reunion, and so soon.</u>
+      <u who="NIXON">If you will, it was—it’s sort of like if you were in the military and you shot yourself in the foot, you couldn’t go back. You may not be happy with a—with a foot wound, but you might be feeling that it’s safer than being shot by a Viet Cong,—</u>
+      <u who="NOPPENBERGER">Right, right.</u>
+      <u who="NIXON">—because—I can attest that this is absolutely true.</u>
+      <u who="NOPPENBERGER">Yeah. I mean,—I mean, that is a choice that I’m sure people were making, as you—as you are saying. So you finish up your—your time serving as a doctor in the <placeName>States</placeName>, and then you are discharged. And then is that the extent of your—your military experience, then?</u>
+      <u who="NIXON">No. I got back in <date>December</date>. I got back in <date>December</date>, so that—so that was about—it was shortened.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. And—</u>
+      <u who="NIXON">—and spent <date>a year</date> in <placeName>Valley Forge</placeName>, and then when I got out of the service, that was when I decided I wanted to—didn’t know whether I was going to stay in <placeName>New York</placeName> or not and spent <date>a year</date> at <orgName>Columbia Presbyterian</orgName> and then decided I’d come back to <placeName>Miami</placeName>.</u>
+      <u who="NOPPENBERGER">And what were your sort of <name type="event">post-Vietnam</name> feeling—let me rephrase that. I know a lot of people would get backlash from protesters. Did you ever—</u>
+      <u who="NIXON">Yeah.</u>
+      <u who="NOPPENBERGER">—have that sort of experience?</u>
+      <u who="NIXON">Yeah, and it was very distressing to me. I mean, you know, I—I—my military experience was—I thought—I felt that going into the service, that this was something that one did as an American citizen, and you were really proud to, you know,—of your service record, and you had done a lot of things that—you had disrupted your own life to go through all of this. But never questioned, you know, whether—whether it was my war or someone else’s war. I mean, I was in the <orgName>Army</orgName>, which was what I was supposed to do, and this is what I—and this is what I did. </u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. Did you ever have to deal with any—any personal confrontation, whether from students or anything like that?</u>
+      <u who="NIXON">No, not really.</u>
+      <u who="NOPPENBERGER">Okay. Well, I mean, that’s—that’s fortunate in itself.</u>
+      <u who="NIXON">It’s just that, you know, the—it had been <date>20 years</date> since—or <date>about 20 years</date>, I guess, since I left the ser- —since I left <placeName>Vietnam</placeName>. And I just—I just wanted to see what changes had occurred. The most—</u>
+      <u who="NOPPENBERGER">Do you—</u>
+      <u who="NIXON">What was—</u>
+      <u who="NOPPENBERGER">I think it would have been—was it—did you go in <date>2014</date>? Because that would be a bit closer to 50 years—60, <date>50</date>, <date>40</date>?</u>
+      <u who="NIXON">When did I do to <placeName>Vietnam</placeName> Tam? <date>Nineteen sixty-six</date>.</u>
+      <u who="NOPPENBERGER">And what <date>year</date> did you go back on your trip?</u>
+      <u who="NIXON">What, <date>two years ago</date>? <date>Forty-eight years</date> <persName>Tam</persName> says.</u>
+      <u who="NOPPENBERGER">Okay, okay, so—and you wanted to see what it was like. And what was it like? I mean, was it what you expected, or—</u>
+      <u who="NIXON">It was great. The economy was strong. The most impressive thing—do you know what they called the war, <name type="event">the Vietnamese War</name>? Do you know what they called it in <placeName>Vietnam</placeName>?</u>
+      <u who="NOPPENBERGER">I believe it has to do with <placeName>America</placeName>. Is that what they call—</u>
+      <u who="NIXON">No, they call—the call it in <placeName>Vietnam</placeName>—they call it <name type="event">the Civil War</name>.</u>
+      <u who="NOPPENBERGER">Oh, oh, okay. I’m sorry, I was no understanding your question. Please—no expand on that. Expand on that.</u>
+      <u who="NIXON">That, you know, we considered it <name type="event">the Vietnamese War</name>.</u>
+      <u who="NOPPENBERGER">Uh-huh. </u>
+      <u who="NIXON">They considered it a civil war between the <placeName>North</placeName> and the <placeName>South</placeName>, and the Americans were just a manifestation of invasion from the north—invasion—invasion from the n- —</u>
+      <u who="NOPPENBERGER">Do you mean from the <placeName>South</placeName>, because <placeName>America</placeName> was fighting with the <placeName>South</placeName>?</u>
+      <u who="NIXON">They didn’t consider the Americans as the combatants, as the invaders. They considered the Chinese, the Chinese as the invaders. So, I mean,—so there was absolutely no bitterness whatsoever toward <placeName>America</placeName> and Americans.</u>
+      <u who="NOPPENBERGER">Hmm. And so it sounds like—yeah, it sounds like you had, like, a really positive experience, going back.</u>
+      <u who="NIXON">Very. It was certainly worthwhile going back. Everyone—people in general were doing well, and, you know, every—you know, you’d talk to people, and they were, “Oh, we have cousins in <placeName>Chicago</placeName> now,” or people just the—for <placeName>Vietnam</placeName> as a—it—it—it turned out, I think, you know, the—I think that’s the whole scenario. It turned out much better than it—than you thought it was going to be at the—at the time.</u>
+      <u who="NOPPENBERGER">Okay.</u>
+      <u who="NIXON">People—Yeah, it was great.</u>
+      <u who="NOPPENBERGER">Yeah. All right. Well, I mean, we talked about a lot. We got to cover so much of your life. Is there any other—I mean, anything else that comes to mind that you’d like to have be part of this interview in terms of your—your service or anything like that?</u>
+      <u who="NIXON">You know, only that—and I’ll—this is reiteration—only that people who rally against the military probably have not been exposed to it with any—in any depth because I—I—I think the—it offers—it offers an opportunity for people who, you know, might be—have difficulty with—what was I going to say? The military is a very—is very structured, as it has to be, but as an organization which by and large runs very well, and people who are—who serve in the service should be given proper respect.</u>
+      <u who="NOPPENBERGER">Okay. Well, thank you for the interview, and I will be ending the recording now.</u>
+      <u who="NOPPENBERGER">This is <persName>Angela Noppenberger</persName> interviewing Dr. <persName>Daniel D. Nixon</persName>. This is a follow-up to a previous interview. It is <date>March 3rd, 2016</date>, a <date>Thursday</date>. I am in the Bryant Room in <placeName>Rauner</placeName> [<orgName>Special Collections] Library</orgName>, and our interview is starting at 12:27 p.m. </u>
+      <u who="NIXON">Yes.</u>
+      <u who="NOPPENBERGER">Please go ahead.</u>
+      <u who="NIXON">Yeah, when we spoke last time, there were still various thoughts—when—when—when you spoke <date>a couple of weeks ago</date>, I guess, I—I hung up and I realized that probably most significant relationship between <placeName>Vietnam</placeName> and—and my—and my life afterwards had to do with Agent <persName>Orange</persName> and Parkinson’s disease. I had—as a kid [unintelligible] Marine reserve, and we were talking, and—but, you know, we were in <placeName>Vietnam</placeName> during—during the conflict there. My understanding is that people that—military exposed to Agent Orange were receiving disability payments. I had no idea—</u>
+      <u who="NOPPENBERGER">Excuse me. Hi, sorry, sorry, you cut out. Could you maybe hold the—the phone closer to your mouth? It’s just the audio keeps cutting in and out.</u>
+      <u who="NIXON">How is this?</u>
+      <u who="NOPPENBERGER">That’s so much better. Thank you.</u>
+      <u who="NIXON">Okay. Anyway, my—my brother says, “You were in <placeName>Vietnam</placeName> at that time,” and it seems that he is involved with retired military who were exposed to—to the Agent Orange exposure. And I knew nothing about this, and he said this is who you have to call except, and that started about—it took <date>about a year</date> to get all of this processed. I found—you know, when we spoke the last—last time, we were talking about how effective the military can be. And I can tell you for veterans it has the ability to be absolutely impossible. We had to—my wife was an extraordinarily effective communicator, a business woman. Very effective.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="NIXON">We spent a greater part of <date>a year</date> trying to fill out various forms, and it turned out that I was entitled to full disability for—for my Agent Orange exposure, subsequently probab- —maybe, probably related to the Parkinson’s disease, which I acquired subsequently returning from <placeName>Vietnam</placeName>. And I was very disappointed in the military, or the <placeName>VA</placeName> [<orgName>U.S. Department of Veterans Affairs</orgName>, also known as <orgName>the Veterans Administration</orgName>] system, really.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. </u>
+      <u who="NIXON">As far as making it—seemingly making it as difficult rather than as easy as possible to obtain the information you need. I mean, it was not that it was a lot of money, but it was—it was certainly significant. And, the average military person—I don’t know how they ever worked their way through the system, and it was—now, I guess I started my application in <date>March of last year</date>, and then the decision and as to a disability, I think I was approved for—for—for military [unintelligible]. I was very disappointed with, that it took us as long as it did and made it as hard as it did. My understanding is that this is [unintelligible]—we make other people [unintelligible]. I’ve had the opportunity to a doctor. But anyway, I thought that was probably—it had the mostly lasting impression of my military—of military—</u>
+      <u who="NOPPENBERGER">Yes. Well, before—I’m sorry, before that, can I just ask you about your exposure to Agent <persName>Orange</persName> when you were actually in <placeName>Vietnam</placeName>, how that came about, or if you could just explain how you became exposed to it?</u>
+      <u who="NIXON">Well, actually, it’s not—the military knows where different—where different—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="NIXON">No, the <orgName>Army</orgName> has—has your records as to where you’ve served at any time, although—so if you were—they can’t tell you that you personally were in—were exposed to <placeName>Vietnam</placeName>—were exposed to Agent Orange, but what they can say is you were in an area of the country where Agent <persName>Orange</persName> was being used as an antifoliant [sic].</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="NIXON">So, I mean,—and the only thing you have to do is—is—if you are—if you were in southern Viet- —if you were in southern <placeName>Vietnam</placeName> during the times that they were using the Agent Orange as a defoliant, you were eligible. You know, they—they weren’t going to track down any indivi- —you know, <persName>Daniel D. Nixon</persName>.</u>
+      <u who="NOPPENBERGER">Right.</u>
+      <u who="NIXON">They—they—they couldn’t care less. But they did—but they did know who was where and who was eligible for, you know, for—and for help. And actually, as I said before, I—I would have been much happier to get any payments and not be exposed [chuckles] to Agent Orange.</u>
+      <u who="NOPPENBERGER">Right.</u>
+      <u who="NIXON">I think it was a very poor tradeoff [chuckles] when it comes—</u>
+      <u who="NOPPENBERGER">Right.</u>
+      <u who="NIXON">—push comes to shove. But anyway, I—I—I thought this was important because it certainly affected my concept of what happens to military after they’ve seen active duty. They don’t do nearly as well.</u>
+      <u who="NOPPENBERGER">And just to—just to clarify, you really didn’t know that you’d been exposed until your brother had been talking to you about this recently. Is that correct?</u>
+      <u who="NIXON">Cor- —correct. That’s cor- —that’s correct. I didn’t know about this until—when I applied was <date>last March</date>, <date>about a year ago</date>, and I don’t know how long it’s been known and—how long this had been disseminated. But I will tell you, you know, you’re walking down the street, and I’ve seen an awful lot of T-shirts saying, “I was exposed to Agent Orange.” [Chuckles.] </u>
+      <u who="NOPPENBERGER">Really!</u>
+      <u who="NIXON">I’ve—I’ve—I’ve had some very interesting conversations [chuckles] with—with—with people. Evidently there’s a lot of—you know, among full-time exposure, people who were full-time military, this is well known, and it was a cause célèbre. If you will.</u>
+      <u who="NOPPENBERGER">If you don’t mind me asking,—</u>
+      <u who="NIXON">No.</u>
+      <u who="NOPPENBERGER">—when were you—</u>
+      <u who="NIXON">Yes.</u>
+      <u who="NOPPENBERGER">Oh, okay. If you don’t—if you just don’t mind me asking, when were you diagnosed with Parkinson’s?</u>
+      <u who="NIXON">I was—I was diagnosed in <date>February</date> of <date>’02</date>.</u>
+      <u who="NOPPENBERGER">Of ’02, okay. So, wow, I mean, that is, like you said, a very lasting sort of impression—</u>
+      <u who="NIXON">Yes.</u>
+      <u who="NOPPENBERGER">—I don’t even know if that’s the right word, but—</u>
+      <u who="NIXON">Well, listen, no one—no one can say—no one can say with any high degree of certainty that I was exposed or not exposed. I mean, there were—people got, you know,  Parkinson’s is surprisingly common medical condition, but as I said before, I would have been very happy not—not to be exposed.</u>
+      <u who="NOPPENBERGER">Yeah. Yes. Okay, well, then you mentioned an anecdote that you’d like to share. I’d love to hear it.</u>
+      <u who="NIXON">Because we were talking about MASH, the military, and what’s the difference between the military and civilians, and doctors who were in the military: Did they consider themselves doctors, or did they consider themselves soldiers? And this occurred at—in <placeName>Fort Ord</placeName> in <placeName>Monterey</placeName> [<placeName>California</placeName>], and this would have been in—let’s see—this would have been in <date>the summer</date>. And we were—we were—I was the chief of medicine at this evac hospital we were—we were supposed to be setting up, but we had special training that we had to go through, and one of the exercises was a mounting and dismounting from a convoy under fire. </u>
+      <u who="NOPPENBERGER">Was this—was this returning of the guns to the wrong—the wrong people—was this done on purpose?</u>
+      <u who="NIXON">No. I mean, we didn’t—we weren’t smart enough to know that we—</u>
+      <u who="NOPPENBERGER">Oh! </u>
+      <u who="NIXON">—that there was a—“Here’s your gun.”</u>
+      <u who="NOPPENBERGER">Okay.</u>
+      <u who="NIXON">“We don’t wanna play anymore.” [Laughs.]</u>
+      <u who="NOPPENBERGER">Oh! [Laughs.]</u>
+      <u who="NIXON">Well, you can imagine what—what happened. We were—we were raked to and fro. And then, when we—<date>the next day</date>, the—the administrative chief of the hospital summoned all the wives together and bawled the wives—you know, yelled at the wives. Said there’d be serious repercussions if anything like this happened again. And we’re laughing. I mean—I mean, what could they do to us? They could send us to <placeName>Vietnam</placeName>, but we were going to <placeName>Vietnam</placeName> already.</u>
+      <u who="NOPPENBERGER">Right. [Chuckles.]</u>
+      <u who="NIXON">[Chuckles.] Represented—absolutely. I mean, we sort of sat there and said, “Well, it happens. Now we’re going to see our names in the pa- — in <orgName>The New York Times</orgName> for refusing to serve.” Anyway, the commotion lasted <date>about a weekend</date>, and maybe over a weekend. And it just is a good example of how civilians and military look at the same problem. We wanted to get out of the rain because what we were doing was dumb, and it was a game. When they weren’t playing games, the military—</u>
+      <u who="NOPPENBERGER">Right.</u>
+      <u who="NIXON">—is much more effective. And anyway, it’s just a sidebar issue that I—I thought was fun to talk about. </u>
+      <u who="NOPPENBERGER">Oh, yeah.</u>
+      <u who="NIXON">And the Parkinson’s business was just—in retrospect, was much more upsetting to me because I had—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. Of course, of course.</u>
+      <u who="NIXON">—the feeling that the military just wasn’t providing their support and were avoiding—avoiding rather than stepping in and helping—helping you out.</u>
+      <u who="NOPPENBERGER">Right. No, that’s understandable, why you would be upset.</u>
+    </body>
+  </text>
+</TEI>

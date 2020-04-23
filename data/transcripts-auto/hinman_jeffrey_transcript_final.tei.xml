@@ -1,0 +1,531 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="HINMAN"/>
+        <person xml:id="CUMMINGS"/>
+        <person xml:id="Cummings"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="Cummings">This is <persName>Emily Cummings</persName>. I’m sitting with <persName>Jeffrey Hinman</persName> in the Rauner Special Collections Library. It’s <date>August 18th, 2015</date>, and it’s about 10:20 in the morning. </u>
+      <u who="HINMAN">My father’s name was <persName>Hazen Hinman</persName>, <persName>Hazen B. Hinman Jr.</persName>, and he was born in <placeName>Warren</placeName>, <placeName>Ohio</placeName>, He graduated from <placeName>Dartmouth</placeName> [College] in <date>1942</date>. My mother was <persName>Nancy Elsbeth Windrath</persName>, and she was born at <placeName>Dunkirk</placeName>, <placeName>New York</placeName>. And my mom and dad met in <placeName>Rome</placeName>, <placeName>New York</placeName>.</u>
+      <u who="CUMMINGS">Okay, and that’s where you grew up.</u>
+      <u who="HINMAN">That’s where I grew up.</u>
+      <u who="CUMMINGS">Can you tell me a little bit about <placeName>Rome</placeName> when you were growing up there?</u>
+      <u who="HINMAN">My first living space was a three-room apartment in downtown <placeName>Rome</placeName>. <placeName>Rome</placeName> at that time was a city with a population about 50,000. It was a mill town, and it was located just past <placeName>Utica</placeName> and 15 miles east of <placeName>Syracuse</placeName>. I was born in <date>1945</date>, <date>August</date>, just before <name type="event">World War II</name> was ending. And <placeName>Rome</placeName> had <persName>Revere Copper</persName> and <orgName>Brass [Inc.</orgName>, now <orgName>Revere Copper Products, Inc.</orgName>], <orgName>Rome Cable [Corporation</orgName>], <orgName>General Cable [Corporation</orgName>]. It was a mill town. There was also a [<placeName>U.S.</placeName>] <orgName>Air Force</orgName> base there, which eventually grew over time to become a strategic air command base and a major center for electronic research.</u>
+      <u who="CUMMINGS">Right. Did your dad serve in <name type="event">World War II</name>?</u>
+      <u who="HINMAN">My dad did. He was a 4-F, meaning he could not be drafted.</u>
+      <u who="CUMMINGS">Right.</u>
+      <u who="HINMAN">He had lost most of his elbow in a car accident in <placeName>Ossining</placeName>, <placeName>New York</placeName>, <date>the summer of his sophomore year</date> at <placeName>Dartmouth</placeName>. That may have saved his life. But my dad volunteered to be in <orgName>the American Field Service</orgName> [now <orgName>AFS Intercultural Programs, Inc.</orgName>] and ended up driving <date>eight months</date> across <placeName>North Africa</placeName> with <orgName>the British 8th Army</orgName> as part of <orgName>the American Field Service</orgName>. He came home in <date>1944</date> and married my mom, and I arrived in <date>1945</date>.</u>
+      <u who="CUMMINGS">So you mentioned the sort of military influence that was present in <placeName>Rome</placeName>.</u>
+      <u who="HINMAN">Yeah.</u>
+      <u who="CUMMINGS">How old were you when you first felt that? Were you very young, or did it sort of develop as you got older?</u>
+      <u who="HINMAN">There were planes flying around at the time, and I was <date>five years old</date>, and we were still living in an apartment in <placeName>Rome</placeName>, and I was going to kindergarten. I remember walking to the school, and I would occasionally see the B-29s [<orgName>Boeing B-29 Superfortress</orgName>] flying around. And I knew they were bombers, but then I later, some time later, found out what bombers did. Now, this was pre-television. We didn’t have a television. So one time I asked my mom. I said, “Mom, do other people have bombers that can bomb us?” And she says, “Yes, they do.” And that’s when I knew something was not right.</u>
+      <u who="CUMMINGS">So you are pretty young then.</u>
+      <u who="HINMAN">Yeah, I was five.</u>
+      <u who="CUMMINGS">Yeah.</u>
+      <u who="HINMAN">That was when I was aware of it. I really wasn’t conscious—I mean, I was five. I really wasn’t aware of, say, <name type="event">World War II</name> until I was eight or nine. But by the time I was <date>nine years old</date>, I was getting <orgName>Random House</orgName> books. My grandmother was getting them. They had a series of history books called the Landmark series [sic; <orgName>American Landmark Books</orgName>]. And they were sanitized versions of <orgName>Guadalcanal Diary</orgName>, Thirty Seconds Over <placeName>Tokyo</placeName> and [unintelligible]. And I started reading all these books about <name type="event">World War II</name> starting at <date>the age of nine</date>. As I said, they were the sanitized versions.</u>
+      <u who="CUMMINGS">Right.</u>
+      <u who="HINMAN">And we started going to open houses at the air base. We watched the progression of, say, the <placeName>U.S.</placeName> military [unintelligible]. I just wanted to go over to Griffiss Air Base.</u>
+      <u who="CUMMINGS">Yeah, it does.</u>
+      <u who="HINMAN">Okay. </u>
+      <u who="CUMMINGS">Did you like the military atmosphere of <placeName>Rome</placeName> when you were younger?</u>
+      <u who="HINMAN">Liked a lot of the people. We became friends with a lot of people, stayed lifelong friends with some people. Because of the research section of town, there were a lot of officers, mostly lieutenant colonels and colonels, living in the suburbs with their kids, and they brought a lot of very ambitious and intelligent people into town, in addition to the people already living there.</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="HINMAN">My brother keeps in touch with a good friend from <date>the old days</date>. A lot of these people are gone now. And they couldn’t tell you what they were doing because it was all secret. You never knew what they were working at. One friend, Gen. <persName>John Toomey</persName> — his kids were good people. He died, and his obituary said he was responsible for a particular weapons strategy in <placeName>the United States</placeName>, but we never knew it.</u>
+      <u who="CUMMINGS">Wow.</u>
+      <u who="HINMAN">Because he couldn’t tell you what he was doing.</u>
+      <u who="CUMMINGS">Yeah. [Chuckles.]</u>
+      <u who="HINMAN">My first high school girlfriend was a girl from <placeName>Arkansas</placeName>. Was a base kid.</u>
+      <u who="CUMMINGS">Oh, really?</u>
+      <u who="HINMAN">Yeah.</u>
+      <u who="CUMMINGS">Okay. So you were pretty—your life was pretty intertwined with the people who were coming in for their military.</u>
+      <u who="HINMAN">Just because of school, mostly school kids. And whenever the few friends of my folks met, there wasn’t constant socializing, but it was—well, I guess having a girlfriend, an <orgName>Air Force</orgName> girlfriend, was probably pretty much intertwined. The funny thing about it was my dad stayed friends with her dad for the rest of his life.</u>
+      <u who="CUMMINGS">Really?</u>
+      <u who="HINMAN">Yeah. [Chuckles.] I still have a pretty good picture of my parents out with her parents.</u>
+      <u who="CUMMINGS">[Laughs.]</u>
+      <u who="HINMAN">Yeah.</u>
+      <u who="CUMMINGS">Did he—because of his influence or because of his experience with <name type="event">World War II</name>, did he sort of—I mean, you mentioned he had friends, but was he involved at all in the military bases that were near <placeName>Rome</placeName>, or was it more just steel mill, for work?</u>
+      <u who="HINMAN">Wait a minute. You have to rephrase the question.</u>
+      <u who="CUMMINGS">Did your dad have work within the military bases, or was it—</u>
+      <u who="HINMAN">No.</u>
+      <u who="CUMMINGS">—just steel mill?</u>
+      <u who="HINMAN">No, no, no, not at all. No, our company made cold-rolled strips for metal stamping companies. If you ever drove out to LaGuardia [Airport] or <persName>JFK</persName> [<persName>John F. Kennedy</persName> International Airport], you drive in <placeName>Long Island</placeName>, you might see a big sign—it’s gone now on <placeName>Long Island</placeName>. It said “Swingline.” They made staplers. We sold steel to companies like that.</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="HINMAN">It was precision metal stuff. There was nothing to do with military. If we profited from any war activity, it was, I don’t know, it might be making parts for weapons somewhere, but they’d be small.</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="HINMAN">Most of the business was dependent upon the production and sale of <placeName>U.S.</placeName> automobiles. My father made a precision metal part and sold it for the company. My daughter works there.</u>
+      <u who="CUMMINGS">Oh, really?</u>
+      <u who="HINMAN">Yeah.</u>
+      <u who="CUMMINGS">Okay.</u>
+      <u who="HINMAN">The company was recently sold. I have a couple of cousins who stayed and kept it going, but now it’s all gone.</u>
+      <u who="CUMMINGS">So did you enjoy growing up in <placeName>Rome</placeName> overall?</u>
+      <u who="HINMAN">Overall? Yeah.</u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>. Did it change at all from when you were in lower and middle school to high school?</u>
+      <u who="HINMAN">Did it change?</u>
+      <u who="CUMMINGS">Yeah.</u>
+      <u who="HINMAN">It grew because of the base. <date>Today</date> it’s—like a lot of towns around the country, it’s lost its manufacturing base. That’s gone. There are some electronic and research things going on around the town, but I don’t know. The population has shrunk. It’s down to about 39,000 from close to 50[,000] during the war. There was a whole block of middle-class that has evaporated from <placeName>Rome</placeName> with the decline of manufacturing and the closing of the base. They’ve cleaned it up. It looks fairly decent. There are a lot of government-subsidized reclamation projects going on and a few prosperous businesses gone, but—going on. But a lot has disappeared, like anywhere else.</u>
+      <u who="CUMMINGS">So you mentioned that your sister is <date>ten years</date> younger. Did you have other siblings?</u>
+      <u who="HINMAN">I did. I have a brother who was <date>five years</date> younger. He was at <orgName>the University of Denver</orgName>. Got married in senior year. I think the draft lottery started when I was halfway through my tour in <placeName>Vietnam</placeName>. I think my brother got a fairly safe number at the time, but he didn’t have to draw. </u>
+      <u who="CUMMINGS">What was your relationship like with your siblings? Because those are big year differences.</u>
+      <u who="HINMAN">We kind of—it got better over a period of time. I don’t know how to answer that. [Laughs.] Our age differences—I’m <date>ten years</date> older than my sister, and I wasn’t around a lot.</u>
+      <u who="CUMMINGS">Right.</u>
+      <u who="HINMAN">She was <date>14</date> when I was in <placeName>Vietnam</placeName>. I don’t see her too much these days. She’s in <placeName>North Carolina</placeName> and I only see her infrequently. I think my brother and I are okay. My folks got divorced in <date>1974</date>, and there was always a certain amount of stress in the family that kind of rubs off on the kids.</u>
+      <u who="CUMMINGS">Right, right.</u>
+      <u who="HINMAN">Next question?</u>
+      <u who="CUMMINGS">So moving through high school, did you always know you wanted to go to college? Was that sort of an expectation?</u>
+      <u who="HINMAN">I knew I wanted to go to college, but I wasn’t quite sure why. I think it was because my parents expected me to.</u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>.</u>
+      <u who="HINMAN">In my family, there was a certain amount of pressure to go to <orgName>Dartmouth</orgName>. My grandfather and most of his brothers had come to school here. My dad and most of his cousins, first cousins came to school later on. I had moments in high school where I might have been considered a borderline juvenile delinquent, so I left <placeName>Rome</placeName> and went to a whole ’nother school in <placeName>Plymouth</placeName>, <placeName>New Hampshire</placeName>, for <date>two years</date>. I repeated my junior year, which was rather fortuitous.</u>
+      <u who="CUMMINGS">So did you repeat your junior year because of academics?</u>
+      <u who="HINMAN">What’s that?</u>
+      <u who="CUMMINGS">Did you repeat your junior year because of academics?</u>
+      <u who="HINMAN">Yes, and—yeah. And wanted to get used to the school. It worked out pretty well. I had some wonderful teachers. But I got into <orgName>Dartmouth</orgName> by the skin of my teeth, and I’m glad I did. It was expected that I would go to college,—</u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>.</u>
+      <u who="HINMAN">—as it was for most of the kids that I was with in high school. They were all going to go somewhere. My family valued education quite a bit. My dad, who died <date>last December</date> at the age of 94—he died from melanoma. When he was active in the family business, with my grandfather’s approval, [he] established a scholarship fund so that the son or daughter of any employee who got accepted at an accredited <date>four-year</date> college, the company paid the tuition. There were a lot of kids that went to college because of that. Eventually, the <orgName>IRS</orgName> [<orgName>Internal Revenue Service</orgName>] screwed that up. [Both chuckle.] They changed private foundation rulings, so it could no longer be done exclusively from employers. But the intention of—my dad’s goal was to help young people to stay around <placeName>Rome</placeName> or come back after college. That part of it didn’t happen, but a lot of kids have gone on. There are people that—kids were going to <orgName>MIT [Massachusetts Institute of Technology</orgName>] and <orgName>Harvard</orgName> [University] and <persName>Brown</persName> [University], <orgName>Dartmouth</orgName> and comparable schools and a lot of other colleges within <placeName>New York State</placeName>.</u>
+      <u who="CUMMINGS">Would you say that your parents were pretty involved with your school life and how you were doing in school?</u>
+      <u who="HINMAN">Yeah, I would call it excessive, especially when I was getting in trouble. [Laughs.]</u>
+      <u who="CUMMINGS">So they were focused on the education track.</u>
+      <u who="HINMAN">Yeah.</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="HINMAN">Yeah. I grew up in a house full of books. There were always books and exposure to music and shows. Not a lot of shows [unintelligible]. My folks weren’t running off to <placeName>New York City</placeName> like some people did, but they did do that.  </u>
+      <u who="CUMMINGS">So did you play sports in high school? Did you ski in high school?</u>
+      <u who="HINMAN">I played tennis. In high school I was at the bottom of the tennis ladder. Athletics were mandatory. At [the name of the high school he went] I played football, which I had never thought about, but the net result of that is I ended up majoring in rugby at <orgName>Dartmouth</orgName> for <date>four years</date>.</u>
+      <u who="CUMMINGS">[Chuckles.]</u>
+      <u who="HINMAN">And I ran track. We didn’t have a real track there, but I decided to give that a try. I wasn’t great at it but it was fun. I got here <date>my freshman year</date> and started playing rugby the spring term of <date>my freshman year</date>. I played through to six seasons for the rest of my <orgName>Dartmouth</orgName> career.</u>
+      <u who="CUMMINGS">And did they go to <orgName>Dartmouth</orgName>?</u>
+      <u who="HINMAN">No.</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="HINMAN">My Uncle Don—I don’t know whether he ever finished college or not. He got into an <orgName>Air Force</orgName> cadet program in <date>1954</date> and made a crewman in <orgName>the Air Force</orgName>. I think he—yeah, I think along the way, he picked up a degree somewhere, the way <orgName>Air Force</orgName> people do.</u>
+      <u who="CUMMINGS">All right. So moving on to your decision to come to <orgName>Dartmouth</orgName>, obviously, the family influence was big. Was there any other—were there any other schools that you were considering, or was it really just <orgName>Dartmouth</orgName>?</u>
+      <u who="HINMAN">I had some crazy friends at <orgName>St. Lawrence [University</orgName>] in <placeName>Canton</placeName> [<placeName>New York</placeName>]. I thought about going there. My second choice would have been <placeName>Middlebury</placeName> [College].</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="HINMAN">My girlfriend was going to <placeName>Middlebury</placeName>, and there were four guys and gals who went. That would have been nice, but this is what I did. By <date>my senior year</date>, that relationship was history. [Laughs.] My dad once said his father said, “<persName>Hazen</persName>, you can go anywhere you want to college, but <orgName>Dartmouth</orgName>’s the only one I’m gonna pay for.” [Chuckles.]</u>
+      <u who="CUMMINGS">So that was a big influence.</u>
+      <u who="HINMAN">Yeah, there was a lot of pressure, I think, from my grandfather.</u>
+      <u who="CUMMINGS">Right.</u>
+      <u who="HINMAN">But I think by then, my dad had started the scholarship program, so I actually came here on an employee scholarship, as did my cousins, and my <persName>Uncle Paul</persName>’s son, <persName>Kim</persName> came here, <persName>Kim Windrath</persName> was a record-holding swimmer at <orgName>Dartmouth</orgName>. There were some other people along the way.</u>
+      <u who="CUMMINGS">So you arrived on campus in <date>’64</date>.</u>
+      <u who="HINMAN">In <date>the fall</date> of <date>’64</date>.</u>
+      <u who="CUMMINGS">Fall of ’64.</u>
+      <u who="HINMAN">But I had been to <placeName>Hanover</placeName>. I mean, the first time I saw <orgName>Dartmouth</orgName> was <date>1955</date>.</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="HINMAN">And how [unintelligible] it is! It’s kind of nice.</u>
+      <u who="CUMMINGS">[Chuckles.]</u>
+      <u who="HINMAN">Yeah, so I arrived in <date>the fall</date> of <date>’64</date>.</u>
+      <u who="CUMMINGS">Okay. And what was your first impression of starting school there—or here, I guess?</u>
+      <u who="HINMAN">Or here?</u>
+      <u who="CUMMINGS">Yeah.</u>
+      <u who="HINMAN">I already had a lot of friends here.</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="HINMAN">There were 39 guys in my graduating class, and five of us came to <placeName>Dartmouth</placeName>, five went to <placeName>Middlebury</placeName>, and so I already knew people here. I had been over here on <date>weekends</date> with a good friend, [<persName>Richard B.]</persName> “<persName>Dikkon</persName>” [pronounced <persName>DEE-kun]</persName> Eberhart [Class of <date>1968</date>]. His father was an English professor, a well-known poet, <persName>Richard [G.]</persName> Eberhart [Class of <date>1925</date>]. I had another friend who lived in <placeName>Hanover</placeName>. We’d come over and stay at their house on <date>weekends</date>.</u>
+      <u who="CUMMINGS">So when did you join the rugby team?</u>
+      <u who="HINMAN">I started going to practices in <date>the winter</date> of <date>’65</date>, and it was mostly upperclassmen. It was pretty clique-y. I said, But I think I’ll just stick this out. So I did, and later on talked some other classmates into playing and made some lifelong friendships. But it was a great experience. It was a lot of fun. I think anybody that goes to school should probably participate in some kind of athletic activity, regardless of what it is.</u>
+      <u who="CUMMINGS">[Chuckles.] I guess—so after your—what influence, I guess, because you say you’ve made lifelong friends from rugby—did that influence the rest of your time at <orgName>Dartmouth</orgName>?</u>
+      <u who="HINMAN">Those friendships?</u>
+      <u who="CUMMINGS">Was rugby your main sort of thing with your friends?</u>
+      <u who="HINMAN">Yeah, that was it—I went to drink [unintelligible]. [Chuckles.] Rugby allowed for drinking, and there was a great bunch of guys. We had a lot of fun. I played fall and spring, and that was an interesting, diverse group of guys. Plus we managed it ourselves. By <date>my sophomore year</date>, I was a manager. By <date>my senior year</date>, I was—my junior year, I became what was known as a student director, and the other guy dropped out my senior year. I kind of ended up with a form of co-captain by then. </u>
+      <u who="CUMMINGS">Okay. So when you arrived at <placeName>Dartmouth</placeName>, the war in <placeName>Vietnam</placeName> was sort of starting to pick up.</u>
+      <u who="HINMAN">Yes.</u>
+      <u who="CUMMINGS">Were you aware of what was happening in <placeName>Vietnam</placeName>, or was it sort of an afterthought?</u>
+      <u who="HINMAN">We arrived in what is now <orgName>Collis [Center for Student Involvement</orgName>], was College Hall. I think there were—from what is now <orgName>Collis, College Hall</orgName> all the way up to Robinson Hall. The student organizations had card tables out with propaganda and literature, and <orgName>the ROTC [Reserve Officers’</orgName> <orgName>Training Corps</orgName>] program—so the [<placeName>U.S.</placeName>] <orgName>Army</orgName> and the [<placeName>U.S.</placeName>] <orgName>Navy</orgName>—I can’t remember what the [<placeName>U.S.</placeName>] <orgName>Air Force</orgName> guys did. But they had displays out with all the pamphlets and stuff, and I was walking by, and I had known people who had been in <placeName>ROTC</placeName> at colleges, and I briefly thought in <placeName>Dartmouth</placeName> that might be pretty good because they do mountaineering and all kinds of stuff, a lot of outdoor activity. And I thought to myself, Eh, I don’t need to do this. I said, <placeName>The United States of America</placeName> has never been in a war longer than <date>four years</date>. </u>
+      <u who="CUMMINGS">So had you—</u>
+      <u who="HINMAN">In <date>1964</date>, though, I didn’t think much of the war. It wasn’t a big thing in my life, nor was it a big thing in anybody else’s life, unless you were graduating from <orgName>Dartmouth</orgName> in <date>1964</date> and <date>1965</date>. Then, as all of us know, there was a major cultural shift <date>between 1964 and 1969 and 1970</date> in regards to <name type="event">the Vietnam War</name>. </u>
+      <u who="CUMMINGS">[Chuckles.] So before you got to <orgName>Dartmouth</orgName>, had you considered joining the war effort in any way?</u>
+      <u who="HINMAN">No, it wasn’t even on my radar. I wasn’t even thinking about it. By that time, my uncle had gone over to <placeName>Thailand</placeName> to fly and drop bombs. I said, “Those guys’ll take care of it.”</u>
+      <u who="CUMMINGS">[Chuckles.] Right. And war is only for <date>four years</date>.</u>
+      <u who="HINMAN">Right. We started to know guys from—everybody from home was going on rotations out of <placeName>Okinawa</placeName> and <placeName>Guam</placeName> to fly [<orgName>Boeing</orgName>] B-52 [Stratofortress] missions. We also had acquaintances who were responsible for <name type="event">Operation Ranch Hand</name>, dropping Agent Orange all over <placeName>Vietnam</placeName>. I was asking a friend of mine, who was a colonel, after I got home from <placeName>Vietnam</placeName>—I said, “What did you do over there?” He said—he joked and said, “I was engaged in the non-controversial aspects of Agent Orange.”</u>
+      <u who="CUMMINGS">[Chuckles.] So seeing as the shift between ’64 and ’68 was pretty big,—</u>
+      <u who="HINMAN">Yeah.</u>
+      <u who="CUMMINGS">—did you notice the shift on campus? Did the culture of the campus change dramatically?</u>
+      <u who="HINMAN">Yes, because the war protesters started blowing up on campus and were vocal. I remember an ROTC parade. I think it was <date>the spring of ’67</date>. And it’s mentioned in the <placeName>Dartmouth Vietnam</placeName> project website. I had friends in <placeName>ROTC</placeName>. I had a lot of friends. And I had a lot of fraternity brothers were in <placeName>ROTC</placeName>. And they got egged—I mean, eggs tossed at them. I thought that—I thought, That’s one thing to protest the war, but it’s one thing to be—insult these men in uniform.</u>
+      <u who="CUMMINGS">Did you do anything for the war support effort?</u>
+      <u who="HINMAN">I had—other than turning my mind and body over to <orgName>the U.S. Army</orgName> via <orgName>the Selective Service [System</orgName>], I didn’t do anything to support the effort. I was completely apathetic. I had no position at all. I wasn’t for it, and I wasn’t against it. I just—it’s going on.</u>
+      <u who="CUMMINGS">That’s what it was.</u>
+      <u who="HINMAN">Yeah. And by <date>1968</date>, my fraternity brother had been killed in <placeName>Vietnam</placeName>, [unintelligible], [<persName>William S.]</persName> “Bill” Smoyer [Class of 1967], and you can find out a lot of information about him at—President Emeritus [<persName>James E.]</persName> “<persName>Jim” Wright</persName> speaks about him. And another fraternity brother, [<persName>J. Robert] “Robby” Peacock II</persName> [Class of <date>1968</date>], in <date>1973</date> was blown up on a mission in <placeName>Vietnam</placeName>. He’s never been found.</u>
+      <u who="CUMMINGS">So your fraternity brother passed in <date>’68</date>?</u>
+      <u who="HINMAN">He was killed in <date>1967</date>.</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="HINMAN">He was from <orgName>Princeton New Jersey</orgName>. There’s a lounge in Thompson Arena that his family gave in his honor. You’ll find his name on the Dartmouth Vietnam Memorial, wherever that is now, maybe in the Hopkins Center [for the Arts], I cannot know</u>
+      <u who="CUMMINGS">So by ’68 the war was not slowing down. </u>
+      <u who="HINMAN">No, it was picking up. Sixty-nine was—yeah, the draft had picked up considerably in <date>’68</date>. I think student deferments had been eliminated.</u>
+      <u who="CUMMINGS">So you were graduating in <date>1968</date>.</u>
+      <u who="HINMAN">Yes. My diploma was mailed to me in <date>October</date> of <date>’68</date>. I didn’t graduate with my class in <date>June</date>. My professor let me come back and retake an exam in <date>September</date> of ’68, and then my diploma was mailed to me. </u>
+      <u who="CUMMINGS">Oh, gosh!</u>
+      <u who="HINMAN">[Laughs.] So I went from <persName>Slaughter</persName> to Hurt. Things were looking up.</u>
+      <u who="CUMMINGS">So you went to the recruiting center because you thought you would be drafted anyway?</u>
+      <u who="HINMAN">I knew I was going to be drafted.</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="HINMAN">So in <date>October</date> of ’68 I walked into <orgName>the Selective Service Board</orgName> in <placeName>Rome</placeName>, <placeName>New York</placeName>, and I said, “I’m <persName>Jeff Hinman</persName>. When am I going?” And this woman just looked up and said, “You’re number one for <date>December</date>.” And I said, “Okay, thanks.” And I said, “It’s been a long time since I felt like number one for anything.” </u>
+      <u who="CUMMINGS">So can we go back for a <orgName>sec</orgName> to—</u>
+      <u who="HINMAN">Sure.</u>
+      <u who="CUMMINGS">—when you knew you were being drafted? Did you get a draft card or—</u>
+      <u who="HINMAN">I had a draft card. I registered for the draft when I was <date>18</date>. I got drafted in <date>December</date>—went in in <date>December</date> of <date>’68</date>, so I was now <date>23 years old</date>. I was an old man. I had a student deferment for all the time I was at <placeName>Dartmouth</placeName> and throughout, and that was lifted as soon as I was out of school. Yeah, I had a draft card.</u>
+      <u who="CUMMINGS">So how did you feel in that moment, when you realized that you were going to <placeName>Vietnam</placeName>?</u>
+      <u who="HINMAN">That didn’t happen till the following <date>April</date>. </u>
+      <u who="CUMMINGS">Or when you knew that you were getting drafted and that you would become a part.</u>
+      <u who="HINMAN">Getting drafted didn’t bother me so much. I knew it was going to happen. It was inevitable. I think I went throughout the morning. The morning we went into the draft board to ship out <date>early December</date> of <date>’68</date>. Really early in the morning. And there were about ten of us. And the photographer from a local newspaper was there, and a woman at the desk said, “Okay, you guys line up over against the wall,” and I knew the photographer, and I said, “What’s this for?” And he said, “Well, [unintelligible] is going to take your picture for <orgName>the Rome Sentinel</orgName>.” I said, “No, I’m not going to get in that picture.” At that point, every one of those guys said, “No, we aren’t, either.”</u>
+      <u who="CUMMINGS">And why didn’t you want to be in the picture?</u>
+      <u who="HINMAN">I didn’t want any publicity about it. I didn’t want my face in the paper for getting drafted. Maybe that was my silent protest.</u>
+      <u who="CUMMINGS">[Chuckles.]</u>
+      <u who="HINMAN">But off we went. At that point, I kind of felt like a second-class citizen.</u>
+      <u who="CUMMINGS">Right.</u>
+      <u who="HINMAN">There’s one historical note. We were bused over to <placeName>Syracuse</placeName>, <placeName>New York</placeName>, to a major induction center. All the services’ offices were in this building, and we lined up. There must have been 35 guys that morning, 40. And I’ll tell you this: I never wanted to be a <placeName>U.S.</placeName> Marine. I’d seen a movie with <persName>Jack Webb</persName> called The <persName>D.I.</persName> when I was <date>about ten years old</date>, I think. I said, I never want to be one of those guys.</u>
+      <u who="CUMMINGS">So we’ll definitely get to training.</u>
+      <u who="HINMAN">Yeah.</u>
+      <u who="CUMMINGS">But before you left, how did your parents feel about you leaving?</u>
+      <u who="HINMAN">My father by this point was opposed to the war. Now, he had been a—I grew up in a family that was Republican. You bought your cars from <orgName>General Motors</orgName>, and you served your country. My mom was a pacifist. By this time, my dad was slowly evolving into being against the war. But I think he resented the fact that the federal government was taking his first-born son. He didn’t want that.</u>
+      <u who="CUMMINGS">Did they encourage you to try to avoid it?</u>
+      <u who="HINMAN">No.</u>
+      <u who="CUMMINGS">No?</u>
+      <u who="HINMAN">No, not at all. My mom was very silent about it. They were okay about—they weren’t really opposing me being drafted. It wasn’t until I found out I was going to <placeName>Vietnam</placeName> in <date>April</date> of ’69—was at Fort Dix, and they read up all the names of those going to <placeName>Vietnam</placeName>. Now, they were opposed to it. My dad was really opposed to it. He didn’t think the <orgName>Army</orgName> should be taking somebody so nearsighted as me into the service, and he was writing the congressman. He had had an ongoing battle with a local doctor, who had done a physical for me prior to my working in the mill when I was <date>16</date>, who declared I had a bad back. He went to that orthopedist, trying to get a copy of the letter he had written when I was <date>17</date>, saying I had a bad back. And the doc never produced the letter for my dad to protest me being shipped out to <placeName>Vietnam</placeName>.</u>
+      <u who="CUMMINGS">So your dad was more vocal about it.</u>
+      <u who="HINMAN">Oh, yeah, yeah. I was in <placeName>Vietnam</placeName> when a pink slip came through. I was out in the field, and it was a thing called a congressional. In other words, if something is askew in a man’s life, a congressman will send a letter off. My dad had written the local congressman, saying that I was incredibly nearsighted and I had no business being an infantryman. </u>
+      <u who="CUMMINGS">So your dad was pretty active throughout, even during your time there.</u>
+      <u who="HINMAN">He finally got resigned to the fact there was nothing he could do.</u>
+      <u who="CUMMINGS">Nothing he could do.</u>
+      <u who="HINMAN">I actually had an R&amp;amp;R [rest and recuperation] in <date>February of 1970</date>, and my folks came over to see some friends in <placeName>Honolulu</placeName>, so I went up to <placeName>Honolulu</placeName> and saw them. They weren’t too worried about it. They could see I was okay.</u>
+      <u who="CUMMINGS">So getting back to the training camps.</u>
+      <u who="HINMAN">Yeah.</u>
+      <u who="CUMMINGS">So you went to <placeName>Fort Dix</placeName> first?</u>
+      <u who="HINMAN"><persName>Fort Dix</persName>, <placeName>New Jersey</placeName>.</u>
+      <u who="CUMMINGS">Okay. Can you tell me a little about that?</u>
+      <u who="HINMAN">Yeah, it’s a terrible place. [Both chuckle.] We flew out of <placeName>Syracuse</placeName>, and there were a lot of guys who had never been on an airplane before. We were a large group, and we go down to Fort Dix. It was just <orgName>Army</orgName> barracks. We go through basic training, which is learning how to march, salute and being harassed all the time and doing pushups for having wrinkles on your bed and KP [kitchen patrol], learning the basics of operating an M16 rifle. </u>
+      <u who="CUMMINGS">The people who were leading the training camps?</u>
+      <u who="HINMAN">Hmm?</u>
+      <u who="CUMMINGS">The people who were leading the training camps?</u>
+      <u who="HINMAN">You live in a barracks, and they had a cadre of barracks, and there was an officer in charge, but you would go off <date>each day</date>. There were different training sessions. There were training officers and training NCOs that would lead different training sessions on how to put up a pup tent in frozen ground, or there would be range officers, running target ranges. </u>
+      <u who="CUMMINGS">[Chuckles.]</u>
+      <u who="HINMAN">Where was I?</u>
+      <u who="CUMMINGS">They issued uniforms.</u>
+      <u who="HINMAN">Oh, yeah. So we’re getting in process. And I sit down at a desk, and this clerk—first of all, you don’t know anything. As far as you’re concerned, everybody is a general and they’re telling you what to do. Anyway, we sit down at this one desk, and the guy had a pad, and he said, “Okay, how much Savings Bonds you gonna buy a month?” I said, “I’m not buying any.” And he said, “If you don’t buy Savings Bonds, you’re gonna get extra duty in basic training.” And I said, “I don’t care.” I said, “Savings Bonds are paying three-and-a-half percent interest, and the banks are paying five and six.” I said, “I’m not buying Savings Bonds.” “You’re gonna get extra duty.” I said, “So what?”</u>
+      <u who="CUMMINGS">So did you get extra duty?</u>
+      <u who="HINMAN">No, it was a lie. </u>
+      <u who="CUMMINGS">Just to get you them to do it.</u>
+      <u who="HINMAN">I didn’t get any more duty than anybody else, no. As a matter of fact [chuckles], I should request a congressional investigation on the sales of Savings Bonds to draftees. Nobody ever protested or brought up and made an issue out of it.</u>
+      <u who="CUMMINGS">Okay. So was <date>every day</date> at training camp different or was it a routine?</u>
+      <u who="HINMAN">Different training sessions were the same. Every day it was pretty monotonous. Basic training was just basic military stuff. Advanced infantry training—we went home after basic training and came back to <placeName>Fort Dix</placeName>, and there were a couple hundred guys in the training battalion. There were a couple hundred guys in our company. There weren’t any experienced sergeants in the barracks cadre. </u>
+      <u who="CUMMINGS">This is at Fort Dix?</u>
+      <u who="HINMAN">Huh?</u>
+      <u who="CUMMINGS">This is at Fort Dix?</u>
+      <u who="HINMAN">Yes. And we had M16 rifles. The training company in a barracks, one of these barracks during this guard duty exercise at night—a group came in from <placeName>Philadelphia</placeName>, armed, and got this whole company or half the company to lie down on the floor, and they left with all their M16 rifles. Those rifles ended up somewhere, antique Arsenal in <placeName>Philadelphia</placeName>. I couldn’t find anything online about it, but I’m sure the <orgName>Army</orgName> kept very quiet about that because I’m sure they didn’t want people knowing that weapons were coming out of <placeName>Fort Dix</placeName>, stolen weapons, and ending up in <placeName>Philadelphia</placeName>. I think at the time there was a cease fire going on in <placeName>Philadelphia</placeName>. I think that was the city. That was the only city in <placeName>America</placeName> that bombed itself, during riots.</u>
+      <u who="CUMMINGS">So can you give me a timeline of your training? You were in Fort Dix for basic training in ’69?</u>
+      <u who="HINMAN">Yeah, started in <date>December</date> of <date>’68</date> until <date>April</date>.</u>
+      <u who="CUMMINGS">And then where did you go from there?</u>
+      <u who="HINMAN">I had a <date>30-day</date> leave. I went to <placeName>Vietnam</placeName>.</u>
+      <u who="CUMMINGS">Right. Did you feel prepared after your training to go over to <placeName>Vietnam</placeName>?</u>
+      <u who="HINMAN">When we landed in <placeName>Vietnam</placeName>, you’d go through a week or so of in-country training, some basic weapons were [unintelligible], but they showed you what booby traps—mostly about learning about how to detect and stay away from booby traps and a few other miscellaneous things. Plus there was a period you get acclimated. I remember gasping for my breath when I got off the plane when we landed in [unintelligible].</u>
+      <u who="CUMMINGS">Yeah.</u>
+      <u who="HINMAN">Anything else. It’s on-the-job training.</u>
+      <u who="CUMMINGS">So what was your first impression of <placeName>Vietnam</placeName>, other than the heat?</u>
+      <u who="HINMAN">I remember we were on a commercial flight out of <placeName>California</placeName>, and I remember as we were flying in to approach the air field, all I could see was green, and I said, “This frickin’ plane’s too low! Pull it up!” [Chuckles.]</u>
+      <u who="CUMMINGS">So when you got there, after your <date>week</date> of training in <placeName>Vietnam</placeName>, did the higher officers expect you to sort of know what you were doing?</u>
+      <u who="HINMAN">Our higher officer was a lieutenant and a platoon sergeant, and that was about it. Commanding officers only cared about what their company commanders were doing, and that was—I can tell you about an introductory speech. We got shipped to <orgName>the 3rd Brigade of the 82nd Airborne [Division of the U.S. Army</orgName>], which was operating as a buffer between <placeName>Saigon</placeName> and <placeName>Cu Chi</placeName>, <placeName>Vietnam</placeName>. <persName>Cu Chi</persName> was that territory controlled by <orgName>the 25th Infantry Division</orgName> [of <orgName>the U.S. Army</orgName>].</u>
+      <u who="CUMMINGS">Which was your division?</u>
+      <u who="HINMAN">Later I was assigned to <date>the 25th</date>. I was now in <orgName>the 3rd Brigade of the 82nd Airborne</orgName>, and we were just patrolling west of <placeName>Saigon</placeName>. There were at that point a bunch of people looking for a war that really wasn’t in existence. We were just wandering around, getting blown up by booby traps and shooting ourselves in the feet and that kind of thing, with the exception of the few people who got killed by some VC [Viet Cong]. But there wasn’t a lot of war activity. It was a lot of slopping around patrolling and hurting ourselves.</u>
+      <u who="CUMMINGS">And this is your first introduction to—</u>
+      <u who="HINMAN">Yeah. This guy was a ring knocker, which was <orgName>Army</orgName> slang for a West Pointer [a graduate of <orgName>the U.S. Military Academy</orgName> at <placeName>West Point</placeName>]. When <orgName>the 3rd Brigade of the 82nd Airborne</orgName> came home, a lot of us got reassigned to other units because we hadn’t been in <placeName>Vietnam</placeName> long enough to qualify to go home. And we got a departure speech from a colonel who had been in the <orgName>Army</orgName> for a long time. He had been a second [unintelligible], his arm covered with tattoos. He was one of these guys who walks around with his body flexed all the time and aging.</u>
+      <u who="CUMMINGS">Okay, so—</u>
+      <u who="HINMAN">And that was my introduction into—those were introduction and departure speeches of the 82nd Airborne.</u>
+      <u who="CUMMINGS">[Chuckles.] Can you tell me a little bit more about your time in between those speeches: so what you were doing as an 82nd Airborne—</u>
+      <u who="HINMAN">I was in a rifle platoon. We had about three or four different locations we operated—we rotated every <date>three days</date> repairing this bridge on Highway 1, Hoc Mon Bridge, and then we went off to someplace called <placeName>Mosquito Hill</placeName> and then we had occasional large company or battalion searches that we’d go out and—we were just patrolling in swampy, crappy terrain, which was most of what we were doing.</u>
+      <u who="CUMMINGS">Okay. So before that, when you were in the field, were you mostly doing patrols?</u>
+      <u who="HINMAN">Yes.</u>
+      <u who="CUMMINGS">Did you ever encounter enemies?</u>
+      <u who="HINMAN">No, just booby traps.</u>
+      <u who="CUMMINGS">Just booby traps.</u>
+      <u who="HINMAN">See, I’m a lucky infantryman. I never killed anybody.</u>
+      <u who="CUMMINGS">Okay.</u>
+      <u who="HINMAN">One morning, though, we had been operating along a river. We had a little base camp on a river. Motorboats would take us out on the river, and then we’d get off somewhere and set up an ambush site at night. The next morning, we got up and heard on the radio that a platoon in our company farther down the river on the night side had had about five men killed. The <orgName>VC</orgName> had come in at night and slit their throats. The lieutenant survived. Somehow or other, he got out of the back side of the ambush formation along the bank of the river. </u>
+      <u who="CUMMINGS">Really.</u>
+      <u who="HINMAN">There were some combat situations where some guys were killed or wounded, but I wasn’t immediately there when it happened. I would see the aftereffects of it sometimes, but—one example was that a tank got stuck somewhere. The guys were trying to—they have a tanker tractor, trying to pull it out like pulling on a stuck car. Well, there was a live round of ammunition in the barrel of the tank that went off as they yanked the tank, and it killed about six people.</u>
+      <u who="CUMMINGS">So you were aware that mistakes were made and it ended up—</u>
+      <u who="HINMAN">We almost got bombed by <orgName>the Air Force</orgName>. Our company was set up on this hilltop. This was when I was in <date>the 82nd</date>.	 I spotted airplanes flying around. I had seen fresh bomb craters in this hill where we usually went on our rotation of places to patrol, and there were brand-new bomb craters up there. I thought, This is strange. The company set up a perimeter around this hilltop, parts of which used to be an old Vietnamese cemetery. A reinforced <orgName>Piper Cub</orgName> comes flying around and shoots a spotter rocket right in the middle of our company, on the ground. And the smoke went up. </u>
+      <u who="CUMMINGS">Wow.</u>
+      <u who="HINMAN">It would have been incredibly unusual to find a whole company of <orgName>VC</orgName> [unintelligible] hilltop in broad daylight, close to <placeName>Saigon</placeName> at that point. And also I said, Well, that’s an indication of how well people are communicating around here. <orgName>The Air Force</orgName> doesn’t know the <orgName>Army</orgName>’s around.</u>
+      <u who="CUMMINGS">Wow.</u>
+      <u who="HINMAN">Yeah.</u>
+      <u who="CUMMINGS">So how many people were in your company at that time?</u>
+      <u who="HINMAN">Less than a hundred, maybe.</u>
+      <u who="CUMMINGS">Okay. And did you know everyone by name?</u>
+      <u who="HINMAN">No.</u>
+      <u who="CUMMINGS">Did you know them personally?</u>
+      <u who="HINMAN">Your world gets very small.</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="HINMAN">At that point in the war, most operations were done as platoon-size operations. Our platoon went out and operated on its own. We went and set up our own ambush places, and that became your world, was your platoon.</u>
+      <u who="CUMMINGS">How many people?</u>
+      <u who="HINMAN">I think we were down to about 15, 20 by then. It would vary. At that point, I think that’s about what the size of it was. There was a lieutenant in charge, one sergeant and the rest of us. It would be privates and specials. The company had a mortar platoon. A lot of the African-Americans ended up in the mortar platoon. I don’t know whether they volunteered to go over there or what the reason for it was. I don’t know.</u>
+      <u who="CUMMINGS">And what was the difference?</u>
+      <u who="HINMAN">Hmm?</u>
+      <u who="CUMMINGS">What was the difference between where they were and where other people were?</u>
+      <u who="HINMAN">We’d go out and set up somewhere, and a mortar platoon would stay at a fixed position, pretty much.</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="HINMAN">We go this hilltop, and the mortar platoon would set up their mortars, and they would be amongst themselves. The other three platoons did ambush patrols and <date>day</date> patrols. I don’t know whether those guys were on a large operation. Maybe they had to carry those mortars around with them. I’m glad I wasn’t one of them.</u>
+      <u who="CUMMINGS">Was that more dangerous than—</u>
+      <u who="HINMAN">Hmm?</u>
+      <u who="CUMMINGS">Was that more dangerous?</u>
+      <u who="HINMAN">No, you just had to carry the stuff around. It was heavy. [Laughs.] I was really carrying heavy stuff.</u>
+      <u who="CUMMINGS">So what were—</u>
+      <u who="HINMAN">After a while, I wouldn’t even carry hand grenades.</u>
+      <u who="CUMMINGS">[Chuckles.] So just because you mentioned it, what were the race relations like in your company?</u>
+      <u who="HINMAN">What were the what?</u>
+      <u who="CUMMINGS">The race relations. Like, with African-Americans versus other races?</u>
+      <u who="HINMAN">The mortar platoon was mostly African-Americans, and I think some guys volunteered to go over there. In my platoon there were two African-Americans. One was stoned all the time. There was <persName>Michael Biggs</persName>. He was—I think he was from <placeName>Brooklyn</placeName>. He probably spent more time around in jail than he did in the field, for drug possession. He was constantly stoned, so after a while you had to stay away from him because it got to be dangerous. I mean, he was just in a fog all the time.</u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>.</u>
+      <u who="HINMAN">I saw one flare-up in the rear between an African-American and a white guy. I didn’t know there was—I was oblivious to things I didn’t know a lot of it was going on. But personally, I was fine with everybody. And I couldn’t—I really couldn’t detect signs of any animosity based on race. However, I knew it existed from any of the white guys who were to come from the <placeName>South</placeName>. </u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>. </u>
+      <u who="HINMAN">And there’s an archway that was put in a while ago, and it’s a hideous piece of wrought-iron work, and they put up the words “Honor” and “Glory” on the archway going to this veterans’ memorial park in my hometown. I’ve never met anybody in an infantry company who ever said, “I’m fighting for honor and glory.” Or that certainly wasn’t the case when I was in <placeName>Vietnam</placeName>. It got down to “I’m fighting to keep my friends alive.”</u>
+      <u who="CUMMINGS">Right.</u>
+      <u who="HINMAN">Or “I’m doing something to keep my friends alive.” </u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>. Do you think that’s because at that time the war was obviously not doing very well?</u>
+      <u who="HINMAN">That was probably in <date>early 1970</date>. But peace talks had started.</u>
+      <u who="CUMMINGS">Right.</u>
+      <u who="HINMAN">The protests had started in <placeName>Washington</placeName>. Nobody wanted to die. What was that quote from [current Secretary of <orgName>State</orgName>] John [<persName>F.] Kerry</persName> and the [unintelligible] soldiers? “Who wants to be the last man to die for a mistake?”</u>
+      <u who="CUMMINGS">Mmm.</u>
+      <u who="HINMAN">There was a lot in the war going on. Anyway—</u>
+      <u who="CUMMINGS">So you would say, then, that while you were an infantryman the reason why you were fighting or doing what you were doing was very much to protect your platoon or your company.</u>
+      <u who="HINMAN">Yeah. My allegiance was to the men in my platoon.</u>
+      <u who="CUMMINGS">Did you think about the greater effort?</u>
+      <u who="HINMAN">After <date>about 30 days</date>, I thought, Yeah, there’s a good greater effort here, and after <date>30 days</date>, I said, We gotta go home. As I said, I worked on a farm, and I had seen enough rice farmers by that point. Basically, farmers want to be left alone, and all these villages and hamlets that we’d walk through—they didn’t want to see us there.</u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>.</u>
+      <u who="HINMAN">You knew it was going to be bad anyway when the people didn’t come out of their huts. I remember going through one village, and it was a battalion-size operation. Some general thought it would be a good idea to send everybody through this area. Local people didn’t come out of their straw huts and knew there was trouble. Well, everything beyond their village had been booby trapped.</u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>.</u>
+      <u who="HINMAN">It was a great line that said, “Lying begins after fishing and during wars.” And by the time I got there, the war was being—started to [be] based on lies.</u>
+      <u who="CUMMINGS">So you mentioned going into villages. Was this when you were an infantryman?</u>
+      <u who="HINMAN">Yeah.</u>
+      <u who="CUMMINGS">What was your experience with the local Vietnamese that you encountered?</u>
+      <u who="HINMAN">Well, sometimes you could watch friends buy bags of marijuana from 10-year-old Vietnamese kids on the road. When I mentioned the first night being assigned to the bridge, going out to the [unintelligible] on a bridge and not knowing the location of where we were, there were prostitutes working around that bridge and knew where we were going <date>two days</date> before we did. </u>
+      <u who="CUMMINGS">So going back to when you were transferred to being a clerk,—</u>
+      <u who="HINMAN">Back when I was in the 82nd. Yeah, I went to the rear to be a clerk, yeah.</u>
+      <u who="CUMMINGS">So what did that change for you?</u>
+      <u who="HINMAN">Well, I got to sleep in a bed, an old, rusted cot. I worked with a company clerk. I became a mail clerk and did miscellaneous typing, odds and ends, errands. I got to go into <placeName>Saigon</placeName> occasionally. I wasn’t carrying a pack and a rifle all the time. But I have to admit I was terribly uncomfortable in not having a rifle with me all the time. And that lasted for a long time after I got home.</u>
+      <u who="CUMMINGS">So did you prefer being in the field, then?</u>
+      <u who="HINMAN">Just because of the noise from the air base.</u>
+      <u who="CUMMINGS">The noise? Okay.</u>
+      <u who="HINMAN">There had been enough stupid things going on in the field. I was glad to be out of it. I missed a couple of close friends, and there was a certain amount of guilty feeling, like survivor’s guilt that goes along with getting a job in the rear, because there were men who had been there longer than I had, who just by the luck of the draw—it just happened there was a lieutenant I knew who, when asked by the first sergeant—when asked if he could recommend a guy, said, “Well, there’s a guy named <persName>Hinman</persName> who might be your guy.” It just worked out. </u>
+      <u who="CUMMINGS">So you didn’t—</u>
+      <u who="HINMAN">I got to eat [unintelligible]. I also got a greater access to beer.</u>
+      <u who="CUMMINGS">So you didn’t ask to be—</u>
+      <u who="HINMAN">No, that came out of the blue. I didn’t ask for that job.</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="HINMAN">I just got lucky. Yeah, I got back, and they said, “Can you type?” I said, “Yeah.” I had taken a nine-credit typing course in prep school. When I thought I was coming to <orgName>Dartmouth</orgName>, I had to learn how to type so I could do papers.</u>
+      <u who="CUMMINGS">So what was your <date>daily</date> routine as a clerk? What would you do?</u>
+      <u who="HINMAN">Whatever the first sergeant told me to do. That was pretty much it. I mean, it could have been anything. I was a mail clerk, for one thing. That took a lot of doing. There was just a lot of <persName>Mickey Mouse</persName> stuff going on. There was a lot of down time, too.</u>
+      <u who="CUMMINGS">Did you like having down time?</u>
+      <u who="HINMAN">Boring.</u>
+      <u who="CUMMINGS">Boring.</u>
+      <u who="HINMAN">There wasn’t a lot to do. It really was boring. For some reason, this first sergeant was a hyperactive Type A-plus personality, and he always had to have something going on. It was pretty difficult to escape whatever it was that he wanted us to do. I didn’t mind it, but it was moderately stressful.</u>
+      <u who="CUMMINGS">So after your time as a clerk—and this is fall of 19—</u>
+      <u who="HINMAN">Sixty-nine.</u>
+      <u who="CUMMINGS">—1969, where did you go from there?</u>
+      <u who="HINMAN">I was reassigned to <orgName>the 25th Infantry Division</orgName>, which was [up high, went about 15 miles from where we were. Before I came to <placeName>Vietnam</placeName>, I went to the bookstore and bought a <orgName>Rand-McNally</orgName> road map of <placeName>Vietnam</placeName> because I always wanted to know where I was. I wish I’d had some topographical maps, but I didn’t.</u>
+      <u who="CUMMINGS">So where was that? Where did that—</u>
+      <u who="HINMAN">That was at <placeName>Cu Chi</placeName>, <placeName>Vietnam</placeName>.</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="HINMAN">And <persName>Cu Chi</persName> was a huge—it was like a small city. <orgName>The 3rd Brigade of the 82nd Airborne</orgName> lived along rivers, in the fields, rice paddy dikes and mobile kind of areas that could be moved quickly. <orgName>The 25th Infantry Division</orgName> had been in this place since <date>1966</date> or <date>’67</date> and had built a major metropolitan area for an <orgName>Army</orgName> base. We had swimming pools and PXs and all kinds of stuff that we never knew existed. I knew that <orgName>the Air Force</orgName> had a pretty cushy existence at <persName>Tan Son Nhut</persName> for a war zone. </u>
+      <u who="CUMMINGS">So how did you get that, get the photographer correspondent job?</u>
+      <u who="HINMAN">This is how <orgName>Dartmouth</orgName> rugby had an influence on my <orgName>Army</orgName> career. When we were in this replacement detachment, which is an amphitheater and a bunch of barracks for people in transit, waiting for orders, there were about 200 men in an amphitheater, up in the bleachers. And there’s a podium. And this staff sergeant came in. He gave us a talk on the orders and glories of <orgName>the 25th Infantry Division</orgName>. He prefaced his remarks by asking, “Do I have any college majors in journalism?” Two other guys raised his hand. So I raised by hand, and I said, “How about history?” Well, I already have orders, assigned me the infantry regiment. He said—the sergeant said, “Come see me afterwards.”	</u>
+      <u who="CUMMINGS">So your time in the 25th Infantry—or 25th Division—you didn’t have to be an infantryman because you got the correspondent job.</u>
+      <u who="HINMAN">Right. I worked with a guy named [<persName>James] “Jim” Williams</persName>. The guy I was replacing taught me how to—took me over to this brigade darkroom, which was run by a lieutenant who was a funny guy, a good guy. He taught me how to print, so—I know how to shoot pictures, but he taught me how to develop film and make prints. His name was <persName>Larry</persName> [D.] <persName>Goodson</persName>. <persName>Larry</persName> was short. He came home in <date>December</date> of ’69. </u>
+      <u who="CUMMINGS">[Chuckles.] So you would just sort of follow different groups around?</u>
+      <u who="HINMAN">Yes. When I was brought on the field, I would generally go with somebody—people I knew.</u>
+      <u who="CUMMINGS">But you got to choose who you went with?</u>
+      <u who="HINMAN">Pretty much. If there was an operation I was going to go out with, I’d pick a company or some guy I knew and say, “Okay, I’m gonna tag along with you guys.” Sometimes it was just independent, which was rare. Now, I had that job from <date>December till April</date>, so my actual field time was within a span of <date>two and a half weeks</date>, <date>a month</date>, because I’d go in the rear and print pictures and [unintelligible].</u>
+      <u who="CUMMINGS">Did you enjoy it?</u>
+      <u who="HINMAN">I did. Yeah, I got to do a lot of stuff. I met some interesting people. </u>
+      <u who="CUMMINGS">[Chuckles.]</u>
+      <u who="HINMAN">Because I was going home. And I got to meet—a man named <persName>Kenley Jones</persName> was a reporter for <orgName>NBC</orgName> [<orgName>National Broadcasting Company</orgName>]. He actually worked for a <orgName>Dartmouth</orgName> alum “Bob” Hager [Class of <date>1960</date>], who lives in <placeName>Woodstock</placeName>, <placeName>Vermont</placeName>. Got to meet him <date>years later</date>, or meet his sister in <placeName>Atlanta</placeName>, <placeName>Georgia</placeName>. Somebody has asked me if I knew any reporters in <placeName>Atlanta</placeName>. I said, “Well, the only guy I know is <persName>Kenley Jones</persName>.” He said, “He’s my brother.” And I said, “Well, I met your brother in <placeName>Vietnam</placeName>.</u>
+      <u who="CUMMINGS">[Chuckles.]</u>
+      <u who="HINMAN">[Laughs.] It was a good experience, and it influenced some things I did later on in my life, I started volunteer work for—photographed for <orgName>United Way</orgName> and the local historical society and participating in a <orgName>United Nations</orgName> photo exhibit one time. That was a good part of it. And I’ve stayed friends with my partner, <persName>Jim Williams</persName>, and a few other guys <date>all these years</date>.</u>
+      <u who="CUMMINGS">So did you encounter any difficulties as a photographer, like people not wanting their pictures taken or—</u>
+      <u who="HINMAN">A couple of times, there were some cross field sergeants who didn’t want their pictures taken. I said, “I’m just doing my job,” and I would go on and but— </u>
+      <u who="CUMMINGS">Yeah.</u>
+      <u who="HINMAN">I photographed—</u>
+      <u who="CUMMINGS">Actually, do you want to just describe what’s in this photograph? It’s a photograph that Mr. <persName>Hinman</persName> took in <placeName>Vietnam</placeName>.</u>
+      <u who="HINMAN">In the photographic inventory, it’s photograph #048. This shows a <orgName>NVA</orgName> or <orgName>VC</orgName> soldier on the ground, being interrogated by some South Vietnamese soldiers. There are American troops from <orgName>the 25th Infantry Division</orgName> standing around him, and we were looking for weapons, heavy weapons that the <orgName>NVA</orgName> had and they were firing at our fire base at night. As a matter of fact, it almost killed me and my friends about three times.</u>
+      <u who="CUMMINGS">So this was sort of a one-time occasion, where the commanding officer came to you and asked to see your photographs [sic; negatives].</u>
+      <u who="HINMAN">Yes.</u>
+      <u who="CUMMINGS">Okay. Were there other instances of physical torture?</u>
+      <u who="HINMAN">Not that I experienced.</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="HINMAN">I knew of rumors or, oh, <orgName>ARVN</orgName> soldiers in <placeName>Trang Bang</placeName>, a town which wasn’t far from where our Fire [Support] Base <placeName>Pershing</placeName> was located—I’d heard stories about wiring men’s testicles and cranking up radios that would] give electrical shock for torture. I know of instances, of other instances of torture by Americans in <placeName>Vietnam</placeName>.</u>
+      <u who="CUMMINGS">Right.</u>
+      <u who="HINMAN">That’s how that works.</u>
+      <u who="CUMMINGS">So other instances of, you know, people asking you not to photograph certain things were rare.</u>
+      <u who="HINMAN">I wasn’t allowed to come home with photos of enemy dead.</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="HINMAN">However, I was ordered by the battalion commander to go out <date>one day</date> following a successful ambush by a platoon. They had killed three <orgName>NVA</orgName> soldiers, one of whom they believed to be the—believed to have been a political officer, so I had to fly out with the guys in this platoon and go find the three bodies and photograph them because the battalion commander wanted to make leaflets with the guy’s picture on it to drop as a propaganda leaflet, out of helicopters. I think that was his own idea,—</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="HINMAN">—because nothing ever came of it, and I’m sure that somebody higher up said, “No, this is a bad idea. You’re not gonna do it.” I didn’t keep those negatives. I didn’t want them. Technically, I would have been allowed to take them home. If I wanted to, I could have anyway. But, hell, I wouldn’t have thought of [unintelligible] and hi-fi speakers for the <orgName>PX</orgName>. [Laughs.]</u>
+      <u who="CUMMINGS">So your negatives were screened before you got home?</u>
+      <u who="HINMAN">No, nobody was going bother them. I held onto them for <date>years</date>, and most of them—there was nobody who was going to take—he’d have to go through 2,000 negatives. I sent most of my stuff home in <date>February</date>, when I was on R&amp;amp;R. I put them all in a footlocker and shipped it home. There were guys that had certain taken a lot more photographs of more dramatic subjects than I did. They got all their stuff home.</u>
+      <u who="CUMMINGS">Did you want to photograph more dramatic subjects, or were you—</u>
+      <u who="HINMAN">At times. I got to be very cautious. I was getting short—I had an experience in <date>January of 1970</date>. Now, initially, when I got drafted, I really didn’t care about staying alive; then I got physically better through the course of training, and the depression I was under kind of lifted. In <date>January 1970</date> I was on the fire base, and I had this moment I went through, <persName>Jeff</persName>, Everything’s gonna be okay. You’re gonna be all right.</u>
+      <u who="CUMMINGS">And this is when you were a photographer.</u>
+      <u who="HINMAN">Yeah.</u>
+      <u who="CUMMINGS">Okay.</u>
+      <u who="HINMAN">I had a couple of instances like that in my lifetime, just those intuitive moments, and so it was: Everything’s gonna be okay. I decided I was going to be a little more careful about what I was going to do, so I was more careful about what I was going to do. That was in <date>January, February, March, April</date>. I had <date>nine weeks</date> left in <placeName>Vietnam</placeName>. I decided I wanted to come home with my arms and legs and maybe half my mind if I could. </u>
+      <u who="CUMMINGS">You were more interested in staying safe and getting home.</u>
+      <u who="HINMAN">That was it. By that point, yeah, there wasn’t—remember the archway in the veterans’ park at home, “Honor and glory”? Well, I didn’t need any honor or glory. It was just [unintelligible].</u>
+      <u who="CUMMINGS">Did you feel like you had a larger role as a photographer and as a correspondent sending out news and—</u>
+      <u who="HINMAN">No, it was just—it was mostly for the division newspaper. Call it an in-house publication. It wasn’t—the photograph [unintelligible]; the rest of it was just <orgName>Army</orgName> in-house stuff. It wasn’t real journalism. It was <orgName>Army</orgName> journalism. However, we were given a lot more freedom to wander around and do what we did. We escaped all forms of authority. Nobody knew how to find us.</u>
+      <u who="CUMMINGS">So in choosing who you got to follow and where you got to go, were there certain—other than, like, the people you knew, were there certain groups that you would want to follow based on what they were doing?</u>
+      <u who="HINMAN">No.</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="HINMAN">No. We’d go out—<persName>Jim</persName> and I would pick the [unintelligible] to go out with. We just wanted to get some fairly decent photographs. That was pretty much how it worked.</u>
+      <u who="CUMMINGS">So at this point, were you disillusioned with the war? Had you—</u>
+      <u who="HINMAN">Yes. After the torture incident, I had this feeling—one time I expressed this thought, was I did not know who the good guys were anymore. I think that was the best way to explain it.</u>
+      <u who="CUMMINGS">Right. You have another photograph that unfortunately there’s not a bigger version of, #149. I don’t know if you’ll be able to see it. It’s a man’s helmet.</u>
+      <u who="HINMAN">Yes.</u>
+      <u who="CUMMINGS">Can you explain it, the photo?</u>
+      <u who="HINMAN">This is a slide of a man named <persName>Mike Kittle</persName>. He had been an infantryman, and we would describe his helmet as being a psychedelic interpretation [chuckles] of camouflage, in large yellow letters on his helmet cover. He had painted his home state of <placeName>Virginia</placeName>. He was originally from <placeName>Richmond</placeName>, <placeName>Virginia</placeName>, and I think he still lives there <date>today</date>. A few flowers, representing <orgName>Flower Power</orgName>, an abstraction of <orgName>the 25th Infantry Division</orgName> insignia, which is a traffic lightning bolt, which at that point in time, to quote a man named <persName>Dean</persName>, was referred to as the “Electric Strawberry.” Specialist [unintelligible] was very artistic, and it was a great design. He had spent most of <date>1970</date> and part of ’69 as an infantryman, and he was now on the rear at <persName>Cu Chi</persName>, waiting to go home. So he put his spare time to good use by painting up artistic interpretations of military life on that helmet.</u>
+      <u who="CUMMINGS">So how did people react to not necessarily specifically this but sort of antiwar sentiment?</u>
+      <u who="HINMAN">Our battalion commander at one point banned or made a declaration that wearing peace symbol emblems or drawing a peace symbol emblems on helmets or jackets was forbidden because he believed that the origin of that symbol communist. However, that didn’t stop anybody from ever putting that emblem on necklaces or drawings it on their flak jackets or on the helmets, and there was no way he was going to quash any signs of peace. There was an expression at the time, “Fighting for peace is like screwing for virginity,” and that was a well-known phrase at the time. The peace symbol became ubiquitous.</u>
+      <u who="CUMMINGS">In a number of your photos, there are either people in bases playing sports or keeping good humor, and I noticed that that was a theme throughout the photos. How were people able to keep good humor in—</u>
+      <u who="HINMAN">It was difficult. It ended up with a dark sense of humor. I might say it was a black humor. Occasionally it would be practical jokes played. I couldn’t give you a specific example. But once in a while, it would take somebody who was mentally sharp to come up with a quick wit. A lot of times, people were just too tired to be funny.</u>
+      <u who="CUMMINGS">So just that story. Was not necessarily suicide but depression or suicidal thoughts common in bases?</u>
+      <u who="HINMAN">Where?</u>
+      <u who="CUMMINGS">In bases or wherever you were encountering—</u>
+      <u who="HINMAN">No. I didn’t see it, but I wasn’t looking for it. I do know friends that suffered greatly after the war.</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="HINMAN">The man I replaced, I thought he probably—I thought maybe that he drunk himself to death, and I found that he was alive <date>two years ago</date>. Had also written a memoir, a self-published book about his experience. He’s been sober for <date>over 30 years</date> now. It probably saved his life.</u>
+      <u who="CUMMINGS">So I want to get to after the war, but first: What were your final—when you knew you were going home, what were your final thoughts while you were still in <placeName>Vietnam</placeName>, when you knew that you were going home?</u>
+      <u who="HINMAN">One is I still had <date>six months</date> of stateside <orgName>Army</orgName> time left, and my only remembrance of stateside <orgName>Army</orgName> duty was all that <persName>Mickey Mouse</persName> nonsense of training at Fort Dix, and I said, I don’t wanna go back to that. As a matter of fact, my partner <persName>Jim Williams</persName> extended his tour in <placeName>Vietnam</placeName> so he could get out as soon as they landed in <placeName>California</placeName>, which he did.</u>
+      <u who="CUMMINGS">Do you know—</u>
+      <u who="HINMAN">I don’t know why they’d do that.</u>
+      <u who="CUMMINGS">You don’t know why.</u>
+      <u who="HINMAN">Huh?</u>
+      <u who="CUMMINGS">Do you know why that happened?</u>
+      <u who="HINMAN">Yeah, there had been a lot of pressure on the government to cut down on the number of troops in <placeName>Vietnam</placeName>, and I had—so the criteria was if you were the rank of E-4, which is like being a corporal or below, and had been in <placeName>Vietnam</placeName> for <date>more than six months</date>, you were eligible to come home on the plan. And I qualified.</u>
+      <u who="CUMMINGS">So you got home and had to do <orgName>Army</orgName> service in the States. What did that look like?</u>
+      <u who="HINMAN">I got home and had a <date>30-day</date> leave, and I was being assigned to <placeName>Fort Carson</placeName>, <placeName>Colorado</placeName>. I got a job as a clerk for <date>about three months</date>.</u>
+      <u who="CUMMINGS">In <placeName>Colorado</placeName>?</u>
+      <u who="HINMAN">Yeah.</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="HINMAN">I became a free agent. Nobody could find me. [Laughs.]</u>
+      <u who="CUMMINGS">Did you enjoy that?</u>
+      <u who="HINMAN">No, it got incredibly boring.</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="HINMAN">I showed all the newspapers that published stuff that I had done in <placeName>Vietnam</placeName>, and I took it up to the division paper at Fort Carson when I was looking for a job. I said I was hanging out in a replacement detachment, waiting for orders. They didn’t want to hear about it. I got assigned to a mechanized infantry battalion and showed up over there. I told the first sergeant [unintelligible] what I had done. They said, “Okay, you go work with the company clerk.” So I went to work with an 18-year-old punk who I didn’t like. </u>
+      <u who="CUMMINGS">Okay. So when you were done with the stateside <orgName>Army</orgName> service, what did you do?</u>
+      <u who="HINMAN">I went to <placeName>Haverhill</placeName>, <placeName>Mass.</placeName>, <placeName>Massachusetts</placeName>. I lived in a <placeName>YMCA</placeName> for <date>six months</date>, then I put together a building/warehouse for some cousins of mine, who had bought a wholesale building company up in <placeName>Manchester</placeName>, <placeName>New Hampshire</placeName>. They were going to expand it in <date>April</date>. </u>
+      <u who="CUMMINGS">[Chuckles.]</u>
+      <u who="HINMAN">So I was putting this warehouse together. I cut down a piece of sumac, and I said, “That’s for Capt. So-and-so back in <placeName>Fort Carson</placeName>.”</u>
+      <u who="CUMMINGS">And did you do that for—</u>
+      <u who="HINMAN">Almost the rest of my life.</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="HINMAN"><date>Till 1988</date>, when I came up here.</u>
+      <u who="CUMMINGS">Okay. So coming from <placeName>Vietnam</placeName> and arriving home, how did people react to you?</u>
+      <u who="HINMAN">It was kind of bizarre. I remember a neighbor of my dad’s said, “Well, there’s <date>two years</date> wasted” when I got out of the <orgName>Army</orgName>. Other friends were—nobody asked about it. It was—some things are often described as the elephant in the room that nobody wants to talk about? I guess I was kind of the elephant sometimes.</u>
+      <u who="CUMMINGS">You just didn’t talk about it.</u>
+      <u who="HINMAN">No. I mean, I talked about it with my first wife and my second wife, but it wasn’t a general topic of conversation for a long time in <date>the ’70s</date>.</u>
+      <u who="CUMMINGS">Did you join any groups when you got home to—</u>
+      <u who="HINMAN">No.</u>
+      <u who="CUMMINGS">No.</u>
+      <u who="HINMAN">Not at all. But one is <orgName>the Vietnam Veterans of America</orgName> hadn’t started, hadn’t founded. The <orgName>VFW</orgName> [Veterans of Foreign Wars] did not want <placeName>Vietnam</placeName> veterans.</u>
+      <u who="CUMMINGS">Right.</u>
+      <u who="HINMAN">Because it wasn’t a foreign war and never had been declared a war, and I had no desire to join <orgName>the American Legion</orgName>. <placeName>Vietnam</placeName> veterans were in the minority. I saw a figure <date>yesterday</date>. In [unintelligible; 2:25:24] County, I guess for what the official tabulation was, there was a figure of 69 <placeName>Vietnam</placeName> veterans from [unintelligible; <placeName>2:25:32] County</placeName>, which seems like a low number to me. I know that within the area there were probably 14 men killed in <placeName>Vietnam</placeName>, if not more, but I think it was about 14, including the brother of a high school classmate of mine.</u>
+      <u who="CUMMINGS">Did you find that that was consistent with other <placeName>Vietnam</placeName> vets?</u>
+      <u who="HINMAN">Yes. My friend who was murdered was about the only <placeName>Vietnam</placeName> veteran I knew other than officers, who had been on flight missions out of <placeName>Griffiss</placeName>, who were doing rotations out of <placeName>Guam</placeName> or <placeName>Okinawa</placeName>.</u>
+      <u who="CUMMINGS">And <persName>Griffiss</persName> was the air base in <placeName>Rome</placeName>, right?</u>
+      <u who="HINMAN">Yeah.</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="HINMAN">I had nothing [to account] with those guys. My war was different.</u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>. </u>
+      <u who="HINMAN">Everybody’s war is different. Even though you’re in the same place, your war is different. My war was different from <orgName>the Air Force</orgName> guys or Marines who had been up north <date>the year before</date>. Were in a different war. </u>
+      <u who="CUMMINGS">Can you talk more about that, just what you did and what sorts of people were involved?</u>
+      <u who="HINMAN">There were two friends of mine from <placeName>Lowell</placeName>. One was a former mayor of <placeName>Rome</placeName>, a man named <persName>Carl</persName> [<persName>J.] Eilenberg</persName> and his wife and—. Actually, <persName>Carl</persName> was known as the voice of <orgName>Syracuse University</orgName> varsity basketball for <date>years</date>. He was the mayor of <placeName>Rome</placeName>. He and his wife just decided to start a newspaper, so they did, and they started a very nice newspaper. They took it upon themselves to initiate bringing the <placeName>Vietnam</placeName> moving memorial, moving wall to <placeName>Rome</placeName>. And they needed a lot of funding to do it. I was living up here, and I just heard about their efforts. They were going to publish a schedule, so I sent him some photographs, and my own family business bought a page of advertising in it. Used one of my photographs in the schedule, bought a page and solicited some other financial support for it.</u>
+      <u who="CUMMINGS">Sorry, one second. I just might have to stop this tape for a moment. [Transcriber’s note: To troubleshoot what is causing a loud tone to sound several times.]</u>
+      <u who="CUMMINGS">This is <persName>Emily Cummings</persName> again. I am sitting with <persName>Jeffrey Hinman</persName>, and we are continuing our interview from before. </u>
+      <u who="HINMAN">We were. It finished with a lot of local veterans within <placeName>Oneida</placeName> and <placeName>Herkimer</placeName> counties set it up on the site of <orgName>the Fort Stanwix National Park</orgName>, and during the daytime, a lot of people came to visit it. There was an introductory ceremony, and people would go by during the daytime, but I went down in the evening, and I noticed that the veterans would show up at night, and they would look for specific names on the wall, and you could tell that they were veterans who had had combat experience, and they didn’t go along with a lot of the excitement and hoopla that goes along with a lot of veterans activities like that. They wanted their moments of quiet and peace and meditation. There were a few of them, but you could tell that they had been in some rough places in <placeName>Vietnam</placeName>, and they just wanted to be alone with it when they came to visit.</u>
+      <u who="CUMMINGS">So did that provide any sense of closure for you?</u>
+      <u who="HINMAN">No. I dislike the word “closure” because I’ve never found that ever occuring in my life. I think—I don’t believe that time heals all wounds. I think that it deadens the pain as time goes on. My war experiences weren’t traumatic, and I’ve been fortunate that I’ve never had to shoot anyone or kill anyone, but I saw a lot of unpleasant things, and was around them.</u>
+      <u who="CUMMINGS">And you did that when you were in <placeName>Vietnam</placeName>?</u>
+      <u who="HINMAN">Hmm?</u>
+      <u who="CUMMINGS">When you were in <placeName>Vietnam</placeName>?</u>
+      <u who="HINMAN">Yeah.</u>
+      <u who="CUMMINGS">Yeah.</u>
+      <u who="HINMAN">I would do that, just pretend it was a bad TV show. And it worked. But I’ve never found closure in any of the traumatic events of my life. I think time just, as I said, softens the pain after a while.</u>
+      <u who="CUMMINGS">Did you find that the way you were received when you came home had an impact on the way you remembered your experiences in <placeName>Vietnam</placeName>? You said you didn’t, like, speak about it. You didn’t talk about it with many people.</u>
+      <u who="HINMAN">Not much, because some people asked stupid questions, and I didn’t want to respond to them. I kind of wanted to just leave it alone. People weren’t holding <placeName>Vietnam</placeName> veterans in any high regard. There weren’t any parades. I still find it difficult when somebody says, “Thank you for your service.”</u>
+      <u who="CUMMINGS">And why is that?</u>
+      <u who="HINMAN">I don’t feel that I did anything worthy of a thank-you. At all. And I know other people who feel that way, too. There wasn’t anything great and glamorous about what I did. I’m glad that I did it. I wouldn't do it again. There was that expression: It was a million-dollar experience you wouldn’t pay ten cents for.”</u>
+      <u who="CUMMINGS">Okay. Yeah.</u>
+      <u who="HINMAN">My experience in my lifetime has been that there’s always been some group—something good has always come out of every catastrophic event in my life, and <placeName>Vietnam</placeName> happened to be one of those. There were some good things personally that came to me as a result of the service.</u>
+      <u who="CUMMINGS">So what’s one of those things that came to you from the service?</u>
+      <u who="HINMAN">I have made friends and acquaintances with some extraordinary people as a result of that experience. Not initially but now that I’m—I’ll be <date>70 years old</date> <date>this week</date>, and I’ve met people, encountered people who have done really amazingly good things. Which they would have done anyway, but it would be their military service that contributed to what they did later in life and be a benefit to other people. I think that’s one of them.</u>
+      <u who="CUMMINGS">So how did your experience lead you to certain things that you did after the war, whether it was career or anything?</u>
+      <u who="HINMAN">Oh, mostly with the photography I’m doing, volunteer work for nonprofits with my photographic work. I think that was the primary thing. Yeah, that was pretty good.</u>
+      <u who="CUMMINGS">So you did send me that article about the veterans reading group,—</u>
+      <u who="HINMAN">Yes.</u>
+      <u who="CUMMINGS">—with <persName>Roberta</persName> [L.] <persName>Stewart</persName>. When did you join that?</u>
+      <u who="HINMAN">It was <date>about four years ago</date>. Professor <persName>Stewart</persName> invited me to participate in the group, and I had been reluctant to do it. Initially it was a small group, maybe four people and that the vets and I in <placeName>White River Junction</placeName>, and I had never been involved in any veterans groups at all. She explained they would be reading The Iliad, so I agreed to participate in it. I found it difficult going through that story, but I wanted to reread some classics that I really may have not had in Classics 1 as a <orgName>Dartmouth</orgName> undergraduate. I think I needed some form of socialization at the time, and the net result is that I, with a small group of people, started talking about just being a <placeName>Vietnam</placeName> veteran or being a veteran. And certain things that happened, I wanted to know why.</u>
+      <u who="CUMMINGS">Did you find it helpful to have other <placeName>Vietnam</placeName> veterans to talk to about your experiences?</u>
+      <u who="HINMAN">Yes, because I never had done it before.</u>
+      <u who="CUMMINGS">And this was <date>only about four years ago</date>.</u>
+      <u who="HINMAN">Yeah.</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="HINMAN">Maybe the initial group might have been <date>five years ago</date>, and then Professor <persName>Stewart</persName> invited <persName>Alan Oakman</persName>, who was in that group, who lives in <placeName>Cannes</placeName>. He had been a corpsman in the <orgName>Navy</orgName> with the Marines at <placeName>Vietnam</placeName> and had some rough experiences and myselfinvited us both to be presenters at a workshop she did on a <orgName>Maine Humanities Council</orgName> conference, a national conference in <placeName>Washington</placeName>, on war and trauma. So we did it, <persName>Al</persName> and <persName>I.</persName> Talked about our experiences. <persName>Roberta</persName> talked about reading groups for the veterans and said it was interesting because there were a couple of prominent authors who showed up for our workshop.</u>
+      <u who="CUMMINGS">I guess is there anything that stands out to you that we haven’t gone over, that we haven’t talked about <date>today</date>?</u>
+      <u who="HINMAN">Right this second, I can’t think of anything. All I can say is I’d like to thank you all for being part of this project, though, and doing this project.</u>
+      <u who="CUMMINGS">Oh, well, thank you so much for talking to us.</u>
+      <u who="HINMAN">Thank you for listening. If I can think of anything else, I’ll phone it in.</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="HINMAN">[Laughs.]</u>
+      <u who="CUMMINGS">Great. All right. Well, then, again, thank you for speaking to me <date>today</date>. I’m sure I will be in contact with you, but the project as a whole thanks you very much.</u>
+      <u who="HINMAN">Good.</u>
+    </body>
+  </text>
+</TEI>

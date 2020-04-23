@@ -1,0 +1,337 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="CUMMINGS"/>
+        <person xml:id="RAMSEY-JEVNE"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="CUMMINGS">So this is <persName>Emily Cummings</persName> speaking with <persName>Juanita</persName> [<persName>F.] Ramsey-Jevne</persName>. I am in <orgName>the Rauner Special Collections Library</orgName>, and she is in <placeName>Telluride</placeName>, <placeName>Colorado</placeName>. It’s <date>Monday, October 26th, 2015</date>.</u>
+      <u who="RAMSEY-JEVNE">My father was <persName>Charles Ralph Ramsey</persName>, and my mother was <persName>Waneta Mae</persName> [<persName>Vieritz] Ramsey</persName>, and I was born in <placeName>Little Rock</placeName>, <placeName>Arkansas</placeName>, in <date>1958</date>.</u>
+      <u who="CUMMINGS">Okay. And what did your parents do for a living?</u>
+      <u who="RAMSEY-JEVNE">Well, my father was a salesman, an insurance salesman, but he died in <date>1963</date> of cancer, and then my mother—didn’t work, we just kinda got by—from then on.</u>
+      <u who="RAMSEY-JEVNE">Okay. And what kind of area did you live in?</u>
+      <u who="RAMSEY-JEVNE">We lived in <placeName>Joplin</placeName>, <placeName>Missouri</placeName>, after—it was right before my father died. He moved us to <placeName>Joplin</placeName>, <placeName>Missouri</placeName> which was a town of about 40,000 in southwest <placeName>Missouri</placeName>.</u>
+      <u who="CUMMINGS">And were you living in a suburb or a—</u>
+      <u who="RAMSEY-JEVNE">Oh, we were living in a small, kind of typical <date>1960s</date> neighborhood, where everybody had—it seemed like, had four kids. Kind of a lower- —lower-middle-class neighborhood of tract housing, [cross-talk; unintelligible].</u>
+      <u who="CUMMINGS">And—</u>
+      <u who="RAMSEY-JEVNE">Go ahead.</u>
+      <u who="CUMMINGS">I was just going to ask: Did you enjoy growing up there? Did you like sort of your neighborhood and the area you lived in?</u>
+      <u who="RAMSEY-JEVNE">Yeah. We had a great neighborhood and really good schools. And it was a saving grace. My mom had mental illness, so it was a—inside the house was—was rough. But outside the house, it was great, so thank goodness.</u>
+      <u who="CUMMINGS">Okay. And so can you talk a little bit more about what it was like inside the house?</u>
+      <u who="RAMSEY-JEVNE">Oh, that’s a whole ’nother story So my mom was undiag- —it’s a big story—so my dad died, and my mother had been suffering from mental illness, although I was too little to know it, and then after he died, there were no other adults around. There were no relatives. We didn’t—we didn’t know anybody in the town. So her—her mental illness got worse and worse and worse as we grew up. And we didn’t know she had it.</u>
+      <u who="CUMMINGS">Yeah.</u>
+      <u who="RAMSEY-JEVNE">But we—my mom got help. She always had to take medication, but she’s one of the people who, with medication, lived a happy and productive life, and we all reconciled, so—it was pretty miraculous. But, like I said, we could talk for hours about that.</u>
+      <u who="CUMMINGS">[Chuckles]. So what—</u>
+      <u who="RAMSEY-JEVNE">What is interesting is my mother was a <name type="event">World War II Marine</name> [in <orgName>the U.S. Marine Corps</orgName>]. She was a woman <orgName>Marine</orgName> in <name type="event">World War II</name>. And so was my father.</u>
+      <u who="CUMMINGS">Oh, wow. Oh, okay. That’s interesting.</u>
+      <u who="RAMSEY-JEVNE">And that’s [cross-talk; unintelligible]. And, as you know, my husband was a <orgName>Marine</orgName>, too, so—</u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>. </u>
+      <u who="RAMSEY-JEVNE">And that plays—</u>
+      <u who="CUMMINGS">And so what—</u>
+      <u who="RAMSEY-JEVNE">Go ahead.</u>
+      <u who="CUMMINGS">I was just going to ask: What kind of mental illness did your mother have?</u>
+      <u who="RAMSEY-JEVNE">She was diagnosed with schizophrenic [sic].</u>
+      <u who="CUMMINGS">Okay.</u>
+      <u who="RAMSEY-JEVNE">You know. And she had auditory and visual hallucinations when I was growing up. I mean, you know, she—she really had a—you know, left untreated, it’s a pretty wicked thing to go through. And so it was a very confusing childhood. [Chuckles.]</u>
+      <u who="CUMMINGS">Right. And did you have any brothers or sisters growing up?</u>
+      <u who="RAMSEY-JEVNE">I did. I was the youngest, and I had two twin sisters and an older brother. And he just missed going to <placeName>Vietnam</placeName>. </u>
+      <u who="CUMMINGS">Oh okay.</u>
+      <u who="RAMSEY-JEVNE">He went into the [<placeName>U.S.</placeName>] <orgName>Air Force</orgName>, but the war ended before he ever served overseas.</u>
+      <u who="CUMMINGS">Okay. And did you have a good relationship with your siblings? Were you guys close?</u>
+      <u who="RAMSEY-JEVNE">Oh, fairly close, yep, as close as you can be in that kind of a setting. It’s a pretty—it’s a pretty hard setting. It’s, like—it wasn’t like—we’re very close now. Let me put it that way.</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="RAMSEY-JEVNE">Yeah, we had a very good high school. We had, it was <orgName>Parkwood High School</orgName>. They had all the arts and music and sports and extracurricular activities, and they had honors programs and all that kind of stuff, so I was in the—played trombone in the marching band and the concert band and my jazz band. I had a pretty good education. It was one of the—it was the era of lots of funding for public schools.</u>
+      <u who="CUMMINGS">Okay. So during high school, were you focused—it sounds like you were involved in a lot of music type activities.</u>
+      <u who="RAMSEY-JEVNE">Yeah. Yeah.</u>
+      <u who="CUMMINGS">Was that your main activity throughout school?</u>
+      <u who="RAMSEY-JEVNE">Yeah, music and—and just getting—you know, music and work. [Chuckles.] That’s what I had time to do. Oh, no, that’s not quite true. Some guys started a bicycling club, like a long-distance bicycling club, and hiking and caving, and so when I could, I joined that, so I did some long-distance bike rides and stuff.</u>
+      <u who="CUMMINGS">Okay, very cool. Were you focused on your academics? Like going through high school, did you know you wanted to go to college?</u>
+      <u who="RAMSEY-JEVNE">No. Because of the financial situation of our family, and my mom’s illness—my mom actually, you know, didn’t—didn’t—you know, she didn't think we could go to school at all, go to college at all. And my older brother joined the military. That’s what my mom basically said, is that “the only way you guys are gonna be able to get ahead is if you join the military, and then maybe you can, you know, get a G.I. Bill [Servicemen’s Readjustment Act of <date>1944</date>] and go to college.”</u>
+      <u who="CUMMINGS">Okay.  And how did your sib- —</u>
+      <u who="RAMSEY-JEVNE">Go ahead.</u>
+      <u who="CUMMINGS">How did your siblings and your mom react to you going to college, or wanting to go to college?</u>
+      <u who="RAMSEY-JEVNE">Well, my mom was just—you know, I don’t know if you’ve ever known anyone suffering from mental illness. <date>A lot of days</date>, they’re just not there. </u>
+      <u who="CUMMINGS">Oh, that’s great. Okay. </u>
+      <u who="RAMSEY-JEVNE">Thank you, <persName>Jimmy Carter</persName>.</u>
+      <u who="CUMMINGS">[Chuckles.]</u>
+      <u who="RAMSEY-JEVNE">Yes, there’s one thing that relates very closely to the project we’re talking about. When I was <date>10 years old</date>, which was 1968—even though I was young, <name type="event">the Vietnam War</name> was on the TV every night, as was all the—you know, the civil rights and the riots. And they really triggered my mom. They reminded her so much of <name type="event">World War II</name> and the [Great] Depressions, and so I was very aware, because it upset my mom so much, and if Mom was upset, that meant the house wasn’t safe. So I was really always watching.</u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>.</u>
+      <u who="RAMSEY-JEVNE">And so that memory came back after—right when my husband <persName>Bill</persName> and I were dating, and I just one day realized, Oh, my goodness! —when I found out he was a <placeName>Vietnam</placeName> vet. I was, like, Holy moly! Whaddya know. [Laughs.]</u>
+      <u who="CUMMINGS">Yeah.</u>
+      <u who="RAMSEY-JEVNE">Who would have thought <date>20 years later</date>—because we got married in <date>1988—20 years later</date> I was still—you know, there I was, welcoming that soldier home, and he was—he was still just as upset as, you know, when he landed in <date>1968</date>, which kind of [unintelligible] to my point.</u>
+      <u who="CUMMINGS">Yeah. Just staying on that for a second, though—so you were pretty young when <name type="event">the Vietnam War</name> was at its peak. Other than that memory, do you remember how it felt being in <placeName>America</placeName> during the whole time?</u>
+      <u who="RAMSEY-JEVNE">Yes, I do, because my brother was <date>six years</date> older than me, so he was <date>16</date>, and he was—you know, the whole—it really was impacting our family because of the draft getting reinstated and knowing—I remember when he went down and registered for the draft and worrying—the older brothers—we lived in this neighborhood of all these kids. You know, we were all, you know, boomers. And so all the kids would gather and talk, and anybody with a brother of the age that the draft was going to impact him. Everybody—you know, huddled in whispers. It wasn’t, like, openly talked about.</u>
+      <u who="CUMMINGS">Right.</u>
+      <u who="RAMSEY-JEVNE">She was [unintelligible]. So it was just—you know, put all that together for a 10-year-old—8-, 9-, 10-, 11-, 12-year-old. It was a very frightening time—you know, the riots and the war protests and the music. You know, so one of the older kids in the neighborhood would start playing music, and the parents would yell about the music. [Chuckles.] It was awful.</u>
+      <u who="CUMMINGS">So would you say that you had an opinion at that time? I know you were <date>only 10 years old</date>, but—</u>
+      <u who="RAMSEY-JEVNE">No. I think what it was was I was—I was watching everything and I was confused. But what I had was a really heavy heart at that time. I—I felt—I can still remember how sad I felt that soldiers would come home—I felt sad for a lot of things. So I didn’t have an opinion. It—it—it—you know, like any kid, it depended on who I was talking to at the time. I think over all, though, by the time I got to be about 12, I was sure that the war was wrong. Of course, the whole deal—you know, atmosphere in <placeName>the United States</placeName>—it was a lot of easier to believe that it was wrong.</u>
+      <u who="CUMMINGS">So, then, I guess the war at least in—where you were growing up seemed pretty all-encompassing—like, kids talking about it, adults talking about it.</u>
+      <u who="RAMSEY-JEVNE">Yep. Teachers talking about it, people getting—and, you know, it was, like, all the ripple effects of the war—like the—I mean, it’s so hard to believe this now, but just the length of hair was such a huge issue, and girls getting to wear pants. I mean, it was all tied up with—civil rights, women’s liberation and the war were all—all kind of hit us together there in conservative <persName>Joplin</persName>. And I don’t know if you’ve ever been to <placeName>Joplin</placeName>, but it was a very conservative town, segregated—not—not legally but practically. And it was more churches than bars to quote [author] <persName>Edward</persName> [P.] <persName>Abbey</persName> and very fundamentalist religious. So it was—I didn't mention that I went to church during the war, too, and it was—boy, you know, the preachers were preaching about it, and they were on the side of God and country and government.</u>
+      <u who="CUMMINGS">Right.</u>
+      <u who="RAMSEY-JEVNE">So there was a huge disruption of—of—of the culture. And no- —you know, people—nobody really coming down on—you know, it was a disruption of the power structure, and it was the beginning of not—you know, of realizing that the adults didn't know everything and that the government wasn’t telling us the truth, that kind of a thing. You know, the “Question everything.”</u>
+      <u who="CUMMINGS">Right.</u>
+      <u who="RAMSEY-JEVNE">The war—we were withdrawing. The war was ending and—or was over, actually. But then [<name type="event">the] Watergate</name> [scandal] hit—</u>
+      <u who="CUMMINGS">Right.</u>
+      <u who="RAMSEY-JEVNE">—when I was in high school, so it just continued on. And also all the environmental—you know, <persName>Rachel [Carson</persName>, author of Silent Spring]—DDT [<persName>dichlorodiphenyltrichloroethane</persName>] and—and, you know, all the environmental wars, and that all started. So the whole theme of it’s not just blind obedience to, you know, the government and God and everything, that just continued that whole theme.</u>
+      <u who="CUMMINGS">So looking back, do you see it as sort of a time of conflict, both foreign and domestic? You know, your memories of your childhood and also of high school sound dramatic, almost.</u>
+      <u who="RAMSEY-JEVNE">It was—you know, in between the usual high school stuff. I was “Does that boy like me?”, and, you know, “Who did you get a date to prom?” You know, it was—it was all mixed in there. Yes. [Laughs.] But it was definitely—we didn’t get much of a break. You know, I was in about—well, <name type="event">the Vietnam War</name> was, you know, late elementary school into middle school, and then it was all—all—all together with civil rights. And when I went into middle school, it was the first time, just because of district boundaries, that I ever was in school with a black person.</u>
+      <u who="CUMMINGS">Wow. </u>
+      <u who="RAMSEY-JEVNE">Yeah, so it was a very confusing time. [Laughs.]</u>
+      <u who="CUMMINGS">Yeah.</u>
+      <u who="RAMSEY-JEVNE">It was a real—lot of mixture of truth—and what was truth and what wasn’t truth, who was telling the truth and who wasn’t.</u>
+      <u who="CUMMINGS">Right.</u>
+      <u who="RAMSEY-JEVNE">Yeah.</u>
+      <u who="CUMMINGS">And you also mentioned that it was sort of a topic that was discussed openly after—after the fact. How did that affect your own life, and how did that affect your opinion of, you know, your school or your friends?</u>
+      <u who="RAMSEY-JEVNE">Well, it was still—it was interesting because it was a big, radical act to—to have an interracial date in that era. And, I mean, you know, to the point of it was dangerous, still. Like, if you were seen—in a, black with white, white with black, it was—it was just—it’s sort of like gay rights are—were—are now except we’ve kind of gotten over the hump. But it was— </u>
+      <u who="CUMMINGS">Yeah.</u>
+      <u who="RAMSEY-JEVNE">That was true. And oh my gosh! You know, did—did they—I mean, we had big discussions about slavery, and were slaves better off being slaves? Oh, yuck! We were close enough to the <placeName>South</placeName>—<placeName>Missouri</placeName> was a border state—that there were plenty of rather rabid whites still in our—our town. So we didn’t have any lynchings, but it wasn’t that far removed from it.</u>
+      <u who="CUMMINGS">Right, right.</u>
+      <u who="RAMSEY-JEVNE">And it was—boy, you know, people—adults would come and if they saw you talking to a black boy, they would take you aside and say, “I want you”—you know, “I know you’re being nice, but I want you to think about your reputation and your future. Do you realize what you’re doing.” [<orgName>Unintelligable</orgName>.]</u>
+      <u who="CUMMINGS">Wow. Okay. Right.</u>
+      <u who="RAMSEY-JEVNE">No, it was just a town I wanted to get out of. [Laughs.] I just wanted to leave.</u>
+      <u who="CUMMINGS">So you go to college, and where was your college?</u>
+      <u who="RAMSEY-JEVNE">It was—it was a local—the closest state university. It was up in <placeName>Springfield</placeName>, <placeName>Missouri</placeName>, which was about two and a half hours further north—“north” being an operative word here. [Chuckles.] It was out of the south.</u>
+      <u who="CUMMINGS">Right.</u>
+      <u who="RAMSEY-JEVNE">Well, the biggest thing was—I mean, my personal life. My mom—right before I went off to college, we got my mom some help, which in <date>those days</date> was a mental institution, which wasn’t the greatest, but it was all that there was. So for the first time in my life, I wasn’t responsible for taking care of my mother. </u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="RAMSEY-JEVNE">Or they weren’t there.</u>
+      <u who="CUMMINGS">And so throughout college, did you see your mom at all?</u>
+      <u who="RAMSEY-JEVNE">Oh, yeah, yeah. I visited her in the mental institution. I always stayed in very close contact with my mom.</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="RAMSEY-JEVNE">Science, mainly. I went in to the—science and social studies.</u>
+      <u who="CUMMINGS">Okay, sort of focused on the environment?</u>
+      <u who="RAMSEY-JEVNE">Yeah. At first, I took everything. I took some dance classes, took some art, music, everything, and then realized that I felt most comfortable in the environmental studies.</u>
+      <u who="CUMMINGS">Okay. And what <date>year</date> did you graduate college?</u>
+      <u who="RAMSEY-JEVNE"><date>Nineteen eighty</date>.</u>
+      <u who="CUMMINGS">Okay. So you’re in college in the sort of <date>mid to late ’80s</date> [sic]. Did you know what you wanted to do?</u>
+      <u who="RAMSEY-JEVNE">No. [Laughs.] Just something to help—something to help, just like I wanted to help the <placeName>Vietnam</placeName> soldiers when I was 10. I wanted to help the envir- —you know, I always wanted to help and serve. I was trying to figure out some way to—and I wanted to be—I wanted to be in a beautiful place with mountains. I wanted to be outdoors. I wanted to be in the wilderness. That’s what I wanted.</u>
+      <u who="CUMMINGS">Okay. And did you either sort of consult with your siblings or your mom about, you know, leaving home or going further away?</u>
+      <u who="RAMSEY-JEVNE">No. No, the thing—the legacy of living with a mother with mental illnesses is there is no one to consult with that makes any sense. And I don’t know exactly why. The age of our siblings, being youngest, having twin sisters. You know, I was always—I didn’t ever talk to anybody, including a guidance counselor. Not one. I just figured my—you know, from a young age, I had to figure my life out, and I just kept that pattern going, which does tie into the—you know, when I did meet <persName>Bill</persName>.</u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>.</u>
+      <u who="RAMSEY-JEVNE">So I just was—I was very much a soloist. I would just—because I wasn’t used to having anybody I could consult.</u>
+      <u who="CUMMINGS">Right. So you—I mean, you gained your independence pretty early, just because of your home situation.</u>
+      <u who="RAMSEY-JEVNE">Yep, and then society seemed to kind of go right along with it.</u>
+      <u who="CUMMINGS">Right. </u>
+      <u who="RAMSEY-JEVNE">You know, I didn’t really know. And what happened was a professor that I had started working with tossed an application—I had a work-study job—tossed an application on my desk, and it was for this organization called <orgName>SCA</orgName>, <orgName>the Student Conservation Organization—Student Conservation Association</orgName>. And it was a job—internship, basically, working with environmental—state parks, national parks, research projects, all to do with the environment. And so I got the application, and I filled it out, and I got a couple of [unintelligible] from that application.</u>
+      <u who="CUMMINGS">Okay. So you—</u>
+      <u who="RAMSEY-JEVNE">And that’s how I got—Yup.</u>
+      <u who="CUMMINGS">Right. So you had this plan, sort of, after you graduated to go out there.</u>
+      <u who="RAMSEY-JEVNE">Yeah. I got a, they gave you a sti- —you know, it was an internship—a stipend and enough money for a ticket to get out there and a 12-week job. And I went.</u>
+      <u who="CUMMINGS">All right. And how was that when you—and where—actually, where were you based for that job?</u>
+      <u who="RAMSEY-JEVNE">Out of—in Olympic National Park. It’s in <placeName>Port Angeles</placeName>, <placeName>Washington</placeName>, out on <placeName>the Olympic Peninsula</placeName>, west of <placeName>Seattle</placeName>.</u>
+      <u who="CUMMINGS">Right. And did you like being out there?</u>
+      <u who="RAMSEY-JEVNE">Oh, yeah. It was heaven. It was backpacking and mountains and everything I wanted. It only lasted <date>12 weeks</date>, though. That was the problem. [Chuckles.]</u>
+      <u who="CUMMINGS">Right.</u>
+      <u who="RAMSEY-JEVNE">[Continues to chuckle.]</u>
+      <u who="CUMMINGS">But did that experience sort of influence what you wanted to do after that internship? Like, did you know that you wanted to continue doing similar work?</u>
+      <u who="RAMSEY-JEVNE">Oh, yeah. I had been—you know, once I was out there—again, this was before <orgName>LinkedIn</orgName> or the Internet or any of the ways we do things. It’s so different.</u>
+      <u who="CUMMINGS">Right. So then after your experience in <placeName>Washington</placeName>, what did you do?</u>
+      <u who="RAMSEY-JEVNE">I stayed out there. I stayed on <placeName>the Olympic Peninsula</placeName> right out with all that wilderness and all that backpacking, and I kept getting more jobs with the [<orgName>National] Park Service</orgName> (seasonal). And then I needed something to do for—I was a ranger. I was a <placeName>Park Service</placeName> ranger, and I loved it, and that was my identity.</u>
+      <u who="CUMMINGS">[Chuckles.] Right.</u>
+      <u who="RAMSEY-JEVNE">And then in the <date>summer</date> I was a ranger.</u>
+      <u who="CUMMINGS">All right. And how did you like teaching?</u>
+      <u who="RAMSEY-JEVNE">Oh, it was great. I never—you know, I was—I went to high school and college in <date>the ’70s</date>, and I was determined I would not do any traditional female jobs: teaching, nursing. So I didn’t study teaching at all. Well, it turns out I was a really good teacher. I was, like, born to be a teacher. But I fought it.</u>
+      <u who="CUMMINGS">[Laughs.]</u>
+      <u who="RAMSEY-JEVNE">That was a traditional female job, and I wasn’t going to do it! [Chuckles.] it turned out I’m really good at it. So I was teaching, and that is how I met <persName>Bill</persName>.</u>
+      <u who="CUMMINGS">Okay. And so you were—</u>
+      <u who="RAMSEY-JEVNE">Go ahead.</u>
+      <u who="CUMMINGS">Sorry. Where were you teaching when you met <persName>Bill</persName>?</u>
+      <u who="RAMSEY-JEVNE">I was teaching at <orgName>Head Start</orgName>, and this brings us back around to me finally—that 10-year-old finally welcoming that <placeName>Vietnam</placeName> soldier home. </u>
+      <u who="CUMMINGS">Okay. And can you tell me a little bit about your first impressions, if you remember them?</u>
+      <u who="RAMSEY-JEVNE">Oh, boy, do I? <persName>Bill</persName>, ok so, oh boy. You know, there was this—we were starting to hear the stories about the vets living in the woods, and how there’s a whole—the term <orgName>PTSD</orgName> [post-traumatic stress disorder] was not out quite yet, but then there would be stories about the <placeName>Vietnam</placeName> vet soldiers having trouble. And <placeName>the Olympic Peninsula</placeName> was a perfect place for the <placeName>Vietnam</placeName> vet soldiers who were having a lot of trouble to come here because there was so much wilderness area and they could live in a tent in the woods. And nobody would find them. And if they did, they’d leave them alone. It was a really rural community right on the edge of this deep wilderness.</u>
+      <u who="CUMMINGS">[Chuckles.]</u>
+      <u who="RAMSEY-JEVNE">And I didn't think that much of it, because I’d been a ranger. I’d been living—I lived in a tent <date>all summer</date> with no—you know. So I did not make the connection that, you know, he was having—you know, he was a struggling vet, for <date>quite a few months</date>. [Chuckles.]</u>
+      <u who="CUMMINGS">Right. So when you got to know him a little better, how did you finally piece it together?</u>
+      <u who="RAMSEY-JEVNE">Well, he told me. We worked together for quite <date>a few months</date>, and then—now it’s <date>1987</date>. You know, <date>the years</date> turned. So it’s <date>19 years</date> since <placeName>Vietnam</placeName>. And here’s where I just want to make the point where I was <date>29 years old</date>. I had—to my mind, <name type="event">the Vietnam War</name> had happened a lifetime ago. It had happened when I was—you know. I had no idea. You know, for one thing, you know, it was <date>19 years ago</date>, and when you’re <date>29</date>, <date>19 years ago</date> just seems like, you know, ancient history. So I was very slow to understand. But this was also <date>the year</date>—so in <date>January</date> Bill asked me for a date. </u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>, yeah.</u>
+      <u who="RAMSEY-JEVNE">Also the thing that happened is for the first time ever, there was starting to be support groups for <placeName>Vietnam</placeName> vets. So we had a support group like that started in our town, all of which I learned through <persName>Bill</persName>, because he was pretty open about—at work, he was pretty open about that he was going to—he was—had joined this support group, and the guys all went together to see Platoon. And there was a big debate: Would you go see Platoon? Can you handle things—you know, of people that I knew. </u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>.</u>
+      <u who="RAMSEY-JEVNE">So it’s our first date, and I’m—I’m back to being that 10-year-old, thinking, you know, If a soldier came home to me, I would welcome him.</u>
+      <u who="CUMMINGS">Right.</u>
+      <u who="RAMSEY-JEVNE">And so I’m really honored that he’ll share this with me and he feels safe enough to share it with me, but I also don’t know what to do. And he says, “I’m really sorry, but I need to call my counselor, and I need to go be with some men that’ll understand this.” And I say, “Sure. Fine.” And that’s how our first date ends, is I just drive myself home while he goes off to get some help.</u>
+      <u who="CUMMINGS">Okay. So that didn’t really deter you from—</u>
+      <u who="RAMSEY-JEVNE">[Chuckles.]</u>
+      <u who="CUMMINGS">You know, you weren’t scared away from it, kind of?</u>
+      <u who="RAMSEY-JEVNE">Well, you know, I look back in hindsight and I wonder if that woman and I think, Well, heck, after being raised by a schizophrenic mother, that was pretty small [unintelligible]. At least we both saw the boot.</u>
+      <u who="CUMMINGS">Uh-huh.</u>
+      <u who="RAMSEY-JEVNE">Her father had been at [<name type="event">the Battle of] Iwo Jima</name> in <name type="event">World War II</name>. And he had been—he had been—I think a bomb had exploded. His entire lower jaw was blown off, and his face was full of shrapnel. And so my best friend’s father—his whole face—the lower part was all twisted and torn and scarred, and he couldn’t—when he spoke, we couldn’t really understand him. And her mother was a nurse, and they had met before he got blown up, and they never talked about it. Nobody ever talked about it.</u>
+      <u who="CUMMINGS">Right.</u>
+      <u who="RAMSEY-JEVNE">So it almost felt like complements—an indication of the depths of your relationship that they could share these horrible things with you. So, no, it was kind of the opposite. Instead of scaring me away, it was more like, Okay! Well good, we’re gonna talk about these things! </u>
+      <u who="CUMMINGS">So it was kind of like a sign that you had some sort of connection?</u>
+      <u who="RAMSEY-JEVNE">Yeah, definitely. That would be the language we would use <date>today</date>. It was a sign of connection.</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="RAMSEY-JEVNE">And since I had plenty of my own spooky stories to tell [chuckles], of my childhood, it kind of felt like, “Well, great. If you trust me, maybe I can trust you.” </u>
+      <u who="CUMMINGS">Mhm.</u>
+      <u who="RAMSEY-JEVNE">But it got worse. [Chuckles.] It got worse. But, again, if you make that kind of commitment—</u>
+      <u who="CUMMINGS">[Chuckles.] Yeah. Well, I guess I would just say, you know, how—after that moment, things—so that was in ’87, and you guys got married in ’88, right?</u>
+      <u who="RAMSEY-JEVNE">Yeah. We got—but we got engaged. This was interesting. So after that date, <persName>Bill</persName> wasn’t really quick to ask me out on another date because he was kind of—he—he—he had a setback, and he kind of went back into all the struggles he was having. But he eventually did ask.</u>
+      <u who="CUMMINGS">Yeah. [Chuckles.]</u>
+      <u who="RAMSEY-JEVNE">And I had never heard of <orgName>Dartmouth</orgName>. (I have to put this in there.) So were decorating this thing, and I’m looking at him, going, Wow! This guy is, like, handsome! Whoa! Well, and we start talking, and I—I kind of say, “Now, where did you go to school?” And he goes, “Oh, I went to an Ivy League.” And I had to say, “What’s an Ivy League?” Because I just didn’t know.</u>
+      <u who="CUMMINGS">Right.</u>
+      <u who="RAMSEY-JEVNE">But at that point and for her era, the fact that <persName>Bill</persName> was in therapy meant something was wrong, and I had to tell her, “No, no, no. The fact that he’s in therapy means things are finally going right.”</u>
+      <u who="CUMMINGS">So would you say this—this sort of younger generation, like you and even <persName>Bill</persName>, were more open to people dealing with their problems the way that <persName>Bill</persName> did, or more understanding, I guess?</u>
+      <u who="RAMSEY-JEVNE">You know, I think <persName>Bill</persName> was the transition generation. And it’s kind of interesting. My mom had me late. Like, she was <date>35</date>, which was really late for <date>the ’50s</date>. <persName>Bill</persName>’s mom and my mom were the same age, but she had <persName>Bill</persName> when she was 20.</u>
+      <u who="CUMMINGS">Right.</u>
+      <u who="RAMSEY-JEVNE">But—but I—I don’t know. I guess I’d made a commitment, so I just did it. And I also, it got better.</u>
+      <u who="CUMMINGS">So—</u>
+      <u who="RAMSEY-JEVNE">Go ahead.</u>
+      <u who="CUMMINGS">Um,—</u>
+      <u who="RAMSEY-JEVNE">I guess I want to say, though, when that happened, there was—there was no support groups for the wives, or the girlfriends. And <persName>Bill</persName> was—it was—by that time, it was <date>20 years</date> since the war. I never felt like I was part of the military. I wasn’t a military wife, in my mind.</u>
+      <u who="CUMMINGS">So you—</u>
+      <u who="RAMSEY-JEVNE">That was a surprise.</u>
+      <u who="CUMMINGS">Right. You mentioned feeling isolated, and I assume that  that was something that you had to deal with going forward also?</u>
+      <u who="RAMSEY-JEVNE">Yes. Yep. And it got better, but it was—it was hard. And the irony is because <persName>Bill</persName> is such a—if you ever meet him, he’s—people fall in love with <persName>Bill</persName> immediately. They just—they immediately talk to him for five minutes, and they take me aside and say, “What a nice man!” [Both chuckle; unintelligible]. </u>
+      <u who="CUMMINGS">[Chuckles.]</u>
+      <u who="RAMSEY-JEVNE">And yet that was the, that was the— That was why I married him. And yet I was so irritated because it would be—I’d try to say to somebody, “Yeah, but you know it’s really hard”—and they’d say, “Oh, but <persName>Bill</persName>’s so nice. <persName>Bill</persName>’s so nice.” [Chuckles.] It was like, Okay, never mind.</u>
+      <u who="RAMSEY-JEVNE">Eventually two friends visited probably—gosh, I’d been married <date>about ten years</date>. I made some friends, and they were women who also married <placeName>Vietnam</placeName> vets, who were college educated. But it was way late in coming, and by then I was the expert, and I—I got to tell them, “Yeah, when he’s triggered, it’s rough, isn’t it?” So there’s now three of us that have kind of formed—I call it the <orgName>SOS</orgName> group. [Chuckles.] You know about the <orgName>SOS</orgName> for help?</u>
+      <u who="CUMMINGS">Yeah. [Chuckles.]</u>
+      <u who="RAMSEY-JEVNE">Spouses of Soldiers. [Chuckles.] And, you know, we finally can—there’s finally three of us that can all go, “wooh, nice guy, <orgName>but”—anyway</orgName>.</u>
+      <u who="CUMMINGS">[Chuckles.] </u>
+      <u who="RAMSEY-JEVNE">Uch!</u>
+      <u who="CUMMINGS">—and how you dealt with it personally?</u>
+      <u who="RAMSEY-JEVNE">Yep. He got triggered by <date>Veterans Day</date>. He got triggered by, you know, an airplane going overhead. He got triggered by sometimes just the raising of an American flag. He got triggered by Fourth of <date>July</date> parades. He got really triggered after <date>9/11</date> [<date>the 9/11 2001</date>, attacks], when we invaded—I mean, at that point it was, like—he honestly sat me down and said, “We might have to move to <placeName>Canada</placeName>. I can’t go through this again.”</u>
+      <u who="CUMMINGS">Yeah.</u>
+      <u who="RAMSEY-JEVNE">And he—the things—the huge thing that impacted our lives was he—he was exposed to Agent Orange, and when our son was two, he started having trouble with his prostate, and when our son was six, he had to have—he had full-blown prostate cancer. And if you remember, my dad died when I was five of cancer. So he had his prostate removed and, you know, radiation and the whole works. </u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>. </u>
+      <u who="RAMSEY-JEVNE">But I—</u>
+      <u who="CUMMINGS">I was going to—</u>
+      <u who="RAMSEY-JEVNE">Go ahead.</u>
+      <u who="CUMMINGS">I was just going to—I was just going to say: I can imagine it would be frustrating, especially not having people to talk about it with.</u>
+      <u who="RAMSEY-JEVNE">Yeah. And that’s when I started writing, and so—but the poems I sent you. I would often—I started finding that if I could just go write things down, then I felt a lot better. And it’s kind of funny because the poems all are so—pretty much darn negative, and I—I—I’ve shared them some in public, and I say, “You know, I only write when I’m upset, so it’s gonna be a very slanted view.” [Laughs.]</u>
+      <u who="CUMMINGS">Would you say that, you know, before you had your—the <orgName>SOS</orgName> group, as you called it, or before you had sort of a bigger group of people who you could talk with—was writing the way that you worked through the feelings that you were working with?</u>
+      <u who="RAMSEY-JEVNE">Yes. And also it’s really important to put in here that at the same time <persName>Bill</persName> was having all his <placeName>Vietnam</placeName> stuff, I—right—the year we got engaged, my mother moved out and lived in, like, 20 miles from us, 15 miles from us. She had managed to support herself to retire after she got out of the mental institution. And she was taking—she had to take early retirement, and she needed a place to live. So at the same time <persName>Bill</persName> was going through all his <orgName>PTSD</orgName> over <placeName>Vietnam</placeName>, I taking all my trauma from my childhood. </u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>.</u>
+      <u who="RAMSEY-JEVNE">And we did have fun—we weren’t always traumatized.</u>
+      <u who="CUMMINGS">[Chuckles.]</u>
+      <u who="RAMSEY-JEVNE">And also he was very kind to my mother. He—you know, he hadn’t had to lived with her for <date>17 years</date>, when she was hallucinating, so he could be really nice to my mom.</u>
+      <u who="CUMMINGS">Right, so you were able to sort of support each other.</u>
+      <u who="RAMSEY-JEVNE">We did. And we also were both very committed. We both have this real commitment. Neither one of us can stand having things buried and unspoken. So that was something that was very important to both of us, is that “Let’s clarify this. Let’s get this cleared up.” And also, “Here, I need to talk about this. I need someone to listen to me.” And also I eventually did go to therapy.</u>
+      <u who="CUMMINGS">So can you tell me a little bit about that therapy? And I assume it was more for your childhood than for—</u>
+      <u who="RAMSEY-JEVNE">It was for everything, but I eventually—I was <date>45</date>, so we had been married <date>15 years</date>, and—it’s funny. You know, <persName>Bill</persName> was <date>44</date> when he started his therapy group, when he cracked and couldn’t hold it anymore. And I was <date>45</date> when I started mine. So our generational dif- —made a dif- —was interesting, too, because when you’re 30 and <date>29</date> and <date>30</date>, you’re—you’re not worn out yet. You can still kind of—you think you can still just, Oh, everything’s fine. I’ll get over it. And then <date>the 40s</date> hit. So when I got my therapist, she said, “How old are you?” And I said, “<date>Forty-five</date>.” She goes, “Well, welcome. You’re right on time. This is about when everybody cracks.”</u>
+      <u who="CUMMINGS">Yeah. So therapy, then—I mean, you seem to have a very positive view of it. How did it help you work through the problems more specifically?</u>
+      <u who="RAMSEY-JEVNE">Well, the thing about being triggered is that—and this is                  going to get really technical, because once I started therapy, I got so interested in how all this stuff worked that I did a lot of study of brain research, which was just really coming into its fore right then. And I really learned to understand how it all happened. So, you know, we were traumatized. It actually gets embedded into our neural networks, and then a trigger happens. Then you’re no longer the person—you know, you’re no longer 45; you’re 10 again, you know, in terms of your—your neural—neurology and your—your cells and everything. So what therapy—but the way to get past that—and unwired about the trigger—you know, is to get the trigger so that the bomb can no longer go off—is you have to develop what’s called witness consciousness. You have to be able to start stepping back and walk away from it. Like the author of your own story, you have to somehow get some distance and some perspective. And the more times you tell the story of a traumatic events—they’ve done a bunch of testing now—then you start—what starts getting wired into your—your—your neurons is not the original event; what gets wired in is the memory of telling it. </u>
+      <u who="CUMMINGS">So you’ve been just communicating the emotions or the actual event helps you to sort of work through it?</u>
+      <u who="RAMSEY-JEVNE">Yeah, it actually reprograms your body, your physiological responses, because if you can tell it and not have the adrenaline rush [unintelligible] minor—it’s like it dilutes it and dilutes it until finally <persName>Bill</persName> can do an interview with you, and I happened to come in the house towards the end of the interview. And the tears were rolling down his face, but he wasn’t a mess.</u>
+      <u who="CUMMINGS">Right.</u>
+      <u who="RAMSEY-JEVNE">You know, he was—he was able to talk about it. And so the same thing happened with me. And that—that will just happen with everybody. It’s how—it’s how people recover, and it’s why, when we don’t talk about it, when we don’t process it, it gets worse, and worse and worse and worse when we try to just slam the door and, you know, shove it away.</u>
+      <u who="CUMMINGS">Yes, definitely. Thank you.</u>
+      <u who="RAMSEY-JEVNE">Uh-huh.</u>
+      <u who="CUMMINGS">—in a general sense, because I know you want to do things with them later, but, you know, a theme that I’m sensing or a theme that I’ve sensed throughout it is this feeling of helplessness—as someone who lives with someone who has problems and,—you know, before therapy, you had to deal with them on your own.</u>
+      <u who="RAMSEY-JEVNE"><persName>Mm-hm</persName>.</u>
+      <u who="CUMMINGS">So I guess I’m just wondering: Do you feel that as time as progressed, as <orgName>PTSD</orgName> has become more common or more clearly understood—has, like, support groups for people in your position become more popular or more widely available?</u>
+      <u who="RAMSEY-JEVNE">I don’t think so. I’ll tell you a story that really brought this, and it relates to some of the—I’ve got two stories.</u>
+      <u who="CUMMINGS">Okay. </u>
+      <u who="RAMSEY-JEVNE">So, now, one poem about “you’re not part of the military”—do you remember that poem?</u>
+      <u who="CUMMINGS">Yes.</u>
+      <u who="RAMSEY-JEVNE">About a—yes. Okay. So I told you that <persName>Bill</persName> wouldn’t—couldn’t—couldn’t, and I understood why, couldn’t apply for disability.</u>
+      <u who="CUMMINGS">Wait, can I just—sorry, could you just talk about the poem generally so that—for people who haven’t read it?</u>
+      <u who="RAMSEY-JEVNE">Sure. Yeah. Well, I’m going to get to the poem. I’m giving you some background, okay? And it’ll lead to the poem.</u>
+      <u who="CUMMINGS">Okay. Okay, great.</u>
+      <u who="RAMSEY-JEVNE">So the poem is called “You’re Not Part of the Military,” and this story explains why that—you know, [unintelligible]. So after quite a few years of remission, <persName>Bill</persName>’s cancer came back, and then he had more treatment and more remission, and his friends once again said, “You should apply for disability,” and he still couldn’t because he [unintelligible] <date>21 years</date> now.</u>
+      <u who="CUMMINGS">Wow.</u>
+      <u who="RAMSEY-JEVNE">Yeah. I’m just, like, Wow! I have been serving. I’ve been serving hugely for <date>the last 20 years</date>, and <orgName>I’m</orgName> finally getting recognized. And I get, you know, it’s like Oh wow! And, you know, I never knew this, but I start going—my mom and dad were Marines, and my mom was definitely upset by it. I’d been serving the military my whole life. So it was a big, huge thing. I started feeling maybe it was a group that I belonged to.</u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>.</u>
+      <u who="RAMSEY-JEVNE">There was a park ranger giving this spiel. I couldn't even stand over by the wall. <persName>Bill</persName> was there with his other friend that had served, another <orgName>Dartmouth</orgName> graduate. And they were looking up all the guys that had died. And I just went and sat on a park bench, and I was next to a park ranger, and he was giving a talk. And he gave a really good talk. He was a young man. And he did mention the nurses and they finally have a monument, that they’d never had a monument—that had served. </u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>. </u>
+      <u who="RAMSEY-JEVNE">And I told this young man that, and he said, “You know, there’s a group that does these monuments, and they would probably be interested.” But I haven’t—this talking to you is the first time I’ve actually—what I would call gone public. And then [weeps; unintelligible].</u>
+      <u who="CUMMINGS">So just in researching things about <orgName>PTSD</orgName>, it is, I can imagine from your standpoint, frustrating to see that doctors and therapists and support groups get such sort of applause and praise for doing the work that they do, and, you know, families aren’t—aren’t really brought up at all.</u>
+      <u who="RAMSEY-JEVNE">No, we’re just not recognized. And of course, we should just—in disclosure—of course, I think this is hard for anyone, but for me it’s a double whammy because believe me, the families of the mentally ill don’t get much credit either.</u>
+      <u who="CUMMINGS">Right.</u>
+      <u who="RAMSEY-JEVNE">Can you see what I’m talking about?</u>
+      <u who="CUMMINGS">Yeah, definitely.</u>
+      <u who="RAMSEY-JEVNE">There would be a [unintelligible] everything would have a name. And I thought, If we ever started doing that, if we ever had a parade for everybody that’s been impacted, or we had monuments instead of, you know, just the soldiers, maybe then we could have a more—you know, maybe this would be an important [unintelligible ] look at the impact.</u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>.</u>
+      <u who="RAMSEY-JEVNE">The names that are not on that wall are the villagers who got killed, the little kids who got killed by that bomb.</u>
+      <u who="CUMMINGS">Right.</u>
+      <u who="RAMSEY-JEVNE">If we ever put all the names, we couldn’t make a wall big enough.</u>
+      <u who="CUMMINGS"><persName>Mm-hm</persName>.</u>
+      <u who="RAMSEY-JEVNE">So I really appreciate you doing this interview. I—I read also if it doesn’t fit—you know, we may delete the interview, and I thought, Well, won’t it be interesting, you know? [Chuckles.] Won’t it be interesting if whoever decides what actually fits this <orgName>Dartmouth</orgName> impact, it’s left in or taken out? [Chuckles.]</u>
+      <u who="CUMMINGS">Yeah. Well, it’s—</u>
+      <u who="RAMSEY-JEVNE">Go ahead.</u>
+      <u who="CUMMINGS">It’s certainly an important perspective and one that we don’t have in the project. You know, the project is pretty new. So we’re looking for perspectives from all different sorts of people. We have to keep it confined to sort of the <placeName>Dartmouth</placeName> area, just because it makes it easier to track people down.</u>
+      <u who="RAMSEY-JEVNE">Right.</u>
+      <u who="CUMMINGS">But definitely looking for more—more perspectives. You know, we don’t have any wives. And, like you’ve mentioned in this interview so many times, it is such an important part of the war and how the war is remembered.</u>
+      <u who="RAMSEY-JEVNE">Yeah. Yeah. And I don’t know what would have happened with <persName>Bill</persName>, but the wife’s support, the spousal support, I want to say, because so many women are serving now—the spousal support and the family’s support is so important. You know, there might not be a <persName>Bill</persName> to interview if he hadn’t had such a supportive family. And it started with his own, you know, family of origin. You know, we’re his family. His family of origin is mostly gone, so—it’s not to say he would have, you know—but it made a big difference.</u>
+      <u who="CUMMINGS">Right, right.</u>
+      <u who="RAMSEY-JEVNE">Because it gave him a focus other than—you know, when we met, he kind of—he was coming out of—well, here’s something that he might not have told you: So we dated a few times, and then it was spring break, and I wasn’t sure where this was going. You know, ooh well, you know? Okay. And then he had been off all day long on break [unintelligible], which showed that he was really depressed and suicidal. And he said during that time, he suddenly started realizing that he wanted to live, <persName>Bill</persName> was saying that he really wanted to live again, and he—and he wanted to get back to where there was more to life than this—and his thoughts turned to me, and he came over. He dropped that guy off that was at his house, and he came over to my house.</u>
+      <u who="CUMMINGS">And then—</u>
+      <u who="RAMSEY-JEVNE">Go ahead.</u>
+      <u who="CUMMINGS">Going forward, how do you see it progressing to a point where families or spouses are recognized better than they are now?</u>
+      <u who="RAMSEY-JEVNE">Yeah. I’m not sure. I am not sure. I think this interview is one step. I think it’s hard for me, with my background of always figuring things out by myself (I’m not the best collaborator in the world), it’s hard for me to sometimes overcome that isolation and reach out. But I think conversation is how it starts, and continuing to have conversations. I don’t know. I’m open for ideas. I think there’s lot of ways it could happen. It would be very really important to happen. But I’m not sure. I think this is one step along the way.</u>
+      <u who="CUMMINGS">[Chuckles.] I mean, I guess, you know, you’ve talked about how even just speaking with people and telling your story has had a difference on you and how you’ve been able to deal with things. So encouraging people in your similar circ- —situation, I’m sure would be helpful, not only for them but for, you know, people outside of that bubble, you know. </u>
+      <u who="RAMSEY-JEVNE">Yeah. Where is the <orgName>Dartmouth</orgName> project going? I mean, is there going to be, like, a gathering or anything? I mean, part of it is figuring out where one does start telling one’s story.</u>
+      <u who="CUMMINGS">Yeah. So all of the interviews are online, or they will be online. They’re transcribed and then put online on the website.</u>
+      <u who="RAMSEY-JEVNE">Okay. </u>
+      <u who="CUMMINGS">But—sorry.</u>
+      <u who="RAMSEY-JEVNE">Is there going to be like, an event, an in-person event, or is this just an online, totally online project?</u>
+      <u who="CUMMINGS">It’s mostly online. It’s archived in our <orgName>Special Collections Library</orgName> at <orgName>Rauner</orgName>.</u>
+      <u who="RAMSEY-JEVNE"><persName>Mm-hm</persName>. </u>
+      <u who="CUMMINGS">But, again, the project is so early on that, you know, we’ll see where it goes.</u>
+      <u who="RAMSEY-JEVNE"><persName>Mm-hm</persName>. Yeah. Yeah.</u>
+      <u who="CUMMINGS">So in terms of—</u>
+      <u who="RAMSEY-JEVNE">Go ahead.</u>
+      <u who="CUMMINGS">Go ahead.</u>
+      <u who="RAMSEY-JEVNE">Oh, I just was saying in terms of—it’s—you know, it’s interesting to tell the story and find out where the real hotspots are, so this has been a really good first time because it’s, like, Oh, well, I discovered a few hotspots. [Chuckles.]</u>
+      <u who="CUMMINGS">Right. Yeah.</u>
+      <u who="RAMSEY-JEVNE">Yeah. Good to practice.</u>
+      <u who="CUMMINGS">So if you have anything—if you have anything else that you want to mention? I feel like we’re sort of at a stopping point, but I want to make sure that you have the space to tell whatever you want, so—</u>
+      <u who="RAMSEY-JEVNE">You know, I think I’ll briefly—I mentioned those two friends I found, and what’s interesting is we didn’t become friends because—in fact, <persName>Bill</persName> was the combat vet, and so they always—you know, <persName>Bill</persName> actually served. That’s the way it was phrased. <persName>Bill</persName> was the one who actually served. </u>
+      <u who="CUMMINGS">Yeah, I want to—thank you so much from me and from the project in general. Again, as I mentioned, just a perspective that we need, and we always are looking for different people to tell their stories, so it was really great speaking with you.</u>
+      <u who="RAMSEY-JEVNE">Yeah. Okay.</u>
+      <u who="CUMMINGS">I’m just going to stop the recording right now.</u>
+    </body>
+  </text>
+</TEI>

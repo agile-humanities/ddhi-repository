@@ -1,0 +1,260 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="JOHNSTON"/>
+        <person xml:id="PEARL"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="PEARL"><date>Today is January 18th, 2016</date>. My name is <persName>Josh Pearl</persName>. I’m interviewing <persName>David Johnston</persName> for the Dartmouth Vietnam Project. This is a phone interview. I’m located at <orgName>Rauner</orgName> [<orgName>Special Collections] Library</orgName> at <orgName>Dartmouth College</orgName>, and Mr. <persName>Johnston</persName> is located in <placeName>West Hartford</placeName>, <placeName>Connecticut</placeName>. Is that right, <persName>David</persName>?</u>
+      <u who="JOHNSTON">That’s correct.</u>
+      <u who="PEARL">All right. So can you start off with telling us when and where you were born?</u>
+      <u who="JOHNSTON"><date>February 22nd</date> (which used to be called <persName>George Washington’s</persName> Birthday),1944, in <placeName>Elgin</placeName>, <placeName>Illinois</placeName>.</u>
+      <u who="PEARL">All right, great. And can you tell us a bit about your childhood?</u>
+      <u who="JOHNSTON">You know, ’<date>50s</date> childhood: innocent, fun, naïve about the world, older siblings pushing me around, lots of friends, a lot of involvement in sports. I played just about everything and started competitive speed skating when I was <date>about five years old</date> and did that on and off for <date>ten years</date> and also played football and basketball and baseball and track, sort of the all-American upbringing. </u>
+      <u who="PEARL">Okay. And can you tell us about the neighborhood you grew up in?</u>
+      <u who="PEARL">Great. And what were your parents’ names, again?</u>
+      <u who="JOHNSTON">My father was <persName>John McAlister Johnston</persName>, and my mother was <persName>Blanche Hazel Berry</persName> (B-e-r-r-y) [<persName>Johnston</persName>]. And we actually have a book of the <persName>Berry</persName> family that a distant cousin compiled, tracing their history back to the people who came from <placeName>England</placeName> in <date>1798</date> and who had 10 or 11 children, and back in <date>those days</date>, you know, healthy women had lots of kids. And this book has all of the descendants, down through my children’s generation, and it’s 3,200 people who came from those original folks. So she was a <persName>Berry</persName>, and he was a <persName>Johnston</persName>. So, of course, she became <orgName>Blanche</orgName>—<persName>Blanche Johnston</persName>.</u>
+      <u who="PEARL">Can you tell me about your siblings?</u>
+      <u who="JOHNSTON">My oldest sister’s name was Joy. She was quite a bit older, by—let’s see, <date>19—by 19 years</date>, I guess. She was—I was <date>only five years old</date> when she was married, <date>four years old</date> when she was married in <date>1948</date>, and she had her first child <date>a year later</date>, and I became an uncle when I was five because I was the youngest. And she started a daycare program in her home in <placeName>Lake Forest</placeName>, <placeName>Illinois</placeName>, which is on the north shore of <placeName>Chicago</placeName>, a very affluent community, although my sister and her husband were not particularly affluent.</u>
+      <u who="PEARL">Yes.</u>
+      <u who="JOHNSTON">Through <orgName>the Tucker Foundation</orgName>, I got involved in some civil rights discussions, and actually the then-dean of <orgName>the Tucker Foundation</orgName> was instrumental at the time in my staying in school, because I thought about dropping out <date>that year</date>, and he talked me out of doing that.</u>
+      <u who="PEARL">Okay. We’ll also get to <orgName>the Tucker Foundation</orgName> and <persName>Newton</persName> [sic] later in the interview, but you mentioned how your—your mother was involved in the Civil Rights Act and those sort of political issues, and your family was involved in <orgName>City Council</orgName> and community involvement. Do you remember any other big-ticket issues or big issues in <placeName>Illinois</placeName> that your family was involved in?</u>
+      <u who="JOHNSTON">Well, they were very focused on political stuff happening I think both locally—you know, my father’s involvement on <orgName>the City Council</orgName> but also nationally. I know that they—I’m not sure they campaigned actively. I don’t remember at all. I was too young to pay any attention to anything like that. But my parents both voted for <persName>Adlai</persName> [<persName>E.] Stevenson [II</persName>] in <date>1952</date> and ’56, who ran both times against <persName>Dwight</persName> [D.] <persName>Eisenhower</persName> and of course lost. You know, was considered a pointy-headed intellectual. He was a very smart man. And they were very disappointed in that. </u>
+      <u who="PEARL">Of course. And can you tell me about school, going to school in <placeName>Illinois</placeName>?</u>
+      <u who="JOHNSTON">You know, we had great teachers, is my recollection. They taught people grammar, diagramming sentences—well, my brother also was an English person and actually taught at <orgName>Elgin High School</orgName>, so I sometimes had him looking over my shoulder. But we had outstanding teachers. Everybody walked to school. You know, in the wintertime there was never <date>a snow day</date>, because you just put your boots on your mittens and your hat with the big earflaps, and walked to school and didn’t worry much—much about it.</u>
+      <u who="PEARL">Yeah. And one last question about high school.</u>
+      <u who="JOHNSTON">Yup.</u>
+      <u who="PEARL">What were some of your favorite subjects to study?</u>
+      <u who="JOHNSTON">You know, that’s a good question because I was good at everything, and I liked—I mean, I liked history and politics and certainly studied some of that, although not, you know, with the same kind of fervor that I did and had to once I got to college. But I liked math. I was really good at chemistry and physics. I liked all of that. </u>
+      <u who="PEARL">Well, why were you attracted to the <orgName>Navy</orgName> and <orgName>the Naval Academy</orgName>?</u>
+      <u who="JOHNSTON">I’m sorry? Was that a question?</u>
+      <u who="PEARL">Yes. You said that your mom—</u>
+      <u who="JOHNSTON">Oh, why was I attracted to it?</u>
+      <u who="PEARL">Yeah.</u>
+      <u who="JOHNSTON">I don’t know. I think it just—you know, I mean, those were high-profile things, the military academies and, you know, the something, being out at sea and getting on a submarine or an aircraft carrier or flying a jet. And I think also the possibility that I could play football at the Naval Academy, because I had these delusions of grandeur about how good I was as a football player, which were delusions that were quickly squelched once I got to <orgName>Dartmouth</orgName>, but—so I think it was a combination of a superficial attraction and, you know, an interest perhaps in being, you know, an athlete there. But I don’t think it was anything more—more sophisticated or thoughtful than that.</u>
+      <u who="PEARL">Okay. And were there any other colleges or universities you were interested in?</u>
+      <u who="JOHNSTON">The only—the only other places I was applying to when I applied to <orgName>Dartmouth</orgName> were <placeName>Illinois</placeName> and <orgName>the University of Michigan</orgName>, which was and still is, you know, an excellent school but another big state university. But I got rejected at <placeName>Michigan</placeName> because my same high school counselor, the same guy who [chuckles] when I applied to <orgName>Dartmouth</orgName>—when I followed through after the football coach was there and said I was going to apply, he said, you know, “Why do you want to go to a school like that? Why don’t you stay here in the <placeName>Midwest</placeName>, where people have their feet on the ground?”</u>
+      <u who="PEARL">And how did you feel about going so far away from home, to <placeName>the East Coast</placeName>, for school?</u>
+      <u who="JOHNSTON">I was attracted to it. I was ready to get away. You know, I’d lived there all my life. I had actually wanted to go to a <date>summer</date> exchange program <date>the summer before</date>, in <placeName>Europe</placeName>, but I couldn’t go because I was—the summer between my junior and senior year of high school—because I was spending so much time training for football with—with a—we had a guy who was, like, a quarterback specialist, and I was going to be the quarterback of the football team, and I always regretted that I wasn’t able to do that because of sports.</u>
+      <u who="PEARL">Yeah.</u>
+      <u who="JOHNSTON">I was just there <date>last fall</date>, and I remember one of them—my old dorm had some—you know, some guy, probably some rich alumnus’s name. </u>
+      <u who="PEARL">I was asking about what you thought about going so far away for school—</u>
+      <u who="JOHNSTON">Okay. I—</u>
+      <u who="PEARL">—and actually all-boys, too.</u>
+      <u who="JOHNSTON">What’s that?</u>
+      <u who="PEARL">How did you feel about going to a school that was all boys, all male?</u>
+      <u who="JOHNSTON">I think—again, I didn’t think much about it. I mean, I did once I was there because it was so different from a big public high school, but I think at the time I just thought, Okay, it’s all guys. There must be girls around somewhere. And, you know, I discovered that there were, and there was a whole social life that was wrapped around the way <orgName>Dartmouth</orgName> boys met girls. Even though it was superficial and poorly structured and sexist and, you know, not very healthy, it existed. </u>
+      <u who="PEARL">Yeah.</u>
+      <u who="JOHNSTON">Even one of my close friends, my freshman roommate, who is now the junior senator from <placeName>Maine</placeName>, <placeName>Angus</placeName> [S.] King [Jr., Class of <date>1966</date>], who was also a quarterback and he and I quit <date>the same day</date>, but—he married a girl who graduated from <orgName>Hanover High School</orgName> and met her when she was in high school. So I think it wasn’t a big deal that it was all men.</u>
+      <u who="PEARL">Okay. </u>
+      <u who="JOHNSTON"><date>Freshman year</date> was a real eye-opener for me. I mean, first—quickly, I had to get over, you know, being a potential star football player. As I said, there were a lot of guys out for football, and <persName>Angus King</persName> and I, as I said, were roommates, and he was from <placeName>Virginia</placeName>, and he was also a high school quarterback. </u>
+      <u who="PEARL">Yep. And can you tell me about the social life on campus then?</u>
+      <u who="JOHNSTON">Huh! Social life. Oh, God! So <date>the beginning of freshman year</date>—you know, you’ve probably seen pictures—we were all racing around with our little—our funny-looking little beanies on. I can’t believe people used to do that, and that went on for, like, <date>a century</date>. And upperclassmen told us—</u>
+      <u who="PEARL">Homecoming?</u>
+      <u who="JOHNSTON">No. Well, I guess—yeah, they used to call it house parties, I think, but not Homecoming. Maybe it was Homecoming. I got pretty drunk, which for me was still a new experience, and after a couple of hours, I had this wicked headache, and I just remember thinking, This is not fun. It was sort of like with football. This is not fun at all. This is supposed to be fun. And I, you know, ended up not being much of a drinker, even with beer, the whole time I was there because it just was not something that went down well with me. </u>
+      <u who="PEARL">Social life on campus.</u>
+      <u who="JOHNSTON">Social life. So right at <date>the beginning of freshman year</date>, there was going to be a mixer. You know what a mixer is, right?</u>
+      <u who="PEARL">Yeah.</u>
+      <u who="JOHNSTON">You probably know what it is. It’s a quaint historical phenomenon [chuckles] when girls would come in from <orgName>Smith [College</orgName>] and <orgName>Mount Holyoke [College</orgName>] and <orgName>Skidmore [College</orgName>] on buses for a dance. And the upperclassmen said to the freshmen, “You guys need to form two lines over at”—it was the old gymnasium. That’s all there was in <date>those days</date>, the gym, where the dance was going to be, in the gym. “You need to form two lines on either side of the doors, and as the girls come in, you need to get one.”</u>
+      <u who="PEARL">Yes.</u>
+      <u who="JOHNSTON">So there used to be pay phones there. Have you ever seen a pay phone?</u>
+      <u who="PEARL">Yeah, they still have the booths there.</u>
+      <u who="JOHNSTON">Yeah, okay. You can probably go to a museum [chuckles] to see a—to see a pay phone. You don’t see them anymore, obviously. But they had pay phones there, and, you know, you’d get up your nerve to go in and call—try to call some girl at, you know, <persName>Smith</persName> or <placeName>Mount Holyoke</placeName> or some place like that, and I went out with girls from most of those schools. And we did, you know, so-called road trips. And I think there were even organized ones, where you went to those schools to try to meet—meet girls. </u>
+      <u who="PEARL">This is <persName>Josh Pearl</persName> with <orgName>the Dartmouth Vietnam Project</orgName>. <date>Today</date> is <date>January 18th, 2016</date>. This is my second part of the interview with <persName>David Johnson</persName> [sic; <persName>Johnston</persName>].</u>
+      <u who="JOHNSTON">Yes. There were a couple of different girls I dated my senior year, but they were all friends of friends and, you know, nothing particularly serous. I had had serious girlfriend, actually, but not from <orgName>Dartmouth</orgName>, whom I had met when I was home previous—<date>two summers</date> previous, I think, who was a student at <orgName>the University of Wisconsin</orgName>. And every time I went home for a vacation, I would go up to <persName>Madison</persName>. </u>
+      <u who="PEARL">No, that is the case now.</u>
+      <u who="JOHNSTON">It is the case.</u>
+      <u who="PEARL">Yes.</u>
+      <u who="JOHNSTON">Wow. Well, I’m glad to hear that. Somehow I thought it had changed. But I think you got enough to worry about your freshman year without—without that—without that issue.</u>
+      <u who="PEARL">Yep. And can you talk about <orgName>the Tucker Foundation</orgName> and the work you did there?</u>
+      <u who="JOHNSTON">You know, I don’t remember a whole lot of what I did on campus with <orgName>the Tucker Foundation</orgName>. I think they had events that I participated in. As I mentioned, after my sister was killed, the then dean, [<persName>Richard P.] “Dick” Unsworth</persName>, who— again, small world—after that became a colleague of my future father-in-law because he went to <orgName>Smith College</orgName>, and I saw him in <date>later years</date>, and he knew—he knew my wife-to-be when she was a girl. </u>
+      <u who="PEARL">I was wondering how you got involved with <orgName>the Tucker Foundation</orgName>,—</u>
+      <u who="JOHNSTON">Oh, it was <orgName>the Tucker Foundation</orgName>.</u>
+      <u who="PEARL">—the exchange program that you said you helped set up.</u>
+      <u who="JOHNSTON">Yeah. Well, I think,  you know, there was a growing concern about civil rights, and <persName>Tucker—</persName><persName>Tucker</persName> was involved in that. And I think—you know, I’m pretty sure it was through <persName>Tucker</persName> that I got involved in some things on campus that were <persName>Tucker</persName> events. I think some of the people who came to campus—you know, I don’t remember if it was—what the timing was in relation to my sister’s death, but I was at the last college speech—I think it was the last college speech that <persName>Malcolm X</persName> gave, in Spalding Auditorium.</u>
+      <u who="PEARL">Yep. And could you talk about your decision to maybe join the Freedom Riders or some of the other civil rights movements?</u>
+      <u who="JOHNSTON">Well, you know, the drumbeat, the fever, the fervor, whatever word you want to choose, was in the air about the civil rights movement, about what was happening in the <placeName>South</placeName>, about the protest movements, about the violence directed at marchers, [the Rev. Dr.] <persName>Martin Luther King</persName> [Jr.]—you know, this being <persName>Martin Luther King</persName> Birthday day—actually, I didn’t—I usually go to the celebration in <placeName>West Hartford</placeName>, which is a good one. I’ve gone for <date>several years</date>. I didn’t go this morning because I knew I had some other stuff to do this morning.</u>
+      <u who="PEARL">Yeah.</u>
+      <u who="JOHNSTON">And then off to the <placeName>Skiway</placeName>. And because I was a speed skater, I took to skiing really, really easily and quickly because it was very similar in terms of the weight shifting and all that sort of thing.</u>
+      <u who="PEARL">I don’t think so.</u>
+      <u who="JOHNSTON">You don’t think so. That was also—I mean, this shows you how things develop and how things get stereotyped. Was also a Jewish fraternity, and our two were <date>the last two</date>—<orgName>TEP</orgName> was the last one on <orgName>Dartmouth Row</orgName>, and then the Pi Lamb house was around the corner. You know, where <orgName>the Newman House</orgName> is down at the end of <orgName>Fraternity Row</orgName>, on the bluff overlooking the river?</u>
+      <u who="PEARL">[No audible response.]</u>
+      <u who="JOHNSTON">Well, right next door—</u>
+      <u who="PEARL">Yeah.</u>
+      <u who="JOHNSTON">—is a big gray apartment building, and that was the <orgName>Pi Lamb</orgName> house that sits on a beautiful site overlooking the river. And so those—there was this rumor on campus that the Pi Lamb and the <orgName>TEP</orgName> house had secret files, and I had, on more than one occasion, friends of mine who were in other fraternities who said could I get them access to the secret files in the Pi Lamb house, and I remember having to say to them, “Guys, the secret files are in the heads of these guys.” And I was doing pretty well by that time. You know, “This is just a myth. Just because there are just a lot of smart guys here, and they do well in school, and, you know, that’s just—that’s just the way it is.” </u>
+      <u who="PEARL">Yeah.</u>
+      <u who="JOHNSTON">You go out and hike around. You know, that was kind of—that was kind of orientation. You go out with five or six guys, and you hike around the woods with a backpack, and you sleep in those cabins, and a couple of times, you know, at some lake we’d take all our clothes off and jump in the water, and it was just great fun for 18-year-boys. And that was kind of orientation. </u>
+      <u who="PEARL">Let’s—I’d like to move into your involvement in the Air Force ROTC. Can you tell me a bit about that?</u>
+      <u who="JOHNSTON">I did that for exactly two terms, <date>winter</date> term and spring term. We had to go to meetings—you know, in addition to the skiing, which I think was once a week you got to go up to the <orgName>Dartmouth</orgName> <placeName>Skiway</placeName>. Does that still exist, the <placeName>Dartmouth</placeName> Skiway?</u>
+      <u who="PEARL">Yes.</u>
+      <u who="JOHNSTON">Or did they close that down? Oh, good. Okay, that was always, it wasn’t—</u>
+      <u who="PEARL">No, it still exists.</u>
+      <u who="JOHNSTON">Not a big skiway, but it’s a nice one. I always liked it because I went off and, you know, did a bunch of others, but…</u>
+      <u who="PEARL">There’s just an [<placeName>U.S.</placeName>] <orgName>Army</orgName> ROTC program.</u>
+      <u who="JOHNSTON"><orgName>Army</orgName> ROTC. Okay. Well, you know, and that’s fine. I mean, I have—again, I have nothing against that. I mean, I have—I’m against war and all that sort of thing, but at the time, it was—you know, it was viewed I think not too seriously by most students. I mean, in all fairness to it, though, I mean, one of the—one of the guys who was in charge of it, who was Class of ’64, <date>two years</date> ahead of me—he was lost flying an F-4 [McDonnell Douglas F-4 Phantom II] jet over <placeName>Vietnam</placeName>—you know, like <date>three years later</date>. I read about it. And he was the guy who was marching us around in the gym, and, you know, he obviously took it seriously, went into <orgName>the Air Force</orgName>, became a fighter pilot, and died. Disappeared. You know, his remains never—never found.</u>
+      <u who="PEARL">Yeah. Well, we’ll get to them. Did you ever consider joining <orgName>the Air Force</orgName> as an officer from the <orgName>ROTC</orgName> program?</u>
+      <u who="JOHNSTON">No. </u>
+      <u who="PEARL">When you first joined.</u>
+      <u who="JOHNSTON">I just dropped out of it after <date>two semesters</date>, and I’d already had my brush with <orgName>the Naval Academy</orgName>. And I think by that time, I was pretty much geared towards being, you know, an antiwar person, and so I never considered seriously doing that.</u>
+      <u who="PEARL">Okay. </u>
+      <u who="JOHNSTON">Sure. As it developed, I think, you know, my exposure to this particular course, which was—I don’t remember exactly what it was called, but it was <orgName>International Politics or Foreign Policy</orgName> or something like that. I’m pretty sure it was a professor named <persName>Kalman Silvert</persName>, who had either worked for <orgName>the State Department</orgName> [sic; <orgName>U.S. Department of State</orgName>] or had had some experience in <placeName>Washington</placeName>[, <placeName>D.C.</placeName>,] and was the one who, in our class, talked about the history of our involvement and actually took us back to the history of the French involvement.</u>
+      <u who="PEARL">Yep. And when were you building these corn silos?</u>
+      <u who="JOHNSTON"><date>Summer</date> after <date>freshman year</date>, after I’d played rugby for <date>the spring</date>. My father had—because he had political connections, had gotten me a job as a—as a toll road toll collector, and I took one look at that and said, Oh, man, there’s no way I’m gonna sit in a booth with all those fumes all day long. And I ended up getting a job with the company owned by the father of one of my high school classmates, who ran this construction company that built corn silos.</u>
+      <u who="PEARL">And you were talking earlier about directions after <orgName>Dartmouth</orgName>?</u>
+      <u who="JOHNSTON">Right.</u>
+      <u who="PEARL">Did you have any idea of what you wanted to do?</u>
+      <u who="JOHNSTON">You know, I changed majors three or four times, eventually settled on political science, or I guess they called it government then. And I didn’t really know what I wanted to do with that. I ended up taking the law boards, although I was just lukewarm about becoming a lawyer, and most of my friends were either headed to law school or medical school, some to business school—you know, into professions. </u>
+      <u who="PEARL">Yes.</u>
+      <u who="JOHNSTON">Well, she’s actually—my class supports <persName>Dickey</persName> [the John Sloane Dickey Center for International Understanding] interns to go abroad and do things. But we also have students from different classes that—we support 66 scholarships, and there’s a young woman named <persName>Zonia</persName> [pronounced <persName>ZAHN-yuh</persName>] [<persName>R.] Moore</persName> [Class of <date>2016</date>], who I think is—she’s a senior, and we do a dinner at Homecoming at the Norwich Inn on <date>Saturday</date> night, and I ended up sitting across from her and chatting with her about choices.</u>
+      <u who="PEARL">Of course.</u>
+      <u who="JOHNSTON">Sorry, go ahead.</u>
+      <u who="PEARL">Oh, no, I was just saying we could talk about that after.</u>
+      <u who="JOHNSTON">Yeah. So I made a choice that was based in part on interest and in part—well, it’s all based on interest, but part of it was self-interest in terms of avoiding the draft, and part of it was intellectual interest, that city planning looked like a pretty interesting thing to do.</u>
+      <u who="PEARL">Can you tell me about some of your involvement in the <name type="event">anti-Vietnam War</name> protests, the movement?</u>
+      <u who="JOHNSTON">Well, as I suggested, some of that certainly started on campus with—with meetings, with some rallies about the war, where the general sentiment on campus—my recollection is, is that it—it grew to be—I don’t know if it was a majority, but a lot of students who felt like I did, that there was something wrong with the war, and by <date>1966</date> a lot of us—there were certainly many others who didn't feel that way or who were headed towards the military or came from military families, who disagreed with that, but their voices were pretty quiet at the time.</u>
+      <u who="PEARL">Yeah.</u>
+      <u who="PEARL">—in wartime has been around for a very long time.</u>
+      <u who="PEARL">I was hoping you can go into how you got involved with <orgName>SDS</orgName> and eventually the <orgName>Dow Chemical</orgName> riot, how you ended up there <date>that day</date>.</u>
+      <u who="JOHNSTON">I think because of the attitudes I had coming out of <orgName>Dartmouth</orgName>, the education I had, the challenging of authority that was rampant in the country, and I was certainly a part of that. It was—it was just in the air. I mean, and culturally the <persName>Beatles</persName> and long hair and everything else.</u>
+      <u who="PEARL">Yeah. And can you describe <date>the day</date> to me, the riot, where you were and what you were doing? What was your role?</u>
+      <u who="JOHNSTON">Oh, I was just a participant, an observer. There’s a picture in that book that shows a whole lot of students outside I think it’s called—it was called Bascom Hall. And it was inside where this confrontation was going on, and everybody’s running around because the tear gas was just starting.</u>
+      <u who="PEARL">Yeah. And you speak about the book a lot and about the people, the movement that <persName>David Marius</persName> [sic] spoke about, the manufactured numbers, but how much of this stuff were you aware of at the time, itself?</u>
+      <u who="JOHNSTON">Not specifically. I mean, the issues of the—you know, of the <placeName>Vietnam</placeName> part of the book, of manufacturing numbers—I think a lot of people in the antiwar movement were suspicious of what—you know, of the PR [public relations] that was coming out of the government and the military about what was happening in <placeName>Vietnam</placeName> and whether and how much of it was—was accurate.</u>
+      <u who="PEARL">Yeah. Did you ever consider that there would be tear gas or riot either at <persName>Madison</persName> or elsewhere at the protests that you attended?</u>
+      <u who="JOHNSTON">I think we were aware that there was a certain risk involved, you know, when you get a volatile situation and the police had been at previous protest rallies but mainly just to keep the peace, and by and large, everything up to that point had been peaceful. </u>
+      <u who="PEARL"><persName>Mm-hm</persName>. </u>
+      <u who="JOHNSTON">Okay. So, <date>1967</date> in the <date>summer</date> I was a city planning student at <persName>Madison</persName>. I came home and worked for the city manager as a city planning intern. I was—I didn't realize this till <date>last summer</date>, but I was kind of the first person really called a city planner in <placeName>Elgin</placeName>, because they’d never had a city planner, so to speak, and planning decisions got done other ways.</u>
+      <u who="PEARL">Yeah.</u>
+      <u who="JOHNSTON">You know, <persName>Daniel Ellsberg</persName> and the <persName>Ellsberg</persName> [sic; <orgName>Pentagon</orgName>] Papers, and you probably studied some of that stuff. Are you involved in this project through a course?</u>
+      <u who="PEARL">Yeah. I’m going to actually stop the recording right now— </u>
+      <u who="JOHNSTON">Okay. </u>
+      <u who="PEARL">—because we’re coming up on four o’clock, and there may be others who have this room reserved. I’d like to thank you so much for your time, and I just stopped the—</u>
+      <u who="PEARL">This is <persName>Joshua Pearl</persName> interviewing <persName>David Johnston</persName>. <date>Today</date> is <date>January 23rd, 2016</date>. We’re conducting a phone interview for <orgName>the Dartmouth Vietnam Project</orgName>. This is part three. I am interviewing from <orgName>the Rauner Library</orgName> on <orgName>Dartmouth College</orgName> campus in <placeName>Hanover</placeName>, <placeName>New Hampshire</placeName>, and Mr. <persName>Johnston</persName> is in his home in <placeName>West Hartford</placeName>, <placeName>Connecticut</placeName>. Is that correct, <persName>David</persName>?</u>
+      <u who="JOHNSTON">That’s correct.</u>
+      <u who="PEARL">All right. So last time we spoke, we just finished talking <date>about the summer of 1967</date>, but if you don’t mind, I’d like to go back and talk about your time in <placeName>Wisconsin</placeName> a little bit more, about the <orgName>Dow Chemical</orgName> protest.</u>
+      <u who="JOHNSTON">Sure.</u>
+      <u who="PEARL">I was hoping—you spoke about the book by <persName>David Marianus</persName> [sic; <persName>Maraniss</persName>], The March Into the Sunlight [sic; They Marched Into Sunlight: War and Peace, 	<placeName>Vietnam</placeName> and <placeName>America</placeName>, <date>1967</date>].</u>
+      <u who="JOHNSTON">Right.</u>
+      <u who="PEARL">I was hoping you could tell me more about what you experienced and what you saw at the protest, itself.</u>
+      <u who="JOHNSTON">Well, I get to <persName>Madison</persName> in <date>the fall of 1966</date>. I had a nice <orgName>Sears Roebuck</orgName> fellowship to study urban planning, and that was all well and good. And actually I found it to be easier than being at <placeName>Dartmouth</placeName>, academically, which is always a nice reflection on—on our alma mater. Well, not yours yet.</u>
+      <u who="PEARL">Yeah.</u>
+      <u who="JOHNSTON">So I think that’s the basics of the <persName>Madison</persName> experience. That was certainly the most outstanding single incident that I—that I went through up there.</u>
+      <u who="PEARL">And after the protests and after you experienced the tear gas and witnessed the violence, how did this affect your determination to continue protesting? Did you ever doubt the protests or the movement?</u>
+      <u who="JOHNSTON">No, I really didn’t. You know, I also—there was this complicating factor, which I think a lot of young men my age didn’t think about at the time, but I think I have since discussed with friends of mine who were either in the military or managed to avoid getting drafted, that the size of the protests I think were larger than they might have been because there were so many middle-class young men who were threatened with the draft, and it was easy to be against the war because your personal situation was so directly threatened by it.</u>
+      <u who="PEARL">I don’t remember, either, but we can briefly go through it.</u>
+      <u who="JOHNSTON">Well, so the <date>summer</date> I was working there and ended up mediating between the black protest group, which was headed up by a high school friend of mine—actually had been a friend of mine who happened to be black, from probably kindergarten. We all went to school together and played sports together and were in each other’s homes a number of times. He led a group which was loosely connected I think with <orgName>the Black Panthers</orgName> in <placeName>Chicago</placeName>, which was the big black group at the time. </u>
+      <u who="PEARL">Okay. So let’s start talking <date>about 1968</date>, because you mentioned that you were involved in a lot of different, very big <persName>anti-Vietnam</persName> rallies and protests.</u>
+      <u who="JOHNSTON">Yeah. I’d have to look up the dates of the different marches, but I certainly—we had—going into <date>that year</date>, I was still around in the <placeName>Midwest</placeName> before I left for my first job in—in <placeName>California</placeName>. And there were some marches in my hometown about the war, and I participated in that. My minister at the Universalist [<orgName>Unitarian] Church</orgName> was the leading minister, actually one of the only few ministers who was willing to get out in front on issues like that, and he actually had an attempt on his life. A piece of our church was blown off by some crazy people from another town, who were in favor of the war, I think, and were eventually arrested. But fortunately for my minister, he was sick that night and he wasn’t in his usual place, writing his sermon.</u>
+      <u who="PEARL">Okay. And do you still have this anti-draft manual?</u>
+      <u who="JOHNSTON">No, I don’t, unfortunately. I suspect that I left it in my parents’ home in <placeName>Illinois</placeName> along with a whole lot of other stuff, and, you know, you kind of forgot about it. No, I’m sorry, I must have had that with me in <placeName>California</placeName>  because when I was reclassified for the draft, I must have been looking at that. Or maybe I remembered. I just don’t recall. I just know that a lot of things that I had kept in my parents’ home, after my father died <date>a few years later</date> and my mother ended up selling the house and moving—moving to another community to live with my sister—she just threw a lot of stuff out, including my <orgName>Dartmouth</orgName> jacket, much to my dismay. </u>
+      <u who="PEARL">[Chuckles.] Good to know.</u>
+      <u who="JOHNSTON">You know, I think I didn’t. I think somehow I thought because I was going to become a city planner and there was a shortage of city planners—I think I even wrote a letter to President <persName>Johnson</persName>, saying, “People with my education should be deferred” because of the jobs, because of the critical nature of the jobs we had, and I’m pretty sure that came out of that draft resistance manual.</u>
+      <u who="PEARL">Okay. And you mentioned that in the end it was your back that got you a medical deferment, but were you considering any other deferment options or plans?</u>
+      <u who="JOHNSTON">Yeah. Actually, I’m glad you asked that because I did explore going into—you know, one of the options for people who didn’t want to go was to get into <orgName>the National Guard</orgName>, and I remember doing some research on—on that and were there ways to do that, and I never—I never pursued it enough to—to do anything actual about it. </u>
+      <u who="PEARL">Okay. And can you talk about your decision to maybe go to <placeName>Canada</placeName>?</u>
+      <u who="JOHNSTON">Well, that was in the air at the time, and there were people who were doing that. I don’t remember the exact timing, but [folksinger and antiwar activist] <persName>Joan</persName> [<persName>C.]</persName> <persName>Baez</persName>’s husband, then-husband [<persName>Thomas E.]</persName> “<persName>Tom” Hayden</persName>, you know, was quite a well-known student leader I think at <placeName>Berkeley</placeName>. And he had fought the draft, and he went to jail. <persName>Joan Baez</persName> actually devoted a whole album to him at the time. </u>
+      <u who="PEARL">Okay. And you said that you later regretted—you said that you later weren’t proud of your deferment, at least now. Can you talk about that a bit?</u>
+      <u who="JOHNSTON">Well, as I suggested, I think the degree of self-interest in that was—was buried for many of us. I mean, I can’t speak for anybody of that generation, but certainly for me, it was wrapped up in the idealism of the moment, you know, over—over <date>several years</date>. </u>
+      <u who="PEARL">I asked about had you considered any other deferment plans or options.</u>
+      <u who="JOHNSTON">Right. Oh, and you also asked me about thoughts about the other folks and so on. </u>
+      <u who="PEARL">Yeah.</u>
+      <u who="JOHNSTON">You know, I’ve heard many stories from friends of mine who—who served tours of duty. I was looking at a box full of old letters, sort of love letters back and forth between my wife and me, and some other girlfriends and so on, but I found a six-page letter from my former next-door neighbor, <persName>Harold Hanson</persName> (called “Harry”), written from the top of a hill in <placeName>Vietnam</placeName> as he was about to go in to fight. </u>
+      <u who="PEARL">Yep. And did you ever consider what you were doing was not only the right thing but the American thing to do or anything like that, or the patriotic thing to do?</u>
+      <u who="JOHNSTON">Oh, sure. Oh, yeah. I think we thought we were arguing about, protesting about fighting for—you know, not with guns but fighting for protection of the country from this terrible mistake that it had made. You know, we—we termed it the worst foreign policy blunder in the history of the country. I mean, some people now say that about the invasion of <placeName>Iraq</placeName>, and, of course, there were people my age when <name type="event">the Iraq War</name> came along. It was almost like going into a war where we felt—and this is certainly how those who opposed the war, <name type="event">the Vietnam War</name> felt—that the <placeName>U.S.</placeName> had not done its homework, that we didn’t really understand the cultural divisions, including the fact that the Vietnamese had hated the Chinese for <date>centuries</date> and that the domino theory, which was the prevailing political theory that had started with [President <persName>Eisenhower</persName>’s Secretary of <orgName>State</orgName>] <persName>John Foster Dulles</persName>, I think, in <date>the late 1940s</date> to stop—stop the sweep of communism—we thought that was bogus.</u>
+      <u who="PEARL">Yeah. And I think we understand what your solution and opposition to <placeName>Vietnam</placeName> was, but what did you think was the solution to communism in general and <name type="event">the Cold War</name> in general?</u>
+      <u who="JOHNSTON">Well, that’s a—that’s a big question. Certainly, we had to be firm in opposing <placeName>the Soviet Union</placeName>-backed aggression in <placeName>eastern Europe</placeName> and what they did to those countries. But the proxy wars that were fought by <placeName>the Soviet Union</placeName> and <placeName>the United States</placeName> all around the world sometimes didn’t take account of the cultural subtleties that existed—you know, such as the antagonisms in <placeName>Southeast Asia</placeName>, and that we seemed to do that.</u>
+      <u who="PEARL"><persName>Mm-hm</persName>. </u>
+      <u who="JOHNSTON">Well, again, I think those of us who opposed the war respected our brethren who went off to war but thought either they made a bad decision or they were the victims of a system which had made a bad decision to get into that war. And given the history of things like the—you know, the bogus Tonkin Gulf Resolution, it was clear to us at the time that that was a big mistake.</u>
+      <u who="PEARL">Yeah.</u>
+      <u who="JOHNSTON">Well, I knew that was a possibility, you know, if everything failed. But I was bound and determined to avoid that. You know, after all, I had all this education, and I was—you know, was ready to contribute greatly to the country with all my education and all that kind of self-serving rhetoric.</u>
+      <u who="PEARL"><persName>Mm-hm</persName>. </u>
+      <u who="JOHNSTON">Sure. I met her at the end of my time in <placeName>Madison</placeName>, right at the end of finishing my master’s degree. She was then a senior at <orgName>Barnard College</orgName> in <placeName>New York City</placeName> and came to <persName>Madison</persName> <date>the summer of 1968</date> to go to <date>summer</date> school, and I was a waiter in a place called <orgName>the French House</orgName>, and she lived there. </u>
+      <u who="PEARL">And what is your wife’s name, and what were those anniversary dates?</u>
+      <u who="JOHNSTON">Her name is—her first name is <orgName>Hera</orgName> [pronounced <orgName>HEHR</orgName>-uh] [<orgName>Cohn-Haft</orgName>], H-e-r-a, like the Greek goddess. Actually, her mother was <persName>Athena</persName> [<orgName>Capraro Cohn-Haft</orgName>]. It’s a long story with her family. And her last name is <orgName>Cohn-Haft</orgName>, C-o-h-n-hyphen-H-a-f-t. Her father was <persName>Louis</persName> [pronounced <persName>LOU-ee</persName>] <persName>Cohn</persName>, who was raised Orthodox Jewish in <placeName>New York City</placeName>. And his mother was <persName>Goldie Haft</persName>, and she married <persName>Harry Cohn</persName> and became <persName>Goldie Haft-Cohn</persName>. And [laughs] my father-in-law changed his name, I think around his 21st birthday, instead of <persName>Louis Cohn</persName> to be <persName>Louis Cohn-Haft</persName>. He added his mother’s maiden name to form this hyphenated name, kind of a unique name. So my wife and her two brothers are <persName>Cohn-Hafts</persName>, and—let’s see, what was the second part of your question?</u>
+      <u who="PEARL">Dates of marriage.</u>
+      <u who="JOHNSTON">Marriage dates. So the first—the first wedding was <date>May 4th, 1969</date>, in <placeName>San Diego</placeName>, and then <date>September 7th, 1969</date>, in <placeName>Northampton</placeName>. </u>
+      <u who="PEARL">Yep.</u>
+      <u who="JOHNSTON">Not really. I mean, I was, you know, trying to pursue a career. I had gotten another job in <placeName>New York</placeName> with a consulting firm, doing—it wasn’t city planning, but it was, you know, related kinds of things. I was actually evaluating some government job training programs, and it was work that pointed to directions that I’ve been involved in ever since, through—you know, I call it nine different careers but all related to kind of human services, social service stuff. </u>
+      <u who="PEARL">Yep.</u>
+      <u who="JOHNSTON">You know, I don’t remember much except that it was part of a—you know, there was an organizing group that came into <persName>Madison</persName> and worked all over <placeName>Wisconsin</placeName> that I went out [for] and did some door-to-door work, knocking on doors and passing out literature. You know, it’s what a bunch of people are doing in—I think in <placeName>Iowa</placeName> and <placeName>New Hampshire</placeName> right now. So that—that part of political campaigning probably hasn’t changed much.</u>
+      <u who="PEARL">Yeah.</u>
+      <u who="JOHNSTON">Oh, I think those of us who had opposed the war felt finally vindicated. You know, “It’s about time after all of that loss,” and the country needed to heal. You know, and then—I think—I don’t know that I have the exact timing right, but the <name type="event">Watergate</name> thing had happened, and that whole episode that,— you know, that unraveled the <persName>Nixon</persName> presidency and led to his—well, he would have been impeached if he hadn’t resigned—was also happening, so it was—in a way, it was like—somehow like vindication, that we’d been right all along. And on top of everything, we had this devious president who had, you know, authorized, you know, two-bit burglars to burglarize <orgName>the Democratic Party’s</orgName> office in the Watergate Hotel.</u>
+      <u who="PEARL">So the war’s over. You feel vindicated. Is that it? What happens next? Do you feel like there was more work to do at the time?</u>
+      <u who="JOHNSTON">You know, I think that dissipated. Life went on. People wanted to forget about the war. One of the—you know, the most unfortunate aspects of that was that <placeName>Vietnam</placeName> veterans were—were looked at suspiciously and were feared. They didn’t come home as heroes the way soldiers and sailors did from—you know, in <name type="event">World War II</name> or even in <placeName>Korea</placeName> [<name type="event">the Korean War</name>]. And, of course, <placeName>Korea</placeName> is a whole ’nother story of a forgotten war, and we still have soldiers there, but—</u>
+      <u who="PEARL">Yeah, yeah.</u>
+      <u who="JOHNSTON">So it’s had—it’s had a huge impact, I think, over many <date>decades</date>.</u>
+      <u who="PEARL">And how did you feel in <date>1975</date> when North Vietnamese finally invaded and took over <placeName>South Vietnam</placeName>?</u>
+      <u who="JOHNSTON">I don’t think anybody felt good about that because it was clear that they were going to be a brutal, repressive, you know, authoritarian regime. But I think most of us were not surprised, because the government that we propped up in <placeName>Vietnam</placeName> was corrupt and inefficient, and, you know, our military kept saying, right up to the time we left, that, you know, “We’re gonna train them to take over the war.”</u>
+      <u who="PEARL"><persName>Mm-hm</persName>. </u>
+      <u who="JOHNSTON">Well, I guess you could say it did, in a way, in the career choices that I made in that I was committed to, you know, human service, social service things, I think. Because of what had happened to my sister in <date>1964</date>, I was pretty committed to being involved in work that contributed to the common good, to community good. </u>
+      <u who="PEARL">Yeah. Can you talk about that?</u>
+      <u who="JOHNSTON">Yeah. It’s a—I’m sorry. You say did I or would I?</u>
+      <u who="JOHNSTON">Would you talk about it, please?</u>
+      <u who="JOHNSTON">Okay, sure. I worked for the [<persName>Annie E.] Casey Foundation</persName> for <date>ten years</date>. I ran life skills programming out of <placeName>New Haven</placeName>, <placeName>Connecticut</placeName>, for all of <placeName>New England</placeName> and actually spent quite a bit of time at the then <persName>Casey</persName> office in <placeName>White River Junction</placeName>, so got a chance to be on campus occasionally because of that. That has actually closed now. But I worked with foster kids all over <placeName>New England</placeName>, planning life skills training systems. </u>
+      <u who="PEARL"><persName>Mm-hm</persName>. </u>
+      <u who="JOHNSTON">Well, I’ve been—I haven’t been actively involved since—I did—I mean, I chaired our 25th reunion. I got involved in the 20th reunion. I ended up being the treasurer of my class, and then I ended up agreeing to chair the 25th reunion. And in retrospect, I think I did that because I got to choose the band for the reunion [chuckles] but made some good friends of people who hadn’t been friends as undergraduates. </u>
+      <u who="PEARL">Yes, it’s enormous.</u>
+      <u who="JOHNSTON">Yeah, it’s enormous. And my name is on a plaque in there as one of the people who contributed to the—to the building of that. And I know that we worked—and I didn't—I was not involved in any construction stuff, but I think several of the members of my class, who live in <placeName>Hanover</placeName> or nearby, have been involved in that. </u>
+      <u who="PEARL">No.</u>
+      <u who="JOHNSTON">Okay. Well, she’s a senior, and I know <persName>Phi Beta Kappa</persName> and seems like a really outstanding young lady. Was sitting with me and a couple of other members of my class and a couple of wives, and I had just done a whole class at—in my college course here in <placeName>Connecticut</placeName>—on social media and smart phones and smart phone etiquette and larger issues of what were the implications of the use of this technology for people and especially for young people, and distraction and so on, and some research that has been done by a professor at <orgName>MIT [Massachusetts Institute of Technology</orgName>] on the impact of cell phone use on empathy, on the ability of young people to feel empathy and sense that it—it declines when you do a lot of your interpersonal communications by texting instead of sitting and talking to somebody and seeing their body language and so on.</u>
+      <u who="PEARL">Yeah, sounds great. I’d love to meet you in <date>April</date> or, if you’re on campus, in <date>June</date>.</u>
+      <u who="JOHNSTON">Sure. That’d be great. So what else can I do for you at this point?</u>
+      <u who="PEARL">I’m actually about ready to wrap up the interview unless you have some last words to say?</u>
+      <u who="JOHNSTON">I don’t think so. I mean, I think my—you know, my comments about sort of the heritage of the—of <name type="event">the Vietnam War</name> protests—even some skills that—skill building that goes on as a result of that activity, I certainly see as something positive in my life. But I think, as I suggested, I now see the opposition to the war in—in a more complicated and I think realistic perspective, that it was just more complex than we saw at the time. But sometimes one can get so blinded by an ideal that you can’t see the—you know, the forest for the trees. So I think at this point, I understand both the forest and the trees a little bit better.</u>
+      <u who="PEARL">Well, thank you very much, <persName>David</persName>. On behalf of myself and <orgName>the Dartmouth Vietnam Project</orgName>, I really appreciate you spending your time with us.</u>
+    </body>
+  </text>
+</TEI>

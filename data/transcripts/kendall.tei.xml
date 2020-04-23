@@ -66,7 +66,7 @@ Mr. Kendall, thank you for being here today and for being willing to share your 
       <u who="DANYOW">So I’d just like to start off with some basic background on you. Would you mind stating when and where you were born?</u>
       <u who="KENDALL">Born in <placeName>Grand Junction, Colorado</placeName>, <date when="1942-01-13">13 January 1942</date>.</u>
       <u who="DANYOW">Okay. And what were your parents’ names?</u>
-          <u who="KENDALL"><persName>Richard Kendall</persName> and May Dell(strange name) Kendall <persName>[Mary Elizabeth May Dell Hallar Kendall Workman]</persName>.</u>
+          <u who="KENDALL"><persName>Richard Kendall</persName> and <persName>May Dell(strange name) Kendall [Mary Elizabeth May Dell Hallar Kendall Workman]</persName>.</u>
       <u who="DANYOW">Okay. And what were their occupations?</u>
       <u who="KENDALL">My father was basically a salesman, and my mom was a day worker.</u>
       <u who="DANYOW">Like a laborer?</u>
@@ -86,7 +86,7 @@ One thing I’d like to touch on a little bit at this point, based on your essay
       <u who="DANYOW">Is this something that developed during high school? Was it something that was maybe even earlier than that?</u>
       <u who="KENDALL">That’s a really good question. I can remember—I’m not sure how old I was, but it was before <date when="1950">1950</date>. My cousin was a pilot—maybe it was a bit later because it was—maybe it was <name type="event">the Korean War</name>. He flew Corsairs [Chance Vought F4U Corsairs], and one time he flew his Corsair into <placeName>Grand Junction Airport</placeName>, and I got to go out and look at that airplane, and that may be where my fascination started. 
 
-My parents were always very patriotic. I had uncles, great uncles in <name type="event">World War I.</name> We had several members of our family in <name type="event">World War II</name>. One of my cousins was in the <name type="event">Bataan Death March</name> in the <placeName>Philippines</placeName> in <name type="event">World War II</name>. So there’s always been a family tradition of being in the military and protecting <placeName>America</placeName>.</u>
+My parents were always very patriotic. I had uncles, great uncles in <name type="event">World War I.</name> We had several members of our family in <name type="event">World War II</name>. One of my cousins was in the <name type="event">Bataan Death March</name> in the <placeName>Philippines</placeName> in World War II. So there’s always been a family tradition of being in the military and protecting <placeName>America</placeName>.</u>
       <u who="DANYOW">Sure. That makes sense.
 
 So, now, thinking a little bit more about, you know, the college application process, you mentioned that a scholarship was pretty important—</u>
@@ -124,9 +124,9 @@ So I found it difficult. I remember eight o’clock in the morning calculus. Fir
 
 
 
-There was—it was called mountain winter warfare or something like that [sic; Mountain and Winter Warfare detachment—a subset of Dartmouth’s ROTC]. There was this sergeant in the <orgName>ROTC</orgName>, Sgt. Brown [<persName>Senior Sergeant Major Bill Brown Jr.</persName>], who was later one of the founders of the <placeName>Vail</placeName> ski area, by the way. And he would take us out, and he taught us how to rappel and climb and a few—that was a lot of fun. It didn’t have a whole lot to do with the military, but it was a lot of fun.</u>
+There was—it was called mountain winter warfare or something like that [sic; Mountain and Winter Warfare detachment—a subset of Dartmouth’s ROTC]. There was this sergeant in the <orgName>ROTC</orgName>, <persName>Sgt. Brown [Senior Sergeant Major Bill Brown Jr.]</persName>, who was later one of the founders of the <placeName>Vail</placeName> ski area, by the way. And he would take us out, and he taught us how to rappel and climb and a few—that was a lot of fun. It didn’t have a whole lot to do with the military, but it was a lot of fun.</u>
       <u who="DANYOW">Sure.</u>
-      <u who="KENDALL">I think the only—I learned a little bit of map reading, in the classroom, but the only real, good training I had militarily was the summer between the junior and senior years at <placeName>Fort Devens</placeName> [<placeName>Massachusetts</placeName>]. We went for six weeks.</u>
+      <u who="KENDALL">I think the only—I learned a little bit of map reading, in the classroom, but the only real, good training I had militarily was the summer between the junior and senior years at <placeName>Fort Devens [Massachusetts]</placeName>. We went for six weeks.</u>
       <u who="DANYOW">Hmm. All right. And what sort of things did you do there at <placeName>Fort Devens</placeName>? Was it more comprehensive—you know, military—like, field exercises or—</u>
       <u who="KENDALL">Yeah. I can remember map reading, which for an infantryman is absolutely, absolutely essential.</u>
       <u who="DANYOW">Yep.</u>
@@ -143,7 +143,7 @@ One thing I guess I’m a little bit curious about: You mentioned a number of di
       <u who="KENDALL">No. That, I didn’t feel. I felt—what’s the right word? For example, one <name type="event">Winter Carnival</name> I was working at the filling station when all the guys came around with their girlfriends, and I missed not having my girlfriend at Winter Carnival, but the guys—we were all men [at the college] then. Everybody was always great. I had no problems, no stigma at all about being on scholarship.</u>
       <u who="DANYOW">Okay. 
 
-I guess another thing I’m curious about is, you know, you were here in the early ’60s in what would you call it? Kind of the earliest period of American involvement in <placeName>Vietnam</placeName> as <persName>[President John F.] Kennedy</persName> was beginning to send in advisers and so forth. Was Vietnam on your mind at all during college? Did you become increasingly aware of it, you know, as time went along?</u>
+I guess another thing I’m curious about is, you know, you were here in the early ’60s in what would you call it? Kind of the earliest period of American involvement in <placeName>Vietnam</placeName> as <persName>[President John F.] Kennedy</persName> was beginning to send in advisers and so forth. Was <name type="event">Vietnam</name> on your mind at all during college? Did you become increasingly aware of it, you know, as time went along?</u>
       <u who="KENDALL">That’s a really good question. I had a classmate named <persName>Edmund [B.] Frost [Class of 1964]</persName>. He was also a vet. And just towards the end of our senior year, he started telling me that he was worried about <placeName>Vietnam</placeName>. Before that, I knew something was going on, but I really didn’t have any concerns or even any really knowledge about that. I knew at that point that I was going to be a <orgName>Regular Army</orgName> officer and I was going to go to <placeName>Europe</placeName>.</u>
       <u who="DANYOW">You were aware of that at that point.</u>
       <u who="KENDALL">Yeah.</u>
@@ -154,7 +154,7 @@ I guess another thing I’m curious about is, you know, you were here in the ear
       <u who="DANYOW">That makes sense. 
 
 So can you walk me through what happened after graduation? Did you go immediately to <placeName>Europe</placeName>, or was there some training in an intervening period?</u>
-      <u who="KENDALL">My first assignment was at <placeName>Fort Benning</placeName>, <placeName>Georgia</placeName>, where in went to Infantry Officers [sic; Officer] Basic Course. It’s called IOBC 1, Infantry Officers’ [sic; Officer] Basic Course 1, and that was always reserved for the <orgName>Regular Army</orgName> officers out of the <persName>ROTC</persName> programs who were going to be career infantry officers. And so I was in IOBC 1. That training was excellent. It had one deficiency I’ll mention in a moment, but it was really good. It was arduous, fatiguing, sometimes very, very frightening, but I learned a lot. The basic skills that I needed in <placeName>Vietnam</placeName>, I learned there, things like map reading and adjusting artillery fire and setting up your troops and so forth. I learned all of that there, and it was very good.
+      <u who="KENDALL">My first assignment was at <placeName>Fort Benning, Georgia</placeName>, where in went to Infantry Officers [sic; Officer] Basic Course. It’s called IOBC 1, Infantry Officers’ [sic; Officer] Basic Course 1, and that was always reserved for the <orgName>Regular Army</orgName> officers out of the <orgName>ROTC</orgName> programs who were going to be career infantry officers. And so I was in IOBC 1. That training was excellent. It had one deficiency I’ll mention in a moment, but it was really good. It was arduous, fatiguing, sometimes very, very frightening, but I learned a lot. The basic skills that I needed in <placeName>Vietnam</placeName>, I learned there, things like map reading and adjusting artillery fire and setting up your troops and so forth. I learned all of that there, and it was very good.
 
 
 
@@ -198,13 +198,13 @@ And my first assignment, which I didn’t really like, was at an academy that tr
       <u who="DANYOW">Okay. And what sort of things did you do with this unit? Were you training, you know, near the <placeName>East German-West German border</placeName>, or—I don’t know exactly where <orgName>Mainz</orgName> is, but, you know, were you guarding installations or—</u>
       <u who="KENDALL">We did basically two things. We guarded nuclear weapons dumps at various places, and we flew around <placeName>Europe</placeName>, jumping out of airplanes. And the second, the jumping out of airplanes, as I understood it, was to show that <orgName>NATO [North Atlantic Treaty Organization]</orgName> has a powerful force and we’re ready to go and instill confidence in the Europeans that we were there to support them. But mostly it was just a lot of fun.</u>
       <u who="DANYOW">Where exactly did you jump, just in <placeName>Germany</placeName> or kind of all over the place?</u>
-      <u who="KENDALL">We jumped in <placeName>Germany</placeName>, we jumped in <placeName>Belgium</placeName>, and we jumped in <placeName>Spain</placeName>. That was the first—for a long—you remember when the—you probably don’t remember. there was an accident in which a [<orgName>Boeing</orgName>] B-52 [Stratofortress] from <orgName>the Air Force</orgName> accidentally dropped a bomb just off the coast of Spain, an atomic bomb.</u>
+      <u who="KENDALL">We jumped in <placeName>Germany</placeName>, we jumped in <placeName>Belgium</placeName>, and we jumped in <placeName>Spain</placeName>. That was the first—for a long—you remember when the—you probably don’t remember. there was an accident in which a [Boeing] B-52 [Stratofortress] from <orgName>the Air Force</orgName> accidentally dropped a bomb just off the coast of Spain, an atomic bomb.</u>
       <u who="DANYOW">I have heard of that, actually.</u>
       <u who="KENDALL">Not surprisingly, the Spanish weren’t very happy about that, and they didn’t have anything to do with the American military for a long time. And this was the first sort of joint military exercise with the Spanish forces, and it was interesting. We did well.</u>
       <u who="DANYOW">Did you ever have any sort of—parachuting obviously, I’m sure, was fun, but there’s some inherent danger in jumping of, you know, an aircraft. Did you ever have any issues with—you know, any close calls yourself, any issues with your men in terms of safety incidents or anything like that?</u>
           <u who="KENDALL">Yeah, there’s always something that’s going to happen. One of the things—it happened I think in <date when="1962">’62</date>. Some troops from <orgName>the 101st Airborne [Division]</orgName> jumped into a landing zone in the <placeName>States</placeName>, and the wind was really, really strong, and several of them were killed because of the wind dragging them across the landing zone after they landed. And so they then made a rule that an officer had to jump—for practice; this is not for war, for practice—an officer had to jump out of the plane first, the first pass at the landing zone, to see if the wind was really okay for the troops to jump out. And that guy was called a wind dummy. [Both chuckle.] 
 
-And I loved to be the wind dummy they open the door of [<orgName>Lockheed</orgName>] C-130 [Hercules], and you’re looking out and standing there all by yourself, and there’s a red light, and when the green light turns, you just jump out. Now, I found this to be a great thrill. But one time, I landed in an asparagus patch and the wind was blowing perpendicular to these big mounds of asparagus, and it was quite strong, and I kept banging into these asparagus mounds with my head, and I’m trying to deactivate my parachute so it would stop blowing. That was no fun.</u>
+And I loved to be the wind dummy they open the door of [Lockheed] C-130 [Hercules], and you’re looking out and standing there all by yourself, and there’s a red light, and when the green light turns, you just jump out. Now, I found this to be a great thrill. But one time, I landed in an asparagus patch and the wind was blowing perpendicular to these big mounds of asparagus, and it was quite strong, and I kept banging into these asparagus mounds with my head, and I’m trying to deactivate my parachute so it would stop blowing. That was no fun.</u>
       <u who="DANYOW">[Chuckles.]</u>
       <u who="KENDALL">That was no fun. And then there was one time when a guy, one of the parachute packers in <orgName>the Quartermaster Corps</orgName> went crazy, and he started sabotaging the static lines in the parachutes so that you would jump out of the airplane and the parachute would not deploy. And that was scary. It was scary for the troops, too. And we had to inspect every parachute after we put them on. We finally found him, the poor guy. He was just—he was gone. 
 
@@ -250,7 +250,7 @@ So I’d like to now shift, you know, a little bit towards thinking about <place
       <u who="DANYOW">And when did you actually—was that in early <date when="1966">’66</date> that you actually got your official orders to deploy to <placeName>Vietnam</placeName>?</u>
       <u who="KENDALL">I think I got my orders in either December of <date when="1966">’66</date> or January of <date when="1967">’67</date>.</u>
       <u who="DANYOW">Okay. And can you walk me through how the actual, you know, transition went? Did you go back to the <placeName>U.S.</placeName> first from <placeName>Germany</placeName>, or did you deploy directly to <placeName>Vietnam</placeName>?</u>
-      <u who="KENDALL">Yeah, I think everybody went first back to the <placeName>States</placeName>, go back to the States, take a little bit of leave, vacation and show up at open Army base at midnight one night and get in a Braniff Airlines [sic; <orgName>Braniff International Airways</orgName>] [<orgName>Boeing</orgName>] 707. It was passionate pink, this airplane. And off you go.</u>
+      <u who="KENDALL">Yeah, I think everybody went first back to the <placeName>States</placeName>, go back to the States, take a little bit of leave, vacation and show up at open Army base at midnight one night and get in a Braniff Airlines [sic; Braniff International Airways] [Boeing] 707. It was passionate pink, this airplane. And off you go.</u>
       <u who="DANYOW">I just want to back up for a second. So that small amount of leave you had—did you visit your family or friends from college or—</u>
       <u who="KENDALL">I was married at the time. I visited my wife’s family. I visited my family. My grandfather died while I was in the <placeName>States</placeName>, so I went to his funeral. I went to a baseball game in <placeName>Candlestick Park</placeName> just before I left. That was interesting.</u>
       <u who="DANYOW">Yeah.</u>
@@ -341,7 +341,7 @@ And then the next day, we prepared to go into combat. And you get your C-Rations
       <u who="KENDALL">And checks and double checks, and especially because we’d never done it before. We had to really, really check. I think we did a good job of preparing, though. I don’t remember any particular deficiencies, at least. 
 
 And then we sort of slept that night, and the next morning at—it was quite early. You could hear the artillery battery firing, and the choppers came in. There were ten of them, and they were one opposite the other, like this. [Demonstrates.]</u>
-      <u who="DANYOW"><persName>Mm-hm</persName>. </u>
+      <u who="DANYOW">Mm-hm. </u>
       <u who="KENDALL">And I met the major who was the commander of these ten helicopters, and I got into the first helicopter with him and my two radio telephone operators, my artillery FO [forward observer] and his radio operator. That was kind of the core command group. I had a radio that communicated with my battalion headquarters, and I had a radio that communicated with my company.</u>
       <u who="DANYOW">Okay. </u>
       <u who="KENDALL">And then he had a radio that communicated with the artillery.</u>
@@ -419,7 +419,7 @@ And then in your essay you kind of—the other major combat you talk about is th
       <u who="KENDALL">Yep.</u>
       <u who="DANYOW">I mean, was that hard for you to deal with, or did you just kind of accept it as “this is how it is”?</u>
       <u who="KENDALL">I didn’t ever find it hard in sort of an emotional way, no. It was—it kept you busy, and you were always, always concerned—I didn’t sleep well when I was in the field. Didn’t eat well, either. But, no, it was—it was okay. We learned how to do it together.</u>
-      <u who="DANYOW"><persName>Mm-hm</persName>. </u>
+      <u who="DANYOW">Mm-hm. </u>
       <u who="KENDALL">And once we learned how to do it, we were pretty good at it. And these guys from <placeName>Watts</placeName> and <placeName>Harlem</placeName> and <placeName>Puerto Rico</placeName> were damn good soldiers.</u>
       <u who="DANYOW">Mm-hm. Did you find, you know, being out on patrol for, you know, extended periods—was the terrain particularly tough? Did the climate make it difficult for you or anything like that?</u>
       <u who="KENDALL">Oh, it’s ugly. There were rice paddies and volcanoes, and you’re either slogging through a rice paddy or climbing up the side of a steep mountain, and in the rice paddies there were leeches that got all over your body, really ugly, ugly things. And you’d take the salt from your C-Rations and put on the leeches to get them off. There were mosquitoes everywhere all the time. You were wet more than you were dry. One of the medical problems we had is that people’s feet were wet so much that sometimes they suffered serious—not injuries but open wounds in their feet because they were wet all the time. Water was always a serious issue. In the summer it was hot, and then as November approached and December, it became so cold that we had to have these poncho liner blankets to sleep at night, and it was still cold.</u>
@@ -603,10 +603,10 @@ I can’t remember exactly how it happened now, but they were mostly 60mm mortar
       <u who="DANYOW">Yeah, that certainly sounds better than slogging through the rice paddies.</u>
       <u who="KENDALL">It was much better than rice paddies.</u>
       <u who="DANYOW">And so you switch from, you know, field officer or, you know, company commander to battalion staff.</u>
-      <u who="KENDALL"><persName>Mm-hm</persName>. </u>
+      <u who="KENDALL">Mm-hm. </u>
       <u who="DANYOW">Was that a normal occurrence,—</u>
       <u who="KENDALL">Yes.</u>
-      <u who="DANYOW">—to shift after <date>six months</date>?</u>
+      <u who="DANYOW">—to shift after six months?</u>
       <u who="KENDALL">Yes. Everybody did it.</u>
       <u who="DANYOW">Okay. And can you describe—you know, what was it like, I mean, to leave your unit? I’m assuming someone replaced you as company commander.</u>
       <u who="KENDALL">Yup. A company commander came in. Yeah, that was pretty emotional. And then about two months later, the company encountered some really serious problems. It started with they were on an armored personnel carrier which blew up with a mine and killed about 12 of them at one time, including a lot of guys that had been with me. And then they were in a major contact, and they didn’t do so well, and so a lot of them are gone. But that was not under my command.
@@ -711,7 +711,7 @@ I guess one other thing I’m curious about: How were you trying to fight the fi
       <u who="DANYOW">Not a long period of time.</u>
       <u who="KENDALL">No, they didn’t want to keep—they didn’t—no.</u>
       <u who="DANYOW">Right. They were trying to move people through the system, I would imagine. And how much time did you spend in the hospital in <placeName>Massachusetts</placeName>?</u>
-      <u who="KENDALL">Not so long in the hospital. I got out after they [<persName>Mr. Danyow</persName> coughs] cured the wounds, and then they gave me a sort of make-do assignment until my resignation became effective, and I was working with a group of officers. I think there were four of us, and we were looking after <orgName>the U.S. Army Reserve</orgName> in <placeName>New England</placeName>.</u>
+      <u who="KENDALL">Not so long in the hospital. I got out after they [Mr. Danyow coughs] cured the wounds, and then they gave me a sort of make-do assignment until my resignation became effective, and I was working with a group of officers. I think there were four of us, and we were looking after <orgName>the U.S. Army Reserve</orgName> in New England.</u>
       <u who="DANYOW">And so that was another sort of staff role or something like that?</u>
       <u who="KENDALL">Yeah, yeah.</u>
       <u who="DANYOW">Okay, so more administration than anything else.</u>
@@ -757,9 +757,9 @@ So I guess one thing I’m curious about is—your essay mentions that you worke
       <u who="DANYOW">Fair enough. And then it sounds like you moved to the <orgName>EPA [Environmental Protection Agency]</orgName> after that in some capacity?</u>
       <u who="KENDALL">Yeah. Mm-hm. Yeah.</u>
       <u who="DANYOW">How exactly did that transition go? Because I knew <persName>Nixon</persName> created the <orgName>EPA</orgName> I believe by executive order in maybe <date when="1970">1970</date>? I don’t know the exact year, but—</u>
-      <u who="KENDALL">I think you’re right. And it was a part of what’s Green Day [sic; Earth Day]. We just had it. <persName>Rachel Carson</persName> and <orgName>Silent Spring</orgName> and the environment movement started. So at the end of the—and I’d become quite concerned about the way we were treating the <placeName>Earth</placeName>, and there opened up a position as a policy planner at <orgName>EPA</orgName>, and I took that position.</u>
+      <u who="KENDALL">I think you’re right. And it was a part of what’s Green Day [sic; Earth Day]. We just had it. <persName>Rachel Carson</persName> and Silent Spring and the environment movement started. So at the end of the—and I’d become quite concerned about the way we were treating the Earth, and there opened up a position as a policy planner at <orgName>EPA</orgName>, and I took that position.</u>
       <u who="DANYOW">And how much time did you spend there, and what sort of things did you do?</u>
-      <u who="KENDALL"><date>A couple of years</date>. I worked on the amendments to the Clean Air Act, Safe Drinking Water Act. I helped write a couple of reports for <orgName>the Council on Environmental Quality</orgName>. I helped write a couple of speeches for—I don’t think for Ni- —yeah, maybe one for <persName>Nixon</persName> and a couple of others.</u>
+      <u who="KENDALL">A couple of years. I worked on the amendments to the Clean Air Act, Safe Drinking Water Act. I helped write a couple of reports for <orgName>the Council on Environmental Quality</orgName>. I helped write a couple of speeches for—I don’t think for Ni- —yeah, maybe one for <persName>Nixon</persName> and a couple of others.</u>
       <u who="DANYOW">Cool.</u>
       <u who="KENDALL">Just kind of what you do as a staff person in the government.</u>
       <u who="DANYOW">Yeah.</u>
@@ -813,9 +813,9 @@ One other thing I’m, you know, curious about—and this may not be a great que
       <u who="DANYOW">—that you’ve been involved with?</u>
       <u who="KENDALL">Yeah.</u>
       <u who="DANYOW">I mean, do you think there’s any connection between, you know, <name type="event">Vietnam</name> experience and the desire to, you know, go and help people, or was it just something—you know, just a separate interest?</u>
-      <u who="KENDALL">I’m not really good at being that deeply introspective. I think there must have been something about it. With all your other experiences in life, there had to be something about that. I retired, and I don’t play golf and I don’t play bridge, and I was bored, and I was looking for something to do, and I felt that I had some skills I contribute, and I saw an advertisement for this charity in <placeName>Calcutta</placeName> [now called <placeName>Kolkata, India</placeName>]. “We need an administrator.” And I said, I can do that. And off I went. And it’s been a rewarding second career for me.</u>
+      <u who="KENDALL">I’m not really good at being that deeply introspective. I think there must have been something about it. With all your other experiences in life, there had to be something about that. I retired, and I don’t play golf and I don’t play bridge, and I was bored, and I was looking for something to do, and I felt that I had some skills I contribute, and I saw an advertisement for this charity in <placeName>Calcutta [now called Kolkata, India]</placeName>. “We need an administrator.” And I said, I can do that. And off I went. And it’s been a rewarding second career for me.</u>
       <u who="DANYOW">Certainly. And it mentions you actually lived in a slum for a year.</u>
-      <u who="KENDALL">Yeah, I lived in a Muslim slum in the middle of <persName>Calcutta</persName> for <date>a year</date>.</u>
+      <u who="KENDALL">Yeah, I lived in a Muslim slum in the middle of <placeName>Calcutta</placeName> for a year.</u>
       <u who="DANYOW">What was that like?</u>
       <u who="KENDALL">It was great! The people were wonderful. I had a pretty nice place to live. I actually had running water and electricity about half the time, but all around me was this real serious poverty. They accepted me readily. They took care of me. They invited me to their Ramadan dinners—breakfasts. Yeah, it was—</u>
       <u who="DANYOW">Sure.</u>
@@ -854,8 +854,8 @@ There was one story I told—I don’t know where—but anyhow, one day we went 
       <u who="KENDALL">—and just live with these people for a period of time. And that may have made a difference. But we didn’t do that. We just dropped bombs on them.</u>
       <u who="DANYOW">Right. Because, I mean, I think there’s kind of a whole modern school of counterinsurgency that’s largely developed to try to push that sort of effort of actually, you know, integrating with the population and gaining their trust.</u>
       <u who="KENDALL">Yeah.</u>
-      <u who="DANYOW">I think a lot of that has developed as a result of mistakes made in <placeName>Vietnam</placeName>, but I’m still not sure it’s 100 percent effective, as we’ve seen in <placeName>the Middle East</placeName>.</u>
-      <u who="KENDALL">Well, if you look at the experience of the British in <placeName>Malaysia</placeName>, for example, against the guerilla war they had there, it took years and years and <date>years</date> and years, and I don’t think the American government and politics will put up with that. We want results faster than that. 
+      <u who="DANYOW">I think a lot of that has developed as a result of mistakes made in <placeName>Vietnam</placeName>, but I’m still not sure it’s 100 percent effective, as we’ve seen in the Middle East.</u>
+      <u who="KENDALL">Well, if you look at the experience of the British in <placeName>Malaysia</placeName>, for example, against the guerilla war they had there, it took years and years and years and years, and I don’t think the American government and politics will put up with that. We want results faster than that. 
 
 I’m pretty pleased with <persName>President [Barack H.] Obama’s</persName> reluctance to engage troops in some of these opportunities that we currently have and to use other means of trying to get people to change their behavior a little bit. I hope that that can continue, because we don’t need to send a bunch of guys to get shot every time somebody does something that we don’t like. That’s just not necessary.</u>
       <u who="DANYOW">Fair enough.
