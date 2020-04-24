@@ -17,7 +17,7 @@
         <recordingStmt>
           <recording xml:id="primary_recording" type="audio" dur-iso="">
             <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
-            <media url="" mimeType="MIMEaudio/wav"/>
+            <media url="http://dropbox.agilehumanities.ca/ddhi/audio/alverson_hoyt.mp3" mimeType="MIMEaudio/wav"/>
           </recording>
         </recordingStmt>
         <bibl xml:id="primary_transcription">
