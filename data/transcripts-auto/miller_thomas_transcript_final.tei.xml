@@ -1,0 +1,621 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="NOPPENBERGER"/>
+        <person xml:id="MILLER"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="NOPPENBERGER">Hello. I am <persName>Angela Noppenberger</persName>. I am interviewing from the Ticknor Room in <placeName>Rauner</placeName> [<orgName>Special Collections] Library</orgName>. <date>Today</date>’s date is <date>Monday, January 25th, 2016</date>. It’s 12:05, and we’re starting this interview. I am interviewing <persName>Thomas Miller</persName>.</u>
+      <u who="MILLER">I live in <placeName>Woking</placeName>, <placeName>Surrey</placeName>, <placeName>England</placeName>, about 16 miles southwest of <placeName>London</placeName>.</u>
+      <u who="NOPPENBERGER">Great. Am I calling you in your home right now?</u>
+      <u who="MILLER">I’m in my home, yes.</u>
+      <u who="NOPPENBERGER">Okay. So let’s start this interview. Could you please tell me your date of birth and where you were born?</u>
+      <u who="MILLER">Yeah, I was born <date>14 January 1943</date> in the post hospital at <placeName>Fort Sill</placeName>, <placeName>Oklahoma</placeName>.</u>
+      <u who="NOPPENBERGER">And what were your parents’ names?</u>
+      <u who="MILLER"><persName>Martin D. Miller</persName> and <persName>Esther L. Miller</persName>.</u>
+      <u who="NOPPENBERGER">And did you grow up in <placeName>Oklahoma</placeName>, or did you move?</u>
+      <u who="MILLER">No, my dad was in the armor officer training school at Fort Sill. Just a second. [Speaking to someone else: What?] Okay. He was an instructor in the artillery school at Fort Sill, having just completed officer training, himself. I was born there. We moved from there shortly thereafter for a little while, to <placeName>California</placeName> and the moved back to the <placeName>Chicago</placeName> area, where I spent the rest of the war with my mother at her parents’ home in <placeName>Chicago</placeName>, itself.</u>
+      <u who="NOPPENBERGER">Did your dad serve overseas during the war?</u>
+      <u who="MILLER">Yeah. He—he was with <orgName>11th Armor Division</orgName>, which was part of [General <persName>George S., Jr.] Patton</persName>’s Third [U.S.] <orgName>Army</orgName> after D-Day [<placeName>Normandy</placeName> landings during <name type="event">World War II</name>], so he served through <name type="event">the Battle of the Bulge</name> and ended up in <placeName>Bad Ischl</placeName>, <placeName>Austria</placeName>, where he was at that point a 28-year-old major—</u>
+      <u who="NOPPENBERGER">Wow.</u>
+      <u who="MILLER">—and became the military burgermeister of <orgName>Bad Ischl</orgName> for a short while before going back to the <placeName>U.S.</placeName>, where he got out the army—</u>
+      <u who="NOPPENBERGER">When did he come back to the <placeName>U.S.</placeName>?</u>
+      <u who="MILLER">He got back to the <placeName>U.S.—it</placeName> would have been <date>late 1945 or early 1946</date>.</u>
+      <u who="NOPPENBERGER">Oh, so he was there through the end of the war.</u>
+      <u who="MILLER">Yes, it was at the end of the war.</u>
+      <u who="NOPPENBERGER">And did you have any siblings, growing up?</u>
+      <u who="MILLER">I have a brother and two sisters, all younger than me.</u>
+      <u who="NOPPENBERGER">Oh, wow. So the oldest.</u>
+      <u who="MILLER">Yeah.</u>
+      <u who="NOPPENBERGER">And you were growing up in <placeName>Chicago</placeName> as the oldest—about how old were you when your father was away, overseas?</u>
+      <u who="MILLER">Um, well he came back in, well, say, he came back in <date>’46</date>. I would have been <date>three years old</date> when he got back.</u>
+      <u who="NOPPENBERGER">Okay. All right. So you were very, very small.</u>
+      <u who="MILLER">Yeah.</u>
+      <u who="NOPPENBERGER">Can you tell me about growing up in <placeName>Illinois</placeName>?</u>
+      <u who="MILLER">Yeah. We lived for a little while on the southwest side of <placeName>Chicago</placeName>, and then my folks bought a house in <placeName>Hinsdale</placeName>, <placeName>Illinois</placeName>, which is a suburb about 16 miles west of the city. It was a fairly active place. Good schools and active <orgName>Cub Scouts</orgName>, <orgName>Boy Scouts</orgName>, things like that.</u>
+      <u who="NOPPENBERGER">Were you a Boy Scout?</u>
+      <u who="MILLER">I went to the local schools, and then <orgName>Hinsdale Township High School</orgName> [in District 86]. I was active in <orgName>the Cub Scouts</orgName> and <orgName>the Boy Scouts</orgName>. I am an Eagle Scout, or was an <orgName>Eagle Scout</orgName>. So did all of those kinds of things and learned about camping and [chuckles] living in tents and things like that—</u>
+      <u who="NOPPENBERGER">[Chuckles.]</u>
+      <u who="MILLER">—that became useful later on.</u>
+      <u who="NOPPENBERGER">[Chuckles.] Great. What else were you active in, say, in high school, leading up to—</u>
+      <u who="MILLER">I—I was a little bit active in the track, but at <date>age 16</date> I got a part-time job working as a clerk in men’s shop in town, so from 16 on, was—in my spare time, was busy working, although I did stay active in the <orgName>Scouts</orgName> till I was—till I was <date>17</date>, <date>18</date>, basically till I went to <orgName>Dartmouth</orgName>.</u>
+      <u who="NOPPENBERGER">And when you were in high school, do you remember the sort of aspirations you had? Was <orgName>Dartmouth</orgName> really something that you’d been thinking about at that age already, or college in general?</u>
+      <u who="MILLER">I was just looking for good—good universities. I actually only applied to two schools. I applied to <orgName>Beloit College</orgName> in <placeName>Wisconsin</placeName> and <placeName>Dartmouth</placeName>. Was accepted by both and decided to go to <orgName>Dartmouth</orgName>, partially because it was further away from home than <placeName>Beloit</placeName>. [Chuckles.]</u>
+      <u who="NOPPENBERGER">Do you remember your career aspirations at that time?</u>
+      <u who="MILLER">I didn’t have any specific career aspirations, maybe going into law, which in the end I didn’t do, but that impacted my major. I was a history major at <orgName>Dartmouth</orgName>, which was one of the things deemed good for law school, but I was also in ROTC [Reserve Officers’ Training Corps], so effectively— </u>
+      <u who="NOPPENBERGER">Right. Let me—sorry. Let’s—let’s—let’s get into your college <date>years</date>, then. So you had been working in high school. You’d applied to two colleges, gotten into both.</u>
+      <u who="MILLER">Yeah.</u>
+      <u who="NOPPENBERGER">Can you tell me if you knew you were doing <orgName>ROTC</orgName> at <placeName>Dartmouth</placeName> right away, or if that’s something that you decided—actually, sorry. Let’s go back one second.</u>
+      <u who="MILLER">No, I knew I was going into <orgName>ROTC</orgName> when I went off to university. You have to remember, this was kind of <date>the early days</date> of the conflict in <placeName>Vietnam</placeName>, and draft was fairly active, and it just made sense to me to serve—do my military service as an officer rather than being drafted.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">I did have a discussion with my father, who suggested I do [<placeName>U.S.</placeName>] <orgName>Air Force</orgName> or [<placeName>U.S.</placeName>] <orgName>Navy</orgName>, but I couldn’t fly because of my eyesight, and the thought of spending <date>weeks</date> or <date>months</date> of time on a ship was—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">—horrible, so I chose the <orgName>Army</orgName>.</u>
+      <u who="NOPPENBERGER">And what did your father—what branch was your father in?</u>
+      <u who="MILLER">He was in the <orgName>Army</orgName>.</u>
+      <u who="NOPPENBERGER">Oh, okay. So what <date>year</date> is it that you’re graduating high school and starting at <orgName>Dartmouth</orgName>?</u>
+      <u who="MILLER">I graduated high school in <date>1961</date> and became part of the Class of <date>1965</date> starting in <date>September</date> ’61 at <orgName>Dartmouth</orgName>.</u>
+      <u who="NOPPENBERGER">And can you give me any first impressions you had at <orgName>Dartmouth</orgName>? You were moving there from <placeName>Illinois</placeName>, from the <placeName>Midwest</placeName>. What was it like starting school out here?</u>
+      <u who="MILLER">Well, there were more green trees and more hills, and the snow was about the same as <placeName>Chicago</placeName>. [Chuckles.]</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">But I liked <orgName>Dartmouth</orgName>. It was a pretty campus. There was more space on it then than there is now. So we did a lot of walking. And, I can’t quite remember how I got involved, but I very quickly became part of the <orgName>Dartmouth</orgName> crew. I’m a relatively small fellow, so I was a coxswain [pronounced COCK-son]. And that was an new experience for me. My experience on riggers had been in canoes and things. So rowing was something new, and it was good fun and was a way to stay fit.</u>
+      <u who="NOPPENBERGER">Great. Anything—any other clubs or organizations that you were involved with during your time at <orgName>Dartmouth</orgName>?</u>
+      <u who="MILLER">I was a member of <orgName>Alpha Delta Phi</orgName> [now <placeName>Alpha Delta</placeName>] fraternity. I was a member of the [<orgName>Dartmouth</orgName>] Outing Club. AD has [cross-talk; unintelligible].</u>
+      <u who="NOPPENBERGER">So you like—</u>
+      <u who="MILLER">[Chuckles.]</u>
+      <u who="NOPPENBERGER">Yeah, you really liked being active. </u>
+      <u who="MILLER">No, they had not. They had not. And lots of the people that I knew and hung out with at <orgName>Dartmouth</orgName> were in the <orgName>ROTC</orgName>—you know, either <orgName>Army</orgName>, <orgName>Air Force</orgName> or <orgName>Navy</orgName>. The two fellows that were my roommates senior year both graduated and were commissioned at the same time I was.</u>
+      <u who="NOPPENBERGER">Okay, can I get their names, please?</u>
+      <u who="MILLER">Pardon?</u>
+      <u who="NOPPENBERGER">Could I just get their names here? Two roommates, senior year.</u>
+      <u who="MILLER">[<persName>Daniel J.]</persName> “Dan” <persName>Walden</persName> and <persName>Donald</persName> [McK] Boardman [both Class of <date>1965</date>].</u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="MILLER">I think you’ve already interviewed <persName>Dan Walden</persName>. I’m not sure about <persName>Don</persName>.</u>
+      <u who="NOPPENBERGER">Okay. It’s just always great to have names of more people, possibly [to] interview, and just to have on record, really, to know, because that’s what this project is really about. </u>
+      <u who="MILLER">No, I kind of got away—got away from it and knew I was going in the service, so it was put on a back burner anyway. When graduation came around, I was offered a regular commission in the <orgName>Army</orgName>, and I accepted the regular commission because it didn’t involve much more time in the service, but it meant that I could do what I wanted, which was play in tanks and go to <placeName>Germany</placeName>. So I got to do both of those things. [Chuckles.]</u>
+      <u who="NOPPENBERGER">Great. What year did you graduate?</u>
+      <u who="MILLER">I graduated in <date>1965</date>.</u>
+      <u who="NOPPENBERGER">And so did you—</u>
+      <u who="MILLER"><placeName>Vietnam</placeName> was just getting active at that point, really active. </u>
+      <u who="NOPPENBERGER">Right. I was going to say, did you have any sort of anxiety or nervousness with the war picking up and knowing that you’d be getting into the service right out of college?</u>
+      <u who="MILLER">No. No, that didn’t cross my mind at all, to be quite honest. Again, going off in the <orgName>Army</orgName> to <placeName>Germany</placeName> was a bit of an adventure.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">So you’d, [unintelligible].</u>
+      <u who="NOPPENBERGER">Well, what about—</u>
+      <u who="MILLER">Yeah, go ahead.</u>
+      <u who="NOPPENBERGER">I was just going to say, well, what about any other sort of, you know, feelings on campus at that time? Do you remember <name type="event">the Vietnam War</name> even being kind of part of conversation?</u>
+      <u who="MILLER">We knew about it, but  the antiwar movement had not really become active at that point in time because, you know, <placeName>the Bay of Pigs [Invasion]</placeName> and the big buildup took place during <date>the year</date> we graduated, so it was all kind of new. I have other thoughts since then,—</u>
+      <u who="NOPPENBERGER">Right.</u>
+      <u who="MILLER">—but at the time, no, it wasn’t—it wasn’t that active. In fact, we didn’t know, in <placeName>ROTC</placeName> in <date>those days</date>, how many of us would actually go to <placeName>Vietnam</placeName>. That was not obvious.</u>
+      <u who="NOPPENBERGER">Okay. So let’s—let’s get into the beginning of your military service, then. You just graduated <orgName>Dartmouth</orgName>. Did you have time to go back home, have a break, or were you—</u>
+      <u who="MILLER">Yeah. The drill was—At the time, I had a car on campus, so I filled it with my things, drove home, dropped off most of them, and reported for active duty at <placeName>Fort Knox</placeName>, <placeName>Kentucky</placeName>, which was <orgName>the Armor Officer School</orgName> [sic; <orgName>U.S. Army Armor School</orgName>], because I had to do armor office basic course, and that was, oh, I suppose, three, <date>four months</date> of training with tanks and things at Fort Knox.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">Finished that. Drove home, dropped a few things off, and I reported to <placeName>New Jersey</placeName>, to <placeName>Fort Dix</placeName>, where I got on an airplane going to <placeName>Germany</placeName>. Arrived in <placeName>Germany</placeName> <date>November</date> of <date>’65</date>, just before <date>Thanksgiving</date>. The new lieutenant on the block. And immediately went to—to some training in a training base in <placeName>Germany</placeName> with the rest of my tank battalion.</u>
+      <u who="NOPPENBERGER">How long were you in <placeName>Germany</placeName> for?</u>
+      <u who="MILLER">I was in <placeName>Germany</placeName> <date>a little over two years</date>.</u>
+      <u who="NOPPENBERGER">Okay. That is a long time! Did you enjoy your time there?</u>
+      <u who="MILLER">Oh, yeah! <placeName>Germany</placeName> was great fun. A bit of cowboys and Indians. Met my wife and was married in <placeName>Germany</placeName> in <date>September of 1967</date>.</u>
+      <u who="NOPPENBERGER">Where did you meet her?</u>
+      <u who="MILLER">In <placeName>Schweinfurt</placeName>, <placeName>Germany</placeName>, where I was stationed. She’s a German lady—</u>
+      <u who="NOPPENBERGER">Was she a German local?</u>
+      <u who="MILLER">She was. She was local. And there was a fairly active German-American discussion group in <orgName>Schweinfurt</orgName> that a number of us participated in, both because it helped us improve our German but it was also good fun socially. And it was about, you know, a bunch of young American officers and similar-aged German folks. We got together once a week, and we’d spend a half hour speaking English and a half hour speaking German about whatever was going on at the time. And then, being good young officers, we’d go off to the local beer hall and have a few beers before going back—</u>
+      <u who="NOPPENBERGER">[Chuckles.]</u>
+      <u who="MILLER">—to the post or wherever we lived.</u>
+      <u who="NOPPENBERGER">[Laughs.] Do you still have a little bit of German?</u>
+      <u who="MILLER">Anyway, met my wife through that group. But one of the guys in—in the discussion group, a German fellow—he knew everything going on in the neighborhood, so we found ourselves involved in all kinds of festivals and fancy balls and things in the German community, which really made it a super experience. It was really a good experience.</u>
+      <u who="NOPPENBERGER">That’s great. </u>
+      <u who="MILLER">Part of that, in <date>June of 1967</date>, was the most frightened I have ever been in my life, including being shot at in <placeName>Vietnam</placeName>. I got a phone call at two o’clock in the morning. “Lieutenant <persName>Miller</persName>, get into the <persName>kaserne</persName>, the barracks. We’re moving out.” And things were coming out of safes and bunkers that did not come out for alerts. We were going to war. </u>
+      <u who="NOPPENBERGER">Oh, wow!</u>
+      <u who="MILLER">But nobody told us that </u>
+      <u who="NOPPENBERGER">So there was—there was no imminent danger to you.</u>
+      <u who="MILLER">As it turned out, no. But that’s not what it felt like as—</u>
+      <u who="NOPPENBERGER">Right, right.</u>
+      <u who="MILLER">—we moved out.</u>
+      <u who="NOPPENBERGER">Right. Of course. Of course, that is super alarming. So do you still have a little bit of German from <date>those days</date>?</u>
+      <u who="MILLER">Oh, yeah.</u>
+      <u who="NOPPENBERGER">Oh, that’s—that is—</u>
+      <u who="MILLER">We go back to <placeName>Germany</placeName> fairly regularly. <persName>Ich kann ein bisschen Deutsch sprechen</persName>, <persName>ja</persName>, <placeName>ja</placeName>.</u>
+      <u who="NOPPENBERGER">[Laughs.] Oh, great! So what were your military duties while in <placeName>Germany</placeName>? I mean, it sounds like you had a great social life, but what were the sort of—</u>
+      <u who="MILLER">Yeah no, I started out as a tank platoon leader in a tank battalion in <orgName>3rd Infantry Division</orgName>, and then I became a company executive officer. And at that point, senior officers were being pulled out of <placeName>Germany</placeName> and sent to <placeName>Vietnam</placeName>, so I became a first lieutenant company commander fairly early, well, late ’<date>66</date>. And then in ’67, shortly after I got married, I was promoted to captain, so I’m now a 25-year-old captain of a, company commander of a tank company. And—</u>
+      <u who="NOPPENBERGER">Did your wife live with you on base?</u>
+      <u who="MILLER">We didn’t live on base. We lived off base, in an apartment. We weren’t required to live on base. And because we were newly wed, the base housing was more for people that had families, and we didn’t have a family yet.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">But [in] any case, we got married. As we left our reception at the officers’ club <persName>Schweinfurt</persName>. I didn’t notice it at the time, but I was told later that a number of my fellow officers’ wives were wiping tears away as we left.</u>
+      <u who="NOPPENBERGER">[Chuckles.] Why is that?</u>
+      <u who="MILLER">Well, they all knew I had orders to <placeName>Vietnam</placeName>, but I didn’t know that yet.</u>
+      <u who="NOPPENBERGER">Oh. Wow!</u>
+      <u who="MILLER">So we went off on our honeymoon and came back. I called in to the battalion, said, “I’m back. Do I have orders?” At the time, I had been in <placeName>Germany</placeName> longer than any other officer in the division, so knew I was due, and in the evening was told no. And the next morning, about 7:30 in the morning, had a phone call: “<persName>Miller</persName>, you need to get your act together. You have orders.” And the only question was what unit. Where I was going was no surprise. So [cross-talk; unintelligible]</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. Yeah. Was there talk of—was there talk of <placeName>Vietnam</placeName> already then? You say that most people knew that—</u>
+      <u who="MILLER">Oh, yeah.</u>
+      <u who="NOPPENBERGER">—you were going off. So you had an idea that this was the next step in your military life.</u>
+      <u who="MILLER">Oh, yeah. That was, there was no question of that. If I had not been sent to <placeName>Vietnam</placeName>, I would have been very, very, very surprised. A number of—</u>
+      <u who="NOPPENBERGER">How did your wife feel about that?</u>
+      <u who="MILLER">—the people I had been working with had already gone to <placeName>Vietnam</placeName>, and we were starting to see a few people coming back from <placeName>Vietnam</placeName>.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. How did your wife feel about you being—</u>
+      <u who="MILLER">I don’t think she was terribly excited about it, but we immediately got her a Green Card so she could go back to the <placeName>U.S.</placeName> My family took over from there. I had been told by one of my NCOs [non-commissioned officers] that there was only one way to leave a new bride when you went off to war. The sergeant told me, “You need to leave her barefoot, pregnant and broke.”</u>
+      <u who="NOPPENBERGER">[Chuckles.]</u>
+      <u who="MILLER">But she did have shoes, so I didn’t quite obey that.</u>
+      <u who="NOPPENBERGER">Right.</u>
+      <u who="MILLER">[Laughs.]</u>
+      <u who="NOPPENBERGER">Well, I’m glad. [Laughs.]</u>
+      <u who="MILLER">But—</u>
+      <u who="NOPPENBERGER">So was the plan—had you been planning to move back to the <placeName>States</placeName>, then? Is that why she didn’t stay in <placeName>Germany</placeName>?</u>
+      <u who="MILLER">We had agreed that it would be good if she spent my time in <placeName>Vietnam</placeName> with my family in the <placeName>U.S.</placeName>, among other things because if anything happened to me, my folks knew what to do, having been through [a] similar situation in [the] Second <name type="event">World War</name>. And so she was welcomed into the family.</u>
+      <u who="NOPPENBERGER">Sweet.</u>
+      <u who="MILLER">—welcoming the new immigrant to the family.</u>
+      <u who="NOPPENBERGER">That’s thoughtful.</u>
+      <u who="MILLER">But she got on—she always got on well with my family, so that worked out pretty well. And—</u>
+      <u who="NOPPENBERGER">All right, so your wife is in the <placeName>U.S.</placeName>, and you are leaving. Did you go straight to <placeName>Vietnam</placeName> from <placeName>Germany</placeName>?</u>
+      <u who="MILLER">No. No, no. Back to the <placeName>U.S.</placeName> Spent <date>Christmas of 1967</date> in <placeName>Illinois</placeName> with my family and my wife, and everyone got introduced. In <date>early January</date>, was sent to <placeName>Panama</placeName> for jungle training, more than anything, acclimation because I was going out of <date>winter</date> weather in <placeName>Germany</placeName>. So <date>a couple of weeks</date> in—</u>
+      <u who="NOPPENBERGER">Can you tell me about that? Can you tell me about that?</u>
+      <u who="MILLER">Pardon?</u>
+      <u who="NOPPENBERGER">Can you tell me about that jungle training? What exactly does that entail?</u>
+      <u who="MILLER">Mostly walking around in the <placeName>Canal Zone</placeName> jungle in <placeName>Panama</placeName>, eating strange things. It was—it was kind of interesting because, having come out of—having been an armor officer, things like compasses don’t work on tanks. There’s too much metal.</u>
+      <u who="NOPPENBERGER">Oh.</u>
+      <u who="MILLER">So you learned to read maps. And I seemed to be one of the few officers in the bunch that could actually read a map in the jungle, so I got to do lots of navigation. [Chuckles.]</u>
+      <u who="NOPPENBERGER">Oh.</u>
+      <u who="MILLER">But, no, it was—it was basically just learning how to move around in the jungle and what it was like. And, I must say—okay, I got acclimated, got used to the hot weather, but when I got to <placeName>Vietnam</placeName>, I spent very, very little time in jungle anything like <placeName>Panama</placeName>. We—I arrived in <placeName>Vietnam</placeName> and was assigned to <orgName>11th Armored Cavalry Regiment</orgName>. This is, again, an armor unit, and so we worked about a 150-mile radius around <placeName>Saigon</placeName>, and we were kind of a reaction force. So somebody would panic, and we would move, because we could do rather hostile things to the bad guys.</u>
+      <u who="NOPPENBERGER">Well, can we get into your—into your first arrival in <placeName>Vietnam</placeName>? I’d love to hear about, you know, your reactions, any sort of feelings you had about, you know, being there in a country that was at war. Can you tell me the date that you arrived?</u>
+      <u who="MILLER">I arrived in [the] tail end of <date>January 1968</date>. <persName>Tet Offensive</persName> of <date>1968</date> was just coming to an end, so I missed most of that hostility. I flew into Biên Hòa Air Force Base [sic; <persName>Biên Hòa Air Base</persName>], east of <placeName>Saigon</placeName>. I went through the replacement depot, but I had orders. Within 24 hours, I was in a helicopter flying to where the <orgName>cav</orgName> was based, which was a little bit further east of <placeName>Saigon</placeName>. And from there was connected up with the squadron or battalion that I was to become a part of.</u>
+      <u who="NOPPENBERGER">Uh-huh. </u>
+      <u who="MILLER"><persName>Napalm</persName>’s stopping guys in bunkers better than high explosive. And that was my job. </u>
+      <u who="NOPPENBERGER">When was this? What year? Can you give me a timeframe?</u>
+      <u who="MILLER">Still ’<date>68</date>. </u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="MILLER">Would have been—I don’t know, <date>March</date>, <date>April</date>, May. We were out west of <placeName>Saigon</placeName>.</u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="MILLER">This fellow just happened to come by, and I was on the radio, talking to our people on the ground and <orgName>Air Force</orgName> types in the air, and he sat around listening and taking notes. I asked him if he would like to go up and see what was going on, and he said, “No, I don’t think I’ll do that. I’ll stay here,” because where we were was pretty safe.</u>
+      <u who="NOPPENBERGER">[Chuckles.]</u>
+      <u who="MILLER">But he wrote his article that way. I read other articles, because my parents—if they saw our unit mentioned in any of the <placeName>Chicago</placeName> newspapers, would cut the article out and send it to me, so I was reading articles written by a young—I don’t know how young, but a <orgName>Chicago Tribune</orgName> reporter, about firefights that I had been in.</u>
+      <u who="NOPPENBERGER">Right.</u>
+      <u who="MILLER">And what he wrote is not what I saw, and I know with 100 percent certainty he wrote it as if he was there, and I know he wasn’t there, so he was—</u>
+      <u who="NOPPENBERGER">Can you tell me some of the things that—that were incorrect in that article or—what was sort of indiscrepancies—[sic: discrepancies]</u>
+      <u who="MILLER">Well, he tended to make it much worse for us than it was. And I guess what irritated me about it is he kept writing as if he were there, and clearly—I know he wasn’t. So he’d probably gone to a briefing at <orgName>Military Assistance Command</orgName>, <placeName>Vietnam</placeName> (<orgName>MACV</orgName>), had a briefing and then gone back to his hotel and, sitting on the veranda, sipping gin and tonic and writing fairy tales.</u>
+      <u who="NOPPENBERGER">And was he writing it as if, you know, you were the bad guys, or was he—you know. You say he was making it much worse for you. What do you mean by that?</u>
+      <u who="MILLER">That our casualties and things were worse than they were.</u>
+      <u who="NOPPENBERGER">As in, like, more people had—more Americans had died?</u>
+      <u who="MILLER">No, more of our people hurt—</u>
+      <u who="NOPPENBERGER">Oh, okay, okay.</u>
+      <u who="MILLER">—than in fact did.</u>
+      <u who="NOPPENBERGER">Okay. Just making it a bit more dramatic, then.</u>
+      <u who="MILLER">Yeah. Understand, I was in an armored cavalry unit. </u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">We had armored personnel carriers, we had tanks, we had our own artillery, we had our own attack helicopters, and we could do bad things that infantry units weren’t able to do, so—</u>
+      <u who="NOPPENBERGER">Right.</u>
+      <u who="MILLER">—the bad guys—</u>
+      <u who="NOPPENBERGER">In terms of more damage—</u>
+      <u who="MILLER">—didn’t like us very much. [Chuckles.]</u>
+      <u who="NOPPENBERGER">In terms of you were able to do more damage with tanks and things like that.</u>
+      <u who="MILLER">Oh, yeah. Yeah, yeah.</u>
+      <u who="NOPPENBERGER">Is that what you mean?</u>
+      <u who="MILLER">But [to] put [it] in context: I wasn’t there, but I saw it afterwards. At the tail end of the Tet Offensive, my squadron was sent into <placeName>Biên Hòa City</placeName> to relieve <orgName>the Vietnam Army</orgName>, <orgName>South Vietnamese Army</orgName>, <orgName>III Corps</orgName> headquarters. So the <orgName>cav</orgName> came rolling in with their armored vehicles and red-and-white guidons waving in the wind, and there were generals and colonels and majors coming out to shake the hands of <orgName>PFC</orgName> [private first class] truck drivers because these guys hadn’t been able to get out of their bunkers to go to the latrine without being shot at from across the street.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">So we came in, and we’re now working for a South Vietnamese general. And he told our boss, “Go out and stop the sniping.” So tank company, a <orgName>cav troop</orgName> and a mixed company of cooks and clerks from <orgName>101st Airborne [Division</orgName>] went out to stop the sniping. Well, most of the sniping was out of buildings across the street, and the solution was a 90 mm tank round with a delay fuse through the wall of the building, which stopped the sniping but was kind of hard on the buildings. So when I got there, there were six city blocks of <persName>Biên Hòa</persName> that were no more than three or four feet high, anywhere.</u>
+      <u who="NOPPENBERGER">Oh, no.</u>
+      <u who="MILLER">So the colonel’s driving up there in his <orgName>Jeep</orgName>, heart in mouth, career in tatters, and the Vietnamese general called the American general and told him what a great job the <orgName>cav</orgName> had done, so the boss got a medal instead of the sack. [Chuckles.]</u>
+      <u who="NOPPENBERGER">Oh!</u>
+      <u who="MILLER">[Chuckles.]</u>
+      <u who="NOPPENBERGER">Wow!</u>
+      <u who="MILLER">It kind of describes how things worked.</u>
+      <u who="NOPPENBERGER">That is very informative. Wow! So then were you, I guess, active <date>every day</date> or could you kind of describe to me maybe a typical day for you in <placeName>Vietnam</placeName>, if there even was such a thing, or was it more, you know, you had to play things—</u>
+      <u who="MILLER"><date>Most days</date>—<date>most days</date> you’d get up wherever you were, get breakfast. We rarely failed to have a hot breakfast, even if we were in the middle of nowhere, because we—</u>
+      <u who="NOPPENBERGER">What kind of breakfast would that be?</u>
+      <u who="MILLER">Oh,—</u>
+      <u who="NOPPENBERGER">Food wise?</u>
+      <u who="MILLER">—scrambled eggs, bacon, orange juice. Understand, we could pull mobile kitchens behind some of our tracked vehicles.</u>
+      <u who="NOPPENBERGER">Oh. Okay.</u>
+      <u who="MILLER">And because we had helicopters, what we would do would be from our base camp we would fly in a hot meal at night—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">—in formal containers, but also eggs and things for breakfast. And we had a couple of cooks out there, that would cook a hot breakfast in the morning. So the only time—the only time really that we ate field rations was lunchtime, with rare exceptions.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">Usually the rare exceptions—because we were moving someplace. So we—we lived a lot better than a lot of other combat units did, but, again, it’s—that’s the way cavalry operates. [Chuckles.]</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. So you wake up. You have your breakfast.</u>
+      <u who="MILLER">Had my breakfast. Go in, see what was going on. Typically, if we were in the field, we would have some units going out, sweeping some area, just to see what was going on. <date>Most days</date>, nothing was going on, so they’d go out and come back. And have dinner and maybe listen to <orgName>Armed Forces Network</orgName> and go to sleep. Every once in a while, we’d get mortared at night, but we’d put out sandbags and things, so unless it fell on you, which was pretty rare, you didn’t get hurt.</u>
+      <u who="NOPPENBERGER">What’s it—what’s it like to live under that kind of—I mean, I would call it stress, knowing that there was a possibility of being mortared at night and, you know, living out in—</u>
+      <u who="MILLER">Well, you could get mortared at night or shot in the day- —I guess—</u>
+      <u who="NOPPENBERGER">Right.</u>
+      <u who="MILLER">—you get a defensive reaction to it. At least I did, that, you know, if my number came up, my number came up, and it wasn’t worth the energy to worry about it, so get on doing whatever the job is.</u>
+      <u who="NOPPENBERGER">Right.</u>
+      <u who="MILLER">We did learn—you learned to pay attention to what was going on, I guess is the way I would put it. So caution, yes. You got running out in the fields by yourself, not normally. And just pay attention to what’s going on. But—</u>
+      <u who="NOPPENBERGER">Were you living in—were you living in tents at all times? You, You, from what I can gather, you sound like you were a pretty mobile unit, constantly on the move.</u>
+      <u who="MILLER">Well, we had—we had canvas that moved with us, so we would put canvas off the sides of the vehicles and things like that. We carried some tents around with us. If we were in base camp—I lived with several other officers in a—in a big round tent that had sandbag walls around it. But—</u>
+      <u who="NOPPENBERGER">Sleeping on—sleeping on the floors, sleeping on cots?</u>
+      <u who="MILLER">We were sleeping on cots in base camp, and if we were out in the boonies, we would throw fold-up field cots in our tracks, so either sleep inside the armored vehicle, or you sleep on one of these cots outside the armored vehicle, under some canvas. </u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">—which literally meant if the mortar round didn’t come through the roof, it was unlikely you’d be hurt.</u>
+      <u who="NOPPENBERGER">Mmm. And during this time, were you able to talk—I mean, obviously not talk but communicate regularly with family and your wife back home via letters or anything like that?</u>
+      <u who="MILLER">Well, letters I sent home <date>every day</date>. And one of the fellows in my company was an amateur ham radio operator, and I had a very good single-sideband radio in the back of my <orgName>Jeep</orgName>. And so he explained to me frequencies and how to connect with a ham operator in <placeName>the United States</placeName>, so as—</u>
+      <u who="NOPPENBERGER">Wow.</u>
+      <u who="MILLER">—as long as we were someplace where there were lots of people on the radio, so they couldn’t track us,—</u>
+      <u who="NOPPENBERGER">Uh-huh. </u>
+      <u who="MILLER">—the command would have been “<orgName>CQ</orgName> [code used by amateur radio operators as an invitation for any operators listening to respond], <orgName>CQ</orgName>, <orgName>CQ</orgName>, land mobile, <placeName>Vietnam</placeName>.” And I’d get connected to a ham operator somewhere in the <placeName>U.S.</placeName>, who could patch me through a telephone to call home.</u>
+      <u who="NOPPENBERGER">Wow! That’s amazing!</u>
+      <u who="MILLER">Now all I had to do was teach my wife how to deal with, “How ya doin’, hon? Over.” [Chuckles.]</u>
+      <u who="NOPPENBERGER">[Laughs.]</u>
+      <u who="MILLER">So the ham operator could [unintelligible] </u>
+      <u who="NOPPENBERGER">So you did get to—</u>
+      <u who="MILLER">—the transmission switch.</u>
+      <u who="NOPPENBERGER">Uh-huh. So you did get to speak to your family while you were in <placeName>Vietnam</placeName>,—</u>
+      <u who="MILLER">Yeah.</u>
+      <u who="NOPPENBERGER">—or to your wife.</u>
+      <u who="MILLER">Not regular, but periodically, yeah.</u>
+      <u who="NOPPENBERGER">Wow! That is—I mean, that must have been really, really nice.</u>
+      <u who="MILLER">Well, you think of—you think of the technology that exists <date>today</date>.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">This thing was the size of—I suppose a portable record player.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">But I was talking on the radio to somebody that was—what?—10, 12 thousand miles away?</u>
+      <u who="NOPPENBERGER">Yeah. So does that mean—I’m sorry, I’m a bit unfamiliar with the technology—does that mean the operator would be listening the whole time and switching the—</u>
+      <u who="MILLER">Yes. The ham—</u>
+      <u who="NOPPENBERGER">Oh, interesting, interesting.</u>
+      <u who="MILLER">The ham operator would be listening, yeah, so we didn’t talk about secrets and what was going on in the war,—</u>
+      <u who="NOPPENBERGER">Right.</u>
+      <u who="MILLER">—just what was going on at home. No, you know, as I said, I had a very good sergeant when I went off to war. So my number one offspring was born in—</u>
+      <u who="NOPPENBERGER">Oh, she was pregnant.</u>
+      <u who="MILLER">—<date>June of 1968</date>, halfway through my tour in <placeName>Vietnam</placeName>, so there were some phone calls to see how that was going and how he was getting on.</u>
+      <u who="NOPPENBERGER">A little baby boy! What was his name?</u>
+      <u who="MILLER"><persName>Sean</persName>. [Archivist Note: spelling uncertain]</u>
+      <u who="NOPPENBERGER"><persName>Sean</persName>. Oh, well, I mean, that must have been very hard to be away from your—you know, the baby.</u>
+      <u who="MILLER">Yeah. Well, I met him for the first time age—he would have been what? <date>Four months old</date>?</u>
+      <u who="NOPPENBERGER">Oh.</u>
+      <u who="MILLER">In <date>October</date> of ’68. Went on R&amp;amp;R [rest and recuperation] and met my wife and son in <placeName>Hawaii</placeName> for <date>a week</date>.</u>
+      <u who="NOPPENBERGER">Oh! So you got—sorry, can you repeat that date that you had, you said, <date>a week</date> off?</u>
+      <u who="MILLER"><date>A week</date> off. It would have been <date>October</date> of <date>’68</date>. </u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="MILLER">So flew to <placeName>Hawaii</placeName>.</u>
+      <u who="NOPPENBERGER">Great. You flew out—</u>
+      <u who="MILLER">And <persName>Uncle Sam</persName> paid for that, and <persName>Uncle Sam</persName> paid for my wife and son to fly there, so—</u>
+      <u who="NOPPENBERGER">Oh, that’s nice.</u>
+      <u who="MILLER">—I’m not certain on a captain’s salary, I could afford it. And spent <date>a week</date> in <placeName>Hawaii</placeName>, and then she went home and I went back to <placeName>Vietnam</placeName>. But that’s the first time I met him.</u>
+      <u who="NOPPENBERGER">Oh, wow! Did you know when you were going back—if that was <date>October</date>, did you know how much longer you had to serve in <placeName>Vietnam</placeName> for?</u>
+      <u who="MILLER">Yes, yes. I did, the tour in <placeName>Vietnam</placeName> at that time was <date>a year</date>, and so—</u>
+      <u who="NOPPENBERGER">Okay, so—</u>
+      <u who="MILLER">—I had arrived in <date>January</date>, and then I went home in <date>January</date> of ’69. </u>
+      <u who="NOPPENBERGER">So—</u>
+      <u who="MILLER">[cross-talk; unintelligible]</u>
+      <u who="NOPPENBERGER">Yeah, let’s just talk—oh, sorry, keep going.</u>
+      <u who="MILLER">So you know, finished the tour. Again, I can just describe it as an adventure. It wasn’t the kind of fun that <placeName>Germany</placeName> was, but I was doing my job, and—</u>
+      <u who="NOPPENBERGER">Well, can we talk a little bit more about—</u>
+      <u who="MILLER">[cross-talk; unintelligible] with any extra holes or pieces missing, so I was okay.</u>
+      <u who="NOPPENBERGER">Yeah, that is very fortunate.</u>
+      <u who="MILLER">We did a lot of work with <orgName>the South Vietnamese Army</orgName>. I had  South Vietnamese sergeant, <persName>Sgt</persName>. <persName>Sanh</persName> [Archivist Note: spelling uncertain], as an interpreter, and he was a bit of an interpreter and sometimes guide as to how to behave when we went places. But our experience with the Vietnamese was—other than the ones that were shooting at us—but in general, they were friendly and surprisingly happy people with all of the nastiness going on around them.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">And I—I guess, looking back—let’s just say I come away from <placeName>Vietnam</placeName> with a few scars. The biggest single one is complete disrespect for any of our politicians.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. </u>
+      <u who="MILLER">They have no idea what the—</u>
+      <u who="NOPPENBERGER">Yeah. Was there a lot of political—yeah, was there a lot of political dis- —either discussion or discourse—</u>
+      <u who="MILLER">Not when I was there.</u>
+      <u who="NOPPENBERGER">—that was happening?</u>
+      <u who="MILLER">This happened when I got home. Those people don’t pay any attention to the local history or cultural. The American forces had spent all of <name type="event">World War II</name> working with <placeName>Hồ Chí Minh</placeName> and General [Võ <persName>Nguyên] Giap</persName>, fighting against the Japanese. And then they got caught up in the [<placeName>U.S.</placeName> Senator <persName>Joseph R.] McCarthy</persName> era and “Red under every bed” and, oh, my God, we’ll go protect the South Vietnamese after the French left, because everyone was worried that the Chinese were going to take over <placeName>Southeast Asia</placeName>.</u>
+      <u who="NOPPENBERGER">Right. Communism, right.</u>
+      <u who="MILLER">Oh, yeah. Well, <placeName>Hồ Chí Minh</placeName> had gone to school and trained in <placeName>Russia</placeName>. He was a communist, but he was not Chinese communist. And none of them paid any attention to the history. The Vietnamese people spent a better part of <date>a thousand years</date> getting rid of Chinese overlords.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">And if you look at the end of the <placeName>Vietnam</placeName> conflict in <date>1975</date>, the first thing that happened was a bit of a border conflict on the north border with <placeName>China</placeName>, which was essentially the Vietnamese telling the Chinese, “Stay away.” Well, it would have been that way anyway. So a whole bunch of American kids died, and somewhere between a million and two million Japanese people died because politicians had no idea what they were doing. And I find that a bit frustrating.</u>
+      <u who="NOPPENBERGER">Yeah. Did you have any of that frustration while you were actually in <placeName>Vietnam</placeName>?</u>
+      <u who="MILLER">No.</u>
+      <u who="NOPPENBERGER">Was it, you know, being in contact with—</u>
+      <u who="MILLER">No, no, no.</u>
+      <u who="NOPPENBERGER">Oh. So—</u>
+      <u who="MILLER">This was—</u>
+      <u who="NOPPENBERGER">So—</u>
+      <u who="MILLER">This was [cross-talk; unintelligible].</u>
+      <u who="NOPPENBERGER">Even though your experience—</u>
+      <u who="MILLER">Looking back on the experience.</u>
+      <u who="NOPPENBERGER">Right, right. Well, I mean, did you see most of the war from—from your tank, from your cavalry? Is that the—</u>
+      <u who="MILLER">Saw most of it from the cavalry, so out of an armored vehicle or out of a <orgName>Jeep</orgName> or out of a helicopter. We did things that you wouldn’t think of doing. So, for example, flying around in helicopters, it was safer to fly; it was safer to fly between the trees than above the trees.</u>
+      <u who="NOPPENBERGER">Oh, wow.</u>
+      <u who="MILLER">And that may not be obvious, but when you’re between the trees, it’s much harder for somebody on the ground to take aim and shoot at you.</u>
+      <u who="NOPPENBERGER">Really!</u>
+      <u who="MILLER">Really.</u>
+      <u who="NOPPENBERGER">Is it because they can’t see you or because—</u>
+      <u who="MILLER">Well, they can’t move quickly enough.</u>
+      <u who="NOPPENBERGER">—you’re just closer to the ground?</u>
+      <u who="MILLER">You’re going—</u>
+      <u who="NOPPENBERGER">Oh!</u>
+      <u who="MILLER">—<date>70</date>, <date>80</date>, 90 miles an hour between the trees.</u>
+      <u who="NOPPENBERGER">Oh, okay.</u>
+      <u who="MILLER">If you’re up higher, they have a clearer view to take aim and shoot at you.</u>
+      <u who="NOPPENBERGER">Right, right.</u>
+      <u who="MILLER">So we learned to do things like that. But that’s back to being careful. [Chuckles.]</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. Right. </u>
+      <u who="MILLER">Not a lot. If we were in base camp, there was an officers’ club where you could go have a beer and listen to some music, but—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">—you know, there wasn’t the same mingling with local people, at least where—where we were. I can’t speak—</u>
+      <u who="NOPPENBERGER">Right.</u>
+      <u who="MILLER">—for people that were in <placeName>Saigon</placeName>, for example. But—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">—we spent a little bit of time in <placeName>Saigon</placeName>, playing palace guards, but didn’t really mingle with local people when we were there.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. </u>
+      <u who="MILLER">Yeah.</u>
+      <u who="NOPPENBERGER">Are there any other scars that you came away from, either physical or mental? I mean, anything else that you’d like to talk about?</u>
+      <u who="MILLER">Well, no, I have no physical scars, fortunately. I had a bit of aggravation because when I came back in ’69—by then, the antiwar movement was active, and my sister, who at the time was a student at <orgName>the University of Colorado</orgName>, was part of that, so we solved that over a couple of six packs of beer, explaining to her that she didn’t really understand what was going on over there.</u>
+      <u who="NOPPENBERGER">What—what—what kind of explanation would that have been? I mean, I’m sure, as a college student, she didn’t have the same exposure as you did. What—what did you kind of talk to her about?</u>
+      <u who="MILLER">Well, what my experience had been and that what she was hearing in the press at best was not 100 percent accurate—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">—and that if she wanted to pick on people, picking on returning soldiers was the wrong thing, that she ought to go pick on politicians. </u>
+      <u who="NOPPENBERGER">Yeah. </u>
+      <u who="MILLER">I guess the really defining one: My wife and I went back to <placeName>Vietnam</placeName> <date>three years ago</date>–</u>
+      <u who="NOPPENBERGER">Oh, wow.</u>
+      <u who="MILLER">—so <date>45 years</date> after my first visit.</u>
+      <u who="NOPPENBERGER">Okay!</u>
+      <u who="MILLER">It’s open for tourism. It’s still a communist country, but it doesn’t get in the way of anything.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">The prime minister at the moment is a South Vietnamese gentleman, not a North Vietnamese gentleman.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">The war is clearly over.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">The people are welcoming. The commercial development and the tourist development is phenomenal, but it was interst-</u>
+      <u who="NOPPENBERGER">Did you go back to any—yeah, did you go back to any of the places that you’d been familiar with during the war?</u>
+      <u who="MILLER">Oh, yeah, yeah. Well, we ended up in <placeName>Saigon</placeName>, so walking around in <placeName>Saigon</placeName>, went by where <orgName>the American Embassy</orgName> used to be. It’s now a consulate, but I had one of my vehicles parked in front of the front door for every evening for <date>about three weeks</date> when we were playing palace guard.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">The InterContinental Hotel [InterContinental Asiana Saigon], famous from Good Morning, <placeName>Vietnam</placeName>, is still there. But the street that goes behind the InterContinental Hotel, the street name had changed, so I had to ask our tour guide, about a 40-year-old Vietnamese lady, “Why was the street name changed?” And [to] put it in context: She didn’t know it had been. [Chuckles.]</u>
+      <u who="NOPPENBERGER">Oh, wow!</u>
+      <u who="MILLER">So it must have been changed [when] she was either an infant or before she was born.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">But we took a tour out to tunnels of <persName>Củ Chi [District]</persName>, where we had spent some hostile time during my first visit.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">And they’ve turned part—a little tiny bit of it—into, like, a museum. So I walked around that, which was kind of interesting. I’d seen similar things when I was there the first time, but it was interesting. But it was—I was just really, really pleased to see that they’ve gotten over it and they’re moving on—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">—in constructive, healthy ways.</u>
+      <u who="NOPPENBERGER">Wow!</u>
+      <u who="MILLER">So it was a super visit. It really was.</u>
+      <u who="NOPPENBERGER">Oh, I’m really glad to hear that.</u>
+      <u who="MILLER">That was in <date>the summer</date>—no, no. Yeah. No, it was in <date>May</date> of ’<date>68</date>.</u>
+      <u who="NOPPENBERGER">Okay, okay. So you had palace—palace—palace duty, working in the cavalry for the majority of your time there. Is that right?</u>
+      <u who="MILLER">Well, I was with the cavalry the whole time I was there.</u>
+      <u who="NOPPENBERGER">Oh. Oh, okay. And then you had—</u>
+      <u who="MILLER">I started out as an operations officer, and then I became a troop commander, so—</u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="MILLER">—<date>about six months</date> in a staff job and <date>six months</date> in a command job,—</u>
+      <u who="NOPPENBERGER">Okay. And was there any—</u>
+      <u who="MILLER">—which is part of the normal tour.</u>
+      <u who="NOPPENBERGER">Oh, okay. Was there any particular reason that you were promoted. Is it something that just happens over time, or was there a particular event that led to that?</u>
+      <u who="MILLER">No, this was the normal thing. I was a captain when I got there.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">And—but the first job I had was a junior staff job, calling for someone that was a captain. And I think, at least in our unit, a lot of the people that got there early on spent a bit of time in staff, one place or another, just to get feet on [the] ground with people that had been there and knew what was going on. And then company commanders went home, and those of us that had been there for a while became company or, at least with the <orgName>cav</orgName>, troop commanders. [A] troop in the cavalry is like a company in anything else.</u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="MILLER">Yeah.</u>
+      <u who="NOPPENBERGER">And so then what—if you were leaving in <date>January</date> of ’69, what were those last few months like?</u>
+      <u who="MILLER">It was a quiet time from a combat standpoint,—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="NOPPENBERGER">Right. Was—so you were—as you say, the bad guys were staying away from you, and I apologize if this is a sensitive subject: Did your cavalry company did it see a lot of casualties or a lot of injuries just over <date>the span of that year</date>, or were you relatively safe?</u>
+      <u who="MILLER">No, not many.</u>
+      <u who="NOPPENBERGER">Okay.</u>
+      <u who="MILLER">I had, I suppose, half a dozen lads wounded and two or three killed. A couple of company troop commanders that I knew were killed in firefights, so I knew people that were killed.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">Or wounded. But as I say, we just didn’t take the kind of beating that some of the infantry units took.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">Just the kind of unit we were.</u>
+      <u who="NOPPENBERGER">Right.</u>
+      <u who="MILLER">There were—there were good <date>days</date> and <date>less good days</date>, but—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">—you know, it’s like all things. You reckon if you’re doing okay 51 percent of the time, you’re doing better than most folks, or many folks.</u>
+      <u who="NOPPENBERGER">Yeah. Yeah. And how much of <placeName>Vietnam</placeName> did you see over the span of your—of your year there, do you think? I mean, it sounds like you did a lot of traveling and you saw a lot.</u>
+      <u who="MILLER">We worked, well, as I say, we worked 100-, 150-mile radius around <placeName>Saigon</placeName>, so I was as far west as the border with <placeName>Cambodia</placeName>,—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">—as far south as kind of into bits of <placeName>the Mekong River Delta</placeName>,—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">—as far east as <placeName>the South China Sea</placeName>, and then we got, I suppose, 100 or so miles north of <placeName>Saigon</placeName> into [a] big rubber plantation area that was owned by <orgName>Michelin</orgName>, so the <orgName>Michelin</orgName> rubber plantation. And then various villages and fields in between. You know—I don’t know, have you ever been in the tropics?</u>
+      <u who="NOPPENBERGER">I’ve been to <placeName>Central America</placeName>, which is a bit tropical.</u>
+      <u who="MILLER">Well, have you ever been in the tropics in <date>monsoon season</date>? And rainy season?</u>
+      <u who="NOPPENBERGER">I have not. [Chuckles.] I have not.</u>
+      <u who="MILLER">Okay. Well, [to] put [it] in context, <date>one day</date> we pulled into some dried-up rice paddies, and the rain came down, and the rice paddies that had been dry suddenly had six to twelve inches of water in them. [Chuckles.]</u>
+      <u who="NOPPENBERGER">Wow.</u>
+      <u who="MILLER">And we spent <date>the next three days</date> pulling armored vehicles out of the mud. [Laughs.]</u>
+      <u who="NOPPENBERGER">Yeah!</u>
+      <u who="MILLER">Things like that were part of the adventure.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. Wow! That must have been—I can’t imagine that, with all—especially with all the gear that I’m sure you had on you. It must have been not—not comfortable.</u>
+      <u who="MILLER">Well, it was wet. [Chuckles.]</u>
+      <u who="NOPPENBERGER">Right, right.</u>
+      <u who="MILLER">But the coldest I’ve ever been was <date>one day</date> in <placeName>Vietnam</placeName>, when I got soaking wet and I couldn’t get dry for about 36 hours.</u>
+      <u who="NOPPENBERGER">Wow!</u>
+      <u who="MILLER">You know how cold it gets in <placeName>Hanover</placeName>, and <placeName>Chicago</placeName>’s just the same.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">And I was colder then than I ever was in <placeName>Hanover</placeName> or <placeName>Chicago</placeName>.</u>
+      <u who="NOPPENBERGER">Wow! That is not something you would expect to hear from <placeName>Vietnam</placeName>, but, I mean—</u>
+      <u who="MILLER">No. But, well, it’s—I was suffering at the end from hypothermia. I couldn’t feel the tips of my fingers, and—</u>
+      <u who="NOPPENBERGER">Wow!</u>
+      <u who="MILLER">—things like that. But you get dry and wrapped in a blanket, you’re warm in 15 minutes.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. Wow! That wet—I mean, yeah, that wet really does something. </u>
+      <u who="MILLER">Oh yeah.</u>
+      <u who="NOPPENBERGER">So then—so did you ever have to deal with extreme heat, though, on the other end of that?</u>
+      <u who="MILLER">Not like desert or anything like that. Hot, hot, hot was maybe 90, 95 degrees.</u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="MILLER">Which compared—well, that’s no worse than <placeName>Chicago</placeName> was in <date>the summer</date>.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>, <persName>mm-hm</persName>. </u>
+      <u who="MILLER">But it doesn’t get terribly, terribly hot there, and it doesn’t really get cold. The day I was feeling so cold, it was probably never colder than about 75 degrees.</u>
+      <u who="NOPPENBERGER">Okay. </u>
+      <u who="MILLER">But you get wet, and—</u>
+      <u who="NOPPENBERGER">Yeah. Oh, yeah.</u>
+      <u who="MILLER">No, no, no. No debriefings. There was a period of <date>about 10 days</date> or so, turning over command of my company to the new commander, so inventories and checking that the equipment that was supposed to be there was there, that kind of stuff.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">But nothing unexpected and nothing unusual. And went to <persName>Biên Hòa</persName>, got on an airplane and flew into <placeName>San Francisco</placeName>, and changed airplanes and flew home to <placeName>Chicago</placeName>, where I spent <date>a week</date> or two on leave, and put everyone in a car, and then we drove to <placeName>Fort Dix</placeName>, <placeName>New Jersey</placeName>, which was my next assignment, my last assignment. Moved out there for <date>a little over a year</date>, and then got out of the <orgName>Army</orgName>, and—</u>
+      <u who="NOPPENBERGER">What were you doing at Fort Dix? What was your assignment?</u>
+      <u who="MILLER">I was—initially, I was commanding officer of the headquarters company of a training brigade, because Fort Dix is a big training base.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">And I did that for <date>about nine months</date>, and then I was reassigned as a defense attorney in the military court system at Fort Dix, so—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">—this is getting guilty guys out of trouble. [Chuckles.]</u>
+      <u who="NOPPENBERGER">Oh, wow! So you did have—you ended up doing a little bit of law, then? Is that—</u>
+      <u who="MILLER">A little bit of military law, yeah.</u>
+      <u who="NOPPENBERGER">Uh-huh. Okay. And how was adjusting back to the <placeName>States</placeName>, to being with your family? Was that—what was that like?</u>
+      <u who="MILLER">Oh, that was good.</u>
+      <u who="NOPPENBERGER">Good, good.</u>
+      <u who="MILLER">I had no—had no big problems, and it was a good experience, and we—I guess we enjoyed our time at Fort Dix.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. </u>
+      <u who="MILLER">And—</u>
+      <u who="NOPPENBERGER">Why did you decide to—I’m sorry. Keep going.</u>
+      <u who="MILLER">I decided to leave the <orgName>Army</orgName>. On my way to <placeName>Vietnam</placeName>—on my way to <placeName>Panama</placeName>, actually, I was stopped in <placeName>Washington</placeName>—</u>
+      <u who="NOPPENBERGER">Oh.</u>
+      <u who="MILLER">—to find out what my next assignment would be after <placeName>Vietnam</placeName>, and what I really wanted to do was go back to <placeName>Germany</placeName>, and—</u>
+      <u who="NOPPENBERGER">Yeah.</u>
+      <u who="MILLER">—given what was going on at the time, that was not going to happen, so I just made a decision: By the time I get back from <placeName>Vietnam</placeName>, I will have served the time I’m obligated to serve, so I’ll resign my commission and find somebody else that’ll send me back to <placeName>Europe</placeName>.</u>
+      <u who="NOPPENBERGER">Oh!</u>
+      <u who="MILLER">So [chuckles], I—</u>
+      <u who="NOPPENBERGER">Well, yeah, you knew what you—where you wanted to be.</u>
+      <u who="MILLER">Yeah. So I went back to <placeName>Chicago</placeName>. With the time I had spent in the military actually made it quite easy to get a job, so I—</u>
+      <u who="NOPPENBERGER">Really!</u>
+      <u who="MILLER">—got a job—</u>
+      <u who="NOPPENBERGER">What_</u>
+      <u who="MILLER">Lots of people were looking—</u>
+      <u who="NOPPENBERGER">Why is that?</u>
+      <u who="MILLER">—for ex-officers from the military at the time.</u>
+      <u who="NOPPENBERGER">Oh! Why?</u>
+      <u who="MILLER">Because they had experience—</u>
+      <u who="NOPPENBERGER">—was that a particular appeal.</u>
+      <u who="MILLER">—dealing with people.</u>
+      <u who="NOPPENBERGER">Oh!</u>
+      <u who="MILLER">And in unusual situations, so—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. </u>
+      <u who="MILLER">—I was hired by <orgName>Continental Illinois National Bank</orgName> [sic; <orgName>Continental Illinois National Bank and Trust Company of Chicago</orgName>] as an operations officer, and went to work for them and enrolled to do an MBA at <orgName>Northwestern University</orgName> at night.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">And spent <date>three years</date>—well, no, <date>two and a half years</date> managing the bank’s night IT [information technology] operations, and then I was assigned to <orgName>the international department</orgName>. And <date>about a month</date> after I finished my <orgName>MBA</orgName> program was assigned as an operations manager to the bank’s <placeName>London</placeName> branch, so would have been, I suppose, <date>June</date> of—no, it was <date>April of 1970</date> we packed up the whole family and moved to <placeName>London</placeName>.</u>
+      <u who="NOPPENBERGER">And did you—did you have any sort of—I mean, you—you mentioned your sister being part of the antiwar—did you ever have any other discussions with your family—parents or other siblings—about, you know, politics or your time—or your time there in general, if they had any sort of reaction to that?</u>
+      <u who="MILLER">The only one that had much of a reaction was my sister. My father, as a veteran, just wanted to know what had gone on, but when I was writing home, I would write part of a letter to my wife, to be shared with the family, and then part of the letter that was just to her, so they kind of knew what was going on <date>day</date> by day as I was there.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">—made life easier, I suppose.</u>
+      <u who="NOPPENBERGER">Yeah, that does help, I’m sure. And your mother? Any sort of reaction? I mean, you being her son, I’m sure it’s a bit different.</u>
+      <u who="MILLER">No, it was—well, it was just that everyone was happy to see me home in one piece.</u>
+      <u who="NOPPENBERGER">Yeah. Yeah.</u>
+      <u who="MILLER">I was lucky. No, I did not have any problems with that. And even with my sister—she was just being a typical young college girl being silly. But that’s just kind of how my sister was at the time. It wasn’t hostile.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">And I didn’t have any of the problems, fortunately, that some people had with crowds of people outside airports, spitting and throwing things. I didn’t—</u>
+      <u who="NOPPENBERGER">Right.</u>
+      <u who="MILLER">—experience anything like that.</u>
+      <u who="NOPPENBERGER">That’s fortunate.</u>
+      <u who="MILLER">Nineteen—2013.</u>
+      <u who="NOPPENBERGER">Twenty thirteen. Okay, okay. But did you ever stay in contact with people that you met there or join any sort of veterans associations?</u>
+      <u who="MILLER">I met very few close friends in <placeName>Vietnam</placeName>.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">It was easier not to.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">I had people that I worked with, that I respected, and you know, off and on I’ve had contact with a few of them. I have contact with a number of people from <placeName>Germany</placeName>.</u>
+      <u who="NOPPENBERGER">Oh, wow.</u>
+      <u who="MILLER"><placeName>Germany</placeName> was much more—</u>
+      <u who="NOPPENBERGER">It was a different experience. Right, right.</u>
+      <u who="MILLER">It was a very different experience. But I didn’t make many close friends in <placeName>Vietnam</placeName> because it was easier not to. If somebody got hurt, it was easier if it was at arm’s length.</u>
+      <u who="NOPPENBERGER">That’s understandable. Did you ever get in contact with any sort of, like, reunion groups or anything like that? I know that’s, that’s pretty popular.</u>
+      <u who="MILLER">For a while, was involved in a reunion group of the cavalry, but because I was—by the time that got active, I was living outside of <placeName>the United States</placeName>, so—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">—there were e-mails and things going back and forth, but I just wasn’t in a position to join the festivities. Let’s put it that way.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>, <persName>mm-hm</persName>. </u>
+      <u who="MILLER">You know, as I say, I was back in the States for <date>a few years</date>, then moved to <placeName>London</placeName> for <date>six years</date>, and back to the States for <date>about a dozen years</date> and moved to <placeName>Japan</placeName>, and from <placeName>Japan</placeName> back to <placeName>the U.K.[United Kingdom</placeName>], and we’ve been in the <placeName>U.K.</placeName> now for about 22, <date>23 years</date>.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">So contacts in the <placeName>U.S.</placeName> are not what they once were.</u>
+      <u who="NOPPENBERGER">Right.</u>
+      <u who="MILLER">You see the movies and things. They’re all kind of fairy tales. As I say, I was a history major at <placeName>Dartmouth</placeName>,—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">—so I have an interest in the history and the cultures of that part of the world.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">And that perhaps is where I get frustrated with the political types.</u>
+      <u who="NOPPENBERGER">Right.</u>
+      <u who="MILLER">But—</u>
+      <u who="NOPPENBERGER">When you say “movies,” do you mean—do you mean sort of like <placeName>Hollywood</placeName> films about <placeName>Vietnam</placeName>?</u>
+      <u who="MILLER">Yeah, <placeName>Hollywood</placeName> films.</u>
+      <u who="NOPPENBERGER">Yeah.</u>
+      <u who="MILLER">I suppose I get a chuckle out of those kinds of films. Films that I’ve enjoyed: Good Morning, <placeName>Vietnam</placeName> was an interesting one, but a fairy tale. Band of Brothers was more interesting. <persName>Saving Private Ryan</persName>, not my experience, but I can appreciate what was going on. That kind of stuff, I find interesting.</u>
+      <u who="NOPPENBERGER">oh, okay.</u>
+      <u who="MILLER">But—</u>
+      <u who="NOPPENBERGER">Yeah, I mean, to compare it to your actual life is something else, I’m sure.</u>
+      <u who="MILLER">Yeah. Since we’ve been here in the U.K.—you may or may not hear much about it in the <placeName>U.S.</placeName>, but—</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">—people here are going through reunion around <name type="event">the First World War</name>, so a <date>hundred years ago</date>.</u>
+      <u who="NOPPENBERGER">Oh! Great.</u>
+      <u who="MILLER">So there’s all kinds of things going on here about what went on in <name type="event">the First World War</name>.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">And I guess I’ve become—</u>
+      <u who="NOPPENBERGER">Well,—</u>
+      <u who="MILLER">—a bit of a—in my old age, have become a bit of an anarchist. If I had my way, there’s a in <placeName>Whitehall</placeName>, not far from No. 10 Downing Street, is a statue to Field <persName>Marshal Haig</persName>, who was the British commander in [the] <name type="event">First World War</name>.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">And if I had my way, his statue would be pulled down and defaced because of what he and his like did to an awful lot of young English soldiers.</u>
+      <u who="NOPPENBERGER">Do you mean—do you mean the soldiers that they were commanding?</u>
+      <u who="MILLER">Yes.</u>
+      <u who="NOPPENBERGER">Or—oh.</u>
+      <u who="MILLER">Well, they were incompetent. It wasn’t until the—</u>
+      <u who="NOPPENBERGER">Well, this actu—go ahead. okay.</u>
+      <u who="MILLER">It wasn’t till the very end of <name type="event">the First World War</name> that they got over Napoleonic war tactics, and when you have rapid-fire artillery and machine guns, people running across a field in a line is just not a very smart thing to do, but they did that in a big way for—what?—three, <date>three and a half years</date>? So the casualty rates, compared to my war, were incredible, just horrendous.</u>
+      <u who="NOPPENBERGER">Well, that’s actually a bit—that brings me to a new thought. Since you have been living in the <placeName>U.K.</placeName> for such a long time, does <name type="event">the Vietnam War</name> ever come up, really?</u>
+      <u who="MILLER">Yeah once in a while.</u>
+      <u who="NOPPENBERGER">Yeah?</u>
+      <u who="MILLER">You know, people here will ask questions: What was it like? And things like that.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>. But it doesn’t have the same sort of—the same maybe—the way they would think about it wouldn't be the same as an American who might have lived at that time—</u>
+      <u who="MILLER">No, absolutely not.</u>
+      <u who="NOPPENBERGER">or even living in the country, it’s very different.</u>
+      <u who="MILLER">It’s more—it’s more curiosity: What was it like?</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>, <persName>mm-hm</persName>. </u>
+      <u who="MILLER">Because lots of tour companies are arranging tours to go out there. “Is it worth taking a tour there?” [Chuckles.] Those kinds of questions.</u>
+      <u who="NOPPENBERGER">Interesting.</u>
+      <u who="MILLER">But, you know, it’s a different experience than people in the <placeName>U.S.</placeName> had.</u>
+      <u who="NOPPENBERGER">Yeah.</u>
+      <u who="MILLER">Not—not really. It’s been interesting. It was interesting coming back to our reunion <date>last June</date>.</u>
+      <u who="NOPPENBERGER"><orgName>Dartmouth</orgName> reunion.</u>
+      <u who="MILLER">Yes, it was our, Class of ’65’s fiftieth. And one of the sessions during the reunion was “Class of ’65 and <placeName>Vietnam</placeName>.”</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">Good discussion. And quite a number of us at one time or another ended up there.</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>.</u>
+      <u who="MILLER">But I guess to me the single most interesting part of it was a transcript of a discussion between [President <persName>Lyndon B.] Johnson</persName> and [Secretary of <orgName>Defense</orgName> <persName>Robert S.] “Bob” McNamara</persName>, <persName>Robert McNamara</persName>. So the president of <placeName>the United States</placeName> and head of <orgName>the Defense Department</orgName> [<orgName>U.S. Department of Defense</orgName>], Secretary of <orgName>Defense</orgName>, and as far as I could tell from the transcript, it’s not clear they could find <placeName>Vietnam</placeName> on a map with names, much less—</u>
+      <u who="NOPPENBERGER">Oh, wow.</u>
+      <u who="MILLER">—understand any of the culture and the history, so—just went on to confirm my thoughts about the politicians. [Chuckles.]</u>
+      <u who="NOPPENBERGER"><persName>Mm-hm</persName>, <persName>mm-hm</persName>. Yeah. I’m sure you—I mean, actually being there is much different than talking about it—</u>
+      <u who="MILLER">Oh, yeah.</u>
+      <u who="NOPPENBERGER">—a political—yeah.</u>
+      <u who="MILLER">No, that’s all—that’s all—</u>
+      <u who="NOPPENBERGER">Yeah, this was a—</u>
+      <u who="MILLER">It got interesting for you.</u>
+      <u who="NOPPENBERGER">Well, this was a really full discussion, and I am super pleased with it. I will wrap it up for us. This is <persName>Angela Noppenberger</persName> interviewing <persName>Thomas Miller</persName>. Thank you so much, and I am going to end this recording.</u>
+    </body>
+  </text>
+</TEI>

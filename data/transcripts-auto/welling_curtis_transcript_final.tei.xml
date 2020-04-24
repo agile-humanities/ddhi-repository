@@ -1,0 +1,559 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="SONNENFELD"/>
+        <person xml:id="WELLING"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="SONNENFELD">This is Alexa [P.] <persName>Sonnenfeld</persName> with Curt [R.] Welling. We are in the <orgName>Rauner</orgName> [<orgName>Special Collections] Library</orgName>. It is <date>August the 19th</date>, just after 2 p.m. And it is <date>2015</date>.</u>
+      <u who="WELLING">I was born on <date>June 21st, 1949</date>, which is, by the way, <date>the summer solstice</date>, <date>the longest day of the year</date>. <date>A propitious day</date> to be born. In <placeName>Rochester</placeName>, <placeName>New York</placeName>, in upstate <placeName>New York</placeName>.</u>
+      <u who="SONNENFELD">Okay. Can you tell me a little bit about your family? Did you have any siblings?</u>
+      <u who="WELLING">Yup, so I was a postwar baby, and I had, as was common at that time, a sibling who was a prewar baby, so I have sister who is <date>eight years</date> older than I am.</u>
+      <u who="SONNENFELD">Okay. And it was just the two of you?</u>
+      <u who="WELLING">Just the two of us, yup.</u>
+      <u who="SONNENFELD">And how about your parents? What did they do?</u>
+      <u who="WELLING">My parents were <name type="event">post-Depression</name> era young, professional people. They both grew up in <placeName>Syracuse</placeName>, <placeName>New York</placeName>. My father grew up on a farm. Both of them dropped out of college during the Depression.</u>
+      <u who="SONNENFELD">Okay. </u>
+      <u who="WELLING">And my mother went on to make a home, and then in <date>later years</date> of her working life, she worked as an administrative assistant or secretary in local public schools. And my father was an insurance man and always worked in the business of independent insurance brokerage in <placeName>Rochester</placeName>.</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>. And can we get both of their names and the maiden name of your mother?</u>
+      <u who="WELLING">My mother’s name was <persName>Helen Otto</persName>, O-t-t-o, <persName>Welling</persName>, so her maiden name was <persName>Otto</persName>. My father’s name was <persName>Roger B.</persName>, as in boy, <persName>Welling</persName>.</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>. And how was growing up in <placeName>Rochester</placeName>?</u>
+      <u who="WELLING">It’s a good open probe. So <placeName>Rochester</placeName> is actually—are you familiar with <placeName>New York</placeName> state?</u>
+      <u who="SONNENFELD">A bit, yes.</u>
+      <u who="WELLING">So <placeName>Rochester</placeName> is in western <placeName>New York</placeName>, which, for people who are <placeName>New York City</placeName> centric, it’s all sort of the frontier out there. <orgName>Western New York</orgName> actually has more in common with <placeName>Ohio</placeName> and the <placeName>Midwest</placeName> than it does with <placeName>New England</placeName> and downstate <placeName>New York</placeName>.</u>
+      <u who="SONNENFELD">Sure. Yeah. Any kind of specific memories that jump out when you look back to your childhood? Where did you go to elementary school, and how did you like elementary school?</u>
+      <u who="WELLING">Yeah. So I went to public school throughout. Both my sister and I were public school kids. We had a great public school education living in a near-end suburb of <placeName>Rochester</placeName>.</u>
+      <u who="SONNENFELD">Sure, and do you remember how you perceived the race riots of the <date>’60s</date> as a younger individual?</u>
+      <u who="WELLING">Yes. I was probably <date>13 or 14 years old</date>. So—no, I just remember thinking that—number one, not really understanding from a social contract and a political standpoint why it was such a big deal, but knowing that it was a big deal because property was being destroyed and people were very—you know, fires were being started, and looting was taking place and so on. So it was the first time in my life that I had ever even come close to a boundary feeling unsafe.</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>. Sure.</u>
+      <u who="WELLING">And if you think about post-<name type="event">World War II America</name>, which is obviously the—the preamble to the <placeName>Vietnam</placeName> period, it was—you know, in <persName>Ronald</persName> [<persName>W.] Reagan’s</persName> term, it was “morning in <placeName>America</placeName>, you know. It was the great postwar boom. It was <persName>Dwight</persName> [D.] <persName>Eisenhower</persName>, the great, avuncular president. It was a double-digit <date>annual</date> growth. It was the American dream. It was a home. It was—you know, it was a very robust time for growth. It was also a dark time, as we’ve come to now know, with things like anti-communism and <persName>McCarthyism</persName> and racism, so—but that was not very apparent to people in a community like <placeName>Rochester</placeName>.</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>.</u>
+      <u who="WELLING">And it was certainly not apparent to people who were approaching adolescence or in <date>their preteen years</date>.</u>
+      <u who="SONNENFELD">So the race violence was kind of—would it be fair to say it was kind of your first—the popping of kind of the insular bubble of <placeName>Rochester</placeName> for you to—</u>
+      <u who="WELLING">Yeah, although I don’t think I intellectualized it that way.</u>
+      <u who="SONNENFELD">No?</u>
+      <u who="WELLING">I think it was just, Wow, this is—this is scary a little bit. It’s hard to understand and so on. And it—and it was contained relatively quickly so that if you were not focusing on it and you weren’t qualified to look at it sociologically or intellectually (which I wasn’t at that time), it was sort of—you had the illusion that things were okay, that stability sort of made things seem fine.</u>
+      <u who="SONNENFELD">Did anything change in terms of what your parents allowed or disallowed you to do going out at night or seeing friends throughout the course of—</u>
+      <u who="WELLING">No.</u>
+      <u who="SONNENFELD">—this time?</u>
+      <u who="WELLING">Not really. No, not really.</u>
+      <u who="SONNENFELD">Your adolescence just progressed.</u>
+      <u who="WELLING">I wasn’t old enough to drive at that time. But by the time I got to high school and stuff—you know. Once again, it was sort of the spasm of activity that opened a wound. But the wound in <placeName>the United States</placeName> for a long time was pretty well contained and glossed over.</u>
+      <u who="SONNENFELD">Sure.</u>
+      <u who="WELLING">So the racial issues in <placeName>America</placeName> in the <date>’60s</date> were perceived to be largely Southern issues, for example. So having debilitating riots in <placeName>Philadelphia</placeName> and <placeName>New York</placeName> and in <placeName>Watts</placeName> [a neighborhood in <placeName>Los Angeles</placeName>] in <placeName>California</placeName> was a shock to people because they didn’t associate it—you know, there was a simplistic view that racism equals slavery equals the <placeName>South</placeName>. But everybody from the chamber of commerce to the mayor, to people, didn’t want it to be a problem, so they sort of took the ostrich approach and calmed it down and then moved on.</u>
+      <u who="WELLING">For example, busing was a big thing, if you remember—</u>
+      <u who="SONNENFELD">Right.</u>
+      <u who="WELLING">—reading about the busing controversy in <placeName>Boston</placeName> and <placeName>New England</placeName> and other places. Busing is a remedy for poor segregation, which was something <persName>Moynihan</persName> would not have favored because it was such a violent dislocation of people. And so I do remember sort of coming into an awareness of this debate—</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>. </u>
+      <u who="WELLING">—but, again,—</u>
+      <u who="SONNENFELD">How about—</u>
+      <u who="WELLING">—the focus was primarily on the <placeName>South</placeName> at that time so the Northerners were able to say well it’s not really a Northern problem. </u>
+      <u who="SONNENFELD">Sure.</u>
+      <u who="WELLING">Where are you from?</u>
+      <u who="SONNENFELD"><orgName>I’m</orgName> from <placeName>Denver</placeName>, actually.</u>
+      <u who="WELLING"><persName>Mm-hm</persName>, yeah.</u>
+      <u who="SONNENFELD">Yeah.</u>
+      <u who="WELLING">Great place.</u>
+      <u who="SONNENFELD">It is a great place to grow up. How about your parents’ perspective on the—the race violence? Were you aware of their political leanings?</u>
+      <u who="WELLING"><persName>Mm-hm</persName>, <persName>mm-hm</persName>. Yeah, we were a Republican house.</u>
+      <u who="SONNENFELD">Where did they fall on the spectrum.</u>
+      <u who="WELLING">My father was a staunch <orgName>Eisenhower</orgName> supporter, very conservative guy. He was a <persName>Barry</persName> [<persName>M.] Goldwater</persName> supporter in <date>1964</date>.</u>
+      <u who="SONNENFELD">Sure.</u>
+      <u who="WELLING">And our role model was sort of “Well, they’re not us, and they live where they live and we live where we live, but we don't think that they should be disadvantaged. We don’t think they should be segregated. We don’t think they should be barred, you know, just as a basic matter of fairness and so on.</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>. You mentioned—</u>
+      <u who="WELLING">But I don’t remember—I don’t remember any serious arguments or debates or—you know, I was never a particularly liberal person.</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>.</u>
+      <u who="WELLING">It was sort of an issue that was there but you could conduct your <date>daily</date> life, and it wasn’t top of mind, and It wasn’t top of experience.</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>. You mentioned that the <date>Sunday</date> experience was—was part of your life growing up.</u>
+      <u who="WELLING"><persName>Mm-hm</persName>, <persName>mm-hm</persName>. </u>
+      <u who="SONNENFELD">Can you speak a little bit to what sect of Christianity you ascribed to and how your Christian upbringing might have—</u>
+      <u who="WELLING">Sure.</u>
+      <u who="SONNENFELD">[cross-talk; unintelligible]</u>
+      <u who="WELLING">Yeah, it was pretty conventional Protestant upbringing. American Baptist Convention, which is different than <placeName>the Southern Baptist Convention</placeName>, just because when you say “<placeName>Baptist</placeName>” to some people, they think—so it really the liturgy and the—and the service is more like a Presbyterian or a <placeName>Lutheran</placeName> or <placeName>Methodist</placeName> form of Protestantism. </u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>. Before we really get into—into high school a little bit deeper, let’s talk about a couple of the defining events of <date>the ’60s</date>, if you don’t mind.</u>
+      <u who="WELLING"><persName>Mm-hm</persName>.</u>
+      <u who="SONNENFELD">Do you remember where you were when [President <persName>John F.]</persName> <persName>Kennedy</persName> was assassinated?</u>
+      <u who="WELLING">Oh, vivid—vividly. Yeah, I was in English class in junior high school, and the teacher of the section of English came in in tears and said, “They’ve just shot the president.”</u>
+      <u who="SONNENFELD">That’s what you mentioned.</u>
+      <u who="WELLING">My parents had voted for <persName>Richard [M.] Nixon</persName> and so on, but obviously the president being shot was an enormous national tragedy and trauma and a terrible, terrible thing.</u>
+      <u who="SONNENFELD">Were you attracted to radio and broadcasting through- —throughout your adolescence or throughout high school in any way?</u>
+      <u who="WELLING">I was aware of radio and broadcasting. My parents were extremely well informed people, so they—they read, even though they never finished college. It was back in <date>the days</date> when if you got a high school education, you got a really good education.</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>. Alright. </u>
+      <u who="WELLING"><persName>Mm-hm</persName>.</u>
+      <u who="SONNENFELD">Was there a sport that you excelled in in high school, or did you continue to dabble in a number of sports?</u>
+      <u who="WELLING">I was a somewhat successful football and baseball player. I was an All County football player and a quarterback and the captain of the football team.</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>. Are there any other experiences or events that really stick out to you when you look back on high school? And can you give us the name of your high school?</u>
+      <u who="WELLING">Sure.</u>
+      <u who="SONNENFELD">I’m sorry, I forgot that.</u>
+      <u who="WELLING"><orgName>Brighton High School</orgName>, B-r-i-g-h-t-o-n High School. It’s in <placeName>Brighton</placeName>, <placeName>New York</placeName>, which is—zip code <placeName>Rochester</placeName>, so it’s not typically differentiated, as some other towns are around—[soccer player <persName>M. Abigail</persName>] “<persName>Abby</persName>” <persName>Wambach</persName>, for example, is from the next town out, which is called <placeName>Pittsford</placeName>, <placeName>New York</placeName>.</u>
+      <u who="SONNENFELD">[Chuckles.]</u>
+      <u who="WELLING">You know who <persName>Abby Wambach</persName> is.</u>
+      <u who="SONNENFELD">I do. </u>
+      <u who="WELLING">Yeah.</u>
+      <u who="SONNENFELD">Yeah.</u>
+      <u who="WELLING">Any other defining events—[raps table several times]? Well, it was the beginning of a big drug culture experience, of course.</u>
+      <u who="SONNENFELD">You—</u>
+      <u who="WELLING">—exotic in the mid-‘60s. </u>
+      <u who="SONNENFELD">—partook in—</u>
+      <u who="WELLING">Oh, yeah.</u>
+      <u who="SONNENFELD">In both? Yeah.</u>
+      <u who="WELLING">Yeah. But I didn’t really smoke much until I got to college,—</u>
+      <u who="SONNENFELD">Uh-huh. </u>
+      <u who="WELLING">—because I still thought I was an athlete.</u>
+      <u who="SONNENFELD">Sure.</u>
+      <u who="WELLING">Well, you know, the <date>’60s</date>, right? I mean, it was a pretty heady time. You know, the economy was great. There was this social fabric tension. People were making money. It was the <persName>Beatles</persName>. It was <persName>Motown</persName>. It was—</u>
+      <u who="SONNENFELD">Were you a <persName>Beatles</persName> fan?</u>
+      <u who="WELLING">Oh, yeah. I was a big music fan. That’s the other thing.</u>
+      <u who="SONNENFELD">Okay. Yeah.</u>
+      <u who="WELLING">Loved music. Sang. Was a lead singer in a B-plus cover band in high school and college.</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>. What kind of bands did you cover?</u>
+      <u who="WELLING">All rock ’n’ roll stuff—you know, some <placeName>Motown</placeName>, some <persName>Beatles</persName>, some groups that you never would have heard of, but—you know, <placeName>Earth</placeName>, <orgName>Wind &amp;amp</orgName>; Fire and <orgName>the Grass Roots</orgName> and all kinds of other stuff like that. <orgName>Mitch Ryder &amp;amp</orgName>; <orgName>The Detroit Wheels</orgName>, <persName>Bob Dylan</persName>, the [Rolling] Stones, you know. So it was—it was—it was the—one of the most extraordinary times in music history in <placeName>the United States</placeName>, in popular music history in <placeName>the United States</placeName>.</u>
+      <u who="SONNENFELD">Certainly.</u>
+      <u who="WELLING">There are people now that think the hip-hop era has exceeded that in terms of its social importance and the quality of the music, but that’s a pretty aggressive debate to have.</u>
+      <u who="SONNENFELD">How about classes, themselves? What subjects did you like? Were you excelling in school?</u>
+      <u who="WELLING">Yeah, I was—<orgName>social sciences</orgName>. I always was able to write pretty well. And I had the benefit of good teaching, good writing teaching when I was in high school. And I was fine at math, but I topped out in math pretty early. I had pre-calculus in high school, and I just didn’t like it very much. Liked the sciences, liked biology and chemistry much better than physics.</u>
+      <u who="SONNENFELD">Sure. So you graduate from high school. You’ve excelled in sports, done well in your classes.</u>
+      <u who="WELLING">I was a pretty well rounded kid, yeah.</u>
+      <u who="SONNENFELD">Pretty well-rounded kid, definitely. What drew you to <orgName>Dartmouth</orgName>?</u>
+      <u who="WELLING">My wife’s father.</u>
+      <u who="SONNENFELD">Your wife’s father?</u>
+      <u who="WELLING">So we grew up in <placeName>Rochester</placeName>, and my wife was <date>a year older</date> than I was. We started dating when she was a junior and I was a sophomore.</u>
+      <u who="SONNENFELD">So through most of your high school career you had a serious girlfriend.</u>
+      <u who="WELLING">She went to a college in central <placeName>New York</placeName>, called <orgName>Wells College</orgName>, which is still there. At that time, it was an all-women’s college about 30 miles north of <placeName>Ithaca</placeName>, where <orgName>Cornell</orgName> [University] is.</u>
+      <u who="SONNENFELD">Did your parents dropping out of college weigh on your decision or your desire to continue your education, or not so much?</u>
+      <u who="WELLING">Oh, no, it was never—my parents were huge supporters and believers in education, so there was never a question, and they—they’re classic examples of WASP [White Angle-Saxon Protestant], American dream parents, I think, who said, “The best way for our kids to have a better life than we have  is for education.”</u>
+      <u who="SONNENFELD">So did your sister not attend?</u>
+      <u who="WELLING">No, she did go to college.</u>
+      <u who="SONNENFELD">Oh, she did.</u>
+      <u who="WELLING">She went to <orgName>State University Teachers College</orgName> in <placeName>New York</placeName>.</u>
+      <u who="SONNENFELD">Okay. </u>
+      <u who="WELLING">Yeah.</u>
+      <u who="SONNENFELD">Sure. So you said when you got to <orgName>Dartmouth</orgName>, you immediately fell in love with the place.</u>
+      <u who="WELLING">I actually fell in love with it before I got here.</u>
+      <u who="SONNENFELD">Okay. Was it—was it the environment? What was it about <orgName>Dartmouth</orgName> that—that really attracted you?</u>
+      <u who="WELLING">It was—there’s a big, very active alumni presence in <placeName>Rochester</placeName>, many of whom I know—I knew and admired, and so the camaraderie among the alumni was great.</u>
+      <u who="SONNENFELD">So you arrive on campus in what, the fall of ’66?</u>
+      <u who="WELLING"><date>Sixty-six</date>. <date>Sixty-seven</date>, <date>the fall</date> of <date>’67</date>. </u>
+      <u who="SONNENFELD">Sixty-seven? All right. Can you tell me a little bit about what it felt like, <date>late ’60s</date>, at <orgName>Dartmouth</orgName> as a freshman? What’s going through your mind?</u>
+      <u who="WELLING">Yeah, sure. Well, what is now called <orgName>the River Cluster of Dorms</orgName>, which at that time was called the <orgName>Wigwam</orgName> dorms because the mascot at that time was the Indian.</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>.</u>
+      <u who="WELLING">I lived in French Hall, which was the last of the River Cluster dorms. And those dorms were not wildly—widely sought out.</u>
+      <u who="SONNENFELD">Oh, I understand that feeling.</u>
+      <u who="WELLING">So it would be—it’s a little like living in the north campus, maybe, even though by urban campus standards, you’re a five-minute walk, right?</u>
+      <u who="SONNENFELD">Sure.</u>
+      <u who="WELLING">It’s just not on the [Dartmouth] Green. It’s not where Mass[achusetts] Row is or Topliff [Hall] or, you know, <persName>Tuck Drive</persName> is. So anyway. But I was a pretty unentitled kid. I hadn’t gone to prep school. I’d gone to public school. I didn’t have any great expectations. I thought everybody there was great. And I thought it was fine. My first roommate was a public school kid from <placeName>Minnesota</placeName>. We had nothing in common. </u>
+      <u who="SONNENFELD">[Chuckles.]</u>
+      <u who="WELLING">So we didn’t actually become great friends, but we coexisted fine.</u>
+      <u who="WELLING">So it was fine. And the culture was very white and very Greek system dominated. So right away, you became—</u>
+      <u who="SONNENFELD">Were you affiliated?</u>
+      <u who="WELLING">I was, yeah. I was a Phi Delt [member of <orgName>Phi Delta Alpha</orgName>].</u>
+      <u who="SONNENFELD">Uh-huh. </u>
+      <u who="WELLING">And one of my best friends from high school, who was <date>a year ahead</date> of me, was a <placeName>Phi Delt</placeName>, so as soon as I got here, he said, “You gotta come over.” And I came to be aware that the place was sort of deeply anti-intellectual at that time.</u>
+      <u who="SONNENFELD">Would you classify yourself as kind of a closet scholar, or did you?</u>
+      <u who="WELLING">Yeah, there might be too self-aggrandizing, but, you know, I graduated with honors and distinction in English.</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>.</u>
+      <u who="WELLING">And I do remember—I do—we have conscious memories of making up excuses for why I wasn’t going to do something because I was going to go study. That didn’t just say I was going to go study, right? And I do—I do remember lots and lots of examples of the kind of apparently continuing bad levels of behavior that—that—I remember thinking, you know, there’s a—we talked—would say, you know, “What is it about this that people think is attractive?”</u>
+      <u who="SONNENFELD">Drinking related?</u>
+      <u who="WELLING">Yeah, drinking related and abusiveness to women and—now, we didn’t have any particular hazing at Phi Delt at that time, and <persName>Phi Delt</persName> was a—Phi Delt was a socially very prominent fraternity but was not quite as bestial and as violent and so on as some other places. Theta Delt[a Chi] was particularly difficult at that time. Beta [Theta Pi, now Beta Alpha Omega] was particularly difficult at that time. So we had a lot of swimmers, so we had athletes, we had football players. But I do remember, you know, the—the—the—the deep—you know, the body fluids and the beer and the—and the intimidation and abusiveness to women. I remember thinking a number of times having conversations, “Why—why is this fun?”</u>
+      <u who="SONNENFELD">Right.</u>
+      <u who="WELLING">Or “Why is this going on?”</u>
+      <u who="SONNENFELD">So the campus was single sex at the time.</u>
+      <u who="WELLING">Yeah.</u>
+      <u who="SONNENFELD">How did that kind of affect your <orgName>Dartmouth</orgName> experience? Did you continue to date your girlfriend—</u>
+      <u who="WELLING"><persName>Mm-hm</persName>, <persName>mm-hm</persName>.</u>
+      <u who="SONNENFELD">—outside of <placeName>Ithaca</placeName>?</u>
+      <u who="WELLING">I did, although I also dated here, and it was sort of—we sort of dated a little bit, and yet we were each other’s go-to. Well, you know, I don’t think there’s any question that the fact that it was male only at the time intensified some of the bad behavior.</u>
+      <u who="SONNENFELD">Wow.</u>
+      <u who="WELLING">—who was a theater person—that it had to be excruciating for these women because you got 3,000 men and 80 or 100 women, and so people knew where every one of them was at all moments, I mean, there was no possibility of—of not being observed and tracked, and—and so I just can’t imagine it was all that spectacular an experience for them, but—</u>
+      <u who="SONNENFELD">[Laughs.]</u>
+      <u who="WELLING">It was this great game. And some of the women played along with it and sort of liked it, and some of them were I think legitimately aghast and traumatized. But that kind of thing—nobody—nobody in the administration or anywhere else did anything to—to—to curtail that kind of activity. That was just sort of, part of the social mainstream.</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>. So you—you mentioned that you ended up graduating an English major. Were you always drawn to English courses?</u>
+      <u who="WELLING">From <date>my freshman summer</date>.</u>
+      <u who="SONNENFELD">A specific professor, or what about your freshman seminar [<date>First-Year</date> Seminar]?</u>
+      <u who="WELLING">Yep, a guy named [<persName>James] “Jim” Epperson</persName>, who died tragically when he was about 45, who was my freshman seminar professor in Swift, and we just became very close. He was my honors adviser. Taught me how to write. Just a great guy. Wonderful sense of irony, and he was a sports fan. He was a recovering alcoholic. I got to know him and his wife quite well.</u>
+      <u who="SONNENFELD">So did you write a thesis then, if he was your honors adviser?</u>
+      <u who="WELLING">I did.</u>
+      <u who="SONNENFELD">And what was the topic of the thesis?</u>
+      <u who="WELLING">Comparing comedy, tragedy and satire.</u>
+      <u who="SONNENFELD">Okay. </u>
+      <u who="WELLING">Pretty ambitious.</u>
+      <u who="SONNENFELD">[Chuckles.]</u>
+      <u who="WELLING">And it was pretty prosaic, but it seemed like a big deal to me, you know, 75 pages of—of—literary criticism. I went back to The Poetica [sic; <persName>Aristotle</persName>’s Poetics] and all that kinda stuff. </u>
+      <u who="SONNENFELD"><orgName>WDCR</orgName> being the radio—</u>
+      <u who="WELLING">The student radio station. And the student radio station at that time was a pretty unique thing. It was a commercial radio station. There were not very many radio stations. There was only two in the <placeName>Upper [Connecticut River] Valley</placeName>: one called <orgName>WTSL</orgName> and WDCR, and <orgName>DCR</orgName> was incredibly student run—entirely student run.</u>
+      <u who="SONNENFELD">Wow.</u>
+      <u who="WELLING">—including playoffs, including <name type="event">the College World Series</name> in baseball, and it was just an incredible—first of all, learning about the radio business was fun.</u>
+      <u who="SONNENFELD">Right.</u>
+      <u who="WELLING">So it was more as an observer than a participant.</u>
+      <u who="SONNENFELD">So in <date>’68</date>, <persName>Nixon</persName> was elected.</u>
+      <u who="WELLING">Right.</u>
+      <u who="SONNENFELD">Did you vote in that election, or were you not—were you not quite old enough at that time?</u>
+      <u who="WELLING">I don’t remember when the voting age changed to 18, but I did not vote in that election.</u>
+      <u who="SONNENFELD">Okay. Could you feel the shift on campus at all?</u>
+      <u who="WELLING">[Sighs and pauses.] So here’s who was here in <date>’68</date>: [<persName>Robert B.]</persName> “Bob” Reich ‘68. Do you know that name?</u>
+      <u who="SONNENFELD">It’s familiar.</u>
+      <u who="WELLING">Former secretary of <orgName>HEW [United States Department of Health, Education</orgName>, and Welfare; now <orgName>United States Department of Health and Human Services</orgName>]</u>
+      <u who="SONNENFELD">Right.</u>
+      <u who="WELLING">And the reason <persName>Johnson</persName> decided not to run was because the youth brigade of idealistic young people, who were the early opposers to <placeName>Vietnam</placeName>, had gotten out and supported <persName>Gene McCarthy</persName>, who never had a snowball’s chance in hell of being president but clearly demonstrated that—that <persName>Johnson</persName> was too weak to be reelected.</u>
+      <u who="SONNENFELD">Yeah.</u>
+      <u who="WELLING">So he abdicated, essentially.</u>
+      <u who="SONNENFELD">Do you remember <persName>Eugene McCarthy’s</persName> run on campus at all? I know he did well in the <placeName>New Hampshire</placeName> primary.</u>
+      <u who="WELLING">Yeah, that’s why—the <placeName>New Hampshire</placeName> primary was what forced <orgName>Johnson</orgName> to withdraw.</u>
+      <u who="SONNENFELD">Right. <persName>Mm-hm</persName>. </u>
+      <u who="WELLING">Yeah, I remember him being an issue. I remember him being around, and I remember a lot of students being excited about him. You know, there was this—and frankly, the people who were most excited about <persName>Gene McCarthy</persName> at <placeName>Dartmouth</placeName> at that time were not mainstream <placeName>Dartmouth</placeName> people.</u>
+      <u who="SONNENFELD">Sure.</u>
+      <u who="WELLING">They would have been sort of the equivalent of <persName>brown rice</persName> and beard kind of people, you know, who were social liberals, people who were not perceived to be in the social mainstream, whether it was fair or not.</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>. So you—you didn’t share their fervor.</u>
+      <u who="WELLING">No. No, but I was agnostic. I don’t remember really thinking I cared much about it. I thought this was sort of interesting. I was interested in the political power dynamics, but I wasn’t terribly doctrinaire from a policy standpoint.</u>
+      <u who="SONNENFELD">[Chuckles.] Sure. </u>
+      <u who="WELLING">But there were serious-minded people who were saying that at that time.</u>
+      <u who="SONNENFELD">Uh-huh. And were those debates that were dominating campus or still on the fringe, would you say?</u>
+      <u who="WELLING">Oh, no, I think—</u>
+      <u who="SONNENFELD">As we lead up to ’69.</u>
+      <u who="WELLING">I think there were people—I think they were dominating some aspects of campus, but, again, remember, in <date>the ‘60s</date>—the economy didn’t get crappy until <date>1970</date>. So the late ‘60s were still a period of fairly robust activity. And, again, <placeName>Vietnam</placeName> had gotten much worse, but Americans still didn’t really didn’t know how bad it was in <date>1968</date>.</u>
+      <u who="WELLING">So, you know, you had <persName>Nixon</persName>, who was elected in part because he was a tough anti-communist. You know, <persName>Alger Hiss</persName>, the whole communist conspiracy and so on. And so it was thought—there was no chance that a pacifist was going to be elected president in <placeName>the United States</placeName>, not just a Democratic pacifist, but there was no chance, zero chance in <persName>George McGovern</persName>, of course.</u>
+      <u who="SONNENFELD">Right.</u>
+      <u who="WELLING">That was the big, defining change.</u>
+      <u who="SONNENFELD">So then we get to <date>1969</date>.</u>
+      <u who="WELLING">Right.</u>
+      <u who="SONNENFELD">And we have <orgName>the Parkhurst [Hall</orgName>] takeover.</u>
+      <u who="WELLING">Right.</u>
+      <u who="SONNENFELD">Which you broadcasted.</u>
+      <u who="WELLING"><persName>Mm-hm</persName>. I did.</u>
+      <u who="SONNENFELD">Correct. Can you speak a little bit about that experience and how your experience as a sports broadcaster transferred over to broadcasting as sort of a major political movement within the microcosm of <placeName>Dartmouth</placeName>?</u>
+      <u who="WELLING">Yeah. It was—you know. So I was—there was sort of a church-and-state thing between the hard news people and the sports people, and the news people were news people and the sports people were just rah-rah jocks. So the sportspeople didn’t generally get pressed into reporting, but that was something where it happened. There were some rumors about it. They sort of needed stringers everywhere, and so on, so I got pressed into service to be sort of a beat reporter.</u>
+      <u who="SONNENFELD">Right.</u>
+      <u who="WELLING">So there was this sense of sort of flavor of <date>the week</date>, faddish, “Let’s demonstrate that we’re”—you know, “Let’s go on board with this because it seems like a cool thing to be.” There were—there was always this sense that the people who were really passionate about this had statistics from here to breakfast, and so you could never get into a discussion with them because they would out-statistic you. And so you couldn't have a nuanced, moral, ethical, philosophical discussion because it was, “Are you realizing that 127 people every 26 minutes are being—and the amount of money we’re spending on Agent <persName>Orange</persName> and napalm” and so on and so on—so at the time I became aware of the power and the tyranny of statistical manipulation, listening to these discussions and debates.</u>
+      <u who="SONNENFELD">Sure.</u>
+      <u who="WELLING">I mean, this was, you know, “Reporting live from <persName>Parkhurst</persName>, this is <persName>Curt Welling</persName> for WDCR. Over to you, <persName>Wally</persName>.” And it was, as campus things and little old <placeName>Dartmouth</placeName>, <placeName>Hanover</placeName>, <placeName>New Hampshire</placeName> go—it was pretty exciting. It was not—I don’t recall it being violent in any significant way. I don’t recall—I do recall people ultimately being hauled out of there, but I don’t recall anybody being hurt. So if somebody got hurt, they didn’t get hurt very much.</u>
+      <u who="SONNENFELD">It sounds like you were—</u>
+      <u who="WELLING">There was no tear gas or anything like that.</u>
+      <u who="SONNENFELD">Right.</u>
+      <u who="WELLING">As I recall.</u>
+      <u who="SONNENFELD">—somewhat apolitical up until this point at <orgName>Dartmouth</orgName>.</u>
+      <u who="WELLING">I was.</u>
+      <u who="SONNENFELD">Yeah.</u>
+      <u who="WELLING">Yes.</u>
+      <u who="SONNENFELD">So you didn’t have any difficulties in trying to mitigate any bias while you were broadcasting or anything like that?</u>
+      <u who="WELLING">No.</u>
+      <u who="SONNENFELD">No.</u>
+      <u who="WELLING">And I was pretty conscious of that, actually. Remember, <persName>Walter Cronkite</persName> was the voice authority in my family growing up,—</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>.</u>
+      <u who="WELLING">—and my parents had done a pretty good job of getting me to understand the difference—the role of journalism. I had taken journalism courses in high school, so I understood this idea of objectivity and grounding and so on, and “You’re a vessel, you’re not the story” and that kind of stuff. And that’s true in sports broadcasting, too, by the way, so—</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>.</u>
+      <u who="WELLING">But <placeName>Hanover</placeName>, <placeName>New Hampshire</placeName>, <orgName>Dartmouth College</orgName>, all boys, way up in the north woods, mostly white—it just had this feeling of, like, You’re really, you’re just playin’ at this, to me. I would say that changed when, for some reason—and I can’t explain this rationally, but I think that changed a lot when—when <persName>Nixon</persName> made that incursion into <placeName>Cambodia</placeName> and lied about it. Clearly had acted illegally, because then it was not just a question of, well, should we be in <placeName>Vietnam</placeName> or not? It’s the president is acting in a dictatorial and imperial way. That’s a different kind of problem. That’s a problem that threatens the integrity of the republic.</u>
+      <u who="SONNENFELD">Do you remember—</u>
+      <u who="WELLING">And so I remember a whole bunch of people being politicized by that, including myself, to some degree, who weren’t politicized before.</u>
+      <u who="SONNENFELD">Do you remember first hearing about that and what your initial reaction was, and how your opinion or reaction developed following the news of <placeName>Cambodia</placeName>?</u>
+      <u who="WELLING">Yeah, my opinion and reaction largely developed by listening to other people telling me what I should be thinking about. So listening to national media, listening to the sense of concern, listening to people who were not strident or partisan people saying why this was such a significant problem for the country. And I was an English major and a government minor, so I was interested in politics. I was interested in political process and dynamics and political thought: legitimacy, questions of legitimacy and the Enlightenment, government model and all that kind of stuff.</u>
+      <u who="SONNENFELD">Yup.</u>
+      <u who="WELLING">And, of course, the place was electrified, as college campuses were everywhere, right?</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>.</u>
+      <u who="WELLING">So you had the <placeName>Chicago</placeName> [Democratic] Convention, you had the violence there, you had <placeName>Kent State</placeName> by that time, I think, right?</u>
+      <u who="SONNENFELD">I mean, pretty mu- —<placeName>Kent State</placeName> was in reaction to the excursion into <placeName>Cambodia</placeName>.</u>
+      <u who="WELLING">Right, right. </u>
+      <u who="SONNENFELD">Pretty simultaneous.</u>
+      <u who="WELLING">Yeah, so it was all being fermented at the same time.</u>
+      <u who="SONNENFELD">Yes.</u>
+      <u who="WELLING">But the sense of much greater solidarity and much more widespread outrage on college campuses. And <orgName>Dartmouth</orgName> was in the process of moving from <persName>John</persName> [<persName>S.] Dickey</persName> [Class of <date>1929</date>] as president to <persName>John [G.] Kemeny</persName> as president.</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>, <persName>mm-hm</persName>.</u>
+      <u who="WELLING">(I’ll tell you a great story about that.) And so it was a moment of some vulnerability because it was a transition, and <persName>John Kemeny</persName> was not uniformly well regarded in the alumni community. He was a <orgName>Princeton [University</orgName>] graduate who was a Hungarian mathematician, and, you know, was he really the right guy to succeed this hallowed figure, <persName>John Sloan Dickey</persName>?</u>
+      <u who="SONNENFELD">So that’s where you ended up standing on the issue.</u>
+      <u who="WELLING">Ending up doing that. Ended doing that, yeah.</u>
+      <u who="SONNENFELD">Would you describe yourself as a conscientious objector?</u>
+      <u who="WELLING">No, I was not a conscientious objector, because I actually served in <orgName>the National Guard</orgName>. But I was outraged by this abuse of power. And I was sort of swept away—it was also the cool thing to be doing, right?</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>.</u>
+      <u who="WELLING">Now it was sufficiently mainstream, so it was cool to be doing it. I did it with lots of friends. There was a solidarity around that. You know, you’d go out and you’d canvas, and you’d come back and you felt like you were part of something that was a movement, and there is something—you know, there’s a lot of—there’s a lot of literature around the social dynamics of feeling as though you’re part of a movement.</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>.</u>
+      <u who="WELLING">And <persName>Kemeny</persName> stands up and gives this incredibly eloquent, incredibly eloquent, aspirational speech about sort of what we’re doing there together and the meaning of legitimacy and authority in government and why it’s important for people to take it upon themselves, and how we’re upholding this great tradition.</u>
+      <u who="SONNENFELD">[Laughs.]</u>
+      <u who="WELLING">And the place went—it was one of those amazing moments. The place went crazy. And, of course, at that moment, he owned the place. He was the president then. He had demonstrated this incredible grace and eloquence and leadership and self-deprecation under this pressure. And he was a—<persName>John</persName> was a great man. I got to know him fairly well later on. </u>
+      <u who="SONNENFELD">So following that speech from Green Key [Weekend], you were a fan of <persName>Kemeny</persName>?</u>
+      <u who="WELLING">Yeah, yeah, I was. And actually I also said I wasn’t much of a math guy. He taught the most basic math course at the college. It was called Finite Math. And I had him for math.</u>
+      <u who="SONNENFELD">How did you like him as a professor?</u>
+      <u who="WELLING">He was great.</u>
+      <u who="SONNENFELD">Yeah?</u>
+      <u who="WELLING">He was great. He was funny. But he was demanding. I mean, as demanding as you can be. You know, finite math is set theory and Bayesian probabilities and decision making and so on. And he was demanding. And then I got to know him personally <date>about ten years</date> after I graduated because he—my wife worked for <orgName>Dartmouth</orgName>, in the campaign for <orgName>Dartmouth</orgName>, and she used to travel with him, so we worked together quite a lot. He was just an amazing guy, amazing man.</u>
+      <u who="SONNENFELD">Sure. So then we’re pretty much up to your senior year.</u>
+      <u who="WELLING"><persName>Mm-hm</persName>.</u>
+      <u who="SONNENFELD">Anything—any events in <date>’71</date>, in your senior year? You’re ready to get out of this place and start a new life.</u>
+      <u who="WELLING">The draft—so you talk about conscientious objection. So in <date>the waning days</date> of <placeName>Vietnam</placeName>, they instituted a draft lottery, and so I remember sitting down at <placeName>Phi Delt</placeName> with all of my fraternity brothers on the night of the lottery. And one of our fraternity brothers, who was the most terrified of being drafted, got down there and sat down there, and he got a cooler and he got chicken and all kinds of stuff, and he was really settling in, and his number was drawn first. He got number one.</u>
+      <u who="SONNENFELD">Wow.</u>
+      <u who="WELLING">I had number 60. The idea was that if you were below 120, you were probably going to be drafted. I didn’t want to be drafted, so when I got that number—and I had some respiratory problems that I thought might get me out.  Whereas earlier in the war they had been pretty lenient with what they call 4-F deferments, physical deferments, as it got later and they needed people more, they started not to disqualify people.</u>
+      <u who="SONNENFELD">Can you speak a little bit more about the experiences of being in your fraternity, watching draft numbers come up on the screen?</u>
+      <u who="WELLING"><persName>Mm-hm</persName>.</u>
+      <u who="SONNENFELD">Was that kind of a searing memory, or feeling everyone’s collective tension?</u>
+      <u who="WELLING">Yeah, it was—it was—it was a—it was a huge dynamic of the time, in ways that I don’t think—you know, the thing that made it a dynamic was that every American male <date>between the ages of 18 and 30</date> was going to have their future influenced by picking these numbers out of a thing, you know?</u>
+      <u who="SONNENFELD">Yeah.</u>
+      <u who="WELLING">And so it was a moment, and it crystalized all kinds of things, so there was enormous preoccupation with this debate about—you know, all kinds of different levels—debate about whether the draft is the right thing and what should the terms be and how should the lottery be conducted, and so on. But I can’t imagine that there were very many people in the country between those ages who weren’t watching television that night.</u>
+      <u who="SONNENFELD">Let’s talk a little bit about your <orgName>National Guard</orgName> experience.</u>
+      <u who="WELLING"><persName>Mm-hm</persName>.</u>
+      <u who="SONNENFELD">Did you start your service with <orgName>the National Guard</orgName> immediately following graduation?</u>
+      <u who="WELLING">I did. Well, yes. You had to wait to be called to active duty, so it’s a sequencing process, but yeah, I graduated, and then I commenced waiting, so I had <date>a great summer</date> job that I’d had in <placeName>Rochester</placeName> for <date>a number of years</date>. I did that, and I actually didn’t get called to active duty, <placeName>Fort Jackson</placeName>, <placeName>South Carolina</placeName>, until <date>the winter of that year</date>. </u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>. So you were in law school at the same time as you were part of <orgName>the National Guard</orgName>.</u>
+      <u who="WELLING">Yeah, yeah, yeah. Citizen soldiers. You’d go to one meeting a month, and you go to <date>two weeks</date> of intensive training in <date>the summer</date>, and you do that for <date>six years</date>. Now—now <orgName>the National Guard</orgName> gets called to active duty, but back in <date>those days</date>, <orgName>the National Guard</orgName> was almost never called to active duty.</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>. And so did your affiliation with <orgName>the National Guard</orgName> affect life law school? Or can you speak a little bit to that?</u>
+      <u who="WELLING">No, not too much.</u>
+      <u who="SONNENFELD">No?</u>
+      <u who="WELLING">So I went to law school at <orgName>Vandy</orgName> and matriculated in <date>the fall</date> of <date>’72</date>., and my dominant memory of that is that’s <date>the year</date> that Roe v. Wade was decided. And I remember it was quite an electrifying thing because—even I didn’t know anything about it. I knew something about the abortion debate and the differences of view, but being in law school with students who were intensely focused on this kind of thing was just an exciting dynamic, because people were taking—this was back before any electronic media, so people were taking the opinion as it was coming off the teletype and running it out and reading it aloud to this group of a couple of hundred students, who were hanging on every word because it was thought to be the most important <orgName>Supreme Court</orgName> decision in the <name type="event">post-Vietnam</name> period.</u>
+      <u who="SONNENFELD">Sure.</u>
+      <u who="WELLING">So, you know, I don’t remember any negative thing at all. I went right to law—from law school, got admitted in the bar in <placeName>New York</placeName> and then came to <orgName>Tuck [School of Business</orgName>]. And so I transferred up here, and then I was in a unit up here, right out there on Lebanon Road and Route 120 by <orgName>Miller Auto [Group</orgName>] there. And that was an artillery unit. So I went from military police to quartermaster and admin to an artillery unit. And the—the reality is, back in <date>those days</date> if <orgName>the National Guard</orgName> had ever called to active duty, a lot of people would have gotten killed because we were not terribly well trained, so—</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>. Yeah, speaking of your training, can we take a moment to return to your experience at basics in <placeName>Fort Jackson</placeName> and <persName>Fort Gordon</persName>?</u>
+      <u who="WELLING"><persName>Mm-hm</persName>.</u>
+      <u who="SONNENFELD">What was that experience like? Was it something very different than what you had gone through in <date>the 20-something years previous</date>, or—</u>
+      <u who="WELLING">Well,—so there’s a caricature of basic training, right? And it’s most intense in—so have you seen [An] Officer and a Gentleman, the movie [An] Officer and a Gentleman?</u>
+      <u who="SONNENFELD">No, I have not.</u>
+      <u who="WELLING">Okay. But have you read the stuff about the women, the <orgName>Special Forces</orgName> women that are going through—</u>
+      <u who="SONNENFELD">Yes.</u>
+      <u who="WELLING">—in the <orgName>Ranger</orgName> stuff recently?</u>
+      <u who="SONNENFELD">Yeah.</u>
+      <u who="WELLING">Okay. So that’s the caricature of basic training. That’s at the intensive end of the experience. But the drill sergeants are these ogres, and they beat the crap out of you, and <orgName>dah</orgName>, <orgName>dah</orgName>, <orgName>dah</orgName>, <orgName>dah</orgName>. And frankly, while it wasn’t—it wasn’t a very pleasant experience—you know, living in a barracks with a hundred other guys and people yell at you and all that kind of stuff—physically it wasn’t any harder than <date>two-a-day</date> sessions in football. So I didn’t find it physically terribly demanding or challenging.</u>
+      <u who="SONNENFELD">Okay. How about—how about when you were part of the military police? Did that position weigh on you in any way? Did you notice that people treated you any differently?</u>
+      <u who="WELLING">No, because military police are like all quasi-policing people. You know, there are some that are good and there are some that get self-important and try and, and there are people who take them seriously and don’t take them seriously. Now, I never—I never served in a situation where I had to aggressively use police power, so I did some directing traffic and things like that. But the military police and the administrative things in the armed services are not the mainstream. The mainstream is combat.</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>. Right.</u>
+      <u who="WELLING">So there is a tendency—if there’s a division. There’s a division between the combat people and the most intense—there are SEALs [<orgName>U.S. Navy’s</orgName> Sea, <orgName>Air</orgName>, Land teams] and <orgName>Rangers</orgName> and so on, and the non-combat people. And the combat people tend not to take the non-combat people very seriously. They call them house cats.</u>
+      <u who="SONNENFELD">[Chuckles.]</u>
+      <u who="WELLING">“He’s a house cat,” right? So there’s a bit of that. But, again, it’s all internal, social, structural dynamics. I don’t recall it being any big deal.</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>. </u>
+      <u who="WELLING">We’re breezing right through this. You know, you’re going to have a lot of extra time.</u>
+      <u who="SONNENFELD">[Chuckles.]</u>
+      <u who="WELLING">I came back to <persName>Tuck</persName> in the fall of ’75.</u>
+      <u who="SONNENFELD">Seventy-five, okay.</u>
+      <u who="WELLING">I was in the Class of ’77.</u>
+      <u who="SONNENFELD">How did campus culture feel different in ’75 than it had when you were an undergraduate?</u>
+      <u who="WELLING">Yeah. Well, so first of all, <persName>Tuck</persName> was an island sort of unto itself when I was an undergraduate. I knew some <persName>Tuck</persName> students, but they pretty much—they pretty much kept to themselves because they were older and in many cases, married. So now I’m back here. I’m older. I’m married. And the dynamic of <orgName>the Tuck School</orgName> was quite different then, because it was going from the dominant Tuck progression in the <date>’60s</date> and <date>early ’70s</date>—what was called three-two, so you’d be an undergraduate for <date>three years</date>, then you’d be at Tuck for <date>two years</date> and you’d get your <persName>B.A.</persName> [bachelor of arts] and M.B.A. [master of business administration] in <date>five years</date>. </u>
+      <u who="SONNENFELD">[Chuckles.]</u>
+      <u who="WELLING">They would build a 20-foot-high green dollar sign, and that’s pretty much what <persName>Tuck</persName> was about. It was about, “Okay, we’re done with <placeName>Vietnam</placeName> [thumps table]. We’re back here [thumps table]. We want to prepare ourselves to go to work and make a lot of money.”</u>
+      <u who="SONNENFELD">Why—why were you drawn to <persName>Tuck</persName> after—after just completing law school?</u>
+      <u who="WELLING">Law school? So I went to—well, this may be relevant to the <placeName>Vietnam</placeName> era evolution, social evolution. I went to law school not so much because I was driven to be a lawyer as because I didn’t have anything better to do. So I wasn’t technical. I wasn’t going to be a medical professional. I didn’t really know what I wanted to do, but I had English training, government, politics and so on. And so the conventional wisdom then was if you want to work, generally speaking, in commerce or in politics, legal training is great training for background. And that’s still valid, to some degree. It is good intellectual training.</u>
+      <u who="SONNENFELD">A lot of them must have had some—some <placeName>Vietnam</placeName> experience.</u>
+      <u who="WELLING">Right, right.</u>
+      <u who="SONNENFELD">Did that play out in the classroom at all, or was it pretty much pushed to the side?</u>
+      <u who="WELLING">Remember, returning <placeName>Vietnam</placeName> veterans were—were badly and consistently vilified by society.</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>.</u>
+      <u who="WELLING">So if you were a <placeName>Vietnam</placeName> vet, the best you could hope for would be a benign reception. And I think most of them at Tuck got a benign reception, but nothing like the military gets <date>today</date>. You know, we celebrate that’s here at <placeName>Dartmouth</placeName> and at Tuck. Every year at Tuck they have a student panel, which is six or eight of the vets that are Tuck students, moderated by the dean, where they share their experience, I’ve been to it <date>two years in a row</date> now. It’s about two hours long, and at the end of it, they get a ten-minute standing ovation. So the culture <date>today</date> is one of gratitude and celebration. The culture in the <date>’70s</date> was one of, at best, benign neglect and at worst was really vilification, like “You’re a pig” and “How could you have gone and done this?” and “You’re a baby murderer” and—</u>
+      <u who="SONNENFELD">Were those the sorts of slandering that you saw—</u>
+      <u who="WELLING">Oh, yeah, yeah. I actually—</u>
+      <u who="SONNENFELD">—take place—</u>
+      <u who="WELLING">Yeah.</u>
+      <u who="SONNENFELD">—with your own eyes?</u>
+      <u who="WELLING">Yeah. Yes, I did. I personally saw people—you know, the same brown rice crowd that had been opposed to the war when vets came back in the most cruel and unfair way would attack these people as part of the war machine, which is of course absurd. These are kids who were drafted or were sent—you know. So, yeah, it was—and I remember it made me—it made me deeply angry. </u>
+      <u who="SONNENFELD">You said the treatment of vets made you angry. Did—did their reception help politicize you in any way or to define your own political leanings?</u>
+      <u who="WELLING">Probably not.</u>
+      <u who="SONNENFELD">No.</u>
+      <u who="WELLING">No. So I remember thinking about the progression. I remember being very sad the night <persName>Richard Nixon</persName> was elected in <date>1972</date> because I really thought that he was a bad guy. And it turns out he was a bad guy. But I was generally not a Democrat. I remember thinking it was sort of absurd when [President] <persName>Gerald</persName> [R.] Ford [Jr.] lost to [<persName>James Earl</persName>] “<persName>Jimmy” Carter [Jr.</persName>], not that I had anything against <persName>Jimmy Carter</persName>. In fact, I might have—I might have sort of thought he was a cool guy, but the idea that you could be a peanut farmer and a one-term governor of <placeName>Georgia</placeName>—but, again, it wasn’t philosophically because <persName>Jimmy Carter</persName> wasn’t a deeply philosophical guy. He was a moralist and all that stuff.</u>
+      <u who="SONNENFELD">How about you—your parents? You mentioned your parents were sort of classically Midwestern, conservative.</u>
+      <u who="WELLING">Right.</u>
+      <u who="SONNENFELD">When they learned you were doing some canvasing back at <placeName>Dartmouth</placeName> and then when you joined <orgName>the National Guard</orgName>, what were their reaction to both of those developments?</u>
+      <u who="WELLING">Well, I don’t—I don’t have anecdotal. I think when I called them to tell them that classes had been suspended, they said, “What are you gonna do?” I said, “Well, I’m gonna go out and do this canvasing.” I think they sort of probably thought, Okay, fine, that’s something that the college says it’s okay for you to do, and if that’s something that you want to—so they were never, “Oh, how can you do that? You know, you can’t be opposing the war.” “Fine.”</u>
+      <u who="SONNENFELD">Sure.</u>
+      <u who="WELLING">And <orgName>Dartmouth</orgName> was lagging then. <orgName>Dartmouth</orgName> as its place lagged that dynamic, did not lead it in any way. All men, anti-intellectual—</u>
+      <u who="SONNENFELD">Right.</u>
+      <u who="WELLING">—politically conservative, white—you know.</u>
+      <u who="SONNENFELD">By the time we get to ’77, did you notice any of that starting to change, women starting to be admitted to the college? You mentioned that there wasn’t a lot of undergraduates in <orgName>Tuck</orgName> itself, but did you have any interactions with the undergraduates? Did you notice the influx of women?</u>
+      <u who="WELLING">Yeah, I had a little bit. And there were women here, a small number, initially, but women. The college had gone to <date>year-round</date> operation as a way of being able to increase—I don't remember what the numbers were, but certainly was well short of 50:50. It didn’t get to 50:50 until <date>the ’80s</date>, I think.</u>
+      <u who="SONNENFELD">Yeah.</u>
+      <u who="WELLING">There were probably—you know, <persName>Tuck</persName> was very slow to integrate gender as well, but there were probably—out of my class of 140, there were probably 20 women, and it was part of a steady-state increase which has been—they’ve been working on ever since. But it had only been in the <date>’60s</date>, I think, when the first woman was admitted to <persName>Tuck</persName>, so it was not—it was not integrated from a gender standpoint.</u>
+      <u who="SONNENFELD">How about racial diversity in your graduating class?</u>
+      <u who="WELLING">At Tuck?</u>
+      <u who="SONNENFELD">Yeah.</u>
+      <u who="WELLING">Very small. Ten maybe, five to ten if I had to go back and count them I would have to say. International. But if you count racial diversity, you count Japanese, Chinese, Latino as well as African-American, I would guess maybe 10 to 20 out of the class. And black students, half a dozen maybe. So not a very—you know, it’s a thing that <orgName>Dartmouth</orgName> still labors with a little bit.</u>
+      <u who="SONNENFELD">Do you look back at your time at Tuck as—as a happy time, a good time? Were you still with your girlfriend?</u>
+      <u who="WELLING">She was now my wife.</u>
+      <u who="SONNENFELD">She was now your wife.</u>
+      <u who="WELLING">We got married when we were in <placeName>Nashville</placeName> at law school.</u>
+      <u who="SONNENFELD">Okay. Great.</u>
+      <u who="WELLING">Yes, it was a great time.</u>
+      <u who="SONNENFELD">Uh-huh. But you said you were pretty academically serious. </u>
+      <u who="WELLING">Yeah.</u>
+      <u who="SONNENFELD">You knew you wanted a career, and so you got down and focused.</u>
+      <u who="WELLING">But in a community of 150 people <persName>Tuck</persName> was two sections of 70 or 75 each, half of whom were married. Incredibly tightly knit. The culture at Tuck, which is largely intact to <date>this day</date>, is a very internally supportive, collegial, community oriented culture. And everybody works really hard. There’s no cutthroat competition. </u>
+      <u who="SONNENFELD">Great. So then you get—</u>
+      <u who="WELLING">So almost no politics, almost no politics.</u>
+      <u who="SONNENFELD">Yeah. Then you graduate. Can you speak a little bit about your life experience after you graduate <persName>Tuck</persName>, and did you feel anything from the <placeName>Vietnam</placeName> era influence your career decisions?</u>
+      <u who="WELLING">[Raps table rhythmically.] Let’s see. The country had taken a significantly conservative term, so it was the <persName>Reagan</persName>—<persName>post-Reagan</persName> era, right?</u>
+      <u who="SONNENFELD">Yeah.</u>
+      <u who="WELLING">Deregulation became the mantra and the theology. It was  a period of the beginning of electronic technology and information processing technology, and so there was this feeling of business ascendancy and a much more—the idea that young people would be proudly going into business, as opposed to the climate in <date>the ’70s</date>, was clearly taking hold. So you didn’t have to apologize because you were a business person. You didn’t have to pretend you didn’t want to be a business person. </u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>. And being a <orgName>Dartmouth</orgName>, a <orgName>Vanderbilt</orgName> and then a <orgName>Tuck</orgName> graduate, you were kind of ideally positioned to seize that opportunity.</u>
+      <u who="WELLING">Well, yeah, I had that—you know, I had good education, because I had a <placeName>J.D.-M.B.A</placeName>, I was thought to be qualified to do things that other people might not have been. I ended up going to Wall Street [the term used to represent the financial district of <placeName>New York City</placeName>] and worked in Wall Street for <date>25 years</date>. And Wall Street was at that point just sort of lifting off from what had been a fairly arcane, small number of people into what became the modern financial services business, so there was lots of opportunity. So I was for—timing was fortunate.</u>
+      <u who="SONNENFELD">What specifically—</u>
+      <u who="WELLING">But it was not politi- —it was interesting. I would say the period from the mid-’70s to the end of the ’80s was essentially economically driven, not politically driven, when you think about what was going on in the world. You know, [<persName>William J.] “</persName><persName>Bill” Clinton</persName>, when <persName>Bill Clinton</persName> beat <persName>George [H.] W. Bush</persName>, he ran on a new conservative <orgName>Democratic Party</orgName> platform, the New Democrats. He was one of the New Democrats.</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>. </u>
+      <u who="WELLING">We had hyperinflation of the <persName>Carter</persName> period, which, by the time the ’80s came around, was being managed down. A long period of continuous prosperity. And so you didn’t need—you know, people weren’t politicized. They weren’t—you know, women’s issues were really just starting to take off. <persName>Gloria [M.]</persName> Steinem was—<persName>Gloria Steinem</persName> came into her—as the editor-in-chief of <orgName>Ms. Magazine</orgName> I want to say in the <date>mid-’70s</date> or late-’70s, sometime like that. <persName>Betty Friedan</persName> wrote The Feminist Manifesto [sic; The Feminine Mystique], you know?</u>
+      <u who="SONNENFELD">Yeah.</u>
+      <u who="WELLING">So there really wasn’t, you know, political correctness, true racial integration, equality—those were not big topics in <date>the ’80s</date>, and so you could focus on your—you could focus on money, and you could focus on that stuff.</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>. Looking over your profile, after—after Wall Street, it looks like you got into more a humanitarian line of work, crisis relief. What—what drew you to that type of work?</u>
+      <u who="WELLING">So Midwestern background, family values, church background, all that stuff. Both our families were great role models in terms of community involvement and generosity. So it was always sort of part of the deal. And so both my wife and I were involved in a variety of things. Somewhere along the line, when I was maybe halfway through <date>the 25 years</date>, I began to think, Gee, wouldn’t it be great to have a second career with some mission-driven organization where you weren’t working primarily for money but you were doing good stuff?</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>. </u>
+      <u who="WELLING">And so that was a profound emotional-social catalyst for millions of people, and so we talked about it and said, Yeah. You know, if we’re gonna do it, this is as good a time as any. And I found—I was found by this organization called <orgName>AmeriCares</orgName>. I had never traveled to any of the developing countries where they worked. I had never done emergency response. But they were looking for someone to succeed the founder, and the founder, like all charismatic founders, is not very objective about himself and when it’s time to go, so they always stay too long. They always—they have problems delegating authority. They are ego driven and so on.</u>
+      <u who="SONNENFELD">Wow.</u>
+      <u who="WELLING">I visited 30-some countries, no one of which I had visited before I went there. All developing world countries. Was sort of a witness and participant to all the major natural disasters that took place over that time: the <placeName>Southeast Asia</placeName> tsunami, <orgName>Hurricane Katrina—(which</orgName>, by the way, the 10th anniversary of <name type="event">Hurricane Katrina</name> is this month)—the <placeName>Pakistan</placeName> earthquake—you know, all of those—<placeName>Japan</placeName>, the triple disaster [<date>2001</date> earthquake, tsunami, <placeName>Fukushima</placeName> disaster] and so on. </u>
+      <u who="SONNENFELD">Do you think Americans in general have a more sophisticated view <date>today</date>, or—</u>
+      <u who="WELLING">I think—yes and no. I think because of the ubiquity of information, as opposed to media, I think Americans are exposed to more realistic images of the developing world and more information about the developing world. So you didn’t—one of the—one of the reasons why global public health has become such a hot issue in <date>the last ten years</date> is because the reality of an AIDS [acquired immune deficiency syndrome] pandemic was made viscerally accessible by television and media, so you could see 10 million babies dying <date>a year</date> from malaria, and you could see the real—real—real time, you could see the consequences of gross income inequality or child trafficking or something.</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>.</u>
+      <u who="WELLING">And so whether that is contributing to a politicized knee-jerk reaction to religious differences, it’s certainly the case that Americans know more about different religious systems, different religious beliefs and so on. As an overall body politic, are we better informed about it? Yeah, probably. It’s probably still not great, but yeah, probably.</u>
+      <u who="SONNENFELD">Now, of the course of—you visited 30-plus developing nations. Did—did your travels for <orgName>AmeriCares</orgName> bring you to <placeName>Vietnam</placeName>?</u>
+      <u who="WELLING">No.</u>
+      <u who="SONNENFELD">No?</u>
+      <u who="WELLING">Although it’s the one country that I wanted to visit when I was there that I didn’t visit, and we had—we’ve had a 12-year, incredibly successful comprehensive nutrition program there with <orgName>Abbott Labs</orgName>, so I could have gone a couple of times, and for one reason or another, it always got preempted. So actually this will be the first one I go with [<persName>Edward G.]</persName> “Ed” Miller <date>this fall</date>, this will be the first time I’ve been to <placeName>Vietnam</placeName>, ever.</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>. Do you want to speak a little bit about what you’ll be doing there with Professor [<persName>Edward G.] Miller</persName> and the <persName>Tuck</persName> students?</u>
+      <u who="WELLING">Sure. So Tuck has now something called a global experience requirement, so every Tuck student, as a condition of graduation, has to fulfill this global experience requirement. And they can do it in a number of ways. They can do something called <orgName>the Onsite Consulting Project</orgName>, which is where <persName>Tuck</persName> students get hired by businesses to do consulting projects. They can do it by doing something—by studying abroad. They can do it by an independent study in a foreign country, or they can do something called a global experience—Global Insight Expedition (<orgName>GIX</orgName>), which are 10 or 12 trips that are taken <date>each year</date> in <date>the spring</date> to specific countries, with a specific topic. And that’s what we’re doing in <placeName>Vietnam</placeName>.</u>
+      <u who="SONNENFELD">I’m sure that’ll be fascinating.</u>
+      <u who="WELLING">Yeah.</u>
+      <u who="SONNENFELD">Now, what drew you back to Tuck, to come back as a professor and an adviser?</u>
+      <u who="WELLING">Yeah. So—so when you get to be <date>65</date>, remember you heard this from me.</u>
+      <u who="SONNENFELD">[Chuckles.]</u>
+      <u who="WELLING">The concept of retirement makes no sense, right? So the idea that you—and it did in an industrial time, when you would literally exhaust yourself doing physical labor. But for anybody who wants to maximize the greater longevity and have an interesting life, the idea that you would arbitrarily stop doing something productive at <date>65</date> and go and play golf and go to cocktail parties just seems crazy to me.</u>
+      <u who="SONNENFELD">[Chuckles.]</u>
+      <u who="WELLING">Or something—or essentially drop out and become 100 percent consumed with leisure. It just doesn’t—it sounds really dopey. And the common ground was I became fascinated with the dynamics of markets during the time I was in the securities business, and actually read and thought a lot about the way markets work, and having seen the creation of a number of securities markets and regulation and all that kind of stuff—and then realizing—when I was about hallway through my nonprofit work—that the nonprofit, social impact sector is a huge sector in the economy, but it raises capital incredibly inefficiently. And it raises a lot of capital. It’s about 8 percent of GDP [gross domestic product], and philanthropy in <placeName>the United States</placeName> is about $350 billion a year.</u>
+      <u who="WELLING">I’m not, but I’m a public policy minor.</u>
+      <u who="WELLING">Okay. </u>
+      <u who="SONNENFELD">So I know a little bit about social investment.</u>
+      <u who="WELLING">So the way capital is allocated in the for-profit world is through something called the central auction marketplace with full time and price priority. So the idea is that you—everybody who wants capital goes to a place, and you have this big auction, and the auction is a virtual auction; it’s not a literal auction. But it means the least risky, the best prospects for rate of returns get the most capital on the best terms. </u>
+      <u who="SONNENFELD">Sure.</u>
+      <u who="WELLING">The way money gets raised in the social impact sector is emotionalism, storytelling, which is inherently inefficient, right?</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>.</u>
+      <u who="WELLING">It’s objective and values based and so on. So I became really interested in looking at the intersection of government and markets, the nonprofit sector and business, to see what we can learn about that, what we can learn about, on the one hand, the changing role of government in business as the social contract evolves; on the other hand, what we can learn about how social purpose capital gets created and how we can make it more accountable and more efficient.</u>
+      <u who="SONNENFELD">So—</u>
+      <u who="WELLING">It turns out—and then I’ll be done with this—</u>
+      <u who="SONNENFELD">Yeah.</u>
+      <u who="WELLING">It turns out, not thinking that anybody gave a damn about this, I started talking to a couple of people I was having lunch with the dean of <orgName>the NYU Business School</orgName> [sic; <orgName>the New York University Stern School of Business]</orgName>, and he practically launched himself over the table and said, “You know, that’s the hottest thing in the academy right now: students—you know, social entrepreneurship, and impact investing in students all over the place who are interested. You gotta come here and do it here.”</u>
+      <u who="SONNENFELD">So related but maybe a little tangential to the rest of the interview,—</u>
+      <u who="WELLING">And I’m the chairman of <orgName>the Board of Visitors at Rocky [Nelson A. Rockefeller Center for Public Policy]</orgName>, by the way.</u>
+      <u who="SONNENFELD">Uh-huh. Yeah. I was actually a <date>first-year</date> fellow, so I’ve been pretty plugged in to <placeName>Rocky</placeName>.</u>
+      <u who="WELLING">Right, right. Yeah, <persName>Rocky</persName>’s a great place. I have a lot—a lot of respect for what they do there.</u>
+      <u who="SONNENFELD">Yeah. Has your line of inquiry led you to social impact bonds?</u>
+      <u who="WELLING"><persName>Mm-hm</persName>.</u>
+      <u who="SONNENFELD">Or, just tangentially, what are your thoughts on that? I just wrote a policy memorandum on them.</u>
+      <u who="WELLING">Oh, did you? </u>
+      <u who="SONNENFELD"><date>Last week</date>.</u>
+      <u who="WELLING">Well, you tell me what your thoughts are, and then I’ll tell you whether I agree with them or not.</u>
+      <u who="SONNENFELD">It was a policy paper in favor of social impact bonds.</u>
+      <u who="WELLING">Tell me what you think a social impact bond is.</u>
+      <u who="SONNENFELD">I think that they’re an innovative solution to breathe innovation into the social investment industry. I think that they’re limited insofar as—to get the bonds, themselves, the social programs need to have sort of a proven track record, so in the sense that they need to show their effectiveness and a history of success, it could be limiting to actually scale up innovative projects that might not have that span of success.</u>
+      <u who="WELLING">Yeah. Okay. So—I’d love to have a longer discussion with you about this. So first of all, that’s a gross misnomer. They’re not bonds.</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>.</u>
+      <u who="WELLING">So in terms of understanding and transparency, whoever coined the term “social impact bonds” did everybody a disservice because it doesn’t have any of the qualities of a bond. You know, a bond is an unconditional promise to pay a sum certain of money at a certain date, secured or unsecured by collateral assets. </u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>.</u>
+      <u who="WELLING">A prisoner costs this much. These prisoners are identified as your target population. We’re going to use the money to run this anti-recidivism program. If these people don’t go back into prison, we’ll pay you a portion of the saving.</u>
+      <u who="SONNENFELD">Right.</u>
+      <u who="WELLING">So what it’s really doing is monetizing public saving through innovative programing. So it’s not really a bond in that sense; it’s a project financing.</u>
+      <u who="SONNENFELD">Sure.</u>
+      <u who="WELLING">And project financing is basically looking at how you look at monetizing an uncertain event in the future by bringing together some up-front capital, some guarantees, some performance criteria, and then some profit sharing. So I think in places where you have the track record (as you were suggesting) and you have innovation and you have sufficiently clear metrics so you can identify cost saving, I think it can be an incredibly effective financing tool. </u>
+      <u who="SONNENFELD">Right. Well, that’s interesting stuff.</u>
+      <u who="WELLING">Yeah, yeah. That’s more than you wanted to hear about.</u>
+      <u who="SONNENFELD">[Chuckles.] No, it’s actually all very fascinating to me.</u>
+      <u who="WELLING">It’s a fascinating topic. So what <date>year</date> are you?</u>
+      <u who="SONNENFELD"><orgName>I’m</orgName> a sophomore, <date>sophomore summer</date>, just finishing up now.</u>
+      <u who="WELLING">Yeah, yeah, yeah. And you’re a major in?</u>
+      <u who="SONNENFELD">History.</u>
+      <u who="WELLING">History.</u>
+      <u who="SONNENFELD">And a minor in public policy.</u>
+      <u who="WELLING">And a minor in policy.</u>
+      <u who="SONNENFELD">Yup,</u>
+      <u who="WELLING">And what policy courses have you taken?</u>
+      <u who="SONNENFELD">I’ve taken [<persName>Ronald G.]</persName> Shaiko’s Introduction to Public Policy.</u>
+      <u who="WELLING">Yeah, yeah.</u>
+      <u who="SONNENFELD">I’m in [<persName>Charles J.]</persName> Wheelan’s Economics and Public Policy now,—</u>
+      <u who="WELLING"><persName>Charlie’s</persName>, right.</u>
+      <u who="SONNENFELD">—which is an excellent course. I’ve loved it.</u>
+      <u who="WELLING">Yeah, yeah, he’s one of the most entertaining guys around.</u>
+      <u who="SONNENFELD">Yeah. Truly nice guy.</u>
+      <u who="WELLING">So you’re reading <orgName>Naked Economics</orgName>[: Undressing the Dismal Science]?</u>
+      <u who="SONNENFELD">I—</u>
+      <u who="WELLING">Are you using his book?</u>
+      <u who="SONNENFELD">We—we used his Introduction to Public Policy book in <date>the first couple weeks</date>, but it’s mostly been a sampling of kind of current political literature, <orgName>The Economist and</orgName> <orgName>The New Yorker</orgName> and so forth.</u>
+      <u who="WELLING">How big is the class?</u>
+      <u who="SONNENFELD">The class is probably 40 students, I would say, so not quite discussion but—</u>
+      <u who="WELLING"><persName>Mm-hm</persName>, <persName>mm-hm</persName>. </u>
+      <u who="SONNENFELD">—lively.</u>
+      <u who="WELLING">So have you seen his book, <orgName>Naked Economics</orgName>?</u>
+      <u who="SONNENFELD">Yeah, I’ve read—I have read both <orgName>Naked Economics</orgName> and—</u>
+      <u who="WELLING">It’s a great—it’s a great—</u>
+      <u who="SONNENFELD">—and <orgName>Naked Statistics</orgName>.</u>
+      <u who="WELLING">It’s a great book to have just as a primer. I go back, and I go through it periodically, just to refresh myself.</u>
+      <u who="SONNENFELD">Well, Mr. <persName>Welling</persName>, it’s been a pleasure to chat with you <date>today</date>.</u>
+      <u who="WELLING">Yeah, it’s great, so—and we’re done in record time.</u>
+      <u who="SONNENFELD">Yeah. [Chuckles.] Don’t wanna do too much.</u>
+      <u who="WELLING">So tell me a little bit about the project, and then I’ll let you go.</u>
+      <u who="SONNENFELD">Sure. Yeah.</u>
+      <u who="WELLING">On <date>this beautiful day</date>.</u>
+      <u who="SONNENFELD">So the Dartmouth Vietnam Project—kind of the idea behind it is, as I see it, twofold. One, it’s creating an archive for future historians to look back at <orgName>Dartmouth</orgName> and see what the campus trends and tensions were during the <placeName>Vietnam</placeName> period, how that affected <orgName>Dartmouth</orgName> students and faculty and even people, like, pretty tangentially related to <placeName>Dartmouth</placeName>, <placeName>Upper Valley</placeName> members or people who now find themselves here. How <placeName>Vietnam</placeName> impacted their life.</u>
+      <u who="WELLING"><persName>Mm-hm</persName>, <persName>mm-hm</persName>. Great, great, great. </u>
+      <u who="SONNENFELD">The age of fracture, crisis of confidence.</u>
+      <u who="WELLING">Yeah, yeah. And the—and the <placeName>Vietnam</placeName> dynamic is clearly an enormous part of that. But actually, a little bit—in a way that feels a little bit to me like the way people in <placeName>Rochester</placeName> reacted to the race riots, the problems of social justice that were really captured by the assassination of <persName>Martin Luther King</persName> and the assassination of [<persName>Robert F.] “Bobby” Kennedy</persName>. <persName>Bobby Kennedy</persName> really represented something, so you went <persName>Jack Kennedy</persName>, <persName>Martin Luther King</persName>, <persName>Bobby Kennedy</persName>.</u>
+      <u who="SONNENFELD">Right.</u>
+      <u who="WELLING">I’ll never forget the night that <persName>Martin Luther King</persName> was killed. A guy named [<persName>Wallace L., II</persName>] “Wally” Ford [Class of <date>1970</date>] took over WDCR and went on a rant for, like, two or three hours. He’s a black guy, distinguished now, alum and so on. You know, “We’re gonna kill all the fuckin’ white pigs. You know, this is it. This is war, were gonna [unintelligible].” And I remember actually people not being that shocked at that. So something was happening to say, “Man, we’re not sure what the right policy answer here is between communism and <placeName>Vietnam</placeName>, but—what we got aint workin’,” right?</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>. </u>
+      <u who="WELLING">So there was this growing realization. And—and it was in part the assassination of heroes that really brought that into very sharp relief. You know? Whether <persName>Martin Luther King</persName> was a hero to very many white people, he was certainly a respected figure. And <persName>Bobby Kennedy</persName> was—you know, was going to be—you know, was the great hope.</u>
+      <u who="SONNENFELD">Were you a <persName>Bobby Kennedy</persName> supporter in spite of your maybe more conservative upbringing?</u>
+      <u who="WELLING">I actually, I actually liked <persName>Bobby Kennedy</persName>?</u>
+      <u who="SONNENFELD">Yeah.</u>
+      <u who="WELLING">Would I have voted for him or not if I had been able to vote, I’m not sure. But I liked him. And it was clear that he was at least as good as his brother and maybe better than his brother, and I think most historians have concluded that <persName>Jack</persName> was a charismatic guy but <persName>Bobby</persName> was really the brains.</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>.</u>
+      <u who="WELLING">And I remember—I remember both those nights. Very shocking.</u>
+      <u who="SONNENFELD">Were you at <orgName>Dartmouth</orgName> for both?</u>
+      <u who="WELLING">Yeah. </u>
+      <u who="SONNENFELD">Can you speak a little bit to</u>
+      <u who="WELLING">No, let me think about it. When was <persName>Martin Luther King</persName> assassinated?</u>
+      <u who="SONNENFELD">He was assassinated in <date>’68</date>. They both were.</u>
+      <u who="WELLING">Yeah. Yeah, yeah, yeah, so I was at <orgName>Dartmouth</orgName> for both of them. Yup. Can I speak about—no, I’m sure somebody will talk about the—about the racial fragmentation on that campus and so on, you know. Part of the problem is there was beginning to be all this stuff about—just lip service about—about integration and bringing more people of color here. Then they were called African-Americans. They weren’t called people of color.</u>
+      <u who="SONNENFELD"><persName>Mm-hm</persName>.</u>
+      <u who="WELLING">Or swept under the rug by the marketplace, because all these things that were going on domestically suddenly got superseded by the fact that inflation was 13 percent and this two-bit dictator in <placeName>Iran</placeName> had held Americans hostage for <date>three-quarters of a year</date>, and there was nothing we could do about it. So this feeling of incredible impotence. What’s the solution to that? <persName>Reagan</persName>’s belief was the solution was economic power, and he was right. What brought down <placeName>the Soviet Union</placeName> was concentration of economic power, not—not—not philosophical discussions.</u>
+      <u who="SONNENFELD">All right. It’s been such a pleasure.</u>
+    </body>
+  </text>
+</TEI>

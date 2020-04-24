@@ -1,0 +1,302 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="PARKER"/>
+        <person xml:id="HARRISON"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="HARRISON">This is <persName>Tim Harrison</persName>. I’m on the phone with Professor <persName>Richard Parker</persName>, a <orgName>Dartmouth</orgName> ’<date>68</date>. <date>Today</date> is <date>May 18th, 2015</date>, and it’s just after 10 a.m.</u>
+      <u who="PARKER"><placeName>Los Angeles</placeName>, <placeName>California</placeName>. My mother’s name was <persName>Margaret Lambertson</persName> [Parker]. My father’s name was [the Rev. Dr.] <persName>Richard Parker</persName>.</u>
+      <u who="HARRISON">And what day were you born?</u>
+      <u who="PARKER"><date>November 5th, 1946</date>, <date>the day</date> that <persName>Richard [M.] Nixon</persName> and <persName>John F. Kennedy</persName> and [<placeName>U.S.</placeName> Senator <persName>Joseph R.</persName>] “<persName>Joe” McCarthy</persName> were all elected to <orgName>the U.S. Congress</orgName>.</u>
+      <u who="HARRISON">Okay. And can you tell me what you remember from growing up? What was it like growing up in <placeName>Los Angeles</placeName>?</u>
+      <u who="PARKER">So what I remember about growing up was that it was a lovely place to grow up. I was three blocks from <placeName>the Pacific Ocean</placeName>, and I grew up in a town that had neither poor nor rich people in it, and I thought that everything about <placeName>America</placeName> was a reflection of that constrained middle class, which is that I didn’t imagine that there were poor or rich people in <placeName>America</placeName> beyond southern <placeName>California</placeName> because I thought southern <placeName>California</placeName> was representative of the nation as a whole.</u>
+      <u who="HARRISON">Absolutely. Oh, yes. Yes, please con- —yes, absolutely.</u>
+      <u who="PARKER">Oh, okay. So the thing that I loved about <orgName>Dartmouth</orgName> was that it was very rich, and I was very poor. My father was a clergyman, a minister, and <orgName>Dartmouth</orgName> cost much more than my father made, and I had two younger brothers behind me, so I was very fretful about what the cost of college looked like. And what I know is that I signed a loan in <date>my freshman year</date>, what’s called an <orgName>NDEA</orgName> loan, a <orgName>National Defense Education Act</orgName> loan, in which—this was very weird, <persName>Tim</persName>. You don’t understand this. I had to sign a clause that said I would not participate in the overthrow or the advocacy of the overthrow of the government of <placeName>the United States</placeName> by force or violence. It seems to me this is so weird in the context of <date>the 21st century</date>, I can’t tell you. But it was very relevant to the people who were worried about who was admitted to <orgName>Dartmouth</orgName> in <date>the 1960s</date>. So I had to swear allegiance to the state, which was a kind of unusual thing to do if you were swearing allegiance to be intellectually serious, but there it was.</u>
+      <u who="HARRISON">Can you tell me what that would have made you feel in <date>1964</date>? Because you did have the experience of growing up in <date>the 1950s</date>, and I do think that’s when you came of age.</u>
+      <u who="PARKER">Sure.</u>
+      <u who="HARRISON">Were there mixed emotions for you about this clause?</u>
+      <u who="PARKER">Of course there were mixed emotions, because, I mean, I was—and I thought to myself, Why should I come to a university or a college where I have to confess my political beliefs and reassure the funder that my political beliefs wouldn’t upset him or her? I mean, that was awful to me.</u>
+      <u who="HARRISON"><persName>Mm-hm</persName>. Did you feel, on the flip side of that, some of the anxieties that many people felt, growing up at the time that you did, the sort of <name type="event">Cold War</name> anxiety?</u>
+      <u who="PARKER">Such as, what?</u>
+      <u who="HARRISON">Well, the sort of <name type="event">Cold War</name> anxieties about spreading communism in <placeName>Europe</placeName> or a potential nuclear war. Was there anxiety that you can remember in your early life?</u>
+      <u who="PARKER">No, actually I don’t. I don’t remember anxiety about it because it seemed to remote and so ridiculous, fundamentally, that the—</u>
+      <u who="HARRISON">Explain that to me.</u>
+      <u who="PARKER">—idea that I would go from <placeName>Los Angeles</placeName> to <placeName>New Hampshire</placeName> and think about overthrowing the <placeName>U.S.</placeName> government by force or violence is just ridiculous, ridiculous.</u>
+      <u who="HARRISON">Yeah.</u>
+      <u who="PARKER">So the idea that there was a <orgName>Congress</orgName> that had passed legislation that made me take a loyalty oath to do this or to not do this offended me more than the idea that I might do it, so—</u>
+      <u who="HARRISON">Can you tell me, when you were in high school, when you were growing up in <placeName>Los Angeles</placeName>—are there events that you can remember from <date>the late 1950s</date> or <date>early 1960s</date> that got you interested in current events?</u>
+      <u who="PARKER">Are you kidding me? I mean, really! Think about <date>the early 1960s</date>. It was—I mean, <persName>Tim</persName>, thank you, but, I mean, really? <date>Fifty years</date> back? I mean, <persName>John F. Kennedy</persName> was elected president when I was a freshman, and I worked for the <persName>Kennedy</persName> campaign. I actually shook hands with <persName>JFK</persName> on the rope line at the <placeName>Los Angeles</placeName> convention of <orgName>the Democratic Party</orgName> in <date>the summer of 1960</date>. So I was deeply wedded to the idea that there was <orgName>a Democratic Party</orgName> that would make deep and profound change in <placeName>America</placeName>.</u>
+      <u who="HARRISON">Can you tell me how you came to that and—as a second que- —I mean, these are really separate, but how you came into that, I imagine in high school—</u>
+      <u who="PARKER">Of course.</u>
+      <u who="HARRISON">—and what—</u>
+      <u who="PARKER">Sure.</u>
+      <u who="HARRISON">—and then what you believed <orgName>the Democratic Party</orgName> could achieve? Can you tell me both those things?</u>
+      <u who="PARKER">Of course. Sure. So my father was born at <date>the beginning of the 20th century</date>. His parents and grandparents were all Republicans. They were all [President <persName>Abraham] Lincoln</persName> Republicans. And what I remember about both of my grandfathers, one of whom died before I was born and the other of whom died <date>six or seven years</date> after I was born—but about my grandparents was that they were Republicans of what we think of now as a moderate sort, but they thought of themselves as a progressive sort. They were <persName>Lincolnian</persName>, [President <persName>Theodore</persName>] “Teddy” Roosevelt [Jr.] Republicans who thought that <orgName>the Republican Party</orgName> was about increasing liberty and equality. And so in <date>the 1930s</date>, when [President <persName>Herbert C.]</persName> <orgName>Hoover</orgName> had failed and <orgName>the Republican Party</orgName> had failed, my father had crossed over from <orgName>the Republican Party</orgName> to <orgName>the Democratic Party</orgName>. And so when I was born in <date>1946</date>, my father was a Democrat. </u>
+      <u who="HARRISON">[Chuckles.]</u>
+      <u who="PARKER">So there was always a kind of wonderful respect for a specific <orgName>Republican Party</orgName> and an idea that the Democrats had overtaken them at some point in <date>the 1930s</date> in their larger national project. And so when I got to <orgName>Hanover</orgName> in <date>’64</date>, what was I presented with? I was presented with [President] <persName>Lyndon</persName> [<persName>B.] Johnson</persName>, who inherited the party of the assassinated president who I thought was an enormous figure (<persName>JFK</persName>), and his opponent was this person from <placeName>Arizona</placeName>, <persName>Barry [M.] Goldwater</persName>, whose values and views seemed to me very extreme by definition in terms of <orgName>the Republican Party</orgName> that my grandparents had raised me to believe in. So I’ve been prejudiced ever since then. I’ve been prejudiced for <date>half a century</date> about this idea that <orgName>this Republican Party</orgName> that you, <persName>Tim</persName>, and your generation have grown up with is representative of Republican values. It isn’t, from my point of view. It’s a hideous distortion of <orgName>Republican Party</orgName> values. But that’s another story, so go ahead with your question.</u>
+      <u who="HARRISON">What do you remember thinking <orgName>the Democratic Party</orgName> stood for when you got to college?</u>
+      <u who="PARKER">Well, several things, one of which was more equality, and in <date>the early ’60s</date>, equality mattered a lot because I had seen on black-and-white television, watching <orgName>CBS</orgName> and <orgName>NBC</orgName> and <orgName>ABC news</orgName>, because we only got five or six channels in <placeName>Los Angeles</placeName>, the beatings that African-Americans had taken in the <placeName>South</placeName>. And I thought that was so horrible, so immoral, so un-American that there was only one direction I could go in, right? It was I had to go toward a party that would create equality for them.</u>
+      <u who="HARRISON">Was there a foreign policy component when you thought about <orgName>the Democratic Party</orgName>?</u>
+      <u who="PARKER">Well, it was emerging in ’64 because, again, you have to think that ’64 was about <name type="event">the Cuban Missile Crisis</name> and the nascent question of <placeName>Vietnam</placeName>, but ’64 was not about <placeName>Vietnam</placeName> because there were only 15,000 <placeName>U.S.</placeName> advisers in <placeName>Vietnam</placeName>.</u>
+      <u who="HARRISON">Yeah. So it really was, in ’64, a domestic—the concern was about domestic politics.</u>
+      <u who="PARKER">Yeah, but it was domestic moral issues. It wasn’t domestic politics.</u>
+      <u who="HARRISON">I see.</u>
+      <u who="PARKER">It was you cannot show me television in black and white where these white people are beating up on these black people and tell me that this is the <placeName>America</placeName> that I want, so it was a totally polarizing experience.</u>
+      <u who="HARRISON">I know that we’re before—in chronological terms, before the <placeName>Watts</placeName> riots, but would you have experienced some of the tensions—</u>
+      <u who="PARKER">Of course, that’s the summer of <date>’65</date>.</u>
+      <u who="HARRISON">Yes. Would you have experienced some of the tensions that would have produced those riots, growing up in <placeName>Los Angeles</placeName>?</u>
+      <u who="PARKER">No, no. Well, <persName>Tim</persName>, here’s the thing: I went back after <date>my freshman year</date> in <placeName>Hanover</placeName> to <placeName>Los Angeles</placeName> and was a tutor in <placeName>Watts</placeName> when it exploded.</u>
+      <u who="HARRISON">Oh, tell me about that.</u>
+      <u who="PARKER">So my father was an Episcopal clergyman, and he recruited me into working at an <placeName>Episcopal</placeName> church run by an African-American Episcopal clergyman, [unintelligible] in <placeName>South Central</placeName>. And it seemed to me the most natural thing to do because in <date>1962</date>, when I was, I don’t know, a sophomore? The progressive clergy of southern <placeName>California</placeName> had invited [the Rev. Dr.] <persName>Martin Luther King</persName> [Jr.] to come and talk. And my father was one of the key people, and I had actually been the crucifer, the guy who had held the cross and led <persName>Martin Luther King</persName>, immediately behind me, into the stadium at <orgName>USC</orgName> [<orgName>University of Southern California</orgName>], where 40,000 people waited for him. And he shook my hand, and he thanked me. I mean, I was transformed. I was <date>15, 16 years</date>—I don’t remember, 16 maybe, <date>15 years old</date>. And I thought to myself, This is a person like my ancestor that my parents had told me about, <persName>Theodore Parker</persName>, who had been one of the abolitionists, right?—in the 1840s and <date>’50s</date>. And so this was a direct continuation. </u>
+      <u who="HARRISON">What was the circle like at <placeName>Dartmouth</placeName> when you came here? Were people generally on the same footing as you were regarding the moral issues of race? Was it a very progressive place?</u>
+      <u who="PARKER">No, I don’t think so. I mean, again, I mean, you know, we were <date>17—I</date> was <date>17</date> when I came in—17- or 18-year-olds. We didn’t say, “Oh, let’s have a conversation about race.” I mean, that wasn’t what you did. But, you know, most of the—and <orgName>Dartmouth</orgName> at that point was overwhelmingly white. I mean, I had a couple of friends who were not white, not American, but, you know, they were real minorities at <orgName>Dartmouth</orgName>. But it didn’t occur to me to have a conversation with my crew friends. I rowed crew. Or my—oh, what was the name of that? I’m trying to remember the fraternity—Bones Gate. I joined <orgName>Bones Gate</orgName> for <date>a year</date>, right?—on <orgName>Fraternity Row</orgName>. And it was the crew house, so that’s what I joined.</u>
+      <u who="HARRISON">When you got to <orgName>Dartmouth</orgName> as a freshman, you found that people weren’t thinking quite as deeply about these issues as you were. Were there any outlets in your early experience at <placeName>Dartmouth</placeName> where you were able to discuss these or any sort of—</u>
+      <u who="PARKER">Sure.</u>
+      <u who="HARRISON">—volunteering or activism?</u>
+      <u who="PARKER">Yeah, <orgName>DCU</orgName>, <orgName>the Dartmouth Christian Union</orgName> was kind of a remarkable place. There was a guy named “Doc” Dey [pronounced DYE], <persName>Charles [F.] D-e-y</persName> [Class of <date>1952</date>]. And he was very—I mean, he left <orgName>Dartmouth</orgName> to become the head of <orgName>Choate</orgName>. Do you remember <orgName>Choate School</orgName> in—</u>
+      <u who="HARRISON">Yes.</u>
+      <u who="PARKER">—<placeName>Connecticut</placeName>. Yeah, <orgName>Choate Rosemary Hall</orgName> or whatever it is [now]. And <persName>Doc</persName> was this wonderful character—I mean, not my person, but he was, you know, a WASP [White Anglo-Saxon Protestant] like me, but the idea was that he actually thought there were deep moral obligations that came with being a recipient of privilege. And I didn’t think of myself as a recipient of privilege. I was kind of a mericratic [sic; meritocratic] public school kid, and I sort of looked around me and saw all <orgName>the St. Paul’s [School</orgName>] graduates and <orgName>the Groton [School] Graduates</orgName> and the <orgName>Choate</orgName> graduates and the [<orgName>Phillips Academy] Andover</orgName> graduates and <orgName>the Phillips [Exeter Academy</orgName>] graduates, and I thought, Wow! I’m competing up against these guys, but that was <orgName>Dartmouth</orgName> in the <orgName>mid-’60s</orgName>. </u>
+      <u who="HARRISON">Did Doc convince you otherwise?</u>
+      <u who="PARKER">He did, because he was one of their people, not one of my people, and he was so plain about the ethical issues that I identified with him, you know, in terms of ethical terms, in ethical terms. So the end of my freshman year, I went off to tutor in <placeName>Watts</placeName>. The end of my sophomore year, he had a program called the <orgName>Dartmouth-Talladega Program</orgName> [sic; [<orgName>Dartmouth-Talladega Upward Bound</orgName>] with <orgName>Talladega College</orgName> in <placeName>Alabama</placeName>, which was a historically black college. And he recruited, like, 10 or 15 of us to go south to <placeName>Talladega</placeName>.</u>
+      <u who="HARRISON">Yes.</u>
+      <u who="PARKER">Sixty-five was the <placeName>Watts</placeName> riots, and I was in <placeName>Watts</placeName> for the riots. Sixty-six, I went to <persName>Talladega</persName> and trained with African-Americans in the <placeName>South</placeName> who had never met Yankee whites, either, you know?</u>
+      <u who="HARRISON"><persName>Mm-hm</persName>.</u>
+      <u who="PARKER">And I got along well with them because I was a western white. We had no prep school experience. And they thought I was kind of nice. Anyway,—</u>
+      <u who="HARRISON">What were the <orgName>DCU</orgName>—</u>
+      <u who="PARKER">Go ahead.</u>
+      <u who="HARRISON">I’m sorry. No, I’m sorry, you continue.</u>
+      <u who="PARKER">No, go ahead.</u>
+      <u who="HARRISON">Well, can you tell me what the <orgName>DCU</orgName> did on campus? But if there was something else you wanted to say about being in the <placeName>South</placeName>, I can—</u>
+      <u who="PARKER">Yeah. So the two driving things in the <date>’60s</date> were <placeName>Vietnam</placeName> and civil rights, and so Doc and the <orgName>DCU</orgName> were always raising questions, in the context of <orgName>Dartmouth</orgName>, about those two issues. And I felt completely at home, right?—completely at home with raising those issues.</u>
+      <u who="HARRISON">What did this club look like? It was a series of meetings?</u>
+      <u who="PARKER">No. Club what? <orgName>DCU</orgName> or what?</u>
+      <u who="HARRISON">The <orgName>DCU</orgName>, yes, the organization.</u>
+      <u who="PARKER">No, it was, like,—what’s the hall that used to be—so there was—so my senior year I was in Casque and Gauntlet [<orgName>C&amp;amp;G</orgName>], and if you went across the street on the corner there was a hall.</u>
+      <u who="HARRISON"><orgName>Collis Hall</orgName> [<orgName>the Collis Center for Student Involvement</orgName>].</u>
+      <u who="PARKER">Okay. </u>
+      <u who="HARRISON">Either <orgName>Collis</orgName> or Collis Hall.</u>
+      <u who="PARKER">Yeah. So <orgName>DCU</orgName> was in there, and it was just—you know, the fact that it was a <placeName>DC</placeName>—I’m sure it’s been abolished with the C—but it was so representative of what <orgName>Dartmouth</orgName> was <date>50 years ago</date>, which was that whatever moral center the college had that wanted to communicate to younger people, it was in this Protestant New England culture in which <orgName>Dartmouth</orgName> had been created in <date>the 18th century</date>, so it must have been offensive to Jews, it must have been offensive to agnostics, it must have been offensive to people of other faiths. It might have been offensive to Catholics; I don’t know. Because it was so Protestant. But I was, you know, tenth generation Protestant, so it was, like, Okay, yeah, I get it. This is my people. These are the values we all want to approximate.</u>
+      <u who="HARRISON">No, but I would be happy to hear it now, even if it’s later.</u>
+      <u who="PARKER">Okay. So the <date>summer</date>—now, so let’s move ahead. So go to <persName>Talladega</persName>, and <persName>Butch Watkins</persName> and I, an African-American from <orgName>Talladega</orgName>, who’d never been north of <placeName>Tennessee</placeName>, and I then get shifted back to rural <placeName>Vermont</placeName>. I mean, there were about—I don’t know, you could find Dey at <orgName>Choate</orgName>—he’s retired, but you could find him. But he recruited maybe 15 of us from <placeName>Dartmouth</placeName> and 15 from <orgName>Talladega</orgName>. We went south to <persName>Talladega</persName> and did a training in community organizing, and then half stayed in <placeName>Alabama</placeName> and half were sent back to <placeName>New England</placeName>.</u>
+      <u who="HARRISON">After this experience, was—I mean, I imagine you took a lot from it. Was one of the things you took away from it this racelessness of class issues, or poverty, that black people and white people were affected by poverty and that something needed to be done to affect all of the poverty that you had noticed?</u>
+      <u who="PARKER">Uh-huh. Right. Well, I mean, again, I mean, <date>the spring of my sophomore year</date> I had gone with the <orgName>DCU</orgName> crew down to—the <date>spring</date> break of <date>my sophomore year</date>—we’d gone down to eastern <placeName>Kentucky</placeName> to do a work project in <placeName>Hindman County</placeName> [sic; <persName>Hindman</persName> is a town], <placeName>Kentucky</placeName>, and to be brought face to face with the poverty that, again, I had not seen in growing up in suburban southern <placeName>California</placeName>, was stark and powerful and very moving and very angering. And it was all white poverty. The stuff I saw in <placeName>Hindman County</placeName> [sic] had not—there were no blacks living in <placeName>Hindman County</placeName> [sic]. This was rural, Appalachian poverty, you know?</u>
+      <u who="HARRISON">I’m sure. What struck you as the solution to this mass poverty that you witnessed? What, if anything, could make it better?</u>
+      <u who="PARKER">Well, it was, you know, deep, structural change that would have been very Rooseveltian, which was a more progressive slope to the tax structure and stronger unions and the integration of whites and blacks who—we didn’t think about Hispanics or Asians in <date>those days</date>—but the integration of whites and blacks that would overcome the legacy of slavery.</u>
+      <u who="PARKER">Did <persName>Johnson</persName>, at his best, stand for this sort of structural change?</u>
+      <u who="PARKER">We thought he did in ’64 and <date>’65</date>.</u>
+      <u who="HARRISON">His rhetoric?</u>
+      <u who="PARKER">The war just came—the war just showed up in the latter part of ’65 in this horrifying way, where we thought this crude, weird Texan, whom we didn’t personally like but told us he was the legatee of <persName>JFK</persName>, whom we adored, was going to live through the <persName>JFK</persName>, <persName>FDR</persName> legacy. And so we bought into that, right? Again, because <persName>Goldwater</persName> was such, by the standards of the <date>’60s</date>, a kook. Now he’s just one of—[Laughs.] He’s a left-wing candidate among these guys right now. I mean,—</u>
+      <u who="HARRISON">Yeah. [Chuckles.]</u>
+      <u who="PARKER">It’s a comment. I mean, that’s a whole other story. Anyway—</u>
+      <u who="HARRISON"><orgName>Johnson</orgName>—</u>
+      <u who="PARKER">Is this useful? <persName>Tim</persName>, is this useful to you? I mean, I don’t know—I don’t have any idea.</u>
+      <u who="HARRISON">This is extremely useful.</u>
+      <u who="PARKER">Okay. All right.</u>
+      <u who="HARRISON">Extremely useful, yes. It is extremely useful. He claimed to be this inheritor of a—</u>
+      <u who="PARKER">Of the <persName>Roosevelt</persName>—</u>
+      <u who="HARRISON"><persName>Kennedy</persName> and <persName>Roosevelt</persName> ideal. </u>
+      <u who="PARKER">Oh, of course, [unintelligible] <persName>Kennedy</persName>. Of course he did. Right.</u>
+      <u who="HARRISON">Yes. And so—I want to go back to something you just mentioned. In <date>1965</date>, <name type="event">the Vietnam War</name> came on the screen in a cruel way, in a sudden way. It was no doubt the sudden presence of ground troops in <placeName>Vietnam</placeName>, right? American ground troops.</u>
+      <u who="PARKER">Yeah, of course.</u>
+      <u who="HARRISON">You might not remember the first time you heard about that, but can you remember early times when you heard about that and what you would have thought about it?</u>
+      <u who="PARKER">[Sighs.] I would have been at <orgName>Dartmouth</orgName>—</u>
+      <u who="HARRISON">Was it really a surprise?</u>
+      <u who="PARKER">—in <date>the fall</date> of ’64, and I can remember sitting, watching the television returns in <date>November</date> ’64 as <persName>Johnson</persName> swept the nation and thinking, This is good for the country, because, you know, the <date>November</date> before, when I was a high school senior, I had been sitting in a classroom when this disembodied voice came on the loud speaker, and it was the principal, and he said, “President <persName>Kennedy</persName> has been shot in <placeName>Dallas</placeName>.” That was my introduction to being a 16-year-old.</u>
+      <u who="HARRISON">Mmm.</u>
+      <u who="PARKER">I mean, it was just—I can’t tell you, because we had no, as a generation, any precedent for thinking a leader would be assassinated, right? And so we had this experience—you know, in my generation—I was a 16-year-old. And so we were being asked to go to college and be faithful and respectful of all the values our fathers and mothers taught us, and we were, and then suddenly this kind of world unfolded.</u>
+      <u who="HARRISON">Even to declare loyalty.</u>
+      <u who="PARKER">Huh?</u>
+      <u who="HARRISON">Even to declare loyalty to the state.</u>
+      <u who="PARKER">Oh, of course, of course.</u>
+      <u who="HARRISON">Yeah.</u>
+      <u who="PARKER">Look, we weren’t rebellious in ’63, ’64 against the state. The state was, in our view, rebellious against us. It did two things: It went forward on civil rights and then hesitated after passing legislation, because those were the legal solutions, and collapsing on the economic issues. I mean, that was what—it didn’t seem that—we didn’t understand it in ’64, but that’s what we came to conclude by <date>’68</date>, which was the first order of business was to abolish this racist nonsense that excluded African-Americans from equality in statutory ways. Done. Right? That was ’64, <date>’65</date>.</u>
+      <u who="HARRISON">I’m sure in one sense it was the looming draft.</u>
+      <u who="PARKER">No, it wasn’t, actually. Draft wasn’t, actually, a big part of it. That’s a trope that developed after. It was kind of a cynical trope. I didn’t think about the draft. I actually had applied for CO status when I turned <date>18</date>, when I was a freshman in college.</u>
+      <u who="HARRISON">And can you tell us, what is CO?</u>
+      <u who="PARKER">Conscientious objector. It’s conscientious objector.</u>
+      <u who="HARRISON">I see.</u>
+      <u who="PARKER">So I had said, “I don’t want to fight in wars with weapons.” But there were two categories of COs, one of which was I was a total CO and you had to put me to work in stateside work or, second, you could make me a medic in <placeName>Vietnam</placeName>. And I said, “No, I’ll be a medic.” I wasn’t afraid to go to the front, but I didn’t want to kill people in that war.</u>
+      <u who="HARRISON">Tell me what motivated—</u>
+      <u who="PARKER">That would later become a huge factor in <date>my senior year</date> because I handed in my draft card. That’s a story later.</u>
+      <u who="HARRISON">Tell me what you do think, if not that trope, what motivated the opposition, the huge opposition that you talked about.</u>
+      <u who="PARKER">Well, actually—we were actually a generation that was mobilized not by fear or self-interest, but the people who were mobilized at the frontlines were mobilized by moral vision. I mean, again, you have to understand: We had come out a 25-year-long period where we had been told that the state was good. It had done what? It had addressed the poverty and the collapse of the economy in <date>the 1930s</date>, and then it had led us through <date>the 1940s</date> to a victory over fascism, and then in <date>the ’50s</date> it had checked communism and created a vibrant, large middle class, which <placeName>America</placeName> had not had before. So one, two, three—these were victory after victory after victory.</u>
+      <u who="HARRISON">Did you feel these elements of change, these generational omens?</u>
+      <u who="PARKER">Of course we did. Oh, of course. Oh, yeah, of course you did.</u>
+      <u who="HARRISON">Can you remember specific conversations?</u>
+      <u who="PARKER"><orgName>Dartmouth</orgName> was pretty remote. <orgName>Dartmouth</orgName> was pretty remote. </u>
+      <u who="HARRISON">Yeah.</u>
+      <u who="PARKER">But, I mean, you felt it in dozens of ways, which was there was a deep divide in the campus between the more cautious and conservative and conventional students and the students willing to embrace being different. And what was so interesting was that the kids who were willing to be different were predominantly—[Phone rings.] Hold on a <orgName>sec</orgName>. I gotta get the other phone.</u>
+      <u who="HARRISON">Sure. [Recorder was not turned off. Nothing was transcribed from 38:08 to 38:33]. </u>
+      <u who="PARKER">Sorry, it’s a reporter. So what were we doing?</u>
+      <u who="HARRISON">We were talking about the difference between more  conservative <orgName>Dartmouth</orgName> students and <orgName>Dartmouth</orgName> students who were willing to embrace change and be a little different.</u>
+      <u who="PARKER">Right, right, right. </u>
+      <u who="HARRISON">You were saying, “Being different meant…”</u>
+      <u who="PARKER">So by—gosh, I mean, you could—have you talked to <persName>Bob Reich</persName>? I mean, you should. </u>
+      <u who="HARRISON">No.</u>
+      <u who="PARKER">Okay. So he’s one of my classmates. What I remember is that our junior and senior <date>years</date> we started an alternative college within <orgName>Dartmouth</orgName>.</u>
+      <u who="HARRISON">Oh, wow.</u>
+      <u who="PARKER">This could be dug up. This is actually quite interesting, because what we did was we began to teach on a peer-to-peer basis classes to one another. And so I remember doing, you know, contemporary politics and also the contemporary novel, because literature was hugely important to us. So we had been down—you don’t even know these books, but it’s Been Down So Long It Looks Up to Me, by <persName>Richard Fariña</persName>, and it’s all—A <orgName>Confederate General</orgName> in [sic; from] Big Sur—what’s his name, the novelist who—oh, God!—Richard <persName>Brautigan</persName>. <persName>James Baldwin</persName>. </u>
+      <u who="HARRISON">Can you tell me about this school, what you called it?</u>
+      <u who="PARKER">Oh, no, it was an alternative college within the college, and, I mean, I don’t think I kept any syllabi, but I remember teaching these classes, and there must have been, I don’t know, 20 to 40 classes being offered. <orgName>Dartmouth</orgName> must have some record of this if you went back to <date>’66</date>, ’67, <date>early ’67</date>. They would have reported on this at some point, I think. But <persName>Reich</persName>, <persName>John Isaacson</persName>, other people in my class would have taught in these courses, where we were doing peer-to-peer teaching, because that seemed to us a way of breaking out of what seemed sterile about being taught by elders, right?</u>
+      <u who="HARRISON">Whose idea was this? Was it you who founded this?</u>
+      <u who="PARKER">Oh, I don’t know. It was <persName>Karl Marx</persName>.</u>
+      <u who="HARRISON">[Chuckles.]</u>
+      <u who="PARKER">I have no effing idea, really. Really, <persName>Tim</persName>. I mean—</u>
+      <u who="HARRISON">What classes, what class—</u>
+      <u who="PARKER">How can you remember from <date>50 years ago</date> right away? You know—uch! I don’t know. I can’t remember.</u>
+      <u who="HARRISON">Well, can you tell me which class Mr. <persName>Marx</persName> was in? (That’s just a joke.) [Chuckles.]</u>
+      <u who="PARKER">I got it. I get it. I get it. I get it. Right.</u>
+      <u who="HARRISON">Okay, so someone founded it.</u>
+      <u who="PARKER">My old [unintelligible] roommate, [<persName>Christopher E.]</persName> “<persName>Chris” Hitchens</persName> used to refer to him as the <date>19th-century</date> German-Jewish intellectual who shall remain nameless, so—</u>
+      <u who="HARRISON">[Chuckles.] Well, that’s an interesting story on at least two levels.</u>
+      <u who="PARKER">Yeah.</u>
+      <u who="HARRISON">But interesting as that is, back to <orgName>Dartmouth</orgName>. So this school—this was a factor on campus, you said, ’66 through ’68?</u>
+      <u who="PARKER">Yeah, it must have been ’66 where we started, and it was this college within a college, and we were trying to pioneer the idea that we could teach one another important things, right?</u>
+      <u who="HARRISON">What was it about the status quo college system, the status quo <orgName>Dartmouth</orgName> system that was so inadequate? You used the word “sterile” before, but I wonder if you could flesh that out a little bit.</u>
+      <u who="PARKER">Well, so it wasn’t sterile, it was just preparing us for the wrong period. It was preparing us for the past, not for the future.</u>
+      <u who="HARRISON">Mmm. In what way, do you think? It was geared toward what?</u>
+      <u who="PARKER">Well, so, again, what you have to think about is—when I think about my class, it’s that—here’s the story that’s relevant, which is when <persName>Reich</persName> and I graduated, we were talking about getting ready to go to <orgName>Oxford [University</orgName>], and he said something about [<persName>Henry M.] “Hank” Paulson [Jr.</persName>, Class of <date>1968</date>], and I said, “Yeah, you know, I feel bad for <persName>Hank</persName>. He didn’t get into graduate school. He’s going to <orgName>Harvard Business School</orgName>. Because we thought that business schools—and <orgName>Harvard Business School</orgName> was the preeminent example—were trade schools. We didn’t think of them as graduate schools.</u>
+      <u who="HARRISON">Mmm. </u>
+      <u who="PARKER">Oh, sure. Sure, sure, sure. So the summer of ’67, I was—I don’t know if they still have them—there was something called the Class of 26 Scholars or 28 Scholars—I can’t remember. And it was they picked, like, 10 kids out of our class and give them special internships in public service that—is that recognizable to you?</u>
+      <u who="HARRISON">You know, not by name but in terms of what the program does, yes.</u>
+      <u who="PARKER">So <persName>Reich</persName> gets sent to work for [<placeName>U.S.</placeName> Senator <persName>Robert F.]</persName> “<persName>Bobby” Kennedy</persName>, and I get sent to work of <orgName>the United Nations Development Programme</orgName> <date>that summer</date>. And then the fall of my senior year, I transit straight from <placeName>New York</placeName> to <placeName>France</placeName>, where I spend <date>the fall semester</date> studying in the south of <placeName>France</placeName>, in one of the two <orgName>Dartmouth</orgName> programs in <placeName>France</placeName>, which was at <placeName>Montpellier</placeName> in the south of <placeName>France</placeName>. And within <date>two weeks</date> of being in <placeName>France</placeName>, I acquired a Japanese motorcycle and a French girlfriend. And I spent the fall of my senior year—no, wait a minute. Is that right? Yeah, it’s fall of my junior year. Let me—oh, let me go back over—sorry, sorry, I got to roll this back. I got to get the chronology right.</u>
+      <u who="HARRISON">Yeah, that’s fine.</u>
+      <u who="PARKER">Okay, so come from <placeName>California</placeName> in <date>’64</date>. <date>Summer</date> of <date>’65</date>, go back to <placeName>California</placeName> and teach in <placeName>Watts</placeName>. Come back to <placeName>Dartmouth</placeName>. Then <date>summer</date> of ’66 go to <placeName>Alabama</placeName> and then in rural <placeName>Vermont</placeName>, then come back in the fall of <date>’66</date>, go to <placeName>Montpellier</placeName>, come back for a semester, then go to <orgName>the United Nations</orgName>, then go to <orgName>Miles College</orgName>, then come back and finish <date>my spring</date> in <placeName>Hanover</placeName>, in C&amp;amp;G. Does that all make sense now?</u>
+      <u who="HARRISON">That makes sense. So let’s see. Where would have been in <date>the fall of 1967 and winter of 1968</date>?</u>
+      <u who="PARKER">So ’67 would have been my senior year. I would have been at <orgName>Miles College</orgName> in <placeName>Birmingham</placeName>, <placeName>Alabama</placeName>. So this was another <placeName>Dartmouth</placeName> Christian Union experience. I had signed up to teach at <orgName>Miles College</orgName>. I was teaching there because a guy named <persName>John Monro</persName> here at <orgName>Harvard</orgName> had been a dean and was a total WASP and had resigned his deanship at <orgName>Harvard</orgName> to become a dean at <orgName>Miles College</orgName>, which was an historic black college that had been founded in the Reconstruction period, and it was in suburban <placeName>Birmingham</placeName>.</u>
+      <u who="HARRISON">[Chuckles.]</u>
+      <u who="PARKER">—and dodging the bricks. And so that was my fall, right?</u>
+      <u who="HARRISON">So you have this—there’s this election coming up. There’s this primary in <placeName>New Hampshire</placeName> on <date>March 12th</date>.</u>
+      <u who="PARKER">Yeah.</u>
+      <u who="HARRISON">And you move back after <date>Christmas</date>.</u>
+      <u who="PARKER">Yeah.</u>
+      <u who="HARRISON">Now, <persName>McCarthy</persName> announced in <date>early January</date> that he would put his name into the <placeName>New Hampshire</placeName> primary race.</u>
+      <u who="PARKER">Yeah.</u>
+      <u who="HARRISON">When can you remember hearing about <persName>McCarthy</persName>?</u>
+      <u who="PARKER">So I would have been reading about <persName>McCarthy</persName>—oh, we didn’t have the Internet, but I would have read newspaper accounts in <orgName>the Birmingham News</orgName> or other places, about <persName>McCarthy</persName> challenging <persName>Johnson</persName>. We were all challenging <persName>Johnson</persName>. “We all.” But, I mean, people like me who were in a minority in <placeName>America</placeName> and a minority at <placeName>Dartmouth</placeName>, an even smaller minority at <orgName>Dartmouth</orgName>—we just thought it was, you know, what you ought to do, was challenge <persName>Johnson</persName>’s war. We didn’t differentiate really clearly between <persName>Johnson</persName> and <persName>Johnson</persName>’s war. But it was <persName>Johnson</persName>’s war that we were horrified by.</u>
+      <u who="HARRISON">If I could suggest a name, it could be—does the name <persName>David [C.] Hoeh</persName>—he worked at <orgName>Dartmouth</orgName>, does that ring a bell?</u>
+      <u who="PARKER">Yeah, it could be. It could be. Yeah, yeah. It could well be. All I remember was that the local <orgName>Democratic Party</orgName> office was representing <persName>Johnson</persName>, but there were people, including, you know, faculty wives and others, who were working there, and, you know, we—it was easy to sign up. So I did petitions, signatures in <placeName>Hanover</placeName> and <placeName>West Leb</placeName> [<placeName>West Lebanon</placeName>] and <placeName>White River Junction</placeName> [<placeName>Vermont</placeName>] in <date>January</date> and <date>February</date> or in <date>early March</date>, right?</u>
+      <u who="HARRISON">That timeline makes sense, yes. And so can you remember the sort of response you would have gotten from any of the—you went door to door.</u>
+      <u who="PARKER">Well, in <placeName>Hanover</placeName> it was kind of mixed. In <placeName>West Leb</placeName> and <placeName>White River</placeName>, it was mixed in a different way in that people didn’t know who the hell <persName>McCarthy</persName> was, and there were, you know, some number of people who thought it was <persName>Joe McCarthy</persName>, and they thought that was a good thing.</u>
+      <u who="HARRISON">Right.</u>
+      <u who="PARKER">So that kind of surprised me, right? That was, like, Whoa! The <date>early ‘50s</date> still alive in <date>the late ’60s</date> in <placeName>New Hampshire</placeName>. But, of course, that was right.</u>
+      <u who="HARRISON">Do you think it was <persName>McCarthy</persName>, himself, who motivated you to do this volunteer work and to support his campaign?</u>
+      <u who="PARKER">No, no. No, no, no, no, no.</u>
+      <u who="HARRISON">Was it opposition to <persName>Johnson</persName>?</u>
+      <u who="PARKER">No, no. I mean, the arc of history had bent to <persName>McCarthy</persName>. <persName>McCarthy</persName> hadn’t shaped the arc of history.</u>
+      <u who="HARRISON">Uh-huh. So it really was opposition to <persName>Johnson</persName> by that time.</u>
+      <u who="PARKER">Well, but I mean, look, it was that—it was <persName>Kennedy</persName>’s assassination, it was <placeName>Vietnam</placeName>, it was <persName>Selma</persName>, it was <placeName>the Birmingham Jail</placeName>, it was earlier than that. I mean, I was born in <date>1946</date>, so I can remember watching on television when I was <date>11 years old</date> these African-American kids being beaten in <placeName>Little Rock</placeName>, <placeName>Arkansas</placeName>, trying to integrate a school and being both horrified and completely disoriented by it. </u>
+      <u who="HARRISON">Was <name type="event">the Vietnam War</name> a distraction from fighting structural racism and—</u>
+      <u who="PARKER">No, no, it was a distraction, it was a whole new cha- —no, it was a whole new challenge, whole new challenge.</u>
+      <u who="HARRISON">Can you explain what you mean?</u>
+      <u who="PARKER">When you’re <date>18 years old</date>, I mean, you have the appetite for a lot of challenges. I mean, that’s the thing about being an invincible young person. You’re, what, <date>21</date> or whatever it is. But, I mean, invincibility is one of the great gifts that you have at your age. And so handed one issue, to be handed a second issue was, Good! Let’s do this, too. And when it was explained to us that these were interconnected, somehow—I mean, this is so crude, but as people explained to us that racism and imperialism were somehow related, I didn’t fully buy into it because it wasn’t a structural explanation that was powerful to me, but the moral indignation I felt about both was so commensurate that, you know, I jumped in.</u>
+      <u who="HARRISON">Okay. And so that makes sense for me. And so can you remember these experiences with <persName>McCarthy</persName> as they related on <orgName>Dartmouth</orgName>’s campus? My understanding is it’s pretty rare to have had a <orgName>Dartmouth</orgName> student volunteering for <persName>McCarthy</persName> before the <date>March</date> primary. People didn’t really know about him.</u>
+      <u who="PARKER">Sure.</u>
+      <u who="HARRISON">Is that—</u>
+      <u who="PARKER">I mean, I don’t know. You can go back to The [<orgName>Dartmouth</orgName>] D or whatever. I mean, I don’t know what was being reported, but, I mean, I knew. I was reading The [New York] Times, and so we knew that there was this insurgent campaign forming and that we vaguely understood, I mean, that <placeName>New Hampshire</placeName> was really critical. So, yeah, we knew. I mean, but, again, I mean, you know, I was—so, again, you got to remember—</u>
+      <u who="HARRISON">Right.</u>
+      <u who="PARKER">You know, you would have had a whole ser- —I mean, you could go through the chronology of <date>that spring</date>, but just think about what happened in <date>that spring</date>. I mean, really. I mean, <persName>King</persName> was going to be killed. <persName>Bobby Kennedy</persName> after we graduated was going to be killed. <persName>Nixon</persName> was going to be elected. <date>That summer</date>, the Soviets were going to invade <placeName>Czechoslovakia</placeName>. There was going to be a run on gold that threatened to overturn the American global financial system. I mean, what else—it was kind of, like, you know, <date>an interesting spring</date>, an interesting time to be a senior.</u>
+      <u who="HARRISON">Absolutely.</u>
+      <u who="PARKER">And then they invited <persName>Jake Javits</persName> to speak, and what I remember is that I and a couple of other people organized a protest so that we passed out white armbands to any senior in the graduation class who wanted to wear them. My recollection is that about a third of the class chose to wear white armbands.</u>
+      <u who="HARRISON">And what did those symbolize?</u>
+      <u who="PARKER">Huh? Protest against the war. Protest against the war. And against <placeName>America</placeName> in general at that point.</u>
+      <u who="HARRISON">Can you remember a catch phrase from the <persName>McCarthy</persName> campaign, “Clean for Gene”?</u>
+      <u who="PARKER">Oh, sure, yeah.</u>
+      <u who="HARRISON">Does that still have any meaning to you?</u>
+      <u who="PARKER">No. Uh-uh. No, I mean, because I don’t—you know, again, maybe it’s all—I mean, it’s <date>the intervening years</date>, but I don’t think of being given the opportunity to think that there was a kind of clean or innocent place from which we choose to protest the corruption of politics. It is just that we have to choose to protest the specific corruption of politics and the specific damage it does, but I don’t want to claim a kind of ingénue status for us who want to protest it.</u>
+      <u who="HARRISON">Can you remember, did it have that same meaning to you, do you think, in <date>1968</date>?</u>
+      <u who="PARKER">No, because I was beyond that. I mean, quickly enough—I mean, I had—you know, again, I mean, by the <date>winter</date> or spring of <date>’68</date>, what was horrific about <name type="event">the Vietnam War</name> was clear. What was horrific about civil rights was clear. The sense that <placeName>America</placeName> was moving away from the values that we had been raised with was clear. And we had this—what was innocent, what was naïve, what was utopian was that somehow that we could, through a combination of music and sexual freedom and egalitarian treatment of one another, create a kind of utopian world immediately, generationally, if we just made the effort. That was our lack of innocence. We thought that you could actually resolve these problems through will and mass protests. That’s what we didn’t understand.</u>
+      <u who="HARRISON">At the same time, though, you and a number of other people became more involved in the electoral process by volunteering for a real candidate.</u>
+      <u who="PARKER">Yeah.</u>
+      <u who="HARRISON">So it wasn’t all—I mean would you label that the same way? Or would you call that—</u>
+      <u who="PARKER">Sure, of course. I mean, look, again, there’s a kind of a stupid binary here, which was you only did one or the other, and all of us—I mean, not all of us, but people—so there’s a continuum. Think about a stochastic understanding of this and think about a bell curve, and think about tails So there are always social movements that begin with the far tails because people are so crazy that they will do things that protest the normative, high part of the bell curve. And then you have to figure out whether that extreme tail is going to move toward the bell median.</u>
+      <u who="HARRISON">And so going back to something I asked you before—this is a very interesting point, what you’re saying, and I think I’m understanding it, but the ideas that <persName>McCarthy</persName>’s personality, <persName>McCarthy</persName>’s campaign platform—it didn’t really matter beyond, in your words, another avenue toward the structural change and policy change you wanted to see. Is that right?</u>
+      <u who="PARKER">Sure. Yeah. I mean, again, you got to remember, it was—I mean, “again,”—I’m a little vague on this, but there were two big antiwar movements. There was the Mobe. [Transcriber’s note: <orgName>The Spring Mobilization Committee to End the War</orgName> in <placeName>Vietnam</placeName>, which became <orgName>the National Mobilization Committee to End the War</orgName> in <placeName>Vietnam</placeName>, was a coalition of antiwar activists formed in <date>1967</date> to organize large demonstrations in opposition to <name type="event">the Vietnam War</name>. The organizations were informally known as “the Mobe.”] And there was something else. I can’t remember the name of it. </u>
+      <u who="HARRISON">Yeah.</u>
+      <u who="PARKER">You did both, so you were pushing limits in both ways, trying to find out what would make historic change, so if some of it was more radical and it was less supported by more people—it was supported by fewer people—that didn’t mean that it was prohibited, you just had to weigh the two and think about—you know, you push on the left, you push on the right. These are levers that you push to try to move toward something, not defined by one or the other lever.</u>
+      <u who="HARRISON">What were some of the things that you would have done, that you did outside of the support and volunteering for <persName>Eugene McCarthy</persName>, similar avenues toward creating this sort of change?</u>
+      <u who="PARKER">In the spring of my senior year, or what are you talking about?</u>
+      <u who="HARRISON">Yeah, I mean—</u>
+      <u who="PARKER">I mean, there was a point in <date>the spring of junior year</date> where  we did—I mean, <persName>Christ</persName>! I think it was about <placeName>South Africa</placeName>. I just don’t remember anymore. <persName>Reich</persName> was part of it. But we were protest- —we were calling for divestment. I think it was—I think it was <placeName>South Africa</placeName>. There must be, again, a D record of this. But what’s the administration hall that got occupied? Here it’s Mass Hall [Massachusetts Hall], but I don’t remember what it’s called at <placeName>Dartmouth</placeName> anymore.</u>
+      <u who="HARRISON"><persName>Parkhurst Hall</persName>, and that was in <date>1969</date>.</u>
+      <u who="PARKER">Yeah. Yeah, yeah, yeah. And so <persName>Reich</persName> would have been our negotiator, and I would have been the lead person on the people outside, and I want to say it was, like, <placeName>South Africa</placeName> because—I don’t if the <persName>Sullivan</persName> principle is pushed. I mean, somehow—somehow <placeName>South Africa</placeName> had come onto our radar screen as one more issue that we were concerned about.</u>
+      <u who="HARRISON"><persName>Thaddeus Seymour</persName>, the dean.</u>
+      <u who="PARKER">Yeah, <persName>Thad</persName>. Or [<orgName>Dartmouth</orgName> president] <persName>John Sloan Dickey</persName> [Class of <date>1929</date>], right? There was no discontinuity, and it was just sort of: “Yeah, okay, <persName>Bob</persName>’s inside negotiating, and we’re outside here, keeping up the pressure.” You know, you didn’t think of it as differentiated.</u>
+      <u who="HARRISON">Any other protest activities? You’ve told me about two. You’ve told me about this <persName>Parkhurst</persName> incident, and you told me about the white bands at commencement.</u>
+      <u who="PARKER">Yeah.</u>
+      <u who="HARRISON">Any other—oh, and a third, you’ve told me about the—</u>
+      <u who="PARKER">The <persName>George Wallace</persName> protests.</u>
+      <u who="HARRISON">Right, that’s the third one.</u>
+      <u who="PARKER"><persName>George Wallace</persName>, and then I think it was the <placeName>South Africa</placeName> stuff. Those had both been big in my junior year. I would have gone down for antiwar protests at the Pentagon. I remember getting—[Chuckles.] I remember getting in trouble because several of us took a car owned by I think it was the <orgName>DCU</orgName> or <orgName>Dartmouth</orgName> and drove it, without clear permission, down to <placeName>Washington</placeName> in order to protest. I think it was the ’65 or ’66 antiwar protest. I can’t remember. So we got ourselves in a wee bit of trouble for that, but not big.</u>
+      <u who="HARRISON">Who was it who was able to think this way, who was able to move beyond the superficial contradiction between protest and volunteering? What do you think allowed you to move beyond that superficial contradiction?</u>
+      <u who="PARKER">Oh, I’m sure that it was being raised in a ministerial environment. I mean, I was free of a desire to make money. I was deeply committed to the idea of learning and the belief that a society that is best is one that encourages learning and equality, which is, you know, what the collegial idea of scholarship is. And I had grown up in southern <placeName>California</placeName> that was, by the terms of <placeName>America</placeName> in the ’50s, pretty radically egalitarian in the sense that it was, you know, pre-middle class. I mean, when left protestors <date>today</date> kind of weakly talk about, you know, the broad middle class, that was what I grew up in in <date>the ’50s</date>, you know, where there was an upper middle class that consisted of doctors and lawyers, there was a lower middle class that wasn’t very “lower,” that consisted of skilled machinists, and my dad was by status upper middle class but by income lower middle class. And it just felt natural to navigate that broad middle class. But I didn’t see stark poverty, and I never saw stark wealth growing up, and so I thought both of them had somehow been abolished in the <persName>Roosevelt</persName> period. So you get to <placeName>Dartmouth</placeName> and you discover wealth, and then you go to <placeName>Alabama</placeName> and you discover poverty, and you go, Whoa! What the hell just happened here? Whose <placeName>America</placeName> is this?</u>
+      <u who="HARRISON">Hmm. At the same time, was this common at <orgName>Dartmouth</orgName> in <date>1968</date>?</u>
+      <u who="PARKER">You mean, am I representative of my class? No, I don’t think so. I think I’m probably 10 percent, 15 percent of my class.</u>
+      <u who="HARRISON">Okay. All right.</u>
+      <u who="PARKER">It doesn’t mean that larger percentages of my class didn’t understand. It was touching to me when you and I met that three of my classmates had shown up to hear me talk. I mean, I knew one of them vaguely. I didn’t even remember the other two. And they didn’t just show up because, you know, I was a classmate, but they thought, Wow! You know, <persName>Reich</persName>, <persName>Parker</persName>—you know, they’re talking about stuff that matters to us. And they were pretty, you know, middle-of-the- road, even conservative business types. I mean, one’s a real[tor], a former real[tor]. I mean, they were all retired, but it was, like, realtor, business, lawyer. </u>
+      <u who="HARRISON">Hmm. All right, Professor. Well, I’ve taken about an hour and 15 minutes of your time.</u>
+      <u who="PARKER">I’m sorry if this is more than you wanted. I apologize.</u>
+      <u who="HARRISON">Oh, no. No, no, no. This has been a very interesting interview, and you have added a great deal of definition to the project I’m working on, so I’m very grateful. But I do feel like—well, I know you had said about half an hour, about a half an hour ago, so I want to respect that—</u>
+      <u who="PARKER">All right.</u>
+      <u who="HARRISON">—and let you get back to work.</u>
+      <u who="PARKER">Good.</u>
+      <u who="HARRISON">But thank you very much for—</u>
+      <u who="PARKER">I hope it’s helpful.</u>
+      <u who="HARRISON">—taking the time to talk to me.</u>
+    </body>
+  </text>
+</TEI>

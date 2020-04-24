@@ -1,0 +1,449 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="BURACK"/>
+        <person xml:id="COOPER"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="BURACK">Hello, my name is <persName>Emily Burack</persName> [pronounced BYUR-ack]. I am sitting in <orgName>Rauner</orgName> [<orgName>Special Collections] Library</orgName> in <placeName>Hanover</placeName>, <placeName>New Hampshire</placeName>, on <date>January 21st, 2016</date>. I am speaking with Mr. [<persName>William L.] “</persName>Bill” Cooper, who is at his home in <placeName>Williamsburg</placeName>, <placeName>Virginia</placeName>.</u>
+      <u who="COOPER">Fine, <persName>Emily</persName>. And how are you?</u>
+      <u who="BURACK">Doing great. Very excited to be talking to you. Let’s start at the beginning. Where—where—where were you born? Where do you come from?</u>
+      <u who="COOPER">I was born in <placeName>Highland Park</placeName>, <placeName>Michigan</placeName>, which was an enclave entirely surrounded by the city of <placeName>Detroit</placeName>, in <date>1944</date>.</u>
+      <u who="BURACK">And what were your parents’ names?</u>
+      <u who="COOPER">My father was <persName>Frank</persName>, and my mother was <persName>Margaret</persName>.</u>
+      <u who="BURACK">What did they do?</u>
+      <u who="COOPER">Mom was a stay-at-home mom, although had a Junior Phi Bet[a Kappa] at <orgName>Radcliffe [College</orgName>, now <orgName>Radcliffe Institute for Advanced Studies</orgName>, a part of <orgName>Harvard University</orgName>] before she transferred to [<orgName>the University of] Michigan</orgName> to get a master’s in the amount of time it would have taken her to finish up at <persName>Radcliffe</persName>. And <persName>Dad</persName> was a lawyer in <placeName>Detroit</placeName> and taught at the [ of] <orgName>Michigan Law School</orgName>.</u>
+      <u who="BURACK">Okay. Did you have any siblings?</u>
+      <u who="COOPER">Yes, two brothers. One, <persName>Frank</persName>, my oldest, died in <date>1988</date>. And the middle brother was [<persName>Edwin H.]</persName> “Ed,” who was a Class of ’62 at <orgName>Dartmouth</orgName> and [unintelligible] <placeName>Michigan</placeName>.</u>
+      <u who="BURACK">So you were the youngest?</u>
+      <u who="COOPER">Yes.</u>
+      <u who="BURACK">What was it like being the youngest in a household of three boys?</u>
+      <u who="COOPER">Well, it prepared me for [<placeName>U.S.</placeName>] <orgName>Army</orgName> basic training. [Both chuckle.] Yeah. They were nice and supportive brothers, but they could make fun of all the things I either didn’t know or didn’t know how to do.</u>
+      <u who="BURACK">As older siblings do occasionally.</u>
+      <u who="COOPER">I suppose. Props them up in some way.</u>
+      <u who="BURACK">[Chuckles.] What was it like growing up near <placeName>Detroit</placeName>?</u>
+      <u who="COOPER">That was fine. You know, looking back, it was politically incorrect, because it was a very homogenous community called Grosse Pointe, and I would say unemployment was practically nonexistent, and most of the people were very light in complexion—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="COOPER">—and, again, highly educated and mostly employed in the city of <placeName>Detroit</placeName>, the downtown center of which was almost exactly ten miles away. Not a bad commute at all. And it was on <placeName>Lake St. Clair</placeName>, which is a link <placeName>the Great Lakes</placeName>, and allowed for a lot of water sports and sailing and such.</u>
+      <u who="BURACK">What was your favorite water sport?</u>
+      <u who="COOPER">It seems to have come back into fashion. We had this probably nine-foot-long item called a paddleboard, and by the time you were seven or eight, you could stand on it in a light chop and paddle all over the place. And I noticed this in <date>the last few years</date> that there’s been a resurgence of paddleboards.</u>
+      <u who="BURACK">Yeah, there—you have to have a good balance to do it.</u>
+      <u who="COOPER">Well, it was a training exercise.  [Both chuckle.]</u>
+      <u who="BURACK">Exactly. So what was school like, growing up?</u>
+      <u who="COOPER">Well, I developed most of the bad habits that have served me for my life.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="COOPER">I was one who was sort of cursed with—with pretty good luck with multiple guess testing, and I typically did my homework in—you know, if I had math homework, I’d do it in Latin, and then I’d do the Latin homework—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="COOPER">—in history and so on, so I did very little homework and developed pretty reprehensible work habits. And as a result, I’m sure I was very near the bottom of my class in college.</u>
+      <u who="BURACK">Mmm. Did you find high school enjoyable or challenging?</u>
+      <u who="COOPER">It was enjoyable but in some ways frustrating.</u>
+      <u who="BURACK">How so?</u>
+      <u who="COOPER">Because I would—well, I think the best thing vignette I can provide: There was a group that I hung out with who were sort of halfway between the jocks and the bookworms, and I’d say we were all in the top 10 percent of our class, and did various extracurricular activities, including some sports. But our particular activity was to get together for about three hours every Saturday in the afternoon at the public library in town, and we would take turns being the convener and identify a topic that we’d hope would be of interest to the group and prepare a reading list and an outline and, in kind of a seminar format, discuss whatever it was. And we met <date>weekly</date> through <date>the school year</date>.</u>
+      <u who="BURACK">So you had these <date>weekly</date> meetings with your friends. What were your favorite—what was the topics that you usually brought to the table?</u>
+      <u who="COOPER">I would say curiosities of the English language.</u>
+      <u who="BURACK">Interesting. Like what?</u>
+      <u who="COOPER">Well, I’ve pretty well forgotten. I remembered we had great fun—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="COOPER">—with homophones and how different accents affected one’s perception of homophones. <date>Just yesterday</date>, somebody was jokingly—he has a place that he goes to in <date>the summer</date> in <placeName>Portugal</placeName>, and he said there people would think sheep as in the parents of a lamb, and ship, a vessel you might sail on [chuckles] were homophones. [Both chuckle.] There’s a [unintelligible] difference.</u>
+      <u who="BURACK">[Chuckles.] So your senior year of high school, your brother was already at <orgName>Dartmouth</orgName>, your middle brother. Where was your older brother?</u>
+      <u who="COOPER">I’m trying to remember. At that point—I think he had just settled down after two or three wild escapades in different schools—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="COOPER">going to <orgName>the University of Michigan</orgName> in economics.</u>
+      <u who="BURACK">Okay. Were you pulled to follow his path, or what led you to <orgName>Dartmouth</orgName> originally?</u>
+      <u who="COOPER">You know, I honestly think—when I do interviewing for <orgName>Dartmouth</orgName> prospects, I tell them—you know, after the interview is over and we’ve bonded to whatever extent we do, that I would like to know, when they get their thick letter or thin letter in the admissions process and promise them that I’m not here to sell them on a college, that I hope they go and spend some time there, because they will know better than anyone whether it’s the right place for them.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="COOPER">And several different kids over <date>the years</date> have gotten in touch with me, including a couple that didn’t go to <orgName>Dartmouth</orgName>, that they really appreciated that, and I thought that was probably the right—</u>
+      <u who="BURACK">So you visited your brother when you were in high school?</u>
+      <u who="COOPER">Just once. I spent <date>a disastrous year</date> at [<orgName>Phillips] Exeter [Academy</orgName>], and he invited me up to <placeName>Hanover</placeName> for <date>Thanksgiving</date>, and I think it might have been the first time that I was inebriated among strangers. [Both chuckle.] Back in <date>the day</date>, very few people remained in <placeName>Hanover</placeName> for <date>Thanksgiving weekend</date>.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. How did you end up at <placeName>Exeter</placeName> from high school in <placeName>Detroit</placeName>?</u>
+      <u who="COOPER">Well, just—just the phenomenon I’d indicated earlier. I felt that it was too easy,—</u>
+      <u who="BURACK">Mmm.</u>
+      <u who="COOPER">—and I wasn’t really a very serious and sober-sighted student in <date>later years</date> if I didn’t buckle down.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="COOPER">Something I may say later on that I thank the <orgName>Army</orgName> for: I never did buckle down then, but between college and law school, I was drafted, and the <orgName>Army</orgName> imposed a really terrific work ethic, and I found law school terrifically easier than college and graduated from. So, of course, I’m a great believer in the draft. [Both chuckle.]</u>
+      <u who="BURACK">So let’s back up a little before we get to the draft.</u>
+      <u who="COOPER">Sure.</u>
+      <u who="BURACK">You applied to <orgName>Dartmouth</orgName> early decision, regular decision?</u>
+      <u who="COOPER">Regular decision.</u>
+      <u who="BURACK">What was your—regular decision. So what made you choose to come to <orgName>Dartmouth</orgName>?</u>
+      <u who="COOPER">Well, just—just as I was telling kids I would interview later on, I spent <date>about a week</date> there over what was Easter vacation, back home, after I returned home from <placeName>Exeter</placeName>, and there was a kind of an energy and a kind of a—I don’t know, a rough-and-ready atmosphere that seemed more congenial to my ambitions and my personal style than some of the other highly-selective schools. It had more of a, you know, prep school, country club sort of a social expectation. Bearing in mind, this is <date>about 50 years ago</date>. It’s probably <date>54 years ago</date>, thinking of freshman year. And things that these all are around.</u>
+      <u who="BURACK">So what was it like when you first got to campus?</u>
+      <u who="COOPER">Well, I—I hadn’t thought in quite those terms. I found the social atmosphere of what was then a single-sex school maybe a little depraved because there was a whole lot of, I don’t know, drinking and road tripping and al of that and not a lot of sitting down and, you know, kind of sharing your innermost hopes, fears, ambitions in a way that I had—probably due to that <date>Saturday</date> group. I was pretty congenial and candid in high school. But the longer I was there and the more at home I felt, the more I developed a few friendships that were entirely candid and trusting.</u>
+      <u who="BURACK">So you arrive at <placeName>Dartmouth</placeName> in <date>the fall of 1962</date>? Is that correct?</u>
+      <u who="COOPER">Yeah, that’s right.</u>
+      <u who="BURACK">Where did you live? What organizations did you join? Talk me through your time <date>that first year</date>.</u>
+      <u who="COOPER">All right. Well, I lived in Little Hall in the <persName>Choates</persName> [the Choate Cluster].</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. It still exists <date>today</date>.</u>
+      <u who="COOPER">Say again?</u>
+      <u who="BURACK">It still exists <date>today</date>, Little.</u>
+      <u who="COOPER">Yeah. I imagine. And they had kind of a—and I think the <persName>Choates</persName> were built with this in mind: There was sort of a faculty apartment in the center, between <orgName>Little and Brown [Hall</orgName>] and between, you know, <persName>Choate</persName> and whatever the other one was. And there was I think a pretty sober-sighted effort to have it become something like the houses that are discussed now, to provide a different engagement in the community, I guess.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. So freshman year. Was there anything unexpected about being at <placeName>Dartmouth</placeName> or anything surprising?</u>
+      <u who="COOPER">Well, only the ease with which you could find a ride if you wanted to go down to <placeName>Northampton</placeName> or <placeName>South Hadley</placeName> or <placeName>Poughkeepsie</placeName>, wherever you wanted to socialize with members of the opposite sex.</u>
+      <u who="BURACK">I see.</u>
+      <u who="COOPER">And I traveled way too much as a freshman.</u>
+      <u who="BURACK">[Chuckles.] Did you enjoy these trips?</u>
+      <u who="COOPER">Yes.</u>
+      <u who="BURACK">What did you like about leaving campus?</u>
+      <u who="COOPER">I think part of it was—entirely candid: It was sort of a sense of adventure.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="COOPER">I’d done a little hitchhiking as a high school kid, but not much. And the prospect of, you know, having <date>a good weekend</date> gone bad and hitchhiking home along the highway after midnight from—you know, I’m thinking of a specific weekend at Mount Holyoke [College] that didn’t go as I’d imagined.</u>
+      <u who="BURACK">[Chuckles.] How so?</u>
+      <u who="COOPER">Oh, I think just differing expectations. I hadn’t known my date. We were fixed up by a mutual friend who thought we’d get along swimmingly, and something about me—you know, it was an entirely, you know, respectful and potentially admiring approach on my part. She found me very upsetting and didn’t trust me and thought I was probably psychotic. And instead of staying over and seeing us in the light of day—we could at least repaired the damage—she wanted me gone, so I was gone.</u>
+      <u who="BURACK">So you hitchhiked back to <orgName>Dartmouth</orgName>?</u>
+      <u who="COOPER">Yes.</u>
+      <u who="BURACK">What’s hitchhiking like?</u>
+      <u who="COOPER">Well, I’d only had a couple of scary moments hitchhiking, but it’s an economic measure for—for my—pretty much <date>my sophomore year</date>. I was involved with a hometown friend who was at <placeName>Michigan</placeName>, and I’d hitchhike out to <placeName>Ann Arbor</placeName> once every month or <date>five weeks</date>.</u>
+      <u who="BURACK">Wow. That’s far.</u>
+      <u who="COOPER">I’d be able to go 700-and-some-odd miles, you know, and maybe thirty dollars in my wallet (which back then was a lot more, of course).</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. So what were your conversations like with these strangers?</u>
+      <u who="COOPER">Excuse me.</u>
+      <u who="BURACK">Sorry. No, you go ahead.</u>
+      <u who="COOPER">I thought— thought we—</u>
+      <u who="BURACK">No, go ahead with whatever story.</u>
+      <u who="COOPER">Well, the scary episodes both involved groups of guys that picked me up and were just going to have some sport with this kid. And typically they were drunk, and there was a little drunk driving as well. Both in both occasions, it was on <date>a rainy day</date>, and pretty much night, I should say—in one case, about three in the morning. And when they decided I was no fun, in both cases they threw me out, not at a service plaza or an on ramp, where it was relatively easy to get a ride because you could pretty much talk to people, but just out, you know, on a long stretch of the thruway between exits. And that—that wasn’t good.</u>
+      <u who="BURACK">Does not sound particularly comforting. Did you have any interesting conversations with strangers that you hitchhiked with?</u>
+      <u who="COOPER">Well, every time I would be picked up by, say, a couple old enough to be my parents or a single individual, and then typically it would be a man old enough to be a parent, there were remarkably relaxed and candid conversations. And I think they picked someone up because they were getting, I don’t know, bored or lonesome driving along.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="COOPER">And I don’t suppose talking books were as readily available, so it was very companionable. I think my record hitchhiker friend drove me down to an on ramp to the Ohio Turnpike [now <persName>James W. Shocknessy</persName> Ohio Turnpike] near <placeName>Toledo</placeName>, on, I don’t know, <date>Wednesday</date> or <date>Thursday</date> before <orgName>the Newport Jazz Festival</orgName>. And the first ride I got was someone who was going to <name type="event">the Newport Jazz Festival</name> and coming back the same way more or less the time I wanted to, so it was like a 1,500-mile round trip. I was delighted to buy a tank of gas along the way.</u>
+      <u who="BURACK">What a stroke of good luck.</u>
+      <u who="COOPER">Yeah.</u>
+      <u who="BURACK">So what <date>about your sophomore year</date> at <orgName>Dartmouth</orgName>? How was it different than your <date>first year</date>? Did you join anything new or—it’s now 1963, <date>1964</date>.</u>
+      <u who="COOPER">Of course, that was the fall that President [<persName>John F.]</persName> <persName>Kennedy</persName> was shot, and so it was one of those sea changes, probably not quite as shocking to us all as <date>9/11</date> [<name type="event">the September 11, 2001</name>, attacks], which happened to be my birthday, but, you know, everybody of my age cohort remembers precisely where they were when they first learned of <persName>Kennedy</persName>’s death. </u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="COOPER">I think we all wound up joining fraternities but were probably  not quite as heart-and-soul devoted to our fraternities as—as might otherwise have been the case. And I’ve stayed in touch with virtually every one of them since.</u>
+      <u who="BURACK">That’s wonderful.</u>
+      <u who="COOPER">I was upstairs, and a friend and I, who joined <persName>Phi Tau</persName> together, shared the third floor of this place, which was basically two bedrooms and a bathroom, and I was up—up in my—my half of this upstairs suite, listening to the radio and starting to study when I first heard that he’d been shot. And I guess that news was in the forenoon.</u>
+      <u who="BURACK">What did you—what was your reaction to that?</u>
+      <u who="COOPER">Hard to summarize. You know, he was such a charismatic leader, and at least what little we knew about how scary things actually were, for <placeName>the Bay of Pigs [Invasion]</placeName> era and <orgName>the Cuban Missile Crisis</orgName> and all that, it seemed as though a whole lot of, you know, the bright, shining promise of the future was suddenly tarnished, and things turned very iffy. You know, such a casual act that I guess—I can’t really remember if there was much conspiracy theory in discussion around campus at the time. I just—it seemed like a very fragile situation if—if—if one lone gunman had gone off his feed and so upset the public order.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="COOPER">Yeah.</u>
+      <u who="BURACK">What was your relationship to, like, the rest of campus, outside of the kind of seven other guys you were living with?</u>
+      <u who="COOPER">Well, it was—I’m trying to remember. I think it was <date>the first year</date> I traveled on the <orgName>Glee Club</orgName> tour, and I was a pretty decent <orgName>Dartmouth</orgName> sports enthusiast. And by dint of having this hitchhiking relationship with the woman in <placeName>Ann Arbor</placeName>, who came to <placeName>Hanover</placeName> about once a term, you know, my need to road trip around <placeName>New England</placeName> died back.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="COOPER">And I pledged Phi Tau with my suite mate from the third floor, a guy named Skip [unintelligible]. And we had, you know, the usual round of fraternity obligations and that type of [unintelligible].</u>
+      <u who="BURACK">Did you like being a member of the fraternity?</u>
+      <u who="COOPER">I did. It was—it was a very unpretentious fraternity, though it did have some, you know, rituals and traditions and all. But any number of folks there—I don’t know, they weren’t exactly like hippies, but they were kind of contrarian, and we had great fun with the model of, you know, the campus leader who—it fit very nicely. I’m not sure if you’ve ever watched <orgName>Animal House</orgName>.</u>
+      <u who="BURACK">I have, yes.</u>
+      <u who="COOPER">It wasn’t quite the—you know, the drunken stupor aspect of <orgName>Animal House</orgName>, but it was definitely counter to the—I don’t know, <orgName>the ROTC [Reserve Officers’</orgName> Training Corps] campus leader type model of social life. We took ourselves sort of less seriously, and as a result maybe more seriously in some way, but each of us had the job of figuring out who we were so much more importantly than figuring out how to get along and achieve stardom.</u>
+      <u who="BURACK">What’s your favorite memory of being in <placeName>Phi Tau</placeName>?</u>
+      <u who="COOPER">I think so [sic]. Yeah, I’d say that’s right, and it worked that way. And it—kind of like later in life, I think I—I—I had the first inkling that there’s really no one you can’t learn a lot from. That was reinforced quite a bit in the <orgName>Army</orgName>, if we get to that, but it—there were people from, you know, different places and people with I suppose you could say different prejudices or expectations, but all of them had done stuff or had insight into things that—that were new to me, and very easy to get a pretty decent start, coming to understand whatever it was by dint of those friendships.</u>
+      <u who="BURACK">Gotcha.</u>
+      <u who="COOPER">Well, only—I was a pretty superficial individual, but my one memory of that was a picture of <persName>Nelson</persName> [A.] <persName>Rockefeller</persName> ’29 [sic; ’30] sitting, you know, on the stage for some political debate, and I don’t think it was at <placeName>Hanover</placeName>. And he was sitting with his jaw resting on one hand, and his middle finger extended, and it was understood to be in reaction to whoever was, you know, at the podium in this political discussion. And I would—copies of that picture or photocopies of it were very widespread on campus, we thought [unintelligible].</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="COOPER">But I wasn’t, you know, out carrying placards or calling voters or whatever. And I’m not sure if, in <date>those days</date>, had we been <date>21</date>, we could have registered and voted in <placeName>New Hampshire</placeName> anyway—you know, non- —out-of-state—</u>
+      <u who="BURACK">As a non-resident, yeah.</u>
+      <u who="COOPER">That’s an interesting point. I had just barely picked a major.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="COOPER">At first, I thought I wanted to be an international relations major, and at that time, it was on, you know, a selected major, and you’d take whatever the introductory IR course was. And depending on the quality of your participation in your class, you know, kind of like term paper, you might or might not make the cut. And I did not make the cut.</u>
+      <u who="BURACK">So back to your religion courses. I’m actually a religion minor here at <orgName>Dartmouth</orgName>.</u>
+      <u who="COOPER">Yeah. I remember.</u>
+      <u who="BURACK">So I’m curious to hear kind of what you felt while you were taking those classes or, if you came from a religious background, what impact that would have had on your courses.</u>
+      <u who="COOPER">Well, I had grown up as an Episcopalian and didn’t have really much experience of the Bible, and the first course I took was a <name type="event">New Testament</name> course, which—which began in very much the Bart [D.] <persName>Ehrman</persName> [pronounced it like ermine]—is that <persName>Ehrman</persName> [pronounced it ERR-mahn], would you say?—mode of how the books that got to be in the canon—how they were chosen and how many weren’t chosen and whether it was political manipulation by <persName>Constantine</persName> [the Great] or a cabal of the religious, how the books that got to be, all quotes, “the Bible,” got to be so. </u>
+      <u who="BURACK">So were you attracted to these new ideas or just kind of—</u>
+      <u who="COOPER">Yeah.</u>
+      <u who="BURACK">—just perceived them more from, like, a scholarly perspective?</u>
+      <u who="COOPER">Well, both. They actually got me more interested in—in a sort of different—and plus—oh, I don’t know, different, less sacralized approach to what—what was important in religion.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="COOPER">You know, I should mention I—I—this is sort of a quick segue back. I had a part-time job in the reserve corridor of  the library as a freshman, and the staff on the reference desk were all sort of counterculturalists who lived out toward <placeName>Quechee</placeName>, [<placeName>Vermont</placeName>,] in what might have been an early commune. And in a French course taught by a man, <persName>Michel Benamou</persName> [pronounced BON-ah-moo], who was, you know, a North African and had this wonderful schema of—of—of, you know—I don’t know. I can’t even remember the nomenclature but kind of an outline of human belief and the human soul, and it conflates, you know, folklore with [<persName>Alfred</persName>] Adlerian psychology, and it was—I don’t know, it was a just a whole new way of looking at things.</u>
+      <u who="BURACK">That’s interesting to hear, so working with these people that were involved with this folklore-type belief. Did you kind of—“buy into it” is not the word; that’s too strong a word, but kind of did you see things from their perspective or kind of attend meetings with them or whatnot?</u>
+      <u who="COOPER">Oh, it was more, you know, sitting at the desk, waiting for people to turn up—</u>
+      <u who="BURACK">And listening, yeah.</u>
+      <u who="COOPER">—and request stuff. And they would just share stuff with me, recommend different—you know, Asian graphic art to meditate on. I think it was the first time I was referred to the Tibetan Book of the Dead and all, this whole realm of—</u>
+      <u who="BURACK">The Egyptian religion, yeah.</u>
+      <u who="COOPER">Just chat, and by allusion, and then by a little guidance, it just got to be able to talk back and forth on what was a whole different plane for me. I wish I had any thoughts long those lines in high school. What a knockout <date>Saturday</date> session!</u>
+      <u who="BURACK">[Laughs.] You should have a reunion of your <date>Saturday</date> group, bring new topics to the table.</u>
+      <u who="COOPER">Isn’t that a great idea?</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="COOPER">Unfortunately, I guess I’d have to wait for the 60th reunion,—</u>
+      <u who="BURACK">Ah.</u>
+      <u who="COOPER">—but I’m sure could gather a list of eight or ten of them and propose just that.</u>
+      <u who="BURACK">Bring the gang back together.</u>
+      <u who="COOPER">Yeah.</u>
+      <u who="BURACK">Okay, back to your time at <placeName>Dartmouth</placeName>. So your <date>third year</date>, you ended up as an English major. You were living in <placeName>Phi Tau</placeName>. Anything else happening on campus? Any rumblings of <placeName>Vietnam</placeName> things, kind of stories you’d been hearing?</u>
+      <u who="COOPER">Just a little by <date>spring</date>. I think it was on Green Key Weekend. I met my date in <placeName>Boston</placeName>, where she’d come from <placeName>Poughkeepsie</placeName>, where she was in school. And we drove back and had some stops in <placeName>Gloucester</placeName> and places on the coast before coming up in time for <date>Saturday</date> of <orgName>the big college weekend</orgName>.</u>
+      <u who="BURACK">What were your thoughts on the protest, itself?</u>
+      <u who="COOPER">I thought it was valid, and it—it—no, it was great—great fodder for debate later on, whether the guys that bugged out of the country hadn’t given up at least as much as the ones who went and were, you know, injured or killed in the war.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="COOPER">Terrible time. But I can remember spending time with, you know, old high school friends in <placeName>Ann Arbor</placeName>, and most of them were pretty conservative and pretty patronizing when I would say anything about, you know, “what a mess we’re in.” And oddly enough, I was one of the few [chuckles] in that cohort who was drafted. But—whatever.</u>
+      <u who="BURACK">Were you drafted your senior <date>year</date> or after you had graduated?</u>
+      <u who="COOPER">After—actually, <date>almost seven months</date> after I was graduated. I went home. My father was ill with <persName>Lou Gehrig’s</persName> disease (amyotrophic lateral sclerosis], so it made as much sense to be there as anywhere. I’d originally thought I would spend <date>a few months</date> in <placeName>Europe</placeName> as sort of a getting-fresh-air move, but my draft board—and I still don’t know quite how this was accomplished, but they made it impossible to get a passport if you were 1-A [Selective Service System classification; available for unrestricted military service], in the military—you know, the draft classification. </u>
+      <u who="BURACK">So senior year. Sorry, we’re going to get right back to that. I just don’t want to skip your senior year at <orgName>Dartmouth</orgName>. Did you have friends that were being drafted, or kind of what was the mindset on campus as you were approaching your graduation?</u>
+      <u who="COOPER">I didn’t know anyone that was drafted out of campus, and this was, you know, just about the time that they started ramping up beyond advisers.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="COOPER">But three or four of the ’65s in <placeName>Phi Tau</placeName> and about eight of my classmates were in <placeName>Naval</placeName> [<orgName>U.S. Naval Reserve Officers Training Corps</orgName>] or <orgName>Army</orgName> ROTC and, you know, had an obligation. And we got letters from one of the ’65s, who wound up in <placeName>Vietnam</placeName>, and he wrote these really very poetic letters about these hellacious fixed-wing gunships and what it was like seeing them take off and head this way or that, and within, you know, 50 seconds they’d start, you know, firing under-wing missiles and these Gatling gun type guns.</u>
+      <u who="BURACK">So two things I wanted to ask: You were in <placeName>ROTC</placeName> at <orgName>Dartmouth</orgName>?</u>
+      <u who="COOPER">I was not.</u>
+      <u who="BURACK">Oh, you were not. Okay, sorry.</u>
+      <u who="BURACK">Classmates and—</u>
+      <u who="COOPER">Oh,—</u>
+      <u who="BURACK">—fraternity brothers were.</u>
+      <u who="BURACK">—classmates were. I’m sorry. I—</u>
+      <u who="COOPER">Well, <placeName>Vietnam</placeName> was a popular topic.</u>
+      <u who="BURACK">I misheard you. My apologies. </u>
+      <u who="COOPER">Oh, no problem at all.</u>
+      <u who="BURACK">And what—what impression did these letters leave on you?</u>
+      <u who="COOPER">Well, both concern for the letter writer being at risk, but also kind of bewildered about what—what was the point? I don’t think very many of my contemporaries subscribed to the domino theory. And as the financial cost and then the loss of life, you know, mounted, it just seemed like a pretty terrible travesty.</u>
+      <u who="BURACK">Yeah, so was the domino theory—did you have debates over whether it was valid or not, or was everyone kind of, like, “I don’t believe this.”?</u>
+      <u who="COOPER">I would say not believe it was pretty much the norm. There was also the civil rights era, of course, and freedom rides and all. And one of the things that really sticks out in my memory of senior year: They had the great issue [sic] course that seniors were to take, you know, once a week, pretty much. And one of the speakers was Governor [<persName>George C.]</persName> Wallace [Jr.]</u>
+      <u who="BURACK">How interesting.</u>
+      <u who="COOPER">And it was the first civil rights protest type gathering I can, and people, you know, were blocking his car and, you know, there was all sorts of placards, but being the kind of swine I was, I had a multilingual “Keep Off the Grass” sign that had been purloined from a lawn in front of the <orgName>U.N.</orgName> [<orgName>United Nations</orgName>], and so I trooped around with this, “Veuillez ne pas marcher sur le gazon.” A long time ago.</u>
+      <u who="BURACK">I’m so curious to hear more about kind of what was it like hearing Gov. <persName>Wallace</persName> talk?</u>
+      <u who="COOPER">Well, he was, you know, a very smooth talker and very persuasive if you could concede his point of view, which I doubt that any of my contemporaries could. I had a number of friends who were politically conservative, and I can’t remember. I think there was, you know, some formal—sort of like <orgName>the Federal Society</orgName> [for Law and Public Policy Studies], there was a group of right-wing students with which, you know, a number of my friends or acquaintances were involved with. But they were just as skeptical and pretty much found <persName>Wallace</persName> as loathsome as I did, it was not—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="COOPER">—left centrist bent.</u>
+      <u who="BURACK">What was the civil rights movement impact at <orgName>Dartmouth</orgName>, or what was your—did you have many, like, personal interactions with the movement or with any protester along those lines?</u>
+      <u who="COOPER">Well, later into <date>the spring</date>, I did show up and, you know, actually actively support—and not try to be cute about some gatherings. At least before—I’m trying to remember how long—it must have been <date>five years</date> before issues of some of <orgName>Dartmouth</orgName>’s investment portfolio involving investment in <placeName>South Africa</placeName>; ergo, supporting apartheid and so on.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="COOPER">And that actually drew a lot more civil rights type engagement among students than—than the horrors of, you know, the resistance to integration that continued on. I guess <placeName>Prince Edward County</placeName> in <placeName>Virginia</placeName> closed its public schools to avoid segregating—or integrating the schools. And that didn’t resolve until the early ’<date>70</date>. But it took me a long time to really get upset by what the movement was addressing.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. So just to clarify: This is the spring of your senior <date>year</date> or your junior <date>year</date>?</u>
+      <u who="COOPER">Senior year particularly.</u>
+      <u who="BURACK">Okay.  Okay, just checking.</u>
+      <u who="COOPER">But the <persName>Wallace</persName> incident was [unintelligible].</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="COOPER">My first exposure—and as I think back, I think it was <name type="event">Vietnam War</name> related. It could have even been civil rights related, the big march in <placeName>Boston</placeName> that I—I had to drive across.</u>
+      <u who="BURACK">Okay. <persName>Mm-hm</persName>. </u>
+      <u who="COOPER">Yes.</u>
+      <u who="BURACK">And went back home. And then you were notified by the draft board <date>seven months later</date>. What was your kind of reaction to getting that letter?</u>
+      <u who="COOPER">I think that the one—the one big negative was I thought, Oh, God, who’s gonna help shoulder my dad up from bed into a wheelchair now? I felt like I was letting down the cause, that he wouldn’t hear of my seeking some sort of deferral as his caregiver.</u>
+      <u who="BURACK">What were your brothers doing at this time?</u>
+      <u who="COOPER">My oldest brother was embarking on his Ph.D. program at [<orgName>the University of] Wisconsin</orgName> to become an economic forecaster, and my middle brother had just begun his law school teaching career out in <placeName>Minnesota</placeName>.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. So you were the one that was home with your dad?</u>
+      <u who="COOPER">Right.</u>
+      <u who="BURACK">So when—walk  me through the kind of process of after you get a letter saying you’ve been drafted.</u>
+      <u who="COOPER">Well, the first formal event is your pre-induction physical, and I—I wasn’t canny enough or really motivated enough, I suppose, to try to gain 100 pounds or develop some form of creditable [sic] deviancy that would have kept me out.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="COOPER">You know, if I’d become a card-carrying member of <orgName>the Communist Party</orgName> or something.</u>
+      <u who="BURACK">[Laughs.]</u>
+      <u who="COOPER">I’m not clever enough to do that. And really, I don’t think I would have been comfortable cheating like that.</u>
+      <u who="BURACK">So you had your physical. What was—what was that like?</u>
+      <u who="COOPER">Well, it my first taste of getting long lines and striking up conversations with people from a wide—wide variety of backgrounds, and sharing what information we each had about the process.</u>
+      <u who="BURACK">What was the info that you had?</u>
+      <u who="COOPER">We were all in it together. </u>
+      <u who="BURACK">What was the information you know was comin’?</u>
+      <u who="COOPER">[Chuckles.] Very little of it, the inevitable, that we would be reporting for duty within <date>a few months</date>. I didn’t—you know, looking back,—I’ve heard stories of those people tried to game that process, but I—</u>
+      <u who="BURACK">It never crossed your mind.</u>
+      <u who="COOPER">—I’ve never [unintelligible] definitely. Yeah.</u>
+      <u who="BURACK">So after your physical, you were still living at home, and then when did you hear to report to duty?</u>
+      <u who="COOPER">This is pretty approximate, but it was surprisingly long, I would say <date>at least two months</date>. I think my physical was in <date>early November</date>, and it wasn’t till after <name type="event">New Year’s</name> that I—I had a date to report, which then was <date>about six weeks</date> hence, in <date>early March</date>.</u>
+      <u who="BURACK">So <date>March 1967</date>.</u>
+      <u who="COOPER">Correct.</u>
+      <u who="BURACK">What was it like to report to—where did you report to? Did you travel?</u>
+      <u who="COOPER">Yeah, I’m not being very detailed, huh? One of my brothers, the one who’s in <placeName>Minnesota</placeName> at the time, was home visiting for their <date>spring</date> break and was willing to get up and give me a lift down to the—well, to a train station in <placeName>Detroit</placeName> for—I think it was 0600 [pronounced oh six hundred] you were to be there. And all you had was your letter, and the letter included a list of things to bring and things not to bring. </u>
+      <u who="BURACK">So what did you bring with you from home to <placeName>Fort Knox</placeName>? Were you allowed to bring anything?</u>
+      <u who="COOPER">Oh, sure. You know, not a lot. The advice was that—that, you know, <persName>you’ll</persName>—what clothes you need will be issued, but, you know, bring, you know, a shave kit and such. And it struck me that—just an issue of trust, I suppose, but I had no interest in—in my heavy gold <orgName>Dartmouth</orgName> signet ring or a fancy wristwatch or any of that. So I got what then was a four-dollar <orgName>Timex</orgName> watch that didn’t have a second hand, and that was about the only personal possession I can remember taking to basic training.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. Did you have a close relationship with your brother?</u>
+      <u who="COOPER">Pretty much.</u>
+      <u who="BURACK">What was basic training like? What was <date>a day</date> in the life of a newly-recruited—</u>
+      <u who="COOPER">It actually—the military—food science in the military is astonishing, and kids who—who came from, you know, a deprived background—and I’m thinking, you know, was much of very rural parts of <placeName>Ohio</placeName> or <placeName>West Virginia</placeName> or very urban parts of the upper <placeName>Midwest</placeName> would often show up being underweight for their height and their, you know, overall development. And then there would be the plump ones, like myself, who would show up, being—well, I think actually grossly obese—I weighed, like, 220 pounds and was barely <date>five eleven</date> [5’-0”].</u>
+      <u who="BURACK">[Chuckles.] Sure. They specifically proportioned whatever, when needed.</u>
+      <u who="COOPER">Well, I mean, we were all fed out of the same trough [chuckles], with the same big ladle, but I think it was more—</u>
+      <u who="BURACK">Interesting.</u>
+      <u who="COOPER">—something about the blend of protein and carbohydrate and what it did to your metabolism.</u>
+      <u who="BURACK">I see. Did you find the training difficult?</u>
+      <u who="COOPER">No.</u>
+      <u who="BURACK">Physically? No.</u>
+      <u who="COOPER">Physically challenging. I know that it was the first time I tried to run a mile, and running a mile in leather boots isn’t a good idea in the first place.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="COOPER">I was pleased to do it in about seven minutes. I doubt that I could now. But the camaraderie was great. And everywhere—you know, every station I was in in the <orgName>Army</orgName>, I always ultimately ran into somebody from <orgName>Dartmouth</orgName>, and particularly at Fort Knox there were also a lot of people I knew or whose families I knew from my hometown. There was always a little grounding of what you were learning in this new place, this new way of life but still being connected, however tangentially, to things you thought were normal and part of your background.</u>
+      <u who="BURACK">What was the mindset of everyone? Kind of were they afraid about <placeName>Vietnam</placeName>, or what had they heard? What had you heard?</u>
+      <u who="COOPER">It varied according to your status. If you were there as a draftee, you knew pretty much you were likely to come down on orders to <placeName>Vietnam</placeName> once you finished your training. And if you were there in <orgName>the National Guard</orgName>, you had a lot of advice from all your <orgName>National Guard</orgName> buddies who’ve already been through basic training, and also you knew that your rigors were going to be <date>two weeks</date> in <date>summer</date> camp and whatever it is that we came <date>every month</date> or two of playing soldier. And so there was a really—it was like two different civilizations. </u>
+      <u who="BURACK">So were you training to be a combat soldier, or did you have specific things you were training for?</u>
+      <u who="COOPER">They train you— basically, begins training for the basic infantry soldier and all those things: sneaking about at night, crawling under fences, being quiet, firing a rifle, drawing a grenade, all that. It wasn’t tactics. That’s for advanced infantry training, which I didn’t—wasn’t involved in. I was just training to be a basic foot soldier.</u>
+      <u who="BURACK">So you were near the end of your basic training when this was happening?</u>
+      <u who="COOPER">Yes. In fact, my original orders came through, you know, to transportation school, before they were remanded and by local command changed to be chaplain’s assistant with on-the-job training.</u>
+      <u who="BURACK">How did you feel about being a chaplain’s assistant? Did you have to be, like, religious for the role or kind of what was the purpose of the chaplain’s—</u>
+      <u who="COOPER">Well, religiously tolerant. It was odd. Working for the <orgName>Episcopal</orgName> chaplain on a big training center, like <persName>Fort Knox</persName>, meant doing a lot of <date>Sunday</date> school support and showing up in civilian clothes on <date>Sunday</date> and ushering, or being an accolade in a pinch, or singing in the choir and not really having much to do with the military culture. </u>
+      <u who="BURACK">Did you expect to serve as a chaplain’s assistant in <placeName>Vietnam</placeName>?</u>
+      <u who="COOPER">Well, <orgName>there’s</orgName>—I would have had I gone. I may have exchanged an e-mail with you, this phenomenon of <orgName>McNamara’s</orgName> [Project] 100,000.</u>
+      <u who="BURACK">Yes, I remember you saying, explaining to me.</u>
+      <u who="COOPER">And the sort of the payback, when people figured out that this was pretty abusive to the people who were under-qualified and accepted for service anyway—you know, it was kind of a great social payback that people typically with a college degree stayed at a major training center in the <placeName>States</placeName> and gotten on-the-job training for an office type job. The only payback in the scheme would be if everyone like that that had <date>a year</date> left to serve was sent overseas immediately in their <date>MOS</date>.</u>
+      <u who="BURACK">What’s the MOS?</u>
+      <u who="COOPER">Oh, the military occupational specialty, your job type.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="COOPER">And of the 52 chaplain’s assistants at Fort Knox that filled that bill, two of us went to <placeName>Germany</placeName>, and the other 50 went to <placeName>Vietnam</placeName>. So I got to take my first trip to <placeName>Europe</placeName>.</u>
+      <u who="BURACK">We’ll get back to that in one minute. Can you just explain to me <persName>McNamara</persName>’s program? So it was taking under-qualified men and training them?</u>
+      <u who="COOPER">Typically, educationally but also the general intelligence test that the <orgName>Army</orgName> gives, which some way loosely correlates with the IQ [intelligence quotient]. I think the bottom cut-off is something like <date>85</date> or 90, and with the GIT score below that you were ineligible to serve, and they scooped that way down to maybe 60, so people who were of what I think a sociologist would call dull-normal intelligence or subnormal were drafted and went through training. </u>
+      <u who="BURACK">So these men—did they replace you and the other men that were in your basic training group were meant to do? Am I  understanding that correctly?</u>
+      <u who="COOPER">That—that’s a very good summary. I think that was what—you know, they thought folks that stayed Stateside in our circumstances were skating out and shirking our responsibility, adding to the load of these otherwise unfortunate young men. That’s a very good way to put it.</u>
+      <u who="BURACK">Interesting.</u>
+      <u who="COOPER">Yeah, actually I arrived in—hmm. Well, oddly, it was <date>about two weeks</date> before my dad died in <date>March</date>, so I can tell you pretty well I arrived in <date>the middle of February</date>. And I think you could probably work this out with an almanac or on <orgName>Google</orgName>, probably. I’m pretty sure <orgName>the Tet Offensive</orgName> began the morning I’d arrived in <placeName>Germany</placeName> and was in a replacement station in <placeName>Frankfurt</placeName>, where they were looking for, you know, a job opening in <placeName>Germany</placeName> for my—my particular training. </u>
+      <u who="BURACK"><persName>Mm-hm</persName>. So the Tet Offensive—</u>
+      <u who="COOPER">I’m thinking that was <date>mid-February of 1968</date>.</u>
+      <u who="BURACK">Yeah, it was—yeah, <orgName>the Tet Offensive</orgName> began on <date>January 30th, 1968</date>.</u>
+      <u who="COOPER">Well, a little earlier than I thought.</u>
+      <u who="BURACK">So what was it like being part of the American military but not being in <placeName>Vietnam</placeName>?</u>
+      <u who="COOPER">Well, they—they—we had a serious assignment. My first posting was in <orgName>the 3rd Armored Division</orgName> in a brigade that was about 20 miles from the town of <orgName>Fulda</orgName>, where there’s a geographic feature known as <orgName>the Fulda Gap</orgName>, where—you know, dating to <persName>Napoleon</persName> [Bonaparte] and probably before. If there were—you know, if you needed to move a lot of troops and materiel between points east of <placeName>the Fulda Gap</placeName> and points west of <placeName>the Fulda Gap</placeName>, that’s where you went.</u>
+      <u who="BURACK">So you and the chaplain.</u>
+      <u who="COOPER">There was a little bit of warrior consciousness. And they had, you know, field games, and you’d live in tents, and it was all—they were playing <orgName>Army</orgName>. But nobody was shooting at you.</u>
+      <u who="BURACK">So you and the chaplain would partake in this—</u>
+      <u who="COOPER">Yes.</u>
+      <u who="BURACK">—activity as well.</u>
+      <u who="COOPER">That’s right.</u>
+      <u who="BURACK">What was the chaplain like? Was he also Episcopalian?</u>
+      <u who="COOPER">Very nice bunch. Generally speaking. I was trying to think of a couple specific ones. The chief chaplain of the brigade was a guy who was a Princeton [University] grad and then went to directly into the Presbyterian clergy, and I suppose it would have been during <placeName>Korea</placeName> [<name type="event">the Korean War</name>], and wound up serving as a chaplain in part at the request of his church, and loving it and the sort of social work aspect of helping military families cope with, you know, whatever isn’t going well.</u>
+      <u who="BURACK">So anyway.</u>
+      <u who="COOPER">And one of the chaplains—.</u>
+      <u who="BURACK">So that first—.</u>
+      <u who="COOPER">One of the chaplains—</u>
+      <u who="BURACK">Sorry.</u>
+      <u who="COOPER">—I worked for later—you know, serendipity was in my corner. I used up my lifetime supply of it. I had gone to a religious retreat for Episcopalians, and it was mostly about the new prayer book, desexualizing the concept of God and getting—you know, playing down the father and more the children and changing the language of prayers to be more gender neutral, I guess I’d say. </u>
+      <u who="BURACK">So—sorry, just to clarify. You were on a base in <orgName>the 3rd Armored Division</orgName>, and you worked with multiple chaplains there.</u>
+      <u who="COOPER">Yes.</u>
+      <u who="BURACK">And then you transferred to this other—this joint command base.</u>
+      <u who="COOPER">Yes.</u>
+      <u who="BURACK">So—</u>
+      <u who="COOPER">Well, it came to mind from the—please go ahead and clarify, because I’m  taking another tangent, God help us.</u>
+      <u who="BURACK">[Chuckles.] It’s very interesting. The joint command. Your transfer was brought about by a religious retreat you went on while you were serving? Was it—that part of your job to go to that?</u>
+      <u who="COOPER">Well, it was part of my job and the fact that after I’d been in—in <placeName>Germany</placeName> for <date>a couple of weeks</date>, my dad died, and I—you know, I went home on an emergency leave and basically used up the leave time I had available for the rest of my hitch. And so it was an opportunity to get away from work for <date>a long weekend</date> without using up leave time, which I didn’t have.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. What was it like going home in the middle of your service? Or not in the middle, towards the start of your service, for your father’s funeral?</u>
+      <u who="COOPER">Well, it’s—you know, I served so briefly and in such a, you know, unthreatening situation that I had no trouble regaining the threads of civilian life. But I can remember I came home—you know, I went to Ramstein [Air Base, <placeName>Germany</placeName>], which is the big American air base out of <placeName>Frankfurt</placeName>, and the next military airlift plane that could get me on to the eastern <placeName>U.S.</placeName> was <date>about a day and a half</date> away, and that didn’t fit the funeral schedule very well. I got hold of <orgName>American Express</orgName>,  which operated the civilian banking system for the <orgName>Army</orgName>, in <placeName>Germany</placeName> anyway, and was able to have them transfer funds to pay for a civilian ticket home from the Frankfurt Civil Airport [sic; Frankfurt Airport], which was on the same campus as Ramstein, and I was able to catch <orgName>Pan Am</orgName> [<orgName>Pan American World Airways] Flight 1</orgName> in <date>the days</date> when they had round-the-world air service.</u>
+      <u who="BURACK">Wow.</u>
+      <u who="COOPER">Anyway, back to Patch Barracks [military installation in <name type="event">Stuttgart-Vaihingen</name>] and this European Command Base. One of the chaplains there really loved chaplaining, and his order wanted him back. He was the benedictor. But he was something of a celebrity in chaplain circles, and a debatable one. There was a picture of him jumping out of a helicopter which was stirring up all sorts of dust and prop wash, in a dramatic jungle setting, to visit the troops who were holed up in the front line and under fire. And it seemed like a courageous thing to do, but in a lot of particularly infantry circles, that’s the last thing the troops need to do, is to be put in touch with their, you know, holy home values, because it sort of screws up your reaction time if you have to pull the trigger and shoot someone. And so that—that can get you a lot of debate anywhere. But anyway, he was one of the—one of the guys I worked for at that last post. He was just, I thought, great.</u>
+      <u who="BURACK">What was his name?</u>
+      <u who="COOPER">[No reply.]</u>
+      <u who="BURACK">If you remember.</u>
+      <u who="COOPER">Hmm. I’ve got Father <persName>Tom</persName>. He had—it would take me a while. I don’t know if you can <orgName>Google</orgName> something by the graphics, but the picture of him on the front of LOOK magazine might be findable. And this would have been in, I believe, ’67. He had been back <date>about a year and a half</date> when I started working with him in <date>the late summer</date> of <date>’68</date>.</u>
+      <u who="COOPER">Pretty much European. They’re sort of like the <placeName>Doha</placeName>[, <placeName>Qatar</placeName>] or the way that <placeName>Tampa</placeName> services the operational command for <placeName>the Middle East</placeName>. This is <orgName>the European Command</orgName>. The commander of <orgName>U.S. EUCOM</orgName> was also the commander of <orgName>the Supreme Allied Headquarters</orgName> in <placeName>Belgium</placeName>,—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="COOPER"><persName>—David [A.] Burchinal</persName> at the time. And his political adviser, which is <orgName>the State Department</orgName> guy but I think there’s a little Intelligence role in that, lived at Patch Barracks and had a courtesy rank of lieutenant general but was, you know, a [<placeName>U.S.</placeName>] Foreign Service officer. And he and his wife sort of took me under their wing and accounted for me being at all these brass-hat parties. It was amazing.</u>
+      <u who="BURACK">What was kind of the mindset on base? Were people afraid of the threat of Soviet <placeName>Russia</placeName>, of <placeName>East Germany</placeName>?</u>
+      <u who="COOPER">Oh, yeah.</u>
+      <u who="BURACK">Or was it—</u>
+      <u who="COOPER"><placeName>Prague</placeName> Spring occurred during that time, and it wasn’t entirely sure what our commitment was going to be of when and if the tanks came. And one of the people that reported to the political adviser was an <orgName>Intelligence</orgName> officer who coordinated the people that flew up and down the border in fixed-wing aircraft, listening to what they could listen to. They really had to dope out quite how to respond. </u>
+      <u who="BURACK">So was your close relationship with the political adviser to the commander—did it give you insight into kind of what they were thinking, or—</u>
+      <u who="COOPER">We definitely rarely talked shop at all.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. I see.</u>
+      <u who="COOPER">I got to know him later, when I worked in <placeName>Washington</placeName>[, <placeName>D.C.</placeName>,] for a while and he had retired. I’m sure I didn’t have the clearance to talk about whatever was on his mind.</u>
+      <u who="BURACK">So the protests of <date>1968</date>, like <name type="event">the Prague Spring</name>—did it change the mood on base? Did it make the chaplain more necessary?</u>
+      <u who="COOPER">I think it—it was kind of interesting. I think the places where that would have been more the case would be the folks like my former colleagues from the tank brigade, who were afraid they’d have to go into the Folda Gap firing. </u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="COOPER">Well, I served there <date>almost exactly a year</date>, and I separated from service there. And a classmate who was studying down in <placeName>Frieburg</placeName>, about 50 miles south of <placeName>Stuttgart</placeName>, where <orgName>this European Command</orgName> was—and my mother, who was—you know, had become a French major and then a mom and had never been to <placeName>Europe</placeName>. My dad was too wrapped up in his practice. My brothers and I kidded that he—he was afraid his clients would discover they could live without him,—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="COOPER">—so he was never away for <date>more than a week</date>. Before the dawn of the <orgName>Boeing</orgName> 707, there was no way they were going to <placeName>Europe</placeName>, so I invited her over, and we took sort of an automotive grand tour with her French and a classmate’s German, and traveled around for <date>about two months</date> before she left from <placeName>England</placeName>. The classmate was back at school by then, and I hung out for <date>another month or so</date> before coming home, but strictly as a civilian.</u>
+      <u who="BURACK">So when did your service officially end?</u>
+      <u who="COOPER"><date>March</date>—well, it’s a concept. My <date>last day</date> of active duty was <date>March</date> the third. My first day was March <date>the third two years previous</date>. But you’re draft obligation was for <date>six years</date>, of which, at that point, two were active duty, and then you were in what they called <orgName>the Ready Reserve</orgName>. And if everything went to hell and they needed a chaplain’s assistant and your name came up, you’d go back. And it didn’t—</u>
+      <u who="BURACK">Sorry. It was <date>March 3rd, 1970</date>, or <date>March 3rd of 1971</date>?</u>
+      <u who="COOPER">I was done in <date>March</date> of ’69.</u>
+      <u who="BURACK">Oh, ’69. Excuse me.</u>
+      <u who="COOPER">And then another—I guess it was ’73 before I was full-blown civilian again.</u>
+      <u who="BURACK">So after you ended in that <date>March</date>, your mother came. Where did you travel in <placeName>Europe</placeName>?</u>
+      <u who="COOPER">Well, we—we met in <placeName>Frankfurt</placeName> and went north to—I think pretty much directly to <placeName>Hamburg</placeName>, where we—maybe <persName>Hanover</persName>, and flew to <placeName>Berlin</placeName> for <date>about a week</date>, and then back into the automobile. We went to <placeName>Denmark</placeName> and spent <date>a week</date> around <placeName>Copenhagen</placeName>, and then a ferry went over to <placeName>Odense</placeName> [<placeName>Denmark</placeName>] and back down to <placeName>north Germany</placeName> and spent <date>a couple of weeks</date> in <placeName>Hamburg</placeName>, which was a great city. And then went down through the <placeName>Netherlands</placeName> and <placeName>Belgium</placeName> to <placeName>Paris</placeName> and spent <date>about ten days</date> in <placeName>Paris</placeName>, and then by that point, my classmate had to go back to school, and Mom and I went down to, you know, <placeName>Bordeaux</placeName> and <placeName>Arles</placeName> and French Riviera and into <placeName>Italy</placeName>, down <placeName>the west coast</placeName>, and then turned back and went up through—into <placeName>Switzerland</placeName> and spent <date>about two weeks</date> in <placeName>Geneva</placeName>. An old school friend from <orgName>Smith [College</orgName>] and her new husband were there for <orgName>Citibank</orgName>, and they gave us great—great local guide support. We really liked <placeName>Geneva</placeName>.</u>
+      <u who="BURACK">What was your favorite place that you visited in your post-service tour?</u>
+      <u who="COOPER">That’s a tough one. I—I—I really liked <placeName>Geneva</placeName>, and for some reason, I really liked <placeName>Rome</placeName>. I was completely helpless in language, but by then I’d faked my way through enough travel arrangements in German that I could kind of, you know, gesture and point and act out what I needed to know.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="COOPER">But it was something really—maybe it was—would you be familiar with the movie, La Dolce Vita? [<persName>Federico]</persName> <persName>Fellini</persName> circa ’<date>68</date>?</u>
+      <u who="BURACK">Yes, I’ve heard of it.</u>
+      <u who="COOPER">It’s—</u>
+      <u who="BURACK">I have yet to see it, but I’ve heard of it.</u>
+      <u who="COOPER">Maybe I was pre-disposed to think <placeName>Rome</placeName> was really—really cosmopolitan, but I did like it, those cities. <placeName>Rome</placeName>, <placeName>Paris</placeName>, all of those major cities being a place you could just lose yourself and find a new self.</u>
+      <u who="BURACK">Did you—is there anything you took away from working with the chaplain that you kind of carried with you when you were back in the <placeName>States</placeName>?</u>
+      <u who="COOPER">Well, I have great respect for the social service role that the church plays, and I’ve been variously religiously observant since then, but for <date>the last 20 years or so</date>, I attend church <date>weekly</date> and spend much more time with outreach programs directly or tangentially connected with the church. I deliver <orgName>Meals on Wheels</orgName> and collect clothes that are recycled to the needy and deaf, shelters for the homeless taking place in church and, you know, all this stuff you can do that’s fomented and supported by the church on the corner.</u>
+      <u who="BURACK">So the chaplain took on the role?</u>
+      <u who="COOPER">—a lot of that. And that wasn’t quite how I’d envisioned myself, so that—that made the law seem like a peaceable alternative.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. So when you got back to the <placeName>States</placeName>, what made up your mind to go to law school over going to the theological school?</u>
+      <u who="COOPER">Well, it seemed like a broadening of alternatives. You know, I wasn’t sure I wanted to be in private practice, which I wound up being for about half the time between then and now. But, you know, there were all kinds of things that a legal, analytical outlook would—would facilitate. I thought while I was trying to figure out where I belonged, that would be the least limiting choice. And I really enjoyed it. But unfortunately, I enjoyed the activity of law school a lot more than I liked the ability to be graciously confrontational that private practice really requires, particularly as regards clients who wanted to do something that isn’t strictly kosher, and not having the heft or the chutzpah or the persuasive ability to have them kind of compromise with the requirements and more or less do what’s right. That’s the trouble.</u>
+      <u who="BURACK">So you attended law school at <placeName>Michigan</placeName>? Is that correct?</u>
+      <u who="COOPER">Ultimately. I started out at <orgName>Wayne State [</orgName>University]. Well, you know, as I say [chuckles], I’m sure I was in the bottom tenth of my class at <orgName>Dartmouth</orgName>. You know, I had pretty good law boards, but I didn’t have an undergraduate record to promise long-term success. But I just ate up law school.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="COOPER"><placeName>Michigan</placeName> couldn’t say no, and I kind of aced <date>my first year</date> at <persName>Wayne</persName>.</u>
+      <u who="BURACK">Do you think serving in <placeName>Germany</placeName> kind of was responsible for your transformation in studies?</u>
+      <u who="COOPER">Not necessarily serving in <placeName>Germany</placeName>, but the whole—the whole experience of kind of sorting out—I don’t know, something about work and fun just got all mixed differently, and I felt, you know, a lot more responsibility for the consequences of what I did or didn’t get done <date>today</date> relative to what I would either need to do or would be able to do <date>tomorrow</date>, metaphorically. And so it was very easy to just buckle down and get it done.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="COOPER">And I think that the overall military discipline experience had a lot to do with that.</u>
+      <u who="BURACK">So in law school—what happened after? Did you meet someone? Did you start a family, start a practice? What was your life post graduating?</u>
+      <u who="COOPER">Right after law school, I joined what then was a large firm of 60, which is now, you know, 500 or something, in <placeName>Detroit</placeName>. And it took me <date>about six months</date> to discover that the actual practice of law wasn’t what I was wired to do, but I enjoyed the search and analysis. And what occurred to me, in part due to exposure to <persName>Peter [C.] Steck</persName> (Class of <date>1964</date> or so), was—he was a reference librarian at <orgName>the University of Michigan Law School</orgName>—to realize that I would have a lot of fun as a law librarian, even though I, you know, couldn’t be very well funded. I think I’d already gotten to the “so what” aspect of, at that point. </u>
+      <u who="BURACK">So when did you move to <placeName>D.C.</placeName>?</u>
+      <u who="COOPER">Let me sort this out. I finished law school in <date>’72</date>. I moved to <placeName>Philadelphia</placeName> to work at <orgName>Penn</orgName> in <date>the summer</date> of ’74 and then moved to <placeName>D.C.</placeName> in <date>the summer</date> of ’75 and was there for—short of <date>two years</date>. I was married in <date>March</date> of ’77 and came back to <placeName>Detroit</placeName> to—to do that. And worked there until <date>the early ‘90s</date>, when the atmosphere of what had been, you know, I thought a pretty highly ethical, proud profession had become more all about the billable hour and client control and confrontation in house as well as out- —outside, and it just got to be toxic.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="COOPER">—by <date>’94</date>. That’s on my way back to pure law library work here at the law school at [<orgName>the College of] William &amp;amp</orgName>; <persName>Mary</persName>, where I met my wife. My first wife has passed on. She and I have been together ever since.</u>
+      <u who="BURACK">Sounds lovely. So you started living full time in <placeName>Virginia</placeName> in <date>1994</date>, then.</u>
+      <u who="COOPER">Right.</u>
+      <u who="BURACK">I see.</u>
+      <u who="COOPER">There are a few more twists of the story, but I’m not sure—you must glazing over by now.</u>
+      <u who="BURACK">No, please, tell me everything.</u>
+      <u who="COOPER">Well, the way they viewed a law library here at <orgName>William &amp;amp</orgName>; <persName>Mary</persName>, the reference librarians also teach first- and <date>second-year</date> students about research and analysis. And there was formal classwork, where you’d stand in the front of the room on your hind legs and lecture and try to provoke discussion. And I really enjoyed that. </u>
+      <u who="BURACK">So here we are. </u>
+      <u who="COOPER">I haven’t been back to <placeName>Germany</placeName>. We talked about that, but there are a few challenges to traveling for us. But we’ve—let’s see, <persName>Bonnie</persName>’s come with me to my 40th and 45th reunion and is planning to come to my 50th come <date>June</date>. And I’m ring to remember now. I’m sorry to say, <persName>Emily</persName>, I’ve forgotten: Are you a senior or a rising senior?</u>
+      <u who="BURACK">I’m a rising senior. I’ll be graduating <date>next year</date>.</u>
+      <u who="COOPER">Ah so. Well, I was going to say I might be able to watch you walk the walk, but I guess I’m <date>a year early</date>.</u>
+      <u who="BURACK">I guess if I’m here during reunions, I may try to catch up with you.</u>
+      <u who="COOPER">I would like that.</u>
+      <u who="BURACK">Yeah, that would be lovely.</u>
+      <u who="COOPER">Cool. We’re, It’s—</u>
+      <u who="BURACK">Well,—</u>
+      <u who="COOPER">After you.</u>
+      <u who="BURACK">No, sorry, you go first.</u>
+      <u who="COOPER">I was going to say we wound up booking a room at I think it’s a Courtyard [by <placeName>Marriott</placeName>] in <placeName>White River Junction</placeName>, but it’s astonishing what the local hostelries are able to do during commencement and reunion weekend.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="COOPER">What we would have guessed would have been a $100 room is now a $400 room, all but.</u>
+      <u who="BURACK">It is wild how many people pour in here during <date>those two weeks</date>.</u>
+      <u who="COOPER">I’m already worried about where I’m going to park. I guess—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="COOPER">—they still have that remote parking way off down Park Street.</u>
+      <u who="BURACK">Yes.</u>
+      <u who="COOPER">—behind the—</u>
+      <u who="BURACK">“A” Lot.</u>
+      <u who="COOPER">And it’s—</u>
+      <u who="BURACK">Yeah, it is far.</u>
+      <u who="COOPER">Well, I hope they’ll—</u>
+      <u who="BURACK">It’s quite a walk.</u>
+      <u who="COOPER">—they’ll have some kind of jitney service to get us up to the reunion, itself.</u>
+      <u who="BURACK">I’m sure they will. I’m sure they may even have, I feel like, some sort of valet parking. I could be making that up, but I feel like that’s a feature of reunions. [Chuckles.]</u>
+      <u who="COOPER">But the thing I—I  wanted to be sure I said is—and I think I, you know, nipped around the edges—I’m grateful for the experiences and the mental stimulation that I had at <orgName>Dartmouth</orgName>, but I have to say I think the most intensely educational experience of my life was being drafted and mixing with a whole lot of people that I would be unlikely to have met at <orgName>Dartmouth</orgName> in <date>the ‘60s</date>, certainly, and to learn not only to accept but to respect what it was they knew and were able to do and what they understood of what they understood. </u>
+      <u who="BURACK">Well, I think that’s a great note to end on, so I’ll stop the recording there. We can talk for a bit after. Okay.</u>
+    </body>
+  </text>
+</TEI>

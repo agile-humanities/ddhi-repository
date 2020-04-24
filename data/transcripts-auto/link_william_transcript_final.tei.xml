@@ -1,0 +1,320 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="MARKOWITZ"/>
+        <person xml:id="LINK"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="MARKOWITZ">This is <persName>Hannah Markowitz</persName> in <orgName>Rauner</orgName> [<orgName>Special Collections] Library</orgName> on <orgName>Dartmouth College’s</orgName> campus on <date>January 17th</date>, <date>2-17</date>. I’m here with [<persName>William P.</persName>] “Bill” Link, and this is for <orgName>the Dartmouth Vietnam Project</orgName>.</u>
+      <u who="LINK">Okay. Yeah.</u>
+      <u who="MARKOWITZ">—to share your story. I really appreciate the opportunity. Just to start out at the very beginning, do you mind giving me some biographical information—you know, where you were from, where you grew up, your parents, anything of that sort?</u>
+      <u who="LINK">Yeah. I was—I was born and raised in south <placeName>Texas</placeName>. I graduated from—I’m—I’m one of 11 siblings, and my dad was a worker—him and his brother bought a company, and they were in the propane business. And I went to the [<orgName>U.S.] Naval Academy</orgName> in <date>1960</date>, and I graduated in <date>1965</date>. And there—from there I went—from there, I was in the <orgName>Navy</orgName> for <date>the next seven and a half years</date>. And that’s basically where my <placeName>Vietnam</placeName> experience happened, while I was in the <orgName>Navy</orgName>.</u>
+      <u who="MARKOWITZ">Right. So growing up with 11 siblings, what—what was that like in <placeName>Texas</placeName>? Did you—what are some distinct childhood memories?</u>
+      <u who="LINK">Well [chuckles], we—we lived on a ranch, and so it was—we were outside all the time. I think that—I think that my best friends, and sometimes they felt like my worst enemies, were my siblings, depending on the circumstances. But essentially, we all got along pretty well. There’s <date>17 years</date> between the oldest and the youngest, and so my younger brother now is—is <date>51</date>, and I’m 75, so it’s a—that’s—my older brother, actually, is <date>77</date>, so he’s <date>two years</date> older than I am. So that’s the 17-year difference between the oldest and the youngest.</u>
+      <u who="MARKOWITZ">You said that your father was in the propane business.</u>
+      <u who="LINK">Yes.</u>
+      <u who="MARKOWITZ">Did your mother work at all?</u>
+      <u who="LINK">My mother was a nurse. She was a nurse before she met my father, and then when they got married, she stopped nursing for <date>the next 17 years</date> and then went back to public nursing once my younger brother was <date>about a year old</date>. And so she was a nurse, and she was a nurse until she retired. I don’t know how old she was when she retired, but—but she had a nice, long life. She was <date>97</date> when she died.</u>
+      <u who="MARKOWITZ">Wow.</u>
+      <u who="LINK">So it was a—but, yeah, so she was a nurse, and he was—he was kind of—he was second in command, I guess, with his—his brother. His brother was a—they—they owned the business together, kind of, but I think my uncle was the primary owner, and my dad was a manager/worker bee, if you would, to the—to the business.</u>
+      <u who="MARKOWITZ">So you were—you were born in <date>1942</date>?’</u>
+      <u who="LINK"><date>Nineteen forty-one</date>.</u>
+      <u who="MARKOWITZ"><date>Forty-one</date>, okay. And growing up, did you feel like <name type="event">World War II</name> was present at all in your life? I know you were fairly young.</u>
+      <u who="LINK">No, I was born in <date>July</date> of ’41, and so I didn’t—I didn’t really feel like that was—there was much of a presence there. My dad—because he was—at that time, he was a—a telephone lineman. He was considered required by the country to maintain some of the communication systems and stuff like that, and so he was never in the service.</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="LINK">And so—and we lived out—in the country, if you would, in south <placeName>Texas</placeName>, and so it was really not a—it was not a big thing in our growing up, that I even remember. The only thing I remember about <name type="event">World War II</name> is that I have an uncle, who I was named after, because I was born on his birthday, <date>25 years later</date>, who was a—a pilot in the [<placeName>U.S.</placeName>] <orgName>Air Force</orgName>, and he was—he fought—he flew in <placeName>Europe</placeName> and flew in <placeName>Korea</placeName> as part of <name type="event">World War II</name>. So that’s the only part I know about <name type="event">World War II</name>. I mean, that’s the only part that was evident at that time. My Uncle <persName>Bill</persName> used to fly planes there, so that’s what we knew then.</u>
+      <u who="MARKOWITZ">What was your—what was your high school like in <placeName>Texas</placeName>?</u>
+      <u who="LINK">It was—it was a good high—well, actually, let’s see, I didn’t go to high school—okay, I did go to—the high school I went to was a Catholic high school, <orgName>St. Joseph’s Academy</orgName>, and it’s no longer there, but as I say, I graduated in <date>1959</date> there, and it was—it was an all-boys school. We went to—you know, of course, we—I played all the sports that I could there, and I was in all the—I mean, we had theater and acting classes and stuff. And, of course, as an all-boys schools, some of us had to play girl roles [laughter], and I have some pictures of myself dressed up in my dress, and I looked very much like my mother—</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="LINK">—at the time, but—so it was just, you know, pretty much a regular high school. Being from <placeName>Laredo</placeName>, <placeName>Texas</placeName>, which is about 96 percent Mexican—Mexican-Americans that lived there—in my high school class, which was 18 kids, so it’s not big, there was two of us that were Anglos, so I was the—you know, we were two Anglos in the high school class. So it was—it was a different—you know, it’s growing up as a minority, because that’s what we were in—in—in <placeName>Laredo</placeName>. And two of my brothers still live there, and—and they are—both of them—you know, they’re both minorities [chuckles], if you would. [Chuckles.] </u>
+      <u who="MARKOWITZ">Did you ever experience any racial tensions in <placeName>Laredo</placeName> or—</u>
+      <u who="LINK">No, I didn’t. Maybe I’m too numb to have experienced them [chuckles], but I didn’t feel like I did. I mean, it was, like, we were always—you know, it was—some of my best friends—as a matter of fact, when I went back to my 50th reunion at high school, we all—we speak Spanish, and, you know, we just talk, and—and we talk to each other, and it’s just really a—a good relationship. And when my mom died and all my classmates came to her funeral, and it was just—it was kind of a reunion. You know, you get together at weddings and funerals, and that was just one of the evidences. So I didn’t--I—I—again, I didn’t experience or feel like I experienced any—any racial tensions or any racial biases at the time.</u>
+      <u who="MARKOWITZ">Yeah, definitely. It seems like it was the norm.</u>
+      <u who="LINK">Yeah, it was just a norm, just the way we lived, right. Yeah, yeah, yeah, so—</u>
+      <u who="MARKOWITZ">So was it common for students from your high school to go to college after?</u>
+      <u who="LINK">I think pretty much all—well, <orgName>St. Joseph’s Academy</orgName> was a—was a—was run by <orgName>the Marist Brothers</orgName> [of the Schools], and it was—it was a tough school to go to. And all of the kids from there—and I—as a matter of fact, I still see a couple of them on <orgName>Facebook</orgName> and a couple of them that I communicate with periodically, and they all went to further education. A couple of them have master’s degrees. They were teachers and stuff at <orgName>the University of Texas</orgName>, some of those, so they—so they did go to further—have better degree—or higher degree education for them.</u>
+      <u who="MARKOWITZ">So what—what factored into your decision to attend <orgName>the U.S. Naval Academy</orgName>?</u>
+      <u who="LINK">Well, actually, as I said, my uncle was in <orgName>the Air Force</orgName>, and so I applied to the—the academies, if you would. Whenever you apply through your representative, you can apply to all three of the academies. Actually, I guess you could apply to the fourth, but I didn’t know anything about the [<placeName>U.S.</placeName>] <orgName>Coast Guard Academy</orgName> at the time. But I applied to the academies, and it’s a single application to the three academies.</u>
+      <u who="MARKOWITZ">What is the—what’s the distinction between the two?</u>
+      <u who="LINK">The academies?</u>
+      <u who="MARKOWITZ">Alternate versus principal.</u>
+      <u who="LINK">Well, principal nomination means I’m in if I accept it.</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="LINK">Alternate nomination means I have to wait for the principal nominee to not accept it [both chuckle], and then I could go. And so there’s somebody there that is ahead of me. That’s the alternate nomination, yeah.</u>
+      <u who="MARKOWITZ">And were your parents supportive of your decision?</u>
+      <u who="LINK">Oh, yeah. Oh, definitely. [Chuckles.] You know, with—with all of us around, if we were going to go to college, it was going to be on our own, pretty much, because they didn’t make a lot of money or anything like that, and so—as a matter of fact, I was the first of our family to go to college. I mean, four of the—only four of the 11 kids did get higher degrees than high school. Many of them had degrees in disciplines. My older brother was a—was an electrician, so he went to school as an electrician, but it’s just—just the way it was. And so was this—not a question. You know, I was ready to go.</u>
+      <u who="MARKOWITZ">Did you ever consider not doing one of the three academies, or did you sort of always know that you would?</u>
+      <u who="LINK">Pretty much—I actually—I didn’t apply to any of—or didn’t even go out and look at any other higher education schools. I did not.</u>
+      <u who="MARKOWITZ">So what was it like getting to <placeName>Annapolis</placeName>—</u>
+      <u who="LINK">[Chuckles.]</u>
+      <u who="MARKOWITZ">—from <placeName>Laredo</placeName>, <placeName>Texas</placeName>, or your first impression?</u>
+      <u who="LINK">Well, it was really funny because it felt like—when you enter the <orgName>Academy</orgName>, they take away all of your rights, and then as you’re there, they give them back to you as privileges. [Laughs.] That sounds—that sounds kind of morose.</u>
+      <u who="MARKOWITZ">[Laughs.]</u>
+      <u who="LINK">But, you know, it’s essentially whenever you get in there, it’s—you’re “Yes, sir,” “No, sir,” and keep your chin tucked in and walk a straight line and that’s it. <persName>It’s</persName>—it’s really very strict, at least at the time that I was there, and I think it is—it’s still pretty strict, from a general perspective, but at the time that I was there, it was prior to their being co-ed—the Naval Academy. And, as a matter of fact, it was in my sen- —it was <date>the year</date> after I graduated that the first co-ed went to the <orgName>Academy</orgName>, so that was in <date>1966</date> that the first <orgName>co-eds</orgName> went to the <orgName>Academy</orgName>.</u>
+      <u who="MARKOWITZ">What was—what were some of the hardest things to get used to there?</u>
+      <u who="LINK">Well, this is—you know, at the time, of course—I'm a little bit older now, but at the time, I think that it was having some of the upperclassmen, how—again, this is—this is an internal thing. I think having some of the upperclassmen, who thought that they knew better, having you do something in a certain way and a person that was brought up independently and felt that they knew the better way for doing it—that was—that was the toughest thing, is to—is to go against your nature, if you would, as you went forward.</u>
+      <u who="MARKOWITZ">Right. What was—what was the atmosphere among the students at the time?</u>
+      <u who="LINK">At the <orgName>Academy</orgName>?</u>
+      <u who="MARKOWITZ">At the <orgName>Academy</orgName>. Were politics present? </u>
+      <u who="LINK">[Laughs.] We didn’t—[Chuckles.] Especially at the plebe year, politics was nothing. There were—I mean, we were obviously aware of the politics going around, and I was at the <orgName>Academy</orgName> when <persName>John F. Kennedy</persName> was assassination, and our—and—and at that funeral, we all marched at <persName>JFK</persName>’s funeral, so I was in <persName>JFK</persName>’s funeral as a—as a midshipman, marching in the funeral parade.</u>
+      <u who="LINK">Outside of your naval training there, obviously, what did you study or do? Any extracurriculars?</u>
+      <u who="LINK">At the Naval Academy? I was—I—in sports, again. I was—I was a wrestler. I was in the lightweight football program, which is 150-pound football program. And those are the two main organized athletics that I was in. You know, I played soccer and lacrosse, and we did all those kind of things on the side. </u>
+      <u who="MARKOWITZ">What was that like?</u>
+      <u who="LINK">I mean, I was—oh, that was—that was—that was very interesting. Again, there was two of us <date>that year</date> that went there, and we lived in the dorm with—you know, I had thr- —I had two roommates. It was three of us in the room. We spoke Spanish all the time. We marched with them and l lived with them and ate with them. We went out on the town with them. </u>
+      <u who="MARKOWITZ">Were there a lot of differences between <orgName>the Peruvian Academy</orgName> and what you were used to?</u>
+      <u who="LINK">Well, I think that there—I think there were. There—obviously, there were. But because it was new and we weren’t going to be there that long, it didn’t seem <orgName>to—[Chuckles</orgName>.] It wasn’t a big thing that just came out and slapped me in the face. I mean, we did march to classes. We did march to meals. We ate meals and stuff, and the meals obviously were different because they were—it was a different country and everything, but it—so—I don’t—they don’t stand out, if you would.</u>
+      <u who="MARKOWITZ">So graduating from <orgName>the Naval Academy</orgName>, what—could you just walk through sort of, like, the expectations for graduates immediately after they finish school?</u>
+      <u who="LINK">Well, before we completed school, we had our assignments, you know? And then from there we would—we would graduate and then, pretty much depending on the assignment, you either went directly to it or you had a little time off before you went directly to it. I mean, there was some Rhodes scholars that—who were going to have some time off, that went to <placeName>England</placeName> to do their additional education there.</u>
+      <u who="MARKOWITZ">Did you have any input at all into your assignment, or was it sort of whatever they handed you?</u>
+      <u who="LINK">No, no. We—we put down what we would like to do. I wanted to be a pilot. My eyes didn’t allow that, okay? And now I guess that they do have some corrective surgery that can correct that, but at the time they didn’t, and so I wasn’t allowed to be a pilot, so I was going to be on the surface <orgName>Navy</orgName>, which is basically in ships.</u>
+      <u who="MARKOWITZ">What was the—what was the communications school like?</u>
+      <u who="LINK">Well, it was basically learning about the communications equipment that the <orgName>Navy</orgName> had at the time. It was learning about the <orgName>CIC</orgName>, which is <orgName>Combat Information Center</orgName>, on a destroyer. It has all kinds of radars and radar tracking devices and how you track—it’s just basically going to school to learn how these—how this equipment works and how you use it. </u>
+      <u who="MARKOWITZ">Great. Did you—did you have any background in any of that technology?</u>
+      <u who="LINK">On the ranch in south <placeName>Texas</placeName>? No. [Laughter.] No, at the Naval Academy they do teach you—our degree was in—what was it called? Hmm. Well, we did go through some of that stuff at the academy because we—part of—some of our classes were out on the yard patrol boats, which is—they call them YPs. And those had all of these scopes and radars and so forth, and you would—you would do some of that. And so we did have some of that at the <orgName>Academy</orgName>. We did have some of that training, yes. And the communications equipment also.</u>
+      <u who="MARKOWITZ">So the—the ship you were on, the USS Nicholas?</u>
+      <u who="LINK">Right.</u>
+      <u who="MARKOWITZ">It was a destroyer?</u>
+      <u who="LINK">Right.</u>
+      <u who="MARKOWITZ">Can you just elaborate a little more the function of the destroyer, especially during the time you were on it?</u>
+      <u who="LINK">Yeah. The USS Nicholas was DD-449. It was the oldest commissioned destroyer in the <orgName>Navy</orgName>. It was older than I was at the time. It was in <name type="event">World War II</name>. It was actually almost sunk in <name type="event">World War II</name>. It was a—about a—it was—it was a destroyer that had some modifications done to it so that it could have what they call—it had a—a—it was an anti-submarine heli- —it was [an] anti-submarine destroyer. </u>
+      <u who="MARKOWITZ">Wow.</u>
+      <u who="LINK">And so—and so it did—and so we did go into the <placeName>Philippines</placeName> at that time to—into dry dock and have to have that worked on.</u>
+      <u who="MARKOWITZ">What were some of the other things that the destroyer was involved in when it was in the <orgName>WESTPAC</orgName>?</u>
+      <u who="LINK">Any time the destroyer is out there, it’s basically plane guard detail. Whenever the carrier is launching or bringing aircraft in from—from flights that they have to perform, and maintenance and so forth that they do periodically, the destroyers are called plane guards, and so they’re off the stern of the carrier so that if something happens, they can race up and pick up the pilot or pick up the pieces. We did pick up a pilot while I was on board, because his plane didn’t make it back and he parachuted out. So that’s basically what they’re doing out there. They’re—they’re guarding the—they’re guarding the ship—they’re guarding the main convoy, if you would, of ships from any foreign attacks.</u>
+      <u who="MARKOWITZ">You mentioned a big part of your job as the communications officer was sort of managing people.</u>
+      <u who="LINK">Yeah.</u>
+      <u who="MARKOWITZ">What—what was that like?</u>
+      <u who="LINK">Well, it was different for me because, you know, having never managed people before—and I have a—a very hands-on management style. I don’t give directions as much as I participate in the management and work with the people that I manage, and that carried on throughout my management career. But it was—it was basically talking to the people and taking care of their issues also, because we all have problems and issues, and working with them on those problems.</u>
+      <u who="MARKOWITZ">Do you feel like your ship did sort of become family?</u>
+      <u who="LINK">Oh, yeah. No, there was no question about it. I can remember the captain—and I can remember the name—you know, the chief engineer was <orgName>Buddy Small</orgName>; the captain was <persName>Hofstetter</persName> [archivist note: spelling uncertain]. Now, this is way back when. You know, this is, like, in <date>’66</date> and ’67, so it’s a long time ago. And—and I know that we did—and we went out on the town together, and we were—you know, if we were in shore patrol, we were in shore patrol together. But, yeah, I think that the ship does become a family, and whenever we get back to port, it really—that really evidenced because you don’t kind of your own ways; you kind of stay—you know, you go to each other’s houses when you’re back in port, too, so it’s—you really—that really becomes your family at the time.</u>
+      <u who="MARKOWITZ">Did any problems ever arise on board?</u>
+      <u who="LINK">Oh, yeah. We have—you know, we have—always have people who seem to buck the system or have an attitude that is kind of against the norm of the military strictness of the attitude—as an attitude. But I think that they—there was nothing that we really—there was nothing that caused anybody to go to jail [chuckles] or anything like that for. But, you know, we always had people—</u>
+      <u who="MARKOWITZ">You weren’t—so you weren’t actually doing your in-country service in <placeName>Vietnam</placeName> at this time, but you said you did make trips to the coast?</u>
+      <u who="LINK">No, we just—we just—we were gunfire support off the coast at this time. Now, this was in 1967—1966 and <date>’67</date>, when I first graduated. And in <date>1967</date> I came back from that tour, and I was assigned to go to—the name of the school was—I can’t think of the name of the school right now. But it was—it was in <placeName>Newport</placeName>, <placeName>Rhode Island</placeName>. </u>
+      <u who="MARKOWITZ">No, this is—this all very interesting, too.</u>
+      <u who="LINK">[Laughs.]</u>
+      <u who="MARKOWITZ">This is great.</u>
+      <u who="LINK">But—so we went into the <placeName>Mediterranean</placeName> and—well, <persName>Jeanne</persName> and I had gotten married in <date>September of—September 28th of 1968</date>, and then the ship got under way. And she was a teacher in <placeName>Rhode Island</placeName> at the time, and the ship went over to—this is the EASTPAC now [chuckles], the eastern <placeName>Pacific</placeName>. </u>
+      <u who="MARKOWITZ">Oh, wow.</u>
+      <u who="LINK">—and a lot of the—the rough stuff that—and we had—they had people that were trained in doing that, who seemed to enjoy it, but [chuckles] I don’t know if they did or not, but it seemed like they did at the time. And so we went through some of that. But the primary part of going there was the Vietnamese language school.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="LINK">On board with me was an enlisted man who was to work with the enlisted in some of the same kind of roles, primarily in engineering, is where—is where he was. He did have some deck functions, but mostly was in engineering.</u>
+      <u who="MARKOWITZ">Remember that date to the dot. [Both chuckle.]</u>
+      <u who="LINK">Yeah, and so—and—and while I was in country, it was—it was—and we were on the Cửu Long [Province] and somewhere down in the [Mekong] <placeName>Delta</placeName> area, and I could look at the map and tell you exactly where. And then we’d come back in to <placeName>Saigon</placeName>, at the time, <placeName>Hồ Chí Minh City</placeName> now, but at the time was <placeName>Saigon</placeName>. </u>
+      <u who="MARKOWITZ">Oh.</u>
+      <u who="LINK">I have my Bronze Star, —</u>
+      <u who="MARKOWITZ">Oh, wow!</u>
+      <u who="LINK">—with my combat action ribbons. This is the Bronze Star. No, that’s not the Bronze Star. The Bronze Star is a bronze star.</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="LINK">This is the Bronze Star. There are—this is <orgName>the Vietnam Service Ribbon</orgName>, this is Combat [Action]. My—my—my <persName>Bronze Star</persName> did have a combat V on it because I was in combat. <orgName>My Vietnam Service Medal</orgName> has actually two—I got—I got two stars on that, which is two—two combat actions while I was in <placeName>Vietnam</placeName>. And, again, <orgName>the Bronze Star</orgName> does have a combat V on it, as you can see there, so—</u>
+      <u who="MARKOWITZ">Wow.</u>
+      <u who="LINK">That’s—those are some of the medals.</u>
+      <u who="MARKOWITZ">Yeah, thank you for bringing those.</u>
+      <u who="LINK">And even the—this is so that I have a lapel—a <orgName>Bronze Star</orgName> lapel pin—</u>
+      <u who="MARKOWITZ">Oh okay.</u>
+      <u who="LINK">—that I can wear anytime. And so I was there, <placeName>Vietnam</placeName>. [Both chuckle.] I—I—I did—I did some things, and I didn’t get—I don’t know—I don’t know what I did for that, but I—I got it from somebody with—with a combat V on it, so—so I didn’t—while I was over there, we did get hit a couple of times. I was fortunate. I didn’t get wounded. Some of the people on our ship did get wounded. And, I mean, most of the rivers over there that you’re in—many of the rivers you’re in, you can throw a rock across. They’re not that wide. And so shooting somebody from those shores [chuckles] is not very hard.</u>
+      <u who="MARKOWITZ">Wow, that’s really interesting.</u>
+      <u who="LINK">[Chuckles.] Well, I—</u>
+      <u who="MARKOWITZ">Definitely a different role than you—I feel like you often hear about in terms of service in <placeName>Vietnam</placeName>.</u>
+      <u who="LINK">Yeah, well, many of the people serving in <placeName>Vietnam</placeName>—I mean, I had some friends that went over on PT boats or Swift Boats [Patrol Craft Fast (<orgName>PCF</orgName>)], and so that’s American crew, and American—American American. And in—in many of the <orgName>Army</orgName> or <orgName>Marine Corps</orgName>—I mean, <orgName>Air Force</orgName> was pretty much up in the air, away from it. But they are also in—in an organized group of Americans that are doing something. And our position in—in—in that was in the advisory group of in <placeName>Vietnam</placeName>. We were <orgName>MACV</orgName>, military officer advisory groups [sic; <orgName>Military Assistance Command</orgName>, <placeName>Vietnam</placeName>] or something like that. I’m trying to think of what the whole name was.</u>
+      <u who="MARKOWITZ">What was—do you remember what your perception of sort of the <orgName>Navy</orgName>’s role in <placeName>Vietnam</placeName> was while you were on the destroyers, before you got your—</u>
+      <u who="LINK">No.</u>
+      <u who="MARKOWITZ">—assignment?</u>
+      <u who="LINK">I didn’t—I didn’t—before I got my assignment there, I didn’t—I did not know—I had, of course—you know, <persName>John [F.] Kerry</persName> and his Swift Boats and all that, and PT-109 [chuckles] [Motor Torpedo Boat PT-109], you know, and all that kind of stuff. But—so—I—I—I did not know of the advisory role, okay. I only knew of—of a role—you know, like, when I first was there, we were gunfire support off of <placeName>Vietnam</placeName>. When I—and then you hear about PT boats and SEALS [<orgName>U.S. Navy</orgName>’s Sea, <orgName>Air</orgName>, Land forces] and—and the different kinds of actions that are taking place there. But they’re all actions within an American command, okay?</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="LINK">But I had no idea of what it really meant until I got on board and met the captain and met the executive officer and started doing it, you know.</u>
+      <u who="MARKOWITZ">Looking back on it, do you feel like that schooling—?</u>
+      <u who="LINK">[phone sounds] What’s this? Woah. Somebody’s calling me. I’m just going to hang up. Not a number I know.</u>
+      <u who="MARKOWITZ">Oh, yeah, I never take those. They’ll leave a message if they really want to reach you.</u>
+      <u who="LINK">Yeah.</u>
+      <u who="MARKOWITZ">Looking back on it, do you feel like the schooling that you got in—when you were in <placeName>California</placeName> was adequate or accurate?</u>
+      <u who="LINK">Oh, I think the schooling was adequate, but I don't think that we—I don’t think that we accom- —I accomplished anything. I mean, you know, I met some people. Separated from my wife. Nothing was—I guess meeting the people was probably the only [chuckles] positive thing of the—of the tour.</u>
+      <u who="MARKOWITZ">[Laughs.]</u>
+      <u who="LINK">But I also helped him in some of the shipboard maneuvers because, again, I was qualified on destroyers, and I was, you know, a—<date>two and a half years</date> I was on destroyers, and I became qualified at all of the functions of a destroyer, from—from docking to getting under way between ships, from anchoring and from—all of those—those actions. </u>
+      <u who="MARKOWITZ">Do you feel like you had—did you go there with a goal or sort of a mission and feel like you accomplished that?</u>
+      <u who="LINK">No, actually, my—my mission was basically to make sure that I—I did the job that I was being asked to do: i.e., help with engineering—help—help the—the commanding—the officer in charge with ship handling and to help the engineering officer with engineering. And that was my role. But—and I think I did that. I think that that’s something that they—they did not have—it did not appear that they had the training that we have in our <orgName>Navy</orgName>. Obviously, it was kind of a new <orgName>Navy</orgName> that they pulled together, and kind of a quick <orgName>Navy</orgName>. And I don’t think that those people were—the people that were assigned to those positions did not have the training that we had. And so I think that I did that as part of the role.</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="LINK">But—but I think that that’s—that’s part of—and—and—and I think maybe that was also part of the fact that it was—we were kind of under the <orgName>Army</orgName>, in my role.</u>
+      <u who="MARKOWITZ">As a—as an adviser?</u>
+      <u who="LINK">As an adviser, okay? And so it was—and—and—and so we were calling in to the <orgName>Army</orgName>, and we were not under the <orgName>Navy</orgName>, who was—who was in charge of the patrol boats and, you know—and that kind of stuff. So maybe that was the difference that was there. I don’t know.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="LINK">Well, like I say, you know, we—we would—we would—we would get hit with rocket propelled grenades from the—from the shore, and we would fire back. Several of the people on board were wounded. This happened at least twice. And there was some small gunfire, small fire—you know, small arms fire also from the shore that we responded to. We had some .50 caliber machine guns on board, and so we did kind of rake with those, the guys that were in charge of those. I had my .30 cal[iber semi-automatic carbine] beside me, and I would rake with it on my side, and the captain was raking with his on the other side. And so it was—we were all wearing our vests and—and helmets and so forth [chuckles], but that was kind of the—the action that we saw.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="LINK">—with—holding the trigger down, you know.</u>
+      <u who="MARKOWITZ">Right. </u>
+      <u who="LINK">And that was kind of it. So that was the true combat action if you would that I was involved in.</u>
+      <u who="MARKOWITZ">How did—how do you feel your ser- —your service there as an adviser was different from people who were just within <orgName>the U.S. Navy</orgName>, still? Sort of not interaction with—</u>
+      <u who="LINK">Well, my role was not a combat role, at all—at all, at all. And I think that the others—even the people that were on the <orgName>Navy</orgName> Swift Boats were in a combat role. They were looking for interdictors, and—and they were searching for those kind of people. My role was not that. My—maybe the ship’s role was that, but my role was not that. My role—any of the combat action that I was in was adjunct to my role.</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="LINK">And so that was kind of the difference, I guess.</u>
+      <u who="MARKOWITZ">Did you enjoy interacting with <orgName>the Vietnamese Navy</orgName>?</u>
+      <u who="LINK">Oh, yes. Oh, yeah. Well, I—I can’t say the <orgName>Navy</orgName>. I can say with the people on board the ship, you know. Again, when you’re on board the ship and you’re getting close, you become semi-family, if you would. But I enjoyed interacting with them, and, you know, like I said, we would walk in the villages way out where—don’t know where they were. And—and we would sit down and—you know, and eat and have, you know, a meal and so forth. And so, yeah, I think I got along pretty well with them. Didn’t have any evidence of—of not getting along well. And the fact that both my enlisted support and myself came back from that mission, and we came back home [chuckles] was—was the good part of that. And we did leave before anything was turned over and all of that stuff ended, because we got back home—</u>
+      <u who="MARKOWITZ">You—you mentioned earlier that you—you felt like you sort of didn’t accomplish—your ship, at least, didn’t really accomplish anything there?</u>
+      <u who="LINK">Yeah, I don’t think that the ship accomplished what its role was. Obviously, the <orgName>VC</orgName> took over. [Laughs.] So, I mean, we did—I guess we did do what they were supposed to do on their patrols. I—I’m assuming that—I don’t know what the captain’s orders were or anything like that, but, you know, like I say, we did patrol the rivers and we did go down to southern <placeName>Vietnam</placeName> and—and check out some of the—the boats that were there, to make sure that there was no VC. We didn’t ever see anybody that was arrested or anything like that.</u>
+      <u who="MARKOWITZ">Did you have any thoughts on, like, the greater <name type="event">Vietnam War</name> at the time, you know, what— what [unintelligible]—</u>
+      <u who="LINK">You know, it was—I was pretty naïve at that—I didn’t—I really didn’t—I thought, Well, you know, the <placeName>U.S.</placeName> is doing it, so it must be right. And—and I guess I probably would be a little more questioning now. But I—I don’t know—at the time, I was—I was—that was my assignment, and so I was going to do it, you know.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="LINK">That was about it.</u>
+      <u who="MARKOWITZ">So you—so you got back to the <placeName>U.S.</placeName> in ’70?</u>
+      <u who="LINK">Yes,</u>
+      <u who="MARKOWITZ">And was your wife—your wife and your daughter were still in <placeName>California</placeName> at the time?</u>
+      <u who="LINK">They stayed in <placeName>Coronado</placeName>. We had rented an apartment there, and—and they stayed in <placeName>Coronado</placeName> all of that time. They—I guess—actually, when—when I—when I left—my daughter was born in <date>April</date>; I left in <date>February</date>, and when—when she went—she went back to <placeName>Rhode Island</placeName> to be with her parents when <persName>Nichole</persName> was born, and then she with <persName>Nichole</persName> came back to <placeName>Coronado</placeName>, and they were there. And there were some other <orgName>Navy</orgName> wives there, so that was, again, another family, if you would, that—that would—support group that was there. And so she was there whenever I came back, yes.</u>
+      <u who="MARKOWITZ">You—you were in <placeName>Vietnam</placeName> for <date>365 days</date>,—</u>
+      <u who="LINK">Seventeen hours, 21 minutes.</u>
+      <u who="MARKOWITZ">But you didn’t count.</u>
+      <u who="LINK">I didn’t count.</u>
+      <u who="MARKOWITZ">Was there—was there ever a possibility of you going back there or you sort of—</u>
+      <u who="LINK">Not me! [Laughs.] </u>
+      <u who="MARKOWITZ">Did you—you knew it was over.</u>
+      <u who="LINK">I knew I was—I knew I was finished. No, I—I wouldn’t have gone back. You know, that was not—that was not something that I would have done. Right.</u>
+      <u who="MARKOWITZ">What was—what was your plan for when you got out?</u>
+      <u who="LINK">Well, actually, when I got back, I—I wanted to have shore duty because I had been on two destroyers and in <placeName>Vietnam</placeName>, basically. I’ve been married for just about four years and had been with my wife for <date>11 months</date>, total time, and never <date>more than four months</date> was the—was the long shot.</u>
+      <u who="MARKOWITZ">What—sorry, what does shore duty entail?</u>
+      <u who="LINK">Well, it means that I would be assigned to some 9 to 5 job—</u>
+      <u who="MARKOWITZ">Okay.</u>
+      <u who="LINK">—on shore, and I would go home every night for some period of time, you know, and, you know, whatever that time was, <date>a year or two years</date>, whatever the assignment was. And that was kind of what I would like to be, you know, and it would be an officer in the <orgName>Navy</orgName> at some base, doing some administrative whatever, you know, either training or whatever. But it was—it was shore duty [chuckles], you know.</u>
+      <u who="MARKOWITZ">Your family still stayed in—</u>
+      <u who="LINK">No, they—they came—they came—they came back east. As a matter of fact, we started living in—with her parents in <placeName>Woonsocket</placeName>, <placeName>Rhode Island</placeName>, but then we—we moved to a little apartment in <placeName>Bellingham</placeName>, <placeName>Mass.</placeName>, and then I rode the train in <date>every day</date> and went to Northeastern, because there was a train station not too far from there.</u>
+      <u who="MARKOWITZ">What was it like being a veteran in <placeName>Boston</placeName>, at Northeastern, at the time when you got back?</u>
+      <u who="LINK">I don’t think—I don’t—I don’t know that anybody kne-—there was a couple of us there, but I don’t know that in general that it was known that I was a veteran. I didn’t—I didn’t [chuckles] wear anything to show anything. I didn’t show a flag or anything like that. I just was another student. I was a little older than the rest of them, but I was another student getting my master’s degree.</u>
+      <u who="MARKOWITZ">Did you—what were your general opinions on the war continuing throughout that time? Did you—were you at all vocal about it, or—</u>
+      <u who="LINK">No, no, no. No, I was—I was kind of—I don’t—I didn’t advertise that I was—that I had been in that. The fact that I was in the <orgName>Navy</orgName> was kind of generally known, primarily because I graduated from <orgName>the Naval Academy</orgName>, but I didn’t advertise anything about <name type="event">the Vietnam War</name>, the fact that I was there or anything like that. It’s just one of those events in my life that didn’t seem to go anywhere, you know? It was—it was just one of the steps to my—my life.</u>
+      <u who="MARKOWITZ">Was there—was there any antiwar movement present at <orgName>Northeastern</orgName>?</u>
+      <u who="LINK">I wasn’t involved in it.</u>
+      <u who="MARKOWITZ">Yeah.</u>
+      <u who="LINK">I don’t know about it. Yeah, I—and, again, this is in <date>’72</date>, so it’s probably pretty much over by then because it all ended [chuckles], you know, not too long after that, so it was—so—I mean, I graduated in <date>’72</date>, so—when did it—when did it end?</u>
+      <u who="MARKOWITZ">Seventy-five?</u>
+      <u who="LINK">Seventy-five or something, yeah, yeah. No, it—it wasn’t—I wasn’t involved in it, and I wasn’t part of any protest or anything like that, yeah.</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="LINK">Yeah. I just had my head down,—</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="LINK">—studying so that I could finish my degree and get going and so forth from there.</u>
+      <u who="MARKOWITZ">Did you ever regret turning down any other opportunities in the <orgName>Navy</orgName>, like the destroyer or—</u>
+      <u who="LINK">Well, you know, all things being equal, it would be a great place to have retired from. I don’t—I—I don’t know how it could have changed. I don’t know what it would have done to our life, our married life. I—I—I—I do sometimes regret that I didn’t retire from the <orgName>Navy</orgName>, if you would, because it would have made life now a little bit different, you know, and so—but I don’t know how much different. I—I—I really enjoyed my—my time in industry. You know, I—I went to work, became a manager of a digital facility and <orgName>Digital Equipment Corporation</orgName>, which is now no longer a corporation. And I was a manufacturing manager when I graduated from Northeastern.</u>
+      <u who="MARKOWITZ">Was that first job what brought you to <placeName>New Hampshire</placeName>, your job with <orgName>Nashua Corporation</orgName>?</u>
+      <u who="LINK">No. The job with—with <orgName>Digital</orgName>—</u>
+      <u who="MARKOWITZ">Oh, okay.</u>
+      <u who="LINK">—brought me to <placeName>New Hampshire</placeName>. When I graduated from Northeastern, we came—we went to—I went to work for I think it was <orgName>New England Business Service</orgName>, and we were living in <placeName>Amherst</placeName>, <placeName>New Hampshire</placeName>, at the time. I think. No. I went to work for <orgName>Nashua Corp.</orgName> as a manager, and we were living in <placeName>Amherst</placeName>, <placeName>New Hampshire</placeName>, at the time. </u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="LINK">—and so we moved up to <placeName>Maine</placeName>. And I was manufacturing manager for the <orgName>Digital</orgName>—for the manufacturing facility there. And from there, I moved to—to <placeName>Salem</placeName>, <placeName>New Hampshire</placeName>, as—and I took charge of an engineering group with <orgName>Digital</orgName>. And we were—we had some labs that we were doing testing on, and we were testing on certain equipment. </u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="LINK">And so I was going to get laid off. I got laid off in <date>January</date> of ’03. Yeah, <date>January</date> of ’03.</u>
+      <u who="MARKOWITZ">So it was <date>about 20 or 30 years</date> that you were moving around—</u>
+      <u who="LINK">Yeah.</u>
+      <u who="MARKOWITZ">—with those different—okay.</u>
+      <u who="LINK">Yeah, with a different—well,—but I—so I have my—I was with <persName>Nashua</persName>—I was with <orgName>Digital Equipment Corporation</orgName> long enough to receive a pension from them,—</u>
+      <u who="MARKOWITZ">Okay.</u>
+      <u who="LINK">—and so—so. But, yeah, so I—and so I—I was terminated in or laid off in <date>January</date> of I think it was ’03, and then that summer I worked at a golf course and dih, dah, dah. But in <date>November</date> I was hired by the college, and—I think they were just checking me out because I was hired as a worker bee—you know, climb under the table, you know, “my computer doesn’t work,” and so “Well, you gotta plug it in. Maybe it’ll work.”</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="LINK">And—and then in <date>January</date> of ’04 I was made the director of IT and <orgName>Programming Services</orgName> [Information Services] for the [<orgName>Dartmouth College] Development Office</orgName>. So that’s why I think that was just a [chuckles] really work, you know. And so—and then—so I managed the—the IT and <orgName>Programming Services for the Development Office</orgName>, from ’04 till—must have been ’<date>09</date> or something like that.</u>
+      <u who="MARKOWITZ">Was your—was your wife working at all at this time, or—</u>
+      <u who="LINK">Yes, she was working at—she was a nurse. [Chuckles.] She got her nursing degree—as a matter of fact, she got her nursing degree in—in <placeName>New Hampshire</placeName>, at <orgName>Tech</orgName>, <orgName>New Hampshire</orgName> Tech[nical Institute, now <orgName>NHTI</orgName>, <orgName>Concord</orgName>’s <orgName>Community College</orgName>]. And—and when we went up to <placeName>Maine</placeName>, she was nursing. She was a—she nursed at some industry nursing. She was—she was on-site nursing for some different industry places. When she came back, she worked at <orgName>Catholic Medical Center</orgName> in <placeName>Manchester</placeName> [<placeName>New Hampshire</placeName>].</u>
+      <u who="MARKOWITZ">Yeah, is that the—that’s the—</u>
+      <u who="LINK">That’s where—</u>
+      <u who="MARKOWITZ">Or what—which one is <persName>David</persName>’s <orgName>House</orgName>?</u>
+      <u who="LINK"><persName>David’s</persName> <orgName>House</orgName> is—is the one that they—that kids’ parents can stay at—</u>
+      <u who="MARKOWITZ">Oh, yes, yes, yes.</u>
+      <u who="LINK">—when they are there in—at the [Dartmouth-]Hitchcock [Medical Center]. So they can stay there.</u>
+      <u who="MARKOWITZ">Yes. Yes. Okay. </u>
+      <u who="LINK">And so she volunteers there once a week, and <date>that day</date> happens to be <date>today</date>. We both volunteer on <date>Tuesday</date>. </u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="LINK">So we take off. But anyway, so she—she volunteers there, and but she did—she was a nurse also.</u>
+      <u who="MARKOWITZ">And what about your—your daughter?</u>
+      <u who="LINK">Our daughter. Well, you know, she’s—my daughter now—you know, in <date>1970</date> she was born, so she’s going to be 47 in <date>April</date>. In the meantime, we had a son <date>ten years later</date>. [Chuckles.] And so he—he was born in—in <date>1980</date>. And at that time, we were living in <placeName>Maine</placeName>, and so we were—actually, we were living in <placeName>New Hampshire</placeName> when he was born, but we moved to <placeName>Maine</placeName> shortly thereafter.</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="LINK">So that’s what he does.</u>
+      <u who="MARKOWITZ">Did you <orgName>Navy</orgName> service ever sort of play into conversations with your kids, your family life later on?</u>
+      <u who="LINK">Well, as a matter of fact, my son thought about applying to <orgName>the Naval Academy</orgName>, but, you know, it was kind of a <persName>Johnny</persName> come lately [chuckles] application, and it was not—so, yeah, it—it did, but neither of them thought about going into the service, and neither of them were ever on a—any kind of assigned position or any kind of a—you know, to go into the—into the military or anything like that, so, no, they’re both in their lives right now. We have three grandchildren from my daughter. My sons not married. And they’re living their lives.</u>
+      <u who="MARKOWITZ">I guess they were—well, your daughter was pretty young when you came back. Your son wasn’t even born yet.</u>
+      <u who="LINK">No. [Both chuckle.]</u>
+      <u who="MARKOWITZ">Did they ever ask about <placeName>Vietnam</placeName>, or—</u>
+      <u who="LINK">Well, once in a while <orgName>they’ll</orgName>—asking me about the service, not—not so much about <placeName>Vietnam</placeName>.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="LINK">And, because, you know, I still have the pictures of the ships that I was on and—and my graduation sword and that kind of stuff, and so they—you know, they—they’re—they know that I was in the <orgName>Navy</orgName>, and they probably read my license plate and all that kind of stuff, so—but there’s not a whole lot of conversation about it right now. It’s just part of my life that was not really part of theirs.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="LINK">Yeah. So.</u>
+      <u who="MARKOWITZ">Do you feel like being in the <orgName>Navy</orgName> has at all influenced your politics now, or—</u>
+      <u who="LINK">I don’t think that being in the <orgName>Navy</orgName> influenced my politics at all, no. I—I think that—you know, I—I have to say that I don’t think being in the <orgName>Navy</orgName> influenced my politics, no. Being in the military did not.</u>
+      <u who="MARKOWITZ">Okay.</u>
+      <u who="LINK">Yeah.</u>
+      <u who="MARKOWITZ">And did you ever—have you ever considered going back to <placeName>Texas</placeName>, or do you—do you like this area?</u>
+      <u who="LINK">[Chuckles.] I—I love <placeName>New England</placeName>. I—we—you know, I go back and visit, and when my mom was alive, I’d go <date>every year</date> for <date>two or three weeks</date> and—and be there, kind of the—when she was alive, what we would do is because there was 11 of us, you know, we could each take <date>a month</date> and be in ch-—</u>
+      <u who="MARKOWITZ">Cover <date>the whole year</date> that way.</u>
+      <u who="LINK">And cover <date>the year</date> that way. [Both chuckle.] And so it was kind of a—and so—and at the time, when she was alive, we did that.</u>
+      <u who="MARKOWITZ">Sadly.</u>
+      <u who="LINK">I love cross-country skiing, and it’s not allowed any of that. I’ve done it twice, I think, and once I fell down.</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="LINK">And so pretty much—I like <placeName>New England</placeName>. I think that—I don’t think we’re going to stay in <placeName>New England</placeName> until we die. I—I know that we—we—we go to <placeName>Florida</placeName> for <date>two months every year</date>. At one time, it was <date>one month</date>, and now it’s <date>two months</date>. We do like to take trips. We’ve been on <date>three-week</date> trips to <placeName>Spain</placeName> and to <placeName>France</placeName> and to—and we’re planning one for <placeName>Portugal</placeName> now.</u>
+      <u who="MARKOWITZ">Oh. In <placeName>Texas</placeName>.</u>
+      <u who="LINK">We went—we went to Big Bend and spent <date>a week</date> there, you know, just the four of us.</u>
+      <u who="MARKOWITZ">Nice.</u>
+      <u who="LINK">One of them couldn’t make it, but four of us did. We canoed on <placeName>the Rio Grande [River</placeName>] and hiked and did that kind of stuff.</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="LINK">She does all the planning and, you know, the rental places for everything for going to <placeName>Portugal</placeName>, this time, and so we’ll—we’ll see how that goes. And, you know, as we get older, it’s—you know, at some point in time, we know that we’re not going to be able to continue doing it, but—my memory is not what it used to be. [Laughs.]</u>
+      <u who="MARKOWITZ">Do you volunteer a lot up here? You said—</u>
+      <u who="LINK">I’m—I volunteer <date>one day</date> a week at the riding aren- —at the riding stable, and that’s—that’s from my old south <placeName>Texas</placeName> roots.</u>
+      <u who="MARKOWITZ">Yeah.</u>
+      <u who="LINK">Because we lived on a ranch and I had horses all the time. I am—I volunteer at the association that we live in, <orgName>Eastman [Community Association</orgName>], so I do volunteer there. At this point, I don’t know how much longer, but I’m the chairman of <orgName>the environmental control committee</orgName> there, and so <date>tomorrow</date> morning, 8:15, we go out and check out some places and stuff like that. Every week we have a team that goes out and looks at some of the changes that people want to make and see if they can be approved.</u>
+      <u who="MARKOWITZ">Okay.</u>
+      <u who="LINK">Generally, they are approved. But, so—yeah, I mean, that’s—and—and then we volunteer every other—every other <date>Wednesday</date> evening at a food pantry in—in <placeName>Concord</placeName> [<placeName>New Hampshire</placeName>], because we lived down there for so long. We’ve been volunteering there for <date>about 25 years</date>. And so we do that.</u>
+      <u who="MARKOWITZ">Nice.</u>
+      <u who="LINK">Yeah.</u>
+      <u who="MARKOWITZ">Well, if there’s nothing else you want to add to the story—</u>
+      <u who="LINK">[Chuckles.] I can’t think of anything else. [Chuckles.]</u>
+      <u who="MARKOWITZ">Thank you so much. That was—that was really great.</u>
+    </body>
+  </text>
+</TEI>

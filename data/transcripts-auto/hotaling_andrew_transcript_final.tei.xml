@@ -1,0 +1,646 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="DANYOW"/>
+        <person xml:id="HOTALING"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="DANYOW"><date>Today is Saturday, April 25th, 2015</date>. This is <persName>Paul F. Danyow</persName> interviewing Dr. <persName>Andy Hotaling</persName> [pronounced hoe-TAIL-ing], <orgName>Dartmouth</orgName> Class of <date>1968</date>.</u>
+      <u who="HOTALING">You’re welcome.</u>
+      <u who="DANYOW">So just to start off with some basic, you know, background information, can you tell me when and where you were born?</u>
+      <u who="HOTALING"><persName>Glen Ridge</persName>, <placeName>New Jersey</placeName>, <date>1946</date>, <date>May 16th</date>.</u>
+      <u who="DANYOW">Okay, great. And what were your parents’ names?</u>
+      <u who="HOTALING">My mother was <persName>Jean [P.]</persName>, and my father was [<persName>William E.]</persName> “<persName>Bill</persName>.”</u>
+      <u who="DANYOW">Okay. And what did they do for a living?</u>
+      <u who="HOTALING">My mom was basically a housewife, and my dad sold steel.</u>
+      <u who="DANYOW">Steel. Okay. Interesting. And was it in <placeName>Glen Ridge</placeName> that you grew up, or did you grow up somewhere else?</u>
+      <u who="HOTALING">No, no, my dad had been a POW during <name type="event">World War II</name>, and when he came back, he went to—he’d started working with this company before he got drafted, and then when he got out, he got rehabilitated, whatever they did. He had to go through a retraining, so he commuted from <placeName>New Jersey</placeName> to <placeName>Pennsylvania</placeName> for the retraining, and then when he finished that after <date>about six months</date>, he was assigned to <placeName>New Haven</placeName>, <placeName>Connecticut</placeName>, which is where I spent <date>my first 14 years</date> after—we moved there when I was <date>six months old</date>.</u>
+      <u who="DANYOW">Okay, great. And what was growing up in <placeName>New Haven</placeName> like? Did you have a fairly normal childhood? Was there any, you know, particularly significant events that occurred in that period?</u>
+      <u who="HOTALING">No, I think it was probably a normal childhood. I was the oldest of three boys. You know, we spent a lot of time together as a family.</u>
+      <u who="DANYOW"><persName>Mm-hm</persName>. </u>
+      <u who="HOTALING">You know, went to camp. Started working, you know, when I was—actually, after we left <placeName>New Haven</placeName>, I started working. We moved from <placeName>New Haven</placeName> to <placeName>Bethany</placeName>, <placeName>Pennsylvania</placeName>.</u>
+      <u who="DANYOW">Okay.</u>
+      <u who="HOTALING">It was a pretty, I’d say, normal 1960s—’50s, ’<date>60s</date>—suburbia.</u>
+      <u who="DANYOW">Yeah. Sure. That makes sense.</u>
+      <u who="HOTALING">Well, we have to start in <placeName>New Haven</placeName>.</u>
+      <u who="DANYOW">Okay. </u>
+      <u who="HOTALING">I went to what was then called junior high school in <placeName>New Haven</placeName>, and we lived in a suburb of <placeName>New Haven</placeName> called <placeName>North  Haven</placeName> that had a very good public school system, where I’m guessing that 80 percent of the kids went to college, a lot because of a lot of <orgName>Yale</orgName> [University] faculty in the area.</u>
+      <u who="DANYOW">Sure</u>
+      <u who="HOTALING">And we moved to <placeName>Bethany</placeName>, and my parents chose to live in an area that had a not-so-good high school. It was kind of a rural high school, and I think about a third of the kids tried to go to college from that high school. So by <date>the end of my sophomore year</date> there—I started as a freshman. By the end of my sophomore or 10th grade, I really had done all the advanced courses you could do, so my parents and I decided I should go away to school for <date>my last two years</date>, and I went to school in <placeName>Pottstown</placeName>, <placeName>Pennsylvania</placeName>, <orgName>The Hill School</orgName>, a boarding school.</u>
+      <u who="DANYOW">Okay, great. And can you talk a little bit more about, you know, your boarding school experience? Were you a good student? I mean, it certainly sounds like you were, if you had breezed through the advanced classes at the other high school.</u>
+      <u who="HOTALING">I was a good student, and <orgName>The Hill School</orgName> is probably one of the best decisions I ever made because it taught me how to study. It turned me on to learning better, to writing better. Very dedicated faculty. And was really sort of a cloistered existence, as it was an all-boys school at the time. So I was there for <date>two years</date>.</u>
+      <u who="DANYOW">Okay. You mentioned the good faculty. Were there any particular teachers that played an important kind of mentor role in your development at that point?</u>
+      <u who="HOTALING">I would say that a bunch of them did. I can’t recall particular names, but they weren’t there because they made a lot of money; they weren’t there because it was a luxurious lifestyle; they were there because they cared about teaching, and—</u>
+      <u who="DANYOW">Sure.</u>
+      <u who="HOTALING">We had to write an essay <date>every week</date> in English class, and it really, really taught me how to—or better how to use the English language.</u>
+      <u who="DANYOW">Yeah, sure. And what about, you know, extracurriculars in high school? Were you, you know, particularly active in sports or, you know, music or something else?</u>
+      <u who="HOTALING">Yeah, I was. Not particularly good, but I was. I played basketball. We didn’t have football at this little high school in <placeName>Pennsylvania</placeName>, so I played basketball and soccer, and wasn’t particularly good at either one of them.</u>
+      <u who="DANYOW">[Chuckles.]</u>
+      <u who="HOTALING">And then played soccer and lacrosse in boarding school, but again wasn’t particularly good, but I enjoyed being—you had to do something athletically, so that’s what I chose to do, and had fun.</u>
+      <u who="DANYOW">Great.</u>
+      <u who="HOTALING">Well, I grew up in a <orgName>Dartmouth</orgName> family. My dad and my uncle had been in <placeName>Dartmouth</placeName>. Actually, both were in SAE [<orgName>Sigma Alpha Epsilon</orgName>],—</u>
+      <u who="DANYOW">Oh, wow!</u>
+      <u who="HOTALING">—Class of ’40 and my dad was ’41. </u>
+      <u who="DANYOW">Huh!</u>
+      <u who="HOTALING">And so I’d been exposed to <orgName>Dartmouth</orgName> all the way along, and my dad was a big supporter as an alumnus. So, you know, I’d been taken skiing at the [<orgName>Dartmouth</orgName>] <placeName>Skiway</placeName>, and we always went to <orgName>Dartmouth-Princeton [University</orgName>] and <orgName>Dartmouth-Yale [University</orgName>] football games, because of family friends. So I had a long <placeName>Dartmouth</placeName> experience, and I applied to <orgName>Dartmouth</orgName>, <orgName>Trinity</orgName> [College] and <placeName>Bowdoin</placeName> [College], I think were the three schools that I actually applied to. And I applied early decision at <orgName>Dartmouth</orgName> and was lucky enough to get in.</u>
+      <u who="DANYOW">Awesome. So it was definitely—it’s fair to say it was your top choice then,—</u>
+      <u who="HOTALING">Yes, it was.</u>
+      <u who="DANYOW">—based on your family history.</u>
+      <u who="HOTALING">Yes.</u>
+      <u who="DANYOW">Great.</u>
+      <u who="HOTALING">I ended up joining <orgName>Alpha Chi Alpha</orgName>—</u>
+      <u who="DANYOW">Sure.</u>
+      <u who="HOTALING">—fraternity <date>my sophomore year</date>. The <placeName>Vietnam</placeName> thing in <date>1964</date> now was starting to heat up, and I did not want to get drafted.</u>
+      <u who="DANYOW"><persName>Mm-hm</persName>. </u>
+      <u who="HOTALING">When I started college, you could get a 2-S [student] deferment that keeps you out of the draft. By the time I finished, they were drafting people out of college. So I joined the <orgName>NROTC</orgName>, <orgName>the Naval Reserve Officer</orgName> [sic; Officers] Training Corps.</u>
+      <u who="DANYOW">Yeah.</u>
+      <u who="HOTALING">They must have asked if I wanted to apply for a scholarship, which I did and got, so I had a scholarship for my last three—my final <date>three years</date> at <orgName>Dartmouth</orgName> that paid tuition and books and fees. For that, I owed <date>four years</date> to the [<placeName>U.S.</placeName>] <orgName>Navy</orgName> when I graduated.</u>
+      <u who="DANYOW">Okay. </u>
+      <u who="HOTALING">And when I graduated I was a Regular officer, not a <orgName>Reserve</orgName> officer.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">I had <date>summers</date> mostly with the <orgName>Navy</orgName>. I was hurt <date>one summer</date>, and I couldn’t go on cruise, so I did two cruises <date>the next summer</date>, but—I rowed at <placeName>Dartmouth</placeName>. I did crew. And <date>my sophomore year</date>, I hurt my back weightlifting, and I didn’t end up rowing anymore and came very close to having surgery, but in retrospect, fortunately I didn’t have to have surgery. It got better.</u>
+      <u who="DANYOW"><persName>Mm-hm</persName>. Okay.</u>
+      <u who="HOTALING">But I spent a lot of <date>the spring semester</date> in <persName>Dick</persName>’s <orgName>House</orgName>.</u>
+      <u who="DANYOW">Okay. Interesting. </u>
+      <u who="HOTALING">I did not at all. I did not at all. I ended up being a French major—</u>
+      <u who="DANYOW">Okay. </u>
+      <u who="HOTALING">—and also a naval science major because of all the courses the <orgName>NROTC</orgName> required, so I had no aspirations to medicine in college. I had a lot of fraternity brothers and friends who were premed, but I had no aspirations whatsoever to medicine.</u>
+      <u who="DANYOW">Okay. Interesting. You mentioned before—you know, I’m just kind of now thinking about your decision to join <orgName>NROTC</orgName>. You mentioned briefly that your father had served in <name type="event">World War II</name>. Can you talk a little bit more about, you know, where he served and what his role was in the military and then how that influenced your decision to serve?</u>
+      <u who="HOTALING">Yeah. Well, I think in sum I was raised in probably a real, relatively conservative and patriotic family.</u>
+      <u who="DANYOW"><persName>Mm-hm</persName>.</u>
+      <u who="HOTALING">And my father had graduated from <orgName>Dartmouth</orgName> in <date>1941</date>, and, as you probably know, <placeName>Pearl Harbor</placeName> happened in <date>December of 1941</date>, so he started working for this company, and then he got drafted when the war started. I think he was drafted in <date>1942</date>, and he was drafted as a private, and because of his college background, he was sent to <orgName>OCS</orgName>, <orgName>Officer Candidate School</orgName>.</u>
+      <u who="DANYOW">Sure.</u>
+      <u who="HOTALING">And I think that was <date>three months or four months</date>, and then when he ended—when he finished <orgName>OCS</orgName>, he was a second lieutenant in the infantry, and he was assigned to the 106th [<orgName>Infantry] Division</orgName>. It was a new division that was being formed. And a division was about 10 to 12 thousand men.</u>
+      <u who="DANYOW"><persName>Mm-hm</persName>. </u>
+      <u who="HOTALING">And he trained in—well, all over, but he ended up being trained a lot in <placeName>Indiana</placeName>. He got married, and my mother came to live with him for the last part of his training, and then he went over at about D plus 90, so he went over sometime in <date>September</date> to <placeName>England</placeName> to be ready to go into combat. And his division was in <placeName>England</placeName> for <date>a couple of months</date>, and then they were transferred to what was thought to be a very quiet area of the front, in <orgName>the Ardennes Forest</orgName>.</u>
+      <u who="DANYOW">Okay. </u>
+      <u who="HOTALING">And they were actually the principal target of <name type="event">the Battle of the Bulge</name>. They were—the entire division was captured by <name type="event">the Battle of the Bulge</name>. It was supposed to be a rest area where they could be “bled,” meaning slowly brought up to speed in combat because there wasn’t much going on, and the entire division was captured. And I guess it was the largest capture of Americans in <name type="event">World War II</name>, maybe period, I don’t know. But he was a POW for <date>about five or six months</date>. My mother didn’t know if he was alive or dead for quite a while—</u>
+      <u who="DANYOW">Jeez.</u>
+      <u who="HOTALING">—and then eventually heard through—heard officially through <orgName>the Red Cross</orgName> but actually heard through I guess  that you’d call it a jungle grape vine, sort of people that talk back and forth without official recognition, but heard that he was alive, because a lot of them had been killed. And then he was—as a POW, as the western front was coming east, they would move the prisoners to the east. But then as the <orgName>eastern</orgName> front came west, they were moved back and forth, so he ended up in one of the harshest <date>winters</date> certainly in recorded history in <placeName>Europe</placeName>, marching about five or six hundred miles as a POW.</u>
+      <u who="DANYOW">Wow.</u>
+      <u who="HOTALING">Lost a lot of weight. Was liberated three times but recaptured twice because the fronts were very fluid.</u>
+      <u who="DANYOW">Wow.</u>
+      <u who="HOTALING">And at the end, the Germans did not want to surrender to the Russians. The Russians were not going to treat them very well, and the <orgName>Allies</orgName> would treat them better, so they wanted to surrender to the <orgName>Allies</orgName>. By the <orgName>Allies</orgName>, I mean the French, Canadian, British and Americans because they had better treatment,—</u>
+      <u who="DANYOW">Sure.</u>
+      <u who="HOTALING">—and that’s how he was finally freed.</u>
+      <u who="DANYOW">Wow, that’s quite a story of its own. Jeez. And was this something that he shared those experiences with you?</u>
+      <u who="HOTALING">He did not.</u>
+      <u who="DANYOW">You know, up—from the time that you were a college student?</u>
+      <u who="HOTALING">He did not for <date>many years</date>.</u>
+      <u who="DANYOW">Okay. </u>
+      <u who="HOTALING">Certainly when growing up, as kids, we didn’t hear very much about it. It was too fresh in his mind. But then as we got older, he’d talk a little bit about it, and as he got older, he talked more about it. He talked about being in a box car on <date>Christmas Day</date> and having ARF, <orgName>Army Air Force</orgName>, strafe the box cars.</u>
+      <u who="DANYOW">Jeez.</u>
+      <u who="HOTALING">They didn’t know there were POWs in it, but he said guys around him were being killed.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">So it was a horrific experience.</u>
+      <u who="DANYOW">Yeah, absolutely.</u>
+      <u who="HOTALING">We had—we had—we had a very good family friend who’d been in the <orgName>Navy</orgName> in <name type="event">World War II</name>, who I liked a lot, and my dad was certainly negative about sleeping on the ground and being outdoors all the time, so—and I’ve always liked the <orgName>Navy</orgName>, so that was my decision, to join the <orgName>Navy</orgName>.</u>
+      <u who="DANYOW">Okay. </u>
+      <u who="HOTALING">I didn’t particularly want to be on the ground in <placeName>Vietnam</placeName>.</u>
+      <u who="DANYOW">Yeah. And, you know, obviously you ended up in Naval Aviation. Was that something that was, you know, in your mind when you made the decision to join <orgName>NROTC</orgName>, or did that come later?</u>
+      <u who="HOTALING">Not really. I’ve always been interested in aviation. That had been just something that had always interested me, but I’d never really—I had flown with some family friends in small planes a couple of times, but not much. And then in <placeName>ROTC</placeName>, if you’re in <placeName>the Naval ROTC</placeName> or the Air Force ROTC, they offered a program called FIP, <orgName>Flight Instruction Program</orgName> [sic; Flight Indoctrination Program], where, if you could pass the military flight physical, the military would pay for 40 hours of private flight instruction, with no obligation to fly in the service. </u>
+      <u who="DANYOW">Oh, wow!</u>
+      <u who="HOTALING">So they paid for 20 hours of dual, which was instruction, and 20 hours of solo, which at the time was about enough to get a private license. And it interested me, so—</u>
+      <u who="DANYOW">And was that—</u>
+      <u who="HOTALING">Go ahead.</u>
+      <u who="DANYOW">Sorry. Was that <orgName>FIP</orgName> program something that you did while you were at <orgName>Dartmouth</orgName>?</u>
+      <u who="HOTALING">Yes, I did.</u>
+      <u who="DANYOW">Okay. </u>
+      <u who="HOTALING">Yeah, I did it, and I actually flew at a little airport in <placeName>Post Mills</placeName> [<placeName>Vermont</placeName>], which is still there.</u>
+      <u who="DANYOW">Cool. And I guess—you mentioned a few minutes ago—I just wanted to go back to talking about the cruises that you would do through <orgName>NROTC</orgName> in <date>the summer</date>. Can you talk a little bit about those and how those kind of supplemented the curriculum that you do during <date>the year</date>?</u>
+      <u who="HOTALING">Yeah. You’re required to go on a <date>six-week</date> training program, which the <orgName>Navy</orgName> called a cruise, so each summer, your freshman summer, your sophomore summer and your junior <date>summer</date> you did a cruise. And they were different kinds of things. The first cruise I did, I was on a destroyer in <placeName>Newport</placeName>, <placeName>Rhode Island</placeName> for <date>six weeks</date> and basically chipped paint and painted the ship for <date>six weeks</date>. And we went out for <date>two or three days</date>. That was the experience. It wasn’t particularly interesting, but it was an experience.</u>
+      <u who="DANYOW">Yeah.</u>
+      <u who="HOTALING">And then my sophomore cruise, I’d hurt my back, and I couldn’t go, so I was rehabbing at that point, and I didn’t go on a cruise <date>that summer</date>, but I did two cruises <date>the next summer</date>.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">The first cruise was the sophomore cruise that I would have taken, and it was split between introduction to the [<placeName>U.S.</placeName>] <orgName>Marine Corps</orgName> and introduction to <orgName>Naval Aviation</orgName>. So I spent I want to say <date>ten days or</date> <date>two weeks</date> at <placeName>Brunswick</placeName>, <placeName>Maine</placeName>, at the Naval Air Station, and flew in patrol planes. And then we went down to <placeName>Texas</placeName> and flew in jet trainers. And then <date>the second half</date>, <date>the second three weeks</date> we were with <orgName>the Marine Corps</orgName> in <placeName>Little Creek</placeName>, <placeName>Virginia</placeName> at the amphibious training part of <orgName>the Marine Corps (Naval Air Station</orgName>, <placeName>Brunswick</placeName>].</u>
+      <u who="DANYOW">Okay. </u>
+      <u who="HOTALING">And then the senior cruise, which was the one that I needed to finish, I was on a submarine in <placeName>Charleston</placeName>, <placeName>South Carolina</placeName>, a diesel-powered submarine for <date>six weeks</date>, and that was very interesting.</u>
+      <u who="DANYOW">Wow. Okay. So, wow, you really got, you know, quite a—quite a breadth of experiences there, just during your time in college.</u>
+      <u who="HOTALING">Yeah, you got a good taste of things, got a good taste of things.</u>
+      <u who="DANYOW">Yeah. Yeah, that’s pretty interesting.</u>
+      <u who="HOTALING">Oh, absolutely, absolutely. There was a lot of negativity. There were people who were pro war, but there were people who were very anti war, and there were a fair number in the middle who probably just didn’t care and didn’t really get into it. But it—it was a very—it was a tough time to go to college because instead of focusing on studies, there was a lot of political unrest,—</u>
+      <u who="DANYOW">Sure.</u>
+      <u who="HOTALING">—and you had the black power struggle, you had women’s rights and you had <name type="event">the Vietnam War</name> all at the same time, and you had people taking over <persName>Parkhurst</persName> [Hall] and shutting down the college.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">On Armed Forces Day, we used to march—I think in <date>May</date> we used to march down Main Street [in <placeName>Hanover</placeName>, <placeName>New Hampshire</placeName>], and we ended up having to do it in the football stadium with state police around the stadium to prevent the antiwar people from coming in and breaking it up. So it was—</u>
+      <u who="DANYOW">Wow.</u>
+      <u who="HOTALING">—it was a—a—a troubling time. We weren’t being spit on yet., but people were very anti military. I had some fraternity brothers who elected to go to <placeName>Canada</placeName> to avoid the draft.</u>
+      <u who="DANYOW"><persName>Mm-hm</persName>.</u>
+      <u who="HOTALING">I also had some fraternity brothers who had come back from having served in <placeName>Vietnam</placeName>, one in particular who was a [<orgName>U.S. Army</orgName>] Special Forces guy, who had some very interesting stories to tell. So it was—it was kind of tough to concentrate on studies when all this other stuff was going on.</u>
+      <u who="DANYOW">Yeah [chuckles], I would imagine, certainly. Did that create conflict, even, you know, thinking about within <persName>Alpha Chi</persName>? Was there conflict between, like, say, this <orgName>Special Forces</orgName> guy and people who had, you know, elected to try to go to <placeName>Canada</placeName>? I mean, did that cause dissent in the house?</u>
+      <u who="DANYOW">I don’t think that there was conflict in the sense of, you know, being disrespectful, but there was certainly some heated arguments—heated discussions, I should say, about it. You know, the faculty was very much—well, for the most part anti war. Very liberal faculty.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">And there was a lot of sort of unrest on the campus. You know, they took over <orgName>Parkhurst</orgName>; they shut down <orgName>Columbia</orgName> [University]; there was just a lot of stuff going on.</u>
+      <u who="DANYOW">Yeah, absolutely.</u>
+      <u who="HOTALING">It was a divisive time to be in college, and so I think a lot of my generation in college missed out on some of the college experience because of all the political stuff, societal changes that were going on. And I don’t mean that that was bad, but I mean a lot of the stuff that you might have in <date>four years</date> of college or one might have in <date>four years</date> of college, my generation didn’t experience, if they had their eyes open, because of the politics and the societal changes.</u>
+      <u who="DANYOW">Yeah. No, that makes sense. Did it impact your—you know, I mean, can you think of any specific ways that this kind of unrest impacted your studies personally or impacted your commitment to the <orgName>NROTC</orgName> program or anything like that?</u>
+      <u who="HOTALING">No, I think I was committed to serve. I remain a patriotic citizen, and I think it’s naïve to think we can hide our head in the sand and think that we’ll be able to continue enjoy the privileges and liberates that we have in this country. An example would be <orgName>ISIS</orgName> [<orgName>Islamic State of Iraq</orgName> and the <placeName>Levant</placeName>, also known as <orgName>ISIL</orgName>] right now. <orgName>ISIS</orgName> would like to take all those away from us and turn us into a caliphate. And I think that there are people in this country who fervently believe that the military is bad, that they shouldn’t exist, that we should get rid of the military. I disagree with that vehemently.</u>
+      <u who="DANYOW"><persName>Mm-hm</persName>.</u>
+      <u who="HOTALING">I wish that the force of the military was applied more effectively. Later, we get into my <orgName>Navy</orgName> experience,—</u>
+      <u who="DANYOW">Yeah.</u>
+      <u who="HOTALING">—when it would be applied more effectively, but I think we need to have a military. I think there are people in the world who do not like us and would like nothing more than to get rid of us. </u>
+      <u who="DANYOW"><persName>Mm-hm</persName>. </u>
+      <u who="HOTALING">And my liberal friends disagree with me on this, but I think the only thing these sorts of people who want to get rid of us respect at times is a good punch in the nose.</u>
+      <u who="DANYOW"><persName>Mm-hm</persName>. Yeah, personally I’m generally inclined to agree with you on that.</u>
+      <u who="HOTALING">I expected I would probably end up in <placeName>Vietnam</placeName> because statistically most people in the military did, though some didn’t. I wasn’t sure where becoming a naval aviator was going to take me. I didn’t know that. It was an adventure that I was really looking forward to.</u>
+      <u who="DANYOW"><persName>Mm-hm</persName>. </u>
+      <u who="HOTALING">I had no aspirations, as you do, to go to business school, to go to medical school, to get a <persName>Ph.D.</persName> I didn’t have aspirations beyond knowing that I owed the <orgName>Navy</orgName> what would end <date>up being five years</date> because I was going to fly.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">I looked upon it as an adventure. Senior spring was—there was a lot of political unrest on the campus. There was a lot of angst on the campus. People I think struggled to keep their mind on their studies. I know I did, and I think others did as well. And it was a contentious time. We were commissioned on <date>Saturday</date>, and on <date>Sunday</date> we had graduation.</u>
+      <u who="DANYOW">Okay. </u>
+      <u who="HOTALING">Do you know anything about the ’68 graduation ceremonies?</u>
+      <u who="DANYOW">No, not specifically. Was there a particular protest that happened then or something?</u>
+      <u who="HOTALING">Oh, yes, there was.</u>
+      <u who="DANYOW">Oh, okay. I hadn’t heard this before.</u>
+      <u who="HOTALING">You’ll have to look it up, maybe, but our valedictorian was a guy by the name of [<persName>James W.]</persName> “<persName>Jamie” Newton [Class of</persName> <date>1968</date>], and he was a <orgName>Quaker</orgName>. And it was required—I assume it still is—that he had his speech vetted or approved by administration that he was going to give.</u>
+      <u who="DANYOW"><persName>Mm-hm</persName>.</u>
+      <u who="HOTALING">And <persName>Jamie</persName> went ahead and submitted his speech, and it was approved, and got up and gave a totally different speech—</u>
+      <u who="DANYOW">Oh, wow.</u>
+      <u who="HOTALING">—that was profoundly anti war, violently anti war. And we sat at the graduation then on the lawn of <persName>Baker</persName> Library with the stands up against the building and then out toward the  [Dartmouth] Green, where the people were seated. And there were people in the audience, my father included, who got up on their—stood up on their seat of their folding chair and screamed at him,—</u>
+      <u who="DANYOW">Wow.</u>
+      <u who="HOTALING">—at what he was saying. So it was a—we can use the word “memorable day.”</u>
+      <u who="DANYOW">Yeah, I would say so.</u>
+      <u who="HOTALING">There are not many days when—there are not many colleges that end up on the front page of <orgName>The New York Times</orgName> <date>the following day</date>, which we did because of this speech.</u>
+      <u who="DANYOW">Wow. I have not heard of that before. That’s interesting.</u>
+      <u who="HOTALING">Violently anti war. And you had faculty, you know, who thought this was great, and you had students who thought it was great, you had students who didn’t think it was great, and then you had family—you know, some applauded, some jeered.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">So it was a very, very troubling time, troubling time.</u>
+      <u who="DANYOW">Yeah. That certainly puts a capstone on it, too.</u>
+      <u who="HOTALING">I was commissioned—we graduated—I was commissioned <date>June 15th</date>, we graduated <date>June 16th</date> and I think I reported for flight training <date>a couple of weeks</date> after that.</u>
+      <u who="DANYOW">Okay.</u>
+      <u who="HOTALING">Do you know anything about naval flight training?</u>
+      <u who="DANYOW">Well, I’m going to hazard a guess that this would have been in <placeName>Pensacola</placeName> [at the Naval Air Station]. Is that right?</u>
+      <u who="HOTALING">Yeah, that’s a good guess, and that’s where it started, and I’ll give you the saga. We went—</u>
+      <u who="DANYOW">Sure.</u>
+      <u who="HOTALING">—reported to <placeName>Pensacola</placeName> and started flight training. And we did something first called preflight, which was physical conditioning and different things you had to do, and then academics: aerodynamics, the theory of flight, a whole bunch of stuff, sort of scientific stuff. And that went on for <date>three months</date>. You had to pass the <orgName>Navy</orgName> flight physical again, and I have a—not a problem but a finding in my ears, where I have—done a lot of cold water swimming, and so I have bony growths in my ear canal, and they can’t see all of my eardrum,—</u>
+      <u who="DANYOW">Huh!</u>
+      <u who="HOTALING">—so I had to get a waiver from the chief doctor in the <orgName>Navy</orgName> to be able to fly because they legally had to see more of my eardrum and they couldn’t, and there was some go-round about that, but I eventually got passed to do it. So you did <date>three months</date> of sort of academic work and conditioning. You had to swim a mile in a flight suit. You had to do some parachute type training. You had to run the obstacle course and then pass various tests academically. </u>
+      <u who="DANYOW"><persName>Mm-hm</persName>. </u>
+      <u who="HOTALING">And they split again to do multi-engine or helo (helicopter). But I did jet, so I went—from <placeName>Pensacola</placeName> I moved to <placeName>Meridian</placeName>, <placeName>Mississippi</placeName> [to the Naval Air Station], which is in the middle of nowhere in <placeName>Mississippi</placeName> and spent—I can’t remember exactly—<date>six or eight months</date> there, and that was my initial jet experience. We did the classroom stuff again and then transition training from a prop to a jet. We did ejection seat training. We did familiarization flights in the plane, and then we did solo, then we did formation, and then we did some navigation, and then we did some instrument training, and then we went back to <placeName>Pensacola</placeName> to fly the same plane, a two-engine version of this plane but basically the same plan to get qualified and do air-to-air gunnery.</u>
+      <u who="DANYOW">Okay. </u>
+      <u who="HOTALING">You finish that, and then we went to either to Kingsville [Naval Air Station, <placeName>Kingsville</placeName>] or <placeName>Beeville</placeName> [Naval Air Station, Chase Field], <placeName>Texas</placeName>, and I went to <placeName>Beeville</placeName>, <placeName>Texas</placeName>, which, again, is in the middle of nowhere, for advanced jet training and flew an airplane called the [<orgName>Grumman</orgName> F-9] Cougar, which was a Korean War-vintage fighter that they had made into a trainer with, again, tandem seating. Then they also had some single-seat ones that you flew for part of it. And you basically repeated all the stages that you had done in basic jet, and they threw in more instrument training. You actually got your instrument ticket. You were instrument qualified there. And that was probably the hardest phase. And then you did air-to-ground weapons and air-to-air weapons, and then did carrier qualification. And when you finished all of that, then you were designated a naval aviator.</u>
+      <u who="DANYOW">Wow, so quite a process, it sounds like.</u>
+      <u who="HOTALING">That happened for me—it took <date>about 18 months</date>, so it took about 18—</u>
+      <u who="DANYOW">From the time you started?</u>
+      <u who="HOTALING">—<date>months</date> to go through all the stages of training.</u>
+      <u who="DANYOW">Okay. </u>
+      <u who="HOTALING">And then the <orgName>Navy</orgName>—the pipeline—the <orgName>Navy</orgName> was losing a lot of pilots in <placeName>Vietnam</placeName>,—</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">—and they had increased the pipeline, and then, by the time I finished, they didn’t need as many pilots, so I was what they called stashed, which means I was parked someplace for <date>a year</date>, and I was parked—I was going to fly a tach aircraft, and I was parked in <placeName>Lemoore</placeName>, <placeName>California</placeName> [Naval Air Station, <placeName>Lemoore</placeName>], which is an air station south of <placeName>Fresno</placeName>, Naval Air Station south of <placeName>Fresno</placeName>, and flew the [Ling-Temco-Vought] A-7 [Corsair II] and also flew the [Douglas] A-4 [Skyhawk], which was another plane. I was the assistant legal officer of this large squadron. I’d been sent to <orgName>Naval Justice School</orgName> in <placeName>Newport</placeName> for <date>six weeks</date> on my way to <placeName>California</placeName>. </u>
+      <u who="DANYOW">Okay. </u>
+      <u who="HOTALING">And I spent <date>a year</date> as an assistant legal officer and actually got to fly a great deal. I checked out on both these airplanes and got to fly a lot. And then when I finished <date>that year</date>, I was given my choice of where I wanted to go in the attack community and chose to go to the newer version of the A-7, called the [Ling-Temco-Vought] A-7E [Corsair II], so I basically went across the street to another training squadron, and I spent, oh, <date>six months</date> there, I guess, and got through all the stages of training—again, a lot of what we’d already done before: formation and night and carrier qualification, different kinds of weapons,—</u>
+      <u who="DANYOW">Sure.</u>
+      <u who="HOTALING">—stuff. And then got assigned to a tactical squadron. This would be what we call a fleet squadron, which was for me VA-147, Attack Squadron 147. And they had just come off of a cruise to <placeName>Vietnam</placeName>, and they were retraining to go back again, and so I rejoined them in that retraining cycle.</u>
+      <u who="DANYOW">Okay, great.</u>
+      <u who="HOTALING">I—actually about 60-something, but the <orgName>Navy</orgName> didn’t count that.</u>
+      <u who="DANYOW">Okay. But I mean—I’m just curious: Did that kind of put you ahead of the curve in the training process because you’d already flown quite a bit? Did that make the training easier, do you think, or—</u>
+      <u who="HOTALING">It may have made it a little easier, but not much, and there were some habits that you had been taught in civilian flight school that the <orgName>Navy</orgName> un-taught you, because they didn’t want you to—specifically landing. Typically, you would be taught  to flare to land. </u>
+      <u who="DANYOW">A little bit, yeah. I mean, I’m certainly not a pilot, but I’m kind of an amateur aviation enthusiast, so, yeah, I know what flaring is.</u>
+      <u who="HOTALING">So the <orgName>Navy</orgName>—aboard ship, you don’t flare; you just hold an attitude and smash down.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">So they had to sort of correct that habit out of you.</u>
+      <u who="DANYOW">Interesting.</u>
+      <u who="HOTALING">So it gave me maybe a little bit, but not a huge deal.</u>
+      <u who="DANYOW">Okay, but I was just curious if that was, you know, a significant advantage.</u>
+      <u who="HOTALING">Oh, it’s very exciting. There’s no doubt about that. It’s very exciting. And, you know, you’ve got butterflies the first time or two you do it. But they don’t—you’ve practiced a lot on land,—</u>
+      <u who="DANYOW">Okay.</u>
+      <u who="HOTALING">Flying a carrier approach, and you do it so many times that it becomes ingrained in you, and then the landing signal officer, the guy that’s training you, who’s a pilot who specializes in teaching people how to land and helping people land, would be on the platform, the <orgName>LSO</orgName> platform. He’d be on the back of the ship, but he knew what you could do and what you couldn't do, or what your tendencies were, so you were talked through it. And when you did the first carrier landings, you were flying a straight-wing aircraft, and it was, looking back on it, relatively safe. It had enough power to get out of trouble, and you were in perfect conditions. There wasn’t—the wind was perfect, it was <date>daytime</date>, there was good visibility, the ship wasn’t rocking, so everything was stacked in your favor—</u>
+      <u who="DANYOW">Right. That makes sense.</u>
+      <u who="HOTALING">—the first time I did it. And then the second time you did it, in a swept-wing aircraft—again, the same thing. You had an <orgName>LSO</orgName> that had worked with you for a month or so and knew all your tendencies and would correct them and catch things and tell you what to do and talk you through it. So it’s very exciting, but as far as demanding, I think that’s very demanding, for sure. That’s very demanding. But the instrument training that we got was very, very rigorous. It was hours and hours and hours of flying under a bag or a hood and never seeing the outside world.</u>
+      <u who="DANYOW">Right, the idea there being that it forces you to rely on your instruments, I’m assuming, rather than be able to cheat and look outside?</u>
+      <u who="HOTALING">Yes, yes. </u>
+      <u who="DANYOW">Okay, great.</u>
+      <u who="HOTALING">So very, very demanding.</u>
+      <u who="DANYOW">The thing I’ve always wondered—you know, obviously I’ve never flown, but I would think it would be really hard to kind of untrain your inner ear, essentially, because I’ve heard people kind of get vertigo and think they’re, you know, pointed upside down or something, and they sort of have trouble learning to trust their instruments. I don’t know if you experience something like that.</u>
+      <u who="HOTALING">I have experienced that, and you have to trust your instruments. I’ve refueled—air-to-air refueling at night, when I thought I was upside down.</u>
+      <u who="DANYOW">Jeez! Pretty amazing.</u>
+      <u who="HOTALING">So you just have to. You just have to trust what your instruments tell you, not what your ear is telling you.</u>
+      <u who="DANYOW">Yeah, yeah. Great.</u>
+      <u who="HOTALING">The higher you were rated, the higher your grades, the more likely you would get your choice.</u>
+      <u who="DANYOW">Okay. </u>
+      <u who="HOTALING">A lot of people wanted jet, but not all got it. Some people went into it wanting to do patrol or helicopter. So it depended on how you had done and where you were in the pile, so some people didn’t get what they wanted because they hadn’t done well enough.</u>
+      <u who="DANYOW">Right. And it seemed jet was apparently your preference? You seemed to have scored well enough to—</u>
+      <u who="HOTALING">Jet was what most people would have wanted. I certainly had some friends going through flight training who were married and starting families, and they didn’t want to fly jets because they knew they’d be in combat, more than likely,—</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">—and they wanted patrol or multi-engine, anti-submarine warfare, whatever.</u>
+      <u who="DANYOW">Right, right because there wasn’t a huge need for that type of aircraft in <placeName>Vietnam</placeName>, I’m assuming.</u>
+      <u who="HOTALING">Yeah, but there was a need for it, so they were still training people to do that.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">Some people saw it as a way to train to go with the airlines.</u>
+      <u who="DANYOW">Oh, okay, yeah. That makes sense.</u>
+      <u who="HOTALING">No, no, just, that was just kind of what it evolved into.</u>
+      <u who="DANYOW">Sure.</u>
+      <u who="HOTALING">And the <orgName>Navy</orgName>—<orgName>the Air Force</orgName> would call all these type aircraft “fighters,” where the <orgName>Navy</orgName>, they distinguished between air-to-air and air-to-ground.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">So, like, the [Fairchild Republic] A-10 [Thunderbolt II] in <orgName>the Air Force</orgName>, the Warthog is an attack aircraft; it’s not a fighter aircraft. </u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">The [<orgName>McDonnell Douglas]</orgName> F-4 Phantom [II], which was certainly an important aircraft when I flew, had both an air-to-air and an air-to-ground mission.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">The A-7 was really an attack aircraft. It wasn’t meant to be a fighter. It had some limited fighter capability, but it wasn’t meant to be a fighter.</u>
+      <u who="DANYOW">Right. Okay. That makes sense.</u>
+      <u who="HOTALING">Yeah.</u>
+      <u who="DANYOW">Can you talk a little bit about, you know, some of the flying you did there? I’m assuming that was kind of when you got to know the A-7 a little bit more. I mean, did you enjoy flying it? Did you think it was a good aircraft?</u>
+      <u who="HOTALING">I did. I did. It was a good aircraft, and I basically got checked out so that I could run errands for them. If something needed to be picked up, I would go fly the A-4, the [<persName>Douglas</persName>] TA-4F [<orgName>Skyhawk</orgName>], which was a two-seat A-4, and pick somebody up or deliver somebody, or if they needed a part taken somewhere or something, I could fly and do that. But I just got a lot of experience flying in <placeName>California</placeName> and somewhat around the country, so I got pretty comfortable flying.</u>
+      <u who="DANYOW">Sure. So I guess—do you mind picking up the story kind of again, right after you joined VA-147, you said it was, and kind of talk through kind of the train of events up to deploy and then through the start of your first deployment with the squadron?</u>
+      <u who="HOTALING">Yeah. We had 18 pilots, I think 12 aircraft, a couple hundred enlisted guys who were involved in the maintenance end of it for the most part. We kind of repeated the whole training thing that we’d gone through in previous evolutions but with a little more emphasis on certain things. Obviously very important was weapons delivery, so we spent a lot of time in the weapons delivery.</u>
+      <u who="DANYOW">Right. And what sort of stuff would a squadron legal officer do? I’m not clear exactly, like, what your role would have been in that capacity.</u>
+      <u who="HOTALING">Well, you had to make sure everybody had Wills,—</u>
+      <u who="DANYOW">Oh, yeah, okay.</u>
+      <u who="HOTALING">—make sure everybody had next of kin notification. You had guys that got in some—enlisted guys would get in some hot water, so you would help out with that. You know, it wasn’t a huge thing, and it wasn’t a huge squadron, but you did stuff like that. You would be having what was called captain’s mast, which is what the—see what the squadron could do to bring down punishment on enlisted—on anybody, really, but mostly enlisted guys who got drunk or were caught speeding or stuff like that. You helped enlisted guys with—they were having marital problems or girlfriend problems or got a girl pregnant, things like that.</u>
+      <u who="DANYOW">Sure. Okay.</u>
+      <u who="HOTALING">I can tell you about some of it. I can’t tell you about all of it. It basically was in two phases. There was a sea survival and land survival. And sea survival—you’d been through this before, but you were taught how to survive if you had to eject and land in the water. For instance, your parachute—if there was a breeze blowing, your parachute would fill and drag you through the water, and you had to be taught how to get out of that situation. You’d end up being dragged on your face, and they taught you how to flip over so you’re on your back, and how to get out of your rigging and then how to get your survival equipment going, and then they would pick you up by helicopter, and how to go through all of that. You were taught how to survive on a seacoast, basically trying to catch food, make a shelter, et cetera. And that was part of it. That was the easy part of it. </u>
+      <u who="DANYOW">Jeez.</u>
+      <u who="HOTALING">To show you what it could be like if you were, you know, captured. And I—you went through that. The whole time you were in <orgName>SERE</orgName> training, the weeklong course, you didn’t eat anything, so you lost some weight.</u>
+      <u who="DANYOW">Wow.</u>
+      <u who="HOTALING">Then after <date>a week</date>, it was over. We actually then spoke to some guys who had been POWs in <placeName>Vietnam</placeName>. Were brought in to talk to each class. So you had a pretty good idea of what would happen if you were captured in <placeName>Vietnam</placeName>.</u>
+      <u who="DANYOW">Did that—you know—I don’t know if this is a fair question, but did undergoing that training and talking to people that had undergone that—did it make you, you know, a little more confident because you at least knew what to expect, or did it make you more apprehensive about the possibility of—</u>
+      <u who="HOTALING">I think it made you a little more confident that you kind of would know what was going on, and it also made you very  much not want to be a POW.</u>
+      <u who="DANYOW">Right, I can imagine.</u>
+      <u who="HOTALING">In <placeName>Vietnam</placeName>, safety was being over the water. You couldn’t get shot down over the water, so you wanted to get what was called “feet wet.” That was the term we used. You wanted to be back—“feet dry,” you were over the land, and “feet wet,” you’re over the water.</u>
+      <u who="DANYOW">Sure.</u>
+      <u who="HOTALING">So I think there were probably a fair number of aviators, mostly <orgName>Navy</orgName> but some probably <orgName>Marine</orgName> and <orgName>Air Force</orgName>, who got killed or were killed because they stayed with their aircraft too long, because they did not want to be a POW. </u>
+      <u who="DANYOW">Wow.</u>
+      <u who="HOTALING">Being a POW was not something you would aspire to. We knew quite a bit more than the public knew about what was going on.</u>
+      <u who="DANYOW">I see. I mean, you said they were killed because they stayed with the aircraft too long? Is that, like, a situation where the aircraft—</u>
+      <u who="HOTALING">Yeah, yeah, the aircraft was on fire—</u>
+      <u who="DANYOW">—was on fire or something?</u>
+      <u who="HOTALING">Yeah, it was on fire or exploded or they were going to crash, and they just did not want to be a POW, so they didn’t want to eject over land.</u>
+      <u who="DANYOW">Right. Okay.</u>
+      <u who="HOTALING">I’ll tell you a story in a little while about that, but I’m going to—as we talk, I’m going to walk upstairs and just change my laundry. The load in the washer, I’m going to put in the dryer, so I’m moving around, but I’m still talking.</u>
+      <u who="DANYOW">Not a problem. </u>
+      <u who="DANYOW">So I guess if you want to take up the story from there, just kind of, you know, when you found out when you were going to deploy and what deploying aboard—I think you said to was the [USS] Constellation [CV-64] in the form online?</u>
+      <u who="HOTALING">The Constellation.</u>
+      <u who="DANYOW">Yeah, talking about—</u>
+      <u who="HOTALING">Yeah, a super carrier, and as we were doing the training, evolution to go out, we trained as a squadron, and then we trained as an air wing, and then we trained aboard the ship, so it was sort of steps of getting ready to go overseas,—</u>
+      <u who="DANYOW">Sure.</u>
+      <u who="HOTALING">—go on cruise. And we had—the carrier had about five thousand people on it, five or six thousand people on it. And you had the air wing, and then you had ship’s company, and the ship’s company ran the boat, as we called it, and the air wing flew the aircraft. And we had about, I don’t know, <date>75</date>, 85 aircraft aboard the ship, different squadrons, different detachments. And we did—initially as I said, we initially did squadron training, so we did that from our base on <placeName>Lemoore</placeName>, and then the first time the air wing all got together was at Fallon Naval Air Station in <placeName>Nevada</placeName>, which is a giant weapons training station for the <orgName>Navy</orgName>. And we—all the squadrons came there. All the detachments came up there and worked together for the first time.</u>
+      <u who="DANYOW">Yeah.</u>
+      <u who="HOTALING">So that was the first time the whole air wing operated together as a unit.</u>
+      <u who="DANYOW">Okay.</u>
+      <u who="HOTALING">And we were up there for, I don’t know, <date>two or three weeks</date>, and then we started cycling aboard the ship to go out and qualify, we had to requalify for carrier work. You had to be current for carrier work, so we would do day and night qualifications, and then we went out on various short cruises to get qualified for all the different inspections and things that we had to go through, nuclear and conventional weapons and things like that.</u>
+      <u who="DANYOW">Was there—</u>
+      <u who="HOTALING">So that went on for <date>a number of months</date>.</u>
+      <u who="DANYOW">Okay. </u>
+      <u who="HOTALING">And then we went—and then we deployed.</u>
+      <u who="DANYOW">And when was that that you first deployed, approximately?</u>
+      <u who="HOTALING">Yes, it was probably <date>November</date> of ’71, I think.</u>
+      <u who="DANYOW">Okay.  One thing I’m curious about—</u>
+      <u who="HOTALING">Uh,—</u>
+      <u who="DANYOW">Oh, no, sorry. Go ahead.</u>
+      <u who="HOTALING">No, go ahead.</u>
+      <u who="DANYOW">I was just going to ask—you know, it sounds like most of your time in the <orgName>Navy</orgName> so far—you had been, you know, flying from land bases. Was there any—you know, was there any adjustment for you, you know, adjusting just to shipboard life and being on a ship rather than at, you know, a naval air station?</u>
+      <u who="HOTALING">Yeah. You know, you’re in a confined environment.</u>
+      <u who="DANYOW">Yeah.</u>
+      <u who="HOTALING">The flight deck is a pretty dangerous environment, so you had to be aware of what was going on all the time. We were, you know, going to <placeName>Vietnam</placeName>, so we were having—you know, talking about the various weapons, the intelligence, how things were operating at the time we were heading over. We stopped in <placeName>Hawaii</placeName> for, I don’t know, <date>a few days</date> and did some weapons work there, and then transited <placeName>the Pacific [Ocean</placeName>] to our main support base, which was <orgName>Cubi Point Naval Air Station</orgName>, in the <placeName>Philippines</placeName>.</u>
+      <u who="DANYOW"><persName>Mm-hm</persName>.</u>
+      <u who="HOTALING">And we were there for a while and did some more flying, and then we went into our first combat role from Yankee Station.</u>
+      <u who="DANYOW">Okay, great. I guess if you want to just continue the narrative from there and talk about, you know, what—I don’t know, if you want to talk about your first combat mission or just what it was like to be, you know, there on Yankee Station but—wherever it makes sense to go, to you, in the narrative, from there.</u>
+      <u who="HOTALING"><orgName>Yankee Station</orgName> was—there were two carrier stations. The one that was used the most was Yankee Station, which was the northern station, kind of off of <placeName>North Vietnam</placeName>,—</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">—understanding that the <orgName>DMZ</orgName> [demilitarized zone] divided the country into <placeName>North</placeName> and <placeName>South</placeName>, two separate countries. And we were up on Yankee Station, and the vast majority of our missions were into <placeName>South Vietnam</placeName> or into <placeName>Laos</placeName>, so we would fly south and over—just south of the <placeName>DMZ</placeName> and into <placeName>Laos</placeName> or into various parts of the northern part of <placeName>South Vietnam</placeName>, so those were the vast majority of our initial missions. And we were basically dropping bombs to try to interdict the flow of transport down the <placeName>Hồ Chí Minh</placeName> trail, which was a network of jungle paths and ox cart paths through <placeName>North Vietnam</placeName>, <placeName>Laos</placeName> and into <placeName>South Vietnam</placeName> that transported supplies to the North Vietnamese forces and Viet Cong forces fighting in <placeName>South Vietnam</placeName>. So we would try to interdict traffic on that corridor. And it wasn’t a single path; it was hundreds and hundreds of different paths that they had.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">So we would fly, and we would usually work with a <orgName>FAC</orgName>, a forward air controller, who would fly over the same geography <date>every day</date>, same topography, and he got very familiar with it and would say, “Okay, I think there’s something hidden here.” And most of the transport down the <placeName>Hồ Chí</placeName> Minh trail occurred at night, and then they would hide during the daytime. So he would see things that looked different, would say like, “A bomb over here,” or, “A bomb here,” and then he tried to figure out where they were hiding stuff. And sometimes he got lucky; sometimes he didn’t.</u>
+      <u who="DANYOW">Okay. </u>
+      <u who="HOTALING">—drop bombs that had magnetic or some sort of timer or arming device so it wouldn't go off right away, and that was mostly what we did, most of what we did. </u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING"><persName>Nixon</persName> had run on a platform of getting us out of <placeName>Vietnam</placeName>, and the North Vietnamese, who were winning, essentially, because of a number of things that the <placeName>U.S.</placeName> did or didn’t do— were trying to get the North Vietnamese to negotiate, and they were not negotiating. We negotiated with them, but we argued for <date>months</date> about the shape of the table—</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">—that we should have the negotiations on. And this went on and on and on. And so <persName>Nixon</persName> and <persName>Kissinger</persName> tried to up the pressure a little bit, and we did some missions called <orgName>Blue Trees</orgName>, which were armed reconnaissance into <placeName>North Vietnam</placeName>. At this point [President <persName>Lyndon B.]</persName> <persName>Johnson</persName> had put a restriction on bombing in <placeName>North Vietnam</placeName> that was still holding, and we really weren’t allowed to go into <placeName>North Vietnam</placeName> very much. We did have these <placeName>Blue Tree</placeName> missions, which were—I’m sure the military would describe it differently, but basically we were flying in armed reconnaissance, looking for trouble, so we went up with a whole bunch of airplanes, looking to see if we could stir something up and then try to hit it.</u>
+      <u who="DANYOW">I’ve heard of them.</u>
+      <u who="HOTALING"><orgName>The Air Force</orgName> F-4s had sticks in both cockpits, but the <orgName>Navy</orgName> did not have a stick in the back cockpit. That guy just ran the weapons systems. The F-4 had a long-range missile capability: [AIM-7] Sparrows and things. </u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">So we were flying in armed reconnaissance, and as I recall, they were evading some flak or a missile, and they were upside down and looked down and saw a <orgName>MiG</orgName> at low level, going up a valley, and they went down and shot it down, and that was the first <orgName>MiG</orgName> kill that had happened in <date>several years</date>. And that was a big deal.</u>
+      <u who="DANYOW">Yeah, definitely.</u>
+      <u who="HOTALING">And then, a little while later, they shot down another one in sort of similar circumstances. Meanwhile, <persName>Nixon</persName> and <persName>Kissinger</persName> were trying to get the North Vietnamese to negotiate, and they weren’t. So they sort of kept upping the pressure. And now I got to get my dates right. We were actually the senior carrier as far as experience there, and we were on our way back to <orgName>the U.S.</orgName> The <orgName>Navy</orgName> had a huge problem—the “Navy”!—the military had a huge problem in recruiting and retention because of <name type="event">the Vietnam War</name>. Nobody would join the military. So this was supposed to be the first <date>six-month</date> cruise, where we were in and out, in and back in <date>six months</date> from <placeName>San Diego</placeName>.</u>
+      <u who="DANYOW">Okay. </u>
+      <u who="HOTALING">So we were headed back to honor this <date>six-month</date> thing, and around Easter 1972—yeah, ‘72—the North Vietnamese invaded <placeName>South Vietnam</placeName> with armed tanks and trucks and things going across the <placeName>DMZ</placeName>. This was not a subtle—down the Hồ Chí Minh trail, where they weren’t seen. This was basically in broad daylight.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">And <persName>Nixon</persName> said, “That’s it. You now have the right to do unrestricted air warfare over <placeName>North Vietnam</placeName>.” We were in <placeName>Yokosuka</placeName> [pronounced yo-COO-skuh], <placeName>Japan</placeName>, with all our aircraft preserved, on our way back to <placeName>San Diego</placeName>. We were turned around and sent back.</u>
+      <u who="DANYOW">Oh, wow.</u>
+      <u who="HOTALING">A lot of the enlisted guys—and officers, but a lot of the enlisted guys had saved all their money all cruise to buy a motorcycle, so we had loaded all kinds of motorcycles and TVs and stereos and all kinds of stuff that guys had bought onto the ship, because we’d offloaded all our ammunition. Not all, but most of our ammunition.</u>
+      <u who="DANYOW">Oh, wow.</u>
+      <u who="HOTALING">And we were turned around and sent back, and it had taken, like, <date>four days</date> to get everything onto the ship because they were loading very carefully and had to make sure the motorcycles didn’t have any fuel in them and had CO2 in them and—a whole bunch of steps that they took. That took <date>four days</date>. They were offloaded in about six hours. And because the captain knew that the morale would be horrible, he left a detachment of our people there to guard the warehouse. We got it turned around and sent back. The Naval Safety Center sent a team out to the ship, because they were very concerned about morale, because this was supposed to be the first <date>six-month</date> cruise. And we were back on Yankee Station for <date>about three more months</date>, where we had very sort of restricted missions into <placeName>Laos</placeName> and <placeName>South Vietnam</placeName>. We can now go anywhere we wanted, basically, in <placeName>North Vietnam</placeName>. </u>
+      <u who="DANYOW">Yeah.</u>
+      <u who="HOTALING">And actually, I had done mining of a harbor—I had mined approaches to a harbor in the morning. We were running what were called alpha strikes. Normally, the carrier would run seven launches a day, and our launch cycle was an hour and 45 minutes, so we would launch at seven o’clock; the next launch would be at 8:45, after which we would recover the first launch.</u>
+      <u who="DANYOW">Okay. </u>
+      <u who="HOTALING">And then we’d just cycle that way, an hour-and-45-minute cycles. We’d do seven of those. And there would be day carriers and night carriers. Some people would just be launching at night; some people would just be launching in <date>the day</date>, and you sort of took turns. Well, this was a day cycle, and because of what was going on in <placeName>North Vietnam</placeName> and the mining and the strikes, we were doing more [what were] called alpha strikes, and this meant we didn’t do seven cycles a day; we did two or three big launches, where we’d launch everything we could.</u>
+      <u who="DANYOW">Okay. </u>
+      <u who="HOTALING">They’d go fly, come back, we’d turn them around, launch them again. Those were called alpha strikes. And so we had an alpha strike to do the mining in the morning, and I flew on that, and then we had our F-4s serving as <orgName>BARCAP</orgName>, barrier combat air patrol, because we didn’t want the <orgName>MiGs</orgName> coming out, trying to shoot us down. And that really never happened during the war, but you always had to be cognizant of it. </u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">So they sort of cooked up this deal where they were supposed to be protecting the squadron—protecting the aircraft and the carrier. They sort of snuck off without permission and went and shot down a <orgName>MiG</orgName> as it was lifting off a runway at a <orgName>MiG</orgName> field north of <placeName>Haiphong</placeName>, on the coast, to get a <orgName>MiG</orgName> kill.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">And we then did the alpha strike in the afternoon, and that alpha strike was to a—I think a rail yard between <placeName>Hanoi</placeName> and <placeName>Haiphong</placeName> that they were going to strike.</u>
+      <u who="DANYOW"><persName>Mm-hm</persName>. </u>
+      <u who="HOTALING">The episode in the morning had stirred up the <placeName>hornets</placeName>’ nest, and it turned out that the second strike from our ship in the afternoon turned into the biggest <orgName>MiG</orgName> battle of the whole <name type="event">Vietnam War</name>.</u>
+      <u who="DANYOW">Oh, wow!</u>
+      <u who="HOTALING">Because the North Vietnamese were pissed off. We had, quote, “Russian trawlers,” unquote, who followed us, and they knew everything we did because they were watching us, listening to everything we did, and so they knew, you know, what ships—what aircraft—they probably knew what pilots had been involved in this strike. So in the afternoon, the alpha strike was jumped by a huge number of <orgName>MiGs</orgName>, and it turned out to be the biggest battle of the war. And we lost one F-4 from an opposing—from VF-96, the squadron that had just shot down a <orgName>MiG</orgName> that morning, and then we shot down—actually, VF-92 shot down six <orgName>MiGs</orgName>.</u>
+      <u who="DANYOW">Jeez.</u>
+      <u who="HOTALING">One crew shot down one, one crew shot down two, and <persName>Cunningham</persName> and <persName>Driscoll</persName> shot down three, so that made them aces because they’d already had two, so two plus three, five, so they were the first aces of <name type="event">the Vietnam War</name>. </u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">And they were actually shot down by a missile as they came back out to feet wet and, again, stayed with the aircraft longer than they should have because they didn’t want to be POWs, et cetera, et cetera.</u>
+      <u who="DANYOW">Ah, okay. Wow. That’s amazing.</u>
+      <u who="HOTALING">I was the <orgName>LSO</orgName> on that—on that recovery. The captain put the strike frequency on the ship’s PA [public address] system so the whole crew could hear what was going on. It was a wild, wild afternoon.</u>
+      <u who="DANYOW">I would imagine.</u>
+      <u who="HOTALING">Yeah.</u>
+      <u who="DANYOW">And they were able to eject successfully, right?</u>
+      <u who="HOTALING">They were able to eject, and they were picked up by a—because everybody was out of gas. They were picked up by a helo crew off of a refrigerator ship. Because everyone was out of gas they were picked up by a, a helo picked them up and brought them back to the carrier. And they were heroes.</u>
+      <u who="DANYOW">Wow.</u>
+      <u who="HOTALING">And <date>the next day</date> they were in <placeName>Saigon</placeName>, getting medals, and <date>the next day</date> they were on their way back to the <placeName>States</placeName> because they were—you know, it was a big deal. </u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">And the <orgName>Navy</orgName> was rubbing it into <orgName>the Air Force</orgName>, and—you know, a lot of inter-service rivalry, so it was an exciting time.</u>
+      <u who="DANYOW">Absolutely. Yeah, that’s crazy.</u>
+      <u who="HOTALING">So I—the ship was then going—finally going back to the <placeName>States</placeName>, and one of my good friends in the squadron took <date>a month</date> of leave or <date>three or four weeks</date> of leave and traveled to <placeName>Japan</placeName> before he went back, so we got off—left the ship in <placeName>Japan</placeName> and then spent <date>a month</date> traveling or <date>three weeks</date> traveling in <placeName>Japan</placeName>. At the time, I had a girlfriend who had a brother who was going to college in <placeName>Japan</placeName>, so he helped get us going, and the girlfriend came over. It was a good time, traveling in <placeName>Japan</placeName>.</u>
+      <u who="DANYOW">Awesome.</u>
+      <u who="HOTALING">Then we came back, and I was going to go out on cruise again, so we went through the same training cycle, and we left—I don’t have my dates exactly. We left maybe <date>October, November</date> to go back to <placeName>Vietnam</placeName>. By that point, <persName>Nixon</persName> had wound down the war quite a bit. They didn’t quite have a peace element, but it wound down quite a bit.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">In the first cruise, I got 150 missions; on the second cruise, I got 10 because the war stopped,–</u>
+      <u who="DANYOW">Wow.</u>
+      <u who="HOTALING">—and the air part of it stopped. And then I at that point had decided to get out of the <orgName>Navy</orgName> and try to go to medical school, so that sort of ended my—I got out almost—I got out <date>five years to the day</date> that I’d started, so <date>June 15th or 16th, 1973</date>, I got out—</u>
+      <u who="DANYOW">Okay. </u>
+      <u who="HOTALING">—and came back to the <placeName>States</placeName>.</u>
+      <u who="DANYOW">All right, great.</u>
+      <u who="HOTALING">Well, let me back up a little bit more. Just I’m recalling now that when we left <placeName>San Diego</placeName>, we left <placeName>North Island</placeName> for the first cruise, there were huge antiwar protests, and we came into the ship. There were all these peace protesters outside the gate. They wouldn’t let them on the base, obviously, but outside the gate, protesting. Then when the ship left, there were all these small vessels that were trying to block the carrier from leaving, so <orgName>the Coast Guard</orgName> and <orgName>Navy</orgName>, smaller  ships and tugboats got them out of the way and we were able to leave.</u>
+      <u who="DANYOW">Wow.</u>
+      <u who="HOTALING">So it was—it was a tough time. This was when, you know, you were being spit upon. People would swear at you if you wore your uniform: “Baby killers,” et cetera, et cetera.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">Memorable missions. <date>One day</date> on the first cruise, early on, we were basically dueling with antiaircraft site that they had in—we were in <placeName>South Vietnam</placeName>, but it was a North Vietnamese site. And I didn’t know it, but my aircraft was hit. It was a small puncture in the tail. It didn’t result in any damage. I didn’t even know it had happened.</u>
+      <u who="DANYOW"><persName>Mm-hm</persName>.</u>
+      <u who="HOTALING">Another time, before it heated up, <orgName>the Air Force</orgName> had been doing reconnaissance up the coast of <placeName>Vietnam</placeName>, <placeName>North Vietnam</placeName> and had lost an aircraft, so the guy who was the operations officer and I were sent out to try to look and see if we could hear anything or find anything, so we flew along the coast, and we flew by the town of <placeName>Vinh</placeName>, V-i-n-h, which—you always got shot at every time you went by this place. And we had a whole bunch of SAMs fired at us, surface-to-air missiles.</u>
+      <u who="DANYOW">Yeah?</u>
+      <u who="HOTALING">Probably had, I don’t know—I can’t remember—six, eight, ten missiles fired at us as we went back and forth, trying to locate these guys, whom we never located.</u>
+      <u who="DANYOW">Jeez.</u>
+      <u who="HOTALING">So that was exciting.</u>
+      <u who="DANYOW">And what did you do? Did you dodge them with, you know, evasive maneuvering or was—</u>
+      <u who="HOTALING">Yeah, you—</u>
+      <u who="DANYOW">—like jamming the key?</u>
+      <u who="HOTALING">—you had ways to beat them. I mean, you flew in a section, and the high guy would take the high one, the low guy would take the low one, and you’d just basically outturn them.</u>
+      <u who="DANYOW">Huh.</u>
+      <u who="HOTALING">And you could beat them if they didn’t fire any more right away, so—</u>
+      <u who="DANYOW">So you were able to see them coming from the ground up.</u>
+      <u who="HOTALING">Yeah, if you could see it, you could beat it, yeah, yeah. It looked like a telephone pole with 20 feet of flame coming out the end.</u>
+      <u who="DANYOW">Jeez.</u>
+      <u who="HOTALING">It certainly captured your attention.</u>
+      <u who="DANYOW">Yeah, I would imagine. [Chuckles.] That’s amazing.</u>
+      <u who="HOTALING">Two point three to two point five hours, two point three to two point five hours—</u>
+      <u who="DANYOW">Okay. </u>
+      <u who="HOTALING">—would be average, yeah.</u>
+      <u who="DANYOW">So you weren’t going terribly far in geographic terms, then. I sounds like the carrier was reasonably close to the coast? I don’t know.</u>
+      <u who="HOTALING">No, it wasn’t. You’d fly—well, you couldn’t fly directly to the coast until the second part of the cruise because it was <placeName>North Vietnam</placeName>, so you would have to fly south and then fly west. You might fly three or four hundred miles.</u>
+      <u who="DANYOW">Oh, okay. Well, I guess that’s because you’re just moving faster than I was thinking.</u>
+      <u who="HOTALING">Mmm.</u>
+      <u who="DANYOW">Interesting. Okay.</u>
+      <u who="HOTALING">No, I didn’t. I think there were some up when I was, but I didn’t ever see one, which was just fine with me.</u>
+      <u who="DANYOW">Yeah. [Chuckles.] Well, I know, you know, in this war particularly, that was kind of a rare—it was relatively rare, as you mentioned, that they would even launch them. That’s why it was so notable that that particular mission drew so many of them.</u>
+      <u who="HOTALING">That drew so many because they—[Curtis R.] “Curt” Dosé  and his—the flight of F-4s from the other squadron had stirred up the <placeName>hornets</placeName>’ nest, and so the North Vietnamese came out to play. </u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">And the last guy that <persName>Cunningham</persName> and <persName>Driscoll</persName> shot down they think was the head, the flying head of the North Vietnamese air force.</u>
+      <u who="DANYOW">Okay. Wow. Was that the one—I think I may—believe it or not, I may have actually seen a TV show about that one time, where they got into, like, a huge—they call it, like, a rolling scissors [an aerial maneuver used to position a defending plane behind an attacking one], so that guy almost stalled a couple of times.</u>
+      <u who="HOTALING">Vertical rolling scissors, and neither guy was gaining an advantage, so they were going up—</u>
+      <u who="DANYOW">Yeah.</u>
+      <u who="HOTALING">—and <persName>Cunningham</persName> pulled power, and the other guy went ahead, and then he put power back on and fell in behind him and shot him down.</u>
+      <u who="DANYOW">That’s right. That was a pretty amazing dogfight.</u>
+      <u who="HOTALING">Yep.</u>
+      <u who="DANYOW">One other thing I’m curious about, and I’m not sure if this applies to the era you were flying in, but I know—a common thing I’ve read is that there’s a lot of frustration amongst attack pilots about target selection—you know, what you were allowed to bomb and what you weren’t through the rules of engagement.</u>
+      <u who="HOTALING">Yes.</u>
+      <u who="DANYOW">Did you have any personal experience with that?</u>
+      <u who="HOTALING">Yes. You were not allowed to go after targets unless they were approved. I’ve got to get my—let’s see, <persName>Johnson</persName> resigned in ’67—at any rate, to get a target approved at one point in the war, it had to go up to 1600 Pennsylvania Avenue—</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">—and be approved at <orgName>the White House</orgName>. And by the time it had gone up the chain of command and back down the chain of command, that target was gone. It was now probably a flak trap or they were trying to sucker you in and shoot you down.</u>
+      <u who="DANYOW">Right. And was that—I wouldn’t think that was still the case when you were there with <persName>Nixon</persName>. Were the rules of engagement still—</u>
+      <u who="HOTALING">It was a still a major—it was a major frustration because we couldn’t go into <placeName>North Vietnam</placeName>.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">We had ships from all over the world bringing arms into <placeName>North Vietnam</placeName>, and we couldn’t go after the ships. We couldn’t go after the port.</u>
+      <u who="DANYOW">Oh, wow.</u>
+      <u who="HOTALING">They were shipping missiles and munitions, and we couldn’t touch it, so politically—</u>
+      <u who="DANYOW">The <orgName>Navy</orgName> was—</u>
+      <u who="HOTALING">—the war made no sense.</u>
+      <u who="DANYOW">Right. And the <orgName>Navy</orgName> was aware—the <orgName>Navy</orgName>, like, had information on these ships and, like, knew where they were, coming in and out?</u>
+      <u who="HOTALING">Absolutely, absolutely.</u>
+      <u who="DANYOW">That’s amazing that they weren’t able to—</u>
+      <u who="HOTALING">Absolutely—</u>
+      <u who="DANYOW">—weren’t able to attack them.</u>
+      <u who="HOTALING">We knew all that stuff. Well, this is where the politicians were trying to win the war or run the war, and they were running it, and they need to have political oversight, but if you make a decision to fight, you should let the military fight; you shouldn’t constrain them, and basically it was sending the military, all branches of the military into combat with one arm tied behind their back.</u>
+      <u who="DANYOW">Sure.</u>
+      <u who="HOTALING">And the 55,000—</u>
+      <u who="DANYOW">Sure. That makes sense.</u>
+      <u who="HOTALING">—names on <orgName>the Wall [Vietnam Veterans Memorial]</orgName> in <placeName>Vietnam</placeName> [sic; <placeName>Washington</placeName>, <placeName>D.C.</placeName>] wouldn't be there if—not as many would be there if the military could have done what they wanted to do.</u>
+      <u who="DANYOW">Yeah, that makes sense</u>
+      <u who="HOTALING">Now we get into political oversight and what’s appropriate and what isn’t appropriate.</u>
+      <u who="DANYOW">Yeah. I have some questions about that later. Just first, a couple of other things I'm curious about. Did you—I mean, was it psychologically difficult to be, you know, on Yankee Station for that length of time and flying regularly—you know, regularly flying missions? You said you had 150 in your first tour. That sounds like a lot. Did it kind of wear on you after a while psychologically?</u>
+      <u who="HOTALING">You got tired. You got tired. You’d be on station for, you know, <date>20 days</date>, <date>30 days</date>, <date>40 days</date>, and then you go back into port, so you had breaks. And usually you went to the <placeName>Philippines</placeName>, but sometimes you’d go to <placeName>Singapore</placeName> and sometimes you’d go to <placeName>Hong Kong</placeName>.</u>
+      <u who="DANYOW">And how long would the—you’d have liberty then? And how long would that last?</u>
+      <u who="HOTALING">It might be <date>five days</date>; it might be <date>ten days</date>.</u>
+      <u who="DANYOW">Okay. So you did get some breaks within that <date>six-month</date> period, then.</u>
+      <u who="HOTALING"><persName>Mm-hm</persName>. Yep, yup, yup. <date>Those six months</date> turned into <date>nine months</date>, but yeah.</u>
+      <u who="DANYOW">Right, right. Of course. Did you grapple at all mentally with the fact that you were dropping bombs, you know, presumably at least some of the time on human targets? I mean, was that something you kind of had to reconcile?</u>
+      <u who="HOTALING">I really didn’t. I really didn’t. The people we were trying to interdict were trying to kill Americans.</u>
+      <u who="DANYOW">Yeah, absolutely.</u>
+      <u who="HOTALING">So I didn’t—I didn’t spend a lot of time struggling with the politics of it. Maybe I should have, but I didn’t. I think in some ways I was naïve about how things worked, but that’s the struggle between—you know, with political oversight, how the military can operate.</u>
+      <u who="DANYOW">Sure.</u>
+      <u who="HOTALING">You have to have political sort of oversight or—I’m searching for a word here, but you have to have the politicians be able to sort of tell the military what to do but not to the point of saying, “You can’t go after this target or you could go after that target.”</u>
+      <u who="DANYOW">Right, kind of the defining line between political objectives versus military ones.</u>
+      <u who="HOTALING">Yeah. I think to try to micromanage it the way it was micromanaged was entirely wrong.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">And—</u>
+      <u who="DANYOW">I knew—</u>
+      <u who="HOTALING">And the <placeName>U.S.</placeName> public I think has learned, but at that time they blamed the soldiers, the sailors, the airmen for <name type="event">the Vietnam War</name> when they should have blamed the politicians.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">Now we’ve changed considerably.</u>
+      <u who="DANYOW">Yeah, that’s certainly the case with—</u>
+      <u who="HOTALING">Now we do not—now we support the people that are hurt and wounded or they come back, but that was not the case in <placeName>Vietnam</placeName>.</u>
+      <u who="DANYOW">Right, right.</u>
+      <u who="HOTALING"><persName>Mm-hm</persName>. </u>
+      <u who="DANYOW">—while you were flying in a <orgName>Reserve</orgName> squadron, I believe? Can you kind of talk about that period and, you know, what it was like to be back in the <placeName>U.S.</placeName> as someone who had now fought in <placeName>Vietnam</placeName>?</u>
+      <u who="HOTALING">I got back—I got out in <date>1973</date>, in <date>June</date>, and had taken—I had actually taken some what we would now call post-baccalaureate courses by correspondence on the ship, to start trying to get into medical—to get the prerequisites for medical school. But there were some I couldn’t take, like organic chemistry and inorganic chemistry, so I enrolled at <orgName>USC</orgName> [<orgName>University of Southern California</orgName>]. I lived in—I ended up living in <placeName>South Pasadena</placeName>, a little suburb of <placeName>Los Angeles</placeName>. And I flew in a <orgName>Reserve</orgName> squadron at <orgName>Point Mugu [Naval Air Station</orgName>, <placeName>Port Mugu</placeName>], which is just north of <placeName>Malibu</placeName>, and flew an older model of the A-7 at <orgName>Point Mugu</orgName>. So I supported myself by flying and then took courses at <orgName>UCS</orgName>, two or three courses—two courses at a time, I would take.</u>
+      <u who="DANYOW">Okay. </u>
+      <u who="HOTALING">And then applied to medical school.</u>
+      <u who="DANYOW">Right. And did you experience any—you know, any renewed protests or—I mean, you mentioned, you know, kind of people spitting and the classic, you know, “Baby killer” line. Did you experience any of that at this point in time?</u>
+      <u who="HOTALING">Very little. A little bit, but I’d just shrug it off, you know.</u>
+      <u who="DANYOW">Yeah, sure.</u>
+      <u who="HOTALING">I lived sort of isolated. I spent time, you know, at the Naval Air Station flying, and I spent time studying, so I wasn’t, you know, intermixing a lot with a lot of people.</u>
+      <u who="DANYOW">Sure. That makes sense.</u>
+      <u who="HOTALING">I had a confluence of factors that sort of influenced me. One, I had a girlfriend at the time, who thought it would be a great idea if I went to medical school. Two, we had two flight surgeons on the ship, and these were guys who had, you know, gone to college, been to medical school and done a year of internship and then done flight surgeon school in the <orgName>Navy</orgName>, and I got to hang out—I got to know them. And they sort of seemed to be doing some interesting things with what they wanted to do with their lives. </u>
+      <u who="DANYOW">Sure.</u>
+      <u who="HOTALING">—<date>six months to a year</date>, so I just got interested in trying to become a doctor, to the point where I decided, I have to try it, and if I fail, I fail.</u>
+      <u who="DANYOW">Interesting. So that’s really—you can almost say that your time there in <placeName>Vietnam</placeName> on the carrier was a major influence, it sounds like, in that career choice, based on the conversations with the flight surgeons.</u>
+      <u who="HOTALING">Yeah. I mean, I think that. I think the girlfriend pressure and just thinking about what I wanted to do with the rest of my life. I thoroughly enjoyed my time in the <orgName>Navy</orgName>. Wonderful people, I met. Wonderful people, I worked with. I did things that very few people in the world get to do. Saw all kinds of places, did all kinds of things. But did I want to do it for the rest of my life? I decided no.</u>
+      <u who="DANYOW"><persName>Mm-hm</persName>. This might be a weird question, but this is just something that kind of occurred to me, reading your profile. You know, it sounds like you’ve been a surgeon for a while. Did you find there was any carryover between, you know, the skills needed to be a combat pilot and the skills needed to be a surgeon? I imagine there’s at least some—some relevance in terms of, you know, focus and attention to detail and things like that.</u>
+      <u who="HOTALING">Well, there’s the hand-eye motor coordination.</u>
+      <u who="DANYOW">Sure.</u>
+      <u who="HOTALING">And there’s the ability to work under pressure.</u>
+      <u who="DANYOW">Yeah. I just thought that was kind of an interesting parallel potentially.</u>
+      <u who="HOTALING">Yeah, yeah.</u>
+      <u who="DANYOW">So I guess now—kind of the last section I typically like to move to and discuss is kind of your thoughts—and you were sort of alluding to this already in terms of talking about, you know, politicians and their role in <placeName>Vietnam</placeName>, but, you know, has your perception of, you know, what your service meant or what the larger <name type="event">Vietnam War</name> meant changed with time, you know, looking back on it now?</u>
+      <u who="HOTALING">Say that question again.</u>
+      <u who="DANYOW">Yeah. Has your kind of perception of either, you know, your service specifically or the larger war, itself—has it changed with time?</u>
+      <u who="HOTALING">It’s changed a little bit in that I think we went in with ill-defined goals in <placeName>Vietnam</placeName>.</u>
+      <u who="DANYOW"><persName>Mm-hm</persName>. </u>
+      <u who="HOTALING">You know, there’s a lot of debate that <persName>Johnson</persName>—there really wasn’t a Gulf of Tonkin incident.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">The [USS] Maddox [(DD-731)] really wasn’t fired upon, and the [USS] Turner [Joy] [DD-951)] really weren’t fired upon.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">Or it was confusing. Did it actually happen or not? And that <persName>Johnson</persName> just wanted to—not <persName>Johnson</persName>. It actually started with-=-it started with [President <persName>Dwight D.] Eisenhower</persName>, then [<persName>John F.] Kennedy</persName> and then <persName>Johnson</persName>. Ended up in a huge mess in <placeName>Vietnam</placeName> that sucked up a lot of American blood and a lot of American dollars and tore the country apart. And I’m not sure in retrospect should we have been there.</u>
+      <u who="DANYOW">Did you have—I mean, I’m just trying to think about—</u>
+      <u who="HOTALING">But that’s not my decision to make.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">That’s the political decision that was made.</u>
+      <u who="DANYOW">Did you question, you know, that political decision at the time when you were serving? I mean, obviously you had your orders as an aviator, but did you—</u>
+      <u who="HOTALING">Some—</u>
+      <u who="DANYOW">—you know, just to yourself question that at all?</u>
+      <u who="HOTALING">Somewhat. We all kind of questioned it, somewhat. But we had been ordered to do something, trained to do something. We were doing it.</u>
+      <u who="DANYOW">Right. Of course.</u>
+      <u who="HOTALING">And they were shooting back.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">As I might if somebody invaded my country, I suppose. But, you know,—</u>
+      <u who="DANYOW">Yeah, certainly.</u>
+      <u who="HOTALING">I don’t think we understood the political apparatus well as to how we got into the whole thing.</u>
+      <u who="DANYOW">Right. And that’s certainly something I’ve learned from studying this war is that, you know, a lot of the lessons, I think, from <placeName>Vietnam</placeName> still have yet to be learned.</u>
+      <u who="HOTALING">Absolutely, absolutely. And I don’t know if they’ll ever be learned.</u>
+      <u who="DANYOW">Yeah. </u>
+      <u who="HOTALING">Well, I think the situation should not—I think the ideal situation, from my perspective, would be that the political establishment that we need to go into a war and have a specific objective of what we’re supposed to accomplish and reasons for why we should go into it, and then with oversight, let the military prosecute the war the way they think it should be prosecuted. It is ludicrous or it was ludicrous in <placeName>Vietnam</placeName> to let ships bring supplies into <placeName>North Vietnam</placeName>, let them be offloaded and transported through <placeName>North Vietnam</placeName> and then carried down the Hồ Chí Minh trail to kill <placeName>South Vietnam</placeName> and Americans and Australians and other people that were there. We let that happen.</u>
+      <u who="DANYOW">Yeah.</u>
+      <u who="HOTALING">That’s ludicrous. If it was worth fighting the war, why weren’t we able to go into <placeName>North Vietnam</placeName> and stop it? </u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">When we were bombing in <date>1972</date>, in <date>the spring of 1972</date>,—</u>
+      <u who="DANYOW"><persName>Mm-hm</persName>.</u>
+      <u who="HOTALING">—we came very close—I learned this in retrospect, and I’ll tell you how—very close to having the North Vietnamese capitulate. There was not a bridge running. There was not a train running. There was not a power plant running. They were living almost a cave man existence because of what we had done with air power. </u>
+      <u who="DANYOW">Hmm.</u>
+      <u who="HOTALING">And they were close to being able to—considering capitulating. And then we stopped because politically they said stop, so we stopped. I know that because I’ve done two medical missions to <placeName>Vietnam</placeName> as a surgeon, in <date>1997</date> and <date>1998</date>, and talked to a woman who had excellent English, who had lived through that part and learned that they came very close to capitulating. We didn’t know that. It wasn’t public knowledge, obviously.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">But we could have—by shutting down <placeName>North Vietnam</placeName>, we could have shut down the whole thing. But politicians made the decision that we didn’t want to pay the price.</u>
+      <u who="DANYOW">Interesting.</u>
+      <u who="HOTALING">And I think in retrospect,—</u>
+      <u who="DANYOW">That’s really interesting. I never heard that.</u>
+      <u who="HOTALING">—the price would have been less, would have been less for this country had we gone ahead with that. If they’d let the military do what they needed to do to win the war, we probably would have ended up with a <placeName>Korea</placeName> situation, but we could have gotten out of there with a lot less loss of life and money and—I think it could have been done.</u>
+      <u who="DANYOW">So you’re saying you think a more sustained and less restricted air campaign would have, you know, brought them to capitulate a lot faster than they ended up—</u>
+      <u who="HOTALING">Well, I think we came very close to doing that in <date>the spring of 1972</date>, with the unrestricted air war over <placeName>North Vietnam</placeName>. We came very close to doing that. But that was done only to get the North Vietnamese to negotiate. That was the sole purpose of doing that at that point. It wasn’t to win. It was just to get us out.</u>
+      <u who="DANYOW">Right. I believe <persName>Nixon</persName> later did the similar thing in—was it <date>December</date> of <date>’72</date>, [Operation] Linebacker II?—when he did a similar unrestricted thing for <date>a few days</date> with the [<orgName>Boeing</orgName>] B-52s [Stratofortresses]—I think, again, bring them back to the negotiating table.</u>
+      <u who="HOTALING">Well, I’m not—I was there when that went on, but the B-52 was not a particularly effective weapon as far as being—they bomb from altitude. But he used the military—he used the air power to bring them to negotiate and end the war so he could keep his campaign pledge and get us out.</u>
+      <u who="DANYOW">Right. That actually makes me wonder: Were any of your mission on your second tour part of Linebacker II or were they separate from that and that was just the <orgName>B-52s</orgName>?</u>
+      <u who="HOTALING">I honestly don’t remember, because it happened very quickly. You know, we ended very quickly.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">So I may—</u>
+      <u who="DANYOW">That was a very brief window.</u>
+      <u who="HOTALING">Yeah.</u>
+      <u who="DANYOW">I’m actually really curious now. You mentioned these medical missions that you went on to <placeName>Vietnam</placeName>. I’d love to hear a little bit more about those and about kind of what it was like to go back to a country that you had once flown combat missions over, thinking about going back there—<placeName>what?—25</placeName>, <date>30-ish years later</date> and just kind of what that was like.</u>
+      <u who="HOTALING">Yeah, it was through a friend, who’s also a pediatric <orgName>ENT</orgName> [ear, nose and throat physician], who was in <orgName>the Air Force</orgName> and was a <orgName>FAC</orgName> in <orgName>the Air Force</orgName> and then became a physician after he left <orgName>the Air Force</orgName>. He had been [in <placeName>Vietnam</placeName>] <date>the year before</date>, which was the first time this group had gone, and then I went on the second one with him and then went on the third one. </u>
+      <u who="DANYOW">Right. Did you find any hostility from them based on the fact that you had been, you know, an American aviator bombing <placeName>North Vietnam</placeName>?</u>
+      <u who="HOTALING">When I talked to this one woman in particular, she said, you know, “<date>Twenty-five years ago</date>, <date>30 years ago</date> I would have been very mad at you, but that’s all passed,” and I said, “The same for me.” And we were interacting on a totally different plane. By this point, we were establishing relations with <placeName>North Vietnam</placeName>.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">I actually got to meet the ambassador to <placeName>Vietnam</placeName>, [<persName>Douglas B.]</persName> “<persName>Pete” Peterson</persName>, during my second trip. But it was an incredible experience. I did go into their war museum, their <orgName>national war museum</orgName> [<orgName>Vietnam Military History Museum</orgName>] in <placeName>Hanoi</placeName>, and you go through it and you think it’s all going to be about what we call <name type="event">the Vietnam War</name>, but that’s just one wing, because they’ve been invaded by multiple countries, multiple times.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">So to go see the “Hanoi Hilton” [Hỏa Lò Prison]—Pete Peterson was a <placeName>U.S.</placeName> congressman, but before that he’d been an <orgName>Air Force</orgName> tactical pilot, had been shot down and was a POW in <placeName>Vietnam</placeName>. And we were supposed to have a five-minute sort of pro forma meeting with him, our group, but because of my experience and his—like, my friend’s experience, it ended up being about 45 minutes.</u>
+      <u who="DANYOW">Wow.</u>
+      <u who="HOTALING">He had lost his wife, and I had lost my wife when I met him, so it was—it was a moving experience. This was a guy that had been a POW in <placeName>Vietnam</placeName>, at the <placeName>Hilton</placeName>, and most <placeName>U.S.</placeName> ambassadors travel in their host country in a limousine. He rode a moped around <placeName>Hanoi</placeName>. He was quite a guy. I think he’s died. But he was quite a guy.</u>
+      <u who="DANYOW">Yeah, that name sounds vaguely familiar. I think I’ve heard his name before.</u>
+      <u who="HOTALING">Yeah, the first ambassador to <placeName>Vietnam</placeName> when we reestablished relations in ’96 or ’97. </u>
+      <u who="DANYOW">Okay. Yeah, that sounds right. And was that—sorry, I kind of missed the detail there. Did you go to <orgName>the Hanoi Hilton</orgName> with him and he was able to—</u>
+      <u who="HOTALING">No, no, no, we were out on a jog—my friend and I were out jogging one morning, intentionally to go by the <placeName>Hilton</placeName>. We went to the <orgName>Hilton</orgName> and grabbed a brick that was sort of falling down—and grabbed a brick and brought it back to our hotel, and I have it downstairs here—</u>
+      <u who="DANYOW">Wow.</u>
+      <u who="HOTALING">—from <orgName>the Hanoi Hilton</orgName>. Not a place you wanted to be.</u>
+      <u who="DANYOW">No. I would imagine it would have been kind of eerie to look at that.</u>
+      <u who="HOTALING">It was later in that visit that we went to the <placeName>U.S.</placeName> embassy and that ambassador, <persName>Pete Peterson</persName>.</u>
+      <u who="DANYOW">Okay, gotcha. I wasn’t clear on that. Great. </u>
+      <u who="HOTALING">Well, it makes me patriotic. I’m proud that I served.</u>
+      <u who="DANYOW">Yeah.</u>
+      <u who="HOTALING">I wish the outcome had been different, but I think it was preordained by the constraints put on the military by the government.</u>
+      <u who="DANYOW"><persName>Mm-hm</persName>.</u>
+      <u who="HOTALING">I think that people are naïve if they think we’re not going to have more wars. Again, <orgName>ISIS</orgName> is an example.</u>
+      <u who="DANYOW">Yeah.</u>
+      <u who="HOTALING">Sort of a modern-day Naziism.</u>
+      <u who="DANYOW">Yeah.</u>
+      <u who="HOTALING">I think that this country needs a strong military. We need to have civilian oversight of it, but we need to have a strong military. I’m distressed right now at what the current administration has not done or is doing as far as our place in the world. I’m engaged in—my fiancée says, “I’m so glad I was born in <placeName>America</placeName> and I’m a woman in <placeName>America</placeName>. I would not want to be a woman in other places in the world, specifically <placeName>the Middle East</placeName>.”</u>
+      <u who="DANYOW">Yeah, I can certainly understand that sentiment.</u>
+      <u who="HOTALING">Yeah.</u>
+      <u who="DANYOW">Yeah.</u>
+      <u who="HOTALING">So I think certainly in my lifetime it’s never going to get solved. We’re going to have stresses in the world. We’re going to need to respond. </u>
+      <u who="DANYOW">Yeah.</u>
+      <u who="HOTALING">So I am—I don’t want to say pro-military, but I think we have to be forthright in getting our views across, and sometimes you’re going to be wrong.</u>
+      <u who="DANYOW">So you’d like to see—</u>
+      <u who="HOTALING">Sometimes you’re going to be right.</u>
+      <u who="DANYOW">Right. So you’re saying essentially that you’d like to see, you know, more budgetary support for the military and a more, I guess, ac- —I don’t know if “activist” is the right word, but a more—an <placeName>America</placeName> that’s more involved overseas in maintaining, you know, kind of stability and order.</u>
+      <u who="HOTALING">Yeah, yeah, yeah, because I think in the absence of somebody like <placeName>America</placeName> involved, things don’t come out well, and that’s what’s in many ways happening right now. I think that—I think that—you know, I think we should have <orgName>ROTC</orgName> on the campus. I think we need to have, you know, liberal arts-educated graduates in the military, not just people that come out of the military academies.</u>
+      <u who="DANYOW">Could you elaborate a little more on why that is?</u>
+      <u who="HOTALING">Well, the military was—the ROTCs were kicked off the campus by the college, as they were at many, many campuses. I think that was a mistake. I think we need to have that influence in the military. We need to have people in the officer corps who are trained in the liberal arts to bring a different perspective to the officer corps.</u>
+      <u who="DANYOW">Sure.</u>
+      <u who="HOTALING">And I think it’s a mistake not to have that. I think it’s also a mistake not to provide the support that the military provides for kids to get through college, because God knows, it’s expensive.</u>
+      <u who="DANYOW">Yeah, it certainly is. [Chuckles.] No question about that.</u>
+      <u who="HOTALING">Now some people go to [ROTC training at] Norwich [University], right?</u>
+      <u who="DANYOW">Yeah. So there’s—<orgName>Dartmouth</orgName> has, I would say what you could consider a limited <placeName>ROTC</placeName> presence right now.</u>
+      <u who="HOTALING">Good.</u>
+      <u who="DANYOW">It’s <orgName>Army</orgName> only. The <orgName>Navy</orgName> has never come back since being kicked off.</u>
+      <u who="HOTALING">No, no, no.</u>
+      <u who="DANYOW">But it’s pretty much—you know, I’m not a part of it, but I believe they have their own on-campus facilities. I think they also do some exercises and stuff with the <orgName>Norwich</orgName> cadets because that’s relatively nearby.</u>
+      <u who="HOTALING">Yeah, yeah.</u>
+      <u who="DANYOW">But’s certainly not a big presence like it was.</u>
+      <u who="HOTALING">Did you know historically that the <orgName>Navy</orgName> helped <orgName>Dartmouth</orgName> survive <name type="event">World War II</name>?</u>
+      <u who="DANYOW">Yeah. Actually, my grandfather was a—</u>
+      <u who="HOTALING">A V-6 or V-12 student at <orgName>Dartmouth</orgName>.</u>
+      <u who="DANYOW">Yeah, my grandfather was Class of <date>1946</date> here. It was exactly V-12. He didn’t actually fight in <name type="event">World War II</name>; he was a little bit too young, but he was here in the <orgName>Navy</orgName>’s program during the war. So it’s always—</u>
+      <u who="HOTALING">And that allowed <orgName>Dartmouth</orgName> to continue operation.</u>
+      <u who="DANYOW">Right.</u>
+      <u who="HOTALING">Because it would have gone down the tubes.</u>
+      <u who="DANYOW">Then the school, of course, turns around and kicks them out <date>30 years later</date>.</u>
+      <u who="HOTALING">Well, you know, times change. Times change.</u>
+      <u who="DANYOW">Yeah.</u>
+      <u who="HOTALING">I think in some way they’re changing back now, but we’ll see.</u>
+      <u who="DANYOW">Yeah. I think—I’m not sure exactly what ROTC enrollment numbers are like, but there’s certainly no hostility towards—you know, towards students in uniform on campus. There aren’t very many of them, but—</u>
+      <u who="HOTALING"><persName>Mm-hm</persName>, <persName>mm-hm</persName>. </u>
+      <u who="DANYOW">All right. Well, Dr. <persName>Hotaling</persName>, thanks so much for your time <date>today</date>. I really appreciate your military service and your willingness to talk about your experiences for the project, so it’s been a pleasure.</u>
+      <u who="HOTALING">If you come up with other stuff, give me a call back.</u>
+    </body>
+  </text>
+</TEI>

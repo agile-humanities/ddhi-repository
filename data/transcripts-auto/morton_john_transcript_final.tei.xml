@@ -1,0 +1,462 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="MORTON"/>
+        <person xml:id="GEISMAR"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="GEISMAR"><date>Today is Tuesday, August 11th</date>. My name is <persName>Bradley</persName> [R.] Geismar, and I’m here in <persName>Rauner</persName> [<orgName>Special Collections] Library</orgName> on <orgName>Dartmouth College</orgName> campus in <placeName>Hanover</placeName>, <placeName>New Hampshire</placeName>. And <date>today</date> I’ll be interviewing Mr. <persName>John [M.] Morton</persName>.</u>
+      <u who="MORTON">Hi.</u>
+      <u who="GEISMAR">And thank you so much for coming out here to talk to me <date>today</date>. So to start off the interview, I was wondering if you could give us or give me a little bit of background information on your biography. We’ll start with where were you born and when?</u>
+      <u who="MORTON">Sure. I was born probably a little more than an hour south of here in <placeName>Keene</placeName>, <placeName>New Hampshire</placeName>. I grew up in <placeName>Walpole</placeName>, <placeName>New Hampshire</placeName>. From a fairly early age—I had the good fortune of living on the top of a hill that was kind of surrounded by cow pastures, and early on, I discovered I really enjoyed the outdoors and specifically skiing. But unfortunately, the little local school that I went to in <orgName>Walpole</orgName> had at the time two sports. They had basketball in <date>the winter</date> and baseball in <date>the spring</date>. And through junior high school I was really terrible at both of those. </u>
+      <u who="GEISMAR">If you don’t mind me asking—</u>
+      <u who="MORTON">Not a bit.</u>
+      <u who="GEISMAR">That’s fantastic. You were mentioning earlier that coming to <orgName>Dartmouth</orgName> kind of presented an opportunity to—I guess to be seen by <orgName>New York Times</orgName> reporters or to maybe interact with people who would be telling the story about the ski events.</u>
+      <u who="MORTON">Yeah, yeah.</u>
+      <u who="GEISMAR">If you don’t mind me asking, was that—when you were in <placeName>Middlebury</placeName>, was skiing something that you were hoping to maybe to take beyond college? Was there kind of a drive of seeing those reporters and kind of getting your name—getting your name out there as a skier?</u>
+      <u who="MORTON">Well, it wasn’t so much—to be honest, skiing, even at a place like <orgName>Dartmouth</orgName>, and <placeName>Middlebury</placeName>, did not have let’s say the cache of football or basketball or ice hockey, but at <placeName>Middlebury</placeName> and <orgName>Dartmouth</orgName> it was clearly more highly regarded than in many other colleges or universities, at least at the time. </u>
+      <u who="GEISMAR">Certainly.</u>
+      <u who="MORTON">So anyway, at the time, <date>my sophomore year</date> at <placeName>Middlebury</placeName>, I decided to stay in <placeName>ROTC</placeName>. About the same time, just by total coincidence, the <placeName>Middlebury</placeName> team was competing in one of the first races of the season up in <placeName>Lyndonville</placeName>, <placeName>Vermont</placeName>, and there were all these athletes there with “<placeName>USA</placeName>” on their warm-ups, but I didn’t recognize any of them. I didn’t know who they were. And I had skied enough by that point, so I knew everybody on the <placeName>U.S.</placeName> cross-country team, and so at first I almost said, Well, who are these imposters with “<placeName>USA</placeName>” on their jackets? Because they weren’t the cross-country skiers. I knew that. Well, it turned out that they were the biathlon team, and I hadn’t—I didn’t know anything about biathlon.</u>
+      <u who="GEISMAR">So you skied—I’m trying to think—in downhill and cross-country at <orgName>Tilton</orgName>. Were there any other ski events that you competed in besides—not biathlon.</u>
+      <u who="MORTON">In <date>those days</date>, it was pretty much understood in team skiing that you had to at least be willing to try all—what they referred to as all four events.</u>
+      <u who="GEISMAR">Right, and those events were—sorry.</u>
+      <u who="MORTON">And that would be downhill, slalom, jumping and cross-country. And through <date>the years</date>, there’d been a couple of changes in—oh, back sometime in <date>the ’60s</date> there were a couple of tragic accidents involving downhill skiers, and the <orgName>NCAA</orgName> [<orgName>National Collegiate Athletic Association</orgName>] decided to eliminate downhill and put in its place giant slalom, which they figured would be safer. And that probably was justifiable.</u>
+      <u who="GEISMAR">Oh, boy!</u>
+      <u who="MORTON">And I would say, “Okay.” It would be a stretch to say, call what I did jumping. But I did have <date>a couple of memorable days</date> on the old <orgName>Dartmouth</orgName> jump, which were very uninspired, but I survived.</u>
+      <u who="GEISMAR">[Chuckles.] Always the goal.</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">Always the goal. And out of the four events that you competed in, did cross-county happen to be your favorite as well as one that you excelled at, or did you have one that you enjoyed more but maybe cross-country was something you were better at so you went along with that?</u>
+      <u who="MORTON">You know, the answer to that I think is that the other events, at least at the let’s say moderate to reasonably skilled level, really do require skill. I used to think, when I first got started, that I would probably be able to do downhill and jumping because I think most of them just evolved, you know, the guts to do it: go fast and try not to fall. But I eventually learned that all of those require skill. Slalom, a lot of skill.</u>
+      <u who="GEISMAR">And you had some success, too,—</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">—at <placeName>Middlebury</placeName>, certainly, and I’m guessing at <persName>Tilton</persName>?</u>
+      <u who="MORTON">Yeah, yeah.</u>
+      <u who="GEISMAR">Can you walk me through a little bit of what your career skiing and being a student at <orgName>Tilton</orgName> was like and some of your later success at <placeName>Middlebury</placeName>?</u>
+      <u who="MORTON">Yeah. Well, it was almost comical because, as I mentioned, just being aware of <placeName>Penny Pitou</placeName> coming from <placeName>Laconia</placeName>—which she ended up marrying the Austrian who was the downhill champion at <placeName>Squaw Valley</placeName> in <date>1960</date>. His name was <persName>Egon Zimmerman</persName> [I], and <persName>Tilton</persName> hired him as a part-time coach. He’d come over <date>a couple of days</date> a week. And he was, in many ways, a typical Austrian. You know, didn’t have what I would describe as a great sense of humor but was very well organized and very—he would tell you exactly what he thought. You know, “You ski like shit.”</u>
+      <u who="GEISMAR">[Chuckles.]</u>
+      <u who="MORTON">And that would be his coaching comment for <date>the day</date>.</u>
+      <u who="GEISMAR">[Chuckles.]</u>
+      <u who="MORTON">But we all learned a lot from him. And I had a couple of opportunities where—in <date>those days</date>, I was still primarily focused on Alpine skiing, but we had <orgName>the Eastern Prep School Championships</orgName> at <placeName>Middlebury</placeName> <date>one year</date>, and the guy that—I was still an underclassman. One of our better skiers hurt his ankle in the slalom, and so the coach said, “Who’s got size nine and a half feet?” And I happened to have that size, so he said, “You’re running cross-country in <persName>Becker</persName>’s place.” And I turned out—it turned out okay. You know, I did well, and I thought, Ah, well, this wasn’t so bad. And I saw that maybe I might even have more success in cross-country than I would in <orgName>Alpine</orgName>. </u>
+      <u who="GEISMAR">Right. And that certainly wasn’t your plan.</u>
+      <u who="MORTON">No, no. And so, boy, I was definitely a fish out of water. I tried very hard to fit in and not to stand out, but it was a challenge because just sort of psychologically we were coming from just totally different places.</u>
+      <u who="GEISMAR">Pard’ me, but do you think that your education at <placeName>Middlebury</placeName> and kind of your background at a liberal arts college—do you think that that helped you went you went on to <orgName>ROTC</orgName> officer training? Or do you think was that perhaps a benefit in any way, or was it just kind of a different outlook?</u>
+      <u who="MORTON">You know, I think it was a benefit from the standpoint that what I was learning, both in the classroom and in all of the tactical exercises that we did—it was all new to me, and so it was interesting. And it was exciting. I mean, still one of the I suppose most exciting or intense memories I have of any of the military training I had. They would put us in small groups, and then they would just arbitrarily say, “Okay, <persName>Cadet Morton</persName>, you are in charge.” Or at that point, I had been commissioned, so I would have been a lieutenant. “Lt. <persName>Morton</persName>, you’re in charge. This is your squad. The objective is that hill over there. But be advised, there have been enemy tanks spotted in the area.”</u>
+      <u who="GEISMAR">It kind of grabbed your attention.</u>
+      <u who="MORTON">Absolutely, yeah.</u>
+      <u who="GEISMAR">And you were mentioning earlier that there was kind of a divide between where you were coming from, I guess with your backward, than where the other officers were coming from. Was there ever an issue, or did that kind of lead to difficulty interacting with other officers when you led a mission, for example? Did you notice any difference, then, when one of them may have been leading a mission, or was it pretty much the same?</u>
+      <u who="MORTON">You know, in that sense, when we were actually involved in the classes and the exercises, I didn’t notice anything, and I think partly it was because I was really paying attention and trying. They were—by and large, it was old hat to all of them. I mean, they probably knew what was going to happen in that exercise because that exercise is probably duplicated on <orgName>Army</orgName> posts all across the country. </u>
+      <u who="GEISMAR">[Chuckles.]</u>
+      <u who="MORTON">And I looked at him and said, “You’ve gotta be shittin’ me.” And he said, “No, not only am I not shitting you, but if you don’t move it before tonight, we’ll move it, and you probably won’t find it again.”</u>
+      <u who="GEISMAR">So a little bit of tension there.</u>
+      <u who="MORTON">So I moved it.</u>
+      <u who="GEISMAR">Right.</u>
+      <u who="MORTON">And I thought, Okay, so this is typical of West Pointers. And that’s not fair to say because they are not all like that, and I’ve had encounters since then with some remarkable, you know, soldiers, warriors, you know, who were [voice cracks with emotion] tremendous people. But they have more than their share of assholes, too.</u>
+      <u who="GEISMAR">Certainly.</u>
+      <u who="MORTON">Yeah. So anyway, that was Fort Benning. I got through infantry officers’ basic. We had a big assembly, and they said, “Congratulations, you are all going—you all <placeName>have”—I</placeName> think—“weekend leave. Then you’re all going to Ranger school, and then you’re all going to Airborne school, and then you’re all going to <placeName>Fort Polk</placeName>, <placeName>Louisiana</placeName>, for <date>six months</date>, and then <placeName>Vietnam</placeName>.” And they all thought it was great. They were all saying, you know, “<persName>Hoo-rah</persName>!” </u>
+      <u who="GEISMAR">Whew! That’s—</u>
+      <u who="MORTON">So I think I arrived in <placeName>Alaska</placeName> on <date>November 5th in 1968</date>. Everything went great for <date>two years</date>. I made the biathlon team, traveled all around <placeName>Europe</placeName> every winter, competed at <name type="event">the world championships</name> and the military championships, and trained throughout <date>the spring, summer</date> and fall. I got back from my second European trip in <date>the spring of 1970</date>, and I just went in to check in at the office, <orgName>the biathlon team office</orgName>, and the office sergeant said, “Oh, sir, your orders have come in.” And I said, “Orders? What orders?” He said, “Well, your orders for <placeName>Vietnam</placeName>.”</u>
+      <u who="GEISMAR">You’d be my first, yeah.</u>
+      <u who="MORTON">No. Okay. Well, I can almost guarantee you this: Every single vet that you interview is going to give you the same impression of arriving in <placeName>Vietnam</placeName>. And they open the—this was a memorable—it was a charter flight. There were so many guys going over that they couldn’t fly them all on military aircraft, so they would charter airlines. I forgot which airline, but I know it was a Stretch DC-8 [Douglas DC-8 Stretch]. I think they said they had something like 237—it was before they [<orgName>Boeing</orgName>] 747s.</u>
+      <u who="GEISMAR">Mmm. <persName>Mm-hm</persName>, <persName>mm-hm</persName>. </u>
+      <u who="MORTON">So it was just a, you know, regular one. I think they said 237 seats, all—this particular flight I think was all officers and senior noncommissioned officers. Many of them were going back for their second tours. And, you know, it was all—I got on in <placeName>Anchorage</placeName>, and we may have stopped in <placeName>Japan</placeName> to refuel, and we’re approaching <placeName>Vietnam</placeName>, and one of the things, memories you have is that—you know, conventional civilian air travel now—they’re very, you know, careful and deliberate in the takeoffs and landings, and depending on where you’re landing, you may have sort of a ten-minute, very gradual approach, right?</u>
+      <u who="GEISMAR">Great news, yeah.</u>
+      <u who="MORTON">“That’s interesting, yeah.” Then they level off and land. It’s just a flare-out and you’re on the ground, taxiing briefly, and then, since this was just a charter flight through a conventional commercial airline, all of these flight attendants are just sobbing their eyes out. You know, I remember seeing the mascara streaming down their cheeks, and they’re just crying their eyes out. And the pilot comes on the intercom, and he says, “You guys take care of yourselves.” [Voice cracks with emotion.] I’m sorry.</u>
+      <u who="GEISMAR">No problem at all.</u>
+      <u who="MORTON">[His voice is still quavering.] “We’ll be back in <date>365 days</date> to bring you home.” And then these flight attendants are all, you know, hugging everybody. [His voice recovers.] You step out of the plane, and it’s not the, you know, like the tunnels they have now. It’s just onto a stairs that they roll up to the thing. And it was just like walking into an oven. It was almost—it was tactile, it was so hot. It was like—and the first thing you do is, like, [sharp intake of breath] because you just can’t believe how hot and humid it is. Of course, it was compounded by the fact that the airplane was air conditioned and you’d been on it for 12 hours or something.</u>
+      <u who="GEISMAR">Oh, my gosh. Well, so you’ve gone from kind of—from doing biathlons—</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">—and being—I’m going guess, and I’m going to ask: Would you say that your time in <placeName>Alaska</placeName> was maybe a time outside of, almost outside of being in the military, or was that still very much involved in the military? We can go to that, but—</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">And then you’re going from kind of that experience to this, you know, one heck of a welcome—</u>
+      <u who="MORTON">Right. </u>
+      <u who="GEISMAR">—in the country. Do you mind going back and talking a little bit—would you say that your time—or can you describe your time—</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">—in <placeName>Alaska</placeName> beforehand, and was that a very different military experience than day one?</u>
+      <u who="MORTON">It was clearly very different from arriving in <placeName>Vietnam</placeName>.</u>
+      <u who="GEISMAR">Certainly. [Chuckles.]</u>
+      <u who="MORTON"><placeName>Alaska</placeName> was a little bit odd in that we were in a military unit, but it was a military unit that at the time, in that context, was not especially highly regarded because a lot of the, you know, the conventional military people at Fort Richardson, certainly all of the commanding officers—they felt that the main mission at that time was <placeName>Vietnam</placeName>, and anything that was a diversion from that or—and they oftentimes regarded us as, you know, these are just jocks who are trying to get to out of their real duty, which is fighting in <placeName>Vietnam</placeName>.</u>
+      <u who="GEISMAR">So the time that you spent in <placeName>Alaska</placeName> was more devoted, I guess, to training for competitions.</u>
+      <u who="MORTON">Absolutely. You bet.</u>
+      <u who="GEISMAR">Were you doing much training that would, I guess, keep you—kind of keep you up to—not up to scratch but keep you I guess in the military mindset, in the military mode—</u>
+      <u who="MORTON">No.</u>
+      <u who="GEISMAR">—or was it more just for the competition?</u>
+      <u who="MORTON">The main focus and function was training for the <name type="event">Olympics</name> and military championships and the world championships, in biathlon. And it was almost comical because every so often we were required to do these sort of, I don’t know, readiness tests, I guess. One of them, they had—in <placeName>Alaska</placeName> they had a <date>winter</date> warfare readiness test, where everybody—all the units were supposed to go out and spend <date>three days</date> and <date>two nights</date> out in the wilderness, away from—<date>you’re</date> basically in tents. They had what they called <orgName>Yukon</orgName> stoves. And for most of the soldiers and for all of the office personnel, that was—they dreaded that. They found every way they could to get out of it. They were all on sick leave, and they took leave during that so they weren’t available, but for us it was kind of  a lark. It was almost kind of fun because it was <date>three days</date> where we weren’t training with the intensity that we normally do. </u>
+      <u who="GEISMAR">So do you think your time working with the team, working with the team in <placeName>Alaska</placeName>—did that translate at all to I guess to commanding a platoon or commanding a group of troops? Were you ever in a leadership position when you were training in <placeName>Alaska</placeName>?</u>
+      <u who="MORTON">Not so much. I mean, sort of the understanding at the Biathlon Training Center was that we were all competitors, and there were times when we had sort of more official military functions, where we’d get into our regular military uniform, with our rank and so forth, and, you know, we knew that some of the guys were specialists, and some of them were sergeants, some of them were lieutenants; we had one or two captains. But on a day-to-<date>day</date> basis, we were all in our blue training uniforms that had no rank or insignia on it.</u>
+      <u who="GEISMAR">Getting to, I suppose, interact with people kind of regardless of rank and insignia. Was it a different dynamic of interacting than you’d expect from—I guess from a more conventional—</u>
+      <u who="MORTON">Yes, definitely.</u>
+      <u who="GEISMAR">And that helped you when you were in country?</u>
+      <u who="MORTON">Yeah, yeah, I think so, although there was a little bit of an adjustment, not so much for me but when I finally was assigned the other members of my MAT team—a <orgName>Mobile Advisory Team</orgName> in <date>those days</date> was comprised of a team leader, who’s usually a captain or a lieutenant; an assistant team leader, who was a lieutenant; and three noncommissioned officers. Theoretically there was supposed to be a small weapons specialist, a heavy weapons specialist (that would be mortars rather than, you know, small arms) and a medic. </u>
+      <u who="GEISMAR">Mmm.</u>
+      <u who="MORTON">And, you know, the smart ones paid attention to their NCOs, and if you were lucky, you had good NCOs; if you weren’t, you were in trouble.</u>
+      <u who="GEISMAR">Well, it certainly sounds like it was a very delicate or tenuous—</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">—position for you to be in.</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">And did you find—was that—how did you react to that? How did you deal with that? You said you would take advice from your officers kind of as seemed appropriate? Was that difficult for you? Was that something you kind of picked up on quickly?</u>
+      <u who="MORTON">You know, I tried—I guess—I guess the best way I can describe it is I was fully aware of what I didn’t know, and I was also aware that there were—especially these three NCOs or sergeants that were on my team, that were on their second tour in <placeName>Vietnam</placeName>, so they had a lot of first-hand experience that I didn’t have. </u>
+      <u who="GEISMAR">And you had the flexibility to—</u>
+      <u who="MORTON">Not always.</u>
+      <u who="GEISMAR">In some cases? Gotcha.</u>
+      <u who="MORTON">Not always. Sometimes—you know, some of these operations would involve trying to arrange transportation. You know, it wasn’t so much in our case because we were one of those village self-development MAT teams. We had a <orgName>Boston Whaler</orgName> with a 40-horsepower <orgName>Johnson</orgName> motor, and we could get the whole team in the <orgName>Whaler</orgName>, and that’s how we got around in the [Mekong] <placeName>Delta</placeName> and up and down the canals. </u>
+      <u who="GEISMAR">Which I’m sure was difficult for you to respond to.</u>
+      <u who="MORTON">It was, especially when—you know, in some cases—there were a couple of incidences where we would work hard to try to get somebody to run for office, you know, and say, “We need—this village must have, you know, a village chief, somebody who is responsible.” And so everybody—they’re all dodging and trying to be evasive, be polite and everything. And, you know, eventually you get somebody who agrees to run for the position of village chief. And you got through all the motions of having a democratic election, complete with ballot box and everything, and you have an open counting of the ballots, and everything looks great.</u>
+      <u who="GEISMAR">And so when you were in an area and something like that would happen, would you stay with that village and would you kind of go through the process again, or would you be moving around?</u>
+      <u who="MORTON">At that time, this pacification program, which was the—I think, from what I understand—I didn’t understand all this at the time, but I read a couple of books afterwards that helped explain it to me. This was the vision of a guy named <persName>John Paul Vann</persName>, and he was a legendary character over there toward the end of the war. He had been a colonel, I think got out of the <orgName>Army</orgName>, went back as a civilian, and ultimately got quite a lot of power as a civilian consultant. He was committed to this pacification program and believed that if we could follow this to its logical conclusion, we could actually win the hearts and minds and create in <placeName>South Vietnam</placeName> enough resistance to communism so that they could have a legitimate democratically-elected government. But he died in a helicopter crash. He was such a force that a lot of his ideas and plans them came unraveled.</u>
+      <u who="GEISMAR">Not that far off the mark. Did you guys on the ground face any issues while you were in the village, or was it mainly just the helicopters coming in and out that were—</u>
+      <u who="MORTON">You know, it was—it was really interesting. I mean, some of these things are almost bizarre, but one of the things—again, we’re sort of in this—not in a combat role; we’re in this sort of village self-development role, so one of the first things I do is we take the interpreter and a couple of—you never go anyplace alone. You know, you try to bring a couple of people with you. You leave somebody at the radio, so if you get in trouble you can, you know, call for help. </u>
+      <u who="GEISMAR">Excellent. Do you mind if I read the name of the book here?</u>
+      <u who="MORTON">Not a bit, not a bit.</u>
+      <u who="GEISMAR">Fantastic. The book is A Journey on the Mother of Waters: Mekong [sic; <persName>Mekong</persName>: A Journey on <placeName>the Mother of Waters</placeName>]. <persName>ME-kong</persName>, is it pronounced?</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">It’s by <persName>Michael</persName> [<persName>S.] Yamashita</persName>.</u>
+      <u who="MORTON">So I just spotted this in the bookstore, but that’s <persName>Phung Hiep</persName>, and that’s—it’s a small city, I guess you’d say, in the heart of the delta. I’ve got a map here. I can show you here, too. It’s not a great map, but—so this is <placeName>Saigon</placeName>, which is now, of course, <placeName>Ho Chi Minh City</placeName>. This is Can Tho, which is the major city in the delta. And as you can see, all of this is regarded as <placeName>the Mekong Delta</placeName>.</u>
+      <u who="GEISMAR">Right.</u>
+      <u who="MORTON">It’s all flat. It’s all canals, a lot of jungle, and, you know, your feet are always wet.</u>
+      <u who="GEISMAR">Right.</u>
+      <u who="MORTON">So Can <orgName>Tho</orgName> is the main city in the delta, and then—this little city here, <persName>Phong Hiep</persName>, is too small to show up on this map, but it’s about down in here. And then <persName>Tan Phuoc Hung</persName> was a little tiny hamlet that I first was assigned to. It’s somewhere out in the sort of no-man’s-land out in here.</u>
+      <u who="GEISMAR">So this is south of <placeName>Long Mỹ</placeName>,—</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">—which is south of Can Tho and south of <placeName>Saigon</placeName>.</u>
+      <u who="MORTON">That’s correct. That’s correct.</u>
+      <u who="GEISMAR">Excellent.</u>
+      <u who="MORTON">And the only real activity in here is that at that time, the North Vietnamese had become very effective. You’ve heard them talk about the <placeName>Hồ Chí Minh</placeName> trail.</u>
+      <u who="GEISMAR"><persName>Mm-hm</persName>.</u>
+      <u who="MORTON">And the Hồ Chí Minh trail went down the western border of <placeName>Vietnam</placeName> and <placeName>Laos</placeName> and <placeName>Cambodia</placeName>, and even when I was there, they would go all the way down into what they called <orgName>the U Minh Forest</orgName>, which was on the far western side of the delta. And then they would infiltrate back—they could, with relative impunity, just get all this material, men, troops, ammunition, rice, of course, which is what they ate, and they would carry it on bicycles. They’d have bicycles with bamboo poles, and they could carry as much rice or artillery ammunition on a bicycle as we could carry in a pickup truck. One guy with a bamboo pole strapped to the handlebars and the bicycle just stacked with bags of rice or artillery rounds.</u>
+      <u who="GEISMAR">Right.</u>
+      <u who="MORTON">You may have read about the Tet Offensive, and that was their attempt to really, you know, first of all, shock everybody and initially was an effort to take over and say, “Okay, this is it. We’re gonna make our—” And one of the things that just dramatically surprised both the Americans and the South Vietnamese forces was how many North Vietnamese had infiltrated throughout <placeName>South Vietnam</placeName>. They did it like that.</u>
+      <u who="GEISMAR">And was that information something that you ever felt you could act on?  </u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">Would you try to send that—</u>
+      <u who="MORTON">Yes.</u>
+      <u who="GEISMAR">—I guess to a headquarters?</u>
+      <u who="MORTON">Yes.</u>
+      <u who="GEISMAR">And do you think it was acted upon?</u>
+      <u who="MORTON">No.</u>
+      <u who="GEISMAR">No? [Chuckles.]</u>
+      <u who="MORTON">No. And I learned, again—one of the books that I read that helped explain a lot to me was A Bright Shining Lie[: <persName>John Paul Van</persName> and <placeName>America</placeName> in <placeName>Vietnam</placeName>]. I think it’s by [<persName>Cornelius M.] “Neil” Sheehan</persName>. But it’s a lot about the pacification program. And one of the things—we happened to be in this little village. I later got reassigned back to <persName>Tan Phuoc Hung</persName> after a time in <persName>Phong Hiep</persName>. And during the second time in <persName>Tan Phuoc Hung</persName>, we did have one of these <orgName>NVA</orgName> units walk right up the side of the canal. Basically must have gone right past us in <date>the middle of the night</date>. </u>
+      <u who="GEISMAR">Right.</u>
+      <u who="MORTON">And they would do—one of the things that was sort of a little bit I would say anxiety creating is for much of the time, we were down in this village, <persName>Tan Phuoc Hung</persName>. We were about 10 kilometers away from <persName>Phung Hiep</persName>, the district headquarters. And they had two 155 [mm] Howitzers there. These are big guns. And every night for half an hour or so, since we were in a relatively dicey area, they would shoot what they called H&amp;amp;I fire, harassment and interdiction fire. So they didn’t have a specific target; they were just launching high-explosive rounds out around the area where we were.</u>
+      <u who="GEISMAR">Right.</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">I had a quick question about the <orgName>Howitzers</orgName>,—</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">—another question about I suppose the politics that were happening, but with the <orgName>Howitzers</orgName>, did you ever receive warning that they were going to be shooting, or the warning was when you heard the whoomph?</u>
+      <u who="MORTON">That’s it.</u>
+      <u who="GEISMAR">Gotcha.</u>
+      <u who="MORTON">That’s it.</u>
+      <u who="GEISMAR">So there’s no way to warn the villagers, I’m guessing, either.</u>
+      <u who="MORTON">No, no. And in fact, one of my I guess I’d say worst memories: When were there in <persName>Tan Phuoc Hung</persName> the second time, we were in what you would have called the main RF outpost, but it was at a time when they were constantly trying to build more outposts to create security in this dicey area. So one after another, maybe a couple of kilometers up one canal, they’d build another outpost, and they’d, you know, make these mud bunkers and put out concertina wire and put Claymore mines in the concertina wire and cut down the jungle so that they could theoretically see the enemy coming. </u>
+      <u who="GEISMAR">Right. And who knows if they were. They weren’t?</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">Sorry. Taking a second.</u>
+      <u who="MORTON">Yeah, yeah. Sure, sure.</u>
+      <u who="GEISMAR">Yeah. So in your opinion, was your presence there—was it helpful in any way to either the local villagers or did you have the feeling that you were making much of a difference while you were there?</u>
+      <u who="MORTON">Mmm. Boy, that’s a great question, and, you know, I would think—I would think that a large number of <placeName>Vietnam</placeName> vets would struggle with that question if they really were honest about it. I mean, you could answer that question in so many ways. I mean, we sure as hell didn’t leave that country better than we found it. I mean, I don’t know how—I think they estimated more than a million South Vietnamese casualties and, what, 58,000 Americans? </u>
+      <u who="GEISMAR">Thank you. Thank you for being so open with answering that question. I apologize, because I feel like that was a question that—</u>
+      <u who="MORTON">No, no, no.</u>
+      <u who="GEISMAR">—was not well phrased.</u>
+      <u who="MORTON">No, it’s all good stuff.</u>
+      <u who="GEISMAR">Thank you. And I think that that kind of leads me to another question, a couple of questions.</u>
+      <u who="MORTON">Sure.</u>
+      <u who="GEISMAR">But this one will kind of be—you were mentioning, I guess, so far as effectiveness goes with the pacification aspect or goal.</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">You were clearly more focused on kind of trying—I think you said, you know, trying to do good and not stir things up too much.</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">And clearly this other—this other captain who came in was a little bit more interested in stirring up.</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">And do you think that was a widespread—was there kind of a dichotomy between maybe other officials or other officers who wanted to—who were working the pacification project, officers who were a little bit more aggressive? Was that kind of something that you had to work with while you were there?</u>
+      <u who="MORTON">Yeah. Yup. You know, one of the things that was both interesting and perhaps a little bit scary about a MAT team is you were, to a significant degree, kind of on your own, and the up side of that was that on a day-to-<date>day</date> basis, you know, it was kind of up to your own conscience about what you did. I know that, to be really candid about it, there were a lot of MAT teams that created a fairly cushy situation for themselves and just maintained, you know? They probably drank a lot of beer, and they just kind of stayed out of trouble, stayed out of sight, and they were a presence in the village, and they didn’t do much. </u>
+      <u who="GEISMAR">That could be.</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">—was kind of the other designation. So you were able to go to that facility and become a trainer of other MAT leaders?</u>
+      <u who="MORTON">I was an instructor, yup,—</u>
+      <u who="GEISMAR">Gotcha.</u>
+      <u who="MORTON">—for all of the incoming advisers. And, you know, by that time, that was probably <date>early 1971</date> or maybe <date>the middle of winter</date> or something like that. And so my objective there was just to try to do the best I could to train these guys and help them understand the dynamics and subtleties of what they were going to encounter. And a lot of that—you know, one of the courses that I taught—I just got assigned these courses as other instructors rotated home. And one of the courses that—it actually was my favorite, and I enjoyed teaching it, and I think I got good response from the students—was Guidelines to Good Relations with the Vietnamese. And it was all about—</u>
+      <u who="GEISMAR">Right.</u>
+      <u who="MORTON">—by saying, “Hey, pig, come over here.” So those are the kind of things that I tried in my course to explain to these guys. And hopefully it helped. Yeah, I guess that’s—</u>
+      <u who="GEISMAR">It seems like an issue that you ran into that was, kind of, time.</u>
+      <u who="MORTON">Mmm.</u>
+      <u who="GEISMAR">And I’m sure that, you know, you were—if I remember correctly, you were in <placeName>Vietnam</placeName> from ’70 to ’71.</u>
+      <u who="MORTON">Right.</u>
+      <u who="GEISMAR"><date>The summers</date>. </u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">And I guess when you only have <date>a year</date> of time with that—clearly you learned a lot, a lot that was on the fly.</u>
+      <u who="MORTON">Right.</u>
+      <u who="GEISMAR">But there’s also kind of the—you know, it seems like it’s a short enough period of time that when you’re there, you’re also looking forward—</u>
+      <u who="MORTON">Absolutely.</u>
+      <u who="GEISMAR">—at the same time as you’re trying to be so present while you’re there, and I guess how did you deal with that while you were on your tour?</u>
+      <u who="MORTON">The other thing—you can ask any <placeName>Vietnam</placeName> vet, anyone, and I’ll guarantee you, almost regardless of the service—probably it’s true with the [<placeName>U.S.</placeName>] <orgName>Marine Corps</orgName> as well as the <orgName>Army</orgName>, maybe even [<placeName>U.S.</placeName>] <orgName>Air Force</orgName>, but the greeting, the standard greeting—<date>every single day</date> when you got up, you wouldn’t say, “Good morning” or “How are you?” or “How’s it going?” The greeting was,  “How short are you?” And that expression meant, “How many days left do you have?” And every single <placeName>Vietnam</placeName> vet over there could tell you to the day how many—and that became almost a game. You would say, “Oh, I’m a double-digit midget,” meaning, “I just went under a hundred days.” Or you would say—and the guys would elaborate on it and say, “Oh, I’m so short, I have to climb up out of my boots in the morning” or “climb into my boots in the morning to get on up.”</u>
+      <u who="GEISMAR">Was it ever difficult for you—I suppose when you’re being a MAT team leader as opposed to an instructor, was it difficult for you to be, I guess, invested in the country and be, you know, so aware of what’s going on while also kind of looking forward to—I guess, like, could you—could you look forward to the future while you were there?</u>
+      <u who="MORTON">Yeah. </u>
+      <u who="GEISMAR">Did that ever distract you?</u>
+      <u who="MORTON">The two things you looked forward to were what they call <orgName>DEROS</orgName> [pronounced <persName>DEE-rohs</persName>]. I think it stands for <orgName>Date of Rotation</orgName> Stateside [sic; Date Eligible for Return from Overseas] or something like that, which was, you know,  your <date>last day</date>. </u>
+      <u who="GEISMAR">And so you had that period of <persName>R&amp;amp;R</persName> while you were still working as a MAT—gotcha—as a MAT leader?</u>
+      <u who="MORTON">Yup.</u>
+      <u who="GEISMAR">So you mentioned earlier that you enjoyed teaching classes on kind of relations, I want to say,—</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">—or how to interact well with the populace.</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">Did you have a good relationship—you said you had a good relationship with your interpreter. Would you say that—</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">—your relationship with the people in the village—</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">—was also good?</u>
+      <u who="MORTON">Yeah, yeah. It was—we lived in very close quarters. I mean, <persName>this Tan Phuoc Hung</persName> village that I spent most of my time there—we were in this little triangular-shaped mud bunker with—I think there might have been, like, 24 RF soldiers and their families. And so, you know, all the wives and kids are all in these little shanties that are sort of constructed against the mud walls of this outpost, and so, you know, everybody’s there. You know, there’s one sort of a latrine, and not a lot of privacy.</u>
+      <u who="GEISMAR">Right.</u>
+      <u who="MORTON">And you can smell what everybody’s cooking for supper every time, and the kids are crying, and the place was just infested with rats, and so we were always—the medic had a real things about rats, so he was always inventing more creative ways to kill rats. And the Vietnamese would eat them. A lot of them were big because there was so much rice to eat, so he’d kill these rats and give them to the Vietnamese, and they’d eat them.</u>
+      <u who="GEISMAR">How big is big?</u>
+      <u who="MORTON">They were like that. [Demonstrates.]</u>
+      <u who="GEISMAR">Small cat size?</u>
+      <u who="MORTON">Yeah, yeah.</u>
+      <u who="GEISMAR">A medium-sized cat?</u>
+      <u who="MORTON">Right, right.</u>
+      <u who="GEISMAR">Were they vicious, I suppose? Would you ever have an issue with bites?</u>
+      <u who="MORTON">I remember I had this sense—and I honestly can’t tell whether it was just a dream or my imagination, but we had mosquito nettings. We had, you know, bunks and mosquito nets, and it was very, very hot, so sometimes you just—you wouldn’t—you’d just lie on your bunk, maybe in your undershorts, and sweat. And then occasionally I can remember rolling over, and this one memory I have is having my arms hang out from under the mosquito net, on the floor, and then I had a sense of something nibbling a finger. And, you know, I looked down, and it’s one of these rats nibbling on my finger.</u>
+      <u who="GEISMAR">Mmm</u>
+      <u who="MORTON">And I hear this very saintly, I almost thought pacifist medic, <persName>Sgt</persName>. <persName>Boone</persName>, say, “<date>Forty-five</date>.” And he had shot his 45th rat. He thought it was sort of celebratory to kill his 45th rat with a .45 [pistol].</u>
+      <u who="GEISMAR">[Chuckles.] So the rats were a bit of a—</u>
+      <u who="MORTON">They were an issue for him, definitely.</u>
+      <u who="GEISMAR"><persName>Mm-hm</persName>, <persName>mm-hm</persName>.  Certainly. </u>
+      <u who="MORTON">Well, yes and no. The answer is yes and no. We were sort of expected to, what they say, “live off the economy,” so basically, you know, buy our food—they gave us, like, a subsistence fund as a <orgName>Mobile Advisory Team</orgName>, but we were—this was all part of winning the hearts and minds as we’re eating what they eat, living with them.</u>
+      <u who="GEISMAR"><persName>Mm-hm</persName>. </u>
+      <u who="MORTON">Fortunately, I’m not real fussy about what I eat, so it was—actually, well-cooked Vietnamese food is good. And a lot of rice, a lot of vegetables, like, you know, lettuce or, I don’t know, different types of leafy greens, some cucumbers, some tomatoes. And then whatever meat they had or fish—and, of course, in the delta they had a lot of fish, and that was always cut up very small, so it would be in the rice, you know, sort of like if you went to a Chinese restaurant here and got pork fried rice or something, with little tiny pieces of meat in it. And that’s what we often had. But you never knew what the meat was. You know, it could have been rat, could have been dog. They ate dogs over there. There were a lot of, like, feral dogs.</u>
+      <u who="GEISMAR">[Chuckles.] Miracle rice was not catch.</u>
+      <u who="MORTON">I don’t think that caught on.</u>
+      <u who="GEISMAR">[Chuckles.]</u>
+      <u who="MORTON">So—actually something we ended up doing. And we built a fish pond. They sent the fish. We put them in there, and they certainly had developed what they said they did. There were times where, you know, you’d go out on this little, rickety platform, made out of bamboo, and we had one sort of wooden ammo crate as a little bit of privacy, and you hold on with one hand, take a dump in the water—and the fish pond is probably, I don’t know, four feet below where you’re squatting. And the fish would jump out of the water to—</u>
+      <u who="GEISMAR">[Laughs.]</u>
+      <u who="MORTON">And there were guys—the guys on my MAT team said, “Captain, I’m not doin’ that.” And then, of course, the Vietnamese people had never seen anything like it, and they’re all lining up on the banks of the rice paddy to watch you take a dump. This was all supposed to be winning the hearts and minds. And then at the end of the designated time there, we’d have this big fish fry for the Vietnamese elders. [Chuckles.] They’re all saying, “Thanks, but no thanks.”</u>
+      <u who="GEISMAR">[Laughs.]</u>
+      <u who="MORTON">And then the ultimate question that when I tell that story everybody asks is, “Well, what did it taste like?” And the answer is, “What do you think it tasted like.”</u>
+      <u who="GEISMAR">[Chuckles.] Probably not chicken. [Chuckles.]</u>
+      <u who="MORTON">It didn’t taste like chicken. And I think, again, that was—my sense—I chuckle at even hearing about <orgName>USAID</orgName> in <placeName>Afghanistan</placeName> and in <placeName>Iraq</placeName> and everything. I think, You know, maybe they’ve got some terrific programs—and I know from first-hand experience that they’re very well-meaning folks that are really dedicated to making the world a better place, but, boy, there was a huge gap between the concept and the actual application, in my experience. I’m not saying that it couldn’t work and that maybe there’s a great future someplace for catfish that eat human waste, but I certainly don’t order catfish when I go to a restaurant.</u>
+      <u who="GEISMAR">[Chuckles.] Hopefully the recipe has gotten better.</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">Hopefully the fish have gotten tastier.</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">If they can.</u>
+      <u who="MORTON">Right.</u>
+      <u who="GEISMAR">So another, I suppose, issue for your—or problem that you were facing while working as a MAT leader was certainly upkeeping your training.</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">As an athlete.</u>
+      <u who="MORTON">That was basically hopeless when I was a MAT team leader. It got a little bit better when I was reassigned to the advisers school.</u>
+      <u who="GEISMAR">Certainly.</u>
+      <u who="MORTON">It wasn’t great, but it was better. I could run a little bit.</u>
+      <u who="GEISMAR">And so was your training predominantly running,—</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">—or you’d also be doing kind of calisthenics.</u>
+      <u who="MORTON">Right.</u>
+      <u who="GEISMAR">Like, push-ups and things like that? </u>
+      <u who="MORTON">Yeah, yeah, yeah. </u>
+      <u who="GEISMAR">Gotcha. There was that supplementing. Was there also kind of an average <orgName>Army</orgName> workout that you’d be doing?</u>
+      <u who="MORTON">Yeah, not so much. But interestingly enough, the guy who was the commandant of the advisers school at that time was—he was kind of a physical fitness fanatic, and when he saw me running—and he wanted to know—he was a colonel. Just a terrific guy. You know, he was the real—I had a great deal of respect for him. And he said, “You know, Captain, what are you doin’?” And I said, “Well, sir, I came here from <placeName>Alaska</placeName>. I was assigned to <orgName>the Biathlon Training Center</orgName>, and I still have hope of making the ’72 <orgName>Olympic</orgName> team.”</u>
+      <u who="GEISMAR"><persName>Mm-hm</persName>. </u>
+      <u who="MORTON">So I think thanks to the fact that he was interested in sports and physical fitness and that I helped him with that program, he said, “I’m gonna try to get you a curtailment of your tour so you can get back to <placeName>Alaska</placeName> early.” And as it turned out, he got me I think a 57-day what they call “drop,” so I ended up actually spending <date>ten months and three days</date> in <placeName>Vietnam</placeName> and got back to <placeName>Alaska</placeName> <date>almost two months early</date>.</u>
+      <u who="GEISMAR">And how—I guess how would you describe your homecoming, coming back from being an instructor, especially?</u>
+      <u who="MORTON">Yeah. You know, it was very—it was very uneventful in many ways, and especially after hearing how a lot of returnees were treated. Everybody was supposed to go back through Travis Air Force Base, <placeName>California</placeName>, and they had, like, an out-processing center there. But it was also close to <placeName>Berkeley</placeName> and close to places that were real hotbeds for antiwar sentiment.</u>
+      <u who="GEISMAR">Right.</u>
+      <u who="MORTON">So there were all those stories about, you know, the G.I.s leaving the replacement station and having crowds of protesters spit on them or throw blood on them and call them baby killers and all that. Well, purely by luck, the flight that I was on—the pilot came on—we left—I think we refueled in <placeName>Japan</placeName>. We left, headed for <placeName>Travis</placeName>, <placeName>California</placeName>. The pilot came on the intercom, and he said, “I’m sorry, guys, but we are facing severe headwinds, and we have to divert to <placeName>Anchorage</placeName>, <placeName>Alaska</placeName>, to refuel, and there’ll be a two-hour layover. It’s a long enough—. And it’s your first—the first time you reach American soil, so you’ll have to go through <orgName>Customs</orgName>. So disembark, we’ll refuel the plane, get you back on, and then we’ll go to <placeName>Travis</placeName>.”</u>
+      <u who="GEISMAR">And was part of your motivation for wanting to stay in <placeName>Anchorage</placeName> was that partially the desire to not make the trip? Did you have any concern about—</u>
+      <u who="MORTON">Well,—</u>
+      <u who="GEISMAR">—you having to face those crowds?</u>
+      <u who="MORTON">No, no, no, not at all. My wife was in <placeName>Anchorage</placeName>. I knew that I was—every single day that I could be back with the biathlon team was going to increase my chances of making the <placeName>Olympic</placeName> team. </u>
+      <u who="GEISMAR">Right, the detox [sic]?</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">Mmm. <persName>Mm-hm</persName>. </u>
+      <u who="MORTON">And then this guy just peed all over himself, and they’re saying, “Okay, you’re comin’ with us.”</u>
+      <u who="GEISMAR">Right.</u>
+      <u who="MORTON">And it’s, like, Ooh!  So that was just one more reason. As soon as I can just separate myself from everybody else that’s going through the out-processing center, the better I’ll like it.</u>
+      <u who="GEISMAR">Gotcha.</u>
+      <u who="MORTON">And it actually—to be honest, it was really fortunate that it worked out. And in terms of kind of reintegrating and everything, I went right back to the unit that I left. You know, a lot of the guys were happy to see me. Some of them weren’t so much because they’d already kind of figured out who they thought was going to make the <orgName>Olympic</orgName> team, and I was a little bit of a question mark. I mean, I think some of them figured once I went to <placeName>Vietnam</placeName> they weren’t going to see me again. And so it kind of—for some of them, it changed their plans a little, and they weren’t all that overjoyed to see me, but—</u>
+      <u who="GEISMAR">Certainly. Certainly. That’s very understandable. Would you say that—well, I suppose the coming right back from <placeName>Vietnam</placeName>, like you said, you reintegrated with the biathlon team, and then you went on to compete in two <name type="event">Olympics</name>, correct?</u>
+      <u who="MORTON">Yeah. Yep.</u>
+      <u who="GEISMAR">Do you think that that competition kind of gave you something else to focus on?</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">And, I guess, how was—so you said the reintegration with the team—</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">Personal relationships may have been a little bit—</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">—interesting in some aspects.</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">So far as the physical side of it or the training side, was that fairly easy to slip back into?</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">A little challenging?</u>
+      <u who="MORTON">No, reasonably. That was good. Yeah, I think it—in retrospect, I was very fortunate that—you know, so many <placeName>Vietnam</placeName> veterans—for many of them, it is in many ways the most intense experience they’ve ever had, and in some cases positive as well as negative. I mean, I remember the day I arrived in <placeName>Vietnam</placeName>—and I didn’t know anybody. There were a bunch of other officers who said, “We’re gonna go over to the officers’ club and have a beer. Why don’t you come with us?” So I didn’t have anything better to do. I said, “Fine.” I went over.</u>
+      <u who="GEISMAR">Right. It kind of gave you something to focus on.</u>
+      <u who="MORTON">Absolutely.</u>
+      <u who="GEISMAR">That kind of leads me to my next question, which would be do you think your experience in the war—or how did your experience kind of in the war and meeting people like that medevac officer—did that kind of shift your perspective at all coming back, or was that something that—again, kind of the training was maybe a buffer or—</u>
+      <u who="MORTON">Mmm.</u>
+      <u who="GEISMAR">—I guess how did that experience interact with the training?</u>
+      <u who="MORTON">Well, I guess one of the things that it may have helped me understand is that probably like—I don’t know, maybe like you, maybe like many of your classmates, if you’re reasonably successful as a young person, you end up—and, to be honest, a lot of us are told this by our parents, that if you work hard and apply yourself, you can achieve anything you want. I mean, you have to devote yourself to making it happen, and you have to work hard, use the talents that you have, and you can make it happen. I mean, if you want to be an astronaut or if you want to be a jet pilot or if you want to be a physician, you have the good fortune of being born in a country where that’s possible.</u>
+      <u who="GEISMAR">Certainly. So there was definitely, definitely a shift in perspective.</u>
+      <u who="MORTON">Yeah, yeah.</u>
+      <u who="GEISMAR">Certainly. And I suppose that something I think that we kind of sped right by but I’d like to go back to a little bit is I completely forget to ask you this at the start: Do you mind letting me know what your parents’ names were and what their professions were?</u>
+      <u who="MORTON">Oh, oh, yeah, yeah, sure.</u>
+      <u who="GEISMAR">I’m curious, kind of, what they thought about you joining the military, and we can work up to that, but we’ll start with what were their names and professions?</u>
+      <u who="MORTON">Sure. Yeah, you bet. Well, my dad—his name was <persName>George Morton</persName>. He actually was—he flew B-17s [<orgName>Boeing</orgName> B-17 Flying Fortresses] in <name type="event">World War II</name>, right at the tail end of <name type="event">World War II</name>, and I think he got <orgName>the Distinguished Flying Cross</orgName> twice or three times. And I had the wonderful—he actually died when I was 12, so I didn’t—you know, I certainly knew him and remember him, but I didn’t have the chance of, you know, growing up with, you know, having an adolescence with him. </u>
+      <u who="GEISMAR">Mmm.</u>
+      <u who="MORTON">So he was a <name type="event">World War II</name> bomber pilot, and after the war he started a—he had a <orgName>Ford</orgName> [<orgName>Motor Company</orgName>] dealership about an hour south of her in <persName>Bellows Falls</persName>, <placeName>Vermont</placeName>.</u>
+      <u who="GEISMAR"><persName>Mm-hm</persName>.</u>
+      <u who="MORTON">My mother was—she grew up just outside of <placeName>Boston</placeName>. They actually got married secretly just before he went to war. Her parents didn’t want them to get married before he went over. But he obviously made it. And she—after he died, she tried to run his <orgName>Ford</orgName> dealership, but she just didn’t have the experience, and it’s kind of a cutthroat business, and so she had to give that up and sell it. She’s since passed away, too. </u>
+      <u who="GEISMAR">Certainly.</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">And, of course, if this is too personal, it’s no problem at all, but did you ever have an opportunity to talk to her when you got back about your experience and about kind of coming to terms with your experience? I don’t know if your father, she and your father may have had any kind of prior experience with that. I don’t know if she would have been somebody you could talk to.</u>
+      <u who="MORTON">You know, I probably didn’t, and part of that was she was still living in <placeName>New Hampshire</placeName> at that time, and I was in <placeName>Alaska</placeName> for <date>at least another six years</date> after I got out of the military, so I think probably by the time I moved back her to coach the <placeName>Dartmouth</placeName> ski team, the <placeName>Vietnam</placeName> experience was pretty much old news. </u>
+      <u who="GEISMAR">Gotcha.</u>
+      <u who="MORTON">So to answer your question, I don’t think we ever really did.</u>
+      <u who="GEISMAR"><orgName>Gotcha</orgName>, gotcha. </u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">—when did you and your wife end up meeting, and then getting married?</u>
+      <u who="MORTON">Yeah. We were classmates at <placeName>Middlebury</placeName>, and, ironically, she was engaged to a <placeName>Dartmouth</placeName> guy for much of her time at <placeName>Middlebury</placeName>, so, you know, we were classmates and friends, but I knew that she was engaged, so I didn’t pursue her. And then senior year, I had heard that she and her fiancé had broken it off, so we spent a little bit more time together. And then after graduation, when I went to <placeName>Alaska</placeName>, we started writing, and I think it was basically the following—the following spring. It was almost kind of comical. I said, “Well, I’m gonna take—at the end of the ski season, I’m gonna take a <date>month</date>’s leave and come back <placeName>East</placeName> and pick up some household goods and load up a vehicle and drive my stuff to <placeName>Alaska</placeName>, and if you want to come along on the trip, I’d love to have the company.”</u>
+      <u who="GEISMAR"><orgName>Gotcha</orgName>, gotcha. Excellent.</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">You went to the <date>1972</date> <name type="event">Winter Olympics</name>.</u>
+      <u who="MORTON">Yes.</u>
+      <u who="GEISMAR">Were you competing in those <name type="event">Olympics</name> as well?</u>
+      <u who="MORTON">Yeah. Well, here’s the—in ’72—no, and this is another sort of interesting story—</u>
+      <u who="GEISMAR">Mmm.</u>
+      <u who="MORTON">—but the guy who had given me all the advice about the biathlon team and the <orgName>ROTC</orgName> scholarship and signing up for infantry and everything else—</u>
+      <u who="GEISMAR">Good afternoon. <date>Today</date> is <date>Tuesday, August 18th</date>. My name is <persName>Bradley Geismar</persName>, and I am in <orgName>Rauner Library</orgName> on <orgName>Dartmouth Collage</orgName> campus in <placeName>Hanover</placeName>, <placeName>New Hampshire</placeName>, and I am here with <persName>John Morton</persName>. The time is 3:14 p.m. in the afternoon, and I am here with <persName>John Morton</persName>, continuing our oral history interview from <date>last week</date>.</u>
+      <u who="MORTON">Yeah. Actually, this situation was that there was a man named <persName>George Wilson</persName>, who was—at the time I went into the <orgName>Army</orgName>, held the position of secretary of <orgName>the Army Sports Branch</orgName>. And so he was responsible for a wide array of sporting activities that the military supported. </u>
+      <u who="GEISMAR">Mmm. So you certainly had somebody who was a little upset with you for rocking the boat—</u>
+      <u who="MORTON">Yup.</u>
+      <u who="GEISMAR">—when you were racing with the <orgName>Army</orgName>. And so moving forward a little bit to <date>1976</date>, when you were again at the <name type="event">Olympics</name>, competing this time, you weren’t competing with the <orgName>Army</orgName>.</u>
+      <u who="MORTON">That’s correct. I was out of the <orgName>Army</orgName>.</u>
+      <u who="GEISMAR">Okay. </u>
+      <u who="MORTON">And I’m trying to think. On the ’76 team there might have—by that time—I’m trying to remember when—the irony of this whole situation was that they were so intent on getting <persName>Sven Johanson</persName> out of his job as the coach, and because he was a government service employee—he was actually GS-12, which I think is about equal to a full colonel in the military—so he was a high-ranking civilian employee. And they couldn’t find fault with his job performance, so they ultimately closed down the Training Center. And that was the way they basically forced him out of a job, was to close the Center. </u>
+      <u who="GEISMAR">Do you know what motivations they would have had for trying get <persName>Sven</persName> out of his position as head coach? Was it because of his status as somebody—as a foreigner—</u>
+      <u who="MORTON">No.</u>
+      <u who="GEISMAR">—or was there something else at play?</u>
+      <u who="MORTON">Yeah, it was an interesting, kind of convoluted situation. And probably more than anything else, a personality conflict—I mean, strong personalities and strongly-held beliefs. And to be fair, <persName>Sven</persName> was—to sort of pardon the lack of political correctness—he was a classic bull-headed Scandinavian and that his answer to almost any problem or situation was just work harder. And that achieved a lot of success for him when he was a young athlete in <placeName>Sweden</placeName>. And he probably was capable of working harder than almost anybody else he encountered. </u>
+      <u who="GEISMAR">Right.</u>
+      <u who="MORTON">Not even close.</u>
+      <u who="GEISMAR">And were these concerns about, I guess, the future—was this on your mind at all following the <date>1972</date> <name type="event">Olympics</name> and following your—you know, your completion of your time with the service.</u>
+      <u who="MORTON">Yeah. Yeah, it was. But I had a tremendous bit of good fortune in that when I got out of the—actually, before I got out of the service in <date>the summer of 1972</date>, I was approached by a fellow that I had known peripherally. I hadn’t known him very well, but I knew that he was a former <placeName>Olympic</placeName> biathlete, a fellow named [<persName>Richard N.]</persName> “Dick” Mize, who lived in <placeName>Anchorage</placeName>. And he was the principal or actually technically called the unit administrator of big junior-senior high school complex in <placeName>Anchorage</placeName>. And he asked me if I would consider coaching and teaching at his high school, which to me was a wonderful opportunity. </u>
+      <u who="GEISMAR">Certainly.</u>
+      <u who="MORTON">And so I ended up accepting his offer. I taught at [A. J.] Dimond High School in <placeName>Anchorage</placeName> and then took the fall off—you know, I continued to train and compete, not as intensely, but I did compete some in <date>’73</date>, ’74, ’75 and then took the fall off in ’76 and made the <placeName>Olympic</placeName> team and made it to <placeName>Innsbruck</placeName>.</u>
+      <u who="GEISMAR">And was it difficult making the switch from your time in the service and from the training in <placeName>Anchorage</placeName> to being a teacher in school?</u>
+      <u who="MORTON">No, I actually really enjoyed that. It was fun. It was stimulating. It was very hard work. I was an English teacher, and so, as any English teacher will tell you, I mean, you take home papers every night. You have to get the students to write, and the only way you can help them improve is to read and correct or comment on what they write. </u>
+      <u who="GEISMAR">And then work training in somewhere.</u>
+      <u who="MORTON">Yeah, right. Try.</u>
+      <u who="GEISMAR">Mmm.</u>
+      <u who="MORTON">Yep.</u>
+      <u who="GEISMAR">And so if I remember correctly, in college your major was—was it an English major?</u>
+      <u who="MORTON">English, yeah, right, right.</u>
+      <u who="GEISMAR">Excellent. And then you went to your time in your service, and did you—I guess did you feel like you had preparation for being a teacher?</u>
+      <u who="MORTON">Well, I actually—when I was offered the job, it was actually just before I got out of the military, and I mentioned to him that I did not have a teaching certificate, and he said, “Well you can take courses at <orgName>the University of Anchorage</orgName>, <placeName>Alaska</placeName>,” which I did that <date>summer</date>, and then I student taught at <orgName>Dimond High School</orgName> that fall, and also I assisted coaching the cross-country runners. And then I think I started teaching full time the following fall. So it took me—I ended up teaching in <placeName>Anchorage</placeName> <date>four years</date> before I came back and took the coaching job here at <orgName>Dartmouth</orgName>.</u>
+      <u who="GEISMAR">Excellent. And so—I’m trying to line up that timeline.</u>
+      <u who="MORTON">Sure.</u>
+      <u who="GEISMAR">Just after ‘72—you got to go to the <name type="event">Olympics</name>,—</u>
+      <u who="MORTON">Yes.</u>
+      <u who="GEISMAR">—begin your time as teaching,—</u>
+      <u who="MORTON">Yes.</u>
+      <u who="GEISMAR">—with I’m sure not very much turnaround time in between.</u>
+      <u who="MORTON">No, no.</u>
+      <u who="GEISMAR">Certainly. And then go to <name type="event">the ’76 Olympics</name>,—</u>
+      <u who="MORTON">Yep.</u>
+      <u who="GEISMAR">—and then immediately following <name type="event">the ’76 Olympics</name>, did you continue teaching in <placeName>Anchorage</placeName> for a little while?</u>
+      <u who="MORTON">I did, yeah.</u>
+      <u who="GEISMAR">And then you made the transition.</u>
+      <u who="MORTON">Yeah. I felt like—I felt like I was going to be in <placeName>Anchorage</placeName> forever. I liked it. I loved working for <persName>Dick Mize</persName>. He was a remarkable leader and inspirational individual. He’s still probably one of the sort of strongest role models I’ve had in my life. And I just figured I would be there forever.</u>
+      <u who="GEISMAR">And when you came back <placeName>East</placeName> in ’78, was your time predominantly focused on working as a ski coach, and was that your main interaction with the <placeName>Dartmouth</placeName> community? I believe I’ve also seen some papers that you wrote during the time, and was that just in your free time, while being a ski coach, you also wrote?</u>
+      <u who="MORTON">Yeah. Well, one of the things that was sort of an ironic surprise for me was that one of the—I really enj- —I loved teaching and coaching in <placeName>Anchorage</placeName>, but it was a little bit wearing because of the time commitment. And although I loved the classroom teaching and I really loved the coaching, I wasn’t all that wild about all the paperwork. And so one of the things that was appealing about the coaching job was that, Hmm, okay, so now I get to spend basically all of my time interacting with the athletes and coaching and not so much paperwork.</u>
+      <u who="GEISMAR">Certainly. And undoubtedly during your time as coach, you had a lot of opportunities to interact with the students on <orgName>Dartmouth</orgName> campus. And by this point in <date>1978</date> the war has wound down. The war is finished for <placeName>America</placeName>, at least.</u>
+      <u who="MORTON">Right, right.</u>
+      <u who="GEISMAR">And I suppose I wondering—were the students there—was there a huge shift, I guess, in the way the students interacted at <orgName>Dartmouth</orgName> during that time period than you remember from your time at <placeName>Middlebury</placeName>? I guess were there different preoccupations that the students had? Did you get much of a sense of what the postwar kind of effect was on the students at <orgName>Dartmouth</orgName>?</u>
+      <u who="MORTON">Hmm. Yeah, well, certainly at <placeName>Middlebury</placeName> it was volatile. As I described to you earlier, we were required to participate in these <date>Thursday</date> afternoon drill sessions. We had to dress in our ROTC uniforms, and we were basically trained in how to march and—you know, right turn and left turn, about face, and eventually you worked up to where you were actually carrying a rifle, and you present arms and order arms and all these different commands. I mean, mostly I think it’s just training you to respond to commands.</u>
+      <u who="GEISMAR">So at the time, this opposition between the people in <placeName>ROTC</placeName> and the people protesting the war and kind of that lack of perspective that both sides had, do you think that that affected your feeling and your connection with your class and with <placeName>Middlebury</placeName>? They spend a lot of time nowadays, at <placeName>Dartmouth</placeName> anyway, trying to form a sense of class unity.</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">—a connection to home, almost,—</u>
+      <u who="MORTON">Yes, yeah, yeah.</u>
+      <u who="GEISMAR">—school equaling home. </u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">And do you think that with that contentious time—did that have any impact on your sense of connection to your class or to <placeName>Middlebury</placeName>? It seems like, kind of, with this perspective, it’s changing, but at the time, in <date>the years</date> after, immediately after your service, immediately after your graduation—what was your sense of connection?</u>
+      <u who="MORTON">Well, I suppose, like here at <orgName>Dartmouth</orgName>, the community is big  enough so that you find smaller groups within the community that you really identify with. And when I was coaching the ski team, I know the ski team almost became a community in itself and that they would oftentimes do social activities together. Very often, when they got to a point where they had the option to live off campus, they frequently would rent a house, and several members of the ski team would live together in the house. </u>
+      <u who="GEISMAR">Gotcha. And so that feeling of connection or community that you had with <placeName>Middlebury</placeName>—did you experience a difference sense of connection with the students at <orgName>Dartmouth</orgName>? You were mentioning earlier that the ski team in particular seemed to be a very close-knit group, and do you think that could have been indicative of kind of a, I suppose, a wider sense of unity and especially without that same stress of war and division between support of war—I don’t know if you had as much interaction with the rest of the <orgName>Dartmouth</orgName> student body, but—</u>
+      <u who="MORTON"><orgName>Dartmouth</orgName>. Yeah, I had peripheral connection with the [<orgName>Dartmouth</orgName>] Outing Club because at the time, we all operated out of Robinson Hall, and so although my major connection was with the skiers, obviously, you know, I got to be friendly with many <orgName>Outing Club</orgName> members that I would see in the building. And through <date>the years</date>, I became really good friends with a number of other coaches, so I would kind of get a glimpse into some of the other world—I mean, I’ve never been a huge fan of basketball, but I became a huge an of a couple of the coaches, and we became very good friends. I became a huge fan of [<persName>Robert B.]</persName> “Bobby” Clark, who was a soccer coach here during the time I was here.</u>
+      <u who="GEISMAR">It certainly seems like a lot of—the war, itself, and a lot of the movies around the war—the war is just so multifaceted in its nature that I guess that desire—if there were a movie, say, made about MAT leaders in <placeName>Vietnam</placeName>, would you be more motivated to go see that movie to check whether or not it’s accurate, or is it just kind of something where you experienced it and it was enough?</u>
+      <u who="MORTON">Well, you’ve got it exactly right: It is remarkably multifaceted, and from my experience, although it’s like you’d say looking through a straw, right? That was my experience in <placeName>Vietnam</placeName>. And if you think of however—I think it’s well over a million American G.I.s served in <placeName>Vietnam</placeName>, and all of them are looking through a straw. Now, it’s no exaggeration to say, not at all, that for some American G.I.s, <placeName>Vietnam</placeName> was an incomprehensible disaster and tragedy. I mean, you almost couldn’t express it verbally, the horrors that they saw. And that’s probably why a significant—you know, a higher percentage of our homeless people are <placeName>Vietnam</placeName> vets, why there’s such, even still, such an issue with <orgName>PTSD</orgName> because it as just indescribably horrible for some.</u>
+      <u who="GEISMAR">I don’t suppose if I know, but did you ever have students on the ski team who were considering time in the service and would talk to you about that? And was there a different reaction to that than there may have been during the mid-‘60s—you know, kind of after the war’s calmed down, after—I’m trying to remember historically if we’re gearing up for <placeName>Korea</placeName> [the war in <placeName>Korea</placeName>] or not by that point, but a very different landscape so far as wanting to be in the <orgName>Army</orgName>.</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">And I guess what were those conversations like?</u>
+      <u who="MORTON">Well, it’s interesting that you bring that up because during the time I was coaching the ski team here, <orgName>ROTC</orgName> had been discontinued, you know, during the protests, whenever they were, the mid-’70s or late-’60s—I forget—should know. Anyway, I know that there was <placeName>Naval ROTC</placeName> on campus, but it was discontinued. There was sort of a quiet—you know, not at all secret but sort of a quiet attempt at bringing back <placeName>ROTC</placeName> on campus, but there was a certain amount of discussion about it, and there were some people that were strongly opposed: “<orgName>Dartmouth</orgName> shouldn’t be in the business of training military people.” There were others that were in favor of it, and I was one of the ones in favor of it. </u>
+      <u who="GEISMAR">And I don’t mean to rush us through your time at <placeName>Dartmouth</placeName>, and if there’s anything else—</u>
+      <u who="MORTON">No, no, good.</u>
+      <u who="GEISMAR">—you’d like to touch on, please, please let’s go back, but—so, let’s see, you were a ski coach <date>from 1978 to 1989</date>.</u>
+      <u who="MORTON">Eighty-nine, correct. Good for you.</u>
+      <u who="GEISMAR">Thank you. And after <date>1989</date>, was that <date>the year</date> that you decided to start your own company doing trail design?</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">And can you tell me a little bit about the decisions leading up to your decision to start that own project?</u>
+      <u who="MORTON">Yeah. Well, there were times when I felt like I would be perfectly happy being a <orgName>Dartmouth</orgName> ski coach for forever, for as long as I could, you know, get out in the wintertime and put skis on. But there was also a time when the college, in my view, was almost repositioning itself, and part of it was due to the sort of current leadership of the college, and for obvious reasons, given my background and orientation to the outdoors, I’ve always thought that one of the greatest attributes of <orgName>Dartmouth</orgName>, the thing that sets it apart from all the other Ivy League schools and most of the other colleges and universities in the country is its orientation to the outdoors, its rural location and the phenomenal assets of the [Second] College Grant and Moosilauke Ravine Lodge, some of these other parcels of land that are available for research for things like <orgName>the Ledyard Canoe Club</orgName>, <orgName>the Outing Club</orgName>.</u>
+      <u who="GEISMAR">Wonderful. And in making that move forward to going from kind of being in the academic setting to starting your own business,—</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">—I guess were there any connections that helped you along the way? Were there any <orgName>Army</orgName> connections that you used at the time, or was that something that’s been popping up a little bit more recently?</u>
+      <u who="MORTON">Well, you know, there’ve been some—certainly there were connections—the Nordic ski world is a small world, and basically everybody knows everybody else. And so once I started getting into this trail design work, it was constantly relying on connections I had made, either <date>years ago</date> as an athlete or through the biathlon program or as the coach at <orgName>Dartmouth</orgName>. You know, I was fortunate in that during the time I was here at <orgName>Dartmouth</orgName>—in fact, all of that correspondence I told you about to ski clubs and coaches—those are direct links that I was able to reconnect once I started designing trails.</u>
+      <u who="GEISMAR">Excellent. And I guess at this point in the interview, <persName>John</persName>, I’d like to ask: Are there any other points that you’d like to go back to that I’ve missed? It’s been an absolute pleasure thus far,—</u>
+      <u who="MORTON">Thank you.</u>
+      <u who="GEISMAR">—and I don’t want to miss anything.</u>
+      <u who="MORTON">No, I think you’ve done a great job with this, and it makes me very interested to perhaps take advantage of some of the other interviews that your colleagues, other students have—I mean, I think this is going to be a wonderful resource for not only students but community members that may end up at some point having an interest in <placeName>Vietnam</placeName> and the impacts that it had. Plus, as you get more and more of these, it’ll be very interesting to see if certain patterns emerge, whether people are becoming, you know, more accepting of—certainly, my experience was I did not have much use for the war protesters at the time, during my college years. I have a totally different view of them now. And that’s probably a good thing.</u>
+      <u who="GEISMAR">And we just need to see if that viewpoint is something that continues going with more of the interviews now and I guess as more of the wars are continuing. We have <placeName>Korea</placeName>, we have <name type="event">the Gulf War</name>, we have <placeName>Iraq</placeName> and <placeName>Afghanistan</placeName> that we’re kind of just ending with now.</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">It’ll be interesting to see how these resources change and whether or not patterns exist across the board.</u>
+      <u who="MORTON">Yeah.</u>
+      <u who="GEISMAR">Well, I think this will probably be a great place to end the interview. <persName>John</persName>, thank you so much for your time and for your generosity.</u>
+      <u who="MORTON">My pleasure. You did a great job with this, <persName>Brad</persName>.</u>
+      <u who="GEISMAR">Thank you so much. Thank you so much.</u>
+    </body>
+  </text>
+</TEI>

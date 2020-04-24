@@ -1,0 +1,236 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="LI"/>
+        <person xml:id="Li"/>
+        <person xml:id="PICKEN"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="Li">This is <persName>Ellen Li</persName> in <orgName>Rauner Special Collections Library</orgName>. It is</u>
+      <u who="PICKEN">I was born—I was born in <placeName>Ames</placeName>, <placeName>Iowa</placeName>. My parents were Dr. <persName>Joseph [C.] Picken [Jr.</persName>] and <persName>Dorothy Parrish Picken</persName>. At the time I was born, during <name type="event">World War II</name>, my dad was a captain in <orgName>the U.S. Army Medical Corps</orgName>, stationed at Fort Hood, <placeName>Texas</placeName>. It was Camp Hood at that time. And they had grown up in <placeName>Iowa</placeName>, and so my mother went home to <placeName>Iowa</placeName> when I was born so her mother could help her, and we lived in <placeName>Iowa</placeName> for <date>about three or four weeks</date>. When I was about three, <date>four weeks old</date>, we showed up again in <placeName>Texas</placeName> and spent the first <date>three and a half years</date> of my life in a military—military base in <placeName>Texas</placeName>.</u>
+      <u who="LI">And what was it like growing up in a military base?</u>
+      <u who="PICKEN">[Chuckles.] I was only—I mean, I was—I was <date>only three years old</date> when we left, so I don’t remember very much. I remember it was hot. It was hot. It was—we lived off the base in an apartment building, never got out of the basement. It was Camp Hood at the time. Camp Hood was a very, very large installation in central <placeName>Texas</placeName>, and they had probably 60[,000] or 70,000 troops and 50,000 German prisoners of war there, so civilians didn’t get—get to go on the base much. My dad was the medical officer for the prisoner of war team.</u>
+      <u who="LI">And so with your father in the <orgName>Army</orgName>, was going into service always on your mind as a young child, as a future possibility?</u>
+      <u who="PICKEN">Well, it—it certainly—it certainly was a possibility. He was in the <orgName>Army</orgName>, and—of course, when I was—the draft was still very much there, back in the ’60, so there was always a possibility. When I started looking at schools, I applied for a <orgName>Navy</orgName> ROTC [Reserve Officers’ <orgName>Training Corps</orgName>] scholarship because the scholarship, as a professor, my dad wasn’t too much money, and said, “Look, if you want to go to school other than <orgName>Iowa State</orgName>,” which is [unintelligible] home town, “you need to get yourself a scholarship.” So I applied for the <orgName>Navy</orgName> ROTC scholarship. And they ended up sending me to <orgName>Dartmouth</orgName>, which was—which was a good deal.</u>
+      <u who="LI">And growing up with a professor for a father, were academics always a part of your household? Did you talk about—were you aware of national politics and news, growing up?</u>
+      <u who="PICKEN">[Laughs.] Not really. I mean, we were—we were aware of politics, but you got to remember, I was pretty much isolated back then, a little town of 30,000 people out in the middle of nowhere—middle of the cornfields.</u>
+      <u who="LI">Mmm. So in this isolated and very I guess safe space in your small town—</u>
+      <u who="PICKEN">It was a—it was a WASP [White Anglo-Saxon Protestant] environment. We had one—one African-American family and one—one Jewish family in town, and the rest were—were WASPs, with the exception of a few Catholics. There were a few Catholics, and there was a small Catholic school, but it was a very, very—isolated, I guess, in terms of the cultural backgrounds. So politics didn’t really make much difference to us.</u>
+      <u who="LI">What kind of school did you go to?</u>
+      <u who="PICKEN">What kind of school did—high school. Public high school. Public schools all the way through.</u>
+      <u who="LI">And what was the atmosphere like and the social dynamics? Anything out of the ordinary, or—</u>
+      <u who="PICKEN">It was—the university was on the west side of town. The main part of the city was on the east side. The high school was on the east side. There was a bit of a divide because there were two junior high schools between the college town folks and the rest of the town folks, and so we were rivals until we got into the—to the eighth grade. Played each other in football and stuff like that, and then go to high school and we all pooled together.</u>
+      <u who="LI">Was it typical for kids your age to work so much?</u>
+      <u who="PICKEN">A lot of kids—a lot of kids that were my age certainly—certainly had <date>summer</date> jobs and stuff like that. I may have started a little earlier than some, but basically my dad was—figured hard work never hurt anybody and I needed to learn how to do that, so I did work during the period of time, for <date>a couple of years</date>—my junior and senior years, I had my own contracting business, building retaining walls, so I built concrete block retaining walls for friends and neighbors, basically. You know, they had a lot along a creek or something like that and need to build a retaining wall to keep it from flowing into the creek, and I had built one for my dad, and so all of a sudden other people said, “Gee, I need one, too” and hired me to do this. </u>
+      <u who="LI">And you’re the only one in this contracting business, or did you get help from friends and—</u>
+      <u who="PICKEN">Just me. But I learned how to bid the job and complete the job, and it worked out just fine.</u>
+      <u who="LI">And you mentioned football. What were your passions growing up, your activities in school, things of interest?</u>
+      <u who="PICKEN">Well, I was—I was a reasonably good student. Played—played football, ran track, and then—in high school. And I wasn’t much of a basketball player. I tried to play basketball. I was probably the high school champion <persName>Ping-Pong</persName>—football, I played left end, that’s left end of the bench. That was—I was 147 pounds as a senior—a senior defensive guard, so I wasn’t real big. And so I played, and I played a defensive guard and a little bit of linebacker and center in football, but I was pretty small for the—for the sport.</u>
+      <u who="LI">And were a lot of the students at your school—did they have parents involved with the university?</u>
+      <u who="PICKEN">Yeah. Oh, yeah.</u>
+      <u who="LI">Was everyone—</u>
+      <u who="PICKEN">Probably a third of them. We had—we had some special—special stuff because we were a big university. They—they selected a group of students who were good science students, and they had a science seminar, which was sort of an enrichment thing that met a couple of times a month for three or four hours. And they had a—a faculty member from the university come down and conduct a three-hour seminar, just basically talking about a particular field of expertise and so on. </u>
+      <u who="LI">And what in particular, as you learned about <orgName>Dartmouth</orgName>, made it seem appealing to you?</u>
+      <u who="PICKEN">Well, I mean, it was—it was certainly a premier school. I wanted to get out of <orgName>Ames</orgName>. I had a graduating class of about 200 or so, and probably 180 of those 200 went on the college, but only three of us went to college east of the <placeName>Mississippi</placeName>: one to [<orgName>University of] Michigan</orgName>, one to <orgName>Dartmouth</orgName> and one to Duke [University]. The guy at Duke only lasted a semester and came home.</u>
+      <u who="LI">And I guess what did this impulse to explore and leave your hometown—that was by no means the norm at all. Where did that come from, do you think, growing up?</u>
+      <u who="PICKEN">You ever lived in a small town all your life?</u>
+      <u who="LI">Sorry?</u>
+      <u who="PICKEN">I’m asking you the question: Have you ever lived in a small town all your life?</u>
+      <u who="LI">I have not.</u>
+      <u who="PICKEN">Okay. Well, then you know what the motivation is. My—my—we traveled—we traveled a lot when I was a kid growing up. We had a camping trailer. We pulled it all over the western <placeName>United States</placeName>, and I’ve always been interested in—I’m a high-adventure kind of guy, I guess. </u>
+      <u who="LI">Interesting. 	</u>
+      <u who="PICKEN">I want to go sky diving, but my wife won’t let me.</u>
+      <u who="LI">[Chuckles.] That might be a reasonable request on her part.</u>
+      <u who="PICKEN">Well, it was a beautiful place, a beautiful place. As a new freshman coming in for freshmen orientation, it was—it was a different experience. And we all gathered in the dorm. I was in <placeName>the North Massachusetts</placeName> [Hall] dorm, and there eight of us, I think, in a group. We had a junior that lived in the dorm that was supposed to be our adviser and mentor, and we all gathered in the—what was sort of the little living room down in—down in the first floor. And he brought in a couple of six packs of beer and said, “Welcome to <placeName>Dartmouth</placeName>.” First time I’d ever tasted beer in my life. So, you know, that would be the initial impression.</u>
+      <u who="LI">So what was the campus climate like back in <date>1961</date>?</u>
+      <u who="PICKEN">Campus climate. Oh for heavens. From a—from a weather point of view, not much different from it is <date>today</date>—from what it is <date>today</date>. There weren’t any women around. And as a freshman, you know, you—you had athletics and stuff like that. I—I—the <orgName>Navy</orgName> took us down and had us—we had to qualify on the rifle—rifle range. And I had grown up shooting butterflies off bridges on the sandbars as a kid, so I knew how to shoot. </u>
+      <u who="LI">I still have yet to see it.</u>
+      <u who="PICKEN">Well, you got to see it because the guy that [director <persName>John A.]</persName> <persName>Belushi</persName> played was modeled after <persName>Tony Lott</persName>. So—so you’ll have to see that. That was written by a guy a year ahead of me at <placeName>Dartmouth</placeName>, and I can—I can put real names on most of the characters in there.</u>
+      <u who="LI">And would you say that—how was your transition freshman year, going from your <placeName>Iowa</placeName> hometown and coming to <placeName>Dartmouth</placeName>?</u>
+      <u who="PICKEN">Well, it was—it was certainly a—a different environment. As I said, we grew up in a town that was very much all white and all basically Protestant, a few Catholics, a large population—a large Jewish population in <placeName>Hanover</placeName>. About a third of the class were Jewish. A lot of the kids came from prep schools. A very, very different environment. And it all blended together pretty well, but it was different. You know, quite honestly, we didn’t know much difference. I mean, they were just all guys and—worked out—worked out fine. Made some good friends.</u>
+      <u who="LI">And how did the <orgName>ROTC</orgName> responsibilities play into your—you time here? Can you talk a little bit about what your commitment was while on campus and how that contributed to your <orgName>Dartmouth</orgName> experience?</u>
+      <u who="PICKEN">Well, we—we had to wear our uniforms <date>one day</date> a week. I think it was <date>Wednesday</date>, but don’t know for sure. <date>One day</date> a week, we were—we were in uniform. Went to all our classes in uniform and so on. We drilled in the—drilled in the afternoon. We had to take a <orgName>Navy</orgName>—<orgName>Navy</orgName> class every—every term, so we were on the third-term system back then, quarter system, and we had one naval science course every—every term, which reduced the electives that we had available to us, which was—I think the only negative about the thing was that I didn’t get a lot of the electives that I would have liked to have taken because of the requirement to take a <orgName>Navy</orgName> course every semester. </u>
+      <u who="LI">Did you—were there ever any moments where you questioned your involvement with <orgName>ROTC</orgName>? Obviously, it gave you the scholarship, but were you ever nervous about going into the <orgName>Navy</orgName> afterwards?</u>
+      <u who="PICKEN">Nope. Nope. Big adventure comin’ up.</u>
+      <u who="LI">And what were those <date>summer</date> trainings like?</u>
+      <u who="PICKEN"><date>Summer</date> training. First one was on an old <persName>Fletcher</persName>-class destroyer out of <placeName>Norfolk</placeName> [<placeName>Virginia</placeName>], and about half the time, we were on the ship, it was in the shipyard, so it was not a lot of fun. And you went on board as an enlisted man, and—wearing your Dixie cup hat and spending your—spending your days chipping rust and painting and stuff like that. We broke most of the rules. We—we set out the <orgName>Dartmouth</orgName>—or the <orgName>Dartmouth</orgName> ROTC guys set out to break as many rules as possible. They gave us a copy of <orgName>the Naval Academy’s</orgName> rules, code of conduct, and they—so many demerits for each—each infraction. And we decided to see if we could accumulate enough demerits to get kicked out of <orgName>the Naval Academy</orgName> without getting caught. We—we did. We were pretty successful.</u>
+      <u who="LI">Where do you think that rebellious culture came from? Was it just a function of the fact that you were a group of young guys being forced to go through training, or what’s your opinion on that?</u>
+      <u who="PICKEN">We knew the deal. We were all on scholarship. Yeah, it’s a bunch of young guys and a little bit rebelliousness to break the rules. You know, live the life of high adventure, why not?</u>
+      <u who="LI">And did you have a favorite part—sorry?</u>
+      <u who="PICKEN">Wouldn’t want our kids doing that, but we did it.</u>
+      <u who="LI">And did you have a favorite part of training in terms of, like, the technical side of things?</u>
+      <u who="PICKEN">Well, I enjoyed flying. Flying is fun. I’ve been around aviation most of my life. That was my first opportunity, you know, to sit at the controls of an aircraft, so that was a good time.</u>
+      <u who="LI">So at the conclusion, you mentioned that you went to <orgName>Dartmouth</orgName> undergrad for <date>three years</date> and then <orgName>Tuck [School of Business</orgName>] for two. </u>
+      <u who="PICKEN">Yeah.</u>
+      <u who="LI">How did that—was the typical <orgName>ROTC</orgName> program for <date>just four years</date>?</u>
+      <u who="PICKEN">Yeah, the typical <orgName>ROTC</orgName> scholarship was <date>four years</date>, and they paid—they paid for <date>four years</date>, and they paid for <date>the first year</date> at Tuck. But at the time, <persName>Tuck</persName> had an experimental program called the 3-2 program, where you could get into the business school at the end of your junior year—highly selective. There were only ten of us that were—were selected into the—in the <persName>Tuck</persName> class. But it was ten out of the 120 students in <date>the first year</date> of class for <orgName>Dartmouth 3-2</orgName>, so a small percentage of the class.</u>
+      <u who="LI">[Chuckles.]</u>
+      <u who="PICKEN">So we had a lot of girls in the dorms. Some of them moved there for entire semesters. So it was kind of a different atmosphere.</u>
+      <u who="LI">And where did you meet those girls, if I may ask?</u>
+      <u who="PICKEN">I wasn’t one of them. I didn’t have a girl then. Road trips. I dated a girl—I dated a girl who was going to <persName>Smith</persName> [College] for <date>two and a half years</date> when I was up there, so she’d come up <date>every weekend</date>, ride the train or drive up with a friend, or I’d go down there. We’d road trip down to <persName>Smith</persName> for a [unintelligible].</u>
+      <u who="LI">I see.</u>
+      <u who="PICKEN">[unintelligible].</u>
+      <u who="LI">And you were training throughout this entire period?</u>
+      <u who="PICKEN">Well, I mean, we were going to school. Yeah, we were going through the ROTC training, yeah. And the <orgName>ROTC</orgName> only paid for <date>four years</date>, so my fifth year, I had to pay for. And so I worked as a—I’d been involved in the—I was in the math program, and the startup of the BASIC computer language, which you’ve probably never ran across, but BASIC was written up at <orgName>Dartmouth</orgName> by a group of sophomore math students, and then the <orgName>Dartmouth Time-Sharing System</orgName> was set up—the programs written in BASIC, so I paid for <date>my second year</date> of business school, <date>my fifth year</date> on campus, by working as a computer programmer for <orgName>Chase</orgName> [<placeName>Manhattan</placeName>] Bank [now <orgName>JPMorgan Chase Bank</orgName>, <orgName>N.A.</orgName>] out of <placeName>New York</placeName>, writing financial analysis software to run on a time-sharing system.</u>
+      <u who="LI">So you were really on the frontier of technology, doing that.</u>
+      <u who="PICKEN">Yeah, yeah. And so the <orgName>Navy</orgName>, of course, in their infinite wisdom, took this guy that was really, really good with computers and made me a engineering officer, responsibility for diesel engines. [Laughs.]</u>
+      <u who="LI">[Chuckles.]</u>
+      <u who="PICKEN">That’s—that’s—didn’t have much use for what I was doing, but at least I understand—understand a little bit about computers.</u>
+      <u who="LI">So tell me about what you did after graduation. What was the next—the beginning of the next part of your life like?</u>
+      <u who="PICKEN">Well, after I graduated, I went into the <orgName>Navy</orgName>, and I was assigned to <persName>USS Arneb</persName>, A-r-n-e-b, which was an AKA [Attack Cargo Ship]. Had a bunch of landing craft on it, and out of <placeName>Norfolk</placeName>, <placeName>Virginia</placeName>, and I spent <date>13 months</date> on the <placeName>Arneb</placeName>. When you are—you couldn’t—you couldn’t ask for a change in duty stations until you’d been on board somewhere for <date>at least a year</date>, so I started bugging my detailer after <date>about nine months</date>, volunteering for [unintelligible] to get out to where the action was in the <placeName>Pacific</placeName>.</u>
+      <u who="LI">So if we can—if we can step back for a second to the USS Goldsborough, which obviously you had wanted to get closer to the action in the <placeName>Pacific</placeName>, like you had mentioned, so what was the first arrival like in that atmosphere? And also, how did your family feel about your going into the forefront of controversy, essentially?</u>
+      <u who="PICKEN">It wasn’t controversy. There was no controversy. You’ve been—you’ve been reading too much left-wing liberal history. There was no—no controversy in <date>1967</date>. My family was supportive. I wasn’t married at the time. But my—I was—I had gotten engaged just before I went overseas. My wife had grown up—her father was <orgName>Navy</orgName>, had been brought up in military. And so she—she was fairly, you know, supportive. </u>
+      <u who="LI">And what were your typical responsibilities like during your tours?</u>
+      <u who="PICKEN">Well, I was a damage control officer, so I had about 70 or 80 men who were responsible for maintaining plumbing and air conditioning, welding up shrapnel holes in the side of the ship, all the auxiliary engineering, electric, electrical, communications, stuff like that. So I managed that during <date>the day</date>. My duty was officer of the deck. We—when we were in the combat zone, we had two march sections, so we—what we called port starboard, with six hours on and six hours off. And I was the officer of the deck, so I was the officer responsible for basically controlling the ship and running the ship from a operational and tactical point of view, from the bridge during—during that period of time.</u>
+      <u who="LI">How did you deal with—sorry, go ahead.</u>
+      <u who="PICKEN">Well, I said the mission—the mission was <placeName>Operation Sea Dragon</placeName>, and I think I told you a little bit about it. We had two ships—two ships that patrolled the coast of <placeName>North Vietnam</placeName> from the DMZ [demilitarized zone] north for about, oh, 80, 90 kilometers north. <persName>Đồng Hới</persName> was about 30 miles north of the <placeName>DMZ</placeName>, <persName>Vinh</persName> was about 30 or 35 miles north of <placeName>Đồng Hới</placeName>. And then we went beyond that a little bit. So 60 to 90 miles north of the <placeName>DMZ</placeName>.</u>
+      <u who="LI">Wow, yeah. So I guess in those—it sounds like you had a very systematic mechanism for going out on your missions: acquiring the targets and avoiding the hostile fire.</u>
+      <u who="PICKEN">Yeah, that’s [unintelligible].</u>
+      <u who="LI">How—</u>
+      <u who="PICKEN">We were well trained in that, and we practiced a lot. </u>
+      <u who="LI">And what did you g- —and how did you, I guess, sustain or endure those 42-day stretches at sea? You know, what did you do for recreation or to help get through—</u>
+      <u who="PICKEN">[Chuckles.]</u>
+      <u who="LI">—those periods of time?</u>
+      <u who="PICKEN">You’re on your feet—you’re on your feet for 12 hours, standing on the bridge. You eat a couple of meals. You—three or four hours of administrative stuff, and then when you’re trying to sleep, the guns are going off over your head. There’s no time for recreation, okay? No time for recreation. I mean, this is—this is serous—serious work.</u>
+      <u who="LI">And how—how connected did you feel to the war while you were aboard? Because obviously it’s—it’s an isolated world, in a sense. You know, you have your crew.</u>
+      <u who="PICKEN">We were—we were—</u>
+      <u who="LI">So how connected did you feel?</u>
+      <u who="PICKEN">We were quite—quite enthusiastic about the mission and about what we were accomplishing on the first cruise. The first tour, Sea Dragon—the action was—was constant. We were doing some good. We thought we were doing a really good job, and we were. And so quite enthusiastic.</u>
+      <u who="LI">How close was your—</u>
+      <u who="PICKEN">I’ll tell you one story about the second cruise. This guy used to—he has a sea cabin right behind the bridge, and he used to insist on getting up for every firing mission when we were operating down south. He’d come out of the <orgName>Pentagon</orgName>. We had to wear our full battle dress; black jacket, helmets, everything else. And it’s hot. And he insisted on all this, as he was playing war, and that’s—that’s what you do from the <orgName>Pentagon</orgName>, I guess.</u>
+      <u who="LI">And was your crew close, you would say?</u>
+      <u who="PICKEN">Pardon?</u>
+      <u who="LI">Was your crew close with each other, you would say?</u>
+      <u who="PICKEN">Yeah, pretty much, yeah, yeah. We were—we were—I mean, there were around 300—200—200-and-some guys in the crew. We didn’t know all of them, but, yeah, we—we stuck together pretty well. The officers—the officers stuck together pretty well, with the exception of the commanding officer and the exec officer. The executive officer was a drunk, and so the captain restricted him to the ship for most of the cruise, so he—he was a nonentity in the second cruise.</u>
+      <u who="LI">And how regular was your access to news while at sea?</u>
+      <u who="PICKEN">None. Very little. Very little. I mean, almost none.</u>
+      <u who="LI">So most of what you knew came from the—information within the <orgName>Navy</orgName>, I guess.</u>
+      <u who="PICKEN">Oh, yeah, absolutely. I mean, you got to understand, satellite communications didn’t exist back then. We had no television. I mean, my—my—two of my sons are—are currently active duty <orgName>Navy</orgName>, and they’ve got television, they’ve got telephone communications back home, they <orgName>Skype</orgName> back and forth with their wives and kids and stuff like that. None of that existed back then. Mail came. Mail came, but it was <date>three weeks</date> late by the time it finally got out there. So not very much communication.</u>
+      <u who="LI">And at <date>the end of</date> your second tour, you mentioned obviously it was more cynical and not as—</u>
+      <u who="PICKEN">We saw—</u>
+      <u who="LI">—didn’t have as—you didn’t see as much action on your second tour. So how were you feeling at the end of that?</u>
+      <u who="PICKEN">Well, I was still—I was still in the <orgName>Navy</orgName>. Had a good job. Got orders to command the ship, which I’m very, very young for that, for that set of orders, so I was pretty enthusiastic about that, went back to mine warfare school back in <placeName>Charleston</placeName>. And so it was—you know, it was fine. Went out. Took over the [USS] Force, and that was an engineering and administrative job, but that was—it was challenging.</u>
+      <u who="LI">Mmm. I think you said in <date>May</date> of ’69 you were on one of those ships that was being converted into the electronic intelligence ships, if that’s correct?</u>
+      <u who="PICKEN">In ’69 I went to mine warfare school and learned how to—learn how to run a mine sweeper, basically, and learned all the tactics and stuff like that. In <date>July</date>, I went back out to <persName>Pearl</persName> and took over as commanding officer in <date>July</date> of ’69 on the Force.</u>
+      <u who="LI">And how did that experience compare to your previous time on the <persName>Goldsborough</persName>?</u>
+      <u who="PICKEN">It was—it was tied to the pier in downtown <placeName>Honolulu</placeName> with no engines in it, and we take off [unintelligible] <date>week</date> and, you know, had a—had a very—very nice period of time. It was hard work. It was hard work, and it was difficult and frustrating because of screw-ups in the engineering side of the—of the <orgName>Navy</orgName>. The plans that were being sent out from the <orgName>Pentagon</orgName> were screwed up, and we ended up having to redo, rework an awful lot of stuff out there. But we worked with the supervisor of shipbuilding, which was a civilian operation, a bunch of Hawaiians and Chinese and Japanese engineering folks who worked for the—civilian workers for the <orgName>Navy</orgName>.</u>
+      <u who="LI">So tell me about the transition to life after the <orgName>Navy</orgName>.</u>
+      <u who="PICKEN">Well, I came back to <placeName>Hanover</placeName>. I had planned to get a <persName>Ph.D.</persName> after I got out. When I got out, I was going to go back to school and get a <persName>Ph.D.</persName>, so—while I was in <persName>Pearl</persName>, I went to <orgName>the University of Hawaii</orgName> to—I’d gotten an MBA from <persName>Tuck</persName>, and I wanted to see if there were any courses I could take just to be back in the idea of studying. I’d taken my Graduate Record Exams and had real good scores. Was going to go back and get a <persName>Ph.D.</persName> in economics, and I applied to <orgName>Harvard</orgName> [University] and <orgName>Stanford</orgName> [University] after that.</u>
+      <u who="LI">And did you perceive a difference in campus culture when you returned from when you, you know, went to school?</u>
+      <u who="PICKEN">Well, I mean, sure, <date>four—four years later</date>, married—I wasn’t doing the same stuff I’d been doing when I was in college. [Chuckles.] And so, yeah, it was a little difference in culture. <date>A year</date> after we got there, the place admitted women. I think it was ’71 or—’71 or <date>’72</date>. The culture started to change a little bit, but the town was about the same. The college wasn’t any larger than it was. They hadn’t started <date>year-round</date> stuff, so it was—it was pretty much—pretty much the same.</u>
+      <u who="LI">[Chuckles.] Looking for nothing in particular, but that’s interesting to note.</u>
+      <u who="PICKEN">No. Nope. Nope. Not—not at all. I mean, you got to remember, I was—I was in a position where I was pretty independent. I was a commanding officer of a ship. I had some responsibilities. But, you know, I was pretty independent. I never felt constrained. We had our routines. We were doing what we were doing. We knew why we were doing it. But no, I—I didn’t—I didn’t feel any need to escape or anything else. It was—it was a reasonably normal transition, went from one job to another.</u>
+      <u who="LI">And did you feel like the <orgName>Navy</orgName>—your time in the <orgName>Navy</orgName> impacted <date>the following years</date>, or in your mind, was it very compartmentalized, like you just moved on from one job to the next like you just mentioned?</u>
+      <u who="PICKEN">One job to the next, but if you were—if you were in the military, [unintelligible] one of the things about the military is that you grow up—you grow up in a hurry. And I was <date>26 years old</date>, commanding officer of a ship. And previously, <date>25—24</date>, <date>25 years old</date>, responsible for a ship, several hundred crew, in a combat zone. You grew up in a hurry. And I loved the responsibility. I loved the action. And it—you know, I’ve always lived a high-adventure lifestyle, in one way or another. Never shied from responsibility, and I never felt—never felt that I had been disadvantaged [unintelligible] military. </u>
+      <u who="LI">So you—</u>
+      <u who="PICKEN">—“You’ve had a tremendous—you’ve had a tremendous opportunity in the military whether you were an officer or whatever it is. You grow up faster than most of the other people your age, and take advantage of it, because it’s true. Responsibility—learning responsibility, learning how to get along with very, very different kinds of people, learning to be accountable to yourself and for others. Tremendous—tremendous amount of [unintelligible].”</u>
+      <u who="LI">And you mentioned that two of your sons are in the <orgName>Navy</orgName>. Did you encourage them to—to join and get that experience that you were just talking about?</u>
+      <u who="PICKEN">Well, I don’t know that I encouraged them or not. It was certainly an option. My oldest son went to—went to a small school here in <placeName>Texas</placeName>, about 1,200 students, called <orgName>Austin College</orgName>, but it’s regarded as being one of the top schools in <placeName>Texas</placeName> for getting into medical school, you know something like 60 percent of their pre-med students get into the medical school of their choice. They do a really good job [unintelligible] he wanted to become a doctor. He went to [unintelligible], graduated from there with honors, and had a real good experience. A small school. He’s gotten [unintelligible]. </u>
+      <u who="LI">And how would you—with—obviously a history in the <orgName>Navy</orgName> in particular—how would you characterize the <orgName>Navy</orgName>’s role in terms of the nation’s defense?</u>
+      <u who="PICKEN">Absolutely critical. We are surrounded by oceans on both sides. Our ability to trade with trading partners and <placeName>Europe</placeName> and <placeName>the Far East</placeName> depends on freedom of the seas, which is being challenged right now by <placeName>China</placeName>, but we have had the dominant military, dominant <orgName>Navy</orgName> for a long, long time. And if you—if you had trouble any place else in the world and <placeName>the United States</placeName> feels a need to project power, that’s who you’d called. You call the <orgName>Navy</orgName> carrier aviation. Naval aviation is the first one in, and the Marines follow right after that. They’re part of the <orgName>Navy</orgName>. Absolutely essential.</u>
+      <u who="LI">And how do you think that your experiences in the <orgName>Navy</orgName> have shaped your world view since?</u>
+      <u who="PICKEN">Well, you understand the psychological concepts of resilience and psychological hardiness?</u>
+      <u who="LI">I hope so [chuckles].</u>
+      <u who="PICKEN">Well, I mean, have you heard those terms?</u>
+      <u who="LI">Yes.</u>
+      <u who="PICKEN">Okay. Psychological hardiness. You have a sense that you are in control of your own destiny, right? That’s important. That’s important. If you take a look at the—the definitions—I’m getting into professor mode right here now. It’s an important point. If you are psychologically hardy, you have a strong sense of control, believing you can influence the outcome of a situation and so on, and strong sense of commitment to what you’re trying to do, and challenge doesn’t bother you. You—you enjoy learning, challenge and so on and so forth.</u>
+      <u who="LI">And you mentioned a little while back that you thought <placeName>America</placeName> had lost something when they got rid of the draft. Could you expand on that?</u>
+      <u who="PICKEN">Yeah. I think—I don’t think <placeName>America</placeName> has lost so much as the generations that have come through without the lack—without the lack of—the positive benefits of military experience and the discipline and learning to get along with all different types of people, and so on. And we—we’ve gotten, as a nation, spoiled by the fact that only a very—very small percentage of this country and populations had that military experience. And you grow up in a hurry in—in that kind of a situation, either in the training or in the actual—the actual combat.</u>
+      <u who="LI">So tell me about your decision to go into teaching.</u>
+      <u who="PICKEN">Well, I’d already—always thought about—always thought about teaching. As I say, when I got out of the military, I thought about wanting to go back into an academic career. I got sidetracked for <date>25 years</date>, but it was always something—always something I wanted to do. And I was running two businesses of my own at the time, but paying through the—paying through the nose for medical insurance for the family and felt that I was getting along in <date>years</date> and, looking back now, it doesn’t seem like that, but I was—I was in my late 40s, and I had a wife who had some issues, health issues that were going to continue to be expensive, and thinking that, you know, maybe I ought to put myself in a position with a regular salary and benefits and stuff like that.</u>
+      <u who="LI">It seems like those two qualities have been with you your entire life, ever since, you know, your construction business when you were young.</u>
+      <u who="PICKEN">Well, yeah, there’s been a common thread there, I guess. But, you know, as long as I’m having fun, I’m going to keep doing it. I’ll be 73 in <date>about a month</date>, and I can’t see myself ever slowing down. [Unintelligible]. I can only play golf four times a week without getting frustrated. You know, life is good. Remarried <date>about eight years ago</date>, and my wife and I have a great time. We travel a lot. And she’s got her thing and I got my thing, and it isn’t a big deal, for either of us, and we enjoy our kids, traveling. So life is good.</u>
+      <u who="LI">That’s great.</u>
+      <u who="PICKEN">Get on the golf course [unintelligible]. It’s—it’s [unintelligible].</u>
+      <u who="LI">I guess this is a very large and broad, open-ended question, so I apologize, but—</u>
+      <u who="PICKEN">Most of them have been.</u>
+      <u who="LI">[Chuckles.] True.</u>
+      <u who="PICKEN">Well, that’s a very interesting question. There’s a book. It was written by a professor up at <orgName>Oklahoma State [</orgName>University]. He went out and asked a whole bunch of leaders around the country, “What should be tell our children about <placeName>Vietnam</placeName>?” A lot of different perspectives in there. That—about as much as you can get.</u>
+      <u who="LI">Sorry?</u>
+      <u who="PICKEN">[unintelligible].</u>
+      <u who="LI">Sorry, I can’t hear you.</u>
+      <u who="PICKEN">I said, “Are you a <date>millennial</date> or a Gen X” or where are you here?</u>
+      <u who="LI"><orgName>I’m</orgName> a millennial, by definitions.</u>
+      <u who="PICKEN">You’re a millennial. The message I would have for you is it’s important to have the experience and to feel a sense of responsibility for what’s going on in the world and in your—in your country and your country’s role in the world. And it’s not all about you, and it’s not all about your electronic media or anything else. There’s a lot going on that’s important in the world. And you can’t hide behind the borders of <placeName>the United States</placeName> and think everything’s rosy, because it’s not, around the world. And if you had the experience, if you have an opportunity to have the experience to travel, travel. One of the ways you can travel is join the military and see the world. Maybe that’s not exactly your first choice, but you grow up a lot. </u>
+      <u who="LI">Yeah, and I think especially with the draft gone now, it’s an experience that is dwindling in terms of representation across our generations.</u>
+      <u who="PICKEN">Well, I think it’s easy—yeah—I mean, when I was—when I was growing up, 80 percent of the members of <orgName>Congress</orgName> had had military service in <name type="event">World War II</name>. It’s now down to something less than 5 percent of the members of <orgName>Congress</orgName> who’ve had any kind of military experience, and it shows in terms of the—the judgments that are being made.</u>
+      <u who="LI">Right.</u>
+      <u who="PICKEN">And it scares the hell out of me, quite honestly, that we’re going to elect either [<persName>Donald J.]</persName> Trump or <persName>Hillary</persName> [<persName>Rodham</persName>] <persName>Clinton</persName>, neither of whom has any military experience and, near as we can tell, very little common sense. So I fear more for our country in the next—next iteration than I have in the past iteration, which has been, in my view, has been an unmitigated disaster, particularly on the international front.</u>
+      <u who="LI">Well, it seems like a decent, yet concerning, place to stop at the same time. Well, thank you so much for sharing your experiences with me and the <placeName>Vietnam</placeName> Project in general.</u>
+      <u who="PICKEN">Okay. </u>
+      <u who="LI">It’s really important that we—</u>
+      <u who="PICKEN">Well, if I haven’t—</u>
+      <u who="LI">—get all these stories down.</u>
+      <u who="PICKEN">I hope I haven’t offended you too much.</u>
+      <u who="LI">[Chuckles.] Not at all.</u>
+      <u who="PICKEN">Everywhere we went, by the way, we—we—we spent <date>five weeks</date> in <placeName>Australia</placeName> and <placeName>New Zealand</placeName>—everywhere we went, people would look at us and then they’d talk to us. We’d run into people in bars and restaurants and stuff like that down in that part of the world, and every one of us—every one of them would ask us about the political situation in <placeName>the United States</placeName>. And the—the most common response is, “Are you folks nuts? Are you folks nuts? Is the political situation that bad that you’re considering the candidates you’re considering on either side?”</u>
+      <u who="LI">Yeah. I think a lot of the self-reflection that’s needed is aided by, you know, conversations like these, and it’s great that we can capture your experiences and the experiences of people, you know, like you during this <placeName>Vietnam</placeName> era to kind of inform the younger generations about what has been lost.</u>
+      <u who="PICKEN">Well, and we didn’t—we didn’t get into the—the negatives of that but read my—read my remarks at the Wall.</u>
+      <u who="LI">I did, yeah.</u>
+      <u who="PICKEN">And I’ve lost half a dozen good friends. And that was the negative of it. We talked a lot about the positive experiences of military service, but that’s one of the negatives. And I don’t want to leave that out. </u>
+      <u who="LI">Of course. Is there anything you’d like to add about that?</u>
+      <u who="PICKEN">Well, I—I just—if I were you, if you—if you have the capability, I just hope that set of remarks—and appended them to the file.</u>
+      <u who="LI">Sure.</u>
+      <u who="PICKEN">Okay.</u>
+      <u who="LI">Definitely, along with the—</u>
+      <u who="PICKEN">Okay. Well, I appreciate your work on this project. I hope it proves fruitful.</u>
+      <u who="LI">Definitely, and thank you so much again for all the materials you forwarded my way and for the conversation <date>today</date>.</u>
+      <u who="PICKEN">Okay, good enough. Well, good luck to you. I hope you graduate with honors and find a fine career.</u>
+      <u who="LI">I hope so, too. Thank you.</u>
+      <u who="PICKEN">Okay. All right. <persName>Goodbye</persName>.</u>
+    </body>
+  </text>
+</TEI>

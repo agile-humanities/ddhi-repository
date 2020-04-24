@@ -1,0 +1,437 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="PARKER"/>
+        <person xml:id="MARKOWITZ"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="MARKOWITZ">Okay, so this is <persName>Hannah Markowitz</persName>. I’m in <orgName>Rauner</orgName> [<orgName>Special Collections] Library</orgName> on <orgName>Dartmouth College’s</orgName> campus. It is <date>August 18th, 2016</date>. I’m here with [<persName>Michael W.] “Mike” Parker</persName>, and this is for <orgName>the Dartmouth Vietnam Project</orgName>.</u>
+      <u who="PARKER">Okay. Well I was born in the northern part of <placeName>Maine</placeName>. My parents are <persName>Robert [G. Parker</persName>] and <persName>Ruth</persName> [Trickey] Parker, and I spent some time living in various places but circled back to <placeName>Maine</placeName> when my father settled there to practice optometry.</u>
+      <u who="MARKOWITZ">Okay. And what did your—what did your father do before he went back to practice optometry?</u>
+      <u who="PARKER">He was a teacher. Both my mother and father were teachers in northern <placeName>Maine</placeName>, in <placeName>Fort Fairfield</placeName>, <placeName>Maine</placeName>.</u>
+      <u who="MARKOWITZ">Okay. Is that where they met?</u>
+      <u who="PARKER">No, they met at <orgName>University of Maine</orgName>. They were both musical, and <persName>Dad</persName> was an accompanist, and my mother was a soloist, and you can see where that went.</u>
+      <u who="MARKOWITZ">[Chuckles.] The perfect match.</u>
+      <u who="PARKER">I have one sister, <persName>Anna</persName> [<persName>M. Parker</persName>]. She’s <date>six years</date> younger than I am.</u>
+      <u who="MARKOWITZ">What was it like growing up in rural <placeName>Maine</placeName> at the time?</u>
+      <u who="PARKER">Well, big fish in a small pond. This was my mother’s hometown, and the school there, the high school anyway, is a private school that is used by the town, as happens in lots of <placeName>Maine</placeName>—small <placeName>Maine</placeName> communities, so it was like—it was the advantages of a private school without it being private.</u>
+      <u who="MARKOWITZ">And what sorts of things would you do for fun with your friends there?</u>
+      <u who="PARKER">Well, I was—I was very active physically. I learned to ski at a young age and skied <placeName>Sugarloaf</placeName> [Mountain] when it cost <date>two fifty a day</date>. And I was active in skiing and football, although I was a lesser light in that. And active in <orgName>Boy Scouts</orgName> [of <placeName>America</placeName>]. And met somebody on a trail on <placeName>Mount Katahdin</placeName>, who had gone to <orgName>Dartmouth</orgName> and sold it by his being.</u>
+      <u who="MARKOWITZ">What age was that?</u>
+      <u who="PARKER">I was in—I was probably a sophomore in high school—</u>
+      <u who="MARKOWITZ">Okay.</u>
+      <u who="PARKER">—at that time. So it sounded like a good place if people like that came from there.</u>
+      <u who="MARKOWITZ">[Chuckles.] And so what—when exactly were you born?</u>
+      <u who="PARKER">I was born <date>January 21st, 1942</date>.</u>
+      <u who="MARKOWITZ">Okay. So growing up, obviously in the post-<name type="event">World War II</name> era, was that a big part of your daily life, growing up in <placeName>Maine</placeName>? Were the legacies of it spoken about a lot?</u>
+      <u who="PARKER">Not so much <name type="event">World War II</name>. I remember more about <name type="event">the Korean War</name> and having to be quiet when the news came on to hear what was going on in <placeName>Korea</placeName>. But the—<name type="event">World War II</name> was going when I was too young to know about it.</u>
+      <u who="MARKOWITZ">Right, right. And so your parents were not involved in <name type="event">World War II</name>?</u>
+      <u who="PARKER">Well, in a way. My father worked at the—as a welder in the shipyard in <placeName>Portland</placeName>,—</u>
+      <u who="MARKOWITZ">Okay.</u>
+      <u who="PARKER">—building—I can’t remember what they’re called, but—Liberty ships. <placeName>Portland</placeName> built a—the rate of building of cargo ships called Liberty ships was enormous, and <placeName>Portland</placeName> was one contributor.</u>
+      <u who="MARKOWITZ">Okay. Do you feel like politics or—you mentioned having to be quiet when the news came on. Was that a big part of your home or family life growing up?</u>
+      <u who="PARKER">To a certain extent. My parents were Republican[s]. Senator <persName>Margaret Chase Smith</persName> was best friends with one of the big wheels in <placeName>Pittsfield</placeName>, and so that’s—that was our—and we voted for <persName>Ike</persName> [President <persName>Dwight D. Eisenhower</persName>], and I actually made a stop in <placeName>Pittsfield</placeName>, probably because of this—this fellow who was a big political wheel in <orgName>the Republican Party</orgName>.</u>
+      <u who="MARKOWITZ">So you mentioned that you met someone hiking on a trail that sort of convinced you to check out <orgName>Dartmouth</orgName>. Were—were there other options at the time? What was it like finishing up high school, looking to the future?</u>
+      <u who="PARKER">Well, I was fairly well situated, from my accomplishments in high school, to at least apply to <orgName>Dartmouth</orgName>. And, in fact, I only applied to <orgName>Dartmouth</orgName>, and the headmaster of the high school was good friends with the Bowdoin [College] director of admissions, and I had a verbal assertion that if I didn’t get in to <placeName>Dartmouth</placeName>, I could go to <placeName>Bowdoin</placeName>. So I—I was—once I decided that <placeName>Dartmouth</placeName> looked to be the place I wanted to go—and my favorite color was green, too—[Both chuckle.]—I was pretty well on track for that.</u>
+      <u who="MARKOWITZ">Was it common for students from this private high school you went to in <placeName>Maine</placeName> to attend college after, or—</u>
+      <u who="PARKER">Yes, there was a fairly high college rate. Not too many at <placeName>Dartmouth</placeName>. I don’t know—I don’t know of a <orgName>Dartmouth</orgName> graduate who preceded me from there, but there have been several since then.</u>
+      <u who="MARKOWITZ">So you mentioned you were on a <orgName>Navy</orgName> ROTC [Naval Reserve Officers Training Corps] scholarship.</u>
+      <u who="PARKER"><persName>Mm-hm</persName>.</u>
+      <u who="MARKOWITZ">What was the process of applying for that, and why specifically did you choose <orgName>Navy</orgName>?</u>
+      <u who="PARKER">Well, is there any other service? [He said with an apparent smile.]</u>
+      <u who="MARKOWITZ">[Laughs.]</u>
+      <u who="PARKER">I chose <orgName>Navy</orgName> because I liked—I liked the idea of going to sea. The process of getting the <orgName>NROTC</orgName> scholarship was to go through a rigorous physical in <placeName>Boston</placeName> and then take a—a test, which included folding and unfolding boxes, and I remembered it as meeting myself coming out more often than not, in answering those questions. But it turned out that I did okay in that, and so I was—I was actually given the scholarship before I had a place to use it.</u>
+      <u who="MARKOWITZ">Oh, wow.</u>
+      <u who="PARKER">And <placeName>Bowdoin</placeName> wouldn’t have, so it’s a good thing that I got into <orgName>Dartmouth</orgName>.</u>
+      <u who="MARKOWITZ">So this physical test and all the tests you mentioned—that was during your senior year in high school?</u>
+      <u who="PARKER"><persName>Mm-hm</persName>. Yes.</u>
+      <u who="MARKOWITZ">And you had to travel for them?</u>
+      <u who="PARKER">A little bit. Not too far.</u>
+      <u who="MARKOWITZ">When did you decide—or what was the motivating factor in deciding that you would pursue <orgName>ROTC</orgName>?</u>
+      <u who="PARKER">Well, it went pretty much as soon as I heard about it, it sounded like a pretty attractive program. It paid tuition, books and a stipend of $50 a month and provided entertainment in <date>each summer</date>, so how could it be any better than that? [Chuckles.]</u>
+      <u who="MARKOWITZ">And were your—were your parents on board with that?</u>
+      <u who="PARKER">Well, I remember my mother coming out of the back door when my father and I drove in the driveway, waving an envelope. It was not my acceptance to <orgName>Dartmouth</orgName>; it was my acceptance as an <orgName>NROTC</orgName> scholarship [sic], so—</u>
+      <u who="MARKOWITZ">They were—they were proud of that?</u>
+      <u who="PARKER">They were very grateful for that, yeah.</u>
+      <u who="MARKOWITZ">So you arrived at <placeName>Dartmouth</placeName> in <date>the fall of 1960</date>?</u>
+      <u who="PARKER"><persName>Mm-hm</persName>.</u>
+      <u who="MARKOWITZ">And what was—what was the <orgName>ROTC</orgName>—or just in general, [the] campus climate at that time? If you want to talk specifically about <orgName>NROTC</orgName>?</u>
+      <u who="PARKER">Yeah. Well, there were—there were <orgName>ROTC</orgName> units in all the services, the three major services, and they were, I would say, tolerated by the faculty and more than tolerated by the students when I—when I arrived. We—we did some marching around, and that was considered kind of childish, I guess, but there was no firm resistance to what we were doing in that. I think the faculty was a little jealous of naval officers coming in and becoming—achieving a professorial status at an elite school because they—they had a certain area of expertise, which they were going to—in courses which they were going to teach, and it probably—were not intellectually on a par with the rest of the faculty.</u>
+      <u who="MARKOWITZ">So what—what sorts of courses or drills would you do as part of your <orgName>Navy</orgName> ROTC time here?</u>
+      <u who="PARKER">Well, I remember a naval history course, and then we took quite a few engineering courses—of shipboard engineering, so that we could learn, in advance, some of the equipment that we would be exposed to when we got to sea.</u>
+      <u who="MARKOWITZ">So it seems like these—<date>these summers</date> were pretty overall a great experience for the—</u>
+      <u who="PARKER">It was <date>summer</date> camp.</u>
+      <u who="MARKOWITZ">[Laughs.] Okay.</u>
+      <u who="PARKER">In fact, I have—I have to say that on reflection, I look back at <placeName>Dartmouth</placeName> as <orgName>Camp Dartmouth</orgName> to a certain extent. [Chuckles.]</u>
+      <u who="MARKOWITZ">Definitely.</u>
+      <u who="PARKER">Well, it was a fairly large group. I don’t know what percentage were in the military. I don’t believe it was a third. Maybe 20 percent. But the military not only had marching drills in a high visibility spot on the [<orgName>Dartmouth] Green</orgName> sometimes, but they would have social functions. And, you know, part of becoming a military officer is learning to act like one, and so we would have military balls once a year, and I guess that—that was about it. But it was—it all fit into the general program. Didn’t interfere with what else was going on at that stage. But it was on the cusp of [the] Vietnam [War]. Things changed a little bit, and, of course, we graduated in <date>’64</date>, and by ’66 we were in up to our ears.</u>
+      <u who="MARKOWITZ">So what—what did you study here at <orgName>Dartmouth</orgName>?</u>
+      <u who="PARKER">Well, my military scholarship said I couldn’t take a pre-professional major. And I had dentistry and teaching were the two things that I thought I might like to do with my life. And so I came here thinking I wanted to be a physics major, but I was basing that on Newtonian physics. And on day three of the physics class, I was over my head and never did recover.</u>
+      <u who="MARKOWITZ">Was that through the—was that through <orgName>the earth science department</orgName>?</u>
+      <u who="PARKER"><persName>Mm-hm</persName>.</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="PARKER">Yes. Then it was—I don’t think it was <orgName>earth sciences</orgName> until later, but it was geology then. And, so that was a small group. There were about six of us in the class that majored in geology.</u>
+      <u who="MARKOWITZ">Wow.</u>
+      <u who="PARKER">And I was the only one in geophysics.</u>
+      <u who="MARKOWITZ">Did you—did that at all change what you saw as your ultimate career goals, or were you still pretty—</u>
+      <u who="PARKER">It didn’t affect—it didn’t change my career goals. I still felt I wanted to teach or be a naval officer or be a dentist. And I never used geology from the day I graduated except to impress people with identifying structures in the passing hills.</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="PARKER">But I learned to learn, and I didn’t feel at a loss because my major was geophysics. And, in fact, while I was in the <orgName>Navy</orgName>, I felt that I was making a significant contribution to balance the score a little bit between the other sources of naval officers, from the [U.S.] Naval Academy and other military schools, who were primarily engineers—you know, engineers think differently, express themselves differently, and so somebody from a liberal arts college is—was a big improvement for the <orgName>Navy</orgName>, and I think we played—we liberal arts graduates played a significant role in broadening the perception of the naval officer corps.</u>
+      <u who="MARKOWITZ">Do you feel like there were other liberal arts graduates—</u>
+      <u who="PARKER">Oh, sure.</u>
+      <u who="MARKOWITZ">—while you were serving</u>
+      <u who="PARKER">Oh, sure, there were. There were <orgName>ROTC</orgName> units in many, many schools, including all of the Ivies [Ivy League schools], as far as I know.</u>
+      <u who="MARKOWITZ">Okay. So outside of <orgName>ROTC</orgName> and academics, which I’m sure took up a lot of time, what—how did you spend your free time or down time here at <orgName>Dartmouth</orgName>?</u>
+      <u who="PARKER">Well, it was all up time.</u>
+      <u who="MARKOWITZ">[Laughs.] No real down time.</u>
+      <u who="PARKER">I was—I was invited by a non-skier who had gone out for skiing—those were <date>the days</date> when you could walk on and—into any sport if you wanted to and might make the team—to come out and join the ski team because every <date>Sunday</date> they would go on these lovely walks, hikes at a high speed in the surrounding hills. And so it sounded goods to me, and I quickly bonded with the recruited skiers, along with those—and friends of mine who weren’t recruited and, like me, had just walked in. And we had a wonderful coach, and just—it was—it was very comforting side activity that balanced very well with my academics. [<persName>C. Allison</persName>] “Al” Merrill was the ski coach when I was here, and he had been—he had coached our <placeName>Olympic</placeName> team, and he had been our main representative for skiing in the—in the <name type="event">Olympics</name>. Just a wonderful person to train under.</u>
+      <u who="MARKOWITZ">So you graduated in <date>1964</date>—</u>
+      <u who="PARKER">Yes.</u>
+      <u who="MARKOWITZ">—from <orgName>Dartmouth</orgName>. What—what was that spring like, just looking towards your commission and graduation and things that were going on on campus?</u>
+      <u who="PARKER">Well, several things happened. I was commissioned—I was commissioned within <date>a few days</date> of graduation, and within <date>ten days</date> I was also married on campus, in the <orgName>Congregational</orgName> church. My wife was graduating from <persName>Mary Hitchcock</persName> [<orgName>Memorial] Hospital</orgName> [now part of <orgName>the Dartmouth-Hitchcock Medical Center</orgName>]. So I was one of those on campus who really was not at an all-men’s school. [Both chuckle.] But I didn’t have any classmates who were women.</u>
+      <u who="MARKOWITZ">No, feel free to add whatever you want. There’s no—no specific direction.</u>
+      <u who="PARKER">Well, I—I remember vividly—our—our ship was—I was on a destroyer down in training, refresher training in <placeName>Gitmo</placeName> [Guantanamo Bay Naval Base]. Before it was a prison, it was a rather nice place to visit, except that they trained you really hard and it was hotter than hades. And one night, we were relaxing, watching a movie on one of the weather decks, and one of the other ships got under way unexpectedly. And quickly the rumor spread around those who were watching the movie that this ship, which was a sister ship of ours, beginning with B—I think it was the <orgName>Bache—Bache</orgName> or the <persName>Beale</persName>. It would have been the <orgName>Bache</orgName>. Had gotten under way and had orders to go to <placeName>the South China Sea</placeName> and participate in <name type="event">the Vietnam War</name>. </u>
+      <u who="MARKOWITZ">What <date>year</date> was that?</u>
+      <u who="PARKER">That would be ’65.</u>
+      <u who="MARKOWITZ">Okay. And I left that ship and went to another ship in—in—in <date>about ’66</date>, and spent <date>two years</date> on that. Got back to <placeName>Gitmo</placeName> on a more pleasure-centered basis—we were just down there to count ships going into <placeName>Cuba</placeName>, or identify ships going into <placeName>Cuba</placeName>. And then we—we’d do that for <date>two weeks</date>, and then we’d go in and spend—spend <date>a week</date> in <placeName>Gitmo</placeName>.</u>
+      <u who="MARKOWITZ">So I definitely—I definitely want to come back to this one year sort of forced service in <placeName>Vietnam</placeName>, almost, under Admiral <persName>Zumwalt</persName>, but if I just take you back to <placeName>Cuba</placeName> for a second first.</u>
+      <u who="PARKER">Hmm.</u>
+      <u who="MARKOWITZ">So within—sort of within <date>a matter of days</date>, you got married, graduated from <orgName>Dartmouth</orgName> and then were commissioned. Did you go straight to <placeName>Cuba</placeName> as part of your—</u>
+      <u who="PARKER">No, I went—I went to a—I went to a ship that had just—in fact, I met—I met my ship after <date>a month</date> of leave to get married—I met my ship in the <placeName>Mediterranean</placeName> [Sea], in <placeName>Naples</placeName>, and we came straight back and went into the shipyard for overhaul. And while they were in overhaul, I was getting educated in how to be a <orgName>CIC</orgName> [<orgName>Combat Information Center</orgName>] officer aboard ship.</u>
+      <u who="MARKOWITZ">Could you just clarify what <orgName>CIC</orgName> is?</u>
+      <u who="PARKER">Yeah. <orgName>Combat Information Center</orgName>—</u>
+      <u who="MARKOWITZ">Okay.</u>
+      <u who="PARKER">—is the nerve center of a ship, where—where the fighting is directed from. And so this was—this was new to me. Right after commissioning, I had gone to <placeName>Philadelphia</placeName> and had gotten—went through a school called <orgName>Damage Control School</orgName> and learned how to keep a ship afloat when damage was inflicted, and that’s what my job was on the <persName>Waller</persName>, was damage control officer.</u>
+      <u who="MARKOWITZ">Was that something you were interested in before, or did it just sort of happen during your time there in <placeName>Cuba</placeName>?</u>
+      <u who="PARKER">Well, actually, I just—I just flipped the assignment. Because I’d had training in damage control, I was—I had—after I went to <orgName>CIC</orgName> school, I came back and became the <orgName>CIC</orgName> officer,—</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="PARKER">—and we got—we pulled into <placeName>Key West</placeName>, and the damage control officer left, and I had to replace him, to go back to my—my old job. And so that’s the center of attention or oppression, you might say, in <placeName>Gitmo</placeName>, is trying to keep the ship afloat, keep it watertight, and it was—it was really a lot of fun, because we’d work—work our buns off <date>all day</date>, and then breathe a sigh of relief and start right in <date>the next day</date> and do the same thing. But the bonding with the people in the crew and the people in my—my division of enlisted people was really nice, and that makes that kind of job really fun.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="PARKER">So that—that was part of my <orgName>Navy</orgName> growing up, and I really enjoyed it.</u>
+      <u who="MARKOWITZ">Was there any sort of hierarchy that was in place that you noticed, like socially, when you first got there, or—</u>
+      <u who="PARKER">No.</u>
+      <u who="MARKOWITZ">It seems like you were pretty fully integrated.</u>
+      <u who="PARKER">But the <orgName>Navy</orgName> is very hierarchical.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="PARKER">It is the difference between a civilian and a—and a person in the <orgName>Navy</orgName> is only invisibility. I think most organizations are as hierarchical, but they don’t show it on their sleeve. And, of course, the <orgName>Navy</orgName> does. So, yeah, there were strict social norms that we had to observe aboard ship that civilians wouldn’t be observing.</u>
+      <u who="MARKOWITZ">Like what?</u>
+      <u who="PARKER">Oh, we had to—we had to pay a formal visit to the commanding officer as soon as we pulled into our home port. And when we’d go to—when we went—we were there—we were due to arrive at a given time, and we were supposed to stay for a given length of time. I can’t remember whether it was an hour or an hour and ten minutes. But, by gosh, we were supposed to back out of there. And when we did, we’d leave our—our calling card, same as a business card but with your name and rank on it. And senior officers would keep these things for—I guess to sit around in the rocking chair and see—see who visited them when they were commanding officers. [Chuckles.] And then we would attend social functions and, of course, we’re always—most of the time we’re in uniform, and so it’s eminently visible that we have a hierarchy. But it was fun.</u>
+      <u who="MARKOWITZ">[Chuckles.] What made it so fun? Besides the camaraderie of the ship—</u>
+      <u who="PARKER">The camaraderie, the responsibility, the sense of growth, the—it was a big moment when I qualified officer of the deck under way, because I did it <date>the same day</date> as the counterpart from <orgName>the Naval Academy</orgName> who came aboard <date>the same day</date> I did, and so he didn’t come in and just shoot to the top; he got to the top with some of the rest of us.</u>
+      <u who="MARKOWITZ">So you arrived in <placeName>Cuba</placeName> <date>two or three</date> after <placeName>the Bay of Pigs [Invasion</placeName>] and the Cuban Missile Crisis. Was that at all hanging over your time there? Was that something people thought about or—</u>
+      <u who="PARKER">No, the only relationship between <placeName>Cuba</placeName> and its recent military history was that we were down there watching for ships coming in with missiles on them and identifying who—who was coming in. But the missile crisis had—was over, and—and the main mission down there—the only mission on the first ship was to train us up for sea duty—</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="PARKER">—after being in the yards, you get—you get kind of—you lose a lot of crew and get replacements and they’re green, so you need to train as a unit. And that’s what they do down in <placeName>Gitmo</placeName>.</u>
+      <u who="MARKOWITZ">So other than that, not—not much interaction.</u>
+      <u who="PARKER">No, not in <placeName>Cuba</placeName>.</u>
+      <u who="MARKOWITZ">What was the—could you talk a little more about the responsibilities of the second ship you were on, the coastal minesweeper?</u>
+      <u who="PARKER">I was executive officer on the minesweeper, the number two, but it’s a really small crew, and—and so we—we did a lot of minesweeping exercises. Also had a lot of esprit, and I think that was probably where my education came more into play than anywhere else because we would write—well, to go back a bit, the—there was a dean of freshman named [<persName>Albert I.] Dickerson</persName> [Class of <date>1930</date>] in <date>my day</date>, who used to write these marvelous, five- and six-page letters to the parents of freshmen that were priceless. </u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="PARKER">I hope they’re—I’m sure they’re stored somewhere. But they were works of art. And—and my—my letters to the families of our crew were not works of art, but they—they got a good part of my attention. And—and I can tell you, that when those went out, the copies that we kept aboard were in tatters before very long because they all got a good reading. And that was a way of creating a sense of teamwork and was part of the job that I really liked.</u>
+      <u who="MARKOWITZ">How many crew members did you have?</u>
+      <u who="PARKER">I was afraid you’d ask.</u>
+      <u who="MARKOWITZ">[Laughs.]</u>
+      <u who="PARKER">Probably <date>35</date> and five, or 30 and five, maybe—five officers and about 30 crew, 30 enlisted.</u>
+      <u who="MARKOWITZ">What were these letters? Just, like, updates to the fam- —to their families telling them—</u>
+      <u who="PARKER">Yeah, yeah, telling them what’s going on, the fact that when we pulled into <placeName>Cuba</placeName>, the first—the first line over was the phone line because we could—we could talk with—there as a—what is a radio station—ham operators. There was a ham  station in <placeName>Gitmo</placeName> called <placeName>KG4AN</placeName>, King <persName>George</persName> for <placeName>America</placeName>’s <orgName>Navy</orgName>. And, of course, there were no phone lines between <placeName>Cuba</placeName> and the States in <date>those days</date>, but we—we would go ashore—we would put our phone line ashore and practically before the engines were shut down we had contact with the ham operator, and he was contacting our families back in the <placeName>States</placeName>. So that—that was a part of coming ashore in <placeName>Gitmo</placeName>.</u>
+      <u who="MARKOWITZ">Right. What was the—what was the name of the second ship?</u>
+      <u who="PARKER">The second ship was USS Frigate Bird. </u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="PARKER">It was—and oddly enough, later on I would circle back to that ship as a reservist, but we’ll probably get to that.</u>
+      <u who="MARKOWITZ">What was it like having your wife back in the States at this point? What was—what was she doing?</u>
+      <u who="PARKER">She was—let’s see, she was eventually raising a family but not immediately. And she was a nurse. She was a graduate of <persName>Mary Hitchcock</persName> [<orgName>Memorial Hospital School of Nursing</orgName>], and so in our first duty station, while I was down in <orgName>Damage Control School</orgName>, she worked for a while in <placeName>Portsmouth</placeName>—I mean in <placeName>Philadelphia</placeName>, and then when we were based in <placeName>Norfolk</placeName>, she had a—she was working pretty full time at a hospital there. So she was busy with that. And then—and then our family started, and so that family raising became the first priority. </u>
+      <u who="MARKOWITZ">Where was she—where was she living while you were on the Frigate Bird?</u>
+      <u who="PARKER">She lived in our home port, which was [Naval Amphibious Base] Little Creek, <placeName>Virginia</placeName>. I was stationed on the first ship in <placeName>Norfolk</placeName>, and the second ship is just another—another small-boat port around the bend on the—on the ocean side, and that’s where we lived.</u>
+      <u who="MARKOWITZ">So you mentioned earlier that you actually submitted a letter of resignation because you still wanted to attend dental school but that it was—</u>
+      <u who="PARKER">Yes. I had this <date>four-year</date> commitment, at the pleasure of the president, and the president unfortunately wasn’t pleased at that time [both chuckle] to accept it. So I was assured that <date>the end of the year’s</date> service in <placeName>Vietnam</placeName>, that I would—I would be—the letter would be accepted and I could go back and go to school.</u>
+      <u who="MARKOWITZ">Did you have—was there more of a conception of how big <name type="event">the Vietnam War</name> was becoming in I guess it would be ’63?</u>
+      <u who="PARKER">We--we were aware that things were really expanding, and it wasn’t a surprise to me that the letter got turned down. I know that a couple of my classmates didn’t appreciate it at all because they were really intent on getting out, but I wasn’t quite that much.</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="PARKER">And oddly, the class behind us got their terms cut by <date>a year</date> because the expansion was over and they were cutting back, so we kind of paid <date>the last year</date> of the Class of ’65’s commitment.</u>
+      <u who="MARKOWITZ">So what—if you could just walk me through what—what that was—what the time was like between getting this letter and then eventually going to <placeName>Vietnam</placeName>? Was there additional training involved?</u>
+      <u who="PARKER">Well, there was supposed to be. We went to <placeName>the West Coast</placeName>, and we learned a little bit of Vietnamese and a little bit about the culture so that we didn’t do something that was insulting, without meaning to. And I was supposed to attend what’s called SERE [Survival, Evasion, Resistance and Escape] School, which is—Something, Evasion—it didn’t take—I didn’t go to the <orgName>SERE</orgName> course. It’s a very challenging course in case you’re captured. I can’t remember what the S stands for, but <orgName>Escape</orgName> and Resistance to—see, if I had gone, I’m sure I’d remember what it was.</u>
+      <u who="MARKOWITZ">[Laughs.] They would have taught you.</u>
+      <u who="PARKER">But it was a psychologically and physically challenging course, and the last minute—I had orders to that, but the last minute, before we went to <placeName>Vietnam</placeName> and before we started <orgName>SERE School</orgName> in <placeName>California</placeName>, I was told that I had a <date>two-week</date>—<date>two weeks</date> free time while the aviators attended <orgName>SERE School</orgName>. But the job I was going to, either they didn’t care if we got captured—it didn’t matter [chuckles] if we got free or not [chuckles], or the likelihood of getting captured was so small that there was no sense in training us up for it. So I went home and saw my firstborn take his first steps and then came back and hopped on the plane to <placeName>Saigon</placeName>.</u>
+      <u who="MARKOWITZ">And what was the job you were going in for?</u>
+      <u who="PARKER">I was there as mine countermeasures and swimmer defense officer on the—on the admiral’s staff. And just before I had arrived, our forces had captured three very sophisticated mines, Russian made, that were magnetic, acoustic and pressure triggered, so it was a three-way mine that would be very hard to sweep, and it also had a ship counting capability, so that it could block out sweeps up to 30 times—you could sweep it 30 times and think you’d surely had cleared it, and on <date>the 31st one</date>, it would allow the signal to explode it. So we were very concerned about these on—on—on the rivers because we were using the rivers, of course, to resupply.</u>
+      <u who="MARKOWITZ">What were your thoughts on <name type="event">the Vietnam War</name> when you first went there?</u>
+      <u who="PARKER">Well, when I went over, I was pretty committed to the idea that there was a chain of communism that started in <placeName>China</placeName> and was gonna to work right down the coast, so that—that was popularly called the domino theory. And I was an advocate of the domino theory until I flew over <persName>Tan Son</persName> Nhut Air Base coming into <placeName>Saigon</placeName> and saw acres and acres and acres of armament, and I don’t mean it was rifles; it was heavy armament, and I thought to myself, What in the world are we doing to fight these guys in pajamas? Because that was the image that we had then, that these were—that the <orgName>VC</orgName>, <persName>Viet Cong</persName>, were South Vietnamese who were fighting against the government and they were aided by <orgName>North Vietnamese Army</orgName> folks. But even--even so, they walked down the <placeName>Hồ Chí Minh</placeName> trail, and what did we need all of this armament for, and how can we afford this? That thought crossed my mind before I touched down in <persName>Tan Son</persName> <persName>Nhut</persName>. So I was not overtly opposed to the war. Didn’t do much good to do that in the streets of <placeName>Saigon</placeName>, but I certainly felt that we had no business doing what we were.</u>
+      <u who="MARKOWITZ">That’s interesting.</u>
+      <u who="PARKER">No. I was—I was stationed in <placeName>Saigon</placeName>, and I arrived in <date>just less than a month</date> after the famous Tet Offensive of ’68. And there was still fighting going on that was being reported in the part of <placeName>Saigon</placeName> called Cholon, so I assured—when I was back there for <date>those two weeks</date> during <orgName>SERE School</orgName>, I—I assured my family that I would keep the hell out of Cholon.</u>
+      <u who="MARKOWITZ">Sorry about that.</u>
+      <u who="PARKER">Do you want to pause this?</u>
+      <u who="MARKOWITZ">Oh, no, it’s fine. I’ll just make sure the recording is going. The volume has to be up to record on the computer, but—okay. Sorry about that. </u>
+      <u who="PARKER">Sure.</u>
+      <u who="MARKOWITZ">So you could hear some—</u>
+      <u who="PARKER">In <date>the year</date> that I was there, I was—I never came under fire. There were a few times up north on the Cửa Việt River, which is one of the places that I had to visit as part of my—my countermeasures in swimmer defense and harbor defense role—where I was a little nervous being aboard a landing craft, but nervousness really wouldn’t do much good one way or the other, so I didn’t waste a lot of time on it. And I never—I never experienced a hostile encounter at all.</u>
+      <u who="MARKOWITZ">So when you were doing all this research on the mines and swimmer defense measures, was that all from <placeName>Saigon</placeName> still?</u>
+      <u who="PARKER">Yes. Yeah, the staff job and a field job, you need to differentiate. A field job is you’re out in the field, and you’re probably down in the paddies, shooting a rifle and getting shot at. A staff job is helping to orchestrate what’s going out in the field. In the <orgName>Navy</orgName>, the field would be the mother ship taking care of the small boats, these PBRs.</u>
+      <u who="MARKOWITZ">What is <orgName>PBR</orgName>?</u>
+      <u who="PARKER">Patrol—Patrol Boat, <placeName>Riverine</placeName>.</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="PARKER">These are fiberglass boats with a machine gun on the bow and little else, and not much armament. So they used speed to get—to inflict whatever they’re going to and then get the hell out. </u>
+      <u who="MARKOWITZ">So you—the just the differentiation between field and staff—</u>
+      <u who="PARKER">Oh, yeah, okay.</u>
+      <u who="MARKOWITZ">—in the <orgName>Navy</orgName>.</u>
+      <u who="PARKER">So I was at—I was on the staff job. There are good staff jobs. I worked in the operations department, where I would get out a lot and visit people who were—who were defending four or five harbors up <placeName>the east coast</placeName>. I would go up to <persName>Cửa Việt</persName>, where those mines were discovered, and see how things are going up there and deliver information that had been found useful from other activities, hostilities that I might have visited after the hostilities. Usually I would come to—to assess what had happened and how we might prevent it. That was part of my role. I wasn’t usually there when the hostilities actually occurred.</u>
+      <u who="MARKOWITZ">Got it.</u>
+      <u who="PARKER">Typical staffie. [Chuckles.]</u>
+      <u who="MARKOWITZ">Do you feel like there was a lot of interaction between the staff and the field officers, or—</u>
+      <u who="PARKER">No.</u>
+      <u who="MARKOWITZ">—was it kept very separate?</u>
+      <u who="PARKER">No. I mean—well, to the extent that we would go out and visit and make contact, it wasn’t—we couldn’t—it wasn’t productive to just remain aloof. But nevertheless, we walked to work <date>every day</date>, and we expected to walk back at <date>the end of the day</date>, and not everybody in the field had that luxury.</u>
+      <u who="MARKOWITZ">Did people actually call you “staffies” there or was that—?</u>
+      <u who="PARKER">Not to my face.</u>
+      <u who="MARKOWITZ">[Laughs.]</u>
+      <u who="PARKER">I did. No, we—we [chuckles] knew we were staffies. But I will say that in the operations department, there was something going on all the time. My roommate was in charge of the riverine forces, the PBRs, and they were developing these tactics, under Admiral <persName>Zumwalt</persName>. That’s where the action was for the <orgName>Navy</orgName>. That’s where it was all happening. So I was—I was in the same shop, the same room with them, but I had my territory that I was interested—that I was assigned to be responsible for. And there were—there were people who did nothing but stand watch and receive information from the field in a darkened room, which would have been a far less entertaining, useful feeling job to do over there.</u>
+      <u who="MARKOWITZ">What sorts of—what sorts of training or preparation did you feel you had going into this?</u>
+      <u who="PARKER">Well, the reason I was there, in mine countermeasures, was because I had served on a minesweeper, so I knew something about mines and something about how they’re swept, how they’re thwarted. And so that’s—that’s—my successor and my predecessor were both minesweeper sailors, so that was—that was why I had that job.</u>
+      <u who="MARKOWITZ">Did you ever feel unprepared for it, or—</u>
+      <u who="PARKER">Well, we did a lot of things by the seat of our pants because there was no precedent for some of the stuff that we—we were doing. Less so for me. I hadn’t encountered that mine before, but I knew that a mine with that capability was going to be a problem. And then we had—we had other mine sweeping that was going on that was just merely cutting wires so that somebody on shore couldn’t set a charge off on the middle—middle—midstream and do some damage to a ship coming up that river. And so we had small boats that were—small minesweepers that were doing that kind of sweeping. Nothing magnetic, nothing pressure, nothing that was at all sophisticated.</u>
+      <u who="MARKOWITZ">Did you ever encounter—I know you mentioned they found the three very sophisticated Russian bombs right around the time you were getting there.</u>
+      <u who="PARKER">Just before.</u>
+      <u who="MARKOWITZ">Just before. Did you—did you deal with anything like that? What were some of the countermeasures that you were coordinating or learning about?</u>
+      <u who="PARKER">Well, at one time we—we experimented with magnetizing a piece of railroad railing—rail, and we contemplated putting some floatation on that and towing it up—up the river, but that was pretty pathetic. If they had—if they had had numbers of those mines, we’d have been in deep trouble because we—we did not have minesweepers capable of creating magnetic fields and electric fields and acoustic fields that would trigger a mine before it exploded against a ship.</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>. So what were you most often dealing with?</u>
+      <u who="PARKER">Most often dealing with the less sophisticated threats of somebody touching some wires on shore or drifting down on a—on a ship or boat, or simply shooting from [the] shoreline. The—our ships aren’t used to anchoring in a constricted area that flows one way, stops, and flows the other way, stops, and flows back. And so we taught them that it’s in their best interest if they get under way every six hours, when the tides change, because at that point, anybody can slip into the water, especially if it’s at night and do some damage without—and they didn’t—they didn’t have any rebreathing apparatus. They would make bubbles, or they wouldn’t be underwater; they’d just be near the surface. </u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="PARKER">—and blend right in. So it—it was common sense defense, but sometimes we had to inject some common sense in the commanding officers who had these ships and weren’t used to what they were up against.</u>
+      <u who="MARKOWITZ">When you were talking about your time on the two ships, in <placeName>Cuba</placeName> you talked about sort of how—how fun it was at points, and the community there. Did you—what was it like in <placeName>Vietnam</placeName> in terms of those aspects?</u>
+      <u who="PARKER">Well it, the people—the people that I worked with and lived with were great people. The <orgName>Navy</orgName> is a—is small enough to be a family, and the more duty stations you have around the world, the more likely you are to encounter somebody, as times goes on, that you’ve served with before. And I—I ended up—after serving in <placeName>Vietnam</placeName>, I ended up staying in the <orgName>Navy</orgName>, became a dentist and became a <orgName>Navy</orgName> dentist, and the same rule holds: You work on a base someplace, and you work someplace else, and you’ll see the same patients or the same dental officers. And so you feel like you’re in a family, and you’ve done intensive work with some of these people, and so that makes a mark, and you remain friends.</u>
+      <u who="MARKOWITZ">Were you—were you friendly at all with the field officers? Did you ever sort of feel like you wanted to be a field officer?</u>
+      <u who="PARKER">As opposed to a staff officer.</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="PARKER">Well, that was just a two- —that was a <date>one-year</date> tour of duty, and so I didn’t—I wasn’t a <orgName>Marine</orgName>, so I didn’t serve with Marines that are out in the field a lot, but I saw them as patients later on.</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="PARKER">So I didn’t feel that there was a separation just because of that <date>one year</date>. If I had—if I had had complete latitude to define where I would like to go in <name type="event">the Vietnam War</name>, I would have chosen just what I had. I didn’t have any influence, and I took what came, and it turned out—</u>
+      <u who="MARKOWITZ">Yeah. Wow.</u>
+      <u who="PARKER">—to be just right. [Chuckles.]</u>
+      <u who="MARKOWITZ">So I wanted to talk a bit more about Admiral <persName>Zumwalt</persName> now.</u>
+      <u who="PARKER">Mmm.</u>
+      <u who="MARKOWITZ">You mentioned that he definitely gained a lot more respect and position in <placeName>Vietnam</placeName> for the <orgName>Navy</orgName>,—</u>
+      <u who="PARKER">Mmm.</u>
+      <u who="MARKOWITZ">—so would you mind just elaborating on—</u>
+      <u who="PARKER">I had—I had never met the admiral before, but there was talk about his arriving, that he was going to be one star more than his predecessor. And right from the start, he brought a lot of his folks with him, and some of those were in our department, and he started doing imaginative things with our forces, and I—I got—I was involved in—in hearing and conducting briefings for him, so I got—</u>
+      <u who="MARKOWITZ">Wow.</u>
+      <u who="PARKER">I got to know the man quite well. And he lived right on the compound.  And he was just an extraordinary person. </u>
+      <u who="MARKOWITZ">Wow.</u>
+      <u who="PARKER">And to do that, he—he was selected ahead of—I think the number is 23—senior—officers senior to him and—</u>
+      <u who="MARKOWITZ">He just sort of jumped on—</u>
+      <u who="PARKER">Yeah, he did. He jumped to the head of the line.</u>
+      <u who="MARKOWITZ">Wow.</u>
+      <u who="PARKER">And there was good reason for it. However, anybody who does that needs to watch out for those whom he jumped, who are still there, who are going to wait him out until his tour is done and then, by God, bring the <orgName>Navy</orgName> back to where it belongs. And there was specific talk of that when he came <orgName>CNO</orgName>. There were senior admirals that thought they deserved to be <orgName>CNO</orgName> and probably would be after him, and they resented what he was doing. So his—although he developed riverine warfare to a high degree while he was in <placeName>Vietnam</placeName> and he developed the Vietnamese turnover program, where we—we gradually turned out equipment over to them to take over the war on our way out—but that was a necessity that he couldn’t get around. </u>
+      <u who="MARKOWITZ">What were some of your experiences with the old <orgName>Navy</orgName>, with the cultures that he was trying to address?</u>
+      <u who="PARKER">That he was trying to change?</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="PARKER">They weren’t direct—I don’t think I—I didn’t—in my—in my experience, which was very limited—only two ships and then <placeName>Saigon</placeName> wasn’t part of what he was addressing—there were, on the carriers, which are a city of 5,000, riots in the time, in—early in his tenure, that he had to deal with the root causes of. There was—there was an abuse of power in the—in the enlisted ranks. When you—when your work is done aboard ship, if you’re not on duty <date>that day</date>, you get something called liberty. <persName>Ha-ha</persName>. You think every—we think we all have liberty, but in the military, “liberty” means you can—you can go home or you can go out and have some fun ashore. But there was—liberty was not generalized. Sometimes a person would be punished without formalizing it, by withholding this liberty card, so you can’t leave the ship until you’ve gotten your liberty card from your leading pay officer.</u>
+      <u who="MARKOWITZ">You mentioned he tried to sort of target racism, too, in the <orgName>Navy</orgName>. Was that prevalent before you got there?</u>
+      <u who="PARKER">Well, these riots that I mentioned aboard one or two aircraft carriers were racially stimulated. </u>
+      <u who="MARKOWITZ">Okay.</u>
+      <u who="PARKER">And he—we encountered a lot at <orgName>OCS</orgName> because that’s where officers were learning how to deal with men. A lot of sensitivity training to the needs of minorities. Of course, minorities later became women as well, so it had a broader application than just race. But there were—there were jobs in the <orgName>Navy</orgName> that only went to Filipinos. But if you were a Filipino—I happened to have—in my first department, I had an electrician who was a Filipino, and, boy, he was a rarity because Filipinos came aboard as stewards, period.  And that’s the sort of thing that—may have had other examples, but that’s a key example that <persName>Zumwalt</persName> set about eliminating, and did, I think.</u>
+      <u who="MARKOWITZ">Wow. What sorts of changes that he made in <placeName>Vietnam</placeName> specifically influenced your work there?</u>
+      <u who="PARKER">Well, he got rough-and-tumble down in the delta. He was sending boats, Swift Boats [Patrol Craft Fast (<orgName>PCF</orgName>)], and PBRs—a Swift Boat is a larger, faster, more ocean-going, but a fast metal boat that didn’t have a lot of armor. And he sent them out into—marauding the canals and small waterways, so that was something we hadn’t done before.</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="PARKER">—<date>six months</date> of his being there.</u>
+      <u who="MARKOWITZ">A good time to be in the <orgName>Navy</orgName>. [Chuckles.]</u>
+      <u who="PARKER">Yeah.</u>
+      <u who="MARKOWITZ">What was—what was he like when you interacted with him? You mentioned you did these briefings for him. What was his personality like?</u>
+      <u who="PARKER">Well, he was—he was an impressive guy. He had really bushy eyebrows.</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="PARKER">Every once in a while, my eyebrows get out of—get out of control, and I kind of admire it—and I hate—I hate to trim them because I think of <persName>Bud Zumwalt</persName>. He was—he was a very, very smart man, and he was soft spoken. He knew his people. </u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="PARKER">And my—my relief’s jaw dropped.</u>
+      <u who="MARKOWITZ">Oh!</u>
+      <u who="PARKER">And he grabbed me as soon as I got out of there, and I had to explain myself, but—</u>
+      <u who="MARKOWITZ">[Laughs.]</u>
+      <u who="PARKER">But that was—he was concerned about where I was going. Later on, I circled around to the <placeName>Bethesda</placeName> [<placeName>Maryland</placeName>] campus. Admiral <persName>Zumwalt</persName> had a son who was in the PBRs and using Agent Orange, and he developed lymphoma, so the admiral was often visiting the naval hospital, in an emergency capacity, for his son, who ultimately died of that. So I would get to see him and in fact got him to speak to dental officers one—one evening. So I felt that he was a—a friend, not—certainly not a close one and I don’t think he’d remember my name if he were still around, but he was a great man, and it was a privilege to have worked for him.</u>
+      <u who="MARKOWITZ">How much did you know about Agent Orange at the time that he introduced it?</u>
+      <u who="PARKER">That it—that you want to keep it at arm’s length if you can, but there was—I mean, it was—it was a chemical. I respect gasoline, too, and probably in the same way. But there was no way to avoid it in the way—the manner that we were using it. If you were—if you were using Agent Orange, it was likely that you were getting exposed to Agent Orange, and we didn’t know the long-term consequences, and it was a long time before the military even admitted that they had long-term consequences.</u>
+      <u who="MARKOWITZ">Were you, in the work you were doing and sort of planning these swimmer defense measures or mine countermeasures, were you—did you consider at all Agent <persName>Orange</persName> after he introduced it, or—</u>
+      <u who="PARKER">No. Agent <persName>Orange</persName> had no bearing on what I was doing, no.</u>
+      <u who="MARKOWITZ">Okay. Would you ever see it in action when you went to visit—</u>
+      <u who="PARKER">No. I wasn’t—near the end of my tour, I was aware that we were using it more, but I didn’t—I didn’t see it. I didn’t see a lot of defoliation,—</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="PARKER">—and I certainly wasn’t exposed to it at all.</u>
+      <u who="MARKOWITZ">So you—you finished your <date>one-year</date> tour, and we’re going to <orgName>Tufts Dental School</orgName>,—</u>
+      <u who="PARKER"><persName>Mm-hm</persName>.</u>
+      <u who="MARKOWITZ">—not <orgName>ROTC</orgName> [chuckles],—</u>
+      <u who="PARKER">That’s right.</u>
+      <u who="MARKOWITZ">—as you led some people to think. But was that—what—what sort of sparked your interest in dental school? Why was it always part of your long-term goal?</u>
+      <u who="PARKER">Well, back in <placeName>Pittsfield</placeName> I took a little preference test called a Kuder preference test, and I only had two spikes. One was teacher, and the other was dental—dentist. And so I always had those things in—in mind. Once I got into dental school, I eventually got back to become a student in the graduate dental school in <placeName>Bethesda</placeName>, and I came back to that after tour aboard ship, to teach. And I taught for <date>six years</date> there, so teaching dentistry in the <orgName>Navy</orgName>—I  had all three of my—my loves at one time, and it was—those were the best of my years of my career.</u>
+      <u who="MARKOWITZ">What were your feelings on <placeName>Vietnam</placeName> as you were returning back to the <placeName>U.S.</placeName>? You mentioned that when you first got there, you weren’t sure about the war.</u>
+      <u who="PARKER">Well—I—I certainly was opposed to the war, but I wasn’t—I was offended in dental school by the amount of time that my classmates were devoting to antiwar activity, and I—I actually—I wrote a little article for an alumni rag—</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="PARKER">—or bulletin that—that got sent out periodically to say—to suggest that I thought some of my classmates were only at dental school to avoid the draft. Didn’t go over well [chuckles] with my classmates, but I still think it was true. Fortunately, I think all our classmates performed in a professional way once they graduated, but there was so much going on in <placeName>Boston</placeName> in ’73—’70 to ’73—against the war that it was hard to keep it out of mind. But I was—I was much more focused than 90 percent of my classmates on dentistry, and I—I resented that some of their hostility to the war was taken out on the faculty, who had nothing to do with it in—in just not being respectful. It was a different generation in the classroom that I came back to after <date>five years</date> than the one I’d left at <placeName>Dartmouth</placeName>, by a long shot.</u>
+      <u who="MARKOWITZ">Did you ever—did you ever feel uncomfortable as a veteran there?</u>
+      <u who="PARKER">No, because I didn’t—I didn’t wear a uniform, and I was enough older than the rest of the—my classmates that I—I had enough stature that I wasn’t bothered by opinions or I don’t think people expressed negative opinions of my service there.	I never encountered the hostility that became prevalent in <date>later years</date> in <placeName>Hanover</placeName>, that caused the abandoning of the <orgName>ROTC</orgName> programs. I think, as I mentioned earlier, that liberal arts colleges are good for the <orgName>Navy</orgName>, and I think that certainly <orgName>Navy</orgName> scholarships are good for <orgName>Dartmouth</orgName>. And so I was—I remain sorry to see that have gone. But there—there are those who came back and were really abused by <persName>Joe Public</persName>, and I wasn’t one of them.</u>
+      <u who="MARKOWITZ">What was the—what was the political climate in <placeName>Boston</placeName> or at <orgName>Tufts</orgName> specifically at the time, and to what extent did you participate?</u>
+      <u who="PARKER">I didn’t—I didn’t participate at all. I was nose to the grindstone in professional school, and there was certainly a lot of it going on. The dental school is not on the <orgName>Tufts</orgName> campus. It’s—it’s in <placeName>Chinatown</placeName> or right adjacent to it. But there were lots of protests going on, and my fellow students were not above attending those instead of class.</u>
+      <u who="MARKOWITZ">What—what, in more detail, did this—did this letter you wrote to the alumni bulletin say exactly?</u>
+      <u who="PARKER">It just—it questioned—I cited the disrespect for the faculty that I thought was abhorrent. I just couldn’t believe that that was allowed.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="PARKER">But the school—the school can’t afford to just dismiss a tuition-paying student when there are a limited number of operatories, so you’ve got to keep those full. So I understood that, but I didn’t see why they were not censured for it. There was the time spent away from school to attend rallies and that sort of thing, and I didn’t think that was a reasonable part of a dental education. And I—I said so in one way or another. It wasn’t a long article. But it wasn’t very complimentary. [Chuckles.] I’d stand by it. I’d write it again if I were there.</u>
+      <u who="MARKOWITZ">What—so you—you spent your summers during dental school teaching at <orgName>Officer Candidate School</orgName>.</u>
+      <u who="PARKER">Mmm.</u>
+      <u who="MARKOWITZ">What—what led to that decision, and just what—what were those summers like?</u>
+      <u who="PARKER">Well, I—I mentioned that I circled back to the Frigate Bird.</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>.</u>
+      <u who="PARKER">When I got to <orgName>Tufts</orgName>, I decided to stay in the Reserves, and I got a job on that same ship, which had retired from the active fleet and was now a Reserve ship up in <placeName>Portsmouth</placeName>, <placeName>New Hampshire</placeName>, and so once a month I would go up there and spend <date>a weekend</date>. And on one of <date>those weekends</date>, a piece of paper came across the desk that said, “We’re looking for pre-professional folks to supplement <date>our summer</date> faculty at <orgName>Officer Candidate School</orgName>.” And my CO [commanding officer] called me and said, “What plans do you have for <date>the summer</date>?” And I said, “Nothing special.” And so I ended up going down there and teaching for <date>three years</date> and had a great time.</u>
+      <u who="MARKOWITZ">Could you just clarify the—the taking a devotion [sic] part?</u>
+      <u who="PARKER">Oh, well, your rank—my rank that I had attained by the time I entered dental school was based on my line experience plus my—</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="PARKER">—my scholarship time. <orgName>Dental</orgName> officers are given rank. They start at a certain rank based upon their time that they’ve been a dentist, so my first <date>five years</date> didn’t count.</u>
+      <u who="MARKOWITZ">Okay.</u>
+      <u who="PARKER">And only, only—and so I went from a lieutenant commander to a lieutenant.</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="PARKER">But I got promoted back up more quickly than most of those who hadn’t been in prior service would.</u>
+      <u who="MARKOWITZ">So what were the—what were <date>the years</date> that you were at <orgName>Tufts Dental School</orgName>?</u>
+      <u who="PARKER">I—I started school in—in ’70 and graduated in <date>’73</date>.</u>
+      <u who="MARKOWITZ">And was your family living in the <placeName>Boston</placeName> area with you?</u>
+      <u who="PARKER">Oh, we lived all over the place. I had to attend <date>some summer</date> school courses to get caught up, and then ultimately, we lived in—in <orgName>Mattapan</orgName> for <date>two years</date> (a section of <placeName>Boston</placeName>) and commuted into work. And then—or into school. And then <date>the last two years</date>, we—we moved out to <orgName>Needham</orgName>, which was a longer commute, but we were in a nice neighborhood. We were surrounded by either dental students living nearby or an actual dentist shared a duplex—a practicing dentist shared our duplex, so it was a good community. It was—I was able to join a study club in <placeName>Needham</placeName> with three other dentists, and we actually got an article published based upon one of the things we were studying. So it was a—it was a good environment.</u>
+      <u who="MARKOWITZ">What was that about?</u>
+      <u who="PARKER">It was about using [<persName>Abraham H.] Maslow’s</persName> hierarchy of needs to motivate patients to keep their teeth clean. [Laughs.]</u>
+      <u who="MARKOWITZ">So after—so when you were in <placeName>the Frigate Bird</placeName> for the second time, that was during dental school still?</u>
+      <u who="PARKER">It was, yes. <date>Just once a month</date>.</u>
+      <u who="MARKOWITZ">Okay.</u>
+      <u who="PARKER">Yep.</u>
+      <u who="MARKOWITZ">And what—what were you doing as a Reserve there?</u>
+      <u who="PARKER">I had the same job.</u>
+      <u who="MARKOWITZ">Okay.</u>
+      <u who="PARKER">I was <orgName>XO</orgName> [executive officer] again.</u>
+      <u who="MARKOWITZ">Oh, wow.</u>
+      <u who="PARKER">And—and we—before I left the Frigate Bird, <placeName>the Frigate Bird</placeName> was turned over to the Indonesian navy, and we—so we steamed it down to or sailed it down to <placeName>New York</placeName> [<placeName>New York</placeName>], entered <placeName>New York</placeName> at sunrise with—the skyscrapers were just ablaze with sun—sun reflected off the surfaces, and we went down the river to the <orgName>Navy</orgName> yard and made—I’m pleased to say I made a one-bell landing at the <orgName>Navy</orgName> yard, which was the last landing under—under <placeName>U.S.</placeName> control for the Frigate Bird. And a one-bell landing means you line things up and you only change the engine—engines once before you tie up.</u>
+      <u who="MARKOWITZ">[Chuckles.] A good way to go out off the ship.</u>
+      <u who="PARKER">It was. [Laughter.]</u>
+      <u who="MARKOWITZ">What—what were your plans for after you graduated dental school?</u>
+      <u who="PARKER">Well, I thought I’d come back in the <orgName>Navy</orgName> for <date>two or three years</date> and, as I said, get my speed up and get a little—get a little in the bank to start a practice. I found that the autonomy of a dentist in civilian practice is really no greater than that of a <orgName>Navy</orgName> dentist with stripes on his sleeves, and so when the <orgName>Navy</orgName> offered me a next tour to be in <placeName>Scotland</placeName> for <date>three or four years</date>, I turned my back on getting out and never looked another direction. I was in the <orgName>Navy</orgName> as a dentist until I ran out of fun places to go and it was time to retire.</u>
+      <u who="MARKOWITZ">What sort of places besides <placeName>Scotland</placeName> did you go?</u>
+      <u who="PARKER">I spent <date>four years</date> in <placeName>Scotland</placeName>, and—and then <date>11 years</date> in and out of either teaching or being a student at the graduate dental school. Then I went to a [the Naval] Submarine Base, [now part of Naval Base Kitsap, <placeName>Washington</placeName>] in <placeName>Bangor</placeName>, <placeName>Washington</placeName>, and retired there after <date>three years</date>.</u>
+      <u who="MARKOWITZ">What sorts of things were you doing as a naval dental officer?</u>
+      <u who="PARKER"><orgName>Drillin</orgName>’ and fillin’. </u>
+      <u who="MARKOWITZ">For all sorts of people who might be living on the base there?</u>
+      <u who="PARKER">Well, yes, we normally did not treat—in <placeName>the United States</placeName>, at least, we did not treat civilian family members, but we treated all the active duty folks. And our—our main job at this submarine base was to make sure that the sailors who were gonna to go out and steam around underwater for <date>six months</date> didn’t have a dental problem that would bring the ship home, bring the boat home. So we would—we would systematically examine and treat pre-deployment sailors and crew.</u>
+      <u who="MARKOWITZ">You mentioned you had a—you had a son right before you left for—</u>
+      <u who="PARKER"><persName>Mm-hm</persName>.</u>
+      <u who="MARKOWITZ">—<placeName>Vietnam</placeName>. So how—how old was he at this time? He would have been five or—</u>
+      <u who="PARKER">Well, he was born in <date>’67</date>.</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="PARKER">And then I had another child in <date>’70</date> and another in <date>’72</date>. </u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="PARKER">That was it.</u>
+      <u who="MARKOWITZ">And were they—your—would your family move around to <placeName>Scotland</placeName> and all these different places—</u>
+      <u who="PARKER">Yes.</u>
+      <u who="MARKOWITZ">—while you were on active duty?</u>
+      <u who="PARKER">They did. And we—we were—we went from <placeName>Bath</placeName>, <placeName>Maine</placeName>, to <placeName>Scotland</placeName> and were there—my daughter was only three when we arrived, so she lived more than half her life there by the time we left. And the boys spent time over there. And then we were able to—while I was in and out of the dental school, we were in one house for <date>11 years</date>, and so they got all the way through the school system and graduated from high school before we left <placeName>Greater Washington</placeName>.</u>
+      <u who="MARKOWITZ">Okay. </u>
+      <u who="PARKER">And then we spent <date>the last three years</date> in the other <placeName>Washington</placeName>.</u>
+      <u who="MARKOWITZ">So after—after being on active duty for—in all these different places,—</u>
+      <u who="PARKER">Mmm.</u>
+      <u who="MARKOWITZ">—you mentioned you spent some time at the naval dental school in <placeName>Bethesda</placeName>. Was that part of your active duty?</u>
+      <u who="PARKER">Oh, yes. I came—I came back to <placeName>Bethesda</placeName> to attend graduate school, dental graduate school, or postgraduate [<orgName>Naval Postgraduate Dental School</orgName>], and so I was there, waiting for an opening for <date>a year</date>. I had a <date>two-year</date> program, and then I went off to a ship for <date>two years</date> and then came back for <date>six years</date> to teach.</u>
+      <u who="MARKOWITZ">At the—in <placeName>Bethesda</placeName>?</u>
+      <u who="PARKER">Yes.</u>
+      <u who="MARKOWITZ">What was the—were there any discussions or were people open about discussing <date>the end of the Vietnam War</date> or the events leading to the end while you were working as a dental officer?</u>
+      <u who="PARKER">It certainly wasn’t a preoccupation. Running a dental school and working in a dental school is highly charged and didn’t allow a lot of—for a lot of discussion outside of the next lesson plan.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="PARKER">But there were—there were speaker programs. We had—at the dental school, we had speakers come in. Not all of them talked about dentistry. And we had a—I was actually in charge of lining up speakers for a <date>monthly</date> get-together of dental officers from <orgName>Greater Washington</orgName>, which is a lot of dental officers. And <persName>Zumwalt</persName> was one of the ones that came and—came and spoke. So—so there were—I don’t remember there being a preoccupation with what was going on at the end of the war. Nobody was happy with it. It was just something we had to ride out.</u>
+      <u who="MARKOWITZ"><persName>Mm-hm</persName>. Besides <persName>Zumwalt</persName>, who you said came in for the speaker series, did you keep in touch with a lot of the other people you were in <placeName>Vietnam</placeName> with?</u>
+      <u who="PARKER">I didn’t see very many <placeName>Vietnam</placeName> colleagues. While I was at the dental school, though—this is—there were one- and <date>two-year</date> programs for students coming in, and then we also had—we’d have <date>one-week</date> programs. Continuing education would be presented there, so people would come in for that. And—and, of course, the staff at the dental school was turning over, some. The standard tour was—was maybe <date>four years</date>, and so I saw so many dental officers coming through for courses being—for residencies or for faculty, that I certainly have a great many <orgName>Navy</orgName> dentist friends still.</u>
+      <u who="MARKOWITZ">[Pause.] So—[Chuckles.] No, I’m—</u>
+      <u who="PARKER">[Chuckles.]</u>
+      <u who="MARKOWITZ">I’m just trying to piece together all the—all the various places you were at different times throughout your active duty. It seems like you—you really got to do a lot after you decided to go back into the <orgName>Navy</orgName> as a dentist.</u>
+      <u who="PARKER">I think—I think we made the most of the opportunities that were there, and the opportunities seemed to be the kind that a great deal could be made of. I have—I have no hesitation in saying I would repeat my <orgName>Navy</orgName> career if I had—had it to start over.</u>
+      <u who="MARKOWITZ">So when did you go into retirement or leave active duty?</u>
+      <u who="PARKER">I left active duty in ’94—’93, in the <placeName>Northwest</placeName>, at the sub base in <placeName>Bangor</placeName>, and then I worked for <date>a year</date> in a private practice out there and then came back east and found a practice where I was a hired gun for <date>12 years</date>. I said I’d work for <date>three to five years</date> for him, and <date>12 years later</date> I finally [chuckles] hung it up for the last time.</u>
+      <u who="MARKOWITZ">That was in <placeName>Maine</placeName>.</u>
+      <u who="PARKER">That was in <placeName>Maine</placeName>, yeah. Near <placeName>Portland</placeName>, <placeName>Maine</placeName>.</u>
+      <u who="MARKOWITZ">Right.</u>
+      <u who="PARKER">—in my lifetime that keep marching before me. It was especially evident when I was practicing in—in <placeName>south Portland</placeName>, in private practice, that <date>a week</date> wouldn’t go by but what [sic] I would see somebody with a connection to either where I was born up north in <placeName>Maine</placeName> or had something to do with—had a—had a common connection with other <persName>Mainers</persName> somehow. It just seems as though <placeName>Maine</placeName> is a constantly stirring pot of friends [chuckles] that keep coming—coming to my attention. It’s really fun to see.</u>
+      <u who="MARKOWITZ">Was—was you being in the <orgName>Navy</orgName> a big part of raising your children?</u>
+      <u who="PARKER">I have to admit—</u>
+      <u who="MARKOWITZ">Did any of them take after that?</u>
+      <u who="PARKER">—that I was an absentee dad enough that the credit for raising our children should go to their mother more than to me, but—although I never pushed the <orgName>Navy</orgName> with my kids, my daughter married a—a—an <orgName>Army</orgName> officer, and my oldest son followed us out to the <placeName>Northwest</placeName> and became an independent diver and has his own fleet of boats from which he does it, and my middle son did join the <orgName>Navy</orgName>, became a naval aviator and now flies for Hawaiian Air[lines].</u>
+      <u who="MARKOWITZ">Wow.</u>
+      <u who="PARKER">So there was a—there was some influence going on.</u>
+      <u who="MARKOWITZ">So, yeah! [Laughs.] Sounds like there was.</u>
+      <u who="PARKER">Even though I didn’t push it.</u>
+      <u who="MARKOWITZ">Did you—to what extent did you speak about <name type="event">the Vietnam War</name> and the politics of that time with your kids?</u>
+      <u who="PARKER">None. Next to none, next to none.</u>
+      <u who="MARKOWITZ">Did they ever ask about your experience after? When they sort of learned about it themselves, did they ask you about your experience there?</u>
+      <u who="PARKER">No, I can’t say they did. It wasn’t—I didn’t have the same syndrome that—that others have, that I’ve read about in others who came back from wars and couldn’t talk about it. I didn’t—I didn’t have anything to withhold— </u>
+      <u who="MARKOWITZ">Mhm.</u>
+      <u who="PARKER">—and I—and I—so—but neither was it a hot topic. Yeah. I’m—no, I won’t say that.</u>
+      <u who="MARKOWITZ">What?</u>
+      <u who="PARKER">I’m much more concerned about the current political situation than I ever was about—</u>
+      <u who="MARKOWITZ">Really?</u>
+      <u who="PARKER">—the beginning or <date>the end of the Vietnam War</date>.</u>
+      <u who="MARKOWITZ">Wow. Do you feel like the Viet- —your—your thoughts on <name type="event">the Vietnam War</name> have influenced how you feel about the current political situation, have given you more of a perspective on it?</u>
+      <u who="PARKER">Well, to a certain extent. We just keep—we keep getting ourselves involved in conflicts which are not solved by conflict, I think. </u>
+      <u who="MARKOWITZ">How does that opinion compare to the general consensus or opinion in the <orgName>Navy</orgName> that you experienced?</u>
+      <u who="PARKER">I don’t know. The conversation in the <orgName>Navy</orgName> was more about doing our job than whether it was politically correct. It [sic] wasn’t a whole lot we could do to change it. But I—I certainly—I did not come out of the <orgName>Navy</orgName> a warrior who felt that—</u>
+      <u who="MARKOWITZ">Right. </u>
+      <u who="PARKER">—fighting a war was the way to solve anything.</u>
+      <u who="MARKOWITZ">Right. But you still obviously loved—loved the <orgName>Navy</orgName> and—</u>
+      <u who="PARKER">It’s a great place [chuckles] to grow up. [Laughs.] And I almost did.</u>
+      <u who="MARKOWITZ">[Chuckles.]</u>
+      <u who="PARKER">[Laughs.]</u>
+      <u who="MARKOWITZ">Okay. Well, thank you so much. That was—that was really, really fascinating for me.</u>
+      <u who="PARKER">Well, I’m glad. It was—</u>
+      <u who="MARKOWITZ">Thank you so much for taking the time to speak with me.</u>
+      <u who="PARKER">You’re welcome. It was—it was a pleasure for me, too.</u>
+      <u who="MARKOWITZ">[Chuckles.] Yeah, I really appreciate it. Thank you. [Chuckles.]</u>
+    </body>
+  </text>
+</TEI>

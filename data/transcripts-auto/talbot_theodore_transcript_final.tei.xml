@@ -1,0 +1,710 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="WEINSTOCK"/>
+        <person xml:id="TALBOT"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="WEINSTOCK">All right, this is <persName>Benjamin Weinstock</persName>. I am at <orgName>Rauner Special Collections Library</orgName> at <orgName>Dartmouth College</orgName> in <placeName>Hanover</placeName>, <placeName>New Hampshire</placeName>. It is 3:27 on <date>Thursday, January 28th</date>. This is <persName>[G. Theodore] “</persName>Ted” Talbot that I am talking to. I’m talking with him over the phone. He is in <placeName>Freshwater</placeName>, <placeName>Australia</placeName>, <placeName>New South Wales</placeName>, and the time there is 7:27 a.m.</u>
+      <u who="TALBOT"><persName>Ted Talbot</persName>.</u>
+      <u who="WEINSTOCK">And where are you from, Mr. <persName>Talbot</persName>?</u>
+      <u who="TALBOT">Originally, I grew up in <placeName>Palmyra</placeName>, <placeName>New Jersey</placeName>.</u>
+      <u who="WEINSTOCK"><placeName>Palmyra</placeName>, <placeName>New Jersey</placeName>. What were your parents’ names?</u>
+      <u who="TALBOT"><persName>George [S.]</persName> and <persName>Alice [Talbot</persName>].</u>
+      <u who="WEINSTOCK">Did you have any siblings?</u>
+      <u who="TALBOT">A brother, an older brother, [<persName>Philip S.] “Phil</persName>.”</u>
+      <u who="WEINSTOCK">Okay. And what was it like growing up in <placeName>Palmyra</placeName>?</u>
+      <u who="TALBOT">Oh, it was a small town, a suburb of <placeName>Philadelphia</placeName>. My father had a local business. He had a little restaurant, soda fountain thing, and my mother was a schoolteacher in the—in the local public school.</u>
+      <u who="WEINSTOCK">Yeah, so what was it like having parents that had those occupations?</u>
+      <u who="TALBOT">Well [chuckles], it wasn’t easy growing up being the son of a teacher. [Both chuckle.] Everybody expected super things out of somebody who had a parent for a teacher [sic].  But, no, it was—it was a normal childhood as far as I could tell. I did a lot of sailing as a—as a kid. I had a boat that I sailed down on <placeName>the Delaware River</placeName> and used to race it. IT was a little 14-foot sailing dinghy. So, yeah, that was my main activity as a kid. And a lot of bicycle riding, which I still do.</u>
+      <u who="WEINSTOCK">Sure. And what <date>year</date> were you born in?</u>
+      <u who="TALBOT"><date>Nineteen forty-three</date>.</u>
+      <u who="WEINSTOCK"><date>Nineteen forty-three</date>, right. So, you know, <date>two years</date> after the end of <name type="event">World War II</name>. Obviously, you don’t remember that when you were born, but what were your first memories of the political climate, the climate in <placeName>the United States</placeName> in general in <date>the late ’40s</date>? Have you have [sic] any memories then, or <date>the early ’50s</date>, growing up in <placeName>New Jersey</placeName>?</u>
+      <u who="TALBOT">Well, my first political memory that I can think of was the election of [President] <persName>Harry</persName> [<persName>S.] Truman</persName>. I mean, he became president when [President <persName>Franklin D.] Roosevelt</persName> died, but he was reelected, and I do remember that. And I remember at one point he was campaigning in the area, and there was a motorcade, and he drove by, and I went running up the street to—to catch the car as he drove by. And I just saw it. I was about half a block away when the motorcade went by. But I do remember the election of <persName>Harry Truman</persName>.</u>
+      <u who="WEINSTOCK">Sure. So what—what was that like? Did they talk a lot about politics around you, at the dinner table or—yeah, I mean, I can’t imagine there was much accord with those political views.</u>
+      <u who="TALBOT">Well, no, they didn’t talk that much about politics. Again, it only came to light when there was, say, an election or something major going on. But [chuckles] I do remember that my mother never even forgave <persName>Roosevelt</persName>. And to her dying day, and she lived to be 95, you know, past the year 2000—no, no, it was—yeah, 2001 she died. Yeah, but even to that day, she never forgave <persName>Roosevelt</persName> for what he did. [Laughs.]</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">My father, on the other hand, was quite a liberal Democrat, probably even socialist.</u>
+      <u who="WEINSTOCK">No kidding!</u>
+      <u who="TALBOT">Yeah, yeah.</u>
+      <u who="WEINSTOCK">So where—where was he from?</u>
+      <u who="TALBOT">Well, he grew up in—he lived in—as a very small child, he was in <placeName>Brooklyn</placeName>, <placeName>New York</placeName>, and then the family moved to <placeName>Philadelphia</placeName>, so he lived in the—not far from <orgName>the University of Pennsylvania</orgName>, in <placeName>Philadelphia</placeName>.</u>
+      <u who="WEINSTOCK">Sure. Do you think that—that that background had anything to do with his later political views?</u>
+      <u who="TALBOT">Quite possibly. I mean, he always came from a working background. He had—he left school early because his mother was widowed, and so start earning money to help support the family, he left school, as they often did in <date>those days</date>.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">Yeah, he was always solid working class, whereas my mother, from an immigrant family, and lived in <placeName>Bryn Mawr</placeName>, <placeName>Pennsylvania</placeName>. She was more concerned—well, the traditional Republican view, I suppose.</u>
+      <u who="WEINSTOCK">[Chuckles.] Sure. Did they ever talk about <name type="event">World War II</name> at all or kind of any other political dealings or major <placeName>U.S.</placeName> historical events to you that you might not have experienced, being born in ’43, but that they did?</u>
+      <u who="TALBOT">No, not—not the wars particularly. I mean, my father was too young for <name type="event">World War I</name>,—</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">—and beyond draft age for <name type="event">World War II</name>. And, of course, in <date>those days</date>, the world wars—or certainly <name type="event">World War II</name>—they believed was justified and necessary. They did talk about the [Great] Depression and the difficulties they would have had then. But, no—again, it wasn’t a strongly political family, I guess because they were so diametrically opposed,—</u>
+      <u who="WEINSTOCK">[Chuckles.] </u>
+      <u who="TALBOT">—it was something that they didn’t talk about unless they had to.</u>
+      <u who="WEINSTOCK">Sure. So you mentioned the Depression. But, you know, thankfully your father had a business that wasn’t in the <name type="event">Depression</name>. Do you have any particular memories from the soda fountain that your father had?</u>
+      <u who="TALBOT">Oh, yes, yes. Well, he—he had worked for a number of—all sorts of jobs, he had had. He didn’t have the business of his own until much later. I think he bought a little local business when I was <date>about eight years old</date>, but before that, he had worked for other companies. He was a driver-salesman for a local bakery and a bread company.</u>
+      <u who="WEINSTOCK">Okay. </u>
+      <u who="TALBOT">So then—what was the last one? Sorry, what was the question you asked before?</u>
+      <u who="WEINSTOCK">Well, you know, did you have any memories from your father’s soda fountain?</u>
+      <u who="TALBOT">Oh, yes, yes. In fact, my brother and I used to work there sometimes after school.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">We would help out, washing dishes and,  oh, serving some of the customers.</u>
+      <u who="WEINSTOCK">Very Americana. [Chuckles.]</u>
+      <u who="TALBOT">I could dip ice cream. I could make soft drinks, handle the cash register and sell the things. I remember cigarettes in <date>those days</date> cost 21 cents a pack.</u>
+      <u who="WEINSTOCK">[Chuckles.] It’s hard to relate to that <date>today</date>.</u>
+      <u who="TALBOT">Yeah.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">I don’t know what they are in the <placeName>U.S.</placeName>, but here in <placeName>Australia</placeName> now, they’re about 20 dollars a pack.</u>
+      <u who="WEINSTOCK">Wow. [Chuckles.] Yeah, I don’t think it’s quite that expensive, but certainly higher than it once was.</u>
+      <u who="TALBOT">Okay.  Well, I mean, I was—let’s see, my brother and I. I was always good at school, and my brother struggled. He was <date>seven years</date> older than me. But he—he was always getting into trouble at school. Anyway, he sorted himself out <date>the last year</date> and did manage to get accepted, and he went to <orgName>Rutgers University</orgName>.</u>
+      <u who="WEINSTOCK">Okay. </u>
+      <u who="TALBOT">I was always the brighter one, and the more academic achiever. But in my—when was it? In <date>the first year</date> of high school—that’s when it was—they had a fire at the local high school, and they lost half the building. So we had to go on split sessions, and so for the rest of <date>that first year and the second year</date>, we were all on split sessions. And a decision was made to—because it was going to affect the quality of education—my parents would send me to private school, so for the junior and senior year of high school, I went away to <orgName>Peddie [School</orgName>], which in <placeName>Hightstown</placeName>, <placeName>New Jersey</placeName>. </u>
+      <u who="WEINSTOCK">Okay, so it wasn’t too far away.</u>
+      <u who="TALBOT">About an hour’s drive away, yeah.</u>
+      <u who="WEINSTOCK">All right. So I assume you boarded there?</u>
+      <u who="TALBOT">It was a boarding school, yes.</u>
+      <u who="WEINSTOCK">So tell me a little bit about that experience. What—what—what was that like, going to boarding school, being away from your parents for a long time for the first time?</u>
+      <u who="TALBOT">That never bothered me. [Laughs.]</u>
+      <u who="WEINSTOCK">Yeah. [Chuckles.]</u>
+      <u who="TALBOT">I was always a rather independent sort, and I loved traveling, anyway. I used to go down to <placeName>Florida</placeName> to visit an auntie. So—so being away from home was fine for me. The difference, of course, was that there were some very wealthy kids at boarding school.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">I was there on a work scholarship, so I actually waited tables in the dining room—</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">—as part of a work scholarship. But I did quite well there. It was—you know, the work was, of course, much tougher than I had experienced at the high school, so it was a bit of a struggle, but I did well, and I think I graduated third in my class,—</u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="TALBOT">—of about a hundred.</u>
+      <u who="WEINSTOCK">Yeah. So—</u>
+      <u who="TALBOT">[unintelligible] class and I finished third.</u>
+      <u who="WEINSTOCK">So like you said, I have to imagine that going to a school where, you know, you’re really being introduced to kids of different backgrounds, that that was sort of a cultural shift from small <placeName>Palmyra</placeName>, <placeName>New Jersey</placeName>. Can you talk a little bit more about that?</u>
+      <u who="TALBOT">Very much so. Very much so. Yeah, it was—oh, supposedly a nonsectarian school, but in reality, was very strongly a Baptist school. We had to go to chapel <date>every day</date>, and that—that part I didn’t care for.</u>
+      <u who="WEINSTOCK">Okay. </u>
+      <u who="TALBOT">—and the difference in the culture. That really struck me. But, no, all in all—I mean, I miss the social life. It was an all-boys prep school in <date>those days</date>.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">And I missed girls.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">But, no, by and large, it was—it was a good experience. And it certainly enabled me to—to get accepted at <orgName>Dartmouth</orgName>, because I—</u>
+      <u who="WEINSTOCK">Sure. So—</u>
+      <u who="TALBOT">—was accepted in the early admissions program.</u>
+      <u who="WEINSTOCK">Okay. What—what were your particular interests at the boarding school, both academically and extracurricularly?</u>
+      <u who="TALBOT">Well, let’s see. Academically, I just took, you know, whatever courses there were. In sports, I played a little bit of tennis at that point. I wasn’t terribly good at it. And I—of course, the sailing, sailing in <date>the summers</date> when I went home. And, oh, choir, choir. I sang in the choir at the time.</u>
+      <u who="WEINSTOCK">Ah, no kidding. Did you like that?</u>
+      <u who="TALBOT">Oh, yeah. I enjoyed—I’ve always enjoyed music, and I—I—oh, back when I was in high school, I played a trumpet in the high school band.</u>
+      <u who="WEINSTOCK">[Chuckles.] So I have to imagine in the choir you were singing more classical stuff, but what—what other types of music did you like?</u>
+      <u who="TALBOT">Oh, well, that was basically church music and chapel stuff—you know, the chapel choir. So, yes, it was singing hymns which I never really enjoyed.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">But the music part I did. So that was pretty much it. I wasn’t  big sportsman at that time. Oh, I did try—I tried golf a little bit in high school, which was a disaster. I didn’t take that up again until much later—say, my late 20s, <date>early 30s</date>. And then I got fairly good at it, but I remember my first experiences at <placeName>Peddie</placeName> were terrible.</u>
+      <u who="WEINSTOCK">[Chuckles.] Yeah. So, you know any—any other memories in particular? There don’t have to be, but just kind of probing your mind.</u>
+      <u who="TALBOT">Oh, yes, I do remember: While I was at <placeName>Peddie</placeName> was the first election, [<persName>Richard M.] Nixon</persName> versus [<persName>John F.] Kennedy</persName>.</u>
+      <u who="WEINSTOCK">Okay. What was that like?</u>
+      <u who="TALBOT">Well, <persName>Kennedy</persName> won, of course.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">We had a debate, and I was to support the Republican side, so I had to write a speech or a debate favoring <persName>Nixon</persName>. [Laughter.] I can’t believe that I did that, but I did. [Chuckles.]</u>
+      <u who="WEINSTOCK">Did you even have the kind of sense of—</u>
+      <u who="TALBOT">It was part of the regional history. It’s not one of the achievements I’m most proud of, no.</u>
+      <u who="WEINSTOCK">No. Did—did you personally support <persName>Nixon</persName> at the time, or were you uninformed, or did you already have a sense of, Wow, I don’t like this guy, but I’m gonna do this anyway because it’s school?</u>
+      <u who="TALBOT">Probably. I didn’t have strong feelings for <persName>Nixon</persName>, himself, or personally, but I suppose at that point, politically I was more aligned with my mother, who was a Republican, so I identified more with the Republican side at that time. And, again, too, I now regard that as an embarrassment. [Both chuckle.]</u>
+      <u who="WEINSTOCK">Yeah. So I can imagine, you know, once the results were in, <persName>Dad</persName> was happy and <persName>Mom</persName> was sad, right?</u>
+      <u who="TALBOT">Oh, absolutely, absolutely.</u>
+      <u who="WEINSTOCK">[Chuckles.] Do you remember talking to them about that at all? What was—you know, there’s been much talk historically about the sort of optimism that came about with <persName>Kennedy</persName>’s election. Can you comment on that at all, or share your own thoughts or feelings?</u>
+      <u who="TALBOT">I do remember that—yeah, there was that optimism and enthusiasm, and he was young and good-looking and energetic, and—yeah, I do remember all of that. No, we didn’t talk about it within the family. Of course, over <date>the years</date> my mother became more and more disgusted with <persName>Kennedy</persName>. [Both chuckle.]</u>
+      <u who="WEINSTOCK">Why was that?</u>
+      <u who="TALBOT">It wouldn’t matter who he was, he was a Democrat, so—[Chuckles.]</u>
+      <u who="WEINSTOCK">Sure. Was it—was it a religious thing at all? Was your mom a Protestant and had had feelings about that?</u>
+      <u who="TALBOT">She was a Protestant, yes, and there was some anti-Catholic feeling there.</u>
+      <u who="WEINSTOCK">Sure. Sure, sure.</u>
+      <u who="TALBOT">Yes.</u>
+      <u who="WEINSTOCK">—in high school?</u>
+      <u who="TALBOT">Well, I graduated in ’61, yes, so the election would have been at <date>the end of 1960</date>. That’s right.</u>
+      <u who="WEINSTOCK">Okay. And so <date>1961</date> is also when you, as a freshman, step onto <orgName>Dartmouth</orgName>’s campus, right?</u>
+      <u who="TALBOT">That’s right.</u>
+      <u who="WEINSTOCK">What—what was that like? Can you tell me about that? I have to imagine <orgName>Hanover</orgName> was a far cry from anything you had experienced before.</u>
+      <u who="TALBOT">It was. I remember the cold. [Chuckles.]</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">But I had been—of course, during a search of different colleges and where I might like to go—and a friend of mine from sailing had gone to <orgName>Dartmouth</orgName>. He would be <date>about two years ahead</date> of me. And so I was interested because I’d heard about it from him. And when I went up there and had a look at it—you know, aw, this was—this was fantastic. It was—it was more of—in <date>those days</date>, a country town.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">Yeah, I just liked the atmosphere of it. It had a good reputation, of course. It just seemed like, Yeah, this is where I’d like to go, although when I applied—I probably wasn’t terribly smart about applying—I applied to three colleges: <orgName>Dartmouth</orgName>—</u>
+      <u who="WEINSTOCK">What were the other two?</u>
+      <u who="TALBOT"><orgName>Dartmouth</orgName>, <orgName>Harvard</orgName> [University] and <orgName>Cornell</orgName> [University]. [Laughter.] Not a big range there. </u>
+      <u who="WEINSTOCK">High hopes, though, right?</u>
+      <u who="TALBOT">Because I got early acceptance at <orgName>Dartmouth</orgName>, so I withdrew the applications from <orgName>Harvard</orgName> and <orgName>Cornell</orgName>.</u>
+      <u who="WEINSTOCK">Sure. What else in particular stood out to you about <orgName>Dartmouth</orgName>? Did you have any idea about what courses you wanted to take or what you were interested in career wise?</u>
+      <u who="TALBOT">At that point, I was thinking in terms of science and engineering, but I was woeful at that. Then the first—oh!—the math and physics were—were far beyond my abilities. Calculus—I would just shudder.</u>
+      <u who="WEINSTOCK">[Laughs.]</u>
+      <u who="TALBOT">It was so beyond me that by <date>the end of the first year</date>, I realized that engineering or science would not be the way for me. So anyway, I decided I would have to find a different major, which I didn’t really decide until <date>the end of my second year</date>. Yeah, that was the first rude shock, that I really struggled with calculus.</u>
+      <u who="WEINSTOCK">Sure. You know, so what--what else stood out to you on campus? Can you describe the town a little more? Can you describe what the actual campus looked like? You know, sitting here in <date>2016</date>, I have to imagine it was—it was quite different in <date>1961</date>.</u>
+      <u who="TALBOT">Right. Well, I think it was <date>year</date> that I arrived, they had just completed Hopkins Center [for the Arts],—</u>
+      <u who="WEINSTOCK">Okay.</u>
+      <u who="TALBOT">—and that was the big marvel. And yeah, a lot of pomp and ceremony over Hopkins Center. Of course, <orgName>Dartmouth Row</orgName> was there, <persName>Baker</persName> Library [<orgName>Fisher Ames Baker Memorial Library</orgName>, now <persName>Baker-Berry Library</persName>] was there, all the other buildings along the side. I lived in North Massachusetts Hall,—</u>
+      <u who="WEINSTOCK">Okay. </u>
+      <u who="TALBOT">—in the dormitory. I don’t know whether it’s still there or not. There was a dining hall—</u>
+      <u who="WEINSTOCK">It sure is.</u>
+      <u who="TALBOT">—down—yeah—down behind there. I know the—the—the building that at that time was <orgName>Bradley/Gerry Hall</orgName> [Bradley Hall and <persName>Gerry Hall</persName>] for psychology. [<persName>Gerry</persName> pronounced with a hard G.]  And I know that building is gone, and they’ve replaced that with a whole—whole complex of buildings.</u>
+      <u who="WEINSTOCK">Okay. </u>
+      <u who="TALBOT">I drove up to—</u>
+      <u who="WEINSTOCK">And—</u>
+      <u who="TALBOT">I showed my present wife the <orgName>Dartmouth</orgName> campus. So I remember some of the changes now. But, no, it was—it was—it was a neat little college town.</u>
+      <u who="WEINSTOCK">Yeah.</u>
+      <u who="TALBOT">I do remember the bonfires for <date>the Homecoming Weekend</date>.</u>
+      <u who="WEINSTOCK">Right, and <name type="event">Winter Carnival</name> and—</u>
+      <u who="TALBOT"><name type="event">Winter Carnival</name> statues, yes, all of that, yeah.</u>
+      <u who="WEINSTOCK">Great. Yeah, so what other types of social events or physical sports did you do at <orgName>Dartmouth</orgName>? Did you ski? Did you—did you row? Did you join a fraternity?</u>
+      <u who="TALBOT">Yep. I think I tried out for the freshman rowing team, but I didn’t make that one. Wasn’t big enough or strong enough. I certainly skied. Yeah, that was my main activity there. I had never skied before, but for <date>the first two winters</date> certainly, that was about all I did. I think I nearly flunked out.</u>
+      <u who="WEINSTOCK">[Chuckles.] Yeah, and you liked it a lot.</u>
+      <u who="TALBOT">And then—what was it? Oh, <date>sophomore year</date>, we—we would join fraternities. At that time, there was no fraternity membership for <date>freshman year</date>. I think that was the way it worked. And then in <date>sophomore year</date>, I did join Phi Kappa Psi [now <orgName>Panarchy</orgName>]. And, of course, I was active with the [<orgName>Dartmouth</orgName>] Outing Club,—</u>
+      <u who="WEINSTOCK">Yeah, so can you—</u>
+      <u who="TALBOT">—and there were a lot of <orgName>Outing Club</orgName> members at <placeName>Phi Kappa Psi</placeName>, so that was the connection there.</u>
+      <u who="WEINSTOCK">Sure. So let’s start with <placeName>Phi Kappa Psi</placeName>. Can you tell me about your experiences there? It no longer exists on campus. It became an organization known as <orgName>Panarchy</orgName>. But can you tell me a little bit about that?</u>
+      <u who="TALBOT">Yeah. It was—well, it was I guess a typical fraternity. It wasn’t—it didn’t have the reputation of being one of the big party houses or “Animal Houses.” As I said, we were a lot of <orgName>Outing Club</orgName> members there. I joined—not with the initial rush in <date>the beginning of sophomore year</date>; it was sort of the middle or toward <date>the end of sophomore year</date> that I joined that. And it was—it was okay. I wasn’t a big party person, anyway. And I think really—so it was <date>the end of sophomore</date>—the latter part of <date>sophomore year</date> and <name type="event">junior year</name>, I was the most active in it. By <date>senior year</date>, I had pretty much withdrawn from it. I had very little—</u>
+      <u who="WEINSTOCK">Okay.</u>
+      <u who="TALBOT">—activity there by <date>senior year</date>. I wasn’t—wasn’t really interested in it anymore.</u>
+      <u who="WEINSTOCK">Sure. What about <orgName>the Outing Club</orgName>?</u>
+      <u who="TALBOT">That, I was—I was active for the whole <date>four years</date>,—</u>
+      <u who="WEINSTOCK">Okay. </u>
+      <u who="TALBOT">—and in fact, my freshman roommate, [<persName>Robert P.] “Bob” Owens</persName> [Class of <date>1965</date>, Tuck <date>1967</date>] had become president of <orgName>the Outing Club</orgName>. I don’t know whether you’ve come across his name at all.</u>
+      <u who="WEINSTOCK">[No audible response.]</u>
+      <u who="TALBOT">He was president of <orgName>the Outing Club</orgName>. He was also in <orgName>ROTC [Reserve Officers’</orgName> <orgName>Training Corps</orgName>], but he didn’t—in the end, he didn’t go into active duty because he had some sort of a back injury, and the [<orgName>U.S.] Army</orgName> rejected him in the end.</u>
+      <u who="WEINSTOCK">Okay. </u>
+      <u who="TALBOT">But he was—that was interesting. He was the one who was <orgName>gung-ho Army</orgName>. I was there for other reasons, only because I was trying to minimize [<orgName>unintelligible]—I</orgName> knew I’d get drafted anyway, so I wanted to go as an officer rather than a enlisted man.</u>
+      <u who="WEINSTOCK">Yeah, so—</u>
+      <u who="TALBOT">But he was <persName>gung-ho</persName>, and he did all of the Mountain and <name type="event">Winter Warfare</name> [Program] things and so on, and he didn’t get into the <orgName>Army</orgName> at all, and I did and went to <placeName>Vietnam</placeName>.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">So—</u>
+      <u who="WEINSTOCK">Yeah, so—so tell me a little bit about that decision. You said that, you know, you knew you’d be drafted. Can you tell me  a little bit about the circumstances that, you know, made you believe that?</u>
+      <u who="TALBOT">Yeah. Okay Well, in <date>those days</date>, the draft was not based on the lottery;—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">—it was up to the local draft board. Each county had a local draft board, and the draft board for my particular area had a partiality for drafting college kids—</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">—as soon as they finished. So my brother did the same thing. He took <orgName>ROTC</orgName> at <orgName>Rutgers</orgName> so that he could go as an officer. And that’s why I signed up because I—I was pretty sure <orgName>they’d</orgName>—they’d grab me as soon as I finished. So I took the <orgName>Army</orgName> ROTC as well.</u>
+      <u who="WEINSTOCK">Okay. And what—what <date>about those first few years</date>? What sort of sense of <placeName>Vietnam</placeName> did you have? You know, obviously in ’61 and ’62 and ’63, <placeName>America</placeName> has a very sort of limited partnership with [<placeName>Vietnam</placeName> President] <persName>Ngô Đình Diệm</persName>. There’s—there’s not too much going on like there would be in <date>a few years</date> on the American side. Did you ever talk about that with your friends? Did you think it was going to escalate?</u>
+      <u who="TALBOT">Well, we did. I think it was either—maybe the end of ’62, early ’63. There were only a few thousand troops in <placeName>Vietnam</placeName> at that time. I remember discussing with some of the other ROTC cadets—there was speculation, oh, they might raise it up to, like, 30,000 troops. And we—we were all of the agreement they would never be so stupid as to send 30,000 troops to <placeName>Vietnam</placeName>. Well,—</u>
+      <u who="WEINSTOCK">It didn’t seem like it could happen, yeah.</u>
+      <u who="TALBOT">When I got there—when I got there in ’69, I was one of 570,000 and some other, never specified number of civilian contractors. But that had to number in the, you know, one to two hundred thousand civilian contractors that were there as well.</u>
+      <u who="WEINSTOCK">Sure. So is there anything else you could tell me about your experiences in <placeName>ROTC</placeName>? What was that like on <orgName>Dartmouth</orgName>’s campus? Did you feel like you were actually being prepared for war? Could you talk a little more about that?</u>
+      <u who="TALBOT">Well, as I say, I took <orgName>ROTC</orgName> not because I loved it but because I thought it was a necessary evil.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">So I have to admit that I—I did what I needed to do to get by with it. I was never a military hero or a military star. In fact [chuckles], I was rather proud of the fact that I was probably the one cadet that the colonel didn’t know by name.</u>
+      <u who="WEINSTOCK">[Chuckles.] Wow.</u>
+      <u who="TALBOT">And so anyway—yeah, we did <date>the four years</date>. There was a lot of—I think once a month we had to do the—the parade or the drill, that sort of thing. They would have—you know, from time to time, sort of <orgName>Army</orgName> exercises where you go out and play with guns and so on. There was a sub-unit called the Mountain and <name type="event">Winter Warfare</name>, and they did a lot more activities. They’d go out and actually do rock climbing and cross-country skiing and that sort of thing. My roommate, <persName>Bob</persName>, was in that. I didn’t go for that part.</u>
+      <u who="WEINSTOCK">No kidding!</u>
+      <u who="TALBOT">—by other fellow <orgName>Dartmouth</orgName> students.</u>
+      <u who="WEINSTOCK">Were these students that disagreed with what the <orgName>Army</orgName> was doing or the <orgName>ROTC</orgName> program was doing?</u>
+      <u who="TALBOT">Yes. So it would probably have been my senior year, I think, by time,—</u>
+      <u who="WEINSTOCK">Okay. </u>
+      <u who="TALBOT">—it was so controversial. But I do remember we paraded and we got pelted with eggs. I wasn’t hit, but the guys at the front of the parade were. [Chuckles.]</u>
+      <u who="WEINSTOCK">Huh! Wow!</u>
+      <u who="TALBOT">Ah, yes. I had—I had chosen my major by that time, which was psychology, and I was over in the psychology building doing a stats assignment, so I was working on the—in <date>those days</date> a calculator. It was even before they had—they had just brought in the first electronic calculators. This was an old mechanical calculator. If you press the keys, it was ker-chunk, ker-chunk, ker-chunk, ker-chunk. </u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">It did the calculations for my stats assignment. And while I was doing it, somebody came in and said, “Hey, there’s been an announcement on the radio. <persName>Kennedy</persName>’s been shot.” I said, “WHAT?” You know, I don’t know. Well, okay. So I actually kept doing my assignment, thinking, Oh, something’s wrong here, but anyway, I’ll go on with it. Then somebody came back because they said it was—it was interfering with the radio reception and they couldn’t hear. And so we all went down, and we actually listened to the radio, and sure enough, <persName>Kennedy</persName> had been shot in <placeName>Dallas</placeName>. And—</u>
+      <u who="WEINSTOCK">What was your reaction?</u>
+      <u who="TALBOT">Everybody was stunned. We just could not believe it. At that point, he had been shot. It was a half hour to an hour later before they actually announced that he’d been killed. And everybody just—everybody was just stunned. So that was the end of, you know, all activity for <date>the day</date>. I think we all went back home or back to our dorm rooms. </u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">So, yeah, that was the—that was how I heard it. I mean, as I say, everybody remembers where they were and what they were doing that das where they were and what they were doing <date>that day</date>.</u>
+      <u who="WEINSTOCK">Right. What was—you know, what—what was the feeling on campus? Did you notice any sort of shift in people’s moods? Did—did people see this as a kind of end-of-the-world event, a sign that times were changing, or—</u>
+      <u who="TALBOT">I think what I felt and what many of us felt was—was, you know, a huge sense of shame. How could this happen in <placeName>America</placeName>? You know, what’s going on that people can—can do such a thing and—and assassinate the leader? I guess—yeah, maybe—maybe even that has stuck with me because I—I—I do not understand the <placeName>U.S.</placeName> and the guns policy, and it’s gotten far worse now than it was then.</u>
+      <u who="WEINSTOCK">Right. Yeah.</u>
+      <u who="TALBOT">Well, I don’t know. Let’s see. Of course, <persName>Kennedy</persName> was assassinated. [<persName>Lyndon B.]</persName> <persName>Johnson</persName> came on. I think there was probably some uncertainty about, you know, whether <placeName>Vietnam</placeName> was going to continue or not, but—but pretty clearly, <persName>Johnson</persName> showed that he was—he was going to extend it or—or engage more deeply.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">—so I went on directly to graduate study, graduate school. And because I was going on to graduate school, the <orgName>Army</orgName> then delayed by active duty. You could get a delay of active duty if you were engaged in full-time graduate study. So I was commissioned in <date>June</date>.</u>
+      <u who="WEINSTOCK">Oh!</u>
+      <u who="TALBOT">—shortly after graduation.</u>
+      <u who="WEINSTOCK">Wow. And where did you meet your wife?</u>
+      <u who="TALBOT">She was from <orgName>Colby Junior [College</orgName>, now <orgName>Colby-Sawyer College]—or</orgName> <persName>Colby Junior</persName> as it was called then. I’m not sure. What’s the name of it now? Do they still go by <persName>Colby</persName>, <orgName>Colby College</orgName> or what?</u>
+      <u who="WEINSTOCK">Yeah, up in <placeName>Maine</placeName>?</u>
+      <u who="TALBOT">No, no, this is the one down in <placeName>New Hampshire</placeName>, down in—oh, where was it?—below—below <placeName>Lebanon</placeName>.</u>
+      <u who="TALBOT">It was <orgName>Colby Junior College</orgName> when it was a <date>two-year</date> junior college for women.</u>
+      <u who="WEINSTOCK">Okay. So you met her up at <placeName>Dartmouth</placeName>, though, the area.</u>
+      <u who="TALBOT">She was, yeah, I met her at <placeName>Dartmouth</placeName>. We had dated through my time at <placeName>Dartmouth</placeName>.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">And then, actually, we got married shortly after I arrived in <persName>Princeton</persName>, a very foolish move indeed, but that’s what happened. She was having problems with her family, and conflict with the family, and her mother disapproved of the marriage and so on, and—anyway, since we had planned to get married anyway and she had in effect been thrown out of home [chuckles], we decided we’d get married right then and there.</u>
+      <u who="WEINSTOCK">Huh.</u>
+      <u who="TALBOT">So we got married at <persName>Princeton</persName> <date>that summer</date>, in <date>July</date>.</u>
+      <u who="WEINSTOCK">Okay. So what was <date>that first summer</date> at <persName>Princeton</persName> like?</u>
+      <u who="TALBOT">I was a—I had a research assistantship, so, yeah, we were—we were adjusting to married life. Of course, had very little money as a student.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">I’ve forgotten what the tuition was in <date>those days</date>, but I think through the course of my time in—in—in <persName>Princeton</persName>, I had to get student loans, right, to cover some of the cost of tuition. And I remember at the end of that time, I had borrowed a grand total of $2,000. And I thought, Oh, my God, how am I ever gonna pay off that?</u>
+      <u who="WEINSTOCK">[Laughs.] What program were you doing there?</u>
+      <u who="TALBOT">That was psychology. I’d been a psychology major at <placeName>Dartmouth</placeName>, and I went on to study what was, oh, I guess social psychology at <orgName>Princeton</orgName>. <persName>Princeton</persName> at that time—I guess it still is—was pretty much known as an academic training ground, I suppose. Most of the people from there went on to academic careers, teaching in universities and that sort of thing. And that’s what I thought I might end up doing. So, yeah, I went on, working toward a doctorate in psychology at <persName>Princeton</persName>.</u>
+      <u who="WEINSTOCK">And at your time there, you said that while you were in graduate school, you had a delay of active duty. Did you think that by the time you were done with graduate school that the <placeName>Vietnam</placeName> situation wouldn’t even really be on your radar anymore?</u>
+      <u who="TALBOT">That’s right. I was certainly hopeful, that—oh, you know, I’ve got <date>three years</date> here. By that time, it’ll all be sorted out. [Chuckles.]</u>
+      <u who="WEINSTOCK">[Chuckles.] Right. So at the end of your time at <persName>Princeton</persName>, obviously things aren’t finished in <placeName>Vietnam</placeName>. What happened with you? Where did you get sent?</u>
+      <u who="TALBOT">Well, I can remember—let’s see, it was around—it would have been, you know, just after <date>Christmas</date>, I think <date>January</date>, I got my orders from the <orgName>Army</orgName>, telling me that, you know, when I finished in <date>June</date>, such-and-such a date, I was to report to <placeName>Fort Sill</placeName>, <placeName>Oklahoma</placeName> for artillery training. I was assigned to the artillery branch. That had nothing to do with any choices of mine. That’s where they put me.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">So they told back in <date>January</date> of ’68—that was it, <date>January</date> of ’68—that I would be going to <placeName>Vietnam</placeName>. And I said, “Oh, no, no, no, there’s some mistake here. I’m going to be a psychologist. You don’t send psychologists to war. I’m supposed to go to <orgName>Walter Reed Hospital</orgName> [sic; <orgName>Walter Reed National Military Medical Center</orgName>] in <placeName>Washington</placeName> and do something like that,” you know.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">So I—I actually investigated it with the <orgName>Army</orgName> and rang them  up, and you know, “What’s going on here?” “No, that’s it. That’s where you’re going.” So I knew from <date>January</date> onward that I would be headed for <placeName>Vietnam</placeName>. And, of course, that was when I—when I mentioned it to any of the other students or the faculty, their reaction, of course, was, “Well, of course you’re going to go to <placeName>Canada</placeName>, aren’t you? You wouldn’t go there. You wouldn’t go to <placeName>Vietnam</placeName>.”</u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="TALBOT">And I told them, “No, I don’t know want to go to <placeName>Vietnam</placeName>, but that was the deal I had with the <orgName>Army</orgName>. They paid me while I was at <orgName>Dartmouth</orgName> to—to take <orgName>ROTC</orgName>, so yes, I don’t want to, but I will go to <placeName>Vietnam</placeName>.”</u>
+      <u who="WEINSTOCK">How did they respond?</u>
+      <u who="TALBOT">There were some who—who actually shunned me.</u>
+      <u who="WEINSTOCK">What—what do you mean by that?</u>
+      <u who="TALBOT">They wouldn’t speak with me. They just, you know, ignored me. I was a non-person after that.</u>
+      <u who="WEINSTOCK">Huh.</u>
+      <u who="TALBOT">There were several faculty members who did that, and several students who did that, and—</u>
+      <u who="WEINSTOCK">And—</u>
+      <u who="TALBOT">—the feeling was so strong in <date>those days</date>—</u>
+      <u who="WEINSTOCK">Sure. Did this—did this kind of align with other major protests that were happening at <persName>Princeton</persName> at the time?</u>
+      <u who="TALBOT">It did. It did. And in fact, that <date>last year</date>, they opened a new building at <placeName>Princeton</placeName>. I think it was <orgName>the Wilson School</orgName>, <orgName>Woodrow Wilson School of International Something or Others</orgName> [sic; <orgName>Woodrow Wilson School of Public and international Affairs</orgName>]. And they had <persName>Johnson</persName> there to—to dedicate the building at the opening. And he gave a speech on <placeName>Vietnam</placeName>, and, of course, it was covered in the national press and so on, and the protesters were just—they just—just about shouted him down. It was—it was really quite strong. <persName>Princeton</persName> was one of the hotbeds of protest against the war at that time.</u>
+      <u who="WEINSTOCK">And what were—what were your thoughts about this? So you—you know, you said that, well, you did feel a sense of duty to not go flee to <placeName>Canada</placeName>, but did you agree with the protesters or not?</u>
+      <u who="TALBOT">No. I—I—at that point, I’d say I was more sympathetic to the—to the government cause. I guess I believed the propaganda, the domino theory and that if <placeName>South Vietnam</placeName> became communist, the rest of <placeName>Southeast Asia</placeName> would as well. So I went along with that. It’s just that I didn’t really want to be part of the fight. [Chuckles.]</u>
+      <u who="WEINSTOCK">Sure. So—so you saw <placeName>Vietnam</placeName> as—as really a <name type="event">Cold War</name> conflict in <date>those days</date>.</u>
+      <u who="TALBOT">In <date>those days</date>, yes, I did. I came to see it very differently even while I was there,—</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">—but—but at the time, I figured, No, we are doing the right thing. </u>
+      <u who="WEINSTOCK">And why do you think you—you viewed it that way? Was there a lot of stuff going on at <name type="event">the Cold War</name> time? Did things feel really tense? Was <placeName>America</placeName> scared of <placeName>Russia</placeName> and, like you said, communism in general?</u>
+      <u who="TALBOT">Well, yes, it was certainly still the—the height of <name type="event">the Cold War</name>, and, yeah, the theory was that—you know, there had been problems, of course, in <placeName>Malaysia</placeName>. There had been insurrections in the <placeName>Philippines</placeName>, that the whole area was ripe and that this—this really was a challenge, that if <placeName>Vietnam</placeName> did fall, then the whole thing would go.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">Yeah, that was my thinking at the time.</u>
+      <u who="WEINSTOCK">What about other instances of counterculture that you may have came [sic] across? What were your thoughts [chuckles] about the music of <date>the days</date>, the drug culture of <date>the days</date>? I suppose this was really heating up right when you were actually going to <placeName>Saigon</placeName>, but can you tell me a little more about that?</u>
+      <u who="TALBOT">I—I wasn’t into the drugs at all. I always thought that was rather silly. I guess my drug of choice in <date>those days</date> was alcohol. Probably still is.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">So that was it. The music of <date>the day</date>? What was it? Okay, I  guess I was more a follower of [singer-songwriter] <persName>John Denver</persName> than I was of, you know, the <persName>Beatles</persName>—</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT"><persName>—John Denver</persName>, the popular music, rather than the protest music.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">Yeah.</u>
+      <u who="WEINSTOCK">Yeah. So, like you said, it was <date>January 1968</date> that you found out you were going to <placeName>Saigon</placeName>. And you said you went to <placeName>Oklahoma</placeName> from there, right?</u>
+      <u who="TALBOT">Yes. Well, okay, there were problems with my doctoral research, and it all fell apart, and so I didn’t—I didn’t actually complete the <persName>Ph.D.</persName> I got the master’s degree along the way. But there was no time left, really, to—it would have taken another year to—to—to re- —redo research and redesign that, and I didn’t have <date>that year</date>. So in <date>August</date>, I had to go to <placeName>Oklahoma</placeName> to start the artillery basic officer training. And that went through—I think until <date>the end of October</date>.</u>
+      <u who="WEINSTOCK">Wow. So—so what base were you at in <placeName>Oklahoma</placeName>?</u>
+      <u who="TALBOT">It was Fort Sill. Fort Sill was the artillery school.</u>
+      <u who="WEINSTOCK">And what was [sic] your thoughts about that? Once again—you know, it—it sounds like each place you go to is—is pretty different from the last. How did—how did Fort Still [sic] compare to your expectations, or did you have any at all?</u>
+      <u who="TALBOT"><persName>Fort Sill</persName> was pretty bleak, I thought. First of all, it was <placeName>Oklahoma</placeName>, and that part of <placeName>Oklahoma</placeName> is nearly desert. The heat was incredible in <date>August</date>. And, you know, it was a big artillery range, so the land was absolutely useless. All they could do was fire artillery shells at it.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">So that was the one part that I did enjoy. Again, in those days—now, here’s an interesting difference: In <date>those days</date>, we actually had to do the calculations by hand. You had slide rules, and you had maps, and you drew the lines on the maps and so on. Nowadays, of course, it’s all done by computer and digitally. But there was a team there working—of computer nerds, and they were working on a—a—a new device called the FADAC, <orgName>Field Artillery—Field Artillery Digital Analytical Computer</orgName> [sic; <orgName>Field Artillery Digital Automatic Computer</orgName>]. And this was the first computerized fire control center, where you’d punch the data into a computer and it would then calculate the settings for the guns. And they were just [cross-talk; unintelligible]—</u>
+      <u who="WEINSTOCK">Did you get to use that?</u>
+      <u who="TALBOT">Sorry?</u>
+      <u who="WEINSTOCK">Did you get to use that, the FADAC?</u>
+      <u who="TALBOT">We didn’t use it. They were still developing it at the time,—</u>
+      <u who="WEINSTOCK">Okay. </u>
+      <u who="TALBOT">—but we saw, you know, the early prototype model.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">And, you know, these guys were doing the course with us so that they understood all the principles of gunnery, just like we did. And then they would design the computer programming  to do what we did.</u>
+      <u who="WEINSTOCK">Right. What were the sort of day-to-<date>day</date> conversations at the base? Did people talk a lot about the prospects of going to <placeName>Vietnam</placeName>?</u>
+      <u who="TALBOT">Oh, yes, and by that time, many of them had been—not—not of the students, but many of the <orgName>Regular Army</orgName> staff there had been to <placeName>Vietnam</placeName> already, so they were telling us, you know, what life was going to be like there and—there was a lot of <name type="event">anti-Vietnam</name> sentiment, against the Vietnamese people, that is. So, yeah, all that was—was going on. And people there at Fort Sill, of course, were certainly very pro—pro the war. So, yeah, we didn’t—we didn’t have much contact with the—the protests, you know, or what was going on outside of the <orgName>Army</orgName> in that situation.</u>
+      <u who="WEINSTOCK">Sure. So what—what sort of things did they—they tell you about <placeName>Vietnam</placeName> at <placeName>Fort</placeName> Still [sic]? Did it scare you at all?</u>
+      <u who="TALBOT">Oh, yes, yes. Of course, many of them had been in, you know, full combat situations out in the—in the batteries, under fire and so on, so yeah, it was quite scary. I didn’t really know what I was going to be doing other than it was going to be research and development, but I can remember I had the thought at the time, Well, for heaven’s sake, they could be sending me out in helicopters to—to measure people’s sweat. [Chuckles.]</u>
+      <u who="WEINSTOCK">[Laughs.]</u>
+      <u who="TALBOT">[Unintelligible] thinking, I don’t know what’s going on. So—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">—I had no idea what level of danger I would be exposed to.</u>
+      <u who="WEINSTOCK">When did you find out what you were doing over there, in <placeName>Saigon</placeName>?</u>
+      <u who="TALBOT">Not till I got there. Well, I guess one of the things—before I actually went there, they—they sent me down to <placeName>Washington</placeName> for <date>about three days’</date> orientation at <orgName>ARPA</orgName> [<orgName>Advanced Research Projects Agency</orgName>, now <orgName>Defense Advanced Research Projects Agency</orgName>], which was located in the <orgName>Pentagon</orgName>, so I did get some idea at that point that it was going to be project management work, largely administrative work, but that I would be going out into the field, to different test sites, and, yeah, most of the time I would be in an office in <placeName>Saigon</placeName>.</u>
+      <u who="WEINSTOCK">Sure. So you said you flew out on <name type="event">New Year’s Day</name>, <date>January 1st, 1969</date>. You’re on the plane. What—what are you thinking?</u>
+      <u who="TALBOT">[Laughs.]</u>
+      <u who="WEINSTOCK">[Laughs.]</u>
+      <u who="TALBOT">Well, one, it was one of the most hung-over flights I’ve ever seen in my life.</u>
+      <u who="WEINSTOCK">[Laughs.]</u>
+      <u who="TALBOT">And—oh, that was it. The weather was bad, so the flight was actually delayed. There was fog or something or other out at Travis Air Force Base [in <placeName>California</placeName>], so the flight was about three or four hours delayed, even taking off. We flew from <placeName>Travis</placeName> to <placeName>Seattle</placeName>, where it refueled, and then we flew on to <placeName>Tokyo</placeName>, and in <date>those days</date> it was Haneda Airport in <placeName>Tokyo</placeName>. It was before <date>the days</date> of Narita [International] Airport.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">And we landed at <placeName>Haneda</placeName>, and they told us we’re not allowed to get off the plane—</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">—because what had happened was that earlier in <date>the week</date>, apparently one of the flights landed there, the soldiers got off the troops got off, and two of them had made arrangements to meet up with some protesters from <placeName>Sweden</placeName>, and anyway, they basically skipped. They went AWOL [absent without leave] and turned up <date>several days later</date> in <placeName>Sweden</placeName>.</u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="TALBOT">So the Japanese were very embarrassed by all of that, and so they wouldn't let us off the plane. So after flying all the way across the <placeName>Pacific</placeName>, we had to sit on the plane while they refueled it. And then we took off again and flew to <placeName>Okinawa</placeName>, because some of the people on the flight were—were due to go to <placeName>Okinawa</placeName>. And there, they did let us off the plane, and I recall in the terminal, there were a bunch of Marines heading back from <placeName>Vietnam</placeName>.  And, of course, they were all disheveled and dirty uniforms. They didn’t even get clean uniforms to travel home in, so they still had muddy—muddy, messy uniforms. They were dead tired, and they really looked beat, and I remember our reaction was, Oh, shit. What are we getting into?</u>
+      <u who="WEINSTOCK">[Chuckles.] Did they say anything to you or, yeah, like you said—</u>
+      <u who="TALBOT">They just looked at us. We were green, and, no, they didn’t want to know anything about us.</u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="TALBOT">But that was a scary thing.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">And again I thought, Oh, shit. What’s happening? And then—then we landed at <persName>Tan Son Nhut</persName>. And my first reaction was, I want to get off this plane as quick as I can. It’s too big a target. [Chuckles.]</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">There were a bunch of grizzly old sergeants. This was their second time, third time there. Who knows? And they just ambled off the plane. You know, they weren’t fussed about it at all. So I finally—I settled down and said, Okay, if they’re not worried about it, maybe I don’t need to be.</u>
+      <u who="WEINSTOCK">Even in <date>January</date>, yeah?</u>
+      <u who="TALBOT">Yeah, <date>January</date>. Well, <date>January</date> wasn’t even the hottest time of <date>the year</date> there, but it was still—you know, of course, coming from the <placeName>U.S.</placeName> in <date>January</date>, yeah, it was hot.</u>
+      <u who="WEINSTOCK">And where was your regular assignment?</u>
+      <u who="TALBOT">It was—the <orgName>ARPA</orgName> field unit was in <placeName>Saigon</placeName>. We were right down on <placeName>the Saigon River</placeName>, actually, just—just across from the Vietnamese naval base on the river.</u>
+      <u who="WEINSTOCK">So is—is—is this posting at an actual <placeName>U.S.</placeName> base, or is it kind of just in the middle of the outskirts of the city?</u>
+      <u who="TALBOT">No, it was a compound that we shared with a Vietnamese unit, and it was right in the city. It was right on the—on <placeName>the Saigon River</placeName>, in the city, in the heart of the city. </u>
+      <u who="WEINSTOCK">Sure. So—so you were working with <orgName>ARPA</orgName>—<orgName>right?—the Advanced Research Projects Agency</orgName>, and you were essentially there as an adviser to the—the Vietnamese counterpart, which you said it was <orgName>the Combat Development and Test Center</orgName>. Is that right?</u>
+      <u who="TALBOT">Yes.</u>
+      <u who="WEINSTOCK">And so was this an <orgName>ARVN</orgName> [pronounced <orgName>AR-vin</orgName>, <orgName>Army</orgName> of <placeName>the Republic of Vietnam</placeName>] affiliate?</u>
+      <u who="TALBOT">Yes, it was—the staff there were all <orgName>ARVN</orgName>. They were—they were, for the most part, officers. And they were educated Vietnamese: some of them engineers. One of them was a botanist, of all things.</u>
+      <u who="WEINSTOCK">Huh.</u>
+      <u who="TALBOT">I was involved in a project with him. But, yeah, they—they were—you know, as it turns out, this was one of the—the posh assignments of the <orgName>ARVN</orgName>,—</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">—and most of the people—most of the Vietnamese troops there were—were from wealthy families, and they were able to purchase those assignments from the colonel, and the guarantee was that they wouldn’t have to go out of the city into the country, so they were safe—</u>
+      <u who="WEINSTOCK">No kidding.</u>
+      <u who="TALBOT">—they were safe there in the city, doing their academic studies. I say “academic” because, for example, this one fellow who was a botanist—he was—his project was supposedly to write a survival manual for the Vietnamese troops so that they could survive out in the jungle. The survival manual had nothing of the skills of survival. It was a catalog of different plants. And he described them as a botanist would describe them, not even in the way that an ordinary person would—would recognize it. It was all the botanical terminology. And supposedly he would tell them which ones were edible and which ones weren’t. Well, as near as I could tell, none of them were edible except some of them you could brew up the leaves and make tea. [chuckles], and that was the extent of the survival manual. So—</u>
+      <u who="WEINSTOCK">So not very useful.</u>
+      <u who="TALBOT">Not—not useful in the slightest.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">But, you know, this was how he spent the war because his family could afford to buy him a safe assignment in <placeName>Saigon</placeName>.</u>
+      <u who="WEINSTOCK">Right. So—so this experience—you know, for obvious reasons—I mean, you—you remembered it, but did this have any impact on your thinking about the South Vietnamese administrative structure? Like, did you see this as a general sign of incompetence on the <orgName>ARVN</orgName> side? Or what were your thoughts?</u>
+      <u who="TALBOT">I mean, eventually yes. This was—this shaped, really, my eventually whole perception of the thing. Basically, I—I think what we discovered when we were doing, for example, the—the indoctrination research, where we compared what sorts of indoctrination did the Viet Cong get versus the <orgName>ARVN</orgName>? And essentially <orgName>the Viet Cong</orgName> believed in what they were fighting for. It was an idea that had come, which was essentially <placeName>Vietnam</placeName> independence. That’s what—</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">—they were fighting for. And—and they were true to that ideal. And they—they treated their soldiers with respect and  as equals. They’d take them out into the <persName>bush</persName>, and they’d work in teams of six or eight. And, yes, there was a lot of political indoctrination, but they—you know, they actually did support each other.</u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="TALBOT">They stayed safely back in Sai[gon].</u>
+      <u who="WEINSTOCK">Yeah. So you know, we have a lot to unpack with what you just said. It sounds like kind of a lot of your perceptions shifted very quickly.</u>
+      <u who="TALBOT">Very quick, yes.</u>
+      <u who="WEINSTOCK">Can you—can you tell me about your first couple of days on the job, working with these—your counterparts at <orgName>the Combat Development</orgName> [and] Test Center? Did they speak English?</u>
+      <u who="TALBOT">Yes. The one that I worked with most closely was a Major Trung.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">And he did speak English. I don’t know quite what his background was. There was a bit of engineering in it. But he was—he was basically the leader of his team of—of other specialists. So there’s one guy who was doing the survival manual. Another one was doing a study on the living standards of the <orgName>ARVN</orgName>: basically, what were they getting paid and what was it costing them to live?</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">Quite a few—few others. So Major <persName>Trung</persName> sort of oversaw them. Again, he didn’t have any—as near as I could tell, he didn’t have any particular technical expertise himself.</u>
+      <u who="WEINSTOCK">Right. </u>
+      <u who="TALBOT">Wow! Well, again, I didn’t really have direct dealing with—with the psychological operations. In <placeName>Vietnam</placeName>, that amounted largely to dropping leaflets on—on enemy troop positions. Most of them were the Chiêu Hồi [Program] leaflets, encouraging them to surrender, which, as you’ve probably heard—basically, they got used as toilet paper.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">So we supplied the Viet Cong with toilet paper. Tons of it.</u>
+      <u who="WEINSTOCK">Can you tell me a little bit more about the Chiêu Hồi Program that you—that you understood from your time over there?</u>
+      <u who="TALBOT">Again, I wasn’t directly involved with <orgName>the Chiêu Hồi Program</orgName>, but we—we knew about it, and it was—we ended up interviewing many of <placeName>the Hồi Chanh</placeName> in the detention centers, particularly in looking at these troop indoctrination practices or how did—how did they get to—how did they get their training?</u>
+      <u who="WEINSTOCK">So were the Hồi Chanh the Viet Cong detractors [sic]?</u>
+      <u who="TALBOT">Sorry?</u>
+      <u who="WEINSTOCK">Were the Hồi Chanh the Viet Cong detractors?</u>
+      <u who="TALBOT">Yes, <orgName>the Chiêu Hồi Program</orgName> was—I’ve forgotten what the translation was [Transcriber’s note: “Open Arms”]—but those who defected and came over to the—to the South Vietnamese side were referred to as <placeName>Hồi Chanh</placeName>. </u>
+      <u who="WEINSTOCK">And so you said you interviewed some of these people. what was the purpose of those interviews?</u>
+      <u who="TALBOT">Okay. With, with that project where they were looking at what sort of training and indoctrination did they go through that inspired such loyalty. We would talk with some of the Hồi Chanh about how they got conscripted to the Viet Cong, what was their training, how long did it last, where were they, and that sort of thing.</u>
+      <u who="WEINSTOCK">Did you find that useful at all for the American cause, if you will, getting this information out of Viet Cong detractors?</u>
+      <u who="TALBOT">Well, it was. As I say, it showed the difference in their beliefs, that they truly were fighting for independence. There was a lot of, as I say, political indoctrination, but basically, they were sharing this common experience of being out in the <persName>bush</persName>, under threat, learning the fighting skills, that they really were a team, whereas <placeName>the South Vietnamese</placeName> never quite mastered that part. It was more about, you know, the corruption with the South Vietnamese side.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">Not really. Of course, I don’t speak Vietnamese, so I didn’t do the interviews,—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">—but we had the translators there, and they would then relay to me, you know, some of the things that were—were being spoken.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">So no, I don’t recall any particular people that had been spoken to, no.</u>
+      <u who="WEINSTOCK">Okay. </u>
+      <u who="TALBOT">Okay. There was <orgName>the Living Standards Program</orgName>. And, again, it was working out, you know, what was the cost of living for the <orgName>ARVN</orgName> troops and what were they being paid and so on. And actually, what they were being paid wasn’t—wasn’t out of line for, you know, what the cost of living would be, or the official cost of living.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">Where the problem came about was that there were all the bribes that they had to pay.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">So, yeah, they were all struggling as well. </u>
+      <u who="WEINSTOCK">How did—how did you conduct that research?</u>
+      <u who="TALBOT">Again, it was the Vietnamese translators—</u>
+      <u who="WEINSTOCK">Okay. </u>
+      <u who="TALBOT">There, they would be talking with the <orgName>ARVN</orgName> soldiers and so on. And, again, I didn’t do the—the actual translations. I was more in the—the programming side or the administrative side, to make sure that the interviews got done, that sort of thing.</u>
+      <u who="WEINSTOCK">Yeah. Can you speak a little bit more about your specific duties? Were they more analytical? Like I said, were you trying to kind of analyze these numbers that you were getting reported?</u>
+      <u who="TALBOT">Well, as I say, it was more project management: making sure that the appointments got made or that they—they conducted the interviews. What else did we do? As I say, it was more administrative than the actual thing. </u>
+      <u who="WEINSTOCK">Okay. Was most of this work taking place in this—this <orgName>ARPA</orgName> field unit on the river?</u>
+      <u who="TALBOT">It was there on the river, or, as I said, we would go out to the different field units. I remember one of the field trips, for example—this one was where I was—I was helping on the—on the technical side with the equipment. One of the projects we were working on was what they called stabilized image binoculars. It was—in <date>those days</date>, it was a set of binoculars that had moveable lenses with little gyroscopes attached to the lenses so that basically the lens would stay in position while the binoculars bounced all around. So if you were up in an aircraft and trying to spot a target on the ground, of course, the thing bounces all over the place. So this was an advantage in that the image would stay steady, even though—</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">—those binoculars were bouncing.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">So, again, we—we would go out and we would test out particular equipment: How was the lighting working? Was it able to fulfill the expectations? That sort of thing.</u>
+      <u who="WEINSTOCK">So were you still on the—the—the management side of all of this, or was this a little bit more hands-on? Were you actually using this equipment?</u>
+      <u who="TALBOT">Yeah, this was a bit more hands-on, using the equipment. But, yeah, there was also the administrative side as well.</u>
+      <u who="WEINSTOCK">No.</u>
+      <u who="TALBOT">He was an anthropologist, who at the time was probably one of the world’s authorities on <placeName>Vietnam</placeName> and the village life in <placeName>Vietnam</placeName>. So basically <orgName>ARPA</orgName> financed him to do his—his projects and his research out in the Vietnamese villages. So, yeah, we worked with him.</u>
+      <u who="WEINSTOCK">Do you—do you remember any con- —any specific conversations with Mr. <persName>Hickey</persName>, his personal views about this situation? Did he share this sentiment that—you know, that we—we were kind of messing up in the area?</u>
+      <u who="TALBOT">Oh, absolutely, absolutely. He was—he was, you know, quite discouraged by the whole thing toward the end. Well, even by the time I got there in ’69, it—it was toward the end. He—yeah, he—he was quite—quite discouraged that they weren’t really doing much of anything effectively out in the villages.</u>
+      <u who="WEINSTOCK">Right. Was there a sense that it could have been different? Did Mr. <persName>Hickey</persName> have any sort of alternative plans, plans that, say, might have mimicked more <orgName>VC</orgName> practices that if <placeName>the United States</placeName> had adopted, things could have been different?</u>
+      <u who="TALBOT">I’m sure he did. Again, the thing that was—that colored the—the <placeName>U.S.</placeName> approach and the <orgName>Army</orgName>’s approach was—in fact, it was very colorfully put by one of the guys there, one of the old troopers there at Fort Sill. “If you grab them by the balls, the hearts and minds will follow.”</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">And that was their approach to it. It was—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">It was “grab ‘em by the balls.” There really was—was very little effort to—you know, to get them on side or win them. I mean, I’d like to say, certainly, some of the <orgName>MACV</orgName> [<orgName>Military Assistance Command</orgName>, <placeName>Vietnam</placeName>] advisers who actually lived out in <date>the villages day</date> after day would—would have tried other approaches and so on. But the big military machine was such that—yeah, it was just, you know, “Show them you’re—show them you’re tough. Show them who’s boss. Grab ‘em by the balls.”</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">—that <orgName>the Viet Cong</orgName> had been—so that they could then deal with the issue. And, of course, the reluctance was that the villagers didn’t want to sound the alarm—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">—because they knew if they did, you know, the village could end up being flattened or they’d send so many troops around and they’d try to surround the village and trap the <orgName>VC</orgName> in there. And, of course, then they’d be trapped in the village, too, with the VC. So, I mean, <orgName>commonsensically</orgName>, you know, there was—there was no future in this hamlet alarm system, but that was the thinking at the time. “Oh, we need to know when they’re there so we can smash ‘em,” you know. And then they wondered why the villagers wouldn't cooperate.</u>
+      <u who="WEINSTOCK">Right. Well, you know, how—how—how did these things wind up being approved if it was, you know, like you say, it’s  so glaringly obvious that—that it wouldn’t work, that these villagers, you know, wouldn’t betray the—the <orgName>VC</orgName> and, in effect, betray themselves? </u>
+      <u who="TALBOT">Because I think they were thought up by some senior <orgName>Army</orgName> officers or some people back in the <orgName>Pentagon</orgName>. They weren’t really inspired by the people on the ground. People on the ground wouldn't—wouldn’t—wouldn’t even have thought of doing that.</u>
+      <u who="WEINSTOCK">Right. Well, you said that this is one you actually went out into the field to go test. Can you tell me a little bit more about these—these, quote, “field trips”? Like you said, you went up to the <orgName>DMZ</orgName>. You said you went into the field for this project. Can you tell me a little bit about that?</u>
+      <u who="TALBOT">Yes. Well, occasionally we would—“occasionally”!—probably once every week, <date>ten days</date> or so we’d have to go out into the field somewhere as—as part of overseeing the project. So I—I did get to travel around quite a lot of <placeName>Vietnam</placeName> and see different parts of it. It would be out, you know, say, for <date>two—days</date> or so, <date>three days</date> maybe. And that’s where, you know, I did get to see some of the—the actual combat action. Not that I had to go shooting anybody, but—but they certainly shot at me. And when that would happen, my job was to pull my bun into my helmet and [chuckles]—and stay safe.</u>
+      <u who="WEINSTOCK">[Chuckles.] Can you tell me a little bit more about those experiences? Where—where did that happen? Can you tell me a little bit more about those—I mean, those actual, you know, armed conflicts?</u>
+      <u who="TALBOT">Um. Let’s see. Well, one of them was up in a little village west of <placeName>Da Nang</placeName>. Yeah, that was where we went out to interview this guy about the hamlet alarm system. We went in to interview a village chief. So anyway, that particular night, we stayed at a police compound, in this little village, maybe about 10 kilometers west of <placeName>Da Nang</placeName>. </u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="TALBOT">And I never experienced anything like that with the earth just shaking and the—the noise and—uh! But anyway, yeah, that was a B-52 strike nearby.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">So, of course, he was terrified that here, we’re in these green suits, and we were there interviewing him, and who would see that we were there as—you know. So he didn’t know what—what repercussions would happen because we had come to speak with him. So, yeah, that was one trip that—one thing we went on.</u>
+      <u who="WEINSTOCK">Yeah. Can you tell me about another?</u>
+      <u who="TALBOT">Yeah. I do remember—again, there was this project with the binoculars. I actually went up on a—on a reconnaissance flight with one of the—a local pilot and artillery observer, and that was up near Khe Sanh, because I remember we flew over Khe Sanh, and he pointed out that’s where it all happened.</u>
+      <u who="WEINSTOCK">What was involved with that?</u>
+      <u who="TALBOT">And what [unintelligible] after that was that the whole thing was so mechanical. We actually—you know, we did it. We called in the fire. You see the little puffs of smoke. And then it’s just like a computer game: You move the puffs of smoke to the right, to the left, up, down, whatever until they’re on the target, which we did. And then we blew up the targets. I’m quite sure no one was injured because by the time we got to the target, they—they were well alerted and they were well down underground in the tunnels. So I’m quite sure—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">—we never hurt anybody. But we blew up the—the bunkers. And what struck me later: how impersonal the whole thing was. It was, it was just a computer game of moving puffs of smoke, and yet I don’t know how many people could have been killed—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">—had it been a real combat situation. So, yeah, that was the one thing that struck me about that one.</u>
+      <u who="WEINSTOCK">What were—you know, what were some of—you know, I want to probe this a little more. What—what were some more thoughts that you had about—like you said, that the level of—of impersonal involved in that. You know, I’m not asking you to—to speculate about, you know, what—say, what <placeName>U.S.</placeName> pilots would—would feel when they were bombing targets, you know, that they couldn’t see. But can you speak a little bit more [chuckles], especially as a psychologist, about that impersonal element of war?</u>
+      <u who="TALBOT">Well, that was the alarming thing for me. But war had become so detached. The stories that we grew up with of war—you know, hand-to-hand combat, face-to-face and so on—it wasn’t like that at all. It was—it was—it was technical. </u>
+      <u who="WEINSTOCK">[Chuckles.] Yeah. So—so this didn’t strike you as winning the hearts and minds.</u>
+      <u who="TALBOT">Oh God, no. No. No, in fact, you know, we were abysmal at winning the hearts and minds, except for—for those you know, loyal or who had—who had employment because we were there, and they were the ones, of course, who needed to get out at the end, and we did get as many of them out as we could. But, you know, we were—we were abysmal at winning the hearts and minds, whereas the Viet Cong were far more effective.</u>
+      <u who="WEINSTOCK">Do you think it could have been different if you had implemented different techniques, if, you know, the higher-up command had diverted more resources to this sort of work, sort of going out to the actual villages and doing this—this type of research, rather than just massive bombing campaigns and expensive ground war campaigns? Could it have been different, do you think?</u>
+      <u who="TALBOT">I don’t know that it could have because, you know, they made <placeName>Hồ Chí Minh</placeName> and the North Vietnamese—they made them into the enemy, and they didn’t need to be an enemy. So, I mean, I think the only different approach that—that might have been effective would be to try to make an alliance with <placeName>Hồ Chí Minh</placeName> [chuckles] and—okay. Well, my understanding of the whole thing was that <placeName>Hồ Chí Minh</placeName> originally came to—approached the <placeName>U.S.</placeName> as an ally that when—when <name type="event">World War II</name> was over,—</u>
+      <u who="WEINSTOCK">Right, <date>1946</date>.</u>
+      <u who="TALBOT">—you support us from—yeah. “You support us for independence from the French.” And the <placeName>U.S.</placeName> agreed to that at the time and then went back on their word—</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">—and let the French move back I again, so <placeName>Hồ Chí Minh</placeName>, you know, went wherever he had to go to get support, which was to the Russians. Who could blame him? He did—he did the only thing he could have done.</u>
+      <u who="WEINSTOCK">Right. So—so do you think that it was less for <placeName>Hồ Chí Minh</placeName> about communism than it was just about independence for <placeName>Vietnam</placeName>?</u>
+      <u who="TALBOT">Oh, absolutely, absolutely, yeah. He, well, and as it’s worked out. You know, the Vietnamese are not the puppets of <placeName>China</placeName>, as everybody had feared they would be. They have no particular association with <placeName>Russia</placeName> anymore. Yeah, they have a—a strong central government. I don’t know that you’d call it democratic, but it’s certainly not communistic.</u>
+      <u who="WEINSTOCK">When did you realize these things? Was—was this in <placeName>Vietnam</placeName>, when you realized, Hey, you know, things aren’t as expected?</u>
+      <u who="TALBOT">Well, I mean, the time I came back, you know, I realized, Hey, we—we weren’t going to win this thing, and it was only a matter of time when—when <placeName>South Vietnam</placeName> would collapse and that, you know, that was probably the right thing to happen. Yes, it certainly caused a lot of distress and—and the reconstruction was not easy for certainly a lot of the Vietnamese, but—but basically the time had come for Vietnamese independence, and um—you know, it needed to be a united <placeName>Vietnam</placeName>, not a <placeName>North</placeName> and a <placeName>South Vietnam</placeName>, so—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">—I realized that even by the time I finished there [coughs].</u>
+      <u who="WEINSTOCK">So—so despite being sort of disillusioned with—with our cause over there at the time, did you feel like your work was still meaningful at all?</u>
+      <u who="TALBOT">In the big scheme of things? No. [Laughs.] No. I mean, I think the whole effort there—yeah, I just poured me a glass of water here. Thanks.</u>
+      <u who="WEINSTOCK">Oh, yep, it’s fine.</u>
+      <u who="TALBOT">No. I mean, I think the whole—the whole effort in <placeName>Vietnam</placeName> was a waste and—and tragic in the cost in human life and suffering, and it really accomplished nothing. </u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">—did it accomplish anything significant for humanity? No.</u>
+      <u who="WEINSTOCK">Can you—can you tell me a little bit more about the cultural experience that you gained there? You know, you’ve—you’ve been describing how you went around the country and saw these different villages. What was that like? What did you notice about the countryside? What did you notice about the people?</u>
+      <u who="TALBOT">Well, again, it was, in <date>those days</date>, very, very poor. Struggling economy, with—you know, for the farmers. Pretty hard to raise your crops and farm when there’s a war going on around you. In the city, the economy was booming. But, again, it always does during a war. There were more <orgName>Honda</orgName> motorbikes around than you could shake a stick at.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">So I did enjoy the culture. I enjoyed the food. I enjoyed many of the people. Not so much the Vietnamese military. But, for example, we had a fellow who worked for us as—as our driver. Now, he had worked as a public servant within the Vietnamese government, who was forced to come from <placeName>Hanoi</placeName> down to the south at the time, and he picked up work as—you know, as a driver, working for the Americans. But he was a lovely man, and he would actually invite us to his home from time to time for dinner. And it was fascinating. He was a magnificent host. But his wife stayed out in the kitchen. She wouldn’t—she wouldn’t join us. She stayed in the kitchen to prepare the meal. And that was just the way they—they did it in their culture.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">I did enjoy some of the—some of the Vietnamese people I found <placeName>Asia</placeName>—just the Asian view of life fascinating. And that’s why I did continue to work within <placeName>Asia</placeName> when I—when I had the opportunity later on, in—in business career.</u>
+      <u who="WEINSTOCK">Um, no, just—yeah, just in general—you know, like you said, what—what did you notice about the people? You know, it—it often gets overlooked that there was also, you know, a very—a very human element in <placeName>Vietnam</placeName>, on the Vietnamese side. You know, Americans tend to speak in very American-centric terms about the consequences of <placeName>Vietnam</placeName>. But can you speak maybe a little bit more about, you know, the suffering that you saw on the Vietnamese side; disruptions to, like you said, farming and village life that were a result of the war?</u>
+      <u who="TALBOT">Well, yes. I mean, certainly the suffering, you know, during the war. I saw some of the devastation from Agent Orange [the defoliant]. I mean, whole sections of, you know, what supposedly was jungle where they sprayed it so that they would defoliate the jungle, but it certainly went into a lot of the farm fields, and there were huge patches that were just totally desolated, unusable for agriculture.</u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="TALBOT">Can you imagine? Numbers—coming here by boat!</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">So—yeah, I mean, that’s—that’s the impact of the war. I mean, I don’t think there’s been anything like it since—well, now <placeName>Syria</placeName>, of course, but that’s probably the biggest mass migration since <name type="event">World War II</name> and before <placeName>Syria</placeName>.</u>
+      <u who="WEINSTOCK">Can you—can you talk a little bit—</u>
+      <u who="TALBOT">And I’m not sure—sorry.</u>
+      <u who="WEINSTOCK">Sorry. Keep going please.</u>
+      <u who="TALBOT">The Vietnamese people I’ve encountered here in <placeName>Australia</placeName> are very different. <placeName>They’re</placeName>—they’re very hard-working people. They’re very industrious. <placeName>They’re</placeName>—they’re basically honest. They’re a delightful people to associate with. It was—it was just that—that corrupt top layer that was the problem when we were in <placeName>Vietnam</placeName>.</u>
+      <u who="WEINSTOCK">Right. So just a few more questions about—about that area. Can you talk to me a little bit more about your actual time at the base? What—what was <placeName>Saigon</placeName> like as an American man at that time?</u>
+      <u who="TALBOT"><placeName>Saigon</placeName> was interesting. Of course, it was kind of regarded as an R&amp;amp;R [rest and recuperation] center as well, so there were—</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">—lots of troops who would come in from the field, and we’d see them there in—in <placeName>Saigon</placeName>. We used to get a chuckle because they were used to being out in the field. When they’d come into the city and see so many Vietnamese that close, they were terrified, and you could see them. They were almost in a combat-ready position, whereas we were used to all the Vietnamese around us. That didn’t bother us at all. But if we’d go out into the field, I would imagine there were VC hiding behind every <persName>bush</persName>, and I was terrified. [Both chuckle.]</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">So that was one of the differences.</u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="TALBOT">So there were—there were some—some rocket attacks and satchel bombings and so on, even in <placeName>Saigon</placeName> during that time. But relatively safe, for sure, yeah.</u>
+      <u who="WEINSTOCK">Wow. What else did you do in <placeName>Saigon</placeName> in—in your off time? Were there—were there shows to go to? Anything like that?</u>
+      <u who="TALBOT">Yes, there were—there were quite a few. The—the officers’ mess was usually up on the roof. They had these old either apartment buildings or old hotels that they had converted into bachelor officer quarters, and then the dining room would be up on the roof. And then afterward they’d have movies and sometimes a live show with different bands that would come either from the <placeName>Philippines</placeName> or from <placeName>Australia</placeName> or wherever. </u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">A shot of hard liquor was 15 cents, so there was a lot of drinking that went on.</u>
+      <u who="WEINSTOCK">Yeah. What was the—</u>
+      <u who="TALBOT">But the <orgName>Army</orgName> preferred to have us there at the officers’ club, drinking, than—than out in the city and getting into trouble, so—</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">—so they kept the grog very cheap.</u>
+      <u who="WEINSTOCK">Right. Was there any sort of conflict or feelings of animosity between you as, you know, a <orgName>MACV</orgName> adviser to <orgName>ARPA</orgName>, you know, kind of at this—this nice base in <placeName>Saigon</placeName> and, say, the grunts, the regular infantrymen that were on their R&amp;amp;R in <placeName>Saigon</placeName>? Did they see you—did they look at you with envy, thinking that you were kind of in the back of things, or how was that dynamically?</u>
+      <u who="TALBOT">Not that I was aware of in that, you know, the duties that I had with them was when I would go out on the field units, and you know so I was—at those particular times, I was out in the field just like they were, so, no, I didn’t particularly get any sense of animosity or jealousy with that one.</u>
+      <u who="WEINSTOCK">Right. [Chuckles.]</u>
+      <u who="TALBOT">Oh, yes, <orgName>the RAND Corporation</orgName> was one of our contractors, yeah, for <orgName>ARPA</orgName>.</u>
+      <u who="WEINSTOCK">Can you—can you tell me about some of the work that you did for them?</u>
+      <u who="TALBOT">I wasn’t directly involved with that, although I do know that at one time, in the early stages, they actually had raided a villa in <placeName>Saigon</placeName>, very near the Presidential Palace, just about a block and a half away, and when we were coming up on <name type="event">the Tet Offensive</name>—the big <persName>Tet Offensive</persName> was in <date>’68</date>, but there was a lot of nervousness as we approached Tet in ’69.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">And so, as a safety precaution, we actually moved into the villa that had been rented by <orgName>the RAND Corporation</orgName>, because it was—the place was living [in] was out in <placeName>Cholon</placeName>, the western section [of <placeName>Saigon</placeName>, now <placeName>Hồ Chí Minh City</placeName>], which during <name type="event">the Tet Offensive</name> was under heavy fire. So, yeah, I—I—I actually lived for <date>about a month and a half</date> in the—in the <orgName>RAND Corporation</orgName> villa.</u>
+      <u who="WEINSTOCK">And what—what were those experiences like? Did you ever encounter anybody that was doing similar work or, you know, similar but with different results, or similar work with different upshots, kind of conclusions about <orgName>VC</orgName> versus <orgName>ARVN</orgName> indoctrination?</u>
+      <u who="TALBOT">No, no the people that I met didn’t—didn’t discuss that. We did—we did come across quite a few people who were—were <orgName>CIA</orgName> [<orgName>Central Intelligence Agency</orgName>], and it was quite amusing. You know, if you’ve ever asked—you’d get into a conversation—you’d meet him in the restaurant or something or other. If you chatted him up, and talk about, “Well, okay, what are you doing here?” or “What are you doing here?” and so on. <orgName>CIA</orgName>’s answer was, “Uh, uh, well, uh, uh, we work for the government.” </u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">And that was all they would say.</u>
+      <u who="WEINSTOCK">So it—it was pretty well-guarded secrets, it seemed.</u>
+      <u who="TALBOT">Yes, yes.</u>
+      <u who="WEINSTOCK">Well, so you left <placeName>Vietnam</placeName> at <date>the end of 1969</date>. Is that right?</u>
+      <u who="TALBOT">That’s right, just before <date>Christmas</date>. They actually knocked <date>about ten days</date> off or so, so that I could get back to the <placeName>U.S.</placeName> for <date>Christmas</date>. <persName>Nixon</persName> had announced the first troop withdrawals while we were there, so they started toward the end of ’69.</u>
+      <u who="WEINSTOCK">What were your thoughts about that? Did you think that things were winding up over there?</u>
+      <u who="TALBOT">Well, yes. It was clear that they had accepted the fact we weren’t—we weren’t going to win it, and so the phrase became the “Vietnamization” of the war,—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">—which basically meant “we’re gonna hand over the keys and get outta here,” which is what they did. So, yes, they started the first significant withdrawals toward <date>the end of 1969</date>. And as part of that, they—they chopped <date>ten days</date> off my—my time there to get me back for <date>Christmas</date>.</u>
+      <u who="WEINSTOCK">So leaving the country, did you think that the—the <orgName>ARVN</orgName> effort was going to work in their hands?</u>
+      <u who="TALBOT">Oh, no. I knew it would be only a matter of time that—there was no way the South Vietnamese were going to win, or the <orgName>ARVN</orgName> was going to win, so, yeah, we would—we would withdraw, hand over the equipment, and within a matter of time, the—<placeName>the Viet Cong</placeName> would take it over. </u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">[Unintelligible] at the time.</u>
+      <u who="WEINSTOCK">So, you know, leaving the country now, what were your personal, big takeaways from everything that you had done over there, from everything that you had experienced over there? Not just the divide between <orgName>VC</orgName> and <orgName>ARVN</orgName> forces but, you know, the—the two sides in general and <placeName>America</placeName>’s role in the entire conflict.</u>
+      <u who="TALBOT">Well, the first thing, of course, was relief. Thank God I’m outta here. I’ve survived it.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">I’m going home. And I guess a question: Now, what the hell was that all about?</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">Because we hadn’t accomplished anything. It was clear—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">—we weren’t going to accomplish anything. But I guess—you know, for me, it’s over. That’s it. I’m goin’ home.</u>
+      <u who="WEINSTOCK">Right. Well, what—where did you go when you flew back to <placeName>the United States</placeName>?</u>
+      <u who="TALBOT">Oh, that was—that was bizarre. Of course, you know, we—we hear the stories—you know, when they were coming back from <name type="event">World War II</name>, of course, they came back by ship, so they had—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">—a month or so on the ship to debrief and to kind of adjust to it and to talk with their buddies. Coming home from <placeName>Vietnam</placeName>, you got on a [<orgName>Boeing</orgName>] 707, and within 24 hours you were back in the <placeName>U.S.</placeName>, where life had gone on as—you know, as if nothing had happened, I guess.</u>
+      <u who="WEINSTOCK">Okay.</u>
+      <u who="TALBOT">So I flew from <placeName>Saigon</placeName> straight back to <placeName>Chicago</placeName>, and I can recall—first of all, it was very, very cold, and I can recall we went—one of the early evenings back, we went to attend a movie, and I came out of the movie, and it was snowing, and there were <date>Christmas</date> lights and <date>Christmas</date> music. You know, I went, This is just bizarre. It was absolute culture shock. And for me, the rest of that <date>Christmas</date> is a blank. I have no recollection of any of it. It was just all—</u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="TALBOT">—all too much. But I do remember,  you know, coming—coming from <placeName>Saigon</placeName> to find myself on the streets of <placeName>Chicago</placeName> with twinkling <date>Christmas</date> lights, snow and—and music.</u>
+      <u who="WEINSTOCK">So what—what were your plans when you were there? Did you know what you were going to do post <placeName>Vietnam</placeName>? Did you plan to stay in the <orgName>Army</orgName>?</u>
+      <u who="TALBOT">Yeah, they had issued me the orders that I was to go to <placeName>Oklahoma</placeName> again and that I was going to be assigned to the artillery school. I had no idea what I’d be doing there at the artillery school, but—but I did know that I’d be going back to <placeName>Oklahoma</placeName> for the remaining six, <date>seven months</date> or so.</u>
+      <u who="WEINSTOCK">And what did you wind up doing there?</u>
+      <u who="TALBOT">I was an instructor for the advanced officers course, and the topic they gave me to instruct them on was psychological operations.</u>
+      <u who="WEINSTOCK">So what—what were the responsibilities that you had as an instructor there? What sort of psychological operations did you teach people there?</u>
+      <u who="TALBOT">Well, basically I was teaching them a little bit about psychology. We did talk a little bit about stress reactions, and what came to be known as <orgName>PTSD</orgName> [post-traumatic stress disorder].</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">Psychological things. As far as—as I say, the psychological operations for the <orgName>Army</orgName> meant dropping leaflets, and that’s about all they did.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">The—the program—you know, the—I’ve forgotten. Was it the CORDS [<orgName>Civil Operations</orgName> and <orgName>Revolutionary Development Support</orgName>] program where they were actually working in the villages, or was it—there was strategic hamlets, there was CORDS and so on.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">[Unintelligible] I can’t remember quite which was which.</u>
+      <u who="WEINSTOCK">I’m not—I’m not sure about that one. Yeah.</u>
+      <u who="TALBOT">All right. But anyway, by and large the program to win the hearts and minds by working out in the villages didn’t work, and I don’t know that they—you know, those village advisers had much training other than “this is how you dig a well” or “this is how you”—you know—“put up a shelter for a school.” I don’t know that they had much, you know, psychological training. Certainly I wasn’t given any in terms of what to teach them, so, yeah, we—we talked mostly about, you know, I guess stress reactions, a little bit about official psychological programs, which was dropping <persName>Chiêu </persName>Hồi leaflets.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">That was about it, yeah.</u>
+      <u who="WEINSTOCK">And so what did you do when your time at—at Fort Still [sic] ended?</u>
+      <u who="TALBOT">I had applied for—for a job. I tried several times—the employment prospects weren’t—weren’t all that good at that time, so I made quite a few applications and got quite a few rejections, but—and as it turned out, I think I extended my active duty for <date>another two months</date> because I hadn’t found a job. But I did get—I was eventually hired by <orgName>Proctor &amp;amp</orgName>; <orgName>Gamble [Co.</orgName>] as a trainee in market research, so with the psychology background, I—I was trained in advertising and marketing research, the psychology of why people buy what they buy.</u>
+      <u who="WEINSTOCK">And how—how were you treated as a vet? Presumably in <placeName>Cincinnati</placeName>? I imagine you were there?</u>
+      <u who="TALBOT">Yes, we moved to <placeName>Cincinnati</placeName>. And now I must say, you know,  Proctor &amp;amp; Gamble was fine. They welcomed me. You know, “Wow, you were in <placeName>Vietnam</placeName>! Isn’t that interesting?”</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">But no there was no—there was no persecution. There was no discrimination. Nothing at all like I experienced at <orgName>Princeton</orgName>.</u>
+      <u who="WEINSTOCK">Wow. And what did you wind up doing with <orgName>Proctor &amp;amp</orgName>; Gamble? You said you—marketing?</u>
+      <u who="TALBOT">I was with them for <date>five years</date>—</u>
+      <u who="WEINSTOCK">Okay.</u>
+      <u who="TALBOT">—doing market research.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">Basically, we were product testing, consumer testing, developing advertising and advertising campaigns, testing them for—for recall and persuasiveness. That sort of thing. And, yeah, I worked—I worked for them for <date>five years</date> and then took a similar job as a—as a group manager with <orgName>SC Johnson</orgName> in <placeName>Racine</placeName>, <placeName>Wisconsin</placeName>.</u>
+      <u who="WEINSTOCK">Okay.	So I suppose at the tail end of that <date>five years</date>, <date>April 1975</date> comes about. What are your—your thoughts about the Fall of <placeName>Saigon</placeName>?</u>
+      <u who="TALBOT">[Chuckles.] Well, it had to happen. I wasn’t—I wasn’t at all surprised. I mean, I did watch, you know, the—the evacuations,—</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">—and I remember the films of them dumping helicopters in the ocean. Yeah, nothing’s changed. I mean, when I was there in <placeName>Vietnam</placeName>, I remember we would have days—as I say, we were on the river, right across from the Vietnamese navy compound, and there would be days when they’d bring in, say, 20—20 boats that the <orgName>navy</orgName> was using for river patrols, you <persName>know?—and</persName> essentially hand over the keys. “Okay, these 20 boats are now yours.” And, you know, “We’re goin’ home.” So that was starting even back in the end of ’69, so, yeah, basically all the equipment was given over, rather than brought back.</u>
+      <u who="WEINSTOCK">Right. </u>
+      <u who="TALBOT">Well, as I say, we, we backed—my—my view of it was that “Hey, we backed the wrong side. This was bound to happen.” And I felt sadness for, you know, those people that were left and—and concern for what might happen to them, but—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">—that it was inevitable. There was nothing we could have done that—that would have changed that. So, and yeah, what a waste. What a waste.</u>
+      <u who="WEINSTOCK">Yeah.</u>
+      <u who="TALBOT">I went with <placeName>SC Johnson</placeName>—</u>
+      <u who="WEINSTOCK">Okay, right.</u>
+      <u who="TALBOT">—in <placeName>Racine</placeName>, <placeName>Wisconsin</placeName>.</u>
+      <u who="WEINSTOCK">And how long were you there?</u>
+      <u who="TALBOT">How long was that? I was there <date>nine years</date>. That’s right, yeah, <date>another nine years</date> with them. I was there in <placeName>Racine</placeName>—well, I lived in <placeName>Racine</placeName> the whole time—or we actually lived in <placeName>Milwaukee</placeName>, suburbs of <placeName>Milwaukee</placeName>. I spent <date>the first two, two and a half years</date> working with the <placeName>U.S.</placeName> company, and the rest of the time I worked in the international division, and so I did a lot of traveling: <placeName>Asia-Pacific</placeName>. I worked in, well, <placeName>North America</placeName> outside the <placeName>U.S.</placeName>, so <placeName>Canada</placeName>, the <placeName>Caribbean</placeName>, <placeName>Mexico</placeName>. And then I did some work in <placeName>Africa</placeName> and <placeName>the Middle East</placeName>.</u>
+      <u who="WEINSTOCK">Did—</u>
+      <u who="TALBOT">There were two of us—two of us in the international division, and the other guy was the senior one. He liked <placeName>Europe</placeName> and <placeName>South America</placeName>, so he took those two, and I got the rest.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">No, I’ve not been back. I did think of going back at <date>40 years</date> on, in <date>2009</date>, going back and doing a cycle trip, but it—it hasn’t happened. I still have thoughts that I might like to go back and see it, but I—I did check on <orgName>Google Maps</orgName>, and the place where I had worked, that compound, is long gone.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">It’s now actually—it’s now actually a museum to whoever was the second in command to <placeName>Hồ Chí Minh</placeName>. I’ve forgotten his name. But anyway, it’s now a museum honoring him.</u>
+      <u who="WEINSTOCK">Is that <persName>Lê Duẩn</persName>?</u>
+      <u who="TALBOT">Who?</u>
+      <u who="WEINSTOCK"><persName>Lê Duẩn</persName>?</u>
+      <u who="TALBOT">Could have been, could have been,—</u>
+      <u who="WEINSTOCK">Huh.</u>
+      <u who="TALBOT">—whoever was second in command to <placeName>Hồ Chí Minh</placeName>. But, I mean, from photos I’ve seen, I don’t know that I’d even recognize <placeName>Saigon</placeName> anymore.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">But I might—I might get back there yet.</u>
+      <u who="WEINSTOCK">Okay. </u>
+      <u who="TALBOT">Right.</u>
+      <u who="WEINSTOCK">Yeah.</u>
+      <u who="TALBOT">Well, again, my—my field at that time was market research,—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">—so developing some products and advertising for them. And so I—I became a consultant to the international companies with <orgName>Johnson</orgName>, so I would help them identify new product opportunities and then develop the products and test them and make sure that they were working properly and—and develop advertising for them. And so I—I worked with a number of <orgName>Johnson</orgName> companies. There was a big one in <placeName>Japan</placeName>, and then I worked with the other Asian ones: <placeName>Philippines</placeName>, <placeName>Hong Kong</placeName>, <placeName>Thailand</placeName> and, of course, <placeName>Australia</placeName> and <placeName>New Zealand</placeName>.</u>
+      <u who="WEINSTOCK">[Chuckles.] Right.</u>
+      <u who="TALBOT">So they had no—no market for all these products that they were producing, so we had to find lots of products very quickly that we could sell there in <placeName>Egypt</placeName>. So, yeah, that was—that was a good project.</u>
+      <u who="WEINSTOCK">Huh.</u>
+      <u who="TALBOT">I made about four trips to <placeName>Egypt</placeName> on that one.</u>
+      <u who="WEINSTOCK">Wow. Did you have a—a—a particular favorite place that you got to travel to at that time?</u>
+      <u who="TALBOT">Well, of course, <placeName>Australia</placeName> was the place I loved the most, and eventually, because I was doing a lot of work here in <placeName>Asia-Pacific</placeName>, I convinced them to—“Well, why don’t you base me in <placeName>Sydney</placeName> because it’s easier to travel to—up to <placeName>Asia</placeName> from here than it is from <placeName>Racine</placeName> or <placeName>Milwaukee</placeName> or <placeName>Chicago</placeName>?” And eventually they did. They agreed to send me out here on a <date>two-year</date> assignment. </u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">“I like it here, and <orgName>Racine’s</orgName> too cold.” So anyway, I had to leave them, and I—I went out on my own after that.</u>
+      <u who="WEINSTOCK">So you stayed in <placeName>Sydney</placeName>.</u>
+      <u who="TALBOT">I stayed in <placeName>Sydney</placeName>, yes.</u>
+      <u who="WEINSTOCK">And what happened with your citizenship situation? Did you become an Australian citizen? Did you renounce your <placeName>U.S.</placeName> citizenship?</u>
+      <u who="TALBOT">Okay. At that time, the <placeName>U.S.</placeName> didn’t allow dual citizenship.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">So—[Clears throat.] Excuse me. Let me get a drink of water here. [Drinks and clears throat.] Excuse me. Yeah. Okay, so I—I had permanent residence here in <placeName>Australia</placeName>—well, no, no, I had temporary residence while I was doing the <date>two-year</date> assignment. At the end of that, I applied for permanent residence, so they extended my temporary residence while they processed the permanent residence. And then <date>18 months later</date> or so, they granted me permanent residence here in <placeName>Australia</placeName>, which would make me eligible for Australian citizenship except the <placeName>U.S.</placeName> didn’t allow that. So I remained as a permanent resident of <placeName>Australia</placeName> and a <placeName>U.S.</placeName> citizen.</u>
+      <u who="WEINSTOCK">Okay. And, you know, being in <placeName>Sydney</placeName>—you’ve been there for a long time—how did your following of <placeName>U.S.</placeName> political events and global events change when you went to <placeName>Sydney</placeName>? Do you still keep an eye out for <placeName>the United States</placeName>’ role in—in world events, or did that kind of fade away and do you identify more as an Australian?</u>
+      <u who="TALBOT">Well, I certainly, identify more as an Australian now.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">And, yes, interest in <placeName>U.S.</placeName> politics and sports and everything has gradually faded. Of course, right now with this election, though, it’s top-of-the-news headlines here as well.</u>
+      <u who="WEINSTOCK">[Chuckles.] Right.</u>
+      <u who="TALBOT">And I—I still scratch my head. “What the hell’s goin’ on back there?” I don’t understand it. But yes, you know, the interest in <placeName>U.S.</placeName> politics has gradually faded. I identify now more as an Australian than I do as American.</u>
+      <u who="WEINSTOCK">Sure. And how did your experiences in <placeName>Vietnam</placeName> eventually impact your political beliefs, your national beliefs? Have they influenced them at all?</u>
+      <u who="TALBOT">Oh, yes. It made me very skeptical, and I suppose that’s—that’s true of all the veterans.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">—my marriage had ended, and—that’s why I came here to <placeName>Australia</placeName>. My marriage had ended. The divorce settlement was an absolute disaster, and so basically, I was fed up with everything. So I had a midlife crisis, and I took a year off, and I went sailing.</u>
+      <u who="WEINSTOCK">[Chuckles.] Where—where did you go?</u>
+      <u who="TALBOT">Sorry? Sorry?</u>
+      <u who="WEINSTOCK">Where’d you go on your sailing trip?</u>
+      <u who="TALBOT">I—I—I had a boat at that point. I sailed up <placeName>the east coast</placeName> of <placeName>Australia</placeName>, up to <placeName>Port Douglas</placeName> in <placeName>north Queensland</placeName>, and the [Great] Barrier Reef. So, yeah, I took <date>a year</date>, and I—I sailed up and down the Australian east coast.</u>
+      <u who="WEINSTOCK">[Laughs.]</u>
+      <u who="TALBOT">So I retrained in the counseling, and that took <date>about a year and a half</date>. And then I went into private practice. Now, as part of that counseling, I ended up working for a brief time with <orgName>the Vietnam Veterans Counselling Service</orgName> [now Veterans and Veteran Families Counselling Service], where we—we worked with and counseled Australian veterans.</u>
+      <u who="WEINSTOCK">Okay. Were most of those veterans actually Australians, or were they Americans like you who came over to <placeName>Australia</placeName>?</u>
+      <u who="TALBOT">Oh, no, they were Australian veterans. <placeName>Australia</placeName> had quite a significant contingent there in <placeName>Vietnam</placeName>. I think all up, some 550,000 Australians—</u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="TALBOT">—served in <placeName>Vietnam</placeName>. And they had a bit over 500 who were killed in <placeName>Vietnam</placeName>. So there were—there were quite a lot of <placeName>Vietnam</placeName> veterans here. And I—I worked with them. They were those largely suffering from <orgName>PTSD</orgName>.</u>
+      <u who="WEINSTOCK">Sure. </u>
+      <u who="TALBOT">No, but I was hoping—we are going to go to the <placeName>U.S.</placeName> this—this <date>June</date>. I’m going to visit my kids in the <placeName>U.S.</placeName> And I had hoped to swing through <placeName>Washington</placeName>. And I did want to see it then, but, no, I don’t know that we will do now. But, no, that’s one thing I’ve wanted to see, but I’ve never been there.</u>
+      <u who="WEINSTOCK">Sure. </u>
+      <u who="TALBOT">Very much so. Of course, at—at the time, the Australian prime minister—well, <placeName>Australia</placeName>, by—by all—you know, all through the political—has aligned with the <placeName>U.S.</placeName> Basically, I think the Australian thinking is that we could never defend ourselves against a big enemy. There’s just too much space and not enough people to do that. So we would count on the <placeName>U.S.</placeName> as an ally. So <placeName>Australia</placeName> has always strongly supported the <placeName>U.S.</placeName> causes. And they—they supported <persName>LBJ</persName> [President <persName>Lyndon B. Johnson</persName>] in <name type="event">the Vietnam War</name>. And, in fact, the prime minister at the time coined the phrase, “We go all the way with <persName>LBJ</persName>.”</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">And, of course, the Australians have resented that for quite a long time. There has been some resentment that it was the <placeName>U.S.</placeName> war and they dragged <placeName>Australia</placeName> into it. And, of course, the whole thing was a wasted effort anyway.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">Um, well, okay, the Australians were primarily responsible for an area of <placeName>Vietnam</placeName> down near <persName>Vũng Tàu</persName>, the area between <placeName>Saigon</placeName> and <persName>Vũng Tàu</persName>. And their base was at Núi Đất. And actually, they had quite a good reputation, that they were very effective in that area. They—they really did effectively neutralize the Viet Cong. It was one of the successes.</u>
+      <u who="WEINSTOCK">[Laughs.] Do you think that was more of a function of, you know, Australian superiority to their American counterparts, or was it the area perhaps easier to get rid of <orgName>VC</orgName> wise? </u>
+      <u who="TALBOT">Yeah, there’s some—there’s some of both, I think. But, yeah, it wasn’t—it wasn’t a really strong VC—or a <orgName>VC</orgName> stronghold, so they were able to effectively manage the area. They—they did have one significant battle, <name type="event">the Battle of Long Tan</name> which they celebrate here in <date>August</date>—I think it’s <date>August 17th</date>—where there was a unit of North Vietnamese troops that were in the area. Anyway, they—they were—how is it? They came across this patrol of Australian soldiers and pinned down the patrol, and I think the Australians lost 13 troops in that. It was their greatest single loss in <date>a day</date>. They lost 13.</u>
+      <u who="WEINSTOCK">Okay. Sure.</u>
+      <u who="TALBOT">I think it was a bit over <date>two years</date>. What we were doing was setting up programs, residential, <date>week-long</date> programs to teach them healthier lifestyles, so—</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">—how to manage some exercise activity, socializing, minimizing the drugs—you know, just basically teaching healthy lifestyle skills. And then there was another program where we involved the wives, and it was helping them to understand the effects of <orgName>PTSD</orgName>. So, yeah, we ran a series of these programs here in <placeName>New South Wales</placeName>, and that, as I said, went on for <date>about two years</date>, <date>two and a half years</date>. And then, like all government things, they put it out to contract, and [chuckles]—and it fell apart after that.</u>
+      <u who="WEINSTOCK">Huh!</u>
+      <u who="TALBOT">As far as I know, it was original. It was—the fellow that actually set it up was—he was something of a life coach and a psychologist. So, yeah, he was doing all sorts of things. Where he got them, I don’t know. It wasn’t any established <placeName>U.S.</placeName> model, by any means.</u>
+      <u who="WEINSTOCK">Sure. And so what did you do after the—</u>
+      <u who="TALBOT">You asked me earlier—You were asking earlier, you know, how this affected my view of the <placeName>U.S.</placeName> politics or whatever, and I guess—</u>
+      <u who="WEINSTOCK">Yeah, yeah</u>
+      <u who="TALBOT">—it’s—as I said, it made me very cynical. Basically, I’ve come to realize, certainly with the <placeName>Vietnam</placeName> experience and other things since, governments tell lies.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">And not little white lies; they’re big lies.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">And I have become very skeptical of—of all governments.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">Well, I was in private practice as a psychologist, but that private practice then evolved into actually working with trauma victims, some of them <orgName>PTSD</orgName>, which is long-term trauma, but a lot of it dealing with people who were involved in critical incidents. So I was a counselor for the local rail—<orgName>CityRail</orgName>, for people who jump in front of trains to commit suicide. You know, that absolutely devastates the drivers and the guards on the trains.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">I was a counselor for several of the banks for holdup victims or robbery victims. Different clients. So employee assistance programs and critical incident management. That’s what I did a lot of within my counseling career.</u>
+      <u who="WEINSTOCK">And do you still do that <date>today</date>?</u>
+      <u who="TALBOT">No, I’m retired now. For <date>the last ten years</date>, I’ve been semi-retired. I fully retired <date>February of last year</date>.</u>
+      <u who="WEINSTOCK">Congratulations.</u>
+      <u who="TALBOT">For <date>the last ten years</date> I worked on the telephone help lines.</u>
+      <u who="WEINSTOCK">Okay. </u>
+      <u who="TALBOT">So mental health intake for community mental health services. We have a program here in <placeName>Australia</placeName> called beyondblue, for—for depression and anxiety. And they run a telephone hotline for people who are distressed and often suicidal.</u>
+      <u who="WEINSTOCK">Sure. </u>
+      <u who="TALBOT">No, I haven’t. It was just that contact I had with <orgName>the Vietnam Vets Counselling Service</orgName>.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">Oh, when they have the homecoming here—I’m not sure whether—it was <date>many years later</date>. They finally had a veterans’ parade for the <placeName>Vietnam</placeName> veterans, because they were never officially recognized like—like veterans of other wars. So they finally did have a veterans’ parade here in <placeName>Sydney</placeName>. I didn’t participate. </u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="TALBOT">And it was a military disaster, and eventually they—they never advanced beyond the beachhead, and eventually they withdrew, but it—it helped define <placeName>Australia</placeName> as a nation, so they celebrate <date>Anzac Day</date> every year. And, again, they have a parade of all the retired military servicemen and so on. I’ve never participated in that either. I just—I have no desire to march in a parade and—and wear a uniform again.</u>
+      <u who="WEINSTOCK">Sure. Well, you know, what else do you do to fill your retired time <date>these days</date>?</u>
+      <u who="TALBOT">Okay. Well, I’ve taken up cycling. I took that up <date>about 14 years ago</date>. Let’s see. Okay, well you mentioned earlier my brother, my family. My brother died. He was at <date>age 59</date>, and <orgName>I’m</orgName> <date>seven years</date> younger than him. But as I approached the age of <date>59</date>, he was in such poor health for <date>so many years</date>, I decided, I’m not gonna go that way, so I made a specific effort to get healthier and fitter. And so I took up cycling, I quit smoking, I did a whole lot of things, and so now I’m—I’m a very active cyclist. I cycle about 100 kilometers <date>every week</date>—</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="TALBOT">—with a couple of cycling groups. I’ve taken up golf again, so I play that quite regularly. I sing in a <persName>Welch</persName> choir [<orgName>the Sydney Welch Choir</orgName>] here in <placeName>Sydney</placeName>. I’ve been in that one now for—for <date>20 years</date>, actually. </u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="TALBOT">And particularly around <placeName>Sydney</placeName>. There’s a lot of national park and <persName>bush</persName> land, and in <date>the summer months</date>, that can get quite—quite volatile, so they can have some severe <persName>bush</persName> fires. So I volunteered with <orgName>the bush fire service</orgName>, not that <orgName>I’m</orgName> out fighting fires, but I’m operating the radio at the command center.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="TALBOT">And I’ve also joined <orgName>Marine Rescue</orgName> [NSW], which is a volunteer coastal patrol thing where we go out and—and assist boaties who get into trouble with mechanical problems or flat batteries, run out of fuel, whatever. So I’m active with those two groups as well.</u>
+      <u who="WEINSTOCK">Great.</u>
+      <u who="TALBOT">Okay. That’s good.</u>
+    </body>
+  </text>
+</TEI>

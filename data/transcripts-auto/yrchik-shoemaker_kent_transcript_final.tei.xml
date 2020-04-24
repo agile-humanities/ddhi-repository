@@ -1,0 +1,488 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="HARRIS"/>
+        <person xml:id="YRCHIK-SHOEMAKER"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="HARRIS">Okay. Hi. This is <persName>Sara Harris</persName>. <date>Today</date> is <date>Tuesday, August 9th, 2016</date>, around 3 p.m. I’m in <persName>Rauner</persName> [<orgName>Special Collections] Library</orgName> <date>today</date> with <persName>Dean Kent Yrchik-Shoemaker</persName> [pronouncing <orgName>YUHR-chek SHOE-mah-ker</orgName>]. This interview is for <orgName>the Dartmouth Vietnam Project</orgName>.</u>
+      <u who="YRCHIK-SHOEMAKER">Sure. </u>
+      <u who="HARRIS">To start off, I’ll just ask some biographical questions. Where and when were you born? What were your parents’ names?</u>
+      <u who="YRCHIK-SHOEMAKER">I was born in <placeName>Madison</placeName>, <placeName>Wisconsin</placeName>, and my father was <persName>Karl [G.] Shoemaker</persName> [pronouncing it SHOE-may-ker], and my mother was <persName>Grace [Burson] Shoemaker</persName>.</u>
+      <u who="HARRIS">Got it. And what did your parents do for a living?</u>
+      <u who="YRCHIK-SHOEMAKER">My father worked at <orgName>the University of Wisconsin[-Madison</orgName>], in <orgName>the agricultural and economics department</orgName>.</u>
+      <u who="HARRIS">Interesting. Did you have any siblings?</u>
+      <u who="YRCHIK-SHOEMAKER">Two older sisters, so I’m the youngest.</u>
+      <u who="HARRIS">Were you close with your family, growing up?</u>
+      <u who="YRCHIK-SHOEMAKER">Yes.</u>
+      <u who="HARRIS">Growing up, did your parents talk a lot about current events going on? Did you—were you aware of their political views?</u>
+      <u who="YRCHIK-SHOEMAKER">Great question. Yes. I was thinking back to <placeName>Wisconsin</placeName>, and we moved when I was six.</u>
+      <u who="HARRIS">Oh, okay. Where did you move to?</u>
+      <u who="YRCHIK-SHOEMAKER">So we moved to a suburb of <placeName>Washington</placeName>, <placeName>D.C.</placeName>, and my father was working for the [<placeName>U.S.</placeName>] <orgName>Department of Agriculture</orgName> from <placeName>Washington</placeName>, with all the land grant universities.</u>
+      <u who="HARRIS">Got it.</u>
+      <u who="YRCHIK-SHOEMAKER">So I heard about the economy and about things about agriculture. [Both chuckle.] And about colleges, and because he worked in <placeName>Washington</placeName> bas- —as a civil servant, there were always sort of conversations about things. </u>
+      <u who="HARRIS">That makes sense.</u>
+      <u who="YRCHIK-SHOEMAKER">And I do remember—whatever year it would have been—John [<persName>F.] Kennedy</persName> introducing the Democratic presidential nominee at <name type="event">the Democratic Convention</name>, and I remember watching that. I’m guessing I was <date>eight or nine years old</date>. For some reason, my father said, “That guy might be president someday.”</u>
+      <u who="HARRIS">Wow. Yeah.</u>
+      <u who="YRCHIK-SHOEMAKER">And he wasn’t a Democrat.</u>
+      <u who="HARRIS">[Laughs.]</u>
+      <u who="YRCHIK-SHOEMAKER">But it was just—</u>
+      <u who="HARRIS">He was worried.</u>
+      <u who="YRCHIK-SHOEMAKER">—I remembered that statement.</u>
+      <u who="HARRIS">Got it. Do you remember when <persName>JFK</persName> was assassinated?</u>
+      <u who="YRCHIK-SHOEMAKER">Yes, I was—at that point, my father had been transferred to <orgName>the Department of Agriculture</orgName> in <placeName>London</placeName>, <placeName>England</placeName>, so he was at the embassy, so I had lived in <placeName>England</placeName> for <date>about seven or eight months</date> when that happened. And being so far away from the <placeName>States</placeName>, it did not seem real at all. It was difficult to grasp, other than sort of by living in <placeName>England</placeName>, realizing how—how much Americans—how violent the society was and how much they used weapons, given the British police didn’t even carry weapons.</u>
+      <u who="HARRIS">Wow. Yeah. So what—just to get these dates—</u>
+      <u who="YRCHIK-SHOEMAKER">Sure.</u>
+      <u who="HARRIS">So when did you move to <placeName>D.C.</placeName> from <placeName>Wisconsin</placeName>?</u>
+      <u who="YRCHIK-SHOEMAKER">Nineteen fifty-six.</u>
+      <u who="HARRIS">Okay. And then you were there until moving to <placeName>London</placeName>—</u>
+      <u who="YRCHIK-SHOEMAKER">In <date>’64</date>.</u>
+      <u who="HARRIS">Okay. So was the rest of your high school in <placeName>London</placeName>?</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah. it was a high school that was the biggest group of students were [<placeName>U.S.</placeName>] <orgName>Air Force</orgName> dependents, <orgName>Air Force</orgName> brats, as they called themselves. And so it was mostly American teachers, and most of the students went on to college from there.</u>
+      <u who="HARRIS">So your dad wasn’t in <orgName>the Air Force</orgName>—</u>
+      <u who="YRCHIK-SHOEMAKER">No.</u>
+      <u who="HARRIS">He was just a civil servant. And what was it like growing up in <placeName>D.C.</placeName> and then moving to <placeName>London</placeName>? Did you like your childhood, or was it hard bouncing around?</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah, I didn’t consider it bouncing around after I met folks in high school who <date>every two years</date>—you know.</u>
+      <u who="HARRIS">Right. Yeah.</u>
+      <u who="YRCHIK-SHOEMAKER">And I lived in <placeName>Virginia</placeName> from first grade to eighth grade. When I got there, I was a Yank, so everybody else was a Confederate in the grade school, and so in the—at recess there were fights because I wasn’t—I wasn’t a rebel.</u>
+      <u who="HARRIS">Interesting. So the culture in <placeName>Virginia</placeName> was really different—oh, you mean in <placeName>London</placeName>.</u>
+      <u who="YRCHIK-SHOEMAKER">In <placeName>Virginia</placeName>.</u>
+      <u who="HARRIS">In <placeName>Virginia</placeName>, so the culture in <placeName>Virginia</placeName>—</u>
+      <u who="YRCHIK-SHOEMAKER">As a sixth grader.</u>
+      <u who="HARRIS">Yeah. How was that different than <placeName>Wisconsin</placeName>? Can you explain those fights a little? [Chuckles.] </u>
+      <u who="YRCHIK-SHOEMAKER">They were still fighting the [American] Civil War in <date>1956</date>, and in fact we lived in what was considered rural northern <placeName>Virginia</placeName>. And they still had a chain gang working on the highway, so that inmates were literally chained to each other—</u>
+      <u who="HARRIS"><persName>Jesus</persName>!</u>
+      <u who="YRCHIK-SHOEMAKER">—by the leg irons, and they were, like, digging, clearing the drainage ditches and—</u>
+      <u who="HARRIS">Oh, my gosh.</u>
+      <u who="YRCHIK-SHOEMAKER">—things. And the schools were segregated. If that gives you some sense.</u>
+      <u who="HARRIS">Yeah. So did you—</u>
+      <u who="YRCHIK-SHOEMAKER">And there were some kids whose parents were, like, at the <orgName>Pentagon</orgName> or in civil service, and they weren’t as exactly Confederates, but in school you had <placeName>Virginia</placeName> history over and over again, and there was a real emphasis on <placeName>the Confederate States of America</placeName> as part of that.</u>
+      <u who="HARRIS">Wow. So you lived in a northern suburb of <placeName>D.C.</placeName>?</u>
+      <u who="YRCHIK-SHOEMAKER"><placeName>Northern Virginia</placeName>, so it was south of <placeName>Washington</placeName>.</u>
+      <u who="HARRIS">Okay. Got it. And what was that like, experiencing racism [chuckles]? Like, was it very different than <placeName>Wisconsin</placeName>?</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah, I’m trying to thing, You know, <placeName>Wisconsin</placeName>—I don’t remember seeing any African-Americans, if I stop and think about it. And in <placeName>Virginia</placeName>, there were neighborhoods and areas in northern <placeName>Virginia</placeName>, and when I went into the seventh grade, they had—the schools were expanding so quickly, they built seventh and eighth grade schools where it used to be one through—one through seven and eight through twelve. And at that school of 1,100 students, there was one African-American, because they had segregated. </u>
+      <u who="HARRIS">Wow.</u>
+      <u who="YRCHIK-SHOEMAKER">And he was in my class. <persName>Alexander Pierce Smith</persName> was his name. And his father was a lawyer, and there was a homeroom and then three classes together. It was like a high school. You went to each period differently, but the homeroom was all males, and I figured out later that they put <persName>Alexander Pierce Smith</persName> in with all males because they didn’t want him with a white female.</u>
+      <u who="HARRIS"><persName>Jesus</persName>! </u>
+      <u who="YRCHIK-SHOEMAKER">I don’t—I don’t remember discussions about that, but I remember discussions when there started to be women in civil service. And I remember my father complaining that somebody was appointed to a high position in <orgName>the Department of Agriculture</orgName> because they were a woman, and that was the only reason.</u>
+      <u who="HARRIS">Interesting.</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah it was in the middle of eighth grade.</u>
+      <u who="HARRIS">Middle of eighth grade. Okay.</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah.</u>
+      <u who="HARRIS">So what was that culture like, compared to <placeName>Virginia</placeName>?</u>
+      <u who="YRCHIK-SHOEMAKER">The American—The American high school. There was a, quote, “private” American high school but right in <placeName>London</placeName>, and then the school for <orgName>Air Force</orgName> kids and others was out in the suburbs.</u>
+      <u who="HARRIS">What was the name of that school?</u>
+      <u who="YRCHIK-SHOEMAKER"><orgName>London Central High School</orgName>, which makes no sense but that was—</u>
+      <u who="HARRIS">[Chuckles.] Got it.</u>
+      <u who="YRCHIK-SHOEMAKER">—the name of it. In <placeName>Washington</placeName> and in the suburb, there weren’t very many poor kids in the elementary school. Sort of a couple that were identified as being poorer than the other students. And there wasn’t anybody that I would describe as rich. So it was kind of—</u>
+      <u who="HARRIS">Middle class, yeah.</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah, just very typical middle class. And so then the high school I was in, the only sort of distinction was some kids’ parents were officers, and some kids’ parents were enlisted. But on the—and they could live together or live on the economy, so there was a housing area, and the military—certain rank, you had a certain size house. And that was true, like, even sergeants and up to captains, and then there were, like, colonels had separate houses. And so nobody had, like, a fancier house or anything than anyone else.</u>
+      <u who="HARRIS">Interesting.</u>
+      <u who="YRCHIK-SHOEMAKER">And there were a few kids in the high school whose parents worked for, like, <orgName>General Motors [Company</orgName>] or <orgName>Chrysler</orgName> or something, and they were obviously—had a lot more money than sort of everybody else. But I don’t remember it being an issue, because it just seemed like everybody knew what everybody else’s parents made for income.</u>
+      <u who="HARRIS">Wow! It was all just laid out there. [Chuckles.] Yeah.</u>
+      <u who="YRCHIK-SHOEMAKER">So it just was. Yeah. So it just was—and I really liked that there wasn’t sort of—I don’t know what the term would have been at the time, but because of—the <orgName>Air Force</orgName> kids had moved so much, there just weren’t cliques, and people just got to know each other. </u>
+      <u who="HARRIS">It was inclusive. Yeah.</u>
+      <u who="YRCHIK-SHOEMAKER">And if you were new, it wasn’t that you were different; it was just that you recently arrived, like everybody else.</u>
+      <u who="HARRIS">Interesting.</u>
+      <u who="YRCHIK-SHOEMAKER">So there was a sort of constant turnover, and there was just a kind of egalitarian—about—about it. And there were a bunch of African-American students for the first time. The eigth—when I went from seventh to eighth grade, then they went from one male to three or four African-American students out of 1,100. At the high school of 500 then, maybe there were 20 or 30—</u>
+      <u who="HARRIS">Interesting. </u>
+      <u who="YRCHIK-SHOEMAKER">—which to me seemed like—</u>
+      <u who="HARRIS">Yeah, a lot more.</u>
+      <u who="YRCHIK-SHOEMAKER">Wow. It’s a different thing. And they lived together.</u>
+      <u who="HARRIS">The African-Americans?</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah. So that was a different experience, and I just thought that was good—</u>
+      <u who="HARRIS">The African-Americans lived with the other <orgName>Air Force</orgName> children?</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah, yeah, on the base.</u>
+      <u who="HARRIS">And were you in the minority of not having a parent in the military, or was it a mix?</u>
+      <u who="YRCHIK-SHOEMAKER">Yes, the minority, but there were—yeah, I guess that’s true—you know, whatever it was, 15 percent, 20 percent, and maybe the company kids were 5 or 10 percent or something like that.</u>
+      <u who="HARRIS">So you were in high school what <date>years</date>?</u>
+      <u who="YRCHIK-SHOEMAKER">From ’64 to ’67.</u>
+      <u who="HARRIS">Okay. And what was it like—like, what was the discussion about international events during <date>those four years</date>, especially because kids’ parents were enlisted or in the <orgName>Army</orgName>? What were things discussed about, I don’t know, the war, <name type="event">the Vietnam War</name>?</u>
+      <u who="YRCHIK-SHOEMAKER">[Pause.] I’m trying to think. As a senior, I remember there was a discussion—</u>
+      <u who="HARRIS">Yeah, in <date>1965</date>, when the American ground troops went to <placeName>Vietnam</placeName> was.</u>
+      <u who="YRCHIK-SHOEMAKER">It wasn’t an environment where there was much questioning of that. And as a senior in high school, I remember we were on a trip, students, talking about it and just thinking—some reservations about President [<persName>Lyndon B.] Johnson</persName>. And for a lot of my friends, anybody who wasn’t going to go to college was going in the military. It was what they were going to do, which was certainly true in any community in the country. There was a draft through <date>the ‘60s</date>, and it was just more of a given that kids who were <orgName>Air Force</orgName> brats and—</u>
+      <u who="HARRIS"><persName>Mm-hm</persName>, a little microcosm.</u>
+      <u who="YRCHIK-SHOEMAKER">—it looked just like a base in <placeName>Kansas</placeName>. And so there was sort of a—</u>
+      <u who="HARRIS">So you lived on that base.</u>
+      <u who="YRCHIK-SHOEMAKER">No, we lived—</u>
+      <u who="HARRIS">Okay, okay, but most of your friends lived on that base.</u>
+      <u who="YRCHIK-SHOEMAKER">—in <placeName>London</placeName>, in an apartment, and so there was maybe half the school?</u>
+      <u who="HARRIS">Okay. </u>
+      <u who="YRCHIK-SHOEMAKER">Maybe. Yeah, and the other half just lived different places, and they had the choice—what I was going to say?—about—thinking about the draft and—[Pause.] The draft—so it wasn’t so much a factor in <date>1967</date>, but friends of mine went into the service.</u>
+      <u who="HARRIS">Yeah. Was there, like, a fear of that, or were people very accepting of the draft?</u>
+      <u who="YRCHIK-SHOEMAKER">That was, like, what they were going to do. Sometimes it was a threat. I was involved in sports, and we would travel to <placeName>France</placeName> or <placeName>Germany</placeName> to compete with other American high schools, and we got in trouble in <placeName>Germany</placeName>, and we were—the guy who was driving the car tried to get away from the police, and we ran away to—it must have been an American community. Anyhow, the police ended up picking us up, and we were at the police station. And when the one father came, he said to his son, “You’re going to be enlisted <date>tomorrow</date>.” Because as a 17-year-old, he could have been. So I found out later his dad let him graduate. So there was this sort of thing—you know, there were times when that was sort of a threat.</u>
+      <u who="HARRIS">Yeah. Interesting. So you played sports in high school. Is that your main thing you did outside of classes?</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah.</u>
+      <u who="HARRIS">What did you do in your free time?</u>
+      <u who="YRCHIK-SHOEMAKER">I was the senior class president, and—yeah, that was pretty much—I was in a play, but it was not memorable. [Both chuckle.]</u>
+      <u who="HARRIS">That’s important. [Chuckles.] What sports did you like?</u>
+      <u who="YRCHIK-SHOEMAKER">Cross-country and track and wrestling. And actually what I was going to say earlier was something about sort of the American identity and the British identity and—my friends who had been there <date>a couple of years</date>—we could pass as British. You know, we would take off our belt, and we would dress a little bit differently, and we could do a version of a Cockney dialect and sort of pass—we could pass.</u>
+      <u who="HARRIS">Yeah. That’s an interesting perspective.</u>
+      <u who="YRCHIK-SHOEMAKER">And so—there was that kind of di-—I mean, we stayed very much to ourselves because there was the high school and all the activities in the high school.</u>
+      <u who="HARRIS">Yeah. Did you have British friends, or not really?</u>
+      <u who="YRCHIK-SHOEMAKER">No, no. Somewhat of a friend on a Babe Ruth [League] baseball team. [Both chuckle.] And when I was a senior and after I graduated, I joined a British track club, and the British attitude about sports was sort of more broadly, “Have a go.” Not competitive, but, like, do it. </u>
+      <u who="HARRIS">Yeah. Just go for it.</u>
+      <u who="YRCHIK-SHOEMAKER">And there would be, like, cross-country races, and then there’d be lots of food and beer afterwards. And it was just—you did it. And so I was on this track club, and the Jamaicans from <placeName>the West Indies</placeName>—the sprinters all wanted to know American slang so they could pretend to be Americans, because at the time, African-American sprinters were the fastest. And at the track—so there was a sort of fitting into the British thing about being on the track club.</u>
+      <u who="HARRIS"><persName>Mm-hm</persName>, wanting to get involved in that culture, yeah.</u>
+      <u who="YRCHIK-SHOEMAKER">Because we went to the—we competed, and it was—on the one hand, there was somebody who’ been in the <name type="event">Olympics</name>, <date>almost ten years</date> out of shape and was people—so it was just “have a go.” So there were sort of both aspects of that. But that—that sort of concept about the ugly American—I think we were critical of things like foreign aid policy, and money just being—seemed like it was wasted. The shah of <placeName>Iran</placeName> got a lot of money, but he was a dictator and he was a friend to <placeName>America</placeName>, and so we had critical ideas about things like that.</u>
+      <u who="HARRIS">About outside—critical perspective. Interesting. And that came kind of from your peers, not really from the parents.</u>
+      <u who="YRCHIK-SHOEMAKER">Right.</u>
+      <u who="HARRIS">Or it was a mix.</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah. I’m trying to think about conversations with— Yeah, more from the peer[s] and maybe slightly more from kids whose parents were at the embassy. And the embassy was—there was a little bit more of sort of a class element there, because whoever the top of the hierarchy were sort of—</u>
+      <u who="HARRIS">And what exactly—</u>
+      <u who="YRCHIK-SHOEMAKER">—in some cases, of independent means. And, you know, <orgName>Foreign Service</orgName> was service, but it wasn’t for the income.</u>
+      <u who="HARRIS">Yeah. Interesting. And what exactly was your dad doing there?</u>
+      <u who="YRCHIK-SHOEMAKER">As an agricultural attaché, he researched agriculture in <placeName>England</placeName>, and if there was something that would be of benefit to the States, then back through <orgName>the Department of Agriculture</orgName>—it would go back to the land grant universities,—</u>
+      <u who="HARRIS">Got it.</u>
+      <u who="YRCHIK-SHOEMAKER">—where there’s always an agriculture department. And the land grant universities coordinate what’s called a network of county agents, so every county in the country that has agriculture has a county agent, who gets research and other information about government policies and so on, through the universities. So we visited farms to see <orgName>Aberdeen Angus</orgName> cows in <placeName>Scotland</placeName> and <orgName>Herefords</orgName> in <placeName>Wales</placeName>. And then if American producers had surpluses, they would contact the embassy and say, “Is there a way we can find buyers for this?” So my father would connect—they were meat producers—with Field [Foods] or <orgName>Hormel [Foods Corporation</orgName>] or something, and they wanted to sell meat products that there was a market for in the <placeName>States</placeName>, and like in <placeName>England</placeName>, steak and kidney pie and brains and things were hugely popular and almost you can’t find them in the States.</u>
+      <u who="HARRIS">Interesting. </u>
+      <u who="YRCHIK-SHOEMAKER">So he would—</u>
+      <u who="HARRIS">Facilitate that, yeah.</u>
+      <u who="YRCHIK-SHOEMAKER">—coordinate—and part of it was entertaining, and part of it was at the office, but it was also—these folks would come in from, say, the meat company or the raisin producers from <placeName>California</placeName>, and he would contact English potential buyers and get ‘em together. So there was part of it promoting trade.</u>
+      <u who="HARRIS"><persName>Mm-hm</persName>. And when you thought about the future in high school, were you worried about the draft, or did you think about military—</u>
+      <u who="YRCHIK-SHOEMAKER">No. I don’t know when, but I just never had any doubt that I would do <orgName>ROTC [Reserve Officers Training Corps</orgName>]. And there was a—maybe at 10 or <date>11</date>, there might have been a time when I’d thought about going to the [<placeName>U.S.</placeName>] <orgName>Air Force Academy</orgName>, but I didn’t like the idea, the concept that a service was going to train officers all on a certain way. </u>
+      <u who="HARRIS">Interesting.</u>
+      <u who="YRCHIK-SHOEMAKER">And actually, I appreciated land grant universities. In <date>the summers</date>, there were conferences, so we went to <orgName>the University of Rhode Island</orgName>, we went to <orgName>Purdue [University</orgName>], we went to a couple of other places, and I just thought that was, like, great.</u>
+      <u who="HARRIS">When did you do that, in high school?</u>
+      <u who="YRCHIK-SHOEMAKER">Through—no, through grade school.</u>
+      <u who="HARRIS">Okay.</u>
+      <u who="YRCHIK-SHOEMAKER">So for a long time, land grant universities had mandatory <orgName>ROTC</orgName>, so students, like, instead of <orgName>PE</orgName> [physical education] they had to—they had to—the males had to be in <orgName>ROTC</orgName> for <date>two years</date>, and then they could decide whether—or maybe even a year, but they could decide whether they wanted to stay, but they had to do it in the beginning.</u>
+      <u who="HARRIS">When did you go to <placeName>Michigan State</placeName>?</u>
+      <u who="YRCHIK-SHOEMAKER">Sixty-seven to <date>’71</date>. And then by <date>the summer</date> of <date>my freshman year</date>, I got a <orgName>ROTC</orgName> scholarship, so it paid for all my tuition and some of my room and board.</u>
+      <u who="HARRIS">Wow. So you’ve just—you always wanted to go into the <placeName>ROTC</placeName>. What was your thought process? You just felt that obligation to serve, or—</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah. That was a given. Everybody’s parents had had a role to play in <name type="event">World War II</name>, and so there was a—there was a concept of public service. And I remember thinking there was—from <persName>Kennedy</persName>, <orgName>the Peace Corps</orgName> and VISTA [Volunteers in Service to America, now <orgName>AmeriCorps VISTA</orgName>] were very popular through the <date>’60s</date>, so people coming out of college might have gone into <orgName>the Peace Corps</orgName>. And I think at the time at <placeName>Dartmouth</placeName> there was probably—it was fashionable to go into <orgName>the Foreign Service</orgName>.</u>
+      <u who="HARRIS">Yeah, definitely. </u>
+      <u who="YRCHIK-SHOEMAKER">He was exempt because he was providing the—food.</u>
+      <u who="HARRIS">Yeah, that makes sense.</u>
+      <u who="YRCHIK-SHOEMAKER">You not only had to have food in the <placeName>States</placeName>, but you had to figure out how to produce enough to send it for the troops and whatever. And then—yeah.</u>
+      <u who="HARRIS">So you left <placeName>London</placeName> and went to <placeName>Michigan State</placeName>. How did you choose <placeName>Michigan State</placeName>?</u>
+      <u who="YRCHIK-SHOEMAKER">I wanted an American experience, so it was part of an American identity. I sort of compared it to <orgName>University of Michigan and University of Wisconsin</orgName>, where there were more grad students and more grad students teaching undergraduate courses, and <placeName>Michigan State</placeName> was oriented more towards undergrads. And I didn’t know what I was going to study, and it was huge, so they had everything.</u>
+      <u who="HARRIS">That makes sense.</u>
+      <u who="YRCHIK-SHOEMAKER">And I had a couple counselors in high school say, “Well, you ought to go to <orgName>Harvard</orgName> [University]. You could quality.” And I didn’t have an interest in being in an elite—and I think culturally that was—</u>
+      <u who="HARRIS">Yeah. Why do you think that was?</u>
+      <u who="YRCHIK-SHOEMAKER">A piece of it was that sense of egalitarian that there sort of is in the military, or had been in my experience. In terms of social movements, which certainly were an influence, <orgName>Harvard</orgName> would have been seen as—as socially elite, and that didn’t hold appeal. For—I don’t think he held appeal for many people. And the sort of corollary at <orgName>Michigan State</orgName> was that they had had more fraternities than any college in the country, and they were closing left and right because people had no interest in—fraternities seemed superficial.</u>
+      <u who="HARRIS">Hmm. Could you elaborate on what you mean by social movements? Like, of the time.</u>
+      <u who="YRCHIK-SHOEMAKER">[Pause.] I’m thinking this in the moment. I don’t think I thought it at the time or whatever, but there was a huge middle class through <date>the ‘50s</date>, and a growing middle class. And actually, because of [the] G.I. Bill, so many people had gone to college that wouldn’t have otherwise, there was sort of a sense that the land grant universities were relatively affordable, supported by state and federal money, and everybody would have equal access to money. The civil rights movement from ’62 to ’67 and women’s rights and [the] Equal Rights Amendment—all that was happening and put in question the sort of power structures that had been in place.</u>
+      <u who="HARRIS">Yeah. So during the civil rights movement, how did you feel about, like, hearing about that stuff on the news in high school, I guess? And college.</u>
+      <u who="YRCHIK-SHOEMAKER">I thought it was the right thing, and I do remember my father not thinking much of African-Americans. Ironically, I can remember him calling policemen “cops” and, because I was a crosswalk monitor in elementary school, I corrected him and said, “It’s ‘policemen,’” which was an unusual thing for me to do. </u>
+      <u who="HARRIS">Would you get in arguments ever about it?</u>
+      <u who="YRCHIK-SHOEMAKER">No, but I had different opinions than him. And I—I was glad <persName>Alexander Pierce Smith</persName> was at my middle school, and maybe part of that was sort of bad feelings about the Confederacy and so on, but—[Pause.]</u>
+      <u who="HARRIS">That impacted you.</u>
+      <u who="YRCHIK-SHOEMAKER">And substandard schools. So it did feel like in <date>the ’70s</date>, that a lot of things were going to change, and rightfully so. And in <date>the ’60s</date>.</u>
+      <u who="HARRIS">So just going back to that Confederate atmosphere for a second.</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah.</u>
+      <u who="HARRIS">So you felt your parents were not necessarily opposed to it. They were, like,—</u>
+      <u who="YRCHIK-SHOEMAKER">Not in terms of race.</u>
+      <u who="HARRIS">They were okay with that.</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah.</u>
+      <u who="HARRIS">Okay. And so you came to <placeName>Michigan</placeName>, to the university. What was that like? Was that a culture shock after being in <placeName>London</placeName>?</u>
+      <u who="YRCHIK-SHOEMAKER">In some ways, yeah, just to be totally back in the States. But at the same time, a lot of my friends—it was a quarter system, and a lot of my friends sort of could just afford—and some of them would go and work in the factory two or three terms and would save up enough to do two or three more terms, and because it was <date>quarter</date>, then <date>summer</date> was just kind of a normal term. And I would say 95% of my friends had campus jobs, and that was just the culture.</u>
+      <u who="HARRIS">Did you work?</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah. And the—the residence halls—there was, at the time, 600 females in one tower and 600 males in another tower, and in between there were classrooms, so half of your freshmen courses—your core courses could be in your residence hall, and then the cafeteria held, like, 1,100 students or something, and so virtually all the employees in the cafeteria were students. And the janitorial staff—there was, like, one staff person, and everybody else was students, and the students, second or <date>third year</date>, became supervisors. I worked at the reception desk in the residence hall. And so—</u>
+      <u who="HARRIS">Throughout college?</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah. So everybody had a job.</u>
+      <u who="HARRIS">Wow. And so were classes mixed genders? It was girls and boys.</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah, yeah. And when I was a sophomore, then for the first time, women could visit the men’s residence hall, so we went a little crazy for a little while [both chuckle]. And there was—and it was—college administration had been in loco parentis, so rules—and everything was rules driven. And so in <date>the late ‘60s</date>, all that went out the window, so by the time I left <placeName>Michigan State</placeName>, there were residence halls with a female floor and a male floor, and there was actually only one female only hall and one male only hall. So it just completely changed.</u>
+      <u who="HARRIS">Yeah. And you think that was—was that a result of just the changing atmosphere in the <orgName>Nation</orgName>—</u>
+      <u who="YRCHIK-SHOEMAKER">Social change, yeah. And because of the draft and 18-year-olds, 17-year-olds being in the military, the voting age and the drinking age was changed to 18. And because they built a clubhouse for the golf course on campus and they wanted to serve alcohol, they—they got the local law changed that alcohol could be allowed on campus property, where it hadn’t—where it had been against the law. And it had to be 100 feet from a classroom.</u>
+      <u who="HARRIS">So that students getting that changed?</u>
+      <u who="YRCHIK-SHOEMAKER">So the residence halls went from dry to wet overnight, and that was another—</u>
+      <u who="HARRIS">When you were there.</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah. So I was a junior when that happened.</u>
+      <u who="HARRIS"><persName>Mm-hm</persName>. Wow. So the campus was changing. What was the racial composition at <orgName>Michigan State</orgName>? Was there—</u>
+      <u who="YRCHIK-SHOEMAKER">[Pause.] I don’t know the percentage. It would have—it would have been one of the higher percentages among public universities, and partly because of <placeName>Detroit</placeName>, so I had a number of black friends, and that was a source of pride. But it was tricky at times, too. With one friend, we’d end up having conversations, long conversations in his car, and that was sort of—and he—</u>
+      <u who="HARRIS">Conversations in his car about?</u>
+      <u who="YRCHIK-SHOEMAKER">Race and—</u>
+      <u who="HARRIS">Racial issues, yeah.</u>
+      <u who="YRCHIK-SHOEMAKER">—other issues. So if we ran into each other in some other setting, if we talked too long, somebody would just—somebody would, in some way, disapprove.</u>
+      <u who="HARRIS">Really? Like, friends around? Wow.</u>
+      <u who="YRCHIK-SHOEMAKER">So he wouldn’t—his sort of place would be jeopardized. And when I was a senior and I had a friend who had already been in the <orgName>Army</orgName> and so he was in college on the G.I. Bill—and so—and they had apartments in the—you know, they had converted rooms into apartments in the residence hall, and a lot of us stayed because you had to live in the residence hall to keep your job. And so he was in the apartment across the way, and so—</u>
+      <u who="HARRIS">Was he African-American?</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah. He could be in and out of my apartment, and vice versa, and one of my roommates was a little uneasy about that. And if his friends showed up, then it was sort of clear that I wasn’t as welcome. And on our floor <date>my first year</date>, there were 48 on the floor, and <persName>Stan</persName> and <persName>Herb</persName> were the two African-Americans. And I think by <date>the end of the year</date>, it felt like there was a lot of tension about that. Early on, I would help <persName>Herb</persName> with math homework. Well, I don’t know how much of it was—was racial.</u>
+      <u who="HARRIS">The tension?</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah, because it seemed like people characterized each other as either idiots or not. Or “turkeys,” which was a term, or “assholes” or whatever, you know? It seemed like things were very judgmental on that kind of personal basis. But—over <date>four years</date>, it felt like—probably just because there was more militancy among the African-American students, it felt like there was more of a divide than when I got there. But [chuckles] that’s not a way to think about it. Just it was more acknowledgement. So—</u>
+      <u who="HARRIS">Yeah. Do you remember when [the Rev. Dr.] <persName>Martin Luther King</persName> [Jr.] was assassinated?</u>
+      <u who="YRCHIK-SHOEMAKER">Yep.</u>
+      <u who="HARRIS">Was there a big reaction on campus?</u>
+      <u who="YRCHIK-SHOEMAKER">[No immediate response.]</u>
+      <u who="HARRIS">I guess it was <date>June</date> of ’68, so it was in <date>the summer</date>.</u>
+      <u who="YRCHIK-SHOEMAKER">The—yeah, yeah. And, yeah, I was working a construction job in <placeName>Kansas</placeName>, and it was just—reminded me how much of a gun culture—I mean, it sounds strange now, with mass killings, but, like, where else in the world do people get shot than <placeName>the United States</placeName>?</u>
+      <u who="HARRIS">Wow. Very different than <placeName>London</placeName>.</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah. I mean, I’m not sure there was ever a shooting in the time I was in Eng- —in <placeName>London</placeName>.</u>
+      <u who="HARRIS">Wow. So different. Yeah.</u>
+      <u who="YRCHIK-SHOEMAKER">So it was, like, you know, I have an American identity, but, like, oh man, we’re the country that kills people.</u>
+      <u who="HARRIS">Yeah. </u>
+      <u who="YRCHIK-SHOEMAKER">No.</u>
+      <u who="HARRIS">Really. Interesting.</u>
+      <u who="YRCHIK-SHOEMAKER">I think my mother was just worried, and my dad said, “It’ll get in the way of a career, and you should join a <orgName>Reserve</orgName> unit,” and that’s what connected kids did. They got into a[n] [<orgName>Air Force] Reserve [Command</orgName>] or [<orgName>Air National] Guard</orgName> unit to avoid the draft. And it was all connections. And I remember my dad saying—at the time, he had retired from <orgName>Agriculture</orgName>, and he worked for <orgName>Land O’Lakes [Inc.</orgName>], and—</u>
+      <u who="HARRIS">So was he living in <placeName>London</placeName>.</u>
+      <u who="YRCHIK-SHOEMAKER">We were living in <placeName>Minneapolis</placeName>.</u>
+      <u who="HARRIS">Your family had moved?</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah, they had moved to—back to <placeName>Virginia</placeName> when I was a freshman, and then the middle of my freshman year, they moved to <placeName>Minneapolis</placeName>. He had retired from <date>30 years</date> in civil service and was an economist for <orgName>Land O’Lakes</orgName>. So he said, “You know, what are you doin’ in <placeName>ROTC</placeName>? I can get you into a <orgName>Guard</orgName> unit because I know other executives in <placeName>Minneapolis</placeName>.” <orgName>Honeywell [International, Inc.</orgName>] was there, and 3M [Company], and they had whatever kind of economic get-togethers of the executives or whatever. So he said, “You know, I’ll do that.” And to me, that—that just smacked of, again, sort of elitism or whatever.</u>
+      <u who="HARRIS"><persName>Mm-hm</persName>, and you felt that was—</u>
+      <u who="YRCHIK-SHOEMAKER">But it was separate from the service.</u>
+      <u who="HARRIS">Interesting. All right. So what was your, like, <date>daily</date> interactions with <orgName>ROTC</orgName>? Was that in addition to a normal class load?</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah, I think as <date>a first year</date>, there was—there might have been class once a week, and then there was a drill once a week, and you put your uniform on. And when I was, like, a junior or so, there were very few <orgName>ROTC</orgName> left, and so I—and you had to wear your uniform on <date>Friday</date>, when you had drill. And nobody gave me a hard time. Nobody spat on me or anything. </u>
+      <u who="HARRIS">Did any of your—</u>
+      <u who="YRCHIK-SHOEMAKER">Sometimes they would, like, fall in step with me and go left, right, left right. And I—I—I just always thought of it at the time as, like, curiosity. I mean, among 44,000 students, there’s like 40 or 50 Air Force ROTC, so you just didn’t see them. And so whether it was accurate or not, it always—that was just how it felt to me, like they were just sort of curious.</u>
+      <u who="HARRIS">So there wasn’t any campus animosity towards <orgName>ROTC</orgName>?</u>
+      <u who="YRCHIK-SHOEMAKER">Wow. Great question. Not that I experienced in any kind of organized or consistent or any other way. When I was a senior, my roommate was active in the Students for [a] Democratic Society, and so they were, well if you know about them.</u>
+      <u who="HARRIS">Yeah. </u>
+      <u who="YRCHIK-SHOEMAKER">But we got along fine. He called me [chuckles] “Washing Machine” Shoemaker—</u>
+      <u who="HARRIS">[Chuckles.]</u>
+      <u who="YRCHIK-SHOEMAKER">—because I was learning to fly. When you’re in <orgName>ROTC</orgName> as a senior, you get to get flying lessons. So we got along fine. And his distrust of the government, I fully understood. Could cite lots of examples. And our—we lived in a—as a senior, I lived off campus, and our phone was—was tapped <date>that year</date>. You could tell they were listening. And [President <persName>Richard M.]</persName> <persName>Nixon</persName> did a lot of that, so there was this sort of interesting combination of absolutely no respect for the president but a concept of public service. For me.</u>
+      <u who="HARRIS">Interesting. So were you involved in any of the antiwar organizations or protests?</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah. Not very much. The one I remember was a march to the state capitol. <placeName>Michigan State</placeName> is in <placeName>East Lansing</placeName>, and <placeName>Lansing</placeName> is about seven or eight miles, so there were, I don’t know, a couple thousand of us, so we went to the statehouse.</u>
+      <u who="HARRIS">Do you remember what <date>year</date>?</u>
+      <u who="YRCHIK-SHOEMAKER">Sixty-seven. It might have been <date>’66</date>. ’<date>66</date> was—no, ’67 was [the] Kent State [shootings], when the <orgName>Guards</orgName> shot—</u>
+      <u who="HARRIS">I think <orgName>Kent State’s</orgName> shootings were in <date>1970</date>.</u>
+      <u who="YRCHIK-SHOEMAKER">Oh, that’s right. I’m sorry. I graduated in <date>’71</date>. It was <date>my junior year</date>.</u>
+      <u who="HARRIS">Okay. </u>
+      <u who="YRCHIK-SHOEMAKER">I was thinking of high school.</u>
+      <u who="HARRIS">Yeah. [Chuckles.]</u>
+      <u who="YRCHIK-SHOEMAKER">Sixty-six was junior year of high school, yeah. And I just remember there were—we got to the statehouse, and there were legislators up in the balcony, and they were just ridiculing people’s long hair and whatever else. And so it didn’t feel like it was about any issue; it was about the gulf between questioning the government and our perception that there was no questioning of those in the government.</u>
+      <u who="HARRIS">Yeah, yeah. So you didn’t feel any, like, internal conflict of being involved in <placeName>ROTC</placeName> and involved in the antiwar—</u>
+      <u who="YRCHIK-SHOEMAKER">No. The—the—I don’t know how much of this is hindsight, but just that sense that <orgName>ROTC</orgName> and the military ought to just represent  the folks in the country. And some other people called me “the ROTC hippie.”</u>
+      <u who="HARRIS">[Chuckles.] Was it unique for—</u>
+      <u who="YRCHIK-SHOEMAKER">Which was fine—which was fine with me. And I—and I didn’t—well, you ask about a class. First and second year was about an hour a week, and junior and senior year was three hours a week. We did projects and stuff, and there were things about nuclear disarmament and this and that. And those were lively discussions and varied points of view, and I thought that would never happen at an academy.</u>
+      <u who="HARRIS">Yeah. That’s a good point.</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah. When I was a freshman, my best friend had joined the <orgName>Marines</orgName>. I was back in <placeName>Washington</placeName>, D.C.—back in <placeName>Virginia</placeName> for <date>Christmas vacation</date>, and he came up from—he came up from [<orgName>Marine Corps Base] Camp Lejeune</orgName>. He had just finished Marine boot camp.</u>
+      <u who="HARRIS">Was he a friend from <placeName>London</placeName> high school?</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah, yeah. And was headed to <placeName>the West Coast</placeName> and <placeName>Vietnam</placeName>. And what was your question again?</u>
+      <u who="HARRIS">I guess just your perception of the war, how it changed—</u>
+      <u who="YRCHIK-SHOEMAKER">Oh, oh—</u>
+      <u who="HARRIS">—with new events happening in <placeName>Vietnam</placeName>.</u>
+      <u who="YRCHIK-SHOEMAKER">I was never a fan of <persName>Johnson</persName>, I guess I was sort of grateful that he got the civil rights legislation done, but it was <persName>Kennedy</persName>’s ideas, or <persName>Robert</persName> [<persName>F.] Kennedy</persName> or—you know. And so I didn’t have any confidence in <persName>Nixon</persName> being—or <persName>Johnson</persName> being part of the decisions about the war. And I’m not sure I had confidence about people like Gen. [<persName>Creighton W.] Abrams [Jr.</persName>] and so on, because just watching the news, it just seemed like a mess. And contradictions. There were all these reports about how many Viet Cong were being killed, and it was laughable, how inaccurate—</u>
+      <u who="HARRIS">Not too much.</u>
+      <u who="YRCHIK-SHOEMAKER">It was on the main road from <placeName>North Vietnam</placeName> to <placeName>South Vietnam</placeName>, and it was just a hilltop. And so he wrote me from <placeName>Khe Sanh</placeName>, and  he said, “We’re on this hilltop, and the B-52s [<orgName>Boeing</orgName> B-52 Stratofortresses] drop tons and tons and tons of bombs all around the area,” and that’s the only way they weren’t overrun by thousands of Viet Cong. And—but the Viet Cong would run up and drop mortars on them and stuff, and so his letter just talked about the boredom, but then they would jump for their lives to get in the bunkers. And—and his best friends were African-American.</u>
+      <u who="HARRIS">In—in <placeName>Vietnam</placeName>.</u>
+      <u who="YRCHIK-SHOEMAKER">In <placeName>Vietnam</placeName>, yeah. And he was—he was—he had lived some different places in the world, and he had been sort of a <placeName>Philly</placeName> kid and just moved easily among groups. And at exactly the time of <placeName>Khe Sanh</placeName>, <persName>Johnson</persName>, like, doubled or tripled the number of troops.</u>
+      <u who="HARRIS"><persName>Mm-hm</persName>, in <date>’68</date>, ’69, yeah.</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah, ’<date>68</date>. That was the end of my freshman year. And, you know, by <date>the end of the next year</date> or whatever, it was clear that didn’t make any difference. It didn’t make any difference. And—</u>
+      <u who="HARRIS">So hearing about your friend’s experiences made you even more, like, critical of the war.</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah. And as I—I think I was a junior. It was interesting: the <placeName>ROTC</placeName> or somebody invited this speaker. His name was <persName>Wesley</persName> [<persName>R.] Fisher</persName> [sic; <persName>Fishel</persName>], and he had been part of AID [<orgName>U.S. Agency for International Development</orgName>] in <placeName>Vietnam</placeName>, and he talked about how they had rigged the election so that [<persName>Ngô Đình] Diệm</persName> would get elected as the president. </u>
+      <u who="HARRIS">Yeah. Wow. He openly said that.</u>
+      <u who="YRCHIK-SHOEMAKER">And he just plain said—he just plain said this. He was in AID, and AID—AID was, you know, supposed to be agriculture development, but it was—train police in <placeName>Vietnam</placeName> and arm the police. And he just said—and I thought, Wow!</u>
+      <u who="HARRIS">Do you remember when the speech was?</u>
+      <u who="YRCHIK-SHOEMAKER">When?</u>
+      <u who="HARRIS">Yeah.</u>
+      <u who="YRCHIK-SHOEMAKER">It might have been spring of ’70. It might have been my junior year. It might have been in <date>my senior year</date>, but—you know, somebody asked a question about—you know, “Why did you have to rig the election?”, which isn’t a question that would have been asked at the <orgName>Academy</orgName>. And the audience was, like, <orgName>ROTC</orgName>. I don’t know if there were other students there or not, even. Somehow it was mostly <placeName>ROTC</placeName>. And he said, “Well, we couldn’t take a chance. We didn’t think he was that popular, so we couldn’t take a chance that he’d lose the election.” And I’m thinking, Yeah, that sounds like our foreign policy.</u>
+      <u who="HARRIS">Do you think other people in the <orgName>ROTC</orgName> had a different—had a similar view of the <orgName>Academy</orgName> as being different and more of, like, indoctrination?</u>
+      <u who="YRCHIK-SHOEMAKER">Yes, some. I do remember actually saying that, and I remember there was a debate, like, on other campuses, whether <orgName>ROTC</orgName> should be allowed to stay on campus. And I remember being at—there was a big meeting about it, a rally or something—it was sort more a meeting because somehow there were presenters and questions and answers, like, you know, <orgName>Alumni Hall</orgName> or whatever. And I might have been a sophomore, and I think one of the juniors who I respected in <orgName>ROTC</orgName> got up and said, you know, if you do away with <placeName>ROTC</placeName> on the campuses, then all the military leaders would be from the <orgName>Academy</orgName>, and that would be too like-minded. And I was exactly with his thinking about that.</u>
+      <u who="HARRIS"><persName>Mm-hm</persName>. So did you feel like students on campus, some students on campus, like, wanted the <orgName>ROTC</orgName> to be, like—to leave <placeName>Michigan State</placeName>?</u>
+      <u who="YRCHIK-SHOEMAKER">They did, and as I said, it’s funny because I never experienced it personally. And it certainly wasn’t like <orgName>UC Berkeley [University of California</orgName>, <placeName>Berkeley</placeName>] or <orgName>Harvard</orgName> or any of the other places where it was shut down.</u>
+      <u who="HARRIS">Yeah. Interesting. And how did the antiwar protests and marches, like, affect you on campus. Did they feel very present and constant, or was it speci-— </u>
+      <u who="YRCHIK-SHOEMAKER"><placeName>Kent State</placeName> was very hard.</u>
+      <u who="HARRIS">Also being in the <placeName>Midwest</placeName>.</u>
+      <u who="YRCHIK-SHOEMAKER">I think any—any—yeah, <placeName>Ohio</placeName> and any college student—the idea that our government would shoot students because of a different ideology. Besides the death, it was a pretty hard concept. And classes were cancelled, and people were upset, and—[Pause.] And I don’t remember discussions—I mean, I was—the class—I remember I was in a contemporary art history class, which at the time meant that you did things in class, like have happenings and be-ins and things. And we talked about it there. And I don’t remember whether we talked about it in <orgName>ROTC</orgName> class. </u>
+      <u who="HARRIS">So there—</u>
+      <u who="YRCHIK-SHOEMAKER">—and my apartment mate had some kind of a narc following him around campus, and it was laughable because, like, the guy had short hair and shiny shoes, and that was not how you dressed in the <date>’60s</date> and <date>’70s</date>.</u>
+      <u who="HARRIS">Yeah, that was clear—yeah. Was there, like, a fear of the government? Like, I mean, your phones were bugged. </u>
+      <u who="YRCHIK-SHOEMAKER">There was—yeah, it was, like, they could do that. And I do remember, in <placeName>London</placeName>, thinking that—there was something at the embassy, but <persName>Martin Luther King</persName> was demonized by the government, and [<orgName>FBI</orgName> director <persName>J. Edgar</persName>] <orgName>Hoover</orgName> said, “He’s communist.” And I remember some kind of sentiment about that around some embassy function or other parents or something, and—and—what was it, <orgName>the U.S. Information Agency</orgName>? Which you don’t hear about anymore but at the time was sort of propaganda. They had films and things at the embassy. I must have gone to something, but it was just all about how <persName>Martin Luther King</persName> was a communist, which was <orgName>Hoover</orgName>’s take—</u>
+      <u who="HARRIS">Attack on him. <persName>Mm-hm</persName>. </u>
+      <u who="YRCHIK-SHOEMAKER">And then <persName>Nixon</persName> was very much into that point of view.</u>
+      <u who="HARRIS"><persName>Mm-hm</persName>. How did you know your phones were bugged?</u>
+      <u who="YRCHIK-SHOEMAKER">We could hear the clicks and stuff.</u>
+      <u who="HARRIS">Wow.</u>
+      <u who="YRCHIK-SHOEMAKER">So then we’d say things like “Why are you doing this?” And there was a movie at the time about federal agents or whatever who were wiretapping and one guy who got—kind of went crazy over the fact that he was doing that.</u>
+      <u who="HARRIS"><persName>Mm-hm</persName>. So your apartment mate was one of the leaders in student democratic so- —</u>
+      <u who="YRCHIK-SHOEMAKER">He was the campus leader for Students for a Democratic—</u>
+      <u who="HARRIS">Wow.</u>
+      <u who="YRCHIK-SHOEMAKER">And he went to <placeName>Washington</placeName> a couple of different times, so he—he would have been known.</u>
+      <u who="HARRIS">Yeah. What was his name?</u>
+      <u who="YRCHIK-SHOEMAKER"><persName>William J. Lowe</persName>. And then he went to <placeName>Ireland</placeName> and—and met with members of the Sinn Féin. And when he was crossing back from <placeName>Northern Ireland</placeName> in that time period, the border building was blown up so there was a time when he thought he was going to get arrested for that. And he went on to study at <orgName>Trinity College of Dublin</orgName> [<orgName>The University of Dublin</orgName>, Ireland], and [chuckles] he also was a laborer in the Underground in <placeName>London</placeName>, because everybody was Irish that did the digging, even in <date>1970</date>.</u>
+      <u who="HARRIS">Wow. So he went to <placeName>Ireland</placeName> after college?</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah, he was a political science major, yeah. And his father was a police precinct captain in <placeName>New York City</placeName>, so there were generational—which was just—</u>
+      <u who="HARRIS">Was that common?</u>
+      <u who="YRCHIK-SHOEMAKER">—manifest—yeah—it was just—exactly the—if you couldn’t trust anyone over <date>30</date>, where did that leave your parents? </u>
+      <u who="HARRIS">Did you—</u>
+      <u who="YRCHIK-SHOEMAKER">And the sense, you know, with baby boomers and the sense of “everybody’s my age”—was part of the experience.</u>
+      <u who="HARRIS"><persName>Mm-hm</persName>. Did you feel you become more distant with your parents, kind of grew apart from them?</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah, with my father. You know, the business about him getting me into the <orgName>Guard</orgName> unit. And it was a little more complicated than that because I had—I had friends who got into the <orgName>Guard</orgName>. It was, like, <date>one day</date> there was an opening, and the word spread or whatever—they knew somebody, and if they showed up exactly the right time—so three or four of them got into the <orgName>Guard</orgName>.</u>
+      <u who="HARRIS">So were you worried about the draft?</u>
+      <u who="YRCHIK-SHOEMAKER">No, because I was in <placeName>ROTC</placeName>.</u>
+      <u who="HARRIS">Right. Okay. </u>
+      <u who="YRCHIK-SHOEMAKER">It didn’t matter. By the time I was a senior, I had friends that went to <placeName>Canada</placeName>, you know, so you go in the <orgName>Army</orgName> or you go to <placeName>Canada</placeName> or <placeName>Mexico</placeName>, and that was real—and then friends of mine—their older siblings were drafted. I remember my roommate reading his older brother’s letter about boot camp and the fact that for the whole time, the only privacy was the latrine stall, and that’s where he wrote letters and tried to think. And just sort of how useless—is that the right word?—how pointless it felt.</u>
+      <u who="HARRIS">The training camp. Wow.</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah, to be in the service.</u>
+      <u who="HARRIS">Yeah. So why do you think there were so few Air Force ROTC students? Like, why do you think it dwindled?</u>
+      <u who="YRCHIK-SHOEMAKER">[Pause.] I’m trying to think now versus at the time. It gets a little hard to—you watch FRONTLINE, and they remind you how <placeName>Vietnam</placeName> was on the news every day, and it was, and how the discrepancies were there <date>every day</date>. The—you know, “We’re winning the war,” and the next thing is the Tet Offensive, and you see that’s clearly just—</u>
+      <u who="HARRIS">A huge loss.</u>
+      <u who="YRCHIK-SHOEMAKER">—a lie.</u>
+      <u who="HARRIS">A huge American loss, yeah.</u>
+      <u who="YRCHIK-SHOEMAKER">And so, you know, it wasn’t mandatory. I don’t think there were too many of us who thought, Well, among my choices, <orgName>ROTC</orgName> is the thing to do, but it made sense to me. I respected the parents of my friends from high school, and officers or—and the COs [commanding officers], and there was that element that they were serving—there was an element that there was sacrifice. They weren’t going to get rich. They might spend <date>20 years</date> in the service and move from place to place and they’d be done and not have a house, not have spent—you know, not have spent a dollar on a mortgage. Great, I guess, except that they’re in their <date>40s</date>, and you’re trying to buy your first house or whatever. So however you describe sacrifice. And the families being separated. Different things.</u>
+      <u who="HARRIS">So did you kind of always know you would go into the <orgName>Army</orgName>—or the military for, like, a limited period and then you planned to have a career after?</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah.</u>
+      <u who="HARRIS">What were you studying?</u>
+      <u who="YRCHIK-SHOEMAKER">Economics, which was more of a social science. I started in psych, and my interest in econ was the department fought it out. There were Marxist socialists. There were a <persName>Nixon</persName> adviser. There were labor union economists. And they literally had it out in the campus paper <date>every day</date>, you know.</u>
+      <u who="HARRIS">Wow. <persName>Mm-hm</persName>. </u>
+      <u who="YRCHIK-SHOEMAKER">The disagreements. And that was interesting. And then after take-—so before very long, what was interesting to me was that behind the economic theory was some concept about human nature, and that was the real disagreement, not the economic theory. So are people basically greedy? Are people basically good? Which is it, and why? And that those concepts—and those concepts were never mentioned. So I was—I was a still a behaviorist, and econ was just intellectually stimulating because there was no right answer, and you could use the stats and everything else, and the disagreement was more than about the economic theory.</u>
+      <u who="HARRIS">Did you come to some of your own personal conclusions about those debates?</u>
+      <u who="YRCHIK-SHOEMAKER">Um. [Pause.] Wow! Later, as a psychologist, I kept coming back to my belief that people are basically good, and bad things happen to them, and that the environment and so on—as an economist—you know, I started to say, yeah, people are basically good, but then I thought—I’ve always believed you needed government or legislation to prevent economic excesses and to protect most people economically.</u>
+      <u who="HARRIS">That makes sense.</u>
+      <u who="YRCHIK-SHOEMAKER">So I guess that was a contradiction, but that was what I thought.</u>
+      <u who="HARRIS">So just kind of transitioning into your time in <orgName>the Air Force</orgName>, how did that process go? How did you end up where you did after college? And was it that same year?</u>
+      <u who="YRCHIK-SHOEMAKER">I was in pilot training, so that was in <date>’71</date>, in <placeName>Indiana</placeName>, and—huh!—random thoughts—the shah of <placeName>Iran</placeName>’s son was in training there.</u>
+      <u who="HARRIS">At the same time?</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah.</u>
+      <u who="HARRIS">Wow.</u>
+      <u who="YRCHIK-SHOEMAKER">And there were—there were not any <placeName>Vietnam</placeName>—Vietnamese pilots. I encountered them later. But—</u>
+      <u who="HARRIS">So what <orgName>Air Force</orgName> base was that?</u>
+      <u who="YRCHIK-SHOEMAKER">Grissom Air Force Base in <placeName>Indiana</placeName> [now Grissom Air Reserve Base, <placeName>Indiana</placeName>]. And it was—most of the bases were in the <placeName>South</placeName>, and actually that got much reinforced by <orgName>LBJ</orgName>. When he became president, <placeName>Texas</placeName> got, like 14 new bases. They closed bases in the <placeName>North</placeName> and so on.</u>
+      <u who="HARRIS">Wait, sorry. <placeName>Oklahoma</placeName> or <placeName>Indiana</placeName>?</u>
+      <u who="YRCHIK-SHOEMAKER">I’m sorry, yeah. </u>
+      <u who="HARRIS">No worries.</u>
+      <u who="YRCHIK-SHOEMAKER"><persName>Grissom</persName>—sorry. I went to Grissom Air Force Base for my basic training—</u>
+      <u who="HARRIS">Okay, right out of—</u>
+      <u who="YRCHIK-SHOEMAKER">—between my sophomore and junior year.</u>
+      <u who="HARRIS">Okay, in college. No, worries—</u>
+      <u who="YRCHIK-SHOEMAKER">And that was in <placeName>Indianola</placeName>. That was in <placeName>Kokomo</placeName>, <placeName>Indiana</placeName>. When I was commissioned, then, <date>1971</date>, it was Vance Air Force Base in <placeName>Enid</placeName>, <placeName>Oklahoma</placeName>.</u>
+      <u who="HARRIS">Got it.</u>
+      <u who="YRCHIK-SHOEMAKER">So <placeName>Oklahoma</placeName> was where you had tornadoes, and we were supposed to put the bed mattresses over us every time the alarm went off. There were— there were just a lot of tornadoes there, but weather. And so ’71, in some ways, things were winding down. The numbers of troops—</u>
+      <u who="HARRIS">In <placeName>Vietnam</placeName>.</u>
+      <u who="YRCHIK-SHOEMAKER">—might have been half or something from the peak.</u>
+      <u who="HARRIS">Yeah, definitely.</u>
+      <u who="YRCHIK-SHOEMAKER">Bad LSD [lysergic acid diethylamide] and whatever.</u>
+      <u who="HARRIS">—soldiers; that was anyone in the community.</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah.</u>
+      <u who="HARRIS">Okay. </u>
+      <u who="YRCHIK-SHOEMAKER">And so I did that, and I liked the training, and we got good training from <orgName>the University of Texas San Antonio Medical School</orgName> [sic; <orgName>University of Texas School of Medicine</orgName> in <placeName>San Antonio</placeName>] staff. They were our backup. And I found I can do it, and I—that was part of the community instead of the base. It was all that, too. And we were located at a small college in <placeName>San Antonio</placeName>, physically located. So I liked that part.</u>
+      <u who="HARRIS">Yeah. Wow. Did you—oh sorry.</u>
+      <u who="YRCHIK-SHOEMAKER">Go ahead.</u>
+      <u who="HARRIS">Did you work with veterans specifically?</u>
+      <u who="YRCHIK-SHOEMAKER">No. Not—not at <date>the day</date> treatment center. There was one—he might have been about 19. He had gone to basic training, and when they were using explosives, he went into a catatonic state. And he was in that state until his parents got to <placeName>Kentucky</placeName>, and he started to respond. And he was at <date>the day</date> treatment center, and I did spend more time with him, but I never—I don’t think I understood—I don’t know if his diagnosis was paranoid schizophrenia or another kind of psychosis or something. But that was just incidental, that he happened to have been in the service. </u>
+      <u who="HARRIS">So how did you end up after <persName>Vandenberg</persName>? I know it was definitely, like, some time before coming to <placeName>Dartmouth</placeName>, and working in—working as a dean here, but—yeah, did you know that you wanted to do counseling at college, or how did it kind of end up?</u>
+      <u who="YRCHIK-SHOEMAKER">That experience at <orgName>Michigan State</orgName> was that, Wow, there’s some real power in being a careful listener, and—</u>
+      <u who="HARRIS">Like, did you know you wanted to work—</u>
+      <u who="YRCHIK-SHOEMAKER">—so I was drawn to that.</u>
+      <u who="HARRIS">—at universities?</u>
+      <u who="YRCHIK-SHOEMAKER">Well, the professor who was the director of [the]  counseling center at <placeName>Cal Poly</placeName> was a real influence around that, and then when I did the prison internship, the director there was an adjunct professor at <orgName>UC Santa Barbara [University of California</orgName>, <placeName>Santa Barbara</placeName>]. And the professor from [the] counseling program came up every <date>Friday</date>, and they did research together. </u>
+      <u who="HARRIS">Just for the sake of time, let’s—</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah, sorry.</u>
+      <u who="HARRIS">No, it’s fine—but it’s all so interesting. Let’s fast forward to just, like, what you do at <orgName>Dartmouth</orgName> and how your, like, background as a veteran and counseling education, like, plays into that.</u>
+      <u who="YRCHIK-SHOEMAKER">Okay. I worked as a college counselor at <orgName>University of Maine</orgName> at <placeName>Presque Isle</placeName> and <orgName>University of Rhode Island</orgName> and down at <orgName>Brown University</orgName>, and then at <persName>Brown</persName> I was 100 percent outreach, so I did groups all the time and workshops and stuff out in the residence halls and things. And then I was a mental health dean at <persName>Brown</persName>, so I did mental health withdrawals, medical withdrawals and, <date>daily</date>, arranged academic accommodations for students, almost entirely around mental health issues.</u>
+      <u who="HARRIS">At <orgName>Dartmouth</orgName> or at <persName>Brown</persName>?</u>
+      <u who="YRCHIK-SHOEMAKER">At <orgName>Dartmouth</orgName>, so there wasn’t really time for proactive—so most of <date>my day</date> was, when I first got here, was mental health issues. And I always had a broader interest in organizations and structures and how you could set things up better to work better for students.</u>
+      <u who="HARRIS">Yeah, I guess. Do you work specifically with veterans?</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah. When I got here in <date>2007</date>, a couple of the—some of the veterans who President [<persName>James E.]</persName> <persName>Wright</persName> had visited at <persName>Walter Reed</persName> [<orgName>National Military Medical Center</orgName>] in <placeName>Bethesda</placeName>, naval hospital—and he said, you know, “Have you thought about going to college?” And some of them actually applied here and were accepted. And I arrived in <date>August</date>, and they said—</u>
+      <u who="HARRIS"><date>August of 2007</date>.</u>
+      <u who="YRCHIK-SHOEMAKER">Seven. They said, “There’s two that’s coming in as transfer students in <date>the fall</date>. Would you reach out to them?” And so I did, and the—I had almost nothing to do with the one student. He found the history department and lived there, and the two were close and supported each other. And the other student had a lot of medical stuff going on, and I was involved with him a lot around that.</u>
+      <u who="HARRIS">Have you found veterans that had positive experiences at <placeName>Dartmouth</placeName>, or has it been hard to adjust sometimes?</u>
+      <u who="YRCHIK-SHOEMAKER">All of that together. I think about one student. He sat at a panel. He got out of the service in <date>the spring</date>, <date>late spring</date> or <date>early summer</date>. He was here in <date>the fall</date>. He’s in this gorgeous place. And his unit was already going back to <placeName>Afghanistan</placeName>, so he’s here, and he’s in this place, and every day he’s worrying about those who he had closer bonds to than anyone else in the world, being in danger every day, and certainly not feeling like there’s any way he could explain that to any 19-year-old on campus.</u>
+      <u who="HARRIS">Do you think your experience as a veteran has helped with, like, counseling veterans here?</u>
+      <u who="YRCHIK-SHOEMAKER">Sometimes, but I was never in combat. I think I was help to someone who really—I didn’t even see the movie, The Hurt Locker, but it talked about the adrenaline and how you’re used to adrenaline, how difficult it is to not be in adrenaline-producing situations. And that was one of the vets—and I think he had a sense that I understood what a dilemma that was. I understand how the military is—the military now is such a teamwork setting and how disorienting it is coming to higher education, which is so independent, and that different vets at times have said to me, “You know, I came here, I thought you were going to tell me, ‘Take this and this and this”—[Raps table several times.]—“and that people would just tell me exactly what to do.” And that is not our culture or structure at all. And that’s a clash of cultures. So, and I don’t know that I can overstate that.</u>
+      <u who="HARRIS">Wow. Do you think <orgName>Dartmouth</orgName> does a good job of reaching out to veterans? I know—I hear-— learned a little bit about the Po-—is it <orgName>Posse Veterans Program</orgName>?</u>
+      <u who="YRCHIK-SHOEMAKER"><orgName>Posse</orgName>’s coming. Yeah. And it’s all President <persName>Wright</persName>: (1) because he became part of the whole national effort to get vets to go to school and in that process encouraged lots and lots of vets to come here, and others. I remember <date>four or five years ago</date> asking, you know, “Why’d you come to <orgName>Dartmouth</orgName>?” The <orgName>Marine</orgName> said, “I was on shipboard. It was boring. I was reading <orgName>the Navy Times</orgName>, and it talked about President <persName>Wright</persName> saying you should go to school. So I thought, Where is he?” That’s now a lawyer in <placeName>the Bay Area</placeName>. And he had a hard time, in a lot of ways.</u>
+      <u who="HARRIS">The veterans.</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah. And so the veterans here are asked to function pretty independent of each other, which is what they do, and it’s a fine line between that and feeling isolated and disaffected. And—I could say this because I worked at <persName>Brown</persName> and other palaces—we’re the most—the D-Plan [<orgName>Dartmouth</orgName>’s flexible study plan] creates all these rules and the needs for petition, and it feels like over and over again they’re being told, “You don’t really belong here, structurally.” War stories, but—war stories. So married vet—you have to live in the residence hall; <date>first years</date> live in the residence hall. That’s what he was told. He said, “What? So where’s my wife’s room?” You know.</u>
+      <u who="HARRIS">Yeah.</u>
+      <u who="YRCHIK-SHOEMAKER">This gets into politics and stuff, but President <persName>Wright</persName> knew that if he tried to create or have [an] administrative decision about what a veterans program would be, we’d still be waiting, so he just encouraged folks to come. And all the administrative stuff has been decision by decision and ad hoc, so it can certainly feel to them like they’re invited, but are they welcome? And so it’s issues like the lawyer wanted to go straight through, but the registrar says, “You can’t do that. No, you gotta take an off term.” “Excuse me? I’m 27.” “You have to take an off”—you know. So we got an exception for that. They’re independent of what happens between terms.</u>
+      <u who="HARRIS">Yeah, Where do they go?</u>
+      <u who="YRCHIK-SHOEMAKER">There not going—you know? They have financial aid, but that’s a little different if you’re in—and if you have a family, financial aid is not—if you have kids—we’ve had vets with kids, and that’s been a real huge challenge financially. So my gripe is there wasn’t a program. And what informs that gripe is at <persName>Brown</persName> they had a program called Resumed [Undergraduate] Education [Program]. If you had been in college and then left and were now going to start over and finish, that was the pool, and you could take one class for as long as you wanted to or you could transition in whatever—you know, they created logical things.</u>
+      <u who="HARRIS">Yeah. That makes sense.</u>
+      <u who="YRCHIK-SHOEMAKER"><orgName>Dartmouth</orgName> is still 18 to 22 in terms—and D-Plan structure—</u>
+      <u who="HARRIS">System, yeah.</u>
+      <u who="YRCHIK-SHOEMAKER">—that makes no sense to somebody 25.</u>
+      <u who="HARRIS">Yeah. Have veterans had difficult experiences socially at <orgName>Dartmouth</orgName>?</u>
+      <u who="YRCHIK-SHOEMAKER">On the one hand, they’ve been very proud about being part of things. They’ve joined fraternities, and they’ve done this, and they’ve done that. A lot of them have written op-ed pieces on a variety of things. What was the question? Are they—</u>
+      <u who="HARRIS">I guess just their experiences socially at <orgName>Dartmouth</orgName>, yeah.</u>
+      <u who="YRCHIK-SHOEMAKER">You know, the next person they run into is complaining about something. How important can it be compared to anything they’ve—you know. So they’re pretty forgiving. [Chuckles.]</u>
+      <u who="HARRIS">Yeah, that makes sense. </u>
+      <u who="YRCHIK-SHOEMAKER">It’s very strong. They—well, Class of ’56 has been real active, and, you know, when we were talking about service, that’s their culture and that <orgName>Dartmouth</orgName> students don’t even think about service. They can’t comprehend. But they know it’s true for the whole country. Nobody talks about serving the country in any shape or form. They at least, maybe when they left in <date>the ‘60s</date>, people were maybe going into <orgName>the State Department</orgName> or some <orgName>Peace Corps</orgName> or <orgName>AmeriCorps</orgName> or something. And so that’s really hard. </u>
+      <u who="HARRIS">There’s a divide, yeah.</u>
+      <u who="YRCHIK-SHOEMAKER">And alumni loved to be involved in things with the vets, and they don’t grasp that disconnect, and they come from a culture of service and where every- —they served, and their relatives did.</u>
+      <u who="HARRIS"><persName>Mm-hm</persName>. Their peers, yeah.</u>
+      <u who="YRCHIK-SHOEMAKER">And these vets or these students now don’t know anybody. How many—how many servicemen do you know right now?</u>
+      <u who="HARRIS">Only a few.</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah. And how many in your family?</u>
+      <u who="HARRIS">My dad was in the Israeli army.</u>
+      <u who="YRCHIK-SHOEMAKER">Okay. </u>
+      <u who="HARRIS">But that’s it, yeah.</u>
+      <u who="YRCHIK-SHOEMAKER">And now?</u>
+      <u who="HARRIS">Only—None.</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah.</u>
+      <u who="HARRIS">Yeah.</u>
+      <u who="YRCHIK-SHOEMAKER">And they—they—they don’t have a way to integrate that with their own experience.</u>
+      <u who="HARRIS">Yeah, yeah, that makes sense, yeah.</u>
+      <u who="YRCHIK-SHOEMAKER">The <date>‘70s</date> kind of class, [<persName>Phillip C.</persName>] “<persName>Phil” Schaefer</persName>—they did a great thing. [Chuckles.] They asked—well, you know this, probably—they asked the alums to write about their <placeName>Vietnam</placeName> experience, and from the ‘70s, among the administrations you’re disaffected from are—is the college administration, or the college, itself, as an institution. <orgName>Dartmouth</orgName> probably much less so than anywhere else in the country, but—but they got some replies back saying, “I haven’t had anything to do with <orgName>Dartmouth</orgName> since I left, but this is an interesting invitation, so I’m going to write my experience when I left <orgName>Dartmouth</orgName> and went into the service.”</u>
+      <u who="HARRIS">Right, so there is that divide—</u>
+      <u who="YRCHIK-SHOEMAKER">And even with the service, the <orgName>Navy</orgName> is the aristocratic service. They eat off of <placeName>china</placeName> and silver in the stateroom on ship, et cetera, et cetera. And even more than—much more than any of those services. That’s sort of the <orgName>Dartmouth</orgName> tradition. Generations of naval service.</u>
+      <u who="HARRIS">Interesting. Yeah, yeah. So there’s a divide. Yeah, yeah.</u>
+      <u who="YRCHIK-SHOEMAKER">So the alums. Well, an example, the—I guess he’s maybe <date>nine or ten years</date> out—he thought it would be great for alums who were serving around the world to be in touch, and so he initiated <orgName>the Dartmouth Uniformed Service [Alumni] association</orgName>—<orgName>Dartmouth</orgName>—DUSA—Dartmouth Uniformed Service Alumni. So that was the idea, which made perfect sense. You know? They are in different part of the world—those who were still serving, all as officers, and the older the vet alumni went, “Yeah, great organization,” and, you know, made a different thing out of it. And they had to figure out—</u>
+      <u who="HARRIS">Oh, God, yeah! That generational divide.</u>
+      <u who="YRCHIK-SHOEMAKER">—what it is we’re doing, yeah. And so there’s just all those challenge[s], but the alumni really—they just—bless their hearts, they just want to do so much. </u>
+      <u who="HARRIS">Special.</u>
+      <u who="YRCHIK-SHOEMAKER">So <orgName>Dartmouth</orgName> does a lot around <date>Veterans Day</date>, and <name type="event">Veterans Day</name> is recognizing service. <persName>Memorial Day</persName> is remembering our dead, and I’ve wanted the vets to have the chance to be together around <name type="event">Memorial Day</name>, and the alums wanted to—you know they wanted—flag ceremony and so on, and they wanted the undergraduate vets to be the honor guard and to do this and do that and do that.</u>
+      <u who="HARRIS">Yeah, yeah, that makes sense.</u>
+      <u who="YRCHIK-SHOEMAKER">So there were those kinds of things, where, “What kind of veteran are you?” And the veterans—not that this even happened, but the veterans would go, “Well, I wasn’t an officer.” You know, just—</u>
+      <u who="HARRIS"><persName>Mm-hm</persName>. That’s interesting, that divide.</u>
+      <u who="YRCHIK-SHOEMAKER">—um, challenges.</u>
+      <u who="HARRIS">Yeah.</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah, that’s just—what our vets go through now, it’s just sad and unfair to be sent back again and again and again and again. And no other generation did that. <placeName>Vietnam</placeName> was <date>12 months</date>. I guess somewhere out there, there were a few people who did a second tour who weren’t lifers, but for the rest of the <orgName>Army</orgName>, it was, like, I gotta get back there and improve my career.</u>
+      <u who="HARRIS">Yeah. So divisive.</u>
+      <u who="YRCHIK-SHOEMAKER">Actually, who served? Who served in the combat units? African-Americans. You know, whatever the statistic is, <date>50</date>, 60 percent versus 20 percent of population or whatever. </u>
+      <u who="HARRIS">No, I think you answered it, just your reflections on that era and—yeah.</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah, it’s—</u>
+      <u who="HARRIS">I guess [chuckles] you could also answer how the military has informed—affected your life.</u>
+      <u who="YRCHIK-SHOEMAKER">I still think—I think it can be a great thing for—my experience was those young men and women that had some aptitude for electronics or whatever and went on, got degrees—that wouldn’t have happened if they hadn’t been in the military, and they wouldn’t have had the experience of that, and that they put me in charge of all this equipment, and I got a record [chuckles] that says I don’t know my own mind.</u>
+      <u who="HARRIS">Yeah!</u>
+      <u who="YRCHIK-SHOEMAKER">It says how much opportunity there was to have respon- —and I was, whatever, in <date>my 20s</date>, and I’m in charge of this group of folks, some of whom are <date>35</date> or so, with families. It was pretty gratifying and educational. So I try to understand current events. My experience isn’t common, I can understand some of the things about being that age and having somewhat similar experiences. But that’s—anyhow. That’s probably it.</u>
+      <u who="HARRIS">Okay. I think that’s perfect for the conclusion. Thank you so much.</u>
+      <u who="YRCHIK-SHOEMAKER">Yeah.</u>
+      <u who="HARRIS">I’ll stop the recording now.</u>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,515 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="WEINSTOCK"/>
+        <person xml:id="SLOCA"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="WEINSTOCK">This is <persName>Benjamin Weinstock</persName>. I am at <orgName>Rauner Special Collections Library</orgName> at <orgName>Dartmouth College</orgName> in <placeName>Hanover</placeName>, <placeName>New Hampshire</placeName>. The date is <date>February 9th, 2016</date>. The time is 3:32, and I am interviewing over the phone Mr. <persName>Steven Sloca</persName>.</u>
+      <u who="SLOCA"><persName>Steven Sloca</persName>, S-l-o-c-a, Class of <date>1966</date>.</u>
+      <u who="WEINSTOCK">And where were you born, Mr. <persName>Sloca</persName>?</u>
+      <u who="SLOCA"><placeName>Plainfield</placeName>, <placeName>New Jersey</placeName>.</u>
+      <u who="WEINSTOCK">What <date>year</date> was that?</u>
+      <u who="SLOCA"><date>Nineteen forty-four</date>.</u>
+      <u who="WEINSTOCK">Can you tell me a little bit about growing up there?</u>
+      <u who="SLOCA">Well, I never grew up in <placeName>Plainfield</placeName>. That was where my mother was staying. My father, who was a pilot in <name type="event">World War II</name>, was in prison camp, as a POW [prisoner of war], when I was born, so we only—I only lived there till he got back from the service. And then we—we moved all over <placeName>the East Coast</placeName>: <placeName>Ithaca</placeName>, <placeName>New York</placeName>, where he went to grad school at <orgName>Cornell [University</orgName>] and then <placeName>Annville</placeName>, <placeName>Pennsylvania</placeName>; <placeName>Bethany</placeName>, <placeName>West Virginia</placeName>; <placeName>Waynesburg</placeName>, <placeName>Pennsylvania</placeName>; and ended up in <placeName>Fairfield</placeName>, <placeName>Iowa</placeName>.</u>
+      <u who="WEINSTOCK">Could you please tell me your parents’ names?</u>
+      <u who="SLOCA">Excuse me?</u>
+      <u who="WEINSTOCK">What were your parents’ names?</u>
+      <u who="SLOCA">Oh, <persName>Charles Sloca</persName>, who passed away <date>last November</date>, so he was 93 at the time.</u>
+      <u who="WEINSTOCK">Wow. My apologies.</u>
+      <u who="SLOCA">And my mother was <persName>Maureen Rushmore</persName>, and she died when I was eight. But then my father remarried, and my stepmother is still living, and they were married <date>60-plus years</date>.</u>
+      <u who="WEINSTOCK">So you said your dad was a pilot in <name type="event">World War II</name>. Did he ever talk about those experiences?</u>
+      <u who="SLOCA">He did. At first, he wouldn’t talk about it much, and then later on, he got involved with AXPOWs, [<orgName>American Ex-Prisoners of War</orgName>], an organization of former POWs. And he became more and more open about what had happened and what he experienced when he started talking with other POWs. And my sister actually produced a documentary, recording a lot of those experiences.</u>
+      <u who="WEINSTOCK">And where was your father based?</u>
+      <u who="SLOCA">He was based out of <placeName>Italy</placeName>, the same unit that was—that was memorialized in Catch-22.</u>
+      <u who="WEINSTOCK">Wow. And do you know what types of planes he flew?</u>
+      <u who="SLOCA">B-17s [<orgName>Boeing</orgName> B-17 Flying Fortresses].</u>
+      <u who="WEINSTOCK">B-17s.</u>
+      <u who="SLOCA">Yeah. And he flew out of <placeName>Italy</placeName>, and then his plane was shot down on his sixth mission over the target. And it actually still flew but only on one engine. Three engines had been shot down, or shot out. And they could not cross the <placeName>Alps</placeName> back to <placeName>Italy</placeName>, so they crash-landed the plane and were captured.</u>
+      <u who="WEINSTOCK">And were they captured by the Italians or the Germans?</u>
+      <u who="SLOCA">Actually, the Hungarians. That’s where they ended up crashing.</u>
+      <u who="WEINSTOCK">Okay.</u>
+      <u who="SLOCA">And the Hungarian farmers were mad because they crash-landed in their wheat field. And he said—my dad later said that “it’s lucky that the Germans were close by” or else he might have been killed by the Hungarians who were mad at the loss of their wheat field.</u>
+      <u who="WEINSTOCK">Huh! And how long was he in the POW camp for?</u>
+      <u who="SLOCA">Well, let’s see, he was shot down in <date>July</date> of ’44, and he was—well, he was kept in <persName>Stalag Luft III</persName>, which is the scene of The Great Escape, and then—which is in <placeName>East Germany</placeName>—and then when the Russians were advancing, the German guards didn’t want to surrender to the Russians, so they forced-marched all the prisoners west and were liberated by <orgName>the American Army</orgName> in <date>April</date> of ’45.</u>
+      <u who="WEINSTOCK">So your dad—so your dad came back to <placeName>America</placeName> then, right?</u>
+      <u who="SLOCA">Right.</u>
+      <u who="WEINSTOCK">And so obviously you were a bit too young to remember this, but can you tell me a little bit about your first memories of your father back in <placeName>America</placeName>?</u>
+      <u who="SLOCA">Oh, hard to remember first memories. I remember about as far back as pre-school, living in <placeName>Ithaca</placeName>, <placeName>New York</placeName>, when my father was going for his <persName>Ph.D.</persName> at <orgName>Cornell</orgName>. He was a very funny, affable guy but very articulate, very educated, although, you know, he was the first in his family to go to college. His parents never spoke much English. They were immigrants from the <placeName>Ukraine</placeName>. So he was a very educated person, very interested in politics and religion, eventually.</u>
+      <u who="WEINSTOCK">And so you said you had a sister?</u>
+      <u who="SLOCA">I have seven sisters.</u>
+      <u who="WEINSTOCK">Oh, wow! [Both chuckle.]</u>
+      <u who="SLOCA">Two full sisters with my mother, and then six siblings with my stepmother.</u>
+      <u who="WEINSTOCK">And where do you fit in age wise with all of them?</u>
+      <u who="SLOCA">I’m the oldest.</u>
+      <u who="WEINSTOCK">All right. Well, can you tell me a little bit about your childhood in <placeName>Ithaca</placeName>? It sounds like that was kind of the first—the first real place you lived.</u>
+      <u who="SLOCA">Well, yeah, it wasn’t too exciting. I mean, we lived in a—in a facul- —no, student—graduate student housing, kind of like—oh, there were townhouses, and that’s where I went to pre-school and kindergarten. There wasn’t much going on there. My sisters were born there. And, you know, the only memory I have, which is kind of really silly, is a set of blocks that my grandfather had hand made for me. It was the great tragedy of my early youth that I lost one of these blocks, and it was really significant because they all fit together perfectly in a box, but with one missing, I could never put them together again. I always attribute that incident to why my mind is always seeking order, you know?</u>
+      <u who="WEINSTOCK">Sure. [Chuckles.] You’re very impressionable when you’re that age.</u>
+      <u who="SLOCA">Yeah. I remember the tragedy. I mean, I was just devastated. </u>
+      <u who="WEINSTOCK">Can you—can you tell me a little bit more about what your mom did at that time? You said she passed away when you were eight. Do you remember what she did when you were in <placeName>Ithaca</placeName>?</u>
+      <u who="SLOCA">No, she was just a housewife. She didn’t work at all. She had a degree in psychology from—it was a woman’s college, equivalent to <orgName>Rutgers</orgName> [University] and part of <orgName>Rutgers</orgName> <date>today</date>, but it had a different name back then.</u>
+      <u who="WEINSTOCK">Okay. And where did you move after <placeName>Ithaca</placeName>?</u>
+      <u who="SLOCA"><placeName>Annville</placeName>, <placeName>Pennsylvania</placeName>.</u>
+      <u who="WEINSTOCK">And how long were you there?</u>
+      <u who="SLOCA"><date>Four years</date>.</u>
+      <u who="WEINSTOCK">Can you tell me a little bit about <persName>Annville</persName>?</u>
+      <u who="SLOCA">Well, <persName>Annville</persName> is where my mother died, so that’s the tragedy of <persName>Annville</persName>, but it was a small college town near <placeName>Lebanon</placeName>, if you know that area. And my father taught English and drama at Lebanon Valley College. </u>
+      <u who="WEINSTOCK">Okay.</u>
+      <u who="SLOCA">And we lived in a—<date>the first two years</date>, we lived on a—on an alley, which was really not even a street, but it was a converted garage. They didn’t pay professors very much back then. </u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">So then we moved into a duplex that was a little bigger, but that’s where I went to first grade through fourth grade.</u>
+      <u who="WEINSTOCK">So you’re getting a little older at this time. Do you remember any sort of political conversations or maybe stories about <name type="event">World War II</name>?</u>
+      <u who="SLOCA">Yeah, actually I do, because that was—and it was <date>the year</date> that <persName>Adlai</persName> [<persName>E.] Stevenson [II</persName>] was running on the Democratic candidate against [<persName>Dwight D.] Eisenhower</persName>, so my father was very opinionated. He was a strong <persName>Stevenson</persName> supporter. And I remember watching my first political convention in <placeName>Annville</placeName> on a 10-inch television, black and white. [Both chuckle.] And we watched the Democratic convention and the Republican convention and talked politics. As a fourth grader or third grader, I wasn’t particularly interested, but it was exciting. Also that was where, later on, the <orgName>Army</orgName>-McCarthy hearings took place on television, with Sen. [<persName>Joseph R.] McCarthy</persName>—you know, <persName>Joe McCarthy</persName>, the rabid anti-communist, who went after everybody.</u>
+      <u who="WEINSTOCK">Right. Do you remember—do you remember your dad’s opinions on <persName>McCarthy</persName>?</u>
+      <u who="SLOCA">Oh, yeah. He hated <persName>McCarthy</persName>.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">He thought he was awful. And, you know, I have to say at <orgName>Dartmouth</orgName>, the movie—they produced a documentary of those hearings called Point of Honor. I tell you, it was one of the most moving experiences because I relived my childhood, watching the actual drama unfold as, you know, person after person would be accused of communism and, you know, being a secret communist, and they were, of course, not. But, you know, finally the lawyer for the accused turns to <persName>McCarthy</persName> and says, “Have you no shame?” And that was just so dramatic. And it’s true. That wasn’t made up. That was actual tape, videotape.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="SLOCA">Well, you know, as I said, my mother died. She had cancer, and they had no cures for cancer at all back then. And then, you know, my father was left with three kids, so we all had to pitch in. I remember I was given the choice of learning to—of helping my dad cook or clean—wash dishes. Well, there was not much choice there.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">I became the assistant cook, and I learned to cook, actually. It—it stuck with me. I always enjoy cooking, even <date>today</date>.</u>
+      <u who="WEINSTOCK">Sure. Were you close with your father?</u>
+      <u who="SLOCA">Oh, yeah. At that time. Later on, he got—he became a born-again Christian when I was, like, in junior high or high school—high school. So we had a lot of differences at that time.</u>
+      <u who="WEINSTOCK">Yeah. Can you—can you tell me a little more about that? Where did you go to high school?</u>
+      <u who="SLOCA">In <placeName>Fairfield</placeName>, <placeName>Iowa</placeName>. My father had been moving around from college to college and got hired by <orgName>Parson College</orgName>, which at the time was a small <orgName>Presbyterian Church</orgName> college, but it had a president who was going all out to make it a big national power, and so he was paying more than anybody else was, so my father was attracted out there and was dean of the college. And so we ended up going out to <placeName>Iowa</placeName> after being an Easterner all my earlier life, and so it was kind of a strange situation, being out in the farm country, but that’s—that’s where I spent <date>the last four years</date> of my elementary—high school years.</u>
+      <u who="WEINSTOCK">What are—what were some of your interests at the time? What did you like to do in <placeName>Iowa</placeName>?</u>
+      <u who="SLOCA">Well, I was—I was into all kinds of things. I was the editor of the student paper, president of <orgName>the Iowa National High School Press Association</orgName> [sic; <orgName>Iowa High School Press Association</orgName>]. I was a public speaker. We had speech contests in <placeName>Iowa</placeName>, and I participated <date>every year</date> and won <orgName>Division 1</orgName>, which is the highest honor in the speech contest. I was into dramatics. I was always doing plays. And, you know, I wanted to be a—into sports. I was tiny, though. I was, like, five foot—when I was a junior in high school.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">But it enabled me to go into wrestling. I had picked up wrestling in <placeName>Waynesburg</placeName>, <placeName>Pennsylvania</placeName>, in the sixth grade, and <placeName>Iowa</placeName> was a heart-bed [sic] of wrestling. I mean, it always is. And so they had a wrestling team, you know, starting in the eighth grade. And I knew how to do it, so—and I was so small that I could wrestle at 95 pounds without having to lose weight. So my opponents would in there, you know, sweating off weight, trying to make the 95-pound limit, and I just walk in, step on the scales—you know, no problem.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="SLOCA">But I was half blind because my eyes were always bad. I started wearing glasses when I was five, so—the big problem was they didn’t have contacts back then, so you—you wrestled, you know, blind, which was okay when you’re at the par—what they call a <placeName>par terre</placeName> position, where you’re one on top of the other—you know, trying to hold somebody or pull—pull—push them over to get a pin. You’re in constant contact. You can use your sense of touch to know where your opponent is. But when you’re standing up, facing him, you know, he’s a blur, so—[Laughs.]</u>
+      <u who="WEINSTOCK">Sure. [Chuckles.]</u>
+      <u who="SLOCA">So I got—I got most of my points on defense. You know, I’d wait till the other guy makes a move, and then I’d counter.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="SLOCA">But I did. I got my letter in wrestling and then went on to—when I got too big to wrestle, at 95—and so then I went into tennis. We had a lousy tennis team, but I—I lived only a block from the high school tennis courts, so I was the only one who got any practice in <placeName>Iowa</placeName> [chuckles], so I managed to—to get a varsity tennis letter, too.</u>
+      <u who="WEINSTOCK">Sure. </u>
+      <u who="SLOCA">Yeah, I—no, I wanted to be a lawyer since I was <date>12 years old</date>, watching <persName>Perry Mason</persName> [a character in the TV series, <persName>Perry Mason</persName>]. <persName>Raymond [W. S.]</persName> <persName>Burr</persName> playing <persName>Perry Mason</persName> on television was one of my favorite shows, and I—and I read every single <persName>Erle Stanley Gardner</persName> book—he wrote about <persName>Perry Mason</persName>. I think there are 40 of them. And so I was, like, that’s what I wanted to be.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">So that was my career. I was going to be a lawyer all along. And public speaking was part of being a lawyer, so I was always interested in that, too, and especially extemporaneous speaking, where you have to study up on a subject and then be prepared to—to write and deliver a speech in an hour on—on something connected with your—with the topic.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="SLOCA">You never know what you’re going to be asked—you know, you have to be able to take either side of a proposition.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="SLOCA">Right.</u>
+      <u who="WEINSTOCK">Can you tell me a little bit more about how that happened and what—what that impact was on you?</u>
+      <u who="SLOCA">Surprisingly enough—he had a couple of students in his class, who were <orgName>Mormons</orgName>.</u>
+      <u who="WEINSTOCK">Okay.</u>
+      <u who="SLOCA">And they, you know, are under a duty to try to proselytize the faith, so they—they pushed my dad into talking religion. And all of a sudden, he just picked up on <orgName>Mormonism</orgName>, and I’m, like, “What? They’re crazy!”—you know. So I just resisted the whole idea. But fortunately, my stepmother, who was grounded in more—more mainstream Protestantism, convinced him to go more towards the <placeName>Methodist</placeName> idea, where she was raised. So he became a confirmed <placeName>Methodist</placeName>. Actually, he went to or took a correspondence course in theology and was ordained a lay pastor in <orgName>the Methodist Church</orgName> and was hired as a preacher for two country churches that were too small to have their own full-time pastors. So through the last part of my high school years and then later, for quite some time, he was the minister in those two churches. But he actually ended up—I mean, because he was an ordained preacher, he actually married my wife and myself. It was useful for that purpose, anyway. But he—he was—he was very much into religion at that time, and I was very much not into—or not into organized religion.</u>
+      <u who="WEINSTOCK">Sure. </u>
+      <u who="SLOCA">And so we had a lot of clashes.</u>
+      <u who="WEINSTOCK">So he was remarried at this time?</u>
+      <u who="SLOCA">Oh, yeah, he remarried <date>two years</date> after my mother died, so—</u>
+      <u who="WEINSTOCK">Okay. Okay. And can you tell me a little bit more about <date>the last couple of years</date> of your—your high school? Were you still in <placeName>Iowa</placeName>?</u>
+      <u who="SLOCA">Yeah, I was in <placeName>Iowa</placeName>. I spent <date>all four years</date> there. As I say, the things I was really interested in in <date>the last couple of years</date> were the newspaper. I got very much involved in that. I was named editor-in-chief of the paper and then went on to become president of <orgName>the High School Press Association</orgName>, so I was involved in, you know, going around the state, actually, promoting, you know, high school newspapers and high school journalism and doing speech contests and in plays. I was—I did <orgName>Le Misanthrope</orgName>, if you ever know what—that’s a Molière play. I don’t know whether you’ve ever—</u>
+      <u who="WEINSTOCK">Right, yeah, and <persName>Tartuffe</persName>. [Chuckles.]</u>
+      <u who="SLOCA">Yeah. And I was the misanthrope. So that was—that was my big starring room, was as the old, crotchety old man who’s in bed the entire play. You’re on stage the entire play.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="SLOCA">No, I graduated in <date>’62</date>, so that was prior to the—to the war actually getting going.</u>
+      <u who="WEINSTOCK">Right, but had you heard of—anything about [President] <persName>John F. Kennedy</persName>’s involvement over there?</u>
+      <u who="SLOCA">Oh, yes, I’d heard about <persName>Kennedy</persName>. You know, he was my hero. I was, you know, a sophomore, junior in high school when he ran, and, man, he was—he was the voice of my generation. I mean, I was totally a <persName>Kennedy</persName> fan.</u>
+      <u who="WEINSTOCK">How did your parents like him?</u>
+      <u who="SLOCA">Surprisingly enough, my dad voted for [President <persName>Richard M.]</persName> <persName>Nixon</persName>, the only time in his entire life he voted for a Republican. You know why?</u>
+      <u who="WEINSTOCK">Because he was Catholic.</u>
+      <u who="SLOCA">Yup, you’re absolutely right.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">That was—he could not—you see, my mother had been Catholic and had been excommunicated from the church by marrying my father, who was an—he had been baptized Ukrainian Orthodox. Well, to the Roman Catholics, that’s a heathen. So she was denied the right to go to a Catholic church. Well, he couldn’t stand that. He couldn’t stand Catholics. So he voted for <persName>Nixon</persName>.</u>
+      <u who="WEINSTOCK">Yeah. Tell me a little bit more about that.</u>
+      <u who="SLOCA">Well, I mean, in high school I was president of the science club, and what did we do in the science club? We plotted fallout patterns from a nuclear attack on <placeName>the United States</placeName> and then planned a—we were—converted the basement of our high school into a shelter. That was our science project, you know?</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">I mean, this—this—we really thought that the world was going to come to an end in a nuclear holocaust. I mean, this was not a joke. This was real. And even in places as far removed from—from targets as <placeName>Iowa</placeName>, we knew that <orgName>NORAD</orgName> [<orgName>North American Defense Command</orgName>, now <orgName>North American Aerospace Defense Command</orgName>] headquarters would be a prime target in <placeName>Colorado</placeName> and that the prevailing winds ran west to east, and so how long would we have before the fallout reached us? How many days of fallout would we expect? And, you know, these were scientific calculations that were on everybody’s mind.</u>
+      <u who="WEINSTOCK">Wow. So fear was in the air.</u>
+      <u who="SLOCA">It was definitely in the air. And with things like <name type="event">the Cuban Missile Crisis</name>, we came within a hair—hair la- —eyelash of—of actual nuclear war, because <persName>Kennedy</persName>—I think he would have done it. If the Russians hadn’t turned back the fleet carrying the missiles, he would have shot them—you know, taken them out. And that would have started everything.</u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="SLOCA">It’s interesting, because my father went to <orgName>Rutgers</orgName> and then <orgName>Cornell</orgName> graduate school, so I had always looked at the <placeName>East</placeName> as where you went if you wanted a good school. And he said—my father persuaded me to the smallest of the Ivy [League] schools because—he said, “You know”—Cornell was a big, 30,000 students, lots of graduate students. He said, “You need to get a smaller school. You got a better chance to meet your professors and interact with students. You know your classmates more.” </u>
+      <u who="WEINSTOCK">Sure. Can you—can you tell me a little bit about <orgName>Dartmouth</orgName> in <date>1962</date>?</u>
+      <u who="SLOCA">Well, physically it wasn’t much different than it is <date>today</date>. [Coughs] Excuse me. Probably the biggest difference was, of course, it was all male, and the nearest women were 45 miles away at <orgName>Colby Junior College</orgName> [now <orgName>Colby-Sawyer College</orgName>], and then, you know, it’s longer and longer to <orgName>Smith [College</orgName>] or [<orgName>Mount] Holyoke [College</orgName>] or any of those other schools. So it was a different atmosphere. It was very macho.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="SLOCA">And very heavily—I mean, people talk about the alcohol problem at <orgName>Dartmouth</orgName> in <date>recent years</date>. Nothing compared to when I was there.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">And we drank all the time. I mean, it was—I’ll never forget meeting my roommate for the first time, when the door to my room slams open, and there he is with a bottle of <orgName>Jack Daniel’s</orgName> [Tennessee Whiskey] in his hand. [Both chuckle.] And I had two roommates, both of whom flunked out after <date>our sophomore year</date>, and the one with <orgName>the Jack Daniel’s</orgName> bottle actually flunked out because he was an alcoholic, but—</u>
+      <u who="WEINSTOCK">Wow. 	So that was—that was a new culture for you, yah?</u>
+      <u who="SLOCA">Yeah, that was totally—yeah. I had never. I drank—my father was a wine drinker, so maybe I had some sips of wine before, but I had never had drinks like that or alcohol flowing. You know, you walk down to Candy’s—I don’t know whether <persName>Candy</persName>’s is not even there anymore, but that was where you got your booze in <placeName>Hanover</placeName>. And I walked in there at 18 and could buy hard liquor. In fact, did many times. Nobody asked questions.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">And every fraternity—the rules were, I think—you could only have closed parties in a fraternity twice a year, or three times a year, once a quarter. And so all the rest of the time, you could walk into any fraternity. And there were—there were beer-on-taps everywhere, so you could just go and have a beer anytime you wanted to. And some of them were really hard-drinking fraternities. In fact, [<orgName>National Lampoon’s] Animal House</orgName> was based on a <placeName>Dartmouth</placeName> fraternity when I was there.</u>
+      <u who="WEINSTOCK">Right, <placeName>Alpha Delta</placeName>.</u>
+      <u who="SLOCA">Yep, right, AD. And it was true. [Laughter.] That’s really the way it was, too.</u>
+      <u who="WEINSTOCK">[Laughs.]</u>
+      <u who="SLOCA">Except there were no girls hanging in the fraternity houses very often, anyway, except on—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="SLOCA">—big weekends. You had to bring your—</u>
+      <u who="WEINSTOCK">Were you—</u>
+      <u who="SLOCA">Go ahead.</u>
+      <u who="WEINSTOCK">Were you in a fraternity?</u>
+      <u who="SLOCA">Nope. I couldn’t afford it, frankly. I was pretty poor. If it weren’t for <orgName>Dartmouth ROTC [Reserve Officers’</orgName> <orgName>Training Corps</orgName>], I wouldn’t have been able to buy my lunch.</u>
+      <u who="WEINSTOCK">So is that why you wound up joining <orgName>ROTC</orgName>, because of financial reasons?</u>
+      <u who="SLOCA">That was one reason, actually. But, no, there was others. I had a draft number in the top ten.</u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="SLOCA">So I would certainly have been drafted after I graduated if I hadn’t gone. And I said, Well, I better be an officer than be an enlisted draftee.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="SLOCA">And secondly, because my father had been in <name type="event">World War II</name>, I—I felt a duty to my country, and I really did. Even though I became an opponent of our involvement in <placeName>Vietnam</placeName>, I still believed that I had a duty to my country, right or wrong. So, you know, I—I wanted to do it.</u>
+      <u who="WEINSTOCK">It sounds like you were having a good time.</u>
+      <u who="SLOCA">Yeah! We got—<date>every week</date>, while the rest of <orgName>Army</orgName> and <orgName>Navy</orgName> and <orgName>Air Force</orgName> ROTCs were marching in the field house and drilling, we would be out on the ski slopes, and we’d spend some time packing the parts where the Snowcat couldn’t reach, and then we would get free lift tickets for the rest of <date>the day</date>.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="SLOCA">So, we would be skiing every—<date>every week</date> for free, and would be even on <date>other days</date>, too. We’d go out, volunteer to—“Yeah, you need a slope you need packed? Okay, we’re out.”</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">So it was—I learned to ski. I didn’t know how when I went to <orgName>Dartmouth</orgName>, but I learned, and it was fun.</u>
+      <u who="WEINSTOCK">Were you involved in any other extracurriculars?</u>
+      <u who="SLOCA">Oh, yeah, I was big in the newspaper. I was—you know, stared as a freshman, and my junior year, I was named editor-in-chief, so I—we ran the paper, The <orgName>Dartmouth</orgName>. I had a great time. That was probably some of my greatest experiences at <placeName>Dartmouth</placeName>, were as editor of the paper.</u>
+      <u who="WEINSTOCK">Can you tell me more about that? What did you like to cover?</u>
+      <u who="SLOCA">What did I cover? I covered everything, mostly news reporting. But as editor-in-chief, we had—I mean, the big issue—one of the big issues was coeducation. And we did a poll and found that the student body was split right down the middle, and the alumni were split right down the middle, and so it was—it was a bit very touchy question. But to me, there was no question about it. <orgName>Dartmouth</orgName> needed to go co-ed, and you know, so I convinced my editorial board to allow me to write the first pro-coeducational editorial published in The <orgName>Dartmouth</orgName>. And I became such an advocate of coeducation that when I graduated, my farewell editorial was, you know, “I’m going to do the treasonous thing of not contributing to the alumni fund” until the college went coeducational.</u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="SLOCA">And they did. <date>Six years later</date>, of course. And so I—and I’ve been contributing since then, but I—I kept my promise. I wasn’t going to give them any money until they went <persName>co-ed</persName>. I really thought that was the one thing that really harmed the <orgName>Dartmouth</orgName> experience, was the fact that you didn’t get to relate to women, and you had such a macho attitude that meant your relationships were not the way they should be between men and women.</u>
+      <u who="WEINSTOCK">Did you—did you ever face any backlash, both as an <orgName>ROTC</orgName> member and as an editor with those views?</u>
+      <u who="SLOCA">No. As I say, the editorial board was split. I mean, the vote was four to three to allow me to take that position for the—for the paper, so there was a lot of—but it was a friendly—I mean, there was no really meanness on the part of those who wanted to keep <orgName>Dartmouth</orgName> all male. Mostly the pro- or the anti-co-ed feeling was based on the thought that, you know, you really get male bonding in an all-male school. It’s true. The kind of bonding that you do get in an all-male school is probably stronger than it would be in a co-ed school. You have no distractions. [Chuckles.] You have nothing else but your fellow alum—I mean, your fellow men, male students to hang around with.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="SLOCA">And as far as <placeName>ROTC</placeName> is concerned, no, in <date>those days</date>—I mean, I also happened to write a pro-war editorial, which surprises me <date>today</date> when I look at it. But as if—in ’64, <placeName>the Tonkin Gulf</placeName> [sic; <placeName>Gulf of Tonkin]</placeName> incident occurred.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="SLOCA">And it appeared that <placeName>America</placeName> was attacked. We later found out that’s not true, but it appeared that we were attacked, and so [President <persName>Lyndon B.]</persName> <persName>Johnson</persName>’s retaliation seemed to be appropriate. And I said so. And we felt—I guess—oh, all of us felt that this was something <placeName>America</placeName> had to do. We had to take on the communists in <placeName>Vietnam</placeName>.</u>
+      <u who="WEINSTOCK">Was that the comm-—sorry, was that the common view on campus?</u>
+      <u who="SLOCA">I think so, yeah. There was very little what you might call left-wing sentiment at <orgName>Dartmouth</orgName>. There were—there was antiwar sentiment growing elsewhere. I mean, <orgName>Columbia</orgName> [University] was a heart-bed [sic] of antiwar sentiment. And that’s where the <orgName>SDS</orgName> was formed, Students for a Democratic Society],—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="SLOCA">—a very strong left-wing organization. And other campuses—[University of <placeName>California</placeName>,] <orgName>Berkeley</orgName> and so on— were—were turning antiwar, but <orgName>Dartmouth</orgName> was pretty, pretty much conservative compared to some of the other schools. There were very few—I mean, there were nobody at <placeName>Dartmouth</placeName> that was called—you would call a hippie. None. [Chuckles.] And it was like—it was like <orgName>the Hopkins Center</orgName> [for the Arts] with almost—which was opened the year I was a freshman—Hopkins Center was almost off limits to <orgName>Dartmouth</orgName> students because you didn’t want to be thought of as being an artsy time. You know, that was not the <orgName>Dartmouth</orgName> image. The <orgName>Dartmouth</orgName> image was ski parkas and blue jeans and machoism [sic].</u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="SLOCA">It wasn’t being artistic and that kind of thing. So you didn’t have very much of that at all.</u>
+      <u who="WEINSTOCK">So backing up a little bit, before ’64, earlier you said that <persName>John F. Kennedy</persName> was one of your personal heroes. Can you tell me a little bit about his assassination?</u>
+      <u who="SLOCA">Oh, that was—yeah, that was one of the memories you never forget. I mean, I—</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="SLOCA">We were out rock climbing <date>that day</date> with my <date>winter</date> warfare detachment, and we came back to College Hall [now Collis Center], and we were putting the gear away, and the sergeant major—that grizzled, old sergeant major, who had been a 10th <orgName>Mountain Division</orgName> veteran of <name type="event">World War II</name>—had turned on the radio, and all of a sudden, we went silent. Couldn’t believe it. You know, it was just—</u>
+      <u who="WEINSTOCK">What were your thoughts about that?</u>
+      <u who="SLOCA">Well, it was kind of sad to see it because we wanted to know what happened. We wanted to know—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="SLOCA">—where So- —who was—who is in the conspiracy. Everybody thought, first, there was a communist conspiracy because he had gone to <placeName>Russia</placeName>. Then we’re not sure who was behind it. But everybody wanted to know why, what happened. You know, who got him to do it? And then <persName>Ruby</persName> killed him. Like, okay, is Ruby part of the gang, conspirators, or does he want to shut <persName>Oswald</persName> up?</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="SLOCA">But to see a murder on live television, that’s—you don’t get that often.</u>
+      <u who="WEINSTOCK">Did you—did you sense—</u>
+      <u who="SLOCA">The whole college was in shock.</u>
+      <u who="WEINSTOCK">Sorry.</u>
+      <u who="SLOCA">And we were all in shock. It—grief was palpable.</u>
+      <u who="WEINSTOCK">I’m sure. Did you—did you sense any sort of kind of larger change, a change in <placeName>America</placeName>, a change in political ideas? Did you see his—his death as an end of an era? Can you talk a little bit about that?</u>
+      <u who="SLOCA">No, we never thought of it in—and when you’re living the event, you don’t think about those longer-term trends. I mean, we were—we were kind of antsy about <persName>Johnson</persName>. He was a Southerner. Remember, this also was the era of civil rights.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="SLOCA">It was a passionate issue on campus, too. I mean, there were people who went to <placeName>Mississippi</placeName> for voting rights activities, and those four kids who were killed, murdered—you know, and all of the ones who were beaten up and everything. That was front-page news. We—we were aware of that. We were aware—<persName>Kennedy</persName> wanted to, you know, integrate our society, and we were leery of <persName>Johnson</persName>’s commitment to civil rights. But he proved that he—he had it. He actually did more than anyone else to inspire and to get civil rights legislation passed. </u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="SLOCA">And so he was a key figure in civil rights activities on <orgName>Capitol Hill</orgName> because he was a senior Republican and therefore had a lot of influence over others. So we had—I mean, [the Rev. Dr.] <persName>Martin Luther King</persName> [Jr.] and <persName>Malcolm X</persName> and <persName>Clarence Goodrow</persName> [sic], whatever the guy who was <orgName>NAACP</orgName> [<orgName>National Association for the Advancement of Colored People</orgName>] chairman, they were all in his office all the time, so I got to meet them. I never spent a lot of time with <persName>Martin Luther King</persName>. It’s too bad. But at least I’ve shaken his hand. </u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="SLOCA">—how much total discrimination there was, not only in the south, where it was legal, but in the north, where you had restrictive housing covenants and—and—and job discrimination rampant. There was—it was a different world when it came to race relationships from <placeName>America</placeName> <date>today</date>. And people who don’t—who—who say we haven’t gone far enough are—they’re right, but the fact is, it’s gone amazingly far from what I remember.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="SLOCA">And being someone who—who cared about those things—I had never had a race problem going to—living in small towns, where we didn’t have many black people. It was never an issue. I mean, you never thought about it. But when I found out what it was like and, especially at <orgName>Dartmouth</orgName>, meeting black people and finding out what their lives had been like, you just felt so terribly—Oh, this is so wrong! This is so un-American that you just have to do something about it.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="SLOCA">So that—that was, I think, the biggest issue right after <persName>Johnson</persName> took office, is pushing the civil rights agenda.</u>
+      <u who="WEINSTOCK">So when did you notice the—the prior- —the prioritization of those issues change and flip to concern over <placeName>Vietnam</placeName>?</u>
+      <u who="SLOCA">Really not until I got into law school. It was—it was ’67, certainly ’<date>68</date>, with <orgName>the Democratic Convention</orgName>, the Chicago Seven, <persName>Kent</persName> —[the] Kent State [University shootings] was a big issue, but it was ’<date>68</date> when I think <placeName>America</placeName> totally became anti war. I mean, young people—</u>
+      <u who="WEINSTOCK">So is this after [the] Tet [Offensive]?</u>
+      <u who="SLOCA">Well, yeah, it was after Tet. It was <date>the summer</date> of <date>’68</date>, during <name type="event">the Democratic Convention</name>, when, you know, enormous protests were led at the convention and all around <placeName>America</placeName> by the antiwar activists. It sort of opened everybody’s eyes to the—the issue, was a significant one. And it changed my opinions, too. I mean, I went to <orgName>Yale Law School</orgName>, which was a heart-bed [sic] of antiwar sentiment at the time. I mean, the leading antiwar activist was <persName>William Sloane Coffin [Jr.</persName>], the—I guess it was the <orgName>Yale</orgName> pastor. He was the head of the religion department at <orgName>Yale</orgName>. And he was a very passionate antiwar activist.</u>
+      <u who="WEINSTOCK">So quite the change from your editorials in <date>1964</date>, yeah?</u>
+      <u who="SLOCA">Right, absolutely, a 100 percent change. And interestingly enough, my father became—he was anti war from the beginning, but for religious reasons. He was morally opposed to war as a result of his conversion to Christianity, and so he ran for governor of <placeName>Iowa</placeName> on a third party antiwar ticket in <date>1968</date>. Got 27,000 votes.</u>
+      <u who="WEINSTOCK">That’s no small feat.</u>
+      <u who="SLOCA">Surprising for <placeName>Iowa</placeName>, but—you know. That tells you how the sentiment had changed.</u>
+      <u who="WEINSTOCK">Sure. And so when you were at <orgName>Yale Law</orgName>, this was graduate school deferment, right? As long as you were a student.</u>
+      <u who="SLOCA">Right, right, right. And also, I think they—they wanted to take advantage of people with law degrees, although I didn’t go Judge Advocate General[‘s Corps] because that was a <date>four-year</date> commitment. The fact is that I did get called upon to do a lot of court-martial work as an extra duty.  They liked to utilize advance degrees like that.</u>
+      <u who="WEINSTOCK">Sure. So at <orgName>Yale</orgName>, I have to imagine you were—you were pretty far away—pretty far removed from more of the hippie counterculture happenings in <date>’68</date> and ’69.</u>
+      <u who="SLOCA">Not too. As I say, <persName>William Sloane Coffin</persName> was kind of a leader in that, and the <orgName>Yale</orgName> student body was pretty—pretty hippie, the undergraduates. Now the law school was a little—not so much, but still there was strong antiwar sentiment. Very few of my colleagues at <orgName>Yale Law School</orgName> went into the military or, you know—they all were looking for ways out of the draft. Oh, my God! And that was Coffin’s specialty, Coffin’s specialty. He was always willing to help you avoid the draft.</u>
+      <u who="WEINSTOCK">Were—were you ever tempted to do that, or did you feel pretty secure as a—as an officer?</u>
+      <u who="SLOCA">No, it wasn’t that. It was I didn’t feel that I could let my country down. I felt I had the duty, and if I were to, you know, find a way to avoid service, that meant some other kid from Bed-Stuy [the Bedford-Stuyvesant section of <placeName>Brooklyn</placeName>, <placeName>New York</placeName>] or someplace like that would be drafted in my place and go risk his life instead of me, and that just rankled. I couldn’t see that. I said, you know, This is your duty. When your country’s at war, you have a duty, whether you agree with your country’s decision—</u>
+      <u who="WEINSTOCK">Sure. And so what happened when you graduated from law school?</u>
+      <u who="SLOCA">Well, I took—I was still deferred through <date>the end of 1969</date>, when I took <placeName>the California Bar</placeName>. When I was admitted to the <placeName>Bar</placeName> in <date>January of 1970</date>, within a week I got my call-up notice to active duty. So I started active duty in <date>February</date> in <date>1970</date>.</u>
+      <u who="WEINSTOCK">Where at?</u>
+      <u who="SLOCA">At <placeName>Fort Gordon</placeName>, <placeName>Georgia</placeName>. That was the military police officers’ basic training course. I had—I had decided to join—I  mean, you could choose your branch, and I didn’t want to be a Judge Advocate General because of the <date>four-year</date> commitment, so the next best thing law wise was being an MP [military police], so that’s where I, that was the branch I chose.</u>
+      <u who="WEINSTOCK">Can you tell me a little bit about the training there?</u>
+      <u who="SLOCA">Well, it was—we had both classroom training—interestingly enough, when you think about what happened in <placeName>Iraq</placeName> and all those terrible situations with the prisons over there, we had strict training in the Geneva Conventions. I mean—and lots of questions—you know, what happens if? What happens if the—I mean, remember, the <orgName>VC</orgName> [Viet Cong[] weren’t signatories to the Geneva Convention.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="SLOCA">They were—they were killing people with hidden bombs, and the same thing was going on in <placeName>Iraq</placeName>. They were using all the tactics in the guerilla warfare book.  And so there was no question that they didn’t honor the convention when it came to American prisoners, like, <persName>John [S.] McCain [III</persName>]. But we believed—and this was—I mean, this was drilled into us—that, you know Americ-—we are better than the <orgName>VC</orgName> because we do honor the convention, even with enemies that don’t. And so, you know, you—you learned, you know, what you could or could not do to prisoners and how you handled different situations, because that was a major MP job, was handling prisoners of war.</u>
+      <u who="WEINSTOCK">What about the Cambodian incursion and <placeName>Kent State</placeName> at this time? Did that change your opinions on anything?</u>
+      <u who="SLOCA">No. I mean—well, it actually—when I got over there, that’s when that happened. I don’t recall—I mean, it was kind of a joke because <persName>Nixon</persName> was telling people we weren’t doing it (we weren’t in <placeName>Cambodia</placeName> or <placeName>Laos</placeName>), and that’s not true. I mean, anybody who’s there knows it wasn’t true.</u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="SLOCA">I couldn’t quite fathom that—that desire. But—</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">But no, we knew that that was going on. It didn’t change my view of the war because I had already come to the conclusion that we were wrong for other reasons. I mean, primarily—the telling points were history. I mean, you realized that <placeName>Hồ Chí Minh</placeName> was a national hero. He was the <persName>George Washington</persName> of the Vietnamese people. And they regard him in that light. Even in the south, my future wife’s family was from the north. In fact, my future—my father-in-law had fought with <placeName>Hồ Chí Minh</placeName> at [<name type="event">the Battle of] Điện Biên Phủ</name>. He was a sergeant major in the <persName>Việt Minh</persName>, and yet he didn’t want to live under communism, so they moved to the south after <date>1954</date>, and—but he revered—I mean, my future wife was—you know, <placeName>Hồ Chí Minh</placeName> is a hero. And <persName>Hồ Chí Minh</persName> fought the Japanese during <name type="event">World War II</name>.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="SLOCA">He would have formed a government, but the British allowed <orgName>the French Foreign Legion</orgName> to secretly enter the country and take over.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="SLOCA">And then, of course, <placeName>Hồ Chí Minh</placeName> went on to guerilla war and freed the country from <placeName>France</placeName>, and the Vietnamese people worshiped him. So, you know—and then, of course, they also liked President <persName>Điện</persName>, who was the only elected president, the only legitimately elected president <placeName>Vietnam</placeName> ever had. But then, of course, he—<persName>Kennedy</persName> had allowed him or condoned his assassination, and so they had a couple of generals running the country, totally corrupt generals that everybody hated. I mean, oh my!</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="SLOCA">You wonder why <orgName>the Vietnamese Army</orgName> collapsed in <date>1973</date>?</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">They couldn’t stand their officers.</u>
+      <u who="WEINSTOCK">Yeah.</u>
+      <u who="SLOCA">And, you know, General [<persName>Nguyễn Văn] Thiệu</persName> and [<persName>Nguyễn Chánh</persName>] <persName>Thi</persName> took off in—what was it, a [<orgName>McDonnell Douglas]</orgName> DC-9 or whatever it was? So loaded with gold it barely got off the ground. All that gold—</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">—was a part of their corrupt administration.</u>
+      <u who="WEINSTOCK">Wow. </u>
+      <u who="SLOCA">Okay. So being from <orgName>Dartmouth</orgName> [chuckles]—I was number one in my class—</u>
+      <u who="WEINSTOCK">Wow! [Chuckles.]</u>
+      <u who="SLOCA">Well, you know, taking tests—I mean, these were easy tests compared to <orgName>Dartmouth</orgName>. And I could do all the physical stuff, so I—I—I finished number one, so I got to choose my duty stations, and I chose <placeName>Fort Lewis</placeName>, <placeName>Washington</placeName>, which—because I wanted to get—see what the <placeName>Northwest</placeName> was like, and it seemed like an interesting place. And it was. We had a stockade, a big <orgName>Army</orgName> prison there, and I was—started out as an executive officer. I was a lieutenant with promotion to captain imminent, so I was executive officer of the stockade guard company, which provided all the guards for the prison. </u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">You know, the top ones they put the uniforms on and were out in the patrol cars. But, no, the dregs—our company wore fatigues and, you know, looked slovenly and so on when I got there. But, well, I had this sergeant major, I told you, in <placeName>10th Mountains</placeName> at <placeName>Dartmouth</placeName>, who taught us all the tricks: how to beat the <orgName>Army</orgName> at every game that they played. And so I knew all this stuff, and I taught that to my company: you know, how to maintain a perfect wall locker, you know, with every uniform nice creased, starched; the shoes spit shined; every[thing] perfect. You never used it. You kept your working clothes in your private suitcases—</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">—in the storeroom. Yeah, that works. [Chuckles.] How to make a bed so tight you could flip quarters on it in two—in two minutes, you know? All those tricks. I learned those from the sergeant major, taught them to my company. All of a sudden, this company turns out, you know, winning awards from the—</u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="SLOCA">—top commandant—you know, from the camp commanders for being so <persName>sprack</persName>. I mean, you know, we—we put on our nice creased fatigues for parades, and we outshown [sic] the patrol company and got, you know, honors to our company guidons. And so, like, oh man, this was so much fun! Of course, the lieutenant colonel who was the head of the MP brigade didn’t like this at all because here I was, <orgName>Ivy League</orgName>, non-career, wearing glasses (because my eyes were terrible), so the glass—but they were frameless, hippie glasses. The <orgName>Army</orgName> would buy you anything. They would buy you any kind of eyeglasses you wanted, and that’s what I chose. And I had my hair a millimeter above the collar—you know, the longest possible hair you could have.</u>
+      <u who="WEINSTOCK">[Chuckles.] A real rebel. [Chuckles.]</u>
+      <u who="SLOCA">Yeah, right! And it was— you know—I mean, I was clearly not a careerist. And so he didn’t like that at all. And then I did the horrendous thing of arresting the major who headed the stockade. I had to do it. The guy was drunk out of his mind on post. And then when I went to nab him, he took his car and drove it off onto the freeway, which enters <placeName>Fort Lewis</placeName>. There was an exit right into the fort. And he drove right onto the freeway, and so I—and I was duty officer that night. So I ordered a hot pursuit and had to notify the state police. Well, then, of course,—</u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="SLOCA">—the whole—the whole thing falls apart because then I had to write up a notice that went directly to the commanding general of the post, to one of his senior officers. And, of course, the lieutenant colonel had to personally come and bail the guy out because you could only release an officer to a superior. And this was, like, three in the morning, ah!</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">He hated me. Let’s put it that way. And so <date>five months</date> after I got to <placeName>Fort Lewis</placeName>, he calls me in and says, “You’ve been requisitioned for <placeName>Vietnam</placeName>.”</u>
+      <u who="WEINSTOCK">What were your thoughts?</u>
+      <u who="SLOCA">Well, I knew it was going to come eventually. I thought I’d spend a year there and then <date>the second year</date> of my <date>two-year</date> commitment would be in <placeName>Vietnam</placeName>. That’s normal. That was normal for much of my classmates, but, no, <date>five months</date> and I was going to be sent over there. You know, it was expected, although when I got there and found that that requisition had been filled <date>a year ago</date>—so somehow he had gotten the <orgName>Army</orgName> to write an order sending me over there, against a nonexistent requisition. I don’t know how he did it, but he did.</u>
+      <u who="WEINSTOCK">Huh! Can you tell me a little bit about the trip over there?</u>
+      <u who="SLOCA">Yeah. It was on a regular commercial jet, leaving from Travis Air Force Base in <placeName>Oakland</placeName> [<placeName>California</placeName>], and we went over the poles. We ended in <placeName>Anchorage</placeName>, <placeName>Alaska</placeName>, and then in <placeName>Japan</placeName> and in <placeName>Okinawa</placeName>—three—three fuel stops to get to <placeName>Vietnam</placeName>. And you know, it was just a commercial jet, although you sit there and wonder what’s going to happen, you know?</u>
+      <u who="WEINSTOCK">Yeah. What was going through your mind?</u>
+      <u who="SLOCA">Yeah. You know, it’s, like, Well, is it gonna be a hot landing film? And, Are they going to shoot our plane when we come down? What’s it gonna be like? Are we gonna be out in the jungle in <date>a week</date>? You never knew. You had no idea. And people that were on the plane with me—some of them were—ended up in the jungle. So, you know, you’re in a lot of trepidation, you know, concern. You don’t know whether you’re going to come back. What can you say? That’s what you do.</u>
+      <u who="WEINSTOCK">Right. So what was it like when you landed?</u>
+      <u who="SLOCA">So when you landed, it was a different story. I mean, we got sent to <orgName>the 90th Replacement</orgName>, and then you got interviewed, and they said, “Well, there is no MP slots available in the country. I mean, this requisition was filled <date>a year ago</date>.”</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">“We don’t have any room for you.” So I sat there for <date>a week</date> while they were trying to find someplace where they could put me. They weren’t going to send me home because they had spent the money to send me there. And so eventually they gave me an assignment as executive officer of <orgName>Headquarters in Headquarters Company</orgName>, <orgName>Saigon Support Command</orgName>, in Long Binh Post.</u>
+      <u who="WEINSTOCK">And so what—</u>
+      <u who="SLOCA">Go ahead.</u>
+      <u who="WEINSTOCK">What—what were your duties there? Can you tell me just a little bit more about <orgName>Saigon Support Command</orgName> in general?</u>
+      <u who="SLOCA">Yeah. <orgName>Saigon Support Command</orgName> was the supply and support brigade for the southern half of <placeName>Vietnam</placeName>. I think it’s III and <orgName>IV Corps</orgName> areas. I’m not sure if it was I and II or III and IV, but it was the southern half of the country, of <placeName>South Vietnam</placeName>. So we had—in the brigade, we had transportation battalions, truck companies. We had supply battalions that unloaded the ships that brought the supplies into depots, that ran the depots and then parceled them out to the units in the field and drove them—you know, transported them over there. We had helicopter units that flew loads of supplies and all that kind of stuff. It was a pretty big organization.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">Now, where did we get all these vehicles? Out of junk yards, because we—</u>
+      <u who="WEINSTOCK">Really!</u>
+      <u who="SLOCA">—we ran the biggest junkyard in <placeName>Vietnam</placeName>, where, you know, any casualties of the war equipment wise were junked. We had—you could go there and build a brand-new helicopter out of parts. And our very smart, mechanical-minded G.I.s [“Government Issue” or “General Issue”] could build Jeeps. So when I arrived and they said, “Well, Captain”—because I’d been promoted to captain—he said, “Well, Captain, what kind of <orgName>Jeep</orgName> would you like?” “Well, I don’t know, a jeep?” </u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">“Yeah! You want one with an open top or a top on?” “Well, put a top on.” “Yeah, okay.” And so, yeah, I got my own <orgName>POV</orgName> [privately owned vehicle], <orgName>Jeep</orgName> #33, the unauthorized Jeeps. We had—of course, we had so many vehicles, we had a motor pool that was not TO&amp;amp;E. TO&amp;amp;E means table of organization and equipment, the official <orgName>Army</orgName> regulation as to what you’re supposed to have as a unit.</u>
+      <u who="WEINSTOCK">Right. How did—</u>
+      <u who="SLOCA">And we had so much more that wasn’t on the TOE, the TO&amp;amp;E than you can believe.</u>
+      <u who="WEINSTOCK">How did this—this all fly with the high brass just down the road?</u>
+      <u who="SLOCA">Not bad. Nobody said anything. When the inspector generals would come along to give you your <date>annual</date> inspection, everything got hidden. </u>
+      <u who="WEINSTOCK">[Laughs.]</u>
+      <u who="SLOCA">We never took them to the motor pool. We had—we had an arms room. You weren’t allowed to carry weapons on <orgName>Long Binh Post</orgName>. People don’t realize how safe it was at back then—’70, ’71, now we’re now, so all the fighting is going on in <placeName>Laos</placeName> and <placeName>Cambodia</placeName>, not much in country.</u>
+      <u who="WEINSTOCK">Did—did—did any of you take that stuff home?</u>
+      <u who="SLOCA">Oh, people did. Oh, sure.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="SLOCA">They packed it in their hold baggage. I didn’t. I’m not a gun—you know, I’m not—guns didn’t do anything for me, so I didn’t get any. But, yeah, people took them home.</u>
+      <u who="WEINSTOCK">What was the base like? Were—were—were there activities for the officers in your free time? You—you said it was—it was pretty safe over all, so I have to imagine you guys had chances for downtime.	</u>
+      <u who="SLOCA">Oh, yes. Well, there were seven officers’ clubs, twice that many enlisted clubs, 20 or so.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">There was two bowling alleys, four or five movie theaters. No, it was huge. Well, there were 20,000 troops in Long Binh Post. So a lot of ac- —</u>
+      <u who="WEINSTOCK">Hello? Yep.</u>
+      <u who="SLOCA">Yeah and so a lot of extracurricular activities were available. You know, the officers’ clubs—you could go there for dinner. It would cost you, like, a buck [one dollar] for a steak dinner. Beer was a nickel.</u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="SLOCA">And there was a floor show.</u>
+      <u who="WEINSTOCK">What was that like?</u>
+      <u who="SLOCA">Usually it was, like, Vietnamese entertainers, like a rock band or, you know, with strippers.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="SLOCA">They wouldn’t go all the way. We had them go all the way at our company parties, but—</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">—in the officers’ clubs they stopped at pasties. But, yeah, it was—that was any night of the week you’d hit that officers’ club. And, let’s see, as I say, movie theaters, bowling alleys, you name it. There were lots of entertainment. The scene was set when I first got there and—you know, after I got assigned to <orgName>Saigon Support Command</orgName> and met the commander and all that kind of stuff, I was then told to go and select—get a <orgName>BOQ</orgName> unit—you know, bachelor officers<date>’ quarters</date>. They had a separate section for officers.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">[Laughs.] I went in there, and they said, “Well, what kind of a <orgName>BOQ</orgName>—what would you like to have?” “Well, air conditioning would be nice.” “Okay, no problem.” “How about a full refrigerator, a hot plate and a double bed?” “Oh, all right. Why not?” It cost me $140.</u>
+      <u who="WEINSTOCK">Wow. [Chuckles.]</u>
+      <u who="SLOCA">For as long as I was there. Then when I left, I sold it for $140, so—</u>
+      <u who="WEINSTOCK">Ah, okay. [Chuckles.]</u>
+      <u who="SLOCA">You—you—<date>you’re</date> buying them from the people that are leaving, and so, yeah, this was kind of a nice, air-conditioned hooch.</u>
+      <u who="WEINSTOCK">Sure. Did you ever go into <placeName>Saigon</placeName>, itself?</u>
+      <u who="SLOCA">All the time.</u>
+      <u who="WEINSTOCK">What was that like?</u>
+      <u who="SLOCA">Well, you got to remember, I’m an MP officer, so—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="SLOCA">—nobody stops me—I mean, I got to know the commander of the MPs in <placeName>Saigon</placeName>. He was a very good friend by the time the guy left. In fact, he was at our engagement party. But the MPs—you know, if you got stopped—well, they wouldn’t even stop you if they saw your collar, but, you know, no problem being out in <placeName>Saigon</placeName> after curfew if you’re an MP officer. </u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">And he says, “Leave it to me, Captain.” He says, “I’ll—I’ll fix you up, no prob- —“ And he takes me to this cul-de-sac. You know, <placeName>Saigon</placeName> had been built for a million people, but there were three million people living there, and they had built apartments on the sides of buildings and blocked off streets and put apartments right in the middle of the streets. And this was a little cul-de-sac, and there were apartments all around  on three sides. Every one of them seemingly had a single girl <date>under 30</date>. I mean, it was amazing, all these cute Vietnamese, and they were all happy to have—to entertain American G.I.s. So that was—that was what I got into <placeName>Saigon</placeName> at first, for <date>months</date> of happy encounters with the Vietnamese population.</u>
+      <u who="WEINSTOCK">What did she do?</u>
+      <u who="SLOCA">She was a personnel specialist. She handled the paperwork for the Vietnamese employees in the—in <orgName>Saigon Support Command</orgName>. And so, you know, I volunteered to be the civilian personnel officer as an extra duty, so I could be her nominal supervisor, and that gave me a chance to meet her and talk to her. But I had been told, because I immediately asked the other people of the orderly room, you know, “Does she ever go out with Americans?” And they said, “No. She’ll cut you dead if you try to ask her out.” So I never did.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">That was the end of my <placeName>Saigon</placeName> trips, at least to the cul-de-sac because, man, she was just like—well, super. Ended up marrying her!</u>
+      <u who="WEINSTOCK">Tell me a little bit about—I guess here, your—your <date>first couple of days</date> with her.</u>
+      <u who="SLOCA">Well, we had—we went out to dinner at the restaurants in the area, mostly on post because it was safer. Even going to <placeName>Saigon</placeName>, you had some risk. The only times I ever got shot at were—were on the road to <placeName>Saigon</placeName>. And I think the people doing the shooting were <orgName>ARVN</orgName> [Army of <placeName>the Republic of Vietnam</placeName>] guards, who were posted along the roadway.</u>
+      <u who="WEINSTOCK">Why would they be shooting at you?</u>
+      <u who="SLOCA">Probably didn’t see my <orgName>U.S. Army</orgName> identification on the vehicle. Or maybe they were just drunk. Who knows? I didn’t stop to find out.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="SLOCA">I just floored it when I heard somebody shooting. So then, you know, we went to <placeName>Saigon</placeName>, had dinner in <placeName>Saigon</placeName>, mostly that kind of thing. Later, when we got engaged, we went—we took an R&amp;amp;R [rest and recuperation] day. You get two <date>seven-day</date> <persName>R&amp;amp;Rs</persName> on a <date>year</date>’s tour in <placeName>Vietnam</placeName>, so I took one of those at <persName>Vũng Tàu</persName>, a resort town, with her. We got to know each other.</u>
+      <u who="WEINSTOCK">Sure. Did you speak any Vietnamese?</u>
+      <u who="SLOCA">No. I mean, I learned some from her, but it’s a very hard language to learn because it’s so tonal.</u>
+      <u who="WEINSTOCK">Right, right.</u>
+      <u who="SLOCA">Very small increments of different tones produces a totally different word.</u>
+      <u who="WEINSTOCK">Right. And what was her name?</u>
+      <u who="SLOCA"><persName>Kim</persName>, <persName>Kim Anh Huang [Sloca</persName>]. Or <persName>Huang P Kim Anh</persName> [Archivist Note: spelling uncertain], in the way the Vietnamese put the last name first.</u>
+      <u who="WEINSTOCK">Sure. Was her family in the area?</u>
+      <u who="SLOCA">Yes. Her parents were both dead at the time, but she had three sisters, and they lived—well, two of them lived in <placeName>Saigon</placeName>, and one lived out in the countryside, where she had been raised. And I got to meet both—one of her sisters also worked for the <orgName>Army</orgName>. Was actually a cook in our mess hall. And the younger sister, who was closest to <persName>Kim</persName>—I mean, I got to meet her. She was single.</u>
+      <u who="WEINSTOCK">Sure. So you—you mentioned earlier that her—her father fought alongside <placeName>Hồ Chí Minh</placeName> at <placeName>Điện Biên Phủ</placeName>. Can you tell me a little bit about that?</u>
+      <u who="SLOCA">Well, all I know is what she told me, because, of course, he had died before I got there.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="SLOCA">But—so all I know is that, basically that he fought at Điện Biên Phủ and thought that <placeName>Hồ Chí Minh</placeName> was a hero. And she thought so, too. I mean, later on, in <date>1973</date>, when <placeName>Saigon</placeName> fell—1975, I guess it was—when <placeName>Saigon</placeName> fell, she tried to persuade her family to leave before the fall of <placeName>Saigon</placeName>, and they all said, “No, no, <placeName>Hồ Chí Minh</placeName> is not gonna hurt us.” You know, “He’s a good guy. We’ve already been”—her sister said, “We’ve already been in touch with the Viet Cong, and they told us that everything would be fine.” And, of course, it didn’t. They put the men in the reeducation camps. They took away my brother-in-law’s farm. So it ended up, all my wife’s family were “boat people” and escaped to <placeName>America</placeName>, but at the time, they still thought <placeName>Hồ Chí Minh</placeName> was a hero.</u>
+      <u who="WEINSTOCK">Can you tell me a little bit more about, I guess, what it was like having a—a Vietnamese girlfriend and later wife at the time? Did it—did it widen your perspective of the—of the war? Did she have a completely different perspective of the conflict?</u>
+      <u who="SLOCA">Well, no, a lot of—a lot of what I learned—I mean, for example, nobody in <placeName>America</placeName> had realized that <persName>Điện</persName>—if you remember, he had been elected president of <placeName>South Vietnam</placeName>. His wife, Madame <persName>Nhu</persName>,—</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="SLOCA">—was a—was a fervent Catholic. As a result, at least the Buddhists believed that—and <placeName>Vietnam</placeName> is half Buddhist and half Catholic, and the Buddhists believed that they had been discriminated against by his wife, Madame <persName>Nhu</persName>. And then you had the protests where they burned themselves alive in the public square. And that had been on American newspapers and TV before I left for <placeName>Vietnam</placeName>, so you got the opinion that there was something wrong with <persName>Điện</persName>, but actually, you know, my wife’s family said, no, he was a good person. His wife was a little bit too—too Catholic. Because my wife was Buddhist, so she couldn’t sympathize with the Buddhist viewpoint. But, you know, he was well liked, and the hatred that the Vietnamese people had for these generals that had killed them and took over was something I wouldn’t have known other than having dealt—you know, been around Vietnamese people and talked to them about this. Both she and her sisters could speak fluent English, so, you know, I got a lot of the story from their perspective.</u>
+      <u who="WEINSTOCK">Huh!</u>
+      <u who="SLOCA">So another thing we didn’t realize: how much hatred there was between <placeName>China</placeName> and <placeName>Vietnam</placeName>.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="SLOCA">The Vietnamese people—I mean, <placeName>China</placeName> then and, as it is now, had this policy that if you were ever once part of <placeName>China</placeName>, you’re always part of <placeName>China</placeName>. That’s what they justify their repression of <placeName>Tibet</placeName> on, because, you know, most of <placeName>Tibet</placeName> in history—they were an independent kingdom, but they got capture—conquered by <placeName>China</placeName> at one point, and so then <placeName>China</placeName> claims them forever.</u>
+      <u who="WEINSTOCK">And this is the—the <persName>Guomindang</persName> [also spelled <orgName>Kuomintang</orgName>], yeah?</u>
+      <u who="SLOCA">Yeah.</u>
+      <u who="WEINSTOCK">Okay. </u>
+      <u who="SLOCA">And <placeName>Hồ Chí Minh</placeName> had to fight him off. So the Chinese and Vietnamese were ancient enemies. They’d fought together for <date>thousands of years</date>, fought each other. And <placeName>Hồ Chí Minh</placeName> could never have turned to <placeName>China</placeName>. In fact, he needed an ally against <placeName>China</placeName>. And had <placeName>America</placeName> put aside its communist blinders and supported <persName>Hồi Chí Minh</persName>, he might have turned out to be a capitalist. He didn’t need communism. It’s just that when all of the West supporting <orgName>the French Colonials</orgName> and with everybody being against him because he’s a communist, he only had the Russians to turn to. </u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="SLOCA">But little did we know at those times. That’s the blindness of—of geopolitics.</u>
+      <u who="WEINSTOCK">So it sounds like your wife revered both <placeName>Hồ Chí Minh</placeName> and <persName>Ngô Đình Diệm</persName>. What were her thoughts about <persName>Nguyễn Khánh</persName> and General [<persName>Dương Văn] Minh</persName>?</u>
+      <u who="SLOCA">Oh, you know, no one trusted the—I don’t know—Gen. <persName>Minh</persName>—I don’t remember her talking much about him. But it was [<persName>Nguyễn Văn] Thiệu</persName> and [<persName>Nguyễn Cao</persName>] Kỳ who were running the country when I was there.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="SLOCA">And they were hate— they were disliked intensely by all of the Vietnamese I talked to.</u>
+      <u who="WEINSTOCK">Sure. Was there ever any stigma for you dating a Vietnamese girl on a <placeName>U.S.</placeName> military base?</u>
+      <u who="SLOCA">No. No. In fact, it was commonplace. A lot of G.I.s had Vietnamese girlfriends.</u>
+      <u who="WEINSTOCK">Huh. Did she ever express any sort of feelings, I guess reservations about being with an American, considering what had happened to her country?</u>
+      <u who="SLOCA">Oh, yeah. It was—it was socially incorrect from her standpoint. The Vietnamese culture looked down on Vietnamese women dating Americans, and so she was always very circumspect. She didn’t want to show me off to any of her friends outside of the American military base. In fact, she would never let me drive her clear to her house, but she lived on an <orgName>ARVN</orgName> compound with her brother-in-law, who was an <orgName>ARVN</orgName> officer.</u>
+      <u who="WEINSTOCK">Okay. And so did you marry her in <placeName>Vietnam</placeName>, or was this back in <placeName>America</placeName>?</u>
+      <u who="SLOCA">No, no, it was easier to marry in <placeName>America</placeName> because marriage in <placeName>Vietnam</placeName> was such a complicated thing. I mean, it was hard enough just to get her exit visa. I had to spend over a thousand dollars in bribes.</u>
+      <u who="WEINSTOCK">Yeah, I was about to say, tell me a bit about that process, considering that she wasn’t married to you, and she was trying to essentially leave with you to <placeName>America</placeName>. Can you tell me a little bit more about the visa process?</u>
+      <u who="SLOCA">All I know is that she says, “You have to pay everybody for all these signatures I need on all these forms,” and she hired a Vietnamese lawyer to get those signatures, and I paid for it. So I didn’t actually have to do it. She had a lawyer—it’s funny, because that’s what she thought lawyers did: bribe people.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">Because that’s what they did in <placeName>Vietnam</placeName>.</u>
+      <u who="WEINSTOCK">How did her family feel about her leaving?</u>
+      <u who="SLOCA">At the time, they were sad. They didn’t want to see her leave. But, of course, then they all ended up in <placeName>America</placeName>, themselves, and they were happy that she was there, helping them.</u>
+      <u who="WEINSTOCK">And when did they come over?</u>
+      <u who="SLOCA">In <date>1980</date>.</u>
+      <u who="WEINSTOCK">Okay. </u>
+      <u who="SLOCA">In <date>1971</date>, so she left in <date>September</date>. I put her on an airplane, and then I stayed <date>an extra month</date> because if I had left the country with less than I think <date>90 days</date> or <date>120 days</date>—I can’t remember—there was—there was—if you had only a short time left in your commitment, they would discharge you early, so I extended for <date>a month</date>, so I got an early discharge when I got back to the States. So I left in <date>October</date>, and then we were married on <date>November 11th</date> of ’71.</u>
+      <u who="WEINSTOCK">And where were you guys married?</u>
+      <u who="SLOCA">In <placeName>Fairfield</placeName>, <placeName>Iowa</placeName>. My father, as I said, was a minister, so he could sign the marriage certificate, although we wrote our own ceremony. We didn’t—because I—I knew she was a Buddhist, and so we wrote a combined—it wasn’t religious—non-religious, but more Buddhist oriented ceremony.</u>
+      <u who="WEINSTOCK">Sure. Did you—did you stay in <placeName>Iowa</placeName> with her?</u>
+      <u who="SLOCA">Oh, no. Oh, no. I was already—I had a job in <placeName>L.A.</placeName> [<placeName>Los Angeles</placeName>, <placeName>California</placeName>], and so I moved—we—we took a honeymoon around the country, so I showed her <placeName>America</placeName>, at least the southern part because it was wintertime, so we went down to <placeName>Florida</placeName> and [<orgName>Walt] Disney World</orgName>—</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">—and then around <placeName>the Gulf Coast</placeName>, <placeName>New Orleans</placeName>, and then finally to <placeName>Las Vegas</placeName> and then back to <placeName>L.A.</placeName>, because that’s where we settled.</u>
+      <u who="WEINSTOCK">What were her thoughts going around <placeName>America</placeName>?</u>
+      <u who="SLOCA">She said, “It’s so big! So much space! So much empty space!” You know, in <placeName>Vietnam</placeName> there’s a village every four miles, you know? And here there’s miles of empty country. She couldn’t believe it.</u>
+      <u who="WEINSTOCK">Right. And so what was your job in <placeName>L.A.</placeName>?</u>
+      <u who="SLOCA">I was a practicing lawyer and had a deal—I had actually spent <date>the summer</date> of ’69 there, taking the bar with this firm, and they promised me a job when I got out of the <orgName>Army</orgName>, so I went back and started practicing law.</u>
+      <u who="WEINSTOCK">Did you ever experience any sort of backlash, being a vet?</u>
+      <u who="SLOCA">Not really, because you didn’t talk about it, you know?</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="SLOCA">There was only one lawyer in the firm besides me who had served, and he served in the Judge <orgName>Advocate General’s Corps</orgName> in <placeName>Washington</placeName>. Never left <placeName>Washington</placeName>. No one else in my firm had ever been to <placeName>Vietnam</placeName> or—you know, they were draft dodgers if they were anything. So you didn’t go around—you didn’t brag about it, and it was very unpopular to even be associated with it. Everybody more or less thought we had made a tragic mistake, tragic because 50,000 people died for that mistake, and countless hundreds of thousands of Vietnamese. </u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="SLOCA">—were there when I came back from the war knew, but they didn’t mention it, and I never mentioned it. And that’s the kind of the way it was, if you were lucky enough to have a job and, you know, a profession waiting for you. You didn’t make a deal about it. In fact—I mean, I’m shocked when people say, “Thank you for your service” <date>today</date>, because now I have, you know, a veteran’s card that enables me to get discounts at local stores, and they always say, “Thank you for serving.” I’m, like, Who? What?</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">After <date>all these years</date>, you know, somebody is thanking me for—for doing something like that.</u>
+      <u who="WEINSTOCK">So that’s a modern thing, yeah.</u>
+      <u who="SLOCA">Yeah, it’s very modern. I know. I mean, you could—you know, the Vietnamese veterans were not, you know, appreciated when they came home. And you can understand why. The war was very unpopular. It was a terrible mistake. A lot of people were—came back with <orgName>PTSD</orgName> [post-traumatic stress disorder] and drug addition. Aw, we had such a drug problem over there. You wouldn’t believe it. It was—it’s sad. Very sad.</u>
+      <u who="WEINSTOCK">Can you tell me a little bit about that?</u>
+      <u who="SLOCA">You could walk outside of Long Binh Post just across the road from the guard tower and buy a vial of heroin for five bucks.</u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="SLOCA">From a local kid, from a 10-year-old kid that was selling. Anywhere in the country, you could buy them. And it was 100 percent pure heroin. It was so strong that you couldn’t—I mean, if you were to shoot it, you’d die instantly. If you were to—what they did was they took a cigarette and emptied the tobacco out and put a tiny pinch of heroin into the tobacco and re-rolled it and smoked it. And they got the same rush as injecting it would in the States with a 3 percent heroin.</u>
+      <u who="WEINSTOCK">And was this really popular among the troops in the base that you were at?</u>
+      <u who="SLOCA">Unbelievably. I mean, I—that was—</u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="SLOCA">As an executive officer, one of my duties was to try to counsel these kids not to use drugs.</u>
+      <u who="WEINSTOCK">Yeah.</u>
+      <u who="SLOCA">And it was a battle. I mean, I had everybody—“Oh, no, I’m not hooked on this stuff. I’m just smoking it. I’m not shooting it. No, I can stop any time.” Yeah, right.</u>
+      <u who="WEINSTOCK">[Chuckles.]</u>
+      <u who="SLOCA">And they’d go—and they’d go back to the <placeName>States</placeName> hooked, until the <orgName>Army</orgName> finally, you know, instituted the urinalysis program, and then you were—if you tested positive, you were not taken directly back to the States. You ended up in <placeName>Guam</placeName> in a detox center and then were sent back, but no follow-up care, no psychological training. They just, you know, cold turkey detoxed you, and then dumped you back in the civilian population. And, you know, back to using. </u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="SLOCA">They’re hollow inside. Great place to bury your drugs—I mean, to hide your drugs. And then you ship them home. The <orgName>Army</orgName> crates them for you and ships them home and delivers them to your door, and they’re full of heroin. I don’t know how many of those got by. I mean, I found one guy—you know, somebody had turned him in. They’d seen him putting heroin in these things. So we caught him, but don’t know how many got away. There were lots of future drug dealers made over there, too.</u>
+      <u who="WEINSTOCK">Wow. Did—did—did you and the—</u>
+      <u who="SLOCA">And I had one troop that killed himself because once he realized he was hooked on heroin, he didn’t know how to explain it to his family.</u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="SLOCA">It was really tragic.</u>
+      <u who="WEINSTOCK">Did the—did the military view it more as a—as a discipline problem or as a medical addiction, basically, I guess?</u>
+      <u who="SLOCA">It was considered, I mean, a discipline problem. I mean, they—<orgName>they’d</orgName> court-martial you if they caught you. Except when they’re sending them home; then they just didn’t care. They just wanted—you know, you’re going home. They wanted to get rid of you. But there were no treatment facilities. They didn’t know how to treat heroin addiction. They didn’t want to admit it to the American public that they were creating a whole raft of addicts over there.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="SLOCA">So little of that got into the papers, and very little of that, you know, made the American people aware of what was happening, but it was a big problem. I would say maybe a third of 200 men in my unit were on drugs, some of them just marijuana. You could buy marijuana anywhere, too. But a good number of that—those were also heroin addicts, too.</u>
+      <u who="WEINSTOCK">Wow. </u>
+      <u who="SLOCA">She practiced—well, she was a secretary, had secretarial skills as part of her training in the <orgName>Army</orgName>. And she worked as a secretary, private secretary for a number of <date>years</date> until we had kids, and then she was a housewife.</u>
+      <u who="WEINSTOCK">And how many kids do you have?</u>
+      <u who="SLOCA">Two.</u>
+      <u who="WEINSTOCK">What are their names?</u>
+      <u who="SLOCA">Excuse me a minute. Let me just take a quick bathroom break. Can we do that?</u>
+      <u who="WEINSTOCK">Yup. Of Course. Yeah.</u>
+      <u who="SLOCA">The kids’ names: <persName>Lee [M]</persName> and <persName>Andrew [C. Sloca</persName>].</u>
+      <u who="WEINSTOCK">And what was it like raising half-Vietnamese kids?</u>
+      <u who="SLOCA">Not—no different than raising full Vietnamese or half Amer- — I mean, Americans. They were—they were totally Americanized. In fact, my younger son, when he went to join <orgName>the Asian American Society</orgName> at his college—he went to <orgName>Wheaton [College</orgName>]. And they wouldn’t let him in. They didn’t think he was Asian. [Both chuckle.] He looked too Caucasian.</u>
+      <u who="WEINSTOCK">Did you guys—</u>
+      <u who="SLOCA">Now, <persName>Lee</persName> looked more Asian, so he easily admitted to his Asian American Society.</u>
+      <u who="WEINSTOCK">Did you guys ever go back to <placeName>Vietnam</placeName>?</u>
+      <u who="SLOCA">Nope. Neither of us ever did. And some of her relatives did, but when—I mean, I had no reason to go back, and she—all her relatives were here.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="SLOCA">I mean, her whole family got out. All of them who were still alive.</u>
+      <u who="WEINSTOCK">Did you stay in <placeName>California</placeName>?</u>
+      <u who="SLOCA">Yup, for <date>40 years</date>, till I moved back to the <placeName>East</placeName>.</u>
+      <u who="WEINSTOCK">And why’d you move?</u>
+      <u who="SLOCA">What?</u>
+      <u who="WEINSTOCK">Why’d you move?</u>
+      <u who="SLOCA">Why? Well, I retired, and also got divorced, and wanted to start post-retirement <date>years</date> closer to family, and my family is still Eastern oriented. My parents had moved back to <placeName>Iowa</placeName> at the time—I mean, to <placeName>Pennsylvania</placeName> at the time. My son <persName>Andy</persName> was still—was living in <placeName>Massachusetts</placeName>, and my sisters were in <placeName>D.C.</placeName> and in <placeName>Philly</placeName> [<placeName>Philadelphia</placeName>, <placeName>Pennsylvania</placeName>], so it was more of a locale—</u>
+      <u who="WEINSTOCK">Sure. And what have you been doing in your retired <date>days</date>?</u>
+      <u who="SLOCA">I’m in politics. I’m chairman of <orgName>the Democratic Party</orgName> in my township and <orgName>I’m</orgName> a member of our township executive—I mean, county executive committee, and <orgName>I’m</orgName> involved in <orgName>Dartmouth</orgName> alumni affairs. I’m not the board of <orgName>the Dartmouth Club of Philadelphia</orgName>. And doing, you know, a bunch of charitable things and keeping quite busy, actually.</u>
+      <u who="WEINSTOCK">Sure. Did you ever keep in touch with any other <placeName>Dartmouth Vietnam</placeName> veterans?</u>
+      <u who="SLOCA">No. I joined that group that they just formed, but I’ve never been to one of their meetings. They always have their meetings, like in, <placeName>Hanover</placeName> or someplace difficult to get to, so I haven’t ever been to one of their meetings. And I don’t really know any of the <orgName>Dartmouth</orgName> grads who were in my class who went to <placeName>Vietnam</placeName>. So, no, I don’t think so.</u>
+      <u who="WEINSTOCK">Sure. What about—what about <placeName>Vietnam</placeName> veterans in general? Are there—have you ever reconnected with any or been in any meetings?</u>
+      <u who="SLOCA">Well, recently one of the things I’ve done is we have a national cemetery that we—it was just built in my township, called <orgName>the Washington Crossing National Cemetery</orgName>. And I volunteered to be in a group called the Guardians of the Washington Crossing Cemetery [sic; Guardians of the National Cemetery], so we do—we provide honor guards and serve—you know, help, assist <orgName>the National Cemetery Associ- —</orgName>Veterans Administration people in conducting funerals and so on at the cemetery. In that organization, I’ve met and gotten to know a bunch of <placeName>Vietnam</placeName> vets.</u>
+      <u who="WEINSTOCK">Sure. And do you think they had similar experiences to you? Do you guys—when you get together, do you talk about <placeName>Vietnam</placeName>, or do you just talk about everyday things in <placeName>America</placeName>?</u>
+      <u who="SLOCA">Well, let’s see, mostly about everyday—some of them—I mean, some of them were—were combat oriented. Some had been in in definite combat situations. Others were—like, there was one guy who was in the [<placeName>U.S.</placeName>] <orgName>Navy</orgName>, on patrol boats, a la John [<persName>F.] Kerry</persName>, and there was some other people who were there but didn’t see action like I did. And, yeah, we’d talk, but not much about <placeName>Vietnam</placeName>, mostly about current activities and veterans affairs and so on. It’s—it’s an organization that’s very—because we had such a close relationship with <orgName>the VA [U.S. Department of Veterans Affairs</orgName>], we’re actually—we were very much involved in, you know, the VA hospital scandals. I mean, “involved” in the sense that we were very angry at what was going on and trying to rectify the situation.</u>
+      <u who="WEINSTOCK">Can you tell me a little bit more about that?</u>
+      <u who="SLOCA">Well, you know, <orgName>Philly</orgName> was one of those places where there was, you know, a bad kind of a scandal, where they were cheating about the wait times for services and stuff like that. And so that was one area where we were concerned and wanted, you know, to get rid of the people that were responsible. That was the most important thing, you know, is get people in there that were caring about veterans and not concerned about their—their jobs, their promotions or bonuses. And, you know, getting money. We wrote a lot of letters to [the <placeName>U.S.</placeName>] <orgName>Congress</orgName> and stuff like that to try to get more funds for the <placeName>VA</placeName> hospital system because they were underfunded. That’s why they had so few doctors working for them. And that’s still a problem.</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="SLOCA">No. I have a picture of it. My son gave it to me. A large picture, framed. So I know what it looks like, but I never—I’ve been to <placeName>Washington</placeName>, but I—you know, that’s a memorial to the people that died there, and I—I—I don’t know anybody personally who’s on that list, and I just—ahhh! It wasn’t something I really—I think I would have cried and it just wasn’t my thing. Maybe someday I’m get there.</u>
+      <u who="WEINSTOCK">Right.</u>
+      <u who="SLOCA">But, you know, I look at the photograph, and I am—you know, I have to shake my head. You know, all those people that died in vain. Really sad.</u>
+      <u who="WEINSTOCK">Sure. Yup.</u>
+      <u who="SLOCA">Especially if you believe the story about <persName>Nixon</persName>’s treason. You know, whereas <persName>Johnson</persName> supposedly—</u>
+      <u who="WEINSTOCK">What do you mean by that?</u>
+      <u who="SLOCA">Well, <persName>Lyndon Johnson</persName>—according to <orgName>The History Channel [</orgName>now, simply History] report, a book that was written about it. <persName>Lyndon Johnson</persName> negotiated settlements with <name type="event">the Vietnam War</name> in <date>1968</date>, and it was approved both by <orgName>the American Cabinet</orgName> and the Vietnamese leadership, North Vietnamese leadership. And when <persName>Richard Nixon</persName> found out about it, he was concerned that that would make [<persName>Hubert H.] Humphrey</persName>, his opponent in the election, into a hero, ‘cause he was vice president. And so he contrived with the wife of General [<persName>Claire Lee] Chennault</persName>, Madame [<persName>Anna] Chennault</persName>, acting as a go-between with the <placeName>South Vietnam</placeName> government—contrived to have them reject the peace and promised them all kinds of American aid and so on if he were elected president. And so they rejected it. And the war went on for <date>another five years</date>. And in that time, 30,000 Americans died. And it could have been stopped.</u>
+      <u who="WEINSTOCK">So very costly deception.</u>
+      <u who="SLOCA">Which is treason, because a private citizen, as <persName>Nixon</persName> was, to negotiate with a foreign government—is considered treason, and it’s something that people forget—</u>
+      <u who="WEINSTOCK">Sure.</u>
+      <u who="SLOCA">—or they didn’t want to remember. But it was—it was documented. The widow, Madame <persName>Chennault</persName>, on her death bed, confessed, and it was recorded by <orgName>The History Channel</orgName>. You can find it on <orgName>YouTube</orgName>, I think. </u>
+      <u who="WEINSTOCK">Wow.</u>
+      <u who="SLOCA">Or <orgName>The History Channel</orgName> archives.</u>
+      <u who="WEINSTOCK">Well, thank you so, so much for your time. I think we have everything that we need here, for the moment.</u>
+      <u who="SLOCA">Okay. </u>
+    </body>
+  </text>
+</TEI>

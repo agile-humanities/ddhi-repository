@@ -1,0 +1,641 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="BURACK"/>
+        <person xml:id="RESNICOFF"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="BURACK">Hi. My name is <persName>Emily</persName> [<persName>H.] Burack</persName>. I am currently sitting in <persName>Rauner</persName> [<orgName>Special Collections] Library</orgName> in <placeName>Hanover</placeName>, <placeName>New Hampshire</placeName>. It is <date>Wednesday, February 10th, 2016</date>, at 10:04 in the morning. I am talking with <persName>Rabbi Resnicoff</persName> who is at—in <placeName>Washington</placeName>, D.C. Excuse me.</u>
+      <u who="RESNICOFF">Good morning. Very good, and looking forward to the conversation.</u>
+      <u who="BURACK">Good to hear. Let’s start at the beginning, in the basics. Where were you born, and when?</u>
+      <u who="RESNICOFF">I was born in <placeName>Washington</placeName>, <placeName>D.C.</placeName> in <date>1946</date>. My father and mother got married right after <name type="event">World War II</name> and moved to <placeName>D.C.</placeName> When I was two, they moved right over the <placeName>D.C.</placeName> line to a <placeName>Maryland</placeName> suburb, and that’s where I grew up and lived until the end of high school.</u>
+      <u who="BURACK">Okay. What did your parents do?</u>
+      <u who="RESNICOFF">My father was a lawyer, but he didn’t practice since I was alive. He actually quit his job as a lawyer <date>the day</date> after [the attack on] Pearl Harbor and went to volunteer to serve in the military for <name type="event">World War II</name>. And they told him that he could come in as a lawyer, a JAG [Judge Advocate General], but it would take a number of <date>months</date> to get him the right military course, so he said, “You don’t understand. I’ve already quit my job. Just put me as anything.”</u>
+      <u who="BURACK">Okay. </u>
+      <u who="RESNICOFF">Yeah. I was oldest of three boys. My middle brother was an artist. He passed away in <date>’86</date>. He was one of the very, very early casualties of the AIDS [acquired immune deficiency syndrome] epidemic. </u>
+      <u who="BURACK">Okay. </u>
+      <u who="RESNICOFF">We—we fought a lot. [Both chuckle.] You know, we were three boys, you know. But we were all very different, and, you know, we had a strong bond and the kind of thing that you don’t—we might fight, but nobody else should attack an of us.</u>
+      <u who="BURACK">[Laughs.]</u>
+      <u who="RESNICOFF">We all come together, so—but we had, I would say, a pretty normal childhood, you know, in this little suburb of <placeName>Washington</placeName>, <placeName>D.C.</placeName> And it was a different world back then. You know, somehow a little more carefree, and I think—I remember that if I didn’t come home for dinner, my mother would, you know, reprimand me for not letting her know I wasn’t coming,—</u>
+      <u who="BURACK">[Laughs.]</u>
+      <u who="RESNICOFF">—but she never worried that I had been kidnapped, you know, or anything. And I remember that my mother, as a very attractive young woman, would take the same shortcut through the woods to get to the closest stores that we would, and <date>today</date> I don’t think anybody would do that. So we had a normal childhood, and I guess each one of us, the three siblings, took different paths, but each was successful in the path that he chose.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="RESNICOFF">Yeah, we attended public school with, you know, Hebrew school <date>two or three days</date> a week. I forget what it was. Plus <date>Sunday</date> morning—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">—after—the synagogue that we attended is now a Buddhist temple. You know,—</u>
+      <u who="BURACK">Interesting.</u>
+      <u who="RESNICOFF">—I sometimes drive by. I remember—yeah.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">But after they sold the synagogue to, you know, a Buddhist group and—they moved to another place—my father at one point was president of the synagogue, so we were all active in the synagogue. </u>
+      <u who="BURACK">You mentioned your grandfather was an Orthodox rabbi. So your family comes from a long line of rabbis?</u>
+      <u who="RESNICOFF">Yes. On my father’s side, a long line of rabbis. There’s Wikipedia articles on my grandfather and great-grandfather, and I’m sure beyond that there were rabbis, too, but no one remembers.</u>
+      <u who="BURACK">[Laughs.]</u>
+      <u who="RESNICOFF">But my mother’s side, more salt of the <placeName>earth</placeName>, hard living, hard fighting working men, and so it was two sides of my family that I used to think led me to be a rabbi in the military, because it was—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">—not a typical rabbi’s life. It also involved some fighting.</u>
+      <u who="BURACK">The perfect combination.</u>
+      <u who="RESNICOFF">Yes.</u>
+      <u who="BURACK">So did you feel pressure growing up to be a rabbi, or did your dad talk about—</u>
+      <u who="RESNICOFF">No, it was just the opp- —just the opposite. I never even dreamed I could be a rabbi, because when we would visit—every summer, we would visit <placeName>New York</placeName>, a little bit in <placeName>Long Beach</placeName>, <placeName>Long Island</placeName> with my mother’s family and a little bit in <placeName>Brooklyn</placeName> with my father’s family. His father, my grandfather, was still alive. They lived in the building in <placeName>Brooklyn</placeName> where one floor was the synagogue and the rest was their house.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">—with a long beard and—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">—you know, just—I never even dreamed that I could be a rabbi. So it really wasn’t until I ended up in <placeName>Vietnam</placeName> and got friendly with the Christian chaplain there, who started urging me to consider being a rabbi that I even dreamed that I could be.</u>
+      <u who="BURACK">Yeah. Did your dad ever talk to you and your brothers about his experiences in the war, or was it something that wasn’t really discussed?</u>
+      <u who="RESNICOFF">Well, he didn’t talk in details, but he didn’t hide it. He wasn’t—I know a lot of people, war veterans who absolutely didn’t want to talk about it, just like <name type="event">Holocaust</name> victims didn’t talk about it, but my father wasn’t like that. I think we just never asked very many questions.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">—winning the war. </u>
+      <u who="BURACK">[Laughs.] It was all him. [Chuckles.]</u>
+      <u who="RESNICOFF">That’s right. So—so, you know, he had a good sense of humor, and other people in the family were constantly in touch with him, on my father’s side. And my mother’s side. Many of my uncles ended up wearing different uniforms, serving in the military on both sides, and a lot of my aunts were involved in the war effort—you know, taking jobs that were making things to help the soldiers.</u>
+      <u who="BURACK">Gotcha.</u>
+      <u who="RESNICOFF">I really didn’t like going to Hebrew school.</u>
+      <u who="BURACK">[Laughs.]</u>
+      <u who="RESNICOFF">You know, I—</u>
+      <u who="BURACK">I don’t think any 12-year-old does.</u>
+      <u who="RESNICOFF">That’s right. That’s right.</u>
+      <u who="BURACK">[Laughs.]</u>
+      <u who="RESNICOFF">Other kids, you know, you could finish school and go out and play and do different things, and, you know, I had to do that. And it also kept me from getting involved in a lot of organized sports. And then when I got to middle school but, even more, high school, I had a lot of part-time jobs after school, or on <date>weekends</date>. And so I never—I actually, at one point, thought about going out for track in high school, and just the schedule just didn’t work out, but I was always very fast in, like, running.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">And I could do well in hurdles and things like that, but—so I didn’t—I didn’t really get involved in sports. </u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">—about 3,000 people. And because of this one drama teacher, drama at that high school was as big as football.</u>
+      <u who="BURACK">Wow.</u>
+      <u who="RESNICOFF">And everybody would look forward to the big plays that, you know, the school would put on. And actually, when I was in the beginning of my senior year, in ’63, I was in The Diary of Anne Frank [a play adaption of the book], which was our big senior—we always had a big senior play and a big senior musical. And one of the nights of the productions—we put it on <date>November 21st, 22nd and 23rd</date>, ’63. On <date>the 22nd</date>, [President <persName>John F.]</persName> <persName>Kennedy</persName> was assassinated, and almost everything in <placeName>Washington</placeName>, <placeName>D.C.</placeName>, closed except for our high school play. And our drama teacher—I don’t think he would have said any show must go on, but he said, “This show must go on.”</u>
+      <u who="BURACK">Wow. So do you remember where you were when <persName>Kennedy</persName> was assassinated, or when you found out?</u>
+      <u who="RESNICOFF">Yes. I—I got out early from school, an hour early in <date>my senior year</date> to go to a—to work. I worked after school. And I heard it on the radio, and I remember thinking—I saw people on the lawn, you know, at different houses as I was passing them, driving to work, you know, and I just—I realized that these people didn’t know anything. I had a feeling of yelling out the window, “Go turn on your television,” but I didn’t; I just went to work. When I got to work, everybody was just sitting, listening to the radio, and eventually work was closed <date>that day</date>. But, yeah, so I was in the car right after school, and I heard it on the radio.</u>
+      <u who="BURACK">Because you were in this show the night before and for <date>the next two nights</date>, did you think it was going to happen again? I mean, did you think the show was going to go on that night?</u>
+      <u who="RESNICOFF">I—I did not think so, and, you know,—but—but I was impressed when the teacher said it would. We were all calling. We are all trying to figure things out.</u>
+      <u who="BURACK">Did your family go to see the show?</u>
+      <u who="RESNICOFF">I think my mother did but not my father. And, you know, it was interesting: Everybody was reacting in different ways, and it was just—but now that I think back on it, I think my mother might have seen it the night before, so that night, I don’t think either one of my parents went.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>, <persName>mm-hm</persName>. </u>
+      <u who="RESNICOFF">Well, I—I—you know, I really got involved in drama at high school. Hadn’t done that before. I became very friendly with this high school teacher. Some of my—the people I’m still in touch with from high school were the ones that, you know, were in drama with me. I have one friend who is a drama teacher in <placeName>New York</placeName> now and has taught some very famous people. And every time I go to <placeName>New York</placeName>, I see him, and we reminisce <date>about days</date> there.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">And—and I also grew up assuming that I would go to <orgName>the University of Maryland</orgName>, which was only about a mile and a half from where we lived, and it really was because of a College Night at high school that I changed my mind and thought about <placeName>Dartmouth</placeName>. It was—you know, there were many representatives of different colleges and universities giving a pitch about why we should consider, you know, their school.</u>
+      <u who="BURACK">Quite the combination.</u>
+      <u who="RESNICOFF">That’s right, to—the other <orgName>ROTC</orgName> students thought I was too artsy-craftsy, I was a drama major; and the drama people thought I was a warmonger, I was in <placeName>ROTC</placeName>.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">It actually ended up being a good preparation for being a chaplain, even though I never dreamed I’d end up being a chaplain, because you have one foot, you know, in the military world but you’re really—the other foot is really a little bit out of the military world, looking at bigger pictures.</u>
+      <u who="BURACK">Just to back up a little, you mentioned that you only applied to <orgName>Dartmouth</orgName> and if you didn’t get in, you would have joined the <orgName>Navy</orgName>, possibly. So already as a senior in high school, you were considering joining the military?</u>
+      <u who="RESNICOFF">Yes.</u>
+      <u who="BURACK">This was in <date>1964</date>.</u>
+      <u who="RESNICOFF">Not as—not as a career, but my father was very, very, very patriotic, and I told you he quit his job—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">—<date>the day</date> of <placeName>the Pearl Harbor</placeName> attack. but it was because his father, my grandfather—you know, when they made it to <placeName>America</placeName>—my father used to tell me that in every service that my grandfather held, he would not only say a prayer of thanks that they made it to <placeName>America</placeName> but also a prayer of thanks that <placeName>America</placeName> existed. And this was a place, you know, that would take people in and would give them at shot at freedoms that they couldn't dream of in the countries, you know, from which they were coming.</u>
+      <u who="BURACK">At this point—you graduated high school in <date>1964</date>. Is that correct?</u>
+      <u who="RESNICOFF">Correct.</u>
+      <u who="BURACK">Had <placeName>Vietnam</placeName> really entered the national consciousness? Like, were you kind of aware of anything, knowing, had you volunteered to serve, that’s maybe where you might have ended up?</u>
+      <u who="RESNICOFF">Yes, but in ’64—and a lot of people forget—a lot of people weren’t alive back then—that was still the time when college students and the country in general was very <persName>pro-Vietnam</persName>, pro in terms of our involvement. It wasn’t until later that <placeName>Vietnam</placeName> started to divide our country. And, of course, <orgName>Dartmouth</orgName> ended up—even though we were in the location, kind of isolated and isolated otherwise, that a lot of the campus disruptions didn’t reach us until later—you know, by the time I was at <placeName>Dartmouth</placeName>, we—we did have threats from groups like <persName>SDS</persName> [Students for a Democratic Society] that if we didn’t get rid of <orgName>ROTC</orgName>, they would cause trouble on the campus. And eventually, you know, there was a referendum, and we decided to get rid of <orgName>ROTC</orgName>.</u>
+      <u who="BURACK">So talk me—let’s back up a little and talk me back through when you got to <orgName>Dartmouth</orgName>. What—was your impression that of what you had at that College Fair? Did you feel welcomed on campus? Kind of what was your freshman year like?</u>
+      <u who="RESNICOFF">I remember my parents drove me up—they’re from <placeName>D.C.</placeName>, and the next time they would drive to <placeName>Dartmouth</placeName> was <date>the day</date> of my graduation, because they thought it was so far away.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">Of course, just to show you how things are relative, you know, right after <orgName>Dartmouth</orgName> I had my year in <placeName>Vietnam</placeName>, and after <placeName>Vietnam</placeName> I went to <placeName>California</placeName> for my next assignment, and my parents visited me a number of times in <placeName>California</placeName> and said, “It’s so good to have you so close to home again.”</u>
+      <u who="BURACK">[Laughs.]</u>
+      <u who="RESNICOFF">Compared to <placeName>Vietnam</placeName>.</u>
+      <u who="BURACK">[Laughs.]</u>
+      <u who="RESNICOFF">But, yeah, I remember when they dropped me off, I actually remember feeling a little scared. You know, here—I loved the idea of going away to college, but it really was the first time that I would be away from home, and it did seem like a long distance. And at that point in my life, I don’t think I had ever even been on an airplane. You know, during breaks in the summer I would, you know, end up taking the plane back home.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">You know, one of the dangers I saw at <orgName>Dartmouth</orgName> was that the men didn’t have female friends; they just had female dates and—which I thought sometimes, especially if a man came from an all-male preparatory school, scarred them for life. [Chuckles.] That was my opinion.</u>
+      <u who="BURACK">[Laughs.]</u>
+      <u who="RESNICOFF">Back then when I was at college, these people didn’t know, you know, what a woman was in terms of a human being; they just knew in terms of the date. So I had a more normal—what I would say more normal relationship with many men, many women.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">_I was hoping—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">—that it was spent on my kibbutz.</u>
+      <u who="BURACK">[Laughs.]</u>
+      <u who="RESNICOFF">It wasn’t. And then one of the—I was on a kibbutz with 18 people from different colleges around the country, a special work program, and one of the other people was a man from <orgName>Tufts</orgName> [University]. I got friendly with him, and he was actually from <placeName>El Salvador</placeName>, so I spent <date>the next summer</date> in <placeName>El Salvador</placeName> with him and his family. So I really—some of my experiences at <placeName>Dartmouth</placeName> but away from <placeName>Dartmouth</placeName> ended up, you know, being very important to me. I—</u>
+      <u who="BURACK">Just—</u>
+      <u who="RESNICOFF">Matter of fact, after being in <placeName>Israel</placeName> and being in <placeName>El Salvador</placeName>, the travel bug had bit me, and I really loved the idea of traveling. So <orgName>Dartmouth</orgName> had a wonderful—I’m sure it still does—but a wonderful foreign language training program, where you could—if you’ve never taken a language before, you could take a double course one trimester, and then spend the next trimester in that country, the country where the language was spoken—you know, living with a family who didn’t speak English. </u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">So then I went to the foreign language department, and I said, “Even though you’re not supposed to do this in your senior year, my senior project”—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">—“is to direct a play in French.”</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">“And I don’t speak French, so I think we—can you make an exception and let me do that?” So they did. So my senior year, I spent one of the trimesters in <placeName>France</placeName>. So I—I did everything by the rules, but I also tried to get an exception whenever I could to make, you know, the <placeName>Dartmouth</placeName> experience even better, so it ended up pretty good.</u>
+      <u who="BURACK">Just to go back a little.</u>
+      <u who="RESNICOFF">Okay. </u>
+      <u who="BURACK">So after <date>your sophomore year</date>, you said you spent <date>a year</date> on this kibbutz in <placeName>Israel</placeName>.</u>
+      <u who="RESNICOFF">Yes.</u>
+      <u who="BURACK">What <date>year</date>? Was <date>this 1968</date>?</u>
+      <u who="RESNICOFF">It was ’<date>66</date>, because I went—I started—</u>
+      <u who="BURACK">Oh, ’<date>66</date>. Excuse me.</u>
+      <u who="RESNICOFF"><orgName>Dartmouth</orgName> in <date>’64</date>.</u>
+      <u who="RESNICOFF">Yeah, started in ’64.</u>
+      <u who="BURACK">Oh, sixty- —oh, you were—okay.</u>
+      <u who="RESNICOFF">So ’66. It was a program called <orgName>Sherut La’am</orgName>, Service to the People and actually was <date>nine months</date> on a kibbutz and <date>three months</date> in—in an old—at that point, they had very poor development towns or immigrant villages where they would take many of the poor immigrants from around the world and put them in a place that they really wanted—where they were developing in a country—’66 was, you know, such a different <placeName>Israel</placeName>.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">And I remember that periodically they’d get the different groups, under different kibbutzim together, the people in this program, and we’d have lectures. And one of the last lectures we got was, you know, from the Israeli experts, who said there would never be another war with the Arabs; there’d be economic pressure, but the Arabs knew they could never win a war with <placeName>Israel</placeName> again.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">So it was ’66 to ’67 that I was in <placeName>Israel</placeName>, and then I went back to <placeName>Dartmouth</placeName> and continued in <date>my junior year</date>.</u>
+      <u who="BURACK">So how did you find out about this program, and, like, what convinced you to go on it?</u>
+      <u who="RESNICOFF">That’s a good question. I—I—I think—back then there was just a lot of idealism. You know, it was—I mean, you know, I didn’t know a lot—I think what I knew about <placeName>Israel</placeName> came a lot from movies like Exodus, and just the idea of people who were idealistic trying to establish this country, people coming out of the Holocaust. And one of my best friends in high school, a girl who was the daughter of my cantor at the synagogue, and both the cantor and his wife had been in <placeName>Auschwitz</placeName> [concentration camp] and terrible things, and although they came to <placeName>America</placeName>, many of their relatives ended up in <placeName>Israel</placeName>.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">—continued. Yeah.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">—gave me his permission. And I was young enough that I—I needed my parents’ permission to get into this program.</u>
+      <u who="BURACK">You mentioned that you tried to convince other Jewish students to come with you. Did anyone end up coming with you?</u>
+      <u who="RESNICOFF">No.</u>
+      <u who="BURACK">And, as a secondary question—no. [Chuckles.] Were you active in Jewish life at <placeName>Dartmouth</placeName>, or what was Jewish life—did that exist at <orgName>Dartmouth</orgName>?</u>
+      <u who="RESNICOFF">It—it—it—we didn’t have a <persName>Hillel</persName>, you know. There was no real Jewish student organization. We—<orgName>Dartmouth</orgName> had a history at that point of always having one great Jewish scholar. When I was—now I guess you have <persName>Susannah Heschel</persName>,—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF"><persName>—Abraham Joshua Heschel’s</persName> daughter. </u>
+      <u who="BURACK">[Rabbi <persName>Edward] Boraz</persName>, yeah.</u>
+      <u who="RESNICOFF"><persName>Boraz</persName>.</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="RESNICOFF">He even—when I got the award <date>a couple of years ago</date> for the Daniel Webster [Distinguished Public Service] Award in <placeName>Washington</placeName>, <persName>D.C.—they</persName> give an award every year for the best—the most active—I don’t even know exactly what it means, but [chuckles] somehow they award—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">—a <orgName>Dartmouth</orgName> graduate, who’s been—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">active in public service, and he—</u>
+      <u who="BURACK">Okay. </u>
+      <u who="RESNICOFF">—came—came all the way down from <placeName>Hanover</placeName> to be at the award dinner for me, which I thought was very, very nice. </u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">But yeah so I know now—and when I—I visited <orgName>Dartmouth</orgName> <date>a couple of years ago</date> and spoke, over <date>the Veterans Day weekend</date>, to different <orgName>Dartmouth</orgName> groups, I did speak to the <persName>Hillel</persName>. And, you know, I was very, very impressed to see how far along things had come in terms of Jewish program there.</u>
+      <u who="BURACK">And in terms of <orgName>NROTC</orgName>, were there other Jewish students with you in that program, or what was the makeup of that group? Not necessarily religious, but what type of students joined?</u>
+      <u who="RESNICOFF">Yes, there were others. There wasn’t such a—just—there wasn’t a large Jewish student population at <placeName>Dartmouth</placeName> at that point.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">My impression was that there wasn’t. So—and I’m sure the percentage of Jewish students at <orgName>Dartmouth</orgName> was still much greater than the percentage of Jewish students in <orgName>NROTC</orgName>, just like the percentage of Jews in <placeName>Americas</placeName> is greater than the percentage of Jews in the American military.</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="RESNICOFF">—just a couple of others.</u>
+      <u who="BURACK">What was it like being in <orgName>NROT - NROTC</orgName>? Excuse me.</u>
+      <u who="RESNICOFF">It was a pain in the neck.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">It was [chuckles] something.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">But I took it with a grain of salt, but you know, it was so that I could graduate and go in as an officer. If you’re going to go in the military, at least go in as an officer. And, you know, it was something very interesting, and there was a little bit about history, a little bit of this, a little bit of that. I don’t remember if back then—I think that some of the <orgName>NROTC</orgName> courses were actually college credit courses. Some schools, they are; some schools, they are not. I’m pretty sure that they were. And so, you know, I’d have to take a couple of courses but then I thought I was missing out on other courses I might have liked. But it wasn’t bad. And, again, it was a means to an end. </u>
+      <u who="BURACK">Yeah. And when you got back from <placeName>Israel</placeName>, that’s when kind of antiwar protests picked up on campus.</u>
+      <u who="RESNICOFF">Yes. Yeah.</u>
+      <u who="BURACK">So how did you react to that? Or what was your kind of interaction with those groups and you as a member of <orgName>NROTC</orgName>?</u>
+      <u who="RESNICOFF">You know, I—I think that it—it never was—there never were—at least when I was there, there never were violent clashes.  There were never real—it was—it was around the margins. And, like I said, the whole idea of this referendum to get rid of <orgName>ROTC</orgName> based on the implicit threat that there would be problems if we didn’t was about the worst, you know, that it got.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">Or have—one I remember there was this giant things about more French fries at the dining hall.</u>
+      <u who="BURACK">[Laughs.]</u>
+      <u who="RESNICOFF">We didn’t have the —</u>
+      <u who="BURACK"><orgName>Dartmouth</orgName> taking on the real issues. [Chuckles.]</u>
+      <u who="RESNICOFF">That’s right. We were really—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">—separated in many ways, really in the wilderness. And, by the way, speaking of the dining hall—you know, when I went up to speak at <date>the Veterans Weekend</date>—you know, I visited some of the new dining halls with all these, like, food courts which was just amazing.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="RESNICOFF">—because when I went there, we had, you know, the regular dining hall, and I—I was a waiter. Most of the people who were on scholarship at <orgName>Dartmouth</orgName>—you know, one of the things we did was being a waiter. I ended up, you know, after being a waiter at the dining hall a number of <date>years</date>, being the one in charge of all the students who were waiters at the dining hall. </u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">So, you know, I spent a lot of—because I—in addition to the scholarship and the loan and the grant, you know, I did a lot of these other jobs, just to get the money because I was essentially putting myself through college with the help of the jobs and the loans.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">My parents weren’t financially able to give me too much help, although I would say that when I went to <placeName>Vietnam</placeName>, [cough] excuse me, at that point there was a loan forgiveness program for the federal loans, where if you spent <date>a year</date> in <placeName>Vietnam</placeName>, 50 percent of your federal loans were forgiven, and then, because you spent <date>a year</date>—I spent <date>a year</date> on the rivers where you couldn’t spend any money, I was able to pay off all my student loans by <date>the end of the first year</date> after college, which was very nice.</u>
+      <u who="BURACK">That is—that is quite—quite good.</u>
+      <u who="RESNICOFF">Yes.</u>
+      <u who="BURACK">As a drama major, did you partake in the performances, or what was—what were your extracurriculars like at <orgName>Dartmouth</orgName>?</u>
+      <u who="RESNICOFF">Yeah. I think drama was a lot—even in a fraternity—I was in <orgName>Sigma Phi Epsilon</orgName> (Sig Ep)—back then, we  used to have—they don’t have it anymore—you know, I asked about it when I was there for <date>Veterans Day</date>, and the fraternities evidently don’t have it. We used to have a fraternity competition, where every fraternity would put on a play, so I was in charge—the two years I was in my fraternity, I was in charge of the directing the play that we put on. </u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">That was also another—there was a special series of productions at Hopkins Center, smaller in scope—they may still have it now—but so I, mine was put on, you know, as part of that series, the French production. And it was very successful, I have to say [chuckles],—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">—and, you know, we got people who speak French and be in it. And so I have very, very good memories of <placeName>Dartmouth</placeName>, although, again, it was a very different place, not just because it was all male but there were no major—many of the major highways that are there now were not developed. We didn’t have easy bus service to other places. Now, I understand, you can jump on a bus and go to <placeName>Boston</placeName> right from the campus,—</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="RESNICOFF">—right outside of Hopkins Center. I remember hitchhiking for blind dates, you know, through the snow. I mean, one time I remember there was such a snow, it took me, like, seven hours to get from <orgName>Dartmouth</orgName> to a blind date at <orgName>Boston University</orgName>,—</u>
+      <u who="BURACK">Wow.</u>
+      <u who="RESNICOFF">—and one of the people at my fraternity was kind of a local hero because he had this idea: He took a five-gallon gas can, and he, you know, cut it open, covered the inside with felt or some material, put clips on it, and when he was hitchhiking, he would have the gas can, and people would think his car had broken down and they stopped to ask if they could help, and—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">—he would always get rides. You know, and the rest of us [chuckles] wouldn’t. And, of course, back then—that also seemed to be the time before we were afraid—afraid of  any danger associated with hitchhiking, too. So you know now, when my daughter was growing up, you know, I told her, “Never let me catch you”—</u>
+      <u who="BURACK">[Laughs.]</u>
+      <u who="RESNICOFF">—hitchhiking.” But, you know, I did my share during <date>my days</date> at <orgName>Dartmouth</orgName>.</u>
+      <u who="BURACK">You were never afraid? That was going to be my first question. </u>
+      <u who="RESNICOFF">No.</u>
+      <u who="BURACK">I feel like hitchhiking is this scary thing now. [Chuckles.]</u>
+      <u who="RESNICOFF">Yeah. No, you’re right. Now—now the drivers are afraid of hitchhikers, and hitchhikers are afraid of the drivers.</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="RESNICOFF">But, yeah, we didn’t think of that at all. We just—that was the way to get away from <placeName>Dartmouth</placeName>, you know, for a night or for <date>a weekend</date>.</u>
+      <u who="BURACK">Wow.</u>
+      <u who="RESNICOFF">Correct. Correct.</u>
+      <u who="BURACK">How were you feeling about graduating? And I assume by now you knew that you were going to <placeName>Vietnam</placeName>? Or—</u>
+      <u who="RESNICOFF">No.</u>
+      <u who="BURACK">You didn’t know? Oh.</u>
+      <u who="RESNICOFF">I didn’t know I’d be going to <placeName>Vietnam</placeName>. And, by the way, you know, my senior year included the trimester in <placeName>France</placeName>, so—</u>
+      <u who="BURACK">Oh, yeah.</u>
+      <u who="RESNICOFF">—it was a very exciting, you know, senior year.</u>
+      <u who="BURACK">Where in <placeName>France</placeName> was that?</u>
+      <u who="RESNICOFF"><orgName>Bourges</orgName>, B-o-u-r-g-e [sic]. And I—</u>
+      <u who="BURACK">Did you—</u>
+      <u who="RESNICOFF">haven’t kept in touch with the people there, but it was—</u>
+      <u who="BURACK">Did you enjoy your time there?</u>
+      <u who="RESNICOFF">Very, very much. You know, I stayed with a family that didn’t speak any English, and, you know, they were—I forget how many of us, but different <orgName>Dartmouth</orgName> students living with different families there, and one <orgName>Dartmouth</orgName> professor there for the trimester. And we would come together to study, but a lot of it was just, you know, speaking to the families with whom we were staying and experiencing being in the country. </u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">And I remember three of the other <orgName>Dartmouth</orgName> students and I, for one of the vacations, rented a car. I was the only one that could rent it and drive because the year I had spent in <placeName>Israel</placeName>—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">—put me over the age, whatever it was, that I could rent a car. And we took a trip to <placeName>England</placeName> and just had a wonderful time. Yes, so it was a very, very good time. But I still didn’t know I was going to <placeName>Vietnam</placeName> because—this is kind of a funny story, but when we got our assignments before graduation in <placeName>NROTC</placeName>, we were told where we would be going. Some people were going to bases, so they knew, you know, exactly where it was. Some of us were going to ships, and so we would look up the home port of that ship, and I was assigned to a ship called [USS] Hunterdon County, and it was home ported in <placeName>San Diego</placeName>.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">—in <placeName>San Diego</placeName>, it had been in <placeName>Vietnam</placeName> for <date>five years</date>. </u>
+      <u who="BURACK">Oh, wow.</u>
+      <u who="RESNICOFF">So when I finally got to the ship—</u>
+      <u who="BURACK">[Laughs.]</u>
+      <u who="RESNICOFF">So I didn’t learn I was going to <placeName>Vietnam</placeName> until I actually arrived in <placeName>San Diego</placeName>. But the captain of the ship told me that everyone got a big laugh out of my letter. They—</u>
+      <u who="BURACK">[Laughs.]</u>
+      <u who="RESNICOFF">—they sent it around to all the officers—</u>
+      <u who="BURACK">[Laughs.]</u>
+      <u who="RESNICOFF">—saying, “Boy, is this guy, you know, gonna have a shock!”</u>
+      <u who="BURACK">[Laughs.]</u>
+      <u who="RESNICOFF">— when he gets to <placeName>San Diego</placeName>.</u>
+      <u who="BURACK">A good first impression. [Chuckles.]</u>
+      <u who="RESNICOFF">So I—I didn’t realize I was going to <placeName>Vietnam</placeName> until I got to <placeName>San Diego</placeName>. And, of course—you know, I had some fear, but, you know, like most young people, you know, I just assumed I’d come out okay.</u>
+      <u who="BURACK">So after graduation, you went home and then to <placeName>San Diego</placeName>?</u>
+      <u who="RESNICOFF">Yes. As a matter of fact, my—my father, you know, had died a long time before ’81, and we had taken some cross-country trips as family, but my father was the kind of person that it was the destination, not the journey that was important,—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">—and you just had to go, go, go, go, go. And it took us <date>about three days</date> to get from <placeName>Washington</placeName> to <placeName>California</placeName>. So my mother—</u>
+      <u who="BURACK">Wow!</u>
+      <u who="RESNICOFF">—had always said, you know, that she would like a leisurely trip, so my mother—one of my aunts, one of my mother’s sisters was living with her, and so I said to the two of them that “I have <date>six weeks</date> to go to <placeName>San Diego</placeName>. Why don’t we take a long—the kind of trip you’ve always dreamed about?” So with my mother and my aunt—you know, we took <date>all six weeks</date> to cross the country. I think we put on 6,000 miles instead of 3,000 miles, just zigzagging across. And got to <placeName>San Diego</placeName>, and then the two of them flew home. </u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">And here we all—you know, at varying levels, I think all of us were afraid, and on the way to <placeName>Vietnam</placeName>, and we were watching this <orgName>Walt Disney</orgName> movie, and it just seemed surreal.</u>
+      <u who="BURACK">Yeah. So you get to <placeName>Vietnam</placeName> in <date>August</date>? Is that timing correct?</u>
+      <u who="RESNICOFF">Right. Correct.</u>
+      <u who="BURACK">What—what was your first reaction? Did you go straight to your ship, or—</u>
+      <u who="RESNICOFF">No, the ship was in the rivers, so we landed in <placeName>Saigon</placeName>, and everyone had to wait for transportation to get to the ship, and there were different ways, helicopters and different ways to get there. And I remember being in <placeName>Saigon</placeName>, and every time someone came towards me, I would walk to the other side of the street because, you know, I just thought everybody had a bomb and everything was dangerous.</u>
+      <u who="BURACK">So as a communications officer, who did you report to, and kind of what was your day-to-<date>day</date> duties? What did they look like?</u>
+      <u who="RESNICOFF">Yeah. Well, it was a small ship. There were about ten officers and 90 sailors. We, you know, any encrypted message that came in—these were <date>the days</date> before the computer, so actually the [unintelligible] school I went to in <placeName>San Diego</placeName> was how to handle classified messages, and we’d have to—<date>every day</date> the codes would change. We had this machine. You<date>’d</date> set the different wheels, depending on the <date>daily</date> codes. And the person who sent the message, if everything worked, would have the wheels and the right, the same position, so that—so that I could decode them.</u>
+      <u who="BURACK">So when you were in the rivers of <placeName>Vietnam</placeName>, did you interact with other units? Is that the correct word? Or were you a pretty isolated boat?</u>
+      <u who="RESNICOFF">No, units is correct. And I’d say because we became the mother ship or the command ship,—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">—we were constantly interacting with other people who wanted to come on just for a shower or—or some hot food or refuel a helicopter, rearm the helicopter. We broke all records <date>the day</date> we went into <placeName>Cambodia</placeName> because then we were refueling and rearming not just the <orgName>Navy</orgName> helicopters but also [<placeName>U.S.</placeName>] <orgName>Army</orgName> and [<placeName>U.S.</placeName>] <orgName>Air Force</orgName> and even Vietnamese. And they were, you know, just landing to get refueled and rearmed, taking off. And, you know, so we were always interacting with, you know, others who needed our help as the command ship.</u>
+      <u who="BURACK">What did you think of being the first ship to go into <placeName>Cambodia</placeName>?</u>
+      <u who="RESNICOFF">Well, I remember we were afraid, and they brought a lot of body bags on board because everybody thought we would have casualties. It ended up we didn’t. And, you know, the whole incursion into <placeName>Cambodia</placeName>—there were very few casualties, which may have been a good thing, I mean, because people cleared out when we went in.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">—over the state line. And so in theory, that operation, you know, was to fight back against <placeName>the Viet Cong</placeName> who were attacking us and then going over the line, and we couldn’t go over them, so politically I’m sure everything was more muddied and more complicated, and I know there were divisions in <placeName>America</placeName> about the danger of expanding the war and everything else, but for those of us there who were or could possibly be the targets of the attack, you know, we thought we would—that it made sense to make the statement that we would fight back even if it meant crossing the line.</u>
+      <u who="BURACK">So on that note, how aware were you of the political goings on when you were in <placeName>Vietnam</placeName>?</u>
+      <u who="RESNICOFF">A little. You know, it was—it was—sometimes I hear people who were in <placeName>Vietnam</placeName> speaking as if they’re the expert on everything, and it always reminds me of the, you know, poem about the blind man—blind man and the elephant, you know,—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">—where each one feels another —</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="RESNICOFF">— part of the elephant and they think they know—you know, they feel the tail and they think the elephant is like a snake or whatever. And I really felt that was our situation, that in some ways, I understood things going on in my small area of operations better than others, better than people back home, but in other ways, you know, I was convinced that I knew less about some of the big-picture operations.</u>
+      <u who="BURACK">To go back to your commander.</u>
+      <u who="RESNICOFF">Right.</u>
+      <u who="BURACK">So he was the commander when you arrived, the one who was drinking a lot.</u>
+      <u who="RESNICOFF">Correct.</u>
+      <u who="BURACK">So how did you sort of respond to that as a new officer and what was the —</u>
+      <u who="RESNICOFF">Well, it’s very interesting, and I’ve actually used this a lot in leadership classes and especially after the <orgName>Navy</orgName>, when I worked for the [<placeName>U.S.</placeName>] <orgName>Air Force</orgName> and I was going around talking about ethics, talking about values. Again, I was, like, one of about ten officers, and the other nine — in one way or  another, it was part of my reporting on board—took me aside and told me the situation. And they said, “Protect the old man.” You know, “the old man” was the expression they used to use in the <orgName>Navy</orgName> for the commanding officer, and, you know, he has <date>two months</date> to go. You know, “Protect the old man.”</u>
+      <u who="BURACK">So was there someone on board that you could kind of talk to about your worries, or you just kept them to yourself, or—</u>
+      <u who="RESNICOFF">No,—</u>
+      <u who="BURACK">—they’re retrospective worries?</u>
+      <u who="RESNICOFF">—because I was convinced by these others that the right thing to do was to protect our commanding officer. You know, it’s like police who protect the bad police. I mean, you—you fall into that trap. And I think <date>today</date> more and more, you know, things are changing, but, you know, I was convinced that I was doing the strong thing, and, as I say when I tell that story now in ethics courses, to other officers, I was really doing the cowardly thing, the weak thing. And, you know, that—so I learned lessons. You know, I learned a lot of lessons.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">And, like I say, the new commanding officer—because it was such a small ship, ultimately, compared to these—like, an aircraft carrier has 6,000 people; we had 100 people—the commanding officer was not senior. You know, he, himself, was not that experienced. And all of us were kind of just doing the best that we could.</u>
+      <u who="BURACK">Yeah. 	How aware were the sailors of what was going on? Or it was like everyone knew sort of thing.</u>
+      <u who="RESNICOFF">I—I think that they probably knew there was some drinking. I don’t think they knew the details about how much danger we were being put in, because the officers did a good job, again, of covering. You know, sailors went on with their <date>daily</date> tasks and their <date>daily</date> lives. So I think the knowledge was more among the officers, maybe some of the very senior sailors, but—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">—in general, I think everybody was afraid enough of just being in <placeName>Vietnam</placeName> and in the rivers that this didn’t add a lot to their concern.</u>
+      <u who="BURACK">Did you ever have a chaplain on board?</u>
+      <u who="RESNICOFF">Well, we had—we weren’t big enough to have our own chaplain. Most of the ships didn’t. So that’s where we had a circuit-riding chaplain for <orgName>the Mekong Delta</orgName>, an Episcopal priest. And I became very, very friendly with him, and he made me what they called the Jewish lay leader—you know, whenever a chaplain is one religion, he or she, you know, appoints lay leaders for all the different religions, who then become kind of the principal points of contact when the chaplain has questions about different religions, when the different religious communities want to make sure people know a holiday is coming or what the needs are—you know, <date>Passover</date> is coming or something else is happening.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">[cross-talk; unintelligible].</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">So he and I became friendly, and ultimately he was the one that encouraged me to think about being a rabbi. </u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">—I went to Hebrew school, and I could read the prayers, even though I didn’t speak Hebrew at that point. And so, you know, I led a simple service for <date>Yom Kippur</date>. And so as as these things happened, this chaplain and I got more and more friendly, and that’s when he started to ask me if I’d ever considered being a rabbi. And at his urging, I started writing to the rabbinical school where I ultimately ended up. This chaplain even offered to try to get me out of the <orgName>Navy</orgName> early, after <date>the year</date> in <placeName>Vietnam</placeName>, you know, saying I could go out and come back and be a chaplain. And I said, well, I didn’t want to make any promises. And also if I did ever end up being a chaplain, the experience as a regular officer—what we called a line officer would make me a better chaplain, I thought.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="RESNICOFF">So after <placeName>Vietnam</placeName> I was sent to <placeName>California</placeName> for <date>a year</date> of—I was assigned to naval intelligence, so I was sent to <placeName>California</placeName> for <date>a year</date> to learn Russian, and then I was sent to <placeName>Spain</placeName> to work with naval intelligence. And during that time in <placeName>California</placeName> and in <placeName>Spain</placeName>, I was corresponding with people at <orgName>the Jewish Theological Seminary [</orgName>of <placeName>America</placeName>], which is where I eventually went. And when I got out of the <orgName>Navy</orgName>, ended up going to rabbinical school and then thought I was going back in the <orgName>Navy</orgName> for one assignment, which would have been <date>three years</date>, but ended up staying for <date>25 years</date>.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">Either meet or, or be in contact with. You know, it helped me—because I was the communications officer,—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">—so I could speak with the communications officers on the different ships and the different units and say to them, “You know, I have some special Jewish supplies for <date>this holiday</date>,” and there always were boats and—</u>
+      <u who="BURACK">Yeah. Sorry. Did it just cut out for a second?</u>
+      <u who="RESNICOFF">I think I have another call, but I’ll just ignore it. I’ll call them back.</u>
+      <u who="BURACK">Okay. [Chuckles.]</u>
+      <u who="RESNICOFF">So I—because I was in touch with the other ships, I could figure out, you know, where to send the different supplies.  And—and—and, you know, sometimes a boat would come by and someone would be on, and someone that I had sent something to, so they’d want to meet me, so I did meet—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">—you know, some of the other Jewish military personnel, but it wasn’t that frequent an occurrence.</u>
+      <u who="BURACK">In your experience, how much did people sort of depend upon their faith, whether that be <orgName>Judaism</orgName> or a different one?</u>
+      <u who="RESNICOFF">I think—you know, I don’t think that much. I don’t think we talked about it that much, because as a chaplain, you know, I got much more involved.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">But even then, you know, except at places like boot camp or at the academies, where people would do anything to get out of training, so they would go to chapel services, chapel services in general, you know, are not highly attended. People—there are some groups where that’s an exception, and were very religious, but in general, I found that we didn’t talk about religion very much. </u>
+      <u who="BURACK">So when you did—was <date>Yom Kippur</date> the service—the only service you did in <placeName>Vietnam</placeName>?</u>
+      <u who="RESNICOFF">That’s right. It was the only service I did in <placeName>Vietnam</placeName>.</u>
+      <u who="BURACK">So what was that like?</u>
+      <u who="RESNICOFF">It was a real experience. I mean, you know, I think that nobody who came was really traditionally very observant, but people were proud to be Jewish, and they were curious about who else was Jewish there. And it wasn’t a day of reflecting and coming together and thinking about big issues, but, you know,—and the prayers were very simple. You had some Hebrew prayers, some English prayers. And we certainly didn’t do it all day like you do in a traditional synagogue. But we did something. And I think we all felt good that we did something.</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="RESNICOFF">Yes.</u>
+      <u who="BURACK">He was Episcopalian?</u>
+      <u who="RESNICOFF">Yes, Episcopal priest.</u>
+      <u who="BURACK">Episcopal priest. How did he kind of convince you to think about becoming a rabbi? What were your conversations about?</u>
+      <u who="RESNICOFF">He—he was a wonderful man, who taught me about what it meant to be a chaplain. I’m still in touch with him. He’s still alive. He even wrote a book about his memoirs, and about three pages in it is about me, which I’m very proud of.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">But you know —</u>
+      <u who="BURACK">What’s the name of his memoirs?</u>
+      <u who="RESNICOFF">What was that?</u>
+      <u who="BURACK">Sorry to interrupt you. What’s the name of his memoir?</u>
+      <u who="RESNICOFF">All That Glitters. Hold on one second. Let me—I know where it is, and I’ll make sure I’m getting the—the name exactly right. But his name is <persName>Lester [L.] Westling [Jr.</persName>], W-e-s-t-l-i-n-g. And it’s All That Glitters … Memoirs of a Minister</u>
+      <u who="BURACK">Okay.</u>
+      <u who="RESNICOFF">You know, he firmly believed, rightly, that the role of the chaplain is to help other peo- —other people—I mean, people of your own religion—you know, you always have a special relationship with, so I’ll be a rabbi to Jews, but that as a chaplain you help people of all religions on their spiritual journey, strengthen them. And people of no religion, you help them. We have a saying in the chaplaincy, “You minister to your own. You facilitate ministry to others.” So, for instance, you know, I’ll never lead a Catholic or a Protestant or a Muslim service, but I’ll make sure it happens. I’ll make sure someone is leading it. And you care for all, and that includes people, you know, with no religion, because in the military, the only person who has 100 percent privileged communication is a chaplain. So even lawyers and doctors don’t have 100 percent, which means —</u>
+      <u who="BURACK">Wow.</u>
+      <u who="RESNICOFF">People know they can say something to a chaplain in full confidence, you know, that they couldn’t say to anybody else.</u>
+      <u who="BURACK">So back to—yeah.</u>
+      <u who="RESNICOFF">—the chaplain—whoever he would work with on the ship, he would try to be available to them, not forcing religion on them but be available in terms of helping them if they had questions and helping them be stronger in their own religion.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="RESNICOFF">I went to <placeName>California</placeName>. That’s right. <placeName>Monterey</placeName>, <placeName>California</placeName>. <orgName>Defense Language Institute</orgName>. <date>Forty-seven weeks</date> of Russian. And then—</u>
+      <u who="BURACK">Wow.</u>
+      <u who="RESNICOFF">—from there I went to Rota, <placeName>Spain</placeName>, R-o-t-a, and that’s where I worked with naval intelligence until I got out and went to <orgName>Jewish Theological Seminary</orgName>.</u>
+      <u who="BURACK">What was it like working in naval intelligence?</u>
+      <u who="RESNICOFF">It was very exciting. We—you had to take a special course, a special test to be accepted, which I took when I was in <placeName>Vietnam</placeName>. You know, it was—then you were with people who—we used to like to think that we were the cream of the crop—you know, passed the test and had to have certain backgrounds and were trusted. We’d get security clearances and did things that other people didn’t know about. And, you know, we did—I rode submarines. I—I—I—I was flown on airplanes with all kinds of sophisticated listening devices and, you know, I had a team of people working under me. Spoke different languages, so we could, you know, listen in on communications at different countries around the <placeName>Mediterranean</placeName> [Sea].</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">—but we can’t—I can’t say I was on this specific submarine on these specific dates, but I can say I was on submarines. And so it was exciting. You know, we thought we were doing something important, and we had this—<placeName>Spain</placeName> was a great place to be. And, you know, both <placeName>California</placeName> and <placeName>Spain</placeName> were great after <date>a year</date> in <placeName>Vietnam</placeName>.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">So, you know, life was good.</u>
+      <u who="BURACK">How did your experience in <placeName>Vietnam</placeName> influence these years in naval intelligences, and vice versa: How did your years in naval intelligence—did it interact with what was going on in <placeName>Vietnam</placeName>, or was it focused on other areas? If you can answer that.</u>
+      <u who="RESNICOFF">Well, I mean, I—again, many of the leadership lessons I learned in <placeName>Vietnam</placeName> were important to me throughout the rest of my naval career, both in naval intelligence and—and later as a chaplain. Naval intelligence helped remind me—kind of strengthened the lesson I had in <placeName>Vietnam</placeName>, that things are much more complicated than they appear and that we should beware of self-proclaimed experts that think they know so much.</u>
+      <u who="BURACK">[Laughs.] That’s a good one.</u>
+      <u who="RESNICOFF">People rarely do that, I think. So, you know, I just realized people—there are many people, even commentators on television when I listen, you know, that don’t seem to learn that they have a discussion. They have their set beliefs, and the fact that they don’t want someone else’s opinions, or even facts, to get in the way. </u>
+      <u who="BURACK">Yeah. </u>
+      <u who="RESNICOFF">Went to <orgName>Jewish Theological Seminary</orgName>.</u>
+      <u who="BURACK">What year did you start?</u>
+      <u who="RESNICOFF">So it must have been around <date>’72</date>.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">And—’69,  seven zero—yeah. And I remember that <persName>Abraham Joshua Heschel</persName> was on my interview committee. Specifically, I learned later, he wanted to be because, along with [the Rev. Dr.] <persName>Martin Luther King Jr.</persName>, he had been a big voice against <placeName>Vietnam</placeName>.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">But he had never really sat down with anyone, especially anyone Jewish, who had been in <placeName>Vietnam</placeName>, so he was on my interview committee, and afterwards we sat and talked and—you know, the time I was at seminary and I got to know him.</u>
+      <u who="BURACK">So just to clarify, you were simultaneously in chaplain school and in seminary?</u>
+      <u who="RESNICOFF">No, the chaplain school—</u>
+      <u who="BURACK">Oh.</u>
+      <u who="RESNICOFF">—is—you did in <date>the summer</date>, and I actually did half of it in <date>one summer</date>, half of it in another summer—</u>
+      <u who="BURACK">Oh, it wasn’t, like, a long program.</u>
+      <u who="RESNICOFF">No. At that point, the <orgName>Navy</orgName> chaplain—I think <date>today</date> it’s a little longer, but at that point, the <orgName>Navy</orgName> chaplain school was <date>eight weeks</date>, and you could do it <date>four weeks</date> in <date>one summer</date> and <date>four weeks</date> in another.</u>
+      <u who="BURACK">Okay. And when you were in seminary, were you the only one who had served in <placeName>Vietnam</placeName>, or were you the only one who had a military—like, desire for a military career—or not career, more military service?</u>
+      <u who="RESNICOFF">Yeah, I was the only one in seminary at that point who did not go straight from high school to college to seminary. You know, the draft was over people’s heads, and that was a time where both <orgName>JTS</orgName>, <orgName>Jewish Theological Seminary</orgName>, and many of the other Christian seminaries, where people were pretty honest that they enrolled in seminary only to avoid serving in the military. So we had a lot of people there who were—really were not as convinced they should be rabbis, as convinced they shouldn’t be in the military. And so it was pretty anti-military bent.</u>
+      <u who="BURACK">Did you feel like you had to constantly defend yourself?</u>
+      <u who="RESNICOFF">No, not really. I explained myself, I would say.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">And I even ended up speaking across the street—at that point it was <orgName>Union Theological Seminary</orgName>; now I think it may have moved to another location, but it was a major Protestant seminary, and I spoke there. And at that point, there were a few questions where, you know, I felt the questions were attacks. But, you know, I could deal with them.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">And we ended up being friends and, I’m sure, learning from each other.</u>
+      <u who="BURACK">Yeah. So when you left seminary, you went straight into a posting as a chaplain?</u>
+      <u who="RESNICOFF">That’s correct. Coast of <placeName>Japan</placeName>. I went with my wife. It was a <date>three-year</date> assignment, and after <date>two years</date> our daughter was born, and because—</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="RESNICOFF">—our assignment there was so positive and we had good memories because of the birth of our daughter, we decided, well, let’s do one more assignment, then one more assignment.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">And that’s actually the way I ended up doing <date>25 more years</date>, ‘cause I never really made the decision to make it a career. It was always a decision: Do I want one more assignment or not?</u>
+      <u who="BURACK">So when you were deciding whether you wanted another assignment, what would your other option have been? Like, work for a congregation, or—</u>
+      <u who="RESNICOFF">That—that always was an option. And, as a matter of fact, along the line, the different places we were assigned, I was approached, you know, by some congregations who were, you know, in the process of looking for rabbis, and—I mean, it always was a question—also, there could have been—at one point <orgName>JTS</orgName> was interested in having me come to them. There were organizations. There was a big Jewish organization—and there were always other options. But I felt I was doing something important. I felt I was doing something for a segment of the Jewish community that was often forgotten, the Jews in the military.  Plus I felt I was doing something important for interfaith relations,—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">—because, you know, as a chaplain, when I helped other—not just the sailors and the officers but when I helped other chaplains, you know, we were building bridges of understanding and relationships that I thought were important for our country.</u>
+      <u who="BURACK">So as a chaplain in <placeName>Japan</placeName>, what was your—what was your main, like, day-to-<date>day</date> sort of activity, or did it, was it —</u>
+      <u who="RESNICOFF">Well, in <placeName>Japan</placeName>—</u>
+      <u who="BURACK">—not constant?</u>
+      <u who="RESNICOFF">—I was the only—yeah, I was the only Jewish chaplain in all of mainland <placeName>Japan</placeName>. There was another one on <placeName>Okinawa</placeName> [Islands], but in all of mainland <placeName>Japan</placeName>, so in addition to my role as a chaplain on the base, which meant counseling people of all religions but also leading Jewish services and dealing with, you know, different issues, I would circuit ride. Just like the Episcopal priests circuit rode within <placeName>the Mekong Delta</placeName>,—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">—I would circuit ride and visit the <orgName>Army</orgName>, <orgName>Air Force</orgName>, [<placeName>U.S.</placeName>] <orgName>Marine Corps</orgName>, [<placeName>U.S.</placeName>] <orgName>Coast Guard</orgName> bases all over <placeName>Japan</placeName>. So I spent a lot of time on the trains or in helicopters, being brought around to all the different bases. I would try to visit most of the other bases, you know, at least once a month, just for a visit, and then maybe once <date>every three months</date> for a weekend, which would include <date>Shabbat</date> and the Jewish Sabbath, and lead services. </u>
+      <u who="BURACK">Do you see the role of the chaplain as more emphasized on, like, kind of visiting and reaching out to members of the faith or more on the interfaith side?</u>
+      <u who="RESNICOFF">I think as a junior chaplain, it’s more working within your own faith, and then, as you get more and more senior so you have chaplains working for you, you see the bigger and bigger picture,—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">—and you’re working more and more so that the senior chaplains would have to make sure, you know, that even in a place like <placeName>Afghanistan</placeName> or <placeName>Iraq</placeName>, that you, you know, had visiting rabbis for the High Holy Days, that you had visiting, you know, additional Catholic priests, you know, at certain times when you needed them. You had visiting Mormon chaplains to meet with the Mormon military personnel. </u>
+      <u who="BURACK">So that posting—was that right after <placeName>Japan</placeName>? That seems like a big jump. Or I guess a logical one.</u>
+      <u who="RESNICOFF">No. No, that was <date>25 years later</date>.</u>
+      <u who="BURACK">Oh, never mind. </u>
+      <u who="RESNICOFF">My first assignment was <placeName>Japan</placeName>, yeah, and that was my last assignment,—</u>
+      <u who="BURACK">Okay. </u>
+      <u who="RESNICOFF">—’97 to 2000, before I retired.</u>
+      <u who="BURACK">So after <placeName>Japan</placeName>, where—did you come back to the States, or what was next for you?</u>
+      <u who="RESNICOFF">Yeah, after <placeName>Japan</placeName>, we went to [Naval Station Norfolk in] <placeName>Norfolk</placeName>, <placeName>Virginia</placeName>, which is the biggest <orgName>Navy</orgName> base in the world, and there I was the Jewish chaplain for the <orgName>Navy</orgName> base, but also it’s the home port for the [<placeName>U.S.</placeName>] 6th Fleet. Actually, not <orgName>the 6th Fleet</orgName>. <orgName>The 6th Fleet</orgName> was the <placeName>Mediterranean</placeName>, when I was the chaplain there. Now I forget exactly which fleet is in <placeName>Norfolk</placeName>, but I worked with the different ships, you know, who would, which would come into the port and which would go out as well.</u>
+      <u who="BURACK">What was the biggest difference between working there and working in <placeName>Japan</placeName>? Besides the obvious.</u>
+      <u who="RESNICOFF">By the way, is it possible to take a short break—</u>
+      <u who="BURACK">Oh, yeah, of course.</u>
+      <u who="RESNICOFF">—and continue?</u>
+      <u who="BURACK">Hello. This is <persName>Emily Burack</persName>. I am in <orgName>Rauner Special Collections Library</orgName> in <placeName>Hanover</placeName>, <placeName>New Hampshire</placeName>, on <date>Friday, February 12th, 2016</date>. It is 9:15 in the morning, and I am speaking with Rabbi <persName>Arnold Resnicoff</persName>, who is in <placeName>Washington</placeName>, <placeName>D.C.</placeName> right now.</u>
+      <u who="RESNICOFF">Good morning.</u>
+      <u who="BURACK">So let’s pick off where we left off <date>two days ago</date>. We were just discussing your move from <placeName>Japan</placeName>, I think. Yes.</u>
+      <u who="RESNICOFF">Yes.</u>
+      <u who="BURACK">Yes, you had just left <placeName>Japan</placeName> and went to <placeName>Norfolk</placeName>.</u>
+      <u who="RESNICOFF">Correct.</u>
+      <u who="BURACK">Can you tell me a little about how that move was and how it was different being in <placeName>Norfolk</placeName> than being in <placeName>Japan</placeName>?</u>
+      <u who="RESNICOFF">Well, in <placeName>Norfolk</placeName> there’s actually a separate Jewish chapel, one of the few separate Jewish chapels in the <orgName>Navy</orgName> and possibly the oldest, and so my job in <placeName>Norfolk</placeName> was the closest to being a synagogue rabbi of any job I ever had in the military. I had services <date>Friday nights and Saturday</date> mornings. I had Hebrew school class for the children of the military people. I had, you know, all kinds of other classes and lectures.</u>
+      <u who="BURACK">Did you prefer the more stable nature of the congregation sort of vibe in <placeName>Norfolk</placeName>?</u>
+      <u who="RESNICOFF">No. I think I—each assignment that I’ve had in my career has been different, and each one has had different rewards, and I think that the fact that <date>every two or three years</date> I could change, try something new, is what I—I enjoyed.</u>
+      <u who="BURACK">All right. So after you were in <placeName>Norfolk</placeName>, where, what was your next assignment?</u>
+      <u who="RESNICOFF">So then I went to—if I’m remembering correctly, that’s when I went to <orgName>the 6th Fleet</orgName>. <orgName>The 6th Fleet</orgName>—a lot of civilians picture a fleet as, you know, a set number of ships. <orgName>The 6th Fleet</orgName> is actually made up of all ships that are in the <placeName>Mediterranean</placeName> at a given time, so ships go in and out of <orgName>the 6th Fleet</orgName> as they go through the <placeName>Straits</placeName> [sic] of <placeName>Gibraltar</placeName>. And there’s one commander of <orgName>the 6th Fleet</orgName>, a three-star admiral, and he has his own ship, a flagship of <orgName>the 6th Fleet</orgName>, and a staff on that ship. </u>
+      <u who="BURACK">When you were going from ship to ship or in your other stations as well, did you seek out people to talk to, or when they knew there was a chaplain on board did they come to you?</u>
+      <u who="RESNICOFF">Both. I think that a chaplain’s work is just as important talking to people while you’re eating, talking to people as you’re walking around the ship and visiting different work spaces, meeting people. I think for a person to make a decision to make an appointment and come to a chaplain, you know, it’s a big thing, and there’s usually an issue, but the one advantage a chaplain has, where clergy in the civilian world don’t, is that, you know, we’re just always around while they’re working, while they’re eating, while they’re playing, and we develop relationships so that people can ask questions off the cuff without setting up some formal meeting.</u>
+      <u who="BURACK">I see.</u>
+      <u who="RESNICOFF"><date>Eighty-two</date> to ’84. I forget exactly <date>the month</date>, but <orgName>the 6th Fleet</orgName>—that was the time of—it was probably <date>the summer of ’82 to the summer</date> of ’84, but, you know, it was during that time that we had the truck bomb attack in <placeName>Beirut</placeName> <date>October 23rd, 1983</date>, and I was there for that.</u>
+      <u who="BURACK">Would you tell me, what was it, what was it like being there in <placeName>Beirut</placeName>—</u>
+      <u who="RESNICOFF">Well, yeah I had.</u>
+      <u who="BURACK">—during—when that happened and the aftermath?</u>
+      <u who="RESNICOFF">Right. I—I had been going to <placeName>Beirut</placeName> frequently, just like I would go ship to ship and then <placeName>Beirut</placeName>, ship to ship and then <placeName>Beirut</placeName>. The Marines in <placeName>Beirut</placeName> were generally there <date>six months</date> at a time. Back then they were called a MAU [pronounced to rhyme with cow], a <orgName>Marine Amphibious Unit</orgName>; now I think it’s a MEU [pronounced mew], M-E-U, <orgName>Marine Expeditionary Unit</orgName>. And they would generally have a Catholic chaplain and Protestant chaplain with them, and then I would go, you know, as the 6th Fleet chaplain.</u>
+      <u who="BURACK">Wow.</u>
+      <u who="RESNICOFF">—Chanukah. I remember I took a piece of wood, and I took empty shells and nailed them in and made a menorah, <persName>Chanukkiah</persName> [pronounced <persName>chah</persName> (with a guttural “ch”)-nu-key-AH] out of the shells, and I always link that to the image of beating your swords into plowshares.  </u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">So I was, you know, using shells, instruments of violence and death, to represent the flame of hope and faith. </u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">And it wasn’t until only seconds later, when we heard the screams outside, that we realized the other building had been hit and we had just experienced the shock blast. After the explosion, an <orgName>FBI</orgName> team came over, and they said it was one of the largest non-nuclear explosions ever recorded. It was—you know, if you remember the newsreels, there was a four-stor- —the other building was a four-story building that just was reduced to rubble.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">And the Protestant chaplain had been in the other building and was one of the few to survive, although he was buried for a number of hours, until we dug him out. And a lot of things that happened—it was <date>four days</date> of digging, still trying to find people that might be alive. And then, of course, digging for the body parts so they could be collected and put in body bags and flown home.</u>
+      <u who="BURACK">Wow. And there’s the famous image that came out of that of you with the camouflage kippah [pronounced KEY-paw].</u>
+      <u who="RESNICOFF">Right. What happened was at that point, it wasn’t exactly legal to wear a kippah with a uniform, but it was case by case. It was very hard to get permission. And but as a chaplain, I had no trouble.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">The question was for a non-chaplain. And when the explosion happened, you know, we were literally—until the—until help came, we were literally tearing our clothes apart to try to wipe blood or mud or dirt, you know, off of people. And when I was brushing my teeth, I had a t-shirt on and trousers, and when we ran out to try to help people—and I remember the Catholic chaplain just said, “Follow me.” You know, I followed him, and we started doing everything we could for the wounded until, you know, help arrived. You know, eventually helicopters would come.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="RESNICOFF">And so that story—it was, you know, told by President <persName>Reagan</persName> when he read my report, and he told it to other groups, I have a news article where a group of Chabad rabbis visited <orgName>the White House</orgName>, and the president told that story, you know, to them. And based on that story, which was read into <orgName>the Congressional Record for the Senate</orgName> and <orgName>House</orgName>, the bill to allow military personnel to wear kippahs with uniforms, which had failed to pass for <date>two years</date>, passed <date>that year</date>. And the people working on the bill told me that that story was what made the difference.</u>
+      <u who="BURACK">Yeah. And that wasn’t your first foray into working in politics. You had earlier worked on <name type="event">the Vietnam Veterans Memorial</name>, right? Before that or after that?</u>
+      <u who="RESNICOFF">No, that’s right, because that was <date>’83</date>. The explosion was ’83, and the dedication of <name type="event">the Vietnam Veterans Memorial</name> was <date>November ’82, Veterans Day ’82</date>. And what had happened—you know, the <placeName>Vietnam</placeName> memorial was not my idea; that was the idea of an <orgName>Army</orgName>—an ex-Army corporal,  Jan [C.] Scruggs, a wonderful man who just had this vision that—you know, <placeName>Vietnam</placeName> veterans were being mistreated. He had that understand, and he had a vision of a memorial that would change that.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">—but then, by that time had become a chaplain, so I was first brought in to give the prayer at the groundbreaking. And it was interesting: The groundbreaking—you know, just about fifty or a hundred people showed up, and then at the actual dedication we had something like 100,000 people show up. And a lot of people who loved <name type="event">the Vietnam Veterans Memorial</name>—as a matter of fact, once I wrote an op-ed likening it to the <placeName>Kotel</placeName>, <orgName>the Western Wall</orgName> in <placeName>Israel</placeName>, saying it’s sacred ground, a holy space where people really do treat it as something sacred, and watching you see them coming, they leave notes. They leave gifts. They make rubbings, you know, of the names. They hold a baby up to kiss a name. And by this time you don’t even know the relationship. You know, originally I’m sure it was children, and now maybe it’s grandchildren or great-grandchildren.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">—[Operation] Desert Shield, people started with their yellow ribbons, remembering, you know, the people there. And, you know, I think even till <date>today</date>, even those who are against the war, like, <placeName>Iraq</placeName> or <placeName>Afghanistan</placeName>, almost always make a distinction between their feelings about the war and their support for those, you know, in American uniforms who are fighting in the war.</u>
+      <u who="BURACK">Yeah, it’s a difference between those who decide for the war and those who actually participate in it.</u>
+      <u who="RESNICOFF">Yes.</u>
+      <u who="BURACK">So what was it like giving the closing prayer at that opening ceremony?</u>
+      <u who="RESNICOFF">It was—it was an amazing thrill. You know, as I say, there was about 100,000 people. My mother was still alive, so my mother came. My daughter, you know, was too young to understand everything going on—she was <date>four years old</date>—but, you know, I—I remember thinking—you know, my grandfather escaped from <placeName>Russia</placeName>, came over in steerage, you know, on a ship to bring the family to <placeName>America</placeName>. My father was <date>three years old</date>, and here, <date>one generation later</date>, you know, I was standing, you know, in front of that memorial, saying the prayer. That’s why it strikes me, you know, when—when some candidate like <persName>Bernie Sanders</persName> talks about the fact that his father was, you know, a refugee from <placeName>Poland</placeName>, came over, and here, he’s running for president. </u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">So, of course, I was not running for president—</u>
+      <u who="BURACK">[Laughs.]</u>
+      <u who="RESNICOFF">—I wouldn’t put myself on that level but still, for me, you know, as a rabbi it was a very, very proud moment. It was one of those “only in <placeName>America</placeName>” moments that I have experienced so frequently in my life.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="RESNICOFF">Yes, yes, I’m very proud of that. You know, there was <name type="event">the Nationals Days</name> of Remembrance of the Victims of the <name type="event">Holocaust</name>, and as many people understand, you know, the Jewish celebration, <persName>Yom HaShoah</persName>—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="RESNICOFF">—Holocaust Remembrance Day—that’s—that’s religious. That’s a Jewish remembrance. But <orgName>the National Days of Remembrance of the Victims of the Holocaust</orgName> is a national American period of remembrance. And when the bill was passed, celebrating or observing <date>these days</date>, it was—part of that building, the [<placeName>U.S.</placeName>] Holocaust Memorial Museum in <placeName>Washington</placeName> was part of it. </u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">And also the prayer that I gave—I was honored to give a prayer in the Capitol rotunda for one of the first official <name type="event">Holocaust Days of Remembrance</name> ceremonies—was included in that DoD guide. And I know that many times, it’s actually read as part of newer ceremonies around the world.</u>
+      <u who="BURACK">Wow. Yeah.</u>
+      <u who="RESNICOFF">Right.</u>
+      <u who="BURACK">So you were with <orgName>the 6th Fleet</orgName> until <date>1984</date>.</u>
+      <u who="RESNICOFF">Correct.</u>
+      <u who="BURACK">And you were in <placeName>Beirut</placeName>. I know during this time—is this when you gave the interfaith prayer at the Western Wall?</u>
+      <u who="RESNICOFF">Yes.</u>
+      <u who="BURACK">The interfaith service? Yes?</u>
+      <u who="RESNICOFF">Yes. We vi— You know, when we were in <placeName>Beirut</placeName> before the attack, even though there were many <orgName>Navy</orgName> ships off the coast, we did not send ships into <placeName>Israel</placeName>.</u>
+      <u who="BURACK">Was there a reason?</u>
+      <u who="RESNICOFF">We tried to—</u>
+      <u who="BURACK">Was there a reason you didn’t send ships into <placeName>Israel</placeName>?</u>
+      <u who="RESNICOFF">Yes. Because we were part of the multinational force, we tried to maintain neutrality. You know, the reason the multinational force started was when <placeName>Israel</placeName> went into <placeName>Lebanon</placeName>. And so we tried to maintain neutrality, so we didn’t send ships into the port in <placeName>Israel</placeName>. And after the explosion, the decision was made that, you know, if we were going to be under attack, you know, that some semblance of neutrality was unnecessary, that our people needed to have some opportunities to rest—for rest and recreation. So we started sending ships into <placeName>Israel</placeName>, mostly into <placeName>Haifa</placeName> but also into <placeName>Ashkelon</placeName>—and, you know, just to have some time off the ship, just to have some time, you know, to recuperate.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="RESNICOFF">And during that time, another officer and I were successful in convincing the <orgName>USO</orgName> [United Service Organizations], the international organization, to start a <orgName>USO</orgName> in <placeName>Haifa</placeName> because so many American sailors were going in.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="RESNICOFF">You know, you have one aircraft carrier has 6,000 people, and then it has the escort ships that—you know, an aircraft carrier never goes alone. So you had thousands and thousands of American military personnel going in. And we started that. And because I was—I’m pretty sure I was the first Jewish chaplain to go into <placeName>Israel</placeName> on an official visit, when the flagship went in, and I went with the admiral, because a lot of Israelis, who were very surprised that there could be a Jewish chaplain, a rabbi on the staff of the admiral. And— because in <placeName>Israel</placeName>, in general, the chaplains really are just involved with religious issues, like keeping the kitchen kosher and—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">—funerals and things like that. And so the idea that a rabbi could be an adviser to the three-star admiral who’s the commander, you know, of <orgName>the 6th Fleet</orgName>—so there was a lot of interest in—in my role, in the role of a chaplain in general. Also the fact that in <placeName>Israel</placeName>, Jewish chaplains, at least at that point, rarely dealt at all with non-Jewish Israelis—I mean, they didn’t deal with non-Jewish—</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="RESNICOFF">But we hardly dealt with non-religious Jewish Israelis. In fact, you know, as an American chaplain I dealt not only with non-religious Jews but with non-Jews.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="RESNICOFF">Really was very interesting to <placeName>Israel</placeName>. So there were a lot of newspaper articles about me. I was on television, interviewed, and one of the—there were kind of two results of this short-term notoriety—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">—you know, interest in the chaplaincy. There was one that we were in <placeName>Israel</placeName> during the <persName>Martin Luther</persName> King <date>Day weekend</date>, and Mrs. [<persName>Chaim] Herzog</persName>—at that point the wife of the president of <placeName>Israel</placeName>—invited us to lead a, the first official and maybe the only official but certainly the first official Israeli ceremony for <persName>Martin Luther King Jr.</persName>, and we did it in the president’s residence. </u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">“This was for <orgName>the 6th Fleet</orgName>.”  You know, this was something very special.</u>
+      <u who="BURACK">That’s all.</u>
+      <u who="RESNICOFF">That’s right.</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="RESNICOFF">And so it was a real—a real honor. And I think many people have forgotten that ever happened, although I—I still have [chuckles] <orgName>The Jerusalem Post</orgName> article and photo—</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">—so I can prove it.</u>
+      <u who="BURACK">[Laughs.] It definitely happened.</u>
+      <u who="RESNICOFF">That’s a very interesting question. I never really thought of it before. I think that the—you know, leading that prayer at <name type="event">the Vietnam Veterans Memorial</name> dedication—and, by the way, I repeated that same prayer on the 20th anniversary and the 25th anniversary—</u>
+      <u who="BURACK">Oh wow. </u>
+      <u who="RESNICOFF">They brought me back. It was really a prayer where I was addressing the prayer not only to the 100,000 people there but because the video of that ceremony, you know, was seen—it was on <orgName>C-SPAN</orgName>; it was all over. I really focused my prayer in a way that I hoped would change the vision of <placeName>America</placeName> in terms of veterans, just as the memorial itself, you know, was trying to do. So it was—it was a prayer—you know, in a way, you can say every prayer is between you and God, but I think when you say a prayer out loud, it’s also to touch the hearts, you know, and the minds of—of the people, the human beings who are listening. And so it, I felt it was very, very important to do that.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">—when you gave a prayer and you had a mixed group of military personnel: different religions, and men and women. And so—you know, now, when I look back, I realize it was groundbreaking, historical,—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">—but not—not remembered. But at the point of dedicating <name type="event">the Vietnam Veterans Memorial</name>, we all hoped that a real change would be occurring, and I felt that I was part of that effort to make that change. So I would say in many ways, that was the more powerful personal experience for me.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. What was it like doing the prayer again at <date>the 20th and 25th</date> reunions?</u>
+      <u who="RESNICOFF">It was—it was—you know, at that point it was pride, in a different reason because it was kind of—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">—a feeling of success,—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="RESNICOFF">—the things really did change because of that—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>, did change, yeah.</u>
+      <u who="RESNICOFF">—that dedication. Now they’re building, you know, an underground educational piece of the—of <name type="event">the Vietnam Veterans Memorial</name> because young people <date>today</date>—you know, to them <placeName>Vietnam</placeName> is like the [American] Revolutionary War or something, so we have to educate, and we have to also emphasize these ideas of separating feelings about the war from the veterans in a new way. When we dedicated the Memorial, it really was an eye opener, a vision change, you know, for so many Americans. And they realized they were changing the way they saw the world. That’s happened. We were successful.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">And so doing it again was—was, you know proud, but it wasn’t the same as the original.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="RESNICOFF">After that, I went to <placeName>Rhode Island</placeName>. We worked in <placeName>Newport</placeName>, <placeName>Rhode Island</placeName>, and we lived in <placeName>Providence</placeName>, <placeName>Rhode Island</placeName>, and it was the only time in my life in the military where I actually could stay in one place for <date>four years</date> because I had two different assignments—</u>
+      <u who="BURACK">In the same place.</u>
+      <u who="RESNICOFF">—in the same place. Yeah. I was sent as a one of the very first chaplains—I think the second <orgName>Navy</orgName> chaplain—certainly the first Jewish chaplain—to be a student at the [U.S.] Naval War College, which is in <placeName>Newport</placeName>, <placeName>Rhode Island</placeName>. And then at that point, the <orgName>Navy</orgName>, the <orgName>Army</orgName> and <orgName>the Air Force</orgName>—their chaplain schools were in different places. Now they’ve—all been consolidated, they’re still different schools, but they’re in the same place. </u>
+      <u who="BURACK">On the course of religion—on the topic of the Religion, War and Peace course —  </u>
+      <u who="RESNICOFF">Yes.</u>
+      <u who="BURACK">Did you ever apply that to <placeName>Vietnam</placeName> and how kind of different faiths responded to <placeName>Vietnam</placeName>?</u>
+      <u who="RESNICOFF">In a way, I did, because in the—in the—you know, I taught the course many times.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF"><orgName>The War College</orgName> was on a trimester system, the same way <orgName>Dartmouth</orgName> is.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">And, you know, so I would teach it almost every semester or trimester, and in the discussion, we certainly would talk about reactions, you know, to the different wars and why some religions seem to be more antiwar in general. We talked about the “just war” theories. And I should emphasize theories plural because, you know, there are many different ones. </u>
+      <u who="BURACK">That they don’t</u>
+      <u who="RESNICOFF">—Jewish [cross-talk; unintelligible].</u>
+      <u who="BURACK">They don’t work together. [Laughs.]</u>
+      <u who="RESNICOFF">Or, you know, the Islamic belief that there’ll be, you know, an empire ruled by Muslims, that other religions will still be there but perhaps as second-class citizens, you know, and therefore they will want to convert, but—I mean, there really—they’re really differences.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">Well, at that point, there were two courses at chaplain school. One was the <date>eight-week</date> course for new chaplains: rabbis, priests, ministers. At that point, we didn’t have Muslim chaplains yet, or—<date>today</date> we have Hindu chaplains, Buddhist chaplains, Muslim chaplains.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">At that point, it was still just Jewish and Christian—Jewish, Protestant and Catholic, so that the <date>eight-week</date> course, which we called the basic course, which was a mixture of these clergy people who were on their way into the military as chaplains, or seminary students, you know, who were eventually going to go in as chaplains. At least—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">For one assignment. </u>
+      <u who="BURACK">Wow.</u>
+      <u who="RESNICOFF">So this was the group of potential top leaders in the military. And so the advanced course in chaplaincy was the same thing. These were already more senior chaplains, who were the group from which we thought the real leaders of the military—of <orgName>the Chaplain Corps</orgName> would emerge.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="RESNICOFF">So I was one of the chaplains who taught that course for <date>nine months</date>. You know, we dealt with—at that level, you know, you dealt with all kinds of subjects, not just interfaith and understanding, because the senior chaplains are the ones who have to, you know, look at large areas and make sure that all the religious rules are covered but also understanding the military in terms of where the military fits in with [<placeName>U.S.</placeName>] <orgName>Congress</orgName> and with equal rights, human rights, the [<placeName>U.S.</placeName>] Constitution, bureaucracy, how to be good administrators, what’s the difference between a manager and a leader? There’s a lot of leadership courses. </u>
+      <u who="BURACK"><persName>Mm-hm</persName>. Yeah.</u>
+      <u who="RESNICOFF">We really made it more like individual courses within a bigger picture, and we ended up getting accredited, and so that the chaplains could go through—now, at some point, the <date>nine-month</date> course was abandoned, and a lot of these decisions, the military because of money, and I don’t know exactly when it happened or why. Now I think there’s a much shorter advanced course. But that was my job, to kind of transform the advanced course and to be one of the instructors for [unintelligible]. </u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="RESNICOFF">I’m pretty sure that from there we went to <placeName>Orlando</placeName>, <placeName>Florida</placeName>, which at that point was one of the three—three—now I’m not sure if we went to—I think—no, from there we went to <placeName>Pensacola</placeName>, <placeName>Florida</placeName>,—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">—which was the center for what they called <orgName>Chief of Naval Education</orgName> and Training. That’s the admiral who’s in charge of every school in the military around the world. You know, there are so many schools that teach enlisted people,—</u>
+      <u who="BURACK">Yeah.</u>
+      <u who="RESNICOFF">—to teach officers, to specialty schools, general schools. So I was on—I was the assistant chaplain. There was a senior chaplain who was a captain I think at that point. I was a commander. And I taught—and I—so we were advising the admiral on issues that should be taught in all these different schools.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">You know, we would be advising in terms of how do you inject values into the school, how do you inject issues of religion? For instance, at the legal school, the justice school, they should be studying religion, you know, in terms of church and state because as these questions came up about religious rights in the military, generally both the chaplains and the lawyers would end up giving advice to the commanding officer, who had to make decisions about what was allowed,—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">—what should be done, what had to be done, what couldn’t be done. So—so that was my role there. </u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">At that point, the <orgName>Navy</orgName> had three boot camps: one in <placeName>San Diego</placeName>, one in <placeName>Great Lakes</placeName>, outside of <placeName>Chicago</placeName>, and one in <placeName>Orlando</placeName>. As the <orgName>Navy</orgName> was shrunk, downsized, we ended up with only one, in <placeName>Chicago</placeName>. </u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">And just like in the larger <orgName>Navy</orgName>, if it was a specific religious issue—you know, someone was getting married and wanted questions about, you know, the ways, so then the chaplain’s job has to put that person in charge of the chaplain of the right faith. But 95 percent of the times that a sailor wants to see or an officer wants to see a chaplain, it’s more of a human issue than a strictly religious issue. And so, you know, I was very proud of what we did—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">—did there. So that was, I think, one of my favorite assignments.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">—and maybe put them on a direction where they believed in themselves.</u>
+      <u who="BURACK">Wow. Yeah. </u>
+      <u who="RESNICOFF">Yes. Yes. There still were many restrictions. </u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">It’s only now, you know, in the absolute present, where, you know, virtually every restriction has been removed. But there still were women going in, and—but they were trained separately, and—at least at the boot camp level. And we—we changed that.</u>
+      <u who="BURACK">Yeah. Good.</u>
+      <u who="RESNICOFF">Well,—</u>
+      <u who="BURACK">Like <date>mid ’90s</date>? I don’t — </u>
+      <u who="RESNICOFF">Yeah, in—I know that when I was in <placeName>Pensacola</placeName>, my daughter had her <persName>Bat Mitzvah</persName> there.</u>
+      <u who="BURACK">[Chuckles.]</u>
+      <u who="RESNICOFF">It was the first Jewish—it was the first Bat Mitzvah or Bar Mitzvah, you know, at the <orgName>Navy</orgName> chapel, so that was a very big thing.</u>
+      <u who="BURACK">A big deal. [Chuckles.]</u>
+      <u who="RESNICOFF">Yeah, and then—</u>
+      <u who="BURACK">That’s exciting.</u>
+      <u who="RESNICOFF">— we went to <placeName>Orlando</placeName>. And if I’m remembering correctly, from <placeName>Orlando</placeName>, that’s when I went to <placeName>Stuttgart</placeName>, <placeName>Germany</placeName>, so that would have been ’97, because I was in <placeName>Stuttgart</placeName>, <placeName>Germany</placeName>, from ’97 to 2000. And I was the command chaplain for the [<placeName>U.S.</placeName>] European Command. And, you know, the <orgName>Navy</orgName>—or the military, I should say, has divided the world into, you know, a number of different areas. And that area is commanded by a four-star admiral or general. And when an order comes out of <orgName>the White House</orgName>, it comes from the president and the secretary of defense together, and it goes straight to one of these we call combatant command-—commanders. </u>
+      <u who="BURACK">Wow. So you were responsible for all the chaplains.</u>
+      <u who="RESNICOFF">Yes. And I did a lot of traveling. And we also—I became the representative of the military to religious leaders, much as the chiefs of chaplains in the other countries. So, for instance, <date>every year</date>, I led a conference for <orgName>the chiefs of chaplains</orgName> of all these other countries. It started out just for the <orgName>NATO</orgName> [<orgName>North Atlantic Treaty Organization</orgName>] countries before I got there. Then it was expanded to all of the countries—you know, these 93 countries that we had responsibility for.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. At these conferences or at your meetings with other chaplain leaders from other countries, what did you—what was the biggest takeaway from it, in the differences between the chaplaincies or something that the American chaplaincy does unique as in comparison to all these—</u>
+      <u who="RESNICOFF">Well, I think—I think that <placeName>America</placeName> is one of the few countries in the world—not the only, but one of the few where the chaplaincy is structured to help people of all religions. For instance, most of the other countries, if you have a chief of chaplains, you would have a Catholic chief of chaplains, a Protestant chief of chaplains; some of them have a Jewish chief of chaplains. But in <placeName>America</placeName> we have an <orgName>Army</orgName> chief of chaplains, a <orgName>Navy</orgName> chief of chaplains—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">—and an <orgName>Air Force</orgName> chief of chaplains, so that person can be any religion, and all the way down, you know, every position could be any religion. As a matter of fact, constitutionally it has to be that way because there can be religious test, so—but for the other countries—so that was different.</u>
+      <u who="BURACK">Wow.</u>
+      <u who="RESNICOFF">And there was this feeling that, you know, if you’re a Protestant chief of chaplains, the Catholic chaplains are going to say, “You better not, I better not catch you talking to anyone Protestant,” you know? Because the idea is if they talk, they will probably try to convert them. And so this—and also what fell between the cracks is—would be all the people who were not religious, so many of these other chaplaincies were focusing on the religious issues.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>, some seeds.</u>
+      <u who="RESNICOFF">But many of the other countries this idea of expanding their vision of what a chaplain could do. In addition—additionally, expanding their vision in terms of the role of a chaplain, advising command, you know, was—was something that I think came out of these conferences. </u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="RESNICOFF">Right.</u>
+      <u who="BURACK">And talk me through your last—<date>the last few years</date>.</u>
+      <u who="RESNICOFF">At that point, I knew I was retiring from <orgName>the Chaplain Corps</orgName>.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">So instead of retiring from <placeName>Germany</placeName>—to make it a little easier, once you’ve been in for a whole career, sometimes the military will cooperate and let your last assignment or your last partial assignment be somewhere you eventually want to settle, so I went to the chief of chaplains’ staff. At that point, the chief of chaplains had an office in what was called <orgName>the Navy Annex</orgName>, just about a block away from the Pentagon. Now that building has been demolished, and the chiefs of chaplains are in the <orgName>Pentagon</orgName>.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">And then from—from that position, I retired, you know, and—I had been born—I was born in <placeName>Washington</placeName>, <placeName>D.C.</placeName>, and I always wanted to move back to <placeName>Washington</placeName>, <placeName>D.C.</placeName>, when I retired, and so I was able to do that very easily.</u>
+      <u who="BURACK"><persName>Mm-hm</persName>. And kind of as the last question, what do you think the chaplain—what do you hope the chaplain does in the future? What do you see its role as expanding to or focusing on more?</u>
+      <u who="RESNICOFF">Well, I think—I hope the chaplains live up to the dream of—as I mentioned earlier, this three-pronged mission of the chaplain:—</u>
+      <u who="BURACK"><persName>Mm-hm</persName>.</u>
+      <u who="RESNICOFF">—to minister to your own, to facilitate ministry to those of other religions, but to care for all. And I think that sometimes in this world, where religion is polarized, just religious leaders, candidates—you know, we just—we just have much less cooperation in many ways among chaplains than I saw when I was a brand-new officer. </u>
+      <u who="BURACK"><persName>Mm-hm</persName>. </u>
+      <u who="RESNICOFF">—hope things will—as a country, in many ways, we’ll start living—living up to our dreams. Our dreams are the best dreams in the world. We just don’t always live up to them. And I would say that goes for the military, too.</u>
+      <u who="BURACK">I think we’ll end on that note.</u>
+      <u who="RESNICOFF">Okay. </u>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,248 @@
+<?php
+
+/**
+ * @file
+ * Contains ddhi_ingest.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+
+DEFINE('DDHI_INGEST_LOCKFILE','ddhi_ingest.lock');
+DEFINE('DDHI_DATA_RECORDS_DEST','ddhi_ingest/records.xml');
+DEFINE('DDHI_AUDIO_MANIFEST_DEST','ddhi_ingest/audio_manifest.csv');
+DEFINE('DDHI_TEI_MANIFEST_DEST','ddhi_ingest/tei_manifest.csv');
+
+/**
+ * Implements hook_help().
+ */
+function ddhi_ingest_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the ddhi_ingest module.
+    case 'help.page.ddhi_ingest':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Migrates data from Level 1 Encoded DDHI TEI data.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * @function
+ * Prepares intermediary files for import. 
+ * Process creates a lockfile to prevent rebuilding files on subsequent calls.
+ * 
+ * Important: $cleanup must be set to TRUE during the final import procedure
+ * to allow new migrations to use refreshed data.
+ *
+ * @todo: Reimagine this as a proper Drupal service.
+ */
+
+function ddhi_ingest_prepare_data_records($source,$cleanup=false) {
+  $file_scheme_root = \Drupal::service('file_system')->realpath(file_default_scheme() . "://");
+  
+  // Return null if files are already built.
+  
+  if (file_exists($file_scheme_root . "/" . DDHI_INGEST_LOCKFILE)) {
+    if ($cleanup) {
+      ddhi_ingest_remove_lockfile();
+    }
+    
+    return;
+  }
+  
+  ddhi_ingest_create_ddhi_records($source);
+  // ddhi_ingest_create_audio_manifest();
+}
+
+/**
+ * @function
+ * Loads the DDHI intermediary recordset.
+ *
+ * Return value: DDHI records as a simpleXML object or false if file not found.
+ */
+
+function ddhi_ingest_load_ddhi_records() {
+  $file_scheme_root = \Drupal::service('file_system')->realpath(file_default_scheme() . "://");
+
+  if (file_exists($file_scheme_root . '/' . DDHI_DATA_RECORDS_DEST)) {
+    return simplexml_load_file($file_scheme_root . '/' . DDHI_DATA_RECORDS_DEST);
+  } else {
+    return false;
+  }
+}
+
+/**
+ * @function
+ * Creates manifest of audio transcripts for file migration.
+ *
+ * DEPRECATED, BUT CODE MAY BE USEFUL
+ *
+ * Audio files are now being downloaded via the migrate_file plugin in the main import file.
+ */
+
+function ddhi_ingest_create_audio_manifest() {
+  $file_scheme_root = \Drupal::service('file_system')->realpath(file_default_scheme() . "://");
+  $xml = ddhi_ingest_load_ddhi_records();
+  
+  if ($xml === false) {
+    return;
+  }
+  
+  $outFilePath =  $file_scheme_root . '/' . DDHI_AUDIO_MANIFEST_DEST;
+  
+  // Prepare outfile for writing. 
+  
+  $outFile = fopen($outFilePath, "w+");
+  fwrite($outFile,implode(',',['id','filename','title','url']). "\n");
+  
+  foreach ($xml->xpath('/DDHIMessage/DDHIPackage') as $item) {
+  
+    
+    $header = $item->xpath('DDHIPackageHeader');    
+    $titleStmt = $item->xpath('TEI/teiHeader/fileDesc/titleStmt');
+    $recording = $item->xpath('TEI/teiHeader/fileDesc/sourceDesc/recordingStmt/recording[contains(@xml:id,"primary_recording")]');
+    $audioUrl = isset($recording[0]->media) && isset($recording[0]->media->attributes()['url']) ? $recording[0]->media->attributes()['url']->__toString() : '';
+    
+    if (!empty($audioUrl)) {
+      $filename = array_pop(explode('/',$audioUrl));
+      fwrite($outFile,implode(',',[$header[0]->id,$filename,"'" . $titleStmt[0]->title ."'",$audioUrl]) . "\n");
+    }
+  }
+  
+  fclose($outFile);
+  
+}
+
+/**
+ * @function
+ * Creates intermediate records in preparation for ingestion.
+ */
+
+function ddhi_ingest_create_ddhi_records($source) {
+  $file_scheme_root = \Drupal::service('file_system')->realpath(file_default_scheme() . "://");
+
+  $outFilePath =  $file_scheme_root . '/' . DDHI_DATA_RECORDS_DEST;
+      
+  // @todo: Drupalize this concatenation function. Consider using a managed file approach.
+  
+  //Set source directory and output file location
+  
+  $dirPath = DRUPAL_ROOT . "/" . $source;
+  
+  // Create directories if necessary
+  
+  $pathArray = explode('/',DDHI_DATA_RECORDS_DEST);
+  
+  if (count($pathArray) > 1) {
+    $subDirPath = $file_scheme_root;
+    array_pop($pathArray); // Remove the filename, leaving only directories
+    foreach ($pathArray as $dir) {
+      $subDirPath .= "/{$dir}";
+      if (!is_dir($subDirPath)) {
+        mkdir($subDirPath, 0755, true);
+      }
+    }
+  }
+  
+  // Prepare outfile for writing. 
+  
+  $outFile = fopen($outFilePath, "w+");
+  
+  // Add a doctype declaration 
+  
+  fwrite($outFile,'<?xml-model type="application/relax-ng-compact-syntax"?>' . "\n");
+  fwrite($outFile,"<DDHIMessage>\n");
+      
+  //Then cycle through the files reading and writing.
+  
+  $i=1;
+
+
+  foreach(scandir($dirPath) as $file){
+    
+      // Skip non XML files. @todo this will become a more sophisticated file integrity validator
+              
+      if (stripos($file, '.xml') == false) {
+        continue;
+      }
+    
+          
+      $teiFilePath = $dirPath . "/" . $file;
+      $inFile = fopen($teiFilePath, "r");
+                      
+      //Package the TEI. This will be replaced with values from the File Specification.
+      
+      fwrite($outFile,"<DDHIPackage>\n");
+      fwrite($outFile,"<DDHIPackageHeader>\n");
+      fwrite($outFile,"  <head>v001</head>\n");
+      fwrite($outFile,"  <id>{$file}</id>\n"); // Use filename for now
+      fwrite($outFile,"  <message></message>\n");
+      fwrite($outFile,"  <filename>{$file}</filename>\n"); // Use filename for now
+      fwrite($outFile,"  <TEIfilepath>{$teiFilePath}</TEIfilepath>\n");
+      fwrite($outFile,"</DDHIPackageHeader>\n");
+      
+      // Copy lines
+            
+      while ($line = fgets($inFile)){
+        // Filter out XML declaration
+        if (!preg_match('/^<\?xml.+?>.*\n$/',$line)) {
+          
+          /** Strips namespace (and all attributes) from TEI tag.
+            * See note in ddhi_ingest_level_1.yml file about namespaces. */
+          
+          if (preg_match('/<TEI.+?>/',$line)) {
+            fwrite($outFile,"<TEI>\n"); //non-namespaced TEI tag
+          } else { 
+            
+            // @problem: xml:ids are unique to each TEI document but can cause conflict when linked together.
+            // @solution: Come up with a project-wide solution to unique identifiers.
+            // @duct_tape: Introduce an iterator to ensure that IDs are unique in the DDHIMessage document.
+            // This will introduce problems downstream, most significantly matching the speakers with their
+            // XML ids (speakers are defined in a Profile Description and by the @who attribute in the body.
+              
+            $line = preg_replace('/xml:id=[\"\'](.+?)[\"\']/','xml:id="$1_' . str_pad($i,5,"0",STR_PAD_LEFT) . '"',$line);  // Append iterator.
+            fwrite($outFile, $line); // append line
+          }
+        }
+      }
+      
+      fclose($inFile);
+      
+      fwrite($outFile,"</DDHIPackage>\n");
+      
+      $i++;
+  }
+  
+  fwrite($outFile,'</DDHIMessage>');
+
+  //Then clean up
+  fclose($outFile);
+
+}
+
+/**
+ * @function
+ * Sets an ingest lockfile. The lockfile prevents the DDHI recordset from being rebuilt if it exists.
+ */
+
+function ddhi_ingest_set_lockfile() {
+  $file_scheme_root = \Drupal::service('file_system')->realpath(file_default_scheme() . "://");
+  $lockfile = fopen($file_scheme_root . "/" . DDHI_INGEST_LOCKFILE, "w");  
+
+}
+
+/**
+ * @function
+ * Removes the ingest lockfile. Allows the DDHI recordset to be rebuilt from new data.
+ */
+
+
+function ddhi_ingest_remove_lockfile() {
+  $file_scheme_root = \Drupal::service('file_system')->realpath(file_default_scheme() . "://");
+  if (file_exists($file_scheme_root . "/" . DDHI_INGEST_LOCKFILE)) {
+    unlink($file_scheme_root . "/" . DDHI_INGEST_LOCKFILE);
+  }  
+}

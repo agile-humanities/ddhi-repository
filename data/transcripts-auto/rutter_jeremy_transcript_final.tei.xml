@@ -1,0 +1,451 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="RUTTER"/>
+        <person xml:id="STEINBERG"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="STEINBERG">All right. So this is <persName>Leigh Steinberg</persName> interviewing <orgName>Dartmouth</orgName> Professor <persName>Jeremy [P.] Rutter</persName> for the Dartmouth Vietnam Project. We are in Jones Media Center in <orgName>Baker-Berry Library</orgName> at <orgName>Dartmouth College</orgName> in <placeName>Hanover</placeName>, <placeName>New Hampshire</placeName>, and it is <date>August 18th, 2016</date>.</u>
+      <u who="RUTTER">I’m fine. I had a physical workout this morning.</u>
+      <u who="STEINBERG">Oh, that’s great.</u>
+      <u who="RUTTER">There’s a little trail around my house, with one of my kids, and—yeah.</u>
+      <u who="STEINBERG">Great. All right, so I think that the best way to start this interview is to first talk about some biographical information that’s important to know, so where and when were you born?</u>
+      <u who="RUTTER">I was born on <date>the 23rd of June, 1946</date>, which makes me <date>a little over 70</date> now, in <orgName>Massachusetts General Hospital</orgName> in <placeName>Boston</placeName>.</u>
+      <u who="STEINBERG">In <placeName>Boston</placeName>. Great. And where did you grow up? Did you grow up in <placeName>Boston</placeName>?</u>
+      <u who="RUTTER">My father was in the [<placeName>U.S.</placeName>] Foreign Service, and I grew up all over the place, so I left the country for the first time when I was two—or not quite two, and we went to <placeName>Italy</placeName>. My father was a vice consul in <placeName>Genoa</placeName>. And then from there we went to <placeName>Vienna</placeName> [<placeName>Austria</placeName>], and then we came back to <placeName>Washington</placeName> [D.C.] for <date>two or three years</date>, and then we went to <placeName>London</placeName> [<placeName>England</placeName>] for <date>three and a half years</date>, and then we came back to <placeName>Washington</placeName> for <date>a few years</date>, and then we—then I went off to high school. And I went to a private school, also in the state of <placeName>New Hampshire</placeName>, down at [<orgName>Phillips] Exeter [Academy</orgName>]. And I swore when I graduated from that place that I was never coming back to the state of <placeName>New Hampshire</placeName> because I really don’t like cold weather.</u>
+      <u who="STEINBERG">Yeah. [Chuckles.] And here we are.</u>
+      <u who="RUTTER">And, you know? Yeah. So I’ve been employed at <orgName>Dartmouth</orgName>—or I was employed for a shade <date>under 40 years</date>, and—yeah. I guess I spent maybe a quarter of my life, all together now, in <placeName>Greece</placeName> because that’s where I do my field work.</u>
+      <u who="STEINBERG"><persName>Mm-hm</persName>. And so when your dad was a <orgName>Foreign Service</orgName> officer and you moved around, what was your life like when you lived abroad? Did you go to American schools? Did you go to—</u>
+      <u who="RUTTER">Never. We always went to local schools.</u>
+      <u who="STEINBERG">Local schools.</u>
+      <u who="RUTTER">And it was pretty ducky. I mean, it was—you know, it was a good life. It was in the aftermath of <name type="event">World War II</name>. We were in <placeName>Europe</placeName> most of the time. They were impoverished. The countries were destroyed. We were Americans. Traveled on <persName>Uncle Sam’s</persName> dollar. What’s not to like? I mean, we had—we had a very easy time of it. I mean, easy in some ways and perhaps a little difficult in others in the sense that we used to—never stayed anywhere for more than two or three years, so you, you know, make friends and pick up the local accent and maybe sometimes the local language, and then [makes a pop sound] move on.</u>
+      <u who="STEINBERG">And so did your mom work while you were abroad?</u>
+      <u who="RUTTER">No, those were <date>the days</date> when women, you know, were moms, more or less, and, you know, it’s—it’s a great sadness—well, I don’t want to get overly dramatic about it, but it’s too bad. My mother would have been a very different person, I think, if she had been born, let’s say, in your generation, or even my children’s generation, because she would have had, you know, a career.</u>
+      <u who="STEINBERG">Yes, it’s registering. It’s all good.</u>
+      <u who="RUTTER">Okay.</u>
+      <u who="STEINBERG">So when you were in <placeName>Europe</placeName> post-<name type="event">World War II</name>, what was the environment like for Americans? Like, how were you received?</u>
+      <u who="RUTTER">Well, okay, the—most of my—let’s put it like this: This is all before high school, okay?</u>
+      <u who="STEINBERG"><persName>Mm-hm</persName>.</u>
+      <u who="RUTTER">And I was aware of a completely different situation when I went back to <placeName>Europe</placeName> as a college kid than my memories of having been in <placeName>Europe</placeName> before—you know, before I came home to go to high school.</u>
+      <u who="STEINBERG"><persName>Mm-hm</persName>.</u>
+      <u who="RUTTER">But we were—we always got teased because we had the wrong accent, you know, and then, when we picked up the local accent, then we come back to the <placeName>U.S.</placeName> and get teased because we had a German accent or a British accent or whatever it was. So we became a little our family, in a way, which was I think probably a fairly strange family in some way. Became a little island, and we were used to not being quite the same [chuckles] as the people that we lived in the middle of.</u>
+      <u who="STEINBERG">Yeah. So did you ever feel isolated while you were abroad?</u>
+      <u who="RUTTER">No, because we had, you know, local friends, but they were the kinds of friends that—yeah, a lot of this, I had to, you know, grow up and realize that it was not sort of normal, because, you know, a lot of people make friends when they’re five, and then they—those are their friends for <date>the next 10 or 15 years</date>, but that wasn’t my situation, you know. it was hard to keep up with people. And you have to realize that this is pre-computer, pre-anything, and so, you know, you wanted to send an e-mail or videos or whatever to your friends all the time.</u>
+      <u who="STEINBERG">And so what made your dad want to be a <orgName>Foreign Service</orgName> officer? Do you know why he joined?</u>
+      <u who="RUTTER">Well, yeah, that’s a good question. I don’t know. He was—he—[sighs]—he came from a pretty traditional family. He went to <placeName>Exeter</placeName>, <persName>God</persName> help him, back in <date>the ’30s</date>. He went to <persName>Princeton</persName> [University] and graduated in ’<date>37</date> and had a degree in history, and—what did he do then? He went on, and he got an <persName>M.A.</persName> [Master of Arts], I think, in history at <orgName>Harvard</orgName> [University] and then taught for <date>a few years or a couple of years</date> at <orgName>MIT [Massachusetts Institute of Technology</orgName>]. And then along came the war, and he was in the service, in the [U.S.] Army. But he was never a—I don’t know, he was sort of a training kind of guy. He was an enlisted man; he never became an officer, although I’m sure he could have if he’d wanted to.</u>
+      <u who="STEINBERG">So did he serve in <placeName>Europe</placeName> during <name type="event">World War II</name>?</u>
+      <u who="RUTTER">He got as far as <placeName>England</placeName>, and he never made it any further. He was—of course, he couldn’t see—I mean, his vision was as bad as mine, so he was—you know, wore glasses all the time. And I’m not aware that he pulled any strings to, you know, stay out of combat or anything like that. If he was—you know, if I’m anything like him, I don’t think he volunteered for combat, you know?</u>
+      <u who="STEINBERG">In <placeName>America</placeName>. So what were some of the things that you guys got to do, perks of—</u>
+      <u who="RUTTER">We—we—we, you know, went backwards and forwards across the <placeName>Atlantic</placeName> [Ocean] on liners, you know, and those—in <date>the days</date> when you—you know, <date>five, six, seven days</date> across the <placeName>Atlantic</placeName>. We both flown—when I say “we both,” that was my next-younger brother and I flew 100,000 miles before the time we were ten, you know. I mean, a lot of traveling. A lot of exposure to foreign environments, foreign languages. </u>
+      <u who="STEINBERG">Right.</u>
+      <u who="RUTTER">—I think, than we would have been if we’d been in the <placeName>U.S.</placeName></u>
+      <u who="STEINBERG">So what was your transition back to <placeName>Exeter</placeName> like? Did you always know you were going to go back?</u>
+      <u who="RUTTER">Unfortunately, I did.</u>
+      <u who="STEINBERG">You did? Yes.</u>
+      <u who="RUTTER">I was not, you know—I mean, on top of just whether you had —could pass the entrance exam, it turned out that—and a lot of people in my family had connections to <placeName>Exeter</placeName>, including one of them who was—had been the director of admissions for a while, so, you know, this was not—was not tough to get in.</u>
+      <u who="STEINBERG">Yeah.</u>
+      <u who="RUTTER">When I went off to <placeName>Exeter</placeName>, I was 13. My younger brother went off to a place called St.—aw, jeez, what’s it called? <orgName>St. Andrews [School</orgName>], in <placeName>Delaware</placeName>, and he was 11.</u>
+      <u who="STEINBERG">Oh, wow.</u>
+      <u who="RUTTER">Yeah. My brother taught me how to smoke when he was <date>11</date> and I was, you know, 13. I mean, it was—but what I really didn’t like about it was that I wasn’t—you know, I wasn’t socialized in <placeName>America</placeName>. We had never been around TVs, so—and had these weird accents and, you know, didn’t know all the—I don’t know, what do guys talk about each other when they’re pre-teens or teens? You know, at that age. Well, it’s all about their—their fantastic sexual experiences or whatever, which I had zero. You know, it was a little difficult to bond with guys I was going to school with.</u>
+      <u who="STEINBERG">So what was your <date>daily</date> life like there? What was your routine?</u>
+      <u who="RUTTER">At <placeName>Exeter</placeName>?</u>
+      <u who="STEINBERG">Yeah.</u>
+      <u who="RUTTER">Well, the academic work was not—I mean, it was challenging but not a major concern, and I did very well academically. I think, you know, socially I had these issues, and a lot of those in a way disappeared, as I think is true in a lot of high school situations—I was interested in a recent conversation I had with some—some people my age—I don’t, know <date>a few nights ago</date>. When you made an athletic team or, you know, when you became a personality on a sports team, a lot of those issues would—sort of disappeared, at least in that—in that era they would.</u>
+      <u who="STEINBERG">Yes. </u>
+      <u who="RUTTER">I don’t know if it’s still true, but—you know, whatever.</u>
+      <u who="STEINBERG">So when did you graduate from <placeName>Exeter</placeName>?</u>
+      <u who="RUTTER">Sixty-three.</u>
+      <u who="STEINBERG">So when did you become aware of current events that were happening in <placeName>America</placeName> and <placeName>Vietnam</placeName>?</u>
+      <u who="RUTTER">I was about five. My—my father was, you know, a politics junkie and a historian, and we were encouraged to, yeah, be aware of what was going on in the world. But we were also interested—I mean, as I think kids are, in periods of history other than the one we lived in. But I think we were encouraged to think about, yeah, historical events all the time. And the place where I went to school in <placeName>England</placeName>—you might appreciate this—you had to learn your kings of <placeName>England</placeName> since <date>1066</date>, and their dates. That’s the first thing [claps hands once] that you learned, okay? </u>
+      <u who="STEINBERG">Yeah. So were you aware of your parents’ political views?</u>
+      <u who="RUTTER">Oh, yeah.</u>
+      <u who="STEINBERG">What were they?</u>
+      <u who="RUTTER">My mother was a lifelong Republican. Came from a very big Republican family. My father was a lifelong Democrat, although he was also a democrat with a little “d”; and we would have all kinds of, you know, just endless discussion. And people would come to our house for dinner and be horrified by the argumentation and the, you know, things people said to each other and so on. So it was—</u>
+      <u who="STEINBERG">So did people discuss current events at <placeName>Exeter</placeName> as well, or were you—</u>
+      <u who="RUTTER">Yeah, to a certain extent, sure. I didn’t join political clubs. The kind of things I did was join the science fiction club and the stamp collecting club or—you know, I was—yeah, I was a sort of a geeky kid.</u>
+      <u who="STEINBERG">So was there talk of the war, worry about the war?</u>
+      <u who="RUTTER">You mean <name type="event">the Vietnam War</name>?</u>
+      <u who="STEINBERG">Yeah—when you were at <placeName>Exeter</placeName>?</u>
+      <u who="RUTTER">Not much. No. No, no, no. That was at <orgName>Haverford</orgName> [College]. That was front and center right from <date>the day</date> we showed up.</u>
+      <u who="STEINBERG">Yeah. So, yeah, so what was your—like, take me back through that experience of getting to <orgName>Haverford</orgName>. How did you decide to go there, and then what was the atmosphere like on campus?</u>
+      <u who="RUTTER">Well, I told you I had to get out of <placeName>New Hampshire</placeName>.</u>
+      <u who="STEINBERG">Yeah. [Chuckles.]</u>
+      <u who="RUTTER">And the other thing was, you know, at <placeName>Exeter</placeName>—I graduated in a class of about 240 people, and 80 of them applied to go to <orgName>Harvard</orgName>, and 50 of them got in, okay?</u>
+      <u who="STEINBERG">Wow.</u>
+      <u who="RUTTER">That doesn’t happen anymore. No. Okay. And there were 30 who went to <orgName>Yale</orgName>, <date>20</date> went to <persName>Princeton</persName>—you know, like that.</u>
+      <u who="STEINBERG">Yeah.</u>
+      <u who="RUTTER">And a lot of people couldn’t wait to go to school with the same damn people that they’d gone to high school with. In fact, they arranged to room with these people before—I thought, You know, this is—this is not for me. This is not my—my kind of thing. </u>
+      <u who="STEINBERG">Oh that’s a big one at <orgName>Princeton</orgName>. P-rade. Yeah. Reunion.</u>
+      <u who="RUTTER">Reunion, reunion, okay, in <date>’62</date> at <orgName>Princeton</orgName>. And we went to <persName>Princeton</persName>. And <persName>Princeton</persName> is just—if a place could be worse than <placeName>Exeter</placeName>, it could be <persName>Princeton</persName>, right? That place is hopelessly mired—and also <orgName>Dartmouth</orgName>. I would put <orgName>Dartmouth</orgName> in the same cat- —you know, bowl. They had special reunion jackets, reunion hats, reunion mugs, reunion everything. Of course, you know, I was 15. I was a little ahead of myself. And so this is <date>the summer</date> after <date>my junior year</date>. And we got, you know, big mugs. We were allowed to drink beer. My brother and I went nuts. We had a wonderful time!</u>
+      <u who="STEINBERG">Yeah.</u>
+      <u who="RUTTER">And at the time, <persName>Haverford</persName> was all male, 125 people in a class. There were 525 people in the whole place. And I said to the director of admissions—I said, “Do you have fraternities here?” And he looked at me, and he said, “you know, we like to think of <placeName>Haverford</placeName> as just one big fraternity.” And I thought, Well, maybe that was the wrong question. I was—I was just sort of a little put off by that.</u>
+      <u who="STEINBERG">Yeah. So what types of people did you meet on campus? Like, what was your freshman roommate like? What did you get involved in?</u>
+      <u who="RUTTER">My freshman roommate was—his—I saw him, you know, recent- —I did not keep up with him particularly, but I saw him at my 45th reunion, which was the first reunion I ever went to—45! <date>A few years</date> back. He was—he was the son of a principal of a high school on the island of <placeName>Aruba</placeName>. You know where <placeName>Aruba</placeName> is?</u>
+      <u who="STEINBERG">Yeah.</u>
+      <u who="RUTTER">Okay. And he worked for <orgName>Exxon [Corporation</orgName>, now part of <orgName>Exxon/Mobil Corporation]—you</orgName> know, because it was a high school that was—I mean, they had a huge refinery there, and the whole island existed for the benefit to the extent Americans who were there. It was for <orgName>Exxon</orgName>. So I went down there. I remember the first Christmas, because my parents had just been posted to <placeName>Liberia</placeName>, so I couldn’t easily go there for Christmas vacation, so I went—I went to <placeName>Aruba</placeName> with this kid.</u>
+      <u who="STEINBERG">Yes, correct.</u>
+      <u who="RUTTER">Okay, well that was—yeah, it was my situation.</u>
+      <u who="STEINBERG">Right.</u>
+      <u who="RUTTER">And I’m—you know, it’s not just that I’m not <orgName>Quaker</orgName>; I’m not anything. I don’t give a fig about—you know, actually, I was quite virulently anti-religion at the time. Now I just don’t care. But what would I say about the kids that were there? Well, the guys that was making news at the time was a sophomore who was on a scholarship from the city of <placeName>Philadelphia</placeName>, so he was taking, you know, nearby political—what do you call it?—civic money to go to <placeName>Haverford</placeName>, and he was collecting money for the Viet Cong for medical supplies for the Viet Cong. So he made the newspapers routinely.</u>
+      <u who="STEINBERG">Yeah.</u>
+      <u who="RUTTER">Which suited—I would say suited 50 percent of the people there perfectly okay because frankly, why would you go to <placeName>Haverford</placeName>? Yeah, it was sort of a left-wing kind of place to go. And maybe another 25 or 30 or 40 percent of the people were basically apathetic. They didn’t give a damn. And there were 5 or 10—I always felt, like, kind of sorry for them. You know, 5 or 10 percent of the people who were really—you know, might have been right wing in some kind of other environment, who had to go deeeep underground, right?</u>
+      <u who="STEINBERG">Yeah.</u>
+      <u who="RUTTER">And just not say anything.</u>
+      <u who="STEINBERG">So what was the administration’s response to this sophomore raising money for the Viet Cong? Was there any—</u>
+      <u who="RUTTER">Well, they were not wildly enthusiastic about it because it got them a lot of bad press in the local media. But I think—you know, we were—we were—<persName>Haverford</persName> was—You were strongly encouraged to develop a social conscience. I don’t know whether you know about the—<persName>Haverford</persName>’s honor system or honor principle, but it’s very strict and strong. And everybody becomes a believer in it very shortly after they get there.</u>
+      <u who="STEINBERG">So what—can you explain that to me?</u>
+      <u who="RUTTER">Well, yeah, silly me, I always thought this would be a great idea for <orgName>Dartmouth</orgName>, but <orgName>Dart</orgName>—no, I don’t think so. <orgName>Dartmouth</orgName>’s too big, I think, fundamentally, but also <orgName>Dartmouth</orgName>—it’s not the same people at all.</u>
+      <u who="STEINBERG">And take it.</u>
+      <u who="RUTTER">And take that exam, right?</u>
+      <u who="STEINBERG"><persName>Mm-hm</persName>.</u>
+      <u who="RUTTER">And, you know, people did all over the pla- —I mean, that’s what you did. And if you saw somebody else, you know, violating, like in the library, checking references or whatever, you know, you turned ‘em in! And it worked!</u>
+      <u who="STEINBERG">So you felt like that, like honor principle really influenced the student body.</u>
+      <u who="RUTTER">Oh, hugely. You know, I—I mean, as you will realize when you graduate, and probably even before, people will be hitting you up for money, telling about how wonderful a place it used to be and so on and so forth. I’m always very curious to know what the status of the honor principle is.</u>
+      <u who="STEINBERG">So in <date>November</date> of your freshman year, <persName>JFK</persName> [President <persName>John F. Kennedy</persName>] was assassinated.</u>
+      <u who="RUTTER">Yeah.</u>
+      <u who="STEINBERG">Do you remember where you were—</u>
+      <u who="RUTTER">Yes, I do.</u>
+      <u who="STEINBERG">—during that?</u>
+      <u who="RUTTER">It was halftime in the soccer game I was playing in.</u>
+      <u who="STEINBERG">You were playing in a soccer game?</u>
+      <u who="RUTTER">Yeah.</u>
+      <u who="STEINBERG">For <orgName>Haverford</orgName>?</u>
+      <u who="RUTTER">Yeah. It was a JV [junior varsity] game.</u>
+      <u who="STEINBERG">Okay. </u>
+      <u who="RUTTER">I played—I played well enough <date>that day</date> so that I got to play <date>the next day</date> in the varsity game.</u>
+      <u who="STEINBERG">And so what—like, how did you feel about this? What was the reaction on—</u>
+      <u who="RUTTER">Well, it was obviously a—you know, it was, I would say, a huge event, but it—it happened—it happened to me when I was hugely involved—engaged, emotionally and physically and what have you, in this game, so it was a little hard to change tracks there.</u>
+      <u who="STEINBERG">Democrat.</u>
+      <u who="RUTTER">—and the drawl and the Texan and the—you know. No, that was not part of my—what I thought was worth emulating or what have you. But so I’ve been reeducating myself about ever since.</u>
+      <u who="STEINBERG"><persName>Mm-hm</persName>. And so what was the reaction like on campus?</u>
+      <u who="RUTTER">Oh, there was a lot of gloom, and lot of gloom.</u>
+      <u who="STEINBERG">Did it spark any protest or anything?</u>
+      <u who="RUTTER"><orgName>Haverford</orgName> protested so often, it was, like, you know, “It’s <date>Thursday</date>; there’s a protest.” I mean, you know, the <orgName>Haverford</orgName> and <orgName>Bryn Mawr</orgName> [College] together—they were just—there were endless protests. And my father told me before I went off to—I’ll never forget. Daddy said, “Now, one thing you need to know about <persName>Haverford</persName>. It’s the home of lost causes.” I said, “Ooh!” He said, “Yeah,” he said, “don’t—you know, do what you want,” he said, “but don’t—yeah, they—they—they take up a lot of things that you can spend a lot of time on it, and it may not go very f- —go anywhere.”</u>
+      <u who="STEINBERG">So did you involve yourself in the protests at all?</u>
+      <u who="RUTTER">Nope. I did not. I was not a politically invested person at <orgName>Haverford</orgName>. My mother was very involved—because we had been posted in <placeName>Africa</placeName>, and some of my best friends were, you know, in <placeName>Africa</placeName>—they were black—we went to—</u>
+      <u who="STEINBERG">Yes.</u>
+      <u who="RUTTER">—well they were African. But it was an international school, and so there was all kinds of different people there. And color and culture at this point meant nothing to me. You know, I did not have any kind of a “America first” or “white people first” or anything like that, absolutely nothing. </u>
+      <u who="STEINBERG">So what was that situation like in <placeName>Philadelphia</placeName> and <placeName>Haverford</placeName> specifically? Were you exsp-—</u>
+      <u who="RUTTER">The racial situation?</u>
+      <u who="STEINBERG">Yeah.</u>
+      <u who="RUTTER"><orgName>Haverford</orgName>, like a lot of places, was trying to, you know, break color barriers to the extent that it could, so there were programs in <date>the summer</date> for kids from the inner city. There were—and, you know, <orgName>Haverford</orgName> is this idyllic country—you know, in the suburbs kind of place with the big trees and the grass and all that stuff. They had an exchange program with <orgName>Morehouse</orgName> [College], I think, or—I can’t remember, one of those colleges down <placeName>South</placeName>.</u>
+      <u who="STEINBERG">And how were they received on campus?</u>
+      <u who="RUTTER">Fine. I mean, you know, there was—there was no—I mean, there was justice—there was a pressure to be leftist politically. There was a pressure to be over-accommodating. You know, it’s no less racist, but it’s still—you understand what I mean? You’re still intensely aware of the fact that the other person is, you know, another race, but—but everybody was willing to do anything they could do to make that simpler for them.</u>
+      <u who="STEINBERG">Better. So did you know anyone who was involved in the civil rights movement directly, or you were kind of removed from the situation?</u>
+      <u who="RUTTER">I didn’t have anything to do with it myself, but—but there were a lot of people who—yeah, a lot of people who did that in my class, so—you know, “What are you gonna do <date>this summer</date>?” “I’m gonna go down to <placeName>Mississippi</placeName>” or whatever it is. Yeah, okay, that was not unusual. And the <date>March</date> on <placeName>Washington</placeName> [for Jobs and Freedom], you know, when Dr. <persName>Martin Luther</persName> King [Jr.] gave his, “I got a dream” speech? I was there. My whole family was there. You know, my father was working at <orgName>the State Department</orgName>, but the rest of us were there. My mother came.</u>
+      <u who="STEINBERG">So you were at the <date>March</date> on <placeName>Washington</placeName>?</u>
+      <u who="RUTTER">Absolutely. I was sitting practically on the steps of the Lincoln Memorial, listening to that speech.</u>
+      <u who="STEINBERG">So what was that experience like?</u>
+      <u who="RUTTER">Unbelievable.</u>
+      <u who="STEINBERG">Can you take me through that whole day?</u>
+      <u who="RUTTER">Unbelievable experience. It isn’t often that you get into a crowd of 100,000—150,000 people. I’ve been in bigger crowds since, but not often.</u>
+      <u who="STEINBERG">And so not just the crowd. Like, what was the emotion like <date>that day</date>?</u>
+      <u who="RUTTER">Oh, it was—it was—it was a like a lot of <date>those days</date> when there are great speeches—when there are a lot of speeches, and there was just, you know, the tedious speeches and so on—you know, predictable and so on. And then when—I mean, this is really true. I knew at the time—when was that, ’63, right?</u>
+      <u who="STEINBERG"><persName>Mm-hm</persName>, <date>summer</date> of <date>’63</date>. </u>
+      <u who="RUTTER">Yeah, that was <date>the year</date> I graduated from high school. I knew that was going to be a great speech—I mean, that that was going to be a history speech. Of course, ever since then I’ve been finding out that he’d given it several times before and he practiced it—yeah, this, that and the other. But anyway, as far as I was concerned, it was totally original at the time. I’d never heard anything like that.</u>
+      <u who="STEINBERG">So what was that whole day like?</u>
+      <u who="RUTTER">Well, it was very exciting. It was very exciting.</u>
+      <u who="STEINBERG">And you went with your family?</u>
+      <u who="RUTTER">I went with my two brothers and my mother and a friend of the family, and I think the daughter of—a friend of my mother’s and her daughter, who was about the same age as my next-brother and myself. And my brother went to <persName>St. Andrew’s</persName>, which is in <placeName>Delaware</placeName>. It was full of Southern kids, and he was affectionately known as a—you know, he was a nigger lover in the class, and he kind of—he showed up <date>the next fall</date> with—I was at the <date>March</date> on <placeName>Washington</placeName>. That was—we talked about things like that.</u>
+      <u who="STEINBERG">Yeah, that’s incredible that you were there.</u>
+      <u who="RUTTER">No, my father got to stand at <placeName>Nuremberg</placeName> in <date>’38</date>. After he graduated, he took a bike tour of <placeName>Europe</placeName>, and he was within ten feet of [<persName>Adolf] Hitler</persName> at <placeName>Nuremberg</placeName>, at one of the rallies there.</u>
+      <u who="STEINBERG">Wow.</u>
+      <u who="RUTTER">And I can remember him telling me that story.</u>
+      <u who="STEINBERG">Yeah.</u>
+      <u who="RUTTER">And my sons don’t—you can’t believe that.</u>
+      <u who="STEINBERG">So do you feel very appreciative to your parents that they exposed you to all of this—</u>
+      <u who="RUTTER">Absolutely.</u>
+      <u who="STEINBERG">—political—</u>
+      <u who="RUTTER">Absolutely.</u>
+      <u who="STEINBERG">—all the political—How do you think that shaped you in your kind of like path?</u>
+      <u who="RUTTER">I think it—well, I think we were always—you know, we lived in a very internationalist family, okay?</u>
+      <u who="STEINBERG"><persName>Mm-hm</persName>.</u>
+      <u who="RUTTER">So it was, you know, the globalization and stuff like that. And I went to high school with kids—I remember meeting a guy that was on my floor <date>the first year</date> at <placeName>Exeter</placeName>. He’s never been out of the state of <placeName>Massachusetts</placeName> until he went to <placeName>Exeter</placeName> in southern <placeName>New Hampshire</placeName>. And I thought, That is so weird. I can’t believe that. And I’m sure I was weird for him and so on. But, yeah, it was—I never felt uncomfortable in a foreign place. I take that back. Until I—you know, unless I couldn’t speak the language, which has happened to me many times since, and is always, I find—I find very awkward. But anyway—yeah. You get used to airports. You get used to—whatever. I mean—</u>
+      <u who="STEINBERG">Right.</u>
+      <u who="RUTTER">I spend a lot of time abroad.</u>
+      <u who="STEINBERG">So going back to <persName>LBJ</persName>,—</u>
+      <u who="RUTTER">Yeah.</u>
+      <u who="STEINBERG">—how did you feel about his escalation of the war?</u>
+      <u who="RUTTER">Well, I was not enthusiastic. You know, I did not spend a huge amount of time thinking about what I’m going to do, because I knew I was going to go to grad school. And those were <date>the days</date> of graduate deferments, right?</u>
+      <u who="STEINBERG"><persName>Mm-hm</persName>.</u>
+      <u who="RUTTER">So I was—you know, I was going for—you know, I don’t know, however. It was not immediately on my radar. And I guess—you know, I—I—I listened to friends <persName>who—“What the hell</persName> am I gonna do? What the hell am I gonna do?” kind of thing. And it was a very common, you know, topic of conversation. And at <placeName>Haverford</placeName>, most people were—there were one or two people who were—said, “Oh, yeah, I’m going to <orgName>OCS</orgName> [Officer Candidate School]” or you know whatever. “I’m gonna join up” or whatever. And they were the weird—they were the oddballs, you know. They came from right-wing families where <persName>Dad</persName> was a military—you know, a Marine or something like that. Most people were not like that.</u>
+      <u who="STEINBERG">Yeah, so it was all about how you were going to get deferments.</u>
+      <u who="RUTTER">Yeah. Mostly it was how you were going to get out of there, yeah. And how many doctors did you know, and who would swear on a stack of Bibles that you had, I don’t know, some condition or whatever?</u>
+      <u who="STEINBERG">So were you concerned about losing your deferment—</u>
+      <u who="RUTTER">No.</u>
+      <u who="STEINBERG">—or anything?</u>
+      <u who="RUTTER">No.</u>
+      <u who="STEINBERG">No?</u>
+      <u who="RUTTER">No, no, no. I got—you know, I got a Woodrow Wilson Fellowship for <date>my first year</date> in graduate school, and then I got a National Defense Education Act fellowship for <date>the next three years</date>. Ooh! I mean, what’s to worry about? I was, you know, <date>four years</date> to the <persName>Ph.D.</persName> or whatever it was. No. Then they did away with the deferment.</u>
+      <u who="STEINBERG">Did you know people who were serving before you were drafted?</u>
+      <u who="RUTTER">Who were in the military?</u>
+      <u who="STEINBERG">Like, do you know anyone who served in <placeName>Vietnam</placeName> before you joined?</u>
+      <u who="RUTTER">I must have known somebody, but I didn’t—didn’t hang around. I didn’t—I was just not mili- —not interested in the military. My father worked for the government. But—and we’d met a lot of military people over <date>the years</date>, you know, so it wasn’t—I wasn’t—overawed—in fact, if anything, I was kind of depressed by how totally non-internationalist, non- —whatever. They were not exactly my people, either, okay?</u>
+      <u who="STEINBERG"><persName>Mm-hm</persName>. </u>
+      <u who="RUTTER">Okay.</u>
+      <u who="STEINBERG">Okay, so you—</u>
+      <u who="RUTTER">Hang on. Wait a minute. What did you ask me, about the—oh, when I went to grad school in the fall of ’67—yeah—there were several guys that were in <placeName>Philadelphia</placeName> that were going to med school at <orgName>Penn [University of Pennsylvania</orgName>], for example, or other, you know, graduate programs at <orgName>Penn</orgName>. One of my best friends at <placeName>Haverford</placeName>—he was—yeah, he was—he was studying in Slavic linguistics, okay? So he was at—and I think at <orgName>Penn</orgName> or <persName>Bryn Mawr</persName>—I can’t remember where he was. But anyway, he and I were in more or less the same boat in terms of his mother was French; his father was Russian, I think, so he was also very internationalist. The big difference between him and me was that he would have—he was absolutely not going to any war. Not. Not. Not. And when, finally, the, you know, the deferments were done away with, he emigrated to <placeName>Canada</placeName>. And that’s where he still teaches.</u>
+      <u who="STEINBERG">To avoid the war.</u>
+      <u who="RUTTER">Married a French—married a French-Canadian. And he was half French, anyway, so, you know, very comfortable, and it came back, and so he teaches in <placeName>Montreal</placeName>, actually, but—whatever.</u>
+      <u who="STEINBERG">So when you were in that graduate school, deferments had been done away with?</u>
+      <u who="RUTTER">Yeah.</u>
+      <u who="STEINBERG">Like, walk me through that experience. What was that like?</u>
+      <u who="RUTTER">Well, okay, so I was in a graduate program in archaeology, okay?</u>
+      <u who="STEINBERG"><persName>Mm-hm</persName>.</u>
+      <u who="RUTTER">And the deal was in <date>the summer</date>. You would go do fieldwork abroad. And I had gone to <placeName>Italy</placeName>, to an island in <placeName>the Bay of Naples</placeName> called <placeName>Ischia</placeName>, in <date>the summer</date> of <date>’68</date>. Had a good experience and went back in <date>the summer</date> of ’69. This is the same tear that—the <orgName>Apollo</orgName> landing on the moon, okay? I missed that. I mean, I didn’t get a lot of TV coverage. I saw it on Italian TV. And <date>a week</date> after I got over there and was—get really into excavation over there, I got the draft notice.</u>
+      <u who="STEINBERG">Over there?</u>
+      <u who="RUTTER">Over there. And I had just arrived. You know, I was going to be over there for <date>eight weeks</date> and stuff, and I got my draft notice, so I said, I can’t believe this. So I went out, and I had an extra kilo of wine for lunch or whatever, and then I thought, What am I gonna do? What am I gonna do? I think I called my parents and said, “Jeez, I got drafted,” I said. And in the end, I wrote to the draft board. I can’t remember whether they recommended this, because they were—they were having some rough times, themselves, at that time. I wrote to my draft board, and I said, “I’m not going to run away, but have a heart. I just got over here, okay? And I got <date>about eight weeks</date> to do, and then I’d like to clean up my life and get it ready, you know? And then I’m yours, okay? So can—can we postpone this until <date>September</date>?” And they said—unbelievably, they said, “Sure, that’d be fine.”</u>
+      <u who="STEINBERG">Yes.</u>
+      <u who="RUTTER">You do!</u>
+      <u who="STEINBERG">Well, you wrote that, so I looked that one up.</u>
+      <u who="RUTTER">Okay. </u>
+      <u who="STEINBERG">Yes.</u>
+      <u who="RUTTER">So even you took this battery of tests—okay, I was a grad school person, you know, had taken—what do you call it?—GREs [Graduate Record Examinations] and any number of exams, and so do I like—absolute—I love tests, okay? And especially the ones that have, you know, time limits and stuff like that. So I was just cruising through these tests. I loved the tests. It was my favorite part of basic training so far.</u>
+      <u who="STEINBERG">Was the tests.</u>
+      <u who="RUTTER">Yeah. And so at <date>the end of the day</date>, after the Officer Candidate thing and everything else, you have a test on, you know, sort of a mini-lesson in Esperanto and how to use languages. Well, at this point, I knew quite a few languages, okay?</u>
+      <u who="STEINBERG">What languages did you know?</u>
+      <u who="RUTTER">That’s part of the story.</u>
+      <u who="STEINBERG">Okay. </u>
+      <u who="RUTTER">So I loved that part. That was my favorite part of the whole test. So we’re sitting there after taking eight hours of tests, and everybody’s looking so pissed off. You know, they’d just had it for <date>the day</date>. And I’m going like this [gestures], and the guy comes in [chuckles] and says, “All right, listen up, men. And <persName>Rutter</persName>, are you here?” And I said, “Yeah, that’s me.” And he said, “Okay”—and then he called out a few other names. And we were supposed to go talk to the officer in charge of this testing center, just—</u>
+      <u who="STEINBERG">Wow.</u>
+      <u who="RUTTER">Very useless languages. And I said, “Okay, so <persName>Hittite</persName> and Acadian.” He said, “<persName>Rutter</persName>, are you jerking my chain? Are you trying to be wise with me?” And I said, “No, sir. No, sir. I just finished these courses.” And he said, “How do you spell that last one?” And so I had to spell it for him. </u>
+      <u who="STEINBERG">So was she down in—at Fort Dix with you?</u>
+      <u who="RUTTER">Yeah. Well, she lived in <placeName>Philly</placeName>, and <persName>Dix</persName> was just up the way.</u>
+      <u who="STEINBERG">Gotcha.</u>
+      <u who="RUTTER">So she proposed to me in the car on one of <date>these weekends</date>, and I said, “I think that’s a bad idea. You know, I mean, why don’t we do that after I come back from <placeName>Vietnam</placeName>?” And she said, “No,” she said—you know, all her friends were getting married. It was—you know, in <date>those days</date>, it was something you did within <date>two or three years</date> after the time you graduated from college. So I said, “Okay, okay.” So, you know, we made plans to get married. </u>
+      <u who="STEINBERG">Out the window.</u>
+      <u who="RUTTER">And I ended up going to radio school down in <placeName>Georgia</placeName>. So she came along for that. <date>About two months</date> after that or <date>three months</date> after that, it was time to ship out.</u>
+      <u who="STEINBERG">Yeah. So was there any benefits being—having a spouse when you went over to <placeName>Vietnam</placeName> or no special—nothing?</u>
+      <u who="RUTTER">No, it improved your sex life moderately, and your—you had a—yeah, perhaps a—a bigger reason to take a—there was a mid-tour holiday that you got for, I don’t know, <date>a week or ten days</date> or something like that. And, yes, so that was a nice—it was in <date>February</date>, I think, or <date>March</date> I came back to <placeName>Philadelphia</placeName>.</u>
+      <u who="STEINBERG">Yeah. So what was your—what was the rest of basic training like? Other than the tests. Like, what was your <date>daily</date> routine? Was it hard? What type of people did you meet there?</u>
+      <u who="RUTTER">Different people. I mean, you know—but they were drafting—they were drafting a fair number of, you know, grad students, so there were some of us who were grad students. It’s not that I’m a huge intellectual snob, but, you know, it’s nice if you can share some of the things—</u>
+      <u who="STEINBERG">[cross-talk; unintelligible].	 </u>
+      <u who="RUTTER">—that—you know, whatever. So—and we had a slightly different outlook on the politics of everything, and so we weren’t rah-rah. And we knew something about sunny <placeName>Southeast Asia</placeName>. You know, we’d been following things going on for some time. </u>
+      <u who="STEINBERG"><persName>Mm-hm</persName>.</u>
+      <u who="RUTTER">And the closer I get to go to <placeName>Vietnam</placeName>, the further the switch went. Yeah. So basic was no big deal. And then we had signals training after that, so that was radio school, and you had to learn your <persName>Morse</persName> code.</u>
+      <u who="STEINBERG">Did you get placed into that, or did you opt into it?</u>
+      <u who="RUTTER">Yeah that was. No, that was—yeah, that was the—<persName>Rutter</persName>, <persName>Rutter</persName>—you know, look up the—you know, five <persName>Charlie</persName>. Yeah, you get <persName>Rutter</persName>. It’s supposed to be teletype school, and so we had to learn how to type at a certain speed, and we had to learn <persName>Morse</persName> code at a certain speed, yeah.</u>
+      <u who="STEINBERG">Oh, that was nice.</u>
+      <u who="RUTTER">That was—oh, yeah, great. I got to live with my wife! And there were a couple of other guys that were married. Not many.</u>
+      <u who="STEINBERG">So when did you learn about your deployment and where that would be and when that would happen?</u>
+      <u who="RUTTER">Well, I didn’t learn where I was going to end up being. I mean, theoretically we could be sent anywhere. And some people were sent to <placeName>Germany</placeName>, but most people went to <placeName>Vietnam</placeName>.</u>
+      <u who="STEINBERG">Yeah.</u>
+      <u who="RUTTER">So I think the default was, you know, you’re going to go to <placeName>Vietnam</placeName>.</u>
+      <u who="STEINBERG">And what was the atmosphere like in training? Like, were people kind of apathetic about <placeName>Vietnam</placeName>? Did they have strong political views or kind of reserved to the situation?</u>
+      <u who="RUTTER">I think—you know, a lot of the drill instructors would always talk <date>about—“Now</date>, men, this is what you want to know about <persName>Charlie</persName> because this is the way”—and then they had all kinds of slang. A lot of them were African-Americans, the drill instructors, and so it was not <persName>Charlie</persName> or the VC or something, which is the way we talked about it in college, but it was “Mr. <persName>Charles</persName>” and—you know, they had all kinds of—you know, there’s all kinds of <orgName>Army</orgName> chitter-chatter about that.</u>
+      <u who="STEINBERG">And when your friends and family from home learn that you were drafted and that you were going into the service and most likely <placeName>Vietnam</placeName>, what was their reaction?</u>
+      <u who="RUTTER">That I was an idiot.</u>
+      <u who="STEINBERG">For not trying to get a deferment?</u>
+      <u who="RUTTER">Right.</u>
+      <u who="STEINBERG">So what motivated you to still go into the service?</u>
+      <u who="RUTTER">Yeah, that was a long, spiritual tussle inside. But that was something that I—that was a decision I’d made, you know, befo- —when I was still over in <placeName>Italy</placeName>, before I even got home. Right. So my basic rationale—and I had to have a rationale because that’s the kind of person I am, so—and I had to be able to defend it and talk to people about it and all that baloney—was that I had had a free ride for a long time with my father, and you had a lot of benefits, and then actually, you know, owed my country something, and it was not for me to decide, Oh, it was great while it was great, and it’s now that something’s being asked in return, it’s time to take off.</u>
+      <u who="STEINBERG">Yeah. [Chuckles.]</u>
+      <u who="RUTTER">But, you know, whatever.</u>
+      <u who="STEINBERG">Were you worried about leaving school, that you wouldn’t be able to finish your <persName>Ph.D.</persName> program, or you were pretty certain.</u>
+      <u who="RUTTER">No, I found out about that, you know? Just everything was on hold, and if I got back or when I got back or whatever, you know, if I wasn’t brain dead or something like that, it was—you know, okay. Just continue on.</u>
+      <u who="STEINBERG">Yup. Alright. So you were—you went to <placeName>Vietnam</placeName> in <date>July of 1970</date>.</u>
+      <u who="RUTTER">Right.</u>
+      <u who="STEINBERG">Yes. So were you aware of what was going on in <placeName>Vietnam</placeName>? Like, did you have any prior knowledge? Like, what did you know about <placeName>Vietnam</placeName> before you got there?</u>
+      <u who="RUTTER">Not a whole lot. Not a whole lot. I knew where the I, II, III, <orgName>IV Corps</orgName>. I knew—I mean, vaguely. And, you know, I knew what the capital of <placeName>Vietnam</placeName> was. I knew something about Vietnamese history, a little bit. And [chuckles] I remember, believe it or not—have you ever heard of a book, From Here to Eternity or ever seen the movie, or no?</u>
+      <u who="STEINBERG">No.</u>
+      <u who="RUTTER">No, okay. It’s a famous war story. Actually, it’s about just before <name type="event">World War II</name>, but it was written by a guy called <persName>James Jones</persName>, and if you ever have a chance to read it, it’s—it is a very good book. And he wrote a trilogy. And the second, I think, in the series was—called <orgName>The Thin Red Line</orgName>, and for some ridiculous reason, I decided that I was going to read that book, and that’s what I was reading on the plane flying over to <placeName>Vietnam</placeName>.</u>
+      <u who="STEINBERG"><persName>Mm-hm</persName>.</u>
+      <u who="RUTTER">And that’s what my job is. And I’d been told that “you may, when you get in country, you know, what your MOS is—doesn’t necessarily work out perfectly”, right?</u>
+      <u who="STEINBERG">Might change?</u>
+      <u who="RUTTER">So you’re an O5 Charley [<orgName>O5C</orgName>) teletype operator? If they need a radio person, it’s going to be you. You’re going to all of a sudden become an O5 Bravo (<orgName>O5B</orgName>), which you’re technically qualified to do. So, you know, it’s where they need you.</u>
+      <u who="STEINBERG">Yeah.</u>
+      <u who="RUTTER">So I get off the plane in <placeName>Vietnam</placeName>, and we spend a night sleeping on the tar floor of the Cam Ranh Bay Airport—you know, pull your duffel bag up and get whatever sleep you can get. </u>
+      <u who="STEINBERG">Yep.</u>
+      <u who="RUTTER">And so we ended up in <persName>Dĩ An</persName>, and, you know, it’s no lie—I don’t know if you’ve ever seen any <placeName>Vietnam</placeName> movies, but when you got off the airplane in <persName>Cam Ranh</persName>, and they, you know, the guys that were coming out to get the luggage or whatever—they said, “How short are you?” You know, and they would laugh. You know, “You’re 365. You all got so long to go.” And then they would start joking among themselves, you know, <date>24 days</date> and a wake up, and so on and so forth, and you’re sitting there feeling so sorry for yourself. Why am I here? Who? What?</u>
+      <u who="STEINBERG">Yeah. So did you learn about—what did basic—what did they teach you in basic training about the war? Like, was it a very one-sided view of the war?</u>
+      <u who="RUTTER">The enemy.</u>
+      <u who="STEINBERG">The enemy? That was it?</u>
+      <u who="RUTTER">The enemy. Well, you didn’t get poly sci lectures on, you know—no, no, no, no. No.</u>
+      <u who="STEINBERG">So then you—okay, so you got into <persName>Cam Ranh</persName>, and then when you arrived at the 11th Armored Cavalry, walk me through that experience. Like, what was the first—what was your first impression and experience?</u>
+      <u who="RUTTER">“You guys just sit down over here, and we’ll come get you to go to the personnel hut” or whatever it was that I did. So just wait until it’s your turn, you know? And, you know, it came out that the command sergeant major of the entire regiment—so this is a regiment of three squadrons of <orgName>Army</orgName> cavalry, so this is tanks and APCs, armored personnel carriers, right? And sitting on top of the three squadrons, which are the equivalent of battalions if you think of an infantry unit, is the head regimental headquarters. And the commander of the whole regiment is a brig- —no, he was a colonel, I guess, a full colonel, a full bird. </u>
+      <u who="STEINBERG">Yeah. So were you mostly at headquarters, or were you ever in the field?</u>
+      <u who="RUTTER">Once or twice out in the field, but most—almost entirely in headquarters.</u>
+      <u who="STEINBERG">So did you see combat at all?</u>
+      <u who="RUTTER">No, I never—I never fired a shot in anger. Never did. But we—I mean, the base that we were at had been hit several times, so we, you know, pulled guard duty on the—</u>
+      <u who="STEINBERG">On the base.</u>
+      <u who="RUTTER">—on the fringes, and we sort of got to live the—you know, the—I mean, when you pull guard duty and all of a sudden it’s not just, you know, you—<date>you’re</date> not pulling guard duty back in a base in the <orgName>U.S.—you</orgName> know, what you got to worry about is some drunken <orgName>GI</orgName> or something like that. But, you know, you got to worry about whatever is out there, and what is out there? And you don’t see very well. And goddamn it, why didn’t you ever see better at night? And so on like that. It’s a—it makes you a little nervous.</u>
+      <u who="STEINBERG"><persName>Mm-hm</persName>. So did you ever—were you ever worried for your life? Were you ever in extremely dangerous situations?</u>
+      <u who="RUTTER">Well, an ammo dump went up <date>one day</date>, and stuff—it was sort of raining grenades and stuff like that all over the place, and that was a big bang and a—you know, mildly disturbing. But otherwise, I would say I was never—no. </u>
+      <u who="STEINBERG">I know what I am doing.</u>
+      <u who="RUTTER">So that was—yeah, that was fairly tense. And I remember when I was sort of in training, being shown how to do this. I thought, I am never gonna be able to do this the way—but, you know, you learn.</u>
+      <u who="STEINBERG"><persName>Mm-hm</persName>. So every day, you would be in the headquarters. Did you work <date>all day</date>? Did you—</u>
+      <u who="RUTTER">Well, it depended [on] how many were on shift or whatever, so if there were four of us, it was eight hours on, 24 off, okay, so that was a little weird because you would sleep a different time of day every—you know, whatever. And then if we were short-handed for whatever reason, it was 12 on, 24 off.</u>
+      <u who="STEINBERG">And did you have a lot of exposure to the people who were out in the field, or were you isolated from that?</u>
+      <u who="RUTTER">Occasionally. That was when we pulled guard duty. Sometimes we’d pull guard duty with some of those guys, and they thought we were all pampered babies, which was true.</u>
+      <u who="STEINBERG">Yeah. [Chuckles.] And so generally, like, did you know about this, like, famed regiment? Did you, was it</u>
+      <u who="RUTTER">Oh, they were very proud of themselves.</u>
+      <u who="STEINBERG">Yeah. Did you hear, like, stories? Did you—was it hard to, like, connect with them?</u>
+      <u who="RUTTER">Uhhhh, yesss and no. I mean, the guys I lived with in the <persName>hooches</persName> I was in were, you know, all headquarters people. And, you know, there were some guys who—you know, it’s just like—it was like being back at prep school in some ways, you know? Some <persName>guys—“Ooh</persName>, I’m so tough” and so on and sort forth. “Lemme tell you”—and then other guys were just quiet and didn’t talk much. There was a lot of—you know, a lot of variety.</u>
+      <u who="STEINBERG">Cigarettes?</u>
+      <u who="RUTTER">—marijuana cigarettes was about 30—I mean, 50 cents. That was expensive, through the wire, you know. Yeah. </u>
+      <u who="STEINBERG">Yeah. So what was your—why did you switch regiments?</u>
+      <u who="RUTTER">Well, after I’d been over there for <date>eight months</date>, <orgName>the 11th Cav</orgName> were sent home, and if I’d had <date>11 months</date> in by then or <date>10 months</date> in by then, I’d have gone back with them, but, no, <date>eight months</date>? No, no, you have to stick around a little bit longer.</u>
+      <u who="STEINBERG">So what was—</u>
+      <u who="RUTTER">So I got sent off to some—a bunch of jerks off in—you know, it was another <orgName>II Corps</orgName> family. And they were a bunch of <orgName>Air Cav</orgName> people, and they were—it was—it was a hopeless unit. And the first sergeant was getting fragged every night—I mean, was getting phosphorus grenades rolled under his—under his bed. You know what fragging was?</u>
+      <u who="STEINBERG">No.</u>
+      <u who="RUTTER">No. Okay. Well, fragging was if—if somebody was trying to be too—too much discipline, you know, and handed out not the equivalent demerits but, you know, extra duty, extra time, doing this, that and the other thing. His troops would let him know about it by doing things that were dangerous for his health. If they got really bad, you’d shoot the guy in the back of the head when you got into a firefight.</u>
+      <u who="STEINBERG">Oh, wow.</u>
+      <u who="RUTTER">Yeah. If you want to see what that’s like, go see Platoon, and you can see something like that happen. Have you ever seen Platoon?</u>
+      <u who="STEINBERG">Nn-nn. </u>
+      <u who="RUTTER">If you’re going to have these conversations with people, you should go see Platoon, or you could see some others, too, but the <orgName>Platoon</orgName> is the worst.</u>
+      <u who="STEINBERG">Yeah. So the environment that you were in with the 2nd Cav like, did you engage in it? Like, what was your experience with the drug culture and—</u>
+      <u who="RUTTER">Keep my nose clean. No, no, no, I mean, we—we—we—on police call every morning, they would go around, you know, and police up the company area. That means pick up all the trash that’s lying around, okay?</u>
+      <u who="STEINBERG"><persName>Mm-hm</persName>.</u>
+      <u who="RUTTER">And among the trash were the, you know, pills and needles and stuff like that. Over <date>200 every day</date>.</u>
+      <u who="STEINBERG">Wow.</u>
+      <u who="RUTTER">Yeah, there were a lot of junkies in that outfit. And it’s not good for you when you got a lot of, you know, guns and stuff around. <persName>It’s</persName>—yeah. So I just wanted to get out of there. But, you know, that was where I had my—my physical malady that I had while I was over there.</u>
+      <u who="STEINBERG">Which was?</u>
+      <u who="RUTTER">You can laugh, but I—whatever. It is what it is. So I went up—periodically, you’d get some time off. I went up to <persName>Cam Ranh</persName>. <persName>Cam Ranh</persName> was just up the ways from—from  Phan Rang. To the beach, of all places! You know? And I’m lying out on the beach, getting some sun, and the guys are playing touch football down—just down below me. And all of a sudden, there’s just—I had my eyes closed, and I was lying there, and—blinding pain. And a guy going out for a pass. And, you know, I don’t know whether he caught the pass or dropped the pass, but his knee came down right on my nose.</u>
+      <u who="STEINBERG">Oh!</u>
+      <u who="RUTTER">And I had already broken my nose once, so this was, like, the second or third time I’d broken it. And it was really painful. And it was even more painful when the doc decided to try and fix it with—you know, sticking a pair of pliers down my nose and wrenching this way and trying to move the bone, and it was—yeah.</u>
+      <u who="STEINBERG">Did you get any time off for that?</u>
+      <u who="RUTTER">Yeah, I think I probably got <date>a few days</date> bed rest or whatever.</u>
+      <u who="STEINBERG">So with your <orgName>2nd Air Cav</orgName> group, were you also in headquarters, or were you—</u>
+      <u who="RUTTER">No, it was just a company of guys, so I was—no, I was—by that time, I was—was I sergeant then? Yeah, I think I was a sergeant. So I was one of these guys that had to take—you know, take responsibility, take people off to do a detail, do this, do that, whatever it was.</u>
+      <u who="STEINBERG">So what types of missions would you—details would you go on?</u>
+      <u who="RUTTER">You know, I really can’t—I—it’s just come up a complete blank. I can remember at <persName>Phan Rang</persName>—it was an air base, and there was a runway, and to get to the mess hall we from our side had to take the—had to take a truck around to the mess hall to eat every—three times a day. And I remember you had to wait if—if jets were coming in, you had to wait until all the jets would come in before ‘cuase otherwise you’d just get toasted by a jet. So that’s my only memory, really, from <persName>Phan Rang</persName>—you know, just that.</u>
+      <u who="STEINBERG">So you mentioned an African-American soldier. What was the racial culture in <placeName>Vietnam</placeName> with soldiers?</u>
+      <u who="RUTTER">It was—it was ver- —oh, in <placeName>Vietnam</placeName> or in the <orgName>Army</orgName> in general? I mean, one of the bright- —the best kid in radio school was—was black. I mean, he—and his ability to do code was unbelievable. He could do 27 groups of—you know. And it sounded like a buzzing beep [makes sound], like this, and he’d just write down the letters like he was taking spelling. It was amazing. Yeah, so that was a—that was a major humility exercise for everybody. I mean, it was great.</u>
+      <u who="STEINBERG"><persName>Mm-hm</persName>. So what—</u>
+      <u who="RUTTER">I never would have met any of these people if I hadn’t—if I hadn’t have been drafted. Never.</u>
+      <u who="STEINBERG">Yeah. So was that the only reason that you then became supportive of the draft? Like, what—</u>
+      <u who="RUTTER">Well, sure as hell wasn’t supportive of it from before.</u>
+      <u who="STEINBERG">—evolution. Yeah.</u>
+      <u who="RUTTER">Yeah. No, that was why—that wasn’t why, okay?</u>
+      <u who="STEINBERG"><persName>Mm-hm</persName>.</u>
+      <u who="RUTTER">I was not—[Chuckles.] I mean, it seemed like—it seemed like a waste to me that I—the country could have invested X number of—you know, thousands of dollars in my education, and I could just become, you know, cannon fodder for—in an afternoon. But, you know, that wasn’t my decision. And as luck would have it, you know, somebody at headquarters looked at a thing and said, “Hey, the guy’s got five languages and lived abroad. Get the guy in here. We’ll put him in operations.” And I think that—you know, they wanted somebody who had some smarts—I don’t know—for lack of a better word, in a—in a position like that.</u>
+      <u who="STEINBERG">Okay. </u>
+      <u who="RUTTER">And one of the things he got to inspect—he and I—you know, in the business that we’re in, classical archaeology, there weren’t a whole lot of us who were enlisted men in <placeName>Vietnam</placeName>. So we have some stories to share, and we tease each other a little bit about it when we get together. And he and I have worked on the same projects together, and he’s been my boss and I’ve been his—you know, whatever. I mean, we’ve done a lot of things together.</u>
+      <u who="STEINBERG">That was your job [Laughs.]</u>
+      <u who="RUTTER">Yeah, and then you got to go inspect the mess hall after that. You know, it would color your laugh a little bit.</u>
+      <u who="STEINBERG"><persName>Mm-hm</persName>. So did you ever feel—I don’t want to say—</u>
+      <u who="RUTTER">You know, I—wait a minute. Let me just share one other thing—</u>
+      <u who="STEINBERG">Oh, yeah. Go ahead.</u>
+      <u who="RUTTER">You know, because I don’t get to talk to many people about this. I could tell one or two war stories that’s not worth doing. But in the morning, the first thing you did was stagger out of your hooch, usually with a hangover, okay?—and go to the—what—passed this urinal, right? And our urinal was a rocket tube shoved into the ground. And this is—this is a cushy base, right? A well-established base, okay? Was a rocket tube shoved into the ground with a little bit of mesh—you know, what do you call it?—anti-mosquito mesh put over the end so that things wouldn't get into the rocket tube.</u>
+      <u who="STEINBERG">Yeah. So did you think about home a lot when you were over there?</u>
+      <u who="RUTTER">Only when I got tapes from my wife, who said, you know, “Can’t wait to see you in <placeName>Hawaii</placeName>” or wherever it was we were going to meet up, and I don’t know, it ended up being <placeName>Philadelphia</placeName> but that was—</u>
+      <u who="STEINBERG">So when you went back home in the middle of your tour, was it hard to switch back on and then mentally prepare yourself to go back?</u>
+      <u who="RUTTER">Yeah. You know, at that point, seventy-what? Early in—late in the <date>winter</date> or early in <date>the spring of ’</date>71, people were really not happy with the war much anymore, okay? So, you know, you wanted—in fact, I even remember in basic there was a lot of protests going on, and you were all of a sudden on guard of the big base to keep those protesters out. And you said—you’d say to yourself, Wait a minute. Wait a minute. I should be over there. It was strange in some ways.</u>
+      <u who="STEINBERG"><persName>Mm-hm</persName>. How long did you get to spend at home?</u>
+      <u who="RUTTER">I don’t know, <date>a week</date>, something like that. I can’t—you know, I don’t really remember. You didn’t really want to switch on too much. I do remember that my wife’s older sister—her oldest sibling had her first baby while I was there, and I went and saw the baby. I remember sort of thinking, Hmm, I wonder what it’ll be like if I—you know—if we have a kid at some point. How long is it going to be?</u>
+      <u who="STEINBERG">And so was there a hard adjustment back once you got back to <placeName>Vietnam</placeName>, or the switch had been not turned back on?</u>
+      <u who="RUTTER">No, because I think when I went back—you know, I just—the chronology is shot. I can’t remember whether I went back to the 11th ACR. I think I probably did. But I really—to be honest, I really don’t know whether I did or didn’t. You know, it was sort of timeless. Yeah. The things that I do remember were those <persName>Dustoffs</persName> and the reasons for the <persName>Dustoffs</persName>, and not the—I remember three in particular.</u>
+      <u who="STEINBERG">Yeah.</u>
+      <u who="RUTTER">And then the ridiculous-ridiculous is—the guy is laughing when he’s calling me. He said, “You’re not gonna believe this one!” This is the radio guy from the—on the other end. I said, “Try me.” It’s a slow <date>Sunday</date>. And he said, “We got—we got a <persName>Dustoff</persName>.” I said, “That’s—you know, that’s serious shit.” Then he said, “Naw, this one.” I said—I said, “Well, tell me, tell me!” He said, “I’ve got an officer here. He’s got a—he’s got a [clears throat] bullet wound [clears throat].” I said, “Oh? Is he stable?” “Well, yeah, sort of. I think it’s gonna be hard for him to deal with this.” I said, “Well, what happened?”</u>
+      <u who="STEINBERG">Oh, my God!</u>
+      <u who="RUTTER">I said—I couldn’t stop laughing for 15 minutes. I said, “Okay, let’s get this guy—let’s get this guy a medevac.”</u>
+      <u who="STEINBERG">So there was, like, some comic relief, human relief to this.</u>
+      <u who="RUTTER">Yeah. It was like, you know, M*A*S*H.</u>
+      <u who="STEINBERG"><persName>Mm-hm</persName>. Yeah.</u>
+      <u who="RUTTER">And you needed reasons to laugh sometimes.</u>
+      <u who="STEINBERG">Yeah. So did you feel like there was a dehumanizing element to it at all, or you kind of kept a grasp on the human element of the war?</u>
+      <u who="RUTTER">I think—that’s a great question, and I think it depended [on] [chuckles] sort of <date>what day of the week</date> it was and how things—how—how close things got to you, personally. Yeah, it was ab- —I mean, you know, people were in all kinds of different spaces, so if you got bad news from home, for example, or, I don’t know, all kinds of things could be going wrong at home, you know, that would color your day, <date>your week</date>, your <date>month</date> until you—things turned a corner back there.</u>
+      <u who="STEINBERG">Right.</u>
+      <u who="RUTTER">Right, and they were “dinks,” and they were this or they were that, and all kinds of—you know. And, yeah, that’s self-protective in some ways so that when you witness something particularly horrible or were—had to—you know, felt you had to do something that you wouldn’t ordinarily do—</u>
+      <u who="STEINBERG">Yeah.</u>
+      <u who="RUTTER">Yeah.</u>
+      <u who="STEINBERG">So you mentioned a little bit when you came back from your mid-tour that people were very anti war, but what was your reception like, both by family and friends and—or broadly as a veteran?</u>
+      <u who="RUTTER">Coming back, coming back finally—first of all, the plane—this is when I finished.</u>
+      <u who="STEINBERG">Yeah.</u>
+      <u who="RUTTER">Okay. Finally—the plane was a 22-hour—no—well, okay, so we stopped in <placeName>Japan</placeName>, and then you fly to <placeName>Alaska</placeName>, and then you’d fly down to wherever it was and, you know, go around the horn like that. And the plane—it was insufferably hot on the plane, you know. You can imagine. And the plane landed in <placeName>Japan</placeName>, and the pilot came over from the—you know, on the radio and said, “Okay, guys, here’s a choice. We could get you guys off the plane for a couple hours, but then we’re gonna have to wait in line for the gas. Or we can just wait half an hour, get gassed up and keep going.” [Makes sound.] You know, you got a plane full of 250, 300 guys. Everybody—“Yeah, keep goin’!” </u>
+      <u who="STEINBERG">Yeah.</u>
+      <u who="RUTTER">Yeah. So that was real. I mean, that was—you know, that’s what the talk was, and that’s exactly what happened. </u>
+      <u who="STEINBERG">So did you feel like you couldn’t really talk about it with a lot of people who you were around?</u>
+      <u who="RUTTER">Yeah you di- —it wasn’t something that—your experiences over there—you didn’t want to share them with a bunch of people. I never felt—I always felt, you know, mildly embarrassed that I hadn’t gone out there and, I don’t know, killed people or whatever. You know, I didn't “get into action.” And then when—every time I see one of these <placeName>Vietnam</placeName> movies, you know, I just get so depressed. I’ve gotten—it’s so bad, I just don’t go anymore. Yeah. It’s—yeah, it is what it is.</u>
+      <u who="STEINBERG">In your experi- —</u>
+      <u who="RUTTER">I don’t have nightmares.</u>
+      <u who="STEINBERG">Yeah. Yeah, so how did your experiences kind of like influence your everyday life when you got back, or did they not?</u>
+      <u who="RUTTER">Not—not particularly bad. You know, I can hear loud sounds and I don’t hit the deck, you know. And it’s very ancient history now. Did it—did it affect me at the time? You know, I went right back to grad school. I had, you know, prelims coming up. I had to take my graduate prelims in <date>six months</date>, <date>eight months</date>. About time to start booking it and—you know, I’ve been away from books for a while.  And, yeah, I just focused on it. I just focused on that. I probably wasn’t the most exciting person to live with, but then I don’t think I’m probably ever terribly exciting to live with. It was—it was a slow period of getting readjusted.</u>
+      <u who="STEINBERG">Yeah. And how did your—did you talk about it with your family at all—like, with your father, or no?</u>
+      <u who="RUTTER">Yeah, maybe I did, but those memory circuits have been pretty much wiped. You know, I have a—I have an astonishing ability to wipe the memory circuits of the things I don’t want to remember—or a lot of the things. Some of the things, I do remember that I don’t want to, but a lot of things—they just get wiped.</u>
+      <u who="STEINBERG">Yeah, it’s the little things, yeah.</u>
+      <u who="RUTTER">Whatever. So—</u>
+      <u who="STEINBERG">So did you come to <orgName>Dartmouth</orgName> directly after you graduated—</u>
+      <u who="RUTTER">Hell, no.</u>
+      <u who="STEINBERG">—from <orgName>Penn</orgName>? Yeah. So how did you—what was your journey that ended you here?</u>
+      <u who="RUTTER">Oh. I—okay, I got out of the <orgName>Army</orgName> in <date>’71</date>, I guess, <date>July</date>. Yeah. And I went back to grad school, and I took my prelims in spring of <date>’72</date>, and the summer of ’72 my wife and I headed over to <placeName>Greece</placeName> so I could start work on my <persName>Ph.D.</persName> And I finished my <persName>Ph.D.</persName> <date>two years later</date>, and I started looking for a job <date>about a year</date> before I finished my <persName>Ph.D.</persName> And I looked, and I looked. </u>
+      <u who="STEINBERG">And what was the—so you came here in ’76.</u>
+      <u who="RUTTER"><date>Seventy-six</date>.</u>
+      <u who="RUTTER">Women had—</u>
+      <u who="STEINBERG">So what was—</u>
+      <u who="RUTTER">—just—you know, the first graduating class I think had just—you know, the people that had been here for <date>four years</date>?</u>
+      <u who="STEINBERG">Yeah.</u>
+      <u who="RUTTER">It was poisonous. It was a really—and I remember I did my first <orgName>Foreign Study Program</orgName> in ’78 in the spring of ’78, and there were three women on that program and eight guys. And that—the guys just treated—and it was just awful. And they used to—yeah, it was just not a great time to be a woman here. </u>
+      <u who="STEINBERG">“Not that!”</u>
+      <u who="RUTTER">But he’s the guy that ended up coming here, and he made it a, you know, kinder, gentler place for people who were not—I remember the—the guy that was the dean of admissions at the time, that <persName>Freedman</persName> brought here from <orgName>Wesleyan [University</orgName>]. I said to him—he was probably public enemy number one for most of the alums at that point, you know.</u>
+      <u who="STEINBERG">Yeah.</u>
+      <u who="RUTTER">He was busy trying to change the nature of the student body. I said, “<persName>Carl</persName>, who are you lookin’ for <date>these days</date>? I mean, how do you talk yourself into—what are you—what are you looking for? This is undergraduate. And he said, “Well,” he said, “you know, we want—we used to have the well-rounded pebble, but what we’re looking for now is the people that have the little sharp angles here and there, and they—they may have so many sharp angles they’re just prickly. And, you know, they may not be good at everything. They may be very deficient at some things, but they’re very sharp in other things.” I said, “Okay.”</u>
+      <u who="STEINBERG">Yeah. And so you saw this really dramatic change throughout—</u>
+      <u who="RUTTER">It was pretty dramatic if you remembered <orgName>Dartmouth</orgName>—you know, my experience with <orgName>Dartmouth</orgName>—it isn’t—you know, I’d gone to college in the <placeName>U.S.</placeName>, and <orgName>Dartmouth</orgName> won the Lambert Trophy while I was in college, and that was one of the best football teams on <placeName>the East Coast</placeName>, you know. That was a different <orgName>Dartmouth</orgName>.</u>
+      <u who="STEINBERG"><persName>Mm-hm</persName>. </u>
+      <u who="RUTTER">Yeah.</u>
+      <u who="STEINBERG">So what else—what did your—what—what did some of the other people who you served with do after their service? Obviously, you went back to your grad school track, but, like, have you kept in touch with them?</u>
+      <u who="RUTTER">Nope. <orgName>The 11th Cav</orgName> has a—you know, they got a—an organization.</u>
+      <u who="STEINBERG">I’ve seen their website, yes.</u>
+      <u who="RUTTER">And I get their mailings all the time. And, you know, no! My sun doesn’t rise and set on <orgName>the 11th Cav</orgName>. I’m proud I served with that unit, you know, as units go. I had a good experience in—in the <orgName>Army</orgName> with that group. But the <orgName>Army</orgName> and service in <placeName>Vietnam</placeName>—neither one of them are terribly important in terms of my overall life, so there is—there are one or two people I know—that I—this guy that’s, you know, was a year behind me. But he and I worked together in <placeName>Vietnam</placeName>, and we were together in basic. But, you know, we had very similar experiences with the military, and went to <placeName>Haverford</placeName> together and so and so. Yeah, more similar than not.</u>
+      <u who="STEINBERG">Well, thank you for sharing your stories. Is there anything else that you would like—</u>
+      <u who="RUTTER">Yeah, no, no,—</u>
+      <u who="STEINBERG">—to add?</u>
+      <u who="RUTTER">—that’s—that’s pretty much it. Thanks for your patience. You’ve been very—a good interlocutor. </u>
+      <u who="STEINBERG">Oh. Thank you. Thank you. </u>
+    </body>
+  </text>
+</TEI>

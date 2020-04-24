@@ -1,0 +1,525 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="REED-WESTON"/>
+        <person xml:id="SEYMOUR"/>
+        <person xml:id="WOMAN"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="REED-WESTON">All right, so this is <persName>Anne Reed-Weston</persName>. I’m sitting down with <persName>Thaddeus Seymour</persName>. It’s <date>May 13th, 2015</date>. I’m currently on <orgName>Dartmouth</orgName> [College] campus, and I’m doing a phone interview with <persName>Dean Seymour</persName> from <placeName>Florida</placeName>. So thank you once again, Mr. <persName>Seymour</persName>, for agreeing to do this interview with me.</u>
+      <u who="SEYMOUR">It’s a pleasure for me. I’m looking forward to it. Go ahead.</u>
+      <u who="REED-WESTON">That’s great. So I was hoping that you could give me just a little bit of information about your background: like, when you were born, where you grew up, things like that.</u>
+      <u who="SEYMOUR">All right. Well, I was born in <placeName>New York City</placeName> on <date>June 29th, 1928</date>. I was the second of two boys in our family. I have an older brother, <persName>Whitney North Seymour</persName> Jr.—we call him <persName>Mike</persName>—who’s <date>five years older</date>. My dad had graduated from <orgName>University of Wisconsin</orgName> and came to <orgName>Columbia Law School</orgName> and did very well as a law student there. He married my mother, who grew up in <placeName>Huntington</placeName>, <placeName>West Virginia</placeName>. They met at <date>summer school one year</date> at <orgName>the University of Wisconsin</orgName>. </u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">—or whatever. But by <date>1965</date>, <placeName>Vietnam</placeName> had become an issue none of us could escape. And really from <date>1965</date>, ’66, ’67, the temperature on the stove was getting hotter, and the pot was beginning to boil, and by <date>1968</date>, I must say, I remember events like <name type="event">Armed Forces Day</name> as being absolute nightmares. Armed Forces Day was when <orgName>the ROTC [Reserve Officers’</orgName> Training Corps] troops would march in formation on <date>May 15th</date> on the [<orgName>Dartmouth] Green</orgName>, and you can’t have a more vulnerable target for people to throw things or yell or disrupt or whatever, and if my memory serves me right—maybe I got my years wrong—I think maybe in <date>1967</date> we moved it to the playing fields down by what is now the hockey rink. They used to be just playing fields. </u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">It was getting complicated. Among the bravest, and I sincerely respected and continue to respect them, there was a group that begin I want to say in <date>1967</date> or ’68—at noon, standing at the flagpole for 15 minutes, just as a statement of their opposition to the war. And over <date>the years</date>, you saw the line get longer. Indeed, I remember every once in a while there’d be a group of hard hats who favored the war, who would stand sort of face to face with them. As you know, there’s that wide path that goes across the campus at the flagpole, and would stand across from that. </u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">There was another factor that I haven’t mentioned but I know is very much a part of your work, which is, again, so different from <date>today</date>. The draft was taking shape, and first—I can’t remember exactly how it was organized, but at first a few people were drafted, and then the call was for more people , and then the device was a lottery so that you got a lottery number, and there were a number of students who—I respected them very much—who went to <placeName>Canada</placeName>, simply not to be a part of that system.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">Now, were we—as I say, I taught for <date>five years</date> and loved it, and then was dean for ten and loved that. I was really—of all the work I’ve done, that was my favorite work. As I say, <date>the last couple of years</date> were pretty awful, and that was not a favorite, but that period from <date>1959</date> to 1965—that was really fun. I had a lot of friends, and I continue to stay in touch with them. I usually or often will come up for their reunions and be a part of that, often speak at their banquets and so on. So those were very good <date>years</date>.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">And I sense that’s still very much a part of <placeName>Hanover</placeName>, the fact that it was a great place to have and raise a family. We still talk about when the computer opened up in the basement of College Hall [now the Collis Center] and when our seven- and <date>eight-year-old</date> children would sit at teletypes and have a glimpse of what their future was going to be. It was fascinating. </u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">—what began in an operating—in a delivery room in <placeName>New York City</placeName> in <date>1928</date>.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. You mentioned earlier that you really enjoyed the values of campus life. I was wonder if you could expand a bit more on what exactly you mean by that and why you found it so appealing.</u>
+      <u who="SEYMOUR">Well, I guess first of all I would have to say that one of the most interesting and reassuring parts of having been involved in education all my life and having, you know, watched campuses for <date>60 years</date>, the student of <date>today</date> is genuinely engaged in the real issues of <date>today</date>, and the majority of students are. And it’s for real.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">I remember one morning walking to an eight o’clock class, and a student—I almost can remember his name; his last name was <orgName>Ames</orgName>—a student wearing a red felt hat walked by me and said, “I just got my deer.”</u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="SEYMOUR">He had gotten up early enough in the morning to get his deer and be back on campus on time for an eight o’clock class. That, in its own way, is a value. It’s a very different value from issues of global citizenship and all the other issues that are so much on our minds <date>today</date>, but I guess in terms of a lack of meanness and tension, they were pretty nice values. A nice place to live. We look back on <date>those as happy years</date>.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">—but in <date>1962</date> there were a handful of African-Americans at <placeName>Dartmouth</placeName>, and one reason for that was that there were a handful of African-American students at schools that could prepare them for a place like <placeName>Dartmouth</placeName> or <orgName>Harvard</orgName> [University] or <placeName>Middlebury</placeName> [College] or whatever. And <persName>Charlie Dey</persName>, inspired by <persName>John Dickey</persName>, organized a program, a <date>summer</date> program at <orgName>Dartmouth</orgName> where promising African-American students would come for <date>the summer</date> and be, in effect, coached and tutored to be ready to start in <placeName>Deerfield</placeName> [Academy]. Just imagine if you were raised on a cotton farm in <placeName>Mississippi</placeName> and suddenly were plunked, without any preparation, into <placeName>Deerfield</placeName> or [<orgName>Phillips] Exeter [Academy</orgName>]. It’s just not going to work.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">Okay. Well, that’s all of that.</u>
+      <u who="REED-WESTON">[Chuckles.] So this spirit of campus that you’re talking about—did that play a role in why you decided to come teach at <orgName>Dartmouth</orgName>? Because you graduated in <placeName>California</placeName>, and then you went across country here.</u>
+      <u who="SEYMOUR">I left out the fact that I graduated from <placeName>California</placeName> and then did my graduate work at <orgName>the University of North Carolina</orgName> at <placeName>Chapel Hill</placeName>, so I spent <date>four years</date> at Chapel Hill, got my <persName>Ph.D.</persName> in English there, and the head of the English department was out recruiting and interviewed me there and invited me up. I saw the campus. It was really what I thought teaching at college would be like.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">In fact, I have a very keen recollection of—I don’t know if you’ve had much experience in Sanborn House, but <persName>Sanborn House</persName>, on the top floor, I think still has a small sort of coffee room at the end of that big, carved <persName>Shakespeare</persName> room. And during my interview, I went in there for a cup of coffee with all these people I didn’t know, and they were all talking about their students, and talking earnestly about freshmen. Somebody said, “Well, I’ve got So-and-so. He’s a very talented young poet.” </u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="SEYMOUR">—the salaries for the graduate faculty. And you just didn’t take undergraduates seriously. And literally I remember very clearly I was really stunned and thrilled to be at a place where these grown-up faculty people were talking and caring about their freshmen students. I remember that very clearly.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. So can you talk a bit about what it was like to teach here for <date>your first few years</date>? You’ve talked about it a bit, but if you could expand just on the campus climate and some of the relationships between students and faculty?</u>
+      <u who="SEYMOUR">I’ll do my best. The teaching was wonderfully old-fashioned. When I started, we as instructors were given the sort of grunt-work courses. We were teaching English 1 and English 2. The curriculum for English 1 was The Dartmouth Bible, so here, after <date>four years</date> of graduate work, I’m [unintelligible] teaching The Bible and reading the stories, wondering how they’re going to come out. The Dartmouth Bible was edited by two <orgName>Dartmouth</orgName> faculty people, and it is very beautifully edited, and it made for a very good teaching. And I think students got a lot out of it.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">And suddenly we were sort of trying to bring these people together, which I thought was a wonderful expression of what education should be all about. So my teaching was that in <date>the fall</date>. I think we had one course in creative writing, just to keep us from going nuts and then in the spring you taught English 2. You taught one <persName>Shakespeare</persName> play. We all had the same play. And then we had a choice of some modern fiction. As I recall it was some [<persName>William C.]</persName> <persName>Faulkner</persName> and some, oh, [<persName>Joseph] Conrad</persName> and a few things like that. But mostly it was an awful lot of it was writing, a theme a week.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">I had gone to this little school, <orgName>Kent School</orgName>, in <placeName>Connecticut</placeName> and had often thought that maybe what I’d like to do is teach at a school like that or maybe even be headmaster. And <persName>Polly</persName> has often teased me in saying, “You were the headmaster, but they were college students, not secondary students.”</u>
+      <u who="REED-WESTON">[Chuckles.] <persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">And there may have been a little bit of that, at least in <date>those early years</date>.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. How do you think that the administration played a role in that type of atmosphere?</u>
+      <u who="SEYMOUR">It was so different. It was so small, and the dean’s office was—there were three of us. That is, it was me and <persName>Charlie Dey</persName> and this guy, Jay [C]. Whitehair [Jr., Class of <date>1955</date>], who overlooked student organizations and fraternities. There was a receptionist, there was a woman who take care of the academic records, and then each of us had a secretary. So you take the whole dean’s office, and it was seven or eight people. </u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">And we had, for the upper-class students, about 2,100—and I made it a habit to try to get to know them pretty well. I had a theory that the biggest enemy to order is anonymity, so I really worked to have students think that I knew all their names.</u>
+      <u who="REED-WESTON">Mmm. Were you able to learn all their names?</u>
+      <u who="SEYMOUR">Right! I worked at it. We had dean’s cards with their photographs that I would spend some time going through and try to get to know them. But it’s such a different time. We did not have the issues—I know how important the issues are. We share many of those issues in our own family and respect our children and grandchildren for dealing with them so forthrightly. But they were just different issues.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">The issue of gender—of course, it was a men’s college then, but the issue of sexual preference was just—I know it was there, but it was just not an issue.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">Now, we’re of a generation where our granddaughter and her partner are the parents of a dear little boy, <persName>Jack</persName>. They found a sperm donor so that they now have <persName>Jack</persName>, who has in effect two moms, and it couldn't be more beautiful. He’s a wonderful, dear great-grandchild of ours. But I think of where my parents—how they would react to it [chuckles] and realize that it’s <date>2015</date>; it’s not <date>1960</date>.</u>
+      <u who="REED-WESTON">Mmm. Do you think there were any—</u>
+      <u who="SEYMOUR">So—</u>
+      <u who="REED-WESTON">Sorry. Go ahead. Do you think that there were any big, divisive issues in <date>your first years</date> at <placeName>Dartmouth</placeName>?</u>
+      <u who="SEYMOUR">Oh, certainly there were, but they were—if you look back on, they’re pretty damn silly. They were—when I came—well, here are a few that I had to deal with:</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">That would answer your question very quickly.</u>
+      <u who="REED-WESTON">[Chuckles.] Yeah.</u>
+      <u who="SEYMOUR">Do I characterize the institution as politically aware?</u>
+      <u who="SEYMOUR">Yeah.</u>
+      <u who="REED-WESTON">No, but nor was the country. And these were [President <persName>Dwight D.] Eisenhower</persName> <date>years</date>. We boasted about his speaking. That was <date>the year</date> before he got up there, but his wonderful statement about “Do not join the book burners,” which is something worth reading <date>every year</date>. But <persName>Eisenhower</persName> otherwise was overseeing a pretty tranquil country. Now, bear in mind it was a country that had just come through <name type="event">World War II</name>, had just come through <placeName>Korea</placeName>, and all it wanted was picket fences and daughters in pinafores. And they cam- —I think all campuses reflected that. It was—it really was <name type="event">the Vietnam War</name> and issues—and recognition—to come back to the <orgName>ABC</orgName> program—of the possibility for diversity. </u>
+      <u who="REED-WESTON">Ah.</u>
+      <u who="SEYMOUR">It was the combination of <placeName>Vietnam</placeName>, which was really sharpened by the draft—no question of it—and the beginning of—I won’t say “critical mass” but the beginning of a sufficient representation of African-American students on all the Northeastern campuses of that, brought important issues to the campus.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">They weren’t very closely connected at first. Indeed, I remember what an almost shock it was when [the Rev.] <persName>Martin Luther King</persName> [Jr.] would speak about <placeName>Vietnam</placeName>, and there was part of me that said, “Well, now, he’s all about racial justice. What’s he doing talking about <placeName>Vietnam</placeName>?” And so those two streams were beginning to define themselves. And then they sort of crashed together I think maybe a little after I left. I left in ’69.</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="SEYMOUR">They were there. I remember that in <date>the spring of ’</date>69, at the height of the concern about the occupation of <persName>SDS</persName> and the building occupation and so on, <orgName>the Afro-American Society</orgName> came in with a list of 47 demands. And we in fact had—I remember we had talking teams, and we had conversations and pretty well resolved those that year. Now, they had a long way to go, and there were lots more to come, but the confluence I think was a little after I left.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. So when you assumed the deanship in <date>1959</date>, did you have any idea that these sorts of issues would really be hitting [the] <orgName>Dartmouth</orgName> campus in a significant way?</u>
+      <u who="SEYMOUR">Absolutely not. Absolutely not. I mean, hell, I was <date>29</date>, <date>30 years old</date>, trying to support a family. It looks like it would be fun if—for one thing, it looked—now, the next thing I want to say, I apologize for, but it looked to me like a more honest job for me than aspiring to be a publish-or-perish, productive teacher-scholar in <orgName>Sanborn House</orgName>.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">I had to—I won’t say “fake it”; that’s not fair. But working on research with an eye to publication was doing what you have to do to keep your job. Doing what I was doing in the dean’s office was what you do for a living. </u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">I do remember we had a custom, usually, of visiting a house. <orgName>House</orgName> meetings were on <date>Wednesday</date> night. And I would go to one house or another on a <date>Wednesday</date> night, and that was fun to do. And we began a custom—my sweet, patient wife—of having <placeName>Palaeopitus</placeName> [Senior Society] over to lunch at the house every <date>Wednesday</date>, so we had <placeName>Palaeopitus</placeName> there for lunch for I’m going to say <date>seven years</date>, till they disbanded themselves.</u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="SEYMOUR">Anytime you see—I think they’ve modified them for some of the schools now, but the standard <orgName>Dartmouth</orgName> gown has, on the lapel, the velvet that hangs down has an oval with an old pine in it.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">And that is the <placeName>Palaeopitus</placeName> symbol, and it just delighted me that I was saying, “Okay, you SOBs, you can dissolve the organization, but the <placeName>Palaeopitus</placeName> old pine”—“Palaeopitus,” as you probably know, means “old pine”: pitus, pine, old pine. “The old pine still lives on the <orgName>Dartmouth</orgName> gown.” I must say part of the pleasure of the job was every once in a while having some fun like that.</u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="SEYMOUR">Anyway, that’s neither here nor there.</u>
+      <u who="REED-WESTON">Are those just on the Ph.D. gowns now, or are they on the gowns for the undergraduates as well?</u>
+      <u who="SEYMOUR">Yeah, I think just on the Ph.D. gowns. But I haven’t looked or studied or seen many <placeName>Ph.-</placeName> —I don’t think anybody at <persName>Rollins</persName> has one.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">I’m pretty sure. And we were up for commencement <date>a few  years ago</date>. I noticed one of the—somebody else’s gown, whether it was <orgName>Tuck School [of Business</orgName> at <orgName>Dartmouth</orgName>] or whomever—somebody else had a different one. They may end up changing it, but at least for one shining hour,—</u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="SEYMOUR">—<placeName>Palaeopitus</placeName> was on the gown. That was fun.</u>
+      <u who="REED-WESTON">I can see that.</u>
+      <u who="SEYMOUR">Yeah. That’s a very important topic. It was a given. When we came, <orgName>ROTC</orgName> was there, just like <persName>phys ed</persName> was there. I mean, <persName>phys ed</persName> was a dumb requirement, but everybody had to take it, and we had a phys ed requirement, and we had some cranky old faculty, who scared the hell out of the rest of the faculty, and they just weren’t going to be booted out, so <persName>phys ed</persName> was there. I think a modern and enlightened world has better views of that: physical health and so on. But in <date>those days</date>, it was jumping over horses—horses, I guess you call them—and stuff like that, and stuff they did in old [<persName>Charles S.]</persName> “<persName>Charlie” Chaplin movies</persName>. So <persName>phys ed</persName> was a requirement.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">When people started to get serious about, “What are we doing”—you know, getting serious about the war and wondering, “What are we doing having <orgName>ROTC</orgName> here?”, some terrible things were discovered. For example, whereas we recruit and appoint other members of the faculty, <orgName>ROTC</orgName> faculty are appointed by the <orgName>Pentagon</orgName>, period. They just say, “Oh, your commanding officer will be So-and-so.” So one issue was the in effect integrity of the hiring process for members of the faculty, because these people had faculty rank.</u>
+      <u who="REED-WESTON">Why do you think that—go ahead.</u>
+      <u who="SEYMOUR">I do think it was—as I try to visualize <orgName>the Green on Armed Forces Day</orgName>, it seemed to me there was a hell of a lot of people, like two or three hundred students for that. I could be wrong on that. </u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">Go ahead. You were asking—</u>
+      <u who="REED-WESTON">Why do you think that people—yeah, why do you think that people entered the <orgName>ROTC</orgName> program at <orgName>Dartmouth</orgName>?</u>
+      <u who="SEYMOUR">Well, I think—I think there were incentives. You know, at the very beginning there was no draft, so that there was no incentive of that sort. Later on, when the draft started, I think it was attractive because you would get commissioned; you wouldn’t go in as a private. But there were some pretty attractive financial benefits. There was a [<placeName>U.S.</placeName>] Marine [Corps] program—I’ve lost the name. <orgName>Marine</orgName>—I’ve lost the name. But there was a Marine program where, as I recall, you didn’t have to do anything at <orgName>Dartmouth</orgName>, but you went during <date>the summer</date>, and when you graduated you were commissioned as a second lieutenant. And I’m pretty sure that there were financial inducements on the others, but I don’t know that. You’d have to look that one up.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">[Chuckles.] Oh! Don’t you have a sweet view the way people look at what—</u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="SEYMOUR">We had—I was a young guy with at that point four children. When I started teaching, my salary was $3,600 a year.</u>
+      <u who="WOMAN">Yeah.</u>
+      <u who="SEYMOUR">Okay, good. That was our daughter-in-law who leaves <date>this weekend</date> to see our granddaughter graduate from <orgName>Bucknell</orgName> [University], of which we’re very proud.</u>
+      <u who="REED-WESTON">That’s lovely.</u>
+      <u who="SEYMOUR">It was—if I say it was a job, that really sounds awful. But it looked like fun. As I say, I really liked <persName>Don Morrison</persName>, who was at the time the provost and who asked me to do it. I really liked <persName>Al Dickerson</persName>. I thought it would be fun to work with them, and I do have to say it seemed—this sounds corny as hell, but it seemed to me a more honest form of work than—I won’t say pretending to be a publishing scholar, but having to go through the motions of being a publishing scholar. This way, I could spend all my time doing things that looked to me like—like fun: spending time with students and trying to help them have a better experience at <placeName>Dartmouth</placeName> and do better in their education.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">And I haven’t thought about it in a long time. But I’m dead serious about it. I did that job for <date>ten years</date> and had all sorts  of experiences, including the heartbreak of having to call a father and tell him that his son had been killed in an automobile accident and so on. But I was aware that it was a job where I could really help people, where somebody’s coming in and really having trouble with organic chemistry and wonder if he’ll be in pre-med and duh, duh, duh—and we’d talk about it, and—no, I was in a position where I could get him out of that pre-med, out of that organic class. It just sounds mawkish, and I apologize, but it was—I sincerely looked on it, particularly in <date>the early years</date>, where you had a little bit more sense of control of things—it was a job where you could make a difference for somebody. </u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">So anyway—well, as I say, when they first offered it to me, I turned it down because when you’re in graduate school, the idea of going into the administration is really selling out.</u>
+      <u who="REED-WESTON">Mmm.</u>
+      <u who="SEYMOUR">My adviser when I left said, “What ever you do, <orgName>Thad</orgName>, don’t go whoring after the administration.”</u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="SEYMOUR">And I’ve had that tucked away in my mind. And when <persName>Don Morrison</persName> sat down and offered me the job, my first comment was, “<orgName>Look”—I</orgName> said, “<date>Five years</date> getting a <persName>Ph.D.</persName> I’ve had no training in this. I really—thank you very much, but no thanks.” And that’s when he said, “Well, we’ve been looking over your scholarship and wondered what publications you have in mind” and so on. [Chuckles.] And I remember coming home and talking to <persName>Polly</persName>, and she said, “You know, he’s absolutely right. You’re not a publishing scholar. What you want to do is spend your time on a campus with students.” So I went in the next morning and told him I changed my mind. </u>
+      <u who="REED-WESTON">Mmm.</u>
+      <u who="SEYMOUR">I did not have any ambitions—I think somebody starting a job <date>today</date> has a very different series of things that he or she needs to think about, but for me it was just, Oh, this looks like it’ll be fun.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. All right. I think we’ll pause the interview for <date>today</date> at that.</u>
+      <u who="SEYMOUR">Okay. </u>
+      <u who="REED-WESTON">And I just wanted to thank you very much for this first segment of the interview.</u>
+      <u who="SEYMOUR">[Chuckles.] Well, it’s a more rambling thing than I’m afraid you need. I hope I’m not burdening or boring you with it, but I’m at your service, and we’ll keep going. There’s a lot about <persName>Parkhurst</persName> [Hall],—</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">—and I think the last time we talked about it, it had new meaning in [<persName>Stuart J.] “Jack” Stebbins’</persName> office.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">I can see that as if he were sitting around the table where I am right now, with <persName>John Dickey</persName> and Governor [<persName>Walter R.] Peterson [Jr.</persName>, Class of <date>1947</date>] and [<persName>David H.]</persName> “<persName>Dave” Bradley</persName>. Is he on your list, <persName>David Bradley</persName>, ’<date>58</date>?</u>
+      <u who="REED-WESTON">I believe he might be, but I’d have to check.</u>
+      <u who="SEYMOUR">Okay. When he was there, he was a young lawyer, but he was—and I’ve known him really since he was a freshman. He’s a really good guy. But he was very much involved in the legal aspects of the restraining order and so on. But he was at that 4 a.m. or 3 a.m. meeting.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">And it was absolutely crucial to what happened afterward, so I’m game to talk about that stuff and anything else, so I’ll let you guide me, and I will—</u>
+      <u who="REED-WESTON">Okay. </u>
+      <u who="SEYMOUR">—I will scan my form and get that back to you in due course.</u>
+      <u who="REED-WESTON">All right, this is <persName>Ann Reed-Weston</persName>. I’m talking with <persName>Thaddeus Seymour</persName>. It is <date>the 27th of May 2015</date>. We’re talking for <orgName>the Dartmouth Vietnam Project</orgName>. This is the second part of <persName>Dean Seymour’s</persName> interview. I’m currently on <placeName>Hanover</placeName> campus, and he is in <placeName>Florida</placeName> at the moment.</u>
+      <u who="SEYMOUR">Yes, and let me try in several different ways. First of all, I started dean in the fall of ’59 so the first class I graduated was the Class of ’60. And I can’t reconstruct when the draft started, but soon in <date>the early ‘60s</date> the draft, the obligation for military service, was very much a fact of life for students. And the difference was that in <date>the early ‘60s</date>, if you did your military service, you went to Fort Dix [<placeName>New Jersey</placeName>] for training and then you were assigned as a supply sergeant in <placeName>Oklahoma</placeName>, and there was no risk involved; it was just a matter of serving your time.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. What types of forms did that awareness take? Were  students discussing things more? Were faculty bringing it up? Just—what general forms?</u>
+      <u who="SEYMOUR">All I can do is—we’re talking about a long time ago. I think, yeah, like anything else, like, <placeName>Syria</placeName> and <placeName>Fallujah</placeName> [<placeName>Iraq</placeName>] and <placeName>Baghdad</placeName> [<placeName>Iraq</placeName>], I think people were talking about it more and more because it was more and more a reality for us. It was what we saw in the papers. It was what we saw on the evening news. It was—I don’t know, we were in it. So I think it was more a topic. It had not—now, I’m talking about the mid-‘60s, ’64 or ’5, ’6, around in there. I can’t remember specific actions being called for at a faculty meeting or whatever. That came <date>a year or two later</date>. But as a topic, as an awareness, it was certainly there.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">—didn’t really get loud until <date>’66</date>, ’67, then ’68 and, sure as heck, ’69. </u>
+      <u who="REED-WESTON">Okay.</u>
+      <u who="SEYMOUR">I don’t know when other campuses were beginning to have events. <orgName>Columbia</orgName> [University], which was the first one I recall and sort of the flame that lit the tinder—<placeName>Columbia</placeName>, if I were to guess, was late- 67 or <date>early ’68</date>. Now, there was at the same time [<orgName>University of California</orgName>,] <orgName>Berkeley</orgName> and <persName>Mario Savio</persName> and <orgName>the Free Speech Movement</orgName> and issues there that people on <placeName>the East Coast</placeName> were aware of. And as I recall, they were handing out antiwar material I think on campus, and the campus police had some—or the campus had some regulation prohibiting political activity on campus or something, and this was interpreted as a violation of that, and, boy, <placeName>Berkeley</placeName> just blew sky high. But I’m just—on the dates, I’m not helpful. Thirty seconds on <orgName>Google</orgName>, and you can find out what you need to know.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. So let me ask you—</u>
+      <u who="SEYMOUR">And those are all things that would turn up in The <orgName>Dartmouth</orgName> and certainly were in The [New York] Times, not that students were reading The <orgName>Times</orgName> very much. [Both chuckle.] But there was an awareness there. They were talking about it with their families when they went home and so on.</u>
+      <u who="REED-WESTON">What was the initial attitude—</u>
+      <u who="SEYMOUR">Go ahead.</u>
+      <u who="REED-WESTON">So was that initial attitude generally positive, negative, neutral?</u>
+      <u who="SEYMOUR">Oh, I think—I don’t think there were many people supporting what we were doing, and frankly, I think the ones that were were simply people who wanted to raise hell about the people who were opposing it. I don’t want to pick on any fraternity or two, but I think it was a couple of fraternities that said, “Oh, let’s put on some helmets and go and hassle those guys.” So I don’t recall any what I will say dignified or establishment voices in fear of <placeName>Vietnam</placeName>. I may be wrong, but I don’t remember that. </u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Were the faculty and students discussing this together at this point in time?</u>
+      <u who="SEYMOUR">Yeah, I think there was quite a bit of faculty discussion, to the extent that there is in loose moments in class or hanging out someplace on campus or whatever. I think to some extent it’s an issue of volume. I think the volume in ’64 was pretty low, and by ’69 it was 11. [Chuckles.]</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">If you remember that movie.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">I bet you’ve never seen—have you ever seen This Is Spinal Tap?</u>
+      <u who="REED-WESTON">I have never seen that movie.</u>
+      <u who="SEYMOUR">Set it aside as—I think it’s still funny as the dickens. It’s a takeoff on a rock band that—it’s fun. It’s done by—anyway. Go ahead, let’s get to the serious stuff.</u>
+      <u who="REED-WESTON">So as a part of the administration, how did the administration view these initial—the initial escalation of talking about <name type="event">the Vietnam War</name> on campus?</u>
+      <u who="SEYMOUR">I think an honest answer that it was just one more damn thing to worry about.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">Shame on us, but I don’t think it was a topic where we felt that, as intellectual leaders of our country, <orgName>Dartmouth</orgName> should take a position against what our government is doing in <placeName>Vietnam</placeName>. I think it was much more, “What the hell are we gonna do about the fact that X, Y and <orgName>Z</orgName> is happening?”—or may happen. I may be way off on that, but [unintelligible]. In the dean’s office, that’s the kind of thing you’d spend a lot of your time worrying about, whether it’s a war protest or a water fight.</u>
+      <u who="REED-WESTON">When did you start seeing an escalation of protests and really talking about <name type="event">the Vietnam War</name> as you started getting into ’66? </u>
+      <u who="SEYMOUR">I think—as I say, the first sign I can remember was—you know, my office was 111 <orgName>Parkhurst</orgName>, so I could look out on the campus, beautiful office, but seeing those people standing by the flagpole, I didn’t have the wisdom to think of them as people sitting at a lunch counter in <placeName>Greensboro</placeName> [<placeName>North Carolina</placeName>, referencing a <date>six-month-long</date> protest for equal rights that began on <date>February 1, 1960</date>, at a <orgName>Woolworth</orgName>’s lunch counter], and they weren’t taking that kind of risk. On the other hand, they were with their presence making a statement, which was, to a large extent, counter to what most of the country was feeling at that time. I won’t say the country was wildly enthusiastic  about <placeName>Vietnam</placeName>, but it was a little bit like the first <name type="event">Iraq War</name>. We believed the government that, if we don’t look out, there’s going to be a domino effect and the communists are going to take over all of <placeName>Southeast Asia</placeName>.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">The next stages—I wish I could be more helpful, but this is where The <orgName>Dartmouth</orgName> will have to be your guide—the next stages were rumbles about Armed Forces Day. And I think the first serious ones of those was probably <date>’66</date>, when they had the review out on the <persName>Green</persName>, and then, if my memory is right, in ’67—I think we talked about this last time—we moved it down to the soccer fields on the other side of Park Avenue and, in <date>’68</date>, the football stadium—’68 or ’69, around in there.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">That to me was [chuckles]—was trouble.</u>
+      <u who="REED-WESTON">Yeah. You were talking—</u>
+      <u who="SEYMOUR">But I can’t quite remember—I can’t remember when the first one of those was. But I have seen—I know I have seen in The <orgName>Dartmouth</orgName>, and I’m pretty sure it was the one we did on the soccer fields, a group of protesters carrying signs saying: “<placeName>U.S.</placeName> Out of <placeName>Vietnam</placeName>” or “Peace, Not War” or whatever. And I’ll tell you what I was worried about the most was I also saw some galoots with Nazi helmets and baseball bats. I was much more worried about—sort of like <persName>Ferguson</persName> [<placeName>Missouri</placeName>, referencing the shooting of <persName>Michael Brown]</persName>, <placeName>Cleveland</placeName> [<placeName>Ohio</placeName>, referencing the shooting of <persName>Tamir Rice</persName>] and <placeName>Baltimore</placeName> [<placeName>Maryland</placeName>, referencing the death of <orgName>Freddie</orgName> Gray]—but I was much more worried about some right-wing kook or some AD [<placeName>Alpha Delta</placeName>] (forgive me)—</u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="SEYMOUR">—hitting somebody. Or to some extent they were [unintelligible]. I know they were just trying to be threatening troublemakers, but they scared the dickens out of me.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Do you think that that right-wing attitude was very prevalent on campus?</u>
+      <u who="SEYMOUR">It was there. I don’t think it was prevalent, in part because it wasn’t that popular, but it was there, and it was there—this is jumping ahead, but the thing that really interested me—it was there among the young alumni, and <persName>Parkhurst</persName> was taken over—it was the young alumni, it seemed to me, who were the most mad about it.</u>
+      <u who="REED-WESTON">Oh!</u>
+      <u who="SEYMOUR">I always believed that the older alumni were old enough to have kids the age of our students, a man who understood, This is a hell of a lot more complicated than the young alumni, who would compare it to a water fight. [Unintelligible] understood. Anyway, that’s a whole different topic.</u>
+      <u who="REED-WESTON">Yeah. <persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">Anyway, I don’t—I don’t think—I don’t recall much call it <name type="event">pro-Vietnam War</name> activity. I’m sure there was some there. I’m sure—oh, I’ve got a great one for you.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">There was some ambiguity in the <placeName>ROTC</placeName>. Now, I can almost remember his name, and you can find it, but one of the powerful moments was when one of the <orgName>ROTC</orgName> members stood among those at the flagpole, in uniform, and they court-martialed him.</u>
+      <u who="REED-WESTON">Oh!</u>
+      <u who="SEYMOUR">Now, that case—there’s bound to be a file on that—that’s a fascinating case. And I must say parenthetically, I always wonder what would happen if the star quarterback had come up in his uniform,—</u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="SEYMOUR">—whether that was just a nighttime fantasy for me, but there was an <orgName>ROTC</orgName> student—I want to say his name was <persName>Smith</persName> [<persName>David R. Smith</persName>, Class of ’68]. I’m pretty sure it was, who stood—who was there in uniform and was I think successfully court-martialed and dropped from the program, and there was a lot of discussion on campus about, you know, if you’re in your uniform, are you representing the views of your organization? A topic that has lots of application <date>today</date> and anytime,—</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">—whether it’s your uniform or your company. If you’re an officer of <orgName>Google</orgName> and come out in favor of <persName>Hillary</persName> [<persName>Rodham Clinton</persName>], are you speaking for <orgName>Google</orgName> or just speaking for yourself? All those issues, which are very interesting ones.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. I’ll see if we can find out who he is.</u>
+      <u who="SEYMOUR">I want to say <persName>Smith</persName>, but that’s definitely a pretty dumb guess. But you’ll find that. And calling him would be a ten strike. I swear, I don’t think—I don’t think there are ten people who remember or, as <orgName>I’m</orgName> increasingly aware, ten people still living who remember. Anyway, that was not a ripple, but that was a factor in what was happening.</u>
+      <u who="REED-WESTON">Mmm.</u>
+      <u who="SEYMOUR">Now, there began to be—I don’t know when the first petition to get rid of <orgName>ROTC</orgName> went around. It may have been much earlier than I remember, and it just may be one of those things that I didn’t think it was that big a deal at the time and I was worrying about other things, but you can find that in the faculty minutes.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">But later on, the faculty discussions were very hot. I do remember—oh, what was his name? Some nice guy who ran the film program. I almost remember his name. Came into a faculty member [sic] with a tape recorder. He was just thinking that he was recording history. And some faculty member saw him and just raised hell about violation of the sanctity of faculty discussions and this, that and the other. There was a brief stink about that.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">Gosh, I wish I could remem- —he did all right. He went out to <orgName>Stanford</orgName> [University], so it wasn’t that he gave up his career. Anyway, that’s for later on.</u>
+      <u who="REED-WESTON">Yeah. So—</u>
+      <u who="SEYMOUR">Anyway, I’m not helping you much with the transition in <date>the ’60s</date>.</u>
+      <u who="REED-WESTON">No, this is great.</u>
+      <u who="SEYMOUR">But from my perspective, ’64, ’<date>66</date> was when the transition occurred. I do always tell friends that a guy name [<persName>David R.]</persName> “<persName>Dave” Weber</persName>, who later became a trustee—<persName>Dave Weber</persName> was the head of the then <orgName>UGC</orgName> [Undergraduate Council]. I don’t know where he is now. And was the student speaker at convocation I want to say in <date>1964</date>, and he gave them a sort of give-’em-hell speech. I remember walking back with some friends and saying, “You know, things are gonna be different.” His speech was talking about, in effect, student power and changing environment and priorities and so on. It might be worth—it’s probably worth rereading.</u>
+      <u who="REED-WESTON">Yeah</u>
+      <u who="SEYMOUR">And he’s still around. He was a trustee for a while. I have no idea what he’s doing. Again, I haven’t seen him in <date>50 years</date>. But I do remember <persName>Dave Weber’s</persName> convocation speech. If somebody said to me, “You can pick one thing in your experience that represents the change at <orgName>Dartmouth</orgName>,” I would say it was <persName>Dave Weber’s</persName> speech. When I came away from that speech, I knew things were going to be different. And they were.</u>
+      <u who="REED-WESTON">Did you start seeing that difference in terms of how students were organizing in relation to the rest of campus?</u>
+      <u who="SEYMOUR">I guess so, but I suspect that’s just sort of a self-serving retrospect of—<date>ten years later</date>, I’d say, “Oh, yeah, after the speech you could really tell the students started organizing.” At the time, I’m sure I didn’t make that kind of connection.</u>
+      <u who="REED-WESTON">So you mentioned earlier—</u>
+      <u who="SEYMOUR">But others will have a good perspective on that.</u>
+      <u who="REED-WESTON">Yeah. You were talking earlier about how initially, in about ’65, everybody was relatively supportive of the <placeName>U.S.</placeName> goals in <placeName>Vietnam</placeName>. </u>
+      <u who="SEYMOUR">Well,—</u>
+      <u who="REED-WESTON">Did that start changing?</u>
+      <u who="SEYMOUR">Oh, yeah, I think it certainly started changing. And I don’t—when I say everybody was supportive of—I think it was more a kind of passivity. They just <placeName>weren’t</placeName>—I don’t think they wanted to get in a discussion where somebody says, “How do you stand on the war in <placeName>Vietnam</placeName>?” They were just too busy being <orgName>Dartmouth</orgName> students and doing other things. They were not opposing—they were not actively opposing it, but they weren’t being, to my recollection, actively called on to support it.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">Now, in <date>1965</date> and <date>’66</date>, I can’t identify a single thing that would reflect that at <orgName>Dartmouth</orgName>, just as, frankly, I could not identify that in <date>2015</date>. </u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">But in terms of support for the war, personally—we talked about a lot of different people, but my own perception was it was just sort of one more thing the government was doing. And, hell, just before that, we had been fighting in <placeName>Korea</placeName>, so what else is new?</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">Oh, I think a crucial element of this is the draft.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">And I wish I had a clearer recollection of how it was organized and who was drafted and so on, but that’s a blur to me.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. What was the general attitude towards the draft as things started heating up in <placeName>Vietnam</placeName>? You’ve talked a bit about how you were advising students. Was there a different attitude about the <placeName>ROTC</placeName>, about the military in general as the danger of being drafted started increasing?</u>
+      <u who="SEYMOUR">Oh, yeah. And pretty soon you had students going to <placeName>Canada</placeName>. I have a number of students I’m still in touch with who went to <placeName>Canada</placeName> rather than be drafted. A lot of people called them cowards, but increasingly [chuckles] I think—people said, “Boy, those guys were smart.” As being drafted meant going to <placeName>Vietnam</placeName>, it became very different. </u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="SEYMOUR">But the whole business—there’s a whole separate subject, and I’m not very knowledgeable and certainly not sophisticated, but the whole issue of that draft is a huge factor in understanding <placeName>Vietnam</placeName> at a place like <placeName>Dartmouth</placeName>, period.</u>
+      <u who="REED-WESTON">Yeah. And so how did that manifest, concerns about the draft, especially as you start getting into <date>late 1960s</date>?</u>
+      <u who="SEYMOUR">Well, one manifestation was if you got a low number or a high number, I guess—the higher the number, the less likely you were to be drafted. What your number was became something—everybody was conscious of, people were conscious of and talked about. It must have been—beyond that, I just don’t—I don’t have much connection to it. I know it was there. It did not have much effect on my daily work with students because they weren’t going to be drafted while they were at <orgName>Dartmouth</orgName>. And my focus was on the students who were on campus.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. How did your <date>daily</date> work change or alter at all during <date>the 1960s</date> as <placeName>Vietnam</placeName> became a bigger and bigger part of life in <placeName>America</placeName>?</u>
+      <u who="SEYMOUR">Oh, what a good question! And a wonderfully silly answer is, “Not very much.”</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">But I think part of that was I was trying to keep it from not changing very much, trying to hang onto <persName>Mom</persName>’s apple pie.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">On the other hand, being scared to death all the time about riots and building occupations and <orgName>Armed Forces Day</orgName> and fretting about trouble became more and more a fact of life. I really—this is the silliest way to put it: I loved my first <date>five-plus years</date> of dean. I never had more fun. And at this stage in my life, I would have to say of all the jobs I’ve had, all the work I’ve done, the most fun and satisfaction I’ve had was being dean of the college at <orgName>Dartmouth</orgName> from <date>1959</date> to, say, <date>1964</date> or <date>’65</date>. I mean, I knew the students. We trusted each other. The relationship was pretty good. The problems were family problems: water fights and misbehavior, that sort of stuff.</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="SEYMOUR">By <date>1969</date>, when 55 of our students went to jail for—students and a few others—went to jail, I remember saying, Those lucky bastards. I’d give anything to spend <date>30 days</date> in jail and not to have to deal with what I have to deal with <date>every day</date> in my office. I’m serious.</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="SEYMOUR"><orgName>I’m</orgName> finally—by the end of those ten years, it was just brutal, it seemed to me, and you just never knew when something would happen. Indeed, I think it was during that period that the dean of students at <orgName>Columbia</orgName> was shot.</u>
+      <u who="REED-WESTON">Oh, wow.</u>
+      <u who="SEYMOUR">Not over this issue; it was some other one. But I do remember one day I was sitting in my office, and a nice woman who checked people in came in and said, “Now, don’t be concerned about this issue, but I think the next student coming in to see you has a holster with a gun in it.”</u>
+      <u who="REED-WESTON">Oh-oh-oh-oh-oh!</u>
+      <u who="SEYMOUR">And I remember saying to <persName>Doc Dey</persName>, whose office was next to mine,—there was a doorway—I said, “<persName>Doc</persName>, can we crack your door open a little bit and can you keep an eye on this?” This student came in with some tedious question about changing a course, and he missed the deadline, and he was a classics major, and [mumbles]. And then, about halfway through this conversation, he sort of leaned back, and I saw his hand go to his waistband. I thought, Oh, my God!</u>
+      <u who="REED-WESTON">Oh-oh-oh-oh!</u>
+      <u who="SEYMOUR">And he took his pipe out. [Laughs.]</u>
+      <u who="REED-WESTON">Oh, okay.</u>
+      <u who="SEYMOUR">The holster was for his pipe, and what <persName>Esther [P. Torrey</persName>] saw was the shiny wood of the pipe bowl rather than the handle of his pistol. I always thought that was one of those moments that gave me some perspective. </u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="SEYMOUR">Anyway, I always felt that was important simply because up to then, nothing like that had ever happened at <placeName>Dartmouth</placeName> before. Suddenly, students were occupying the president’s office. Now, they’d left before it closed, as I recall. It was not a building occupation, but it was an event that scared the hell out of everybody. And I’m going to say that was sixty- —well, I can tell you—whenever <persName>Abigail</persName> was born, which was—</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">I have it written down, to be sure. She was born in <date>April</date>, on <persName>Shakespeare</persName>’s birthday, which is <date>the 23rd</date>. That was ’87 [sic; ’67]. That happened in ’87 [sic; ’67]. So the first occupation of an administrative office was in <date>April—April 22nd or thereabouts, 23rd, 1987</date> [sic; <date>1967</date>]. Now, how about that for authoritative information?</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. So was that a sign of increasing student activism?</u>
+      <u who="SEYMOUR">Oh, absolutely, absolutely.</u>
+      <u who="REED-WESTON">Can you talk a bit about that?</u>
+      <u who="SEYMOUR">Well, just the drumbeat was getting louder on a lot of issues. You had <placeName>Vietnam</placeName>, but here was this issue of divestiture. Divestiture became a huge issue over apartheid, and that’s all a separate thing, before your time,—</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">—but worth studying sometime. But this issue of divestiture hit a lot of campuses, particularly <orgName>Kodak</orgName> stock, but other issues. And then there were—<orgName>the Afro-American Society</orgName> was beginning to develop issues which, by <date>1969</date>, became 47 demands. That was in <date>the spring of ’</date>69 as well. </u>
+      <u who="REED-WESTON">Ah.</u>
+      <u who="SEYMOUR">Oh, my God! </u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="SEYMOUR">Yeah. And the leader of that, and he’s a guy to talk to and have some fun with, is [<persName>Robert B.]</persName> “Bob” Reich [Class of <date>1968</date>]. Is he on somebody’s list to call?</u>
+      <u who="REED-WESTON">I believe that someone is interviewing him, yes.</u>
+      <u who="SEYMOUR">Okay, because he will be very wise about this, and he will have a very important perspective. He was doing a lot of interesting things, including the experimental university, and so he’s—he’ll be informative. And he’ll have—as I recall, he was head of <orgName>the Undergraduate Council</orgName> <date>his senior year</date>, so he’ll have a lot of thoughts about that.</u>
+      <u who="REED-WESTON">Sorry. Can—</u>
+      <u who="SEYMOUR">But the last time we were chatting, I was telling you about <placeName>Palaeopitus</placeName> and the gown. There was all that sort of stuff going on, giving out Green Key, as I recall, and I think they gave out the <persName>Barrett</persName> [All-Around Achievement] Cup. Just a lot of cranky things that didn’t have anything to do with <placeName>Vietnam</placeName>, but the fact that people were raising hell on other campuses about <placeName>Vietnam</placeName> sort of gave license to raising hell about anything.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">Food in Thayer Hall [now Class of <date>1953</date> Commons]—</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="SEYMOUR">—and so on.</u>
+      <u who="REED-WESTON">So about <placeName>Vietnam</placeName>, did you start seeing student leaders on the subject?</u>
+      <u who="SEYMOUR">Yeah, there were—they were not, in my view, <orgName>the Joe College</orgName> obvious student leaders. That’s a very interesting question. Most of the students who were speaking out on <placeName>Vietnam</placeName> were not so much <persName>the Bob Reiches</persName>. <persName>Bob</persName> was obviously opposed to the war. But he was not leading the charge. There’s a part of me that could say that’s sort of the way the world is, of—people who have earned a high-profile position don’t want to risk it with a controversial cause by being high profile in a controversial cause. That may be a very unfair thing to say, but—</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="SEYMOUR">And that’s where talking with <persName>David</persName> [H.] Green [Class of <date>1971</date>] will be helpful to you because he knew all those people.</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="SEYMOUR">But there were certainly a lot of very good leaders who were sympathetic and supportive, but I just don’t see them as the ones organizing an event or painting the placards.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. So it was a different group of student leaders?</u>
+      <u who="SEYMOUR">I think so, but I could be—that’s something you’ll test with a lot of people.</u>
+      <u who="REED-WESTON">Yeah. Did you start seeing new student organizations on campus?</u>
+      <u who="SEYMOUR">I guess, but in <date>those days</date>, anything was an organization. You certainly didn’t have new organizations—in <date>those days</date>, to be a recognized organization, you had to be approved by <orgName>COSO</orgName>, <orgName>the Council on Student Organizations</orgName>, and there was just a hell of a lot of bureaucracy involved. But if I wanted to start a group to bring peace back to <placeName>America</placeName>, I could get two other guys and it’s done.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">So I think there was a lot of informal, I’m going to say transient organization of groups, but I’m really fuzzy on that.</u>
+      <u who="REED-WESTON">Yeah. When did you start to see action by the <orgName>SDS</orgName> on <orgName>Dartmouth</orgName> campus?</u>
+      <u who="SEYMOUR">That’s a wonderful question. It’s funny, I talk to people, and they have on idea what <persName>SDS</persName> stands for or was, and as I look back on it, I can’t tell you much about <persName>SDS</persName>. I know it was there, and I know it had activities and was issuing statements and so on. To the extent that there was a formal organization that might be the equivalent to <orgName>the Undergraduate Council</orgName>, <persName>SDS</persName> was the student anti-administration, both college and national group. But I couldn’t tell you who the officers were or, frankly, many things they did. I don’t know why that is. Maybe that’s something I have to talk to my psychiatrist about.</u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="SEYMOUR">I just may have blocked it out. But <persName>SDS</persName> is certainly a factor, and anybody from that era, if you were to say, “SDS,” they would know what it stood for. And yet most people I talk to have never heard of it. Don’t know anything about it. But somebody—I don’t know why—as I say, it just may be Freudian on my part, but I have very little recollection of <persName>SDS</persName>. I don't know where they met or when they issued demands or who the officers were or anything, except I know they were very much a part of the place.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">—the first line was, “<persName>SDS</persName> is on the rampage.”</u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="SEYMOUR">And he goes on from there, so clearly <persName>SDS</persName> was a factor of life, but for some reason it’s not a factor of life for me in <date>2015</date>, thank God.</u>
+      <u who="REED-WESTON">Yeah. So did you start seeing other, even informal student activist groups that were really focusing around <placeName>Vietnam</placeName>, especially as you start getting into <date>the late 1960s</date>?	</u>
+      <u who="SEYMOUR">I guess at that point I’ll say yes, but it was more—I don’t how how much it was organized, but it was more groundswell of opposition to <orgName>ROTC</orgName> as an expression of opposition to the war, and more in effect thereby opposition to the administration for other complicity; for example, allowing military recruiters on campus and the god-awful business of some <orgName>Army</orgName> recruiter—there’s a building that used to be called <orgName>the Graduate Club</orgName>. It’s a high building with columns. It’s probably gone now. Right next to the cemetery, right next to Thayer Hall. But that’s where the placement office used to be, and the placement office also was involved with enlistment of the military and so on. So when a person from the <orgName>Army</orgName> came up to talk to people who might be interested in joining the <orgName>Army</orgName>, they would meet there.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">So the short answer is I can’t remember specific initiatives. I just had a sense there was some damn thing happening <date>every day</date>.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Did you think that it would eventually get resolved?</u>
+      <u who="SEYMOUR">But I retired. [Both chuckle.] Period. I just—I couldn’t—I’d done it for <date>ten years</date>, and I hoped some wise person would get it resolved or that time would get it resolved, but I certainly—when I finished up, all I could say is thank God.</u>
+      <u who="REED-WESTON">Nn-nn. </u>
+      <u who="SEYMOUR">But that for me was a cheerful, good-humored gathering of friends who really cared about each other, listening to jazz and drinking beer, and it just made all the difference for me in leaving with a good memory of the place, because if I had had to leave signing dismissal papers for 25 students who did X, <orgName>Y</orgName>, or <orgName>Z</orgName> and that was my last official act, what an awful way to have to remember <orgName>Dartmouth</orgName> for the rest of <date>my years</date>. So I was very lucky that way.</u>
+      <u who="REED-WESTON">Yeah. I think we’re going to have to end for <date>today</date>, but we’ll be finishing—we’ll be continuing the interview in a third section, so thank you very much for talking with me <date>today</date>.</u>
+      <u who="SEYMOUR">Well, you hard-working soul! Now, do you want to pick a date for that or do you want to do that later?</u>
+      <u who="REED-WESTON">This is <persName>Ann Reed-Weston</persName>. I’m talking with <persName>Thaddeus Seymour</persName> by phone. I’m currently on Hanover campus. He is in <placeName>Florida</placeName> at the moment. It is <date>the 3rd of June, 2015</date>, and we’re talking for <orgName>the Dartmouth Vietnam Project</orgName>. This is the third section of the interview that we’ve been doing.</u>
+      <u who="SEYMOUR">I’m ready for that. In fact, as you speak of that, I’m trying remember, but I guess that it was <date>1968</date> that <orgName>Armed Forces Day</orgName> was on <date>May 15th</date>.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">You can check a calendar and confirm it. But a group or an individual went around and stenciled a circle with a peace sign in it that said “<date>May 15th</date>,” and these were in the sidewalk and I think on sides of buildings and so on. But what I particularly remember was that there was one on the sidewalk in front—on the sidewalk that led to our house. We were in the dean’s house at 13 Choate Road, and I came out in the morning. This was obviously <date>a few days</date> before <date>May 15th</date>, but I came out in the morning and there was this big damn silver reminder [chuckles] that tough days were a’comin’. And I think we did talk before about efforts to relocate <orgName>the Armed Forces Day</orgName> ceremony and military review from the <orgName>Green</orgName> to some playing fields and, finally, to Memorial Stadium [Memorial Field].</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">The other aspects of the buildup, I’m sure you and others will track down, in the faculty minutes, when those discussions began. I really would have to stretch my memory to identify when the first faculty member introduced the topic and then a resolution that we get rid of <orgName>ROTC</orgName>, but that was ’67, probably.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">And I mentioned the student standing by the flagpole. And certainly reviewing the pages of The <orgName>Dartmouth</orgName> would have lots of notices of meetings—</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>, yes.</u>
+      <u who="SEYMOUR">—in <orgName>College Hall</orgName> to discuss, “What should we do?” and so on and so on.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">—the megaphone, reading the text of the restraining order. But what that did was put the students in conflict with the court, rather than with the state police, and that was, I think, a sensitive and sensible way to structure all this, and secondly, it did give some breathing room to try to figure out how to get from here to there when this happened, as, frankly, we all knew it would.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">I thought that was a very important meeting, and my guess is that was <date>a couple of weeks</date> before <date>May 7th</date>.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">Now, let me get to <date>May 7th</date>. Well, the next thing was that the protesters and I don’t know whether to say <persName>SDS</persName> or whomever because it was a pretty miscellaneous group. The protesters started meeting in <placeName>Parkhurst</placeName> on <date>Tuesday</date> afternoon at three. Now, how often they did that, I can’t remember. I think the first time was just a few people, and they grumbled a little, then left. But the second time was <date>the week</date>, to the minute, <date>the week</date> before the building takeover, and I remember there were 50 or 60 students out there, and somebody, probably <persName>John [G.]</persName> Spritzler [Class of <date>1968</date>], in a spirit of participatory democracy,—</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">—was leading the discussion.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="REED-WESTON">And what I sort of playfully remember—maybe I’ve already mentioned this—is his saying—somebody saying, “Well, I think what we ought to do is go into the dean’s office and get <persName>Seymour</persName>, tie him up and lock him in a closet and leave him there.”</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">And then <persName>Spritzler</persName> said, “Well, that’s an interesting idea. How do you all feel about that? How many people in favor of that?”</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">And I’m there, listening at the keyhole, wondering, What the hell’s that vote gonna be? And fortunately it did not carry.</u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="SEYMOUR">But the discussion, as I recall it—and time has made it somewhere more good humored—but the discussion was people suggesting what they ought to do in the spirit of participatory democracy and then voting on. Well, they finally, after an hour or so, disbanded, but it was clear to me that they would be back the next Tuesday, and if nothing happened then, then the <date>Tuesday</date> after that, but something was going to happen sometime.</u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="SEYMOUR">And dear <persName>Matthew</persName>, who’s a very gentle classicist—I never heard anybody more rattled than <persName>Matthew</persName>. “Oh, I’m terribly sorry. Well, I’ll talk to you in a little bit,” and hung up. I always remember my last connection with reality was talking to <persName>Matthew Wiencke</persName>.</u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="SEYMOUR">There’s a very famous picture in <name type="event">World War II</name> of police taking out the president of <placeName>Montgomery Ward</placeName>. I can’t think his name right now. But it was in LIFE magazine and elsewhere, and people sort of compared <persName>Al</persName> to showing that kind of spunk. And other people very sensibly just went out. There was no—nobody was hurt. People were shoved. I had to be shoved in part because, as I think we had discussed before, the restraining order required that somebody be physically removed from his or her office. The judge said, “Look, if somebody comes to your office and tells you to leave and you leave, then that’s your problem. It only becomes an issue of your rights being violated if they tell you to leave and you in effect say, ‘I don’t want to leave.’ And then they then pick you up or whatever.” </u>
+      <u who="REED-WESTON">I don’t think so. No, I never heard of it.</u>
+      <u who="SEYMOUR">Okay, well, it used to be that in <date>the spring</date>, there were two fraternity contests, one of which I know is gone, which was a Frost [Eleanor Frost Playwriting Contest, now part of <name type="event">the Playwriting Festival</name>] one-act play, where every fraternity would put on a play. They were very good. Some were original and so on. </u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="SEYMOUR">A funny and probably relevant contrast. To me, speaking very personally, one of the oddest experiences was suddenly I felt completely at ease. I’d spent <date>three years</date> not sleeping well, waking up in <date>the middle of the night</date>, worrying about this: What should we do? How would we handle this? Is there a better way to do it? And so on and so on. And suddenly what I had dreaded for <date>three years</date> had happened, and I clearly, as we talk about—as I talk about it—I can remember that feeling of competence. I won’t say “confidence” but confidence. I just felt I’m not out of control anymore. Events are determining control, but it’s not up to me now to decide this or decide that. This scenario is beginning to play—the lights have dimmed, and the curtains have gone up.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">I want to go back to the moment when everybody charged up the steps. I may have told you this before. But <persName>John O’Connor</persName>, whose name keeps surfacing, was such a dear man. He was the best appointment I made and just a really good guy, a good old Irish Catholic that we used to tease when we had this or that concern. We gave him some money for some more candles. “<persName>John</persName>, I want you to light some more candles for us. We really need a lot of help.” And he and I—he and all of us were very close.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">So that’s it. But what happened after that was pretty much gravity taking over. Well, no, there are a couple of things to comment on. The sheriff read his whole restraining order, I think twice. Then the question was: How do we move from the building being occupied to being open again <date>the next day</date>? And all of us had the feeling that it was crucial that we back to I won’t say business as usual but that we who work in that building be able to go to work in our offices <date>the next day</date>.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">Okay. Now, I think I’ve told you everything I know and then some.</u>
+      <u who="REED-WESTON">So I guess just going back to the meeting in <persName>Stebbins</persName>’ office, can you just elaborate a bit on the different personalities in the room and what you guys—the ideas you guys were throwing around?</u>
+      <u who="SEYMOUR">Well, an awful lot of the discussion—you’re talking about the meeting in the lawyer’s office,—</u>
+      <u who="REED-WESTON">Yes.</u>
+      <u who="SEYMOUR">—which, as I recall, started at about midnight or thereabouts. It was the strategy meeting to, in effect, bring this to a conclusion. Most of it, as I recall, was talking to this young man, <persName>Brown</persName>, who had his own opinions about who should do what and so on, and then he would be gone for a while, and while he was gone, there wasn’t a whole lot to talk about, as I recall. [Chuckles.]</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">People were sort of speculating. Now, there’s one—I don’t know if I can tell this well or where it fits. It makes me smile whenever I think of it. <persName>John Dickey</persName>—now, here’s—as dean—as I was always leaving for <orgName>Wabash</orgName> and, in a way, what I had worried about for so long had finally happened, so I was—I won’t say “relaxed,” but I certainly was not the basket case I had been. Here’s <persName>John Dickey</persName>, who’s president of the college, the ultimately responsible figure, and he is handling things beautifully.</u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="SEYMOUR">And so I’m—I may have contributed some comments along the way, but this was the governor of the state and the president of the college and their advisers, really, having  conversations. So I really think <persName>Dave Bradley</persName> would be—will be a good resource for that, or will know somebody who is.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">Now, I guess the last piece of that is at two thirty or so, the police went in and started to bring the students out, and the word got out on campus—maybe they were ringing the bell at Rollins [Chapel] or something, but there must have been a thousand students watching all this. And, of course, TV was there, so you had the bright TV lights, and it was—it was something else. And the students were coming out one at a time, and all of them giving the peace sign.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">But the students were in the bus, and one of the things I remember is the windows were open, so they were shouting at people and people were shouting back, and then people sort of pounding on the side of the bus. Again, if there is television <orgName>footage,—Paul Gambaccini</orgName> didn’t have any of this, but if somebody else did, you can hear it, and it was a really scary sound to me. You had 50 people taking out their coins or keys or whatever or just their hands and slapping on the bus, so it made this huge sound, and you got a thousand students, most of whom are sympathetic—frankly, anytime a policeman is messing with a student, fellow students will be sympathetic with the student.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">And my office was not disturbed. Somebody told me afterwards that—we were concerned about the privacy of files, and I had taken some steps to be sure that we could lock students’ personnel files and so on, in fairness to them, but I had some <persName>NoDoz</persName>® in my desk drawer, and some student said that he’d found that I had a bunch of dope in my drawer.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">[Unintelligible] talking about that. </u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">Okay, that’s all I know.</u>
+      <u who="REED-WESTON">So I was wondering if you can talk a bit about the genesis of the problems with the <placeName>ROTC</placeName>. So the <persName>Parkhurst</persName> takeover really was the culmination of some of the tensions that had been happening. And I’m wondering if you can speak to that.</u>
+      <u who="SEYMOUR">I’ll speak to it. I won’t do very well by it. Others will, and faculty minutes and so on. I was so damn busy just talking to students one by one, and a day for me was probably 15-minute appointments with students who were dealing with a pre-med problem or this problem or that problem. You know, by <date>the end of the day</date> you’ve seen 20 or 30 students, and you’ve also attended some meetings and so on, so most of my time, when the issue started to bubble—most of my time was nevertheless spent just doing my job, and I was not—I’m not much of a policy wonk.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">People were having those discussions. Good for them. But I was not informed about them or, shame on me, aware of how serious and complex the issue was. Now, by <date>1968</date>, how could you not be? But I am sure in <date>1965</date> and <date>’66</date> there were thoughtful people discussing this, but in a way, if you look back on it, it’s like almost every issue I can think of—like, transgender. It begins with a few thoughtful people who understand the significance of what’s involved, but most people say, “What the hell’s this all about?” And now it’s on the cover of <orgName>TIME</orgName> magazine. [Chuckles.] So if you’re to make an analogy, when were people in <placeName>Lebanon</placeName> [<placeName>New Hampshire</placeName>] starting to talk about gender issues?</u>
+      <u who="REED-WESTON">Okay.</u>
+      <u who="SEYMOUR">—what the early discussions were. And I guess I’m honest about it. My own reaction would be—was, Oh, God, I wish they’d go away. I’ve got enough troubles here dealing with the visiting hours for women in the fraternity houses. And that was a big issue. I think we talked about this before,—</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="SEYMOUR">—but women were not allowed above the first floor of fraternity houses, so I—</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="SEYMOUR">—as I look back on it, I’m aware of much of my life was spent arguing that issue, and what a paltry way to live! And in fact, as a parenthesis, I came to <persName>Rollins</persName> as president in <date>1978</date>, and <date>that spring</date>, just before I came, the students voted open visitation, and the faculty voted to support the students’ request for open visitation, but the outgoing president saying, “Well, that’s something that really has such implications, it should be decided by the new president,” so he vetoed it. So I came in here, and the first damn thing on my desk was visitation. And without telling anybody, I just approved open visitation.</u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="SEYMOUR">I just said to myself, I’m not gonna spend the rest of my life arguing as between nine o’clock or ten o’clock or eleven o’clock because I know eventually it’s gonna be open visitation. Hell, let’s get it over with! So anyway, while thoughtful faculty committees were looking at <orgName>ROTC</orgName> issues, I was looking at visitation or, as I look back on my own life and career, a lot of other complicated things.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">And I think that’s why I think <persName>Princeton</persName> has brought back <orgName>ROTC</orgName>. I don’t know where <orgName>Dartmouth</orgName> is on it, but <orgName>Dartmouth</orgName> for a while had a collaborative arrangement with <orgName>Norwich [University</orgName>] in <placeName>Vermont</placeName> for people. Anyway, so I would defer to others to talk about the build-up.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. You did mention the faculty, though. Do you think that the faculty were generally supportive of the tack that <persName>John Dickey</persName> and the other people involved took, specifically about the <persName>Parkhurst</persName> takeover?</u>
+      <u who="SEYMOUR">That’s a very good question. I think—clearly, the faculty had factions, but I think things like that meeting at the basketball court and the fact that <persName>John</persName> and others were trying to be deliberative about this was—I don’t say “respected,” but—you know, one of the problems they had is the faculty is always mad at the administration. Faculty is always mad at the president. So if the students want the administration to do X, there’s going to be a faculty—I’m not saying this cynically; it’s just a fact of life—there’s going to be a constituency that says, “Well, the students must be right because the administration doesn’t pay us enough, and they spend too much money on fundraising and all that sort of stuff.” </u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">And also The <orgName>Dartmouth</orgName>, because when—The <orgName>Dartmouth</orgName> certainly wanted to stir the pot, and so whenever there was any contention that involved faculty, they would cover it.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Do you feel like the student body was generally supportive of the students’ actions at <orgName>Parkhurst</orgName> and then at the administration’s response?</u>
+      <u who="SEYMOUR">[Sighs.] In its own way, I’m going to say yes, but, boy, that’s an arrogant answer. I think the students thought it was pretty exciting that our students had the guts to take over a building the way they did at <orgName>Columbia</orgName> and <orgName>Harvard</orgName> and elsewhere. But once that had been done, I think—and the students who were involved were in jail, so you didn’t hear anything from them, I think it sort of went back to business as usual, I think. I think it would be very interesting to take a look at this. I think from <date>May 10th to June 10th</date> was a reasonably normal spring semester for <orgName>Dartmouth</orgName>—spring term. I may be way off on that. </u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">It would have been so easy for something, for somebody to punch him or throw something at him or whatever. </u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">I presented it—I can't remember his name now—to the head of the [<orgName>Dartmouth</orgName>] Interdormitory Council, and then they revived it <date>the following year</date>, and it’s continued, but if you ever look at <name type="event">the Barrett Cup</name>, the fact that there’s a name in <date>1969</date> was—dammit, I wasn’t going to let—I was really feeling my oats then because as soon as commencement was over, I was out of there.</u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="SEYMOUR">Secondly, it meant that nobody was going to come up those stairs and walk by him, so if somebody had a balloon full of pig’s blood, he’s going to have to take it home with him. And nobody got up on the platform. Period. And so we got through commencement. No incident, nobody attacked <orgName>Rockefeller</orgName>, and so on. And it was over.</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="SEYMOUR">That’s why, as I’ve said long before, it was such fun for us to have that beer party at our house that night because not only had we gotten through commencement, but it was over. Were you able to hear that little tape I sent you?</u>
+      <u who="REED-WESTON">I wasn’t able to download it on my own computer, so I was going to try it on another one.</u>
+      <u who="SEYMOUR">Okay. </u>
+      <u who="REED-WESTON">If I can’t, I’ll let you know.</u>
+      <u who="SEYMOUR">If you listen really carefully, you can hear the melody of “As the Backs Go Tearing By,” and what I treasure about that tape so much is that, dammit, it was recorded in the lobby of <orgName>Parkhurst Hall</orgName> on commencement night <date>1969</date>.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">Now, I’ve told you everything and then some. My dear wife <persName>Polly</persName> is sitting here, saying, “Do you suppose she’s asleep?”</u>
+      <u who="REED-WESTON">[Laughs.] That’s good!</u>
+      <u who="SEYMOUR">What else can I tell you?</u>
+      <u who="REED-WESTON">Well, it’s been about an hour. Would you like to go ahead and pause for <date>today</date> and then we can just do a final follow-up interview—</u>
+      <u who="SEYMOUR">Yeah.</u>
+      <u who="REED-WESTON">—<date>next week</date>?</u>
+      <u who="SEYMOUR">Let’s do that.</u>
+      <u who="REED-WESTON">Okay. </u>
+      <u who="REED-WESTON">This is <persName>Ann Reed-Weston</persName>. I am talking to <persName>Thaddeus Seymour</persName> [on <date>June 12, 2015</date>]. This is the fourth part of our interview. We’re talking by phone. I’m currently on <orgName>Dartmouth</orgName> campus in <placeName>Hanover</placeName>. He is in <placeName>Florida</placeName>.</u>
+      <u who="SEYMOUR">I’m very glad to do that. One of the circumstances and, frankly, it was a relief to me, is that—because I was a principal, I was less involved with the discussions after the event, when people were trying to figure out: What should we do? What adjudication should there be? What is the role of <orgName>the Committee on Standing and Conduct</orgName>, as it was then called? What is the role of the faculty of the president’s advisory committee, which I think is a committee that was concerned with faculty standing on issues? And in all those—again, because I was a principal, I was very properly not included. I’m sure you can understand what a God-given relief that was to me, because once the takeover was done, there was very little for me to do except to try to get us to graduation.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">—and compare it to their performance in other semesters, because I think they all got A’s.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">And that could be a very interesting, very sort of finite, simple project to do and would be probably a valuable thing to have in the record.</u>
+      <u who="REED-WESTON">Absolutely.</u>
+      <u who="SEYMOUR">What went into the papers was going to be big for—I’m going to put you on speaker so I can use two hands. Hang on.</u>
+      <u who="REED-WESTON">Okay. </u>
+      <u who="SEYMOUR">Because I did find it in here. There is wonderful correspondence with <persName>Paul Gambaccini</persName>, and her interview with <persName>Walter Peterson</persName> is something that you want to have. There is an interview with <persName>Ginny Cantlin</persName>, who was our receptionist. Hang on, now. [Goes through papers.] Quite a few things from <persName>David Green</persName>. Interview with me. <persName>David Bradley</persName>. Hang on, I’m getting closer. A list of the students who were arrested. And there is a copy—I didn’t think I had it—of my pocket appointment calendar for that period.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">And what it tells me, among other things, is that I thought I was coming back from Wabash the night before, but I apparently was coming back from <placeName>New York</placeName>. I can’t remember when the <orgName>Wabash</orgName> one was. It was somewhere—anyway, hang on, now.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">“Statement by <persName>Thaddeus Seymour</persName>.” Now, I worked like hell on this, and I’m going to read it and then I’ll talk about it a little bit.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">The problem is I personally did not want to be beating up on these guys, because there were a lot of guts for them to do this, and I respected that. And, frankly, I understood what their political position was, and I agreed with that. On the other hand, my role as dean was to be responsible for orderly procedures. So here’s the statement. And the drafts show that it started out as—it would be much longer than that, and the longer draft is one where—was either what I found interesting, the way I had emended it. But here’s the statement (I’ll make a comment about it):</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">Clearly, it’s not a gentle penalty. On the other hand, there’s no judgment in—I’m going to take it off speaker—there was no judgment as to whether it was a severe—“severe” has a—sort of an implication of it being perhaps a tougher penalty than is appropriate. So anyway, I worked like the dickens on that, and my notes on my draft are, I found, very interesting in telling me what I was really trying to say. </u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">—of the statement I did about <persName>Parkhurst</persName>. And, as I say, the word I was so proud of was figuring out “stiff.” I put it back in the box, figuring—one second, let me see if I can see what I had before. I’m going to put you on speaker again, yeah.</u>
+      <u who="REED-WESTON">Okay. </u>
+      <u who="SEYMOUR">[Unintelligible.]</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">[Reads quietly to himself.] Well, it doesn’t jump out at me. It’ll be among those papers if you want to spend some time looking at it.</u>
+      <u who="REED-WESTON">Okay. </u>
+      <u who="SEYMOUR">So to go back to where we were, I—</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="SEYMOUR">—realize that <persName>Polly</persName> was concerned. </u>
+      <u who="REED-WESTON">Ohh!</u>
+      <u who="SEYMOUR">So I had to speak at Rollins Chapel. Not surprisingly, only about six or seven people came, but it was a very interesting time to sort of reflect for myself on the events. I don’t have my notes. I can’t remember what I said, but I do remember that event very clearly.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">—and sort of help hold the place together. There was no particular action that I remember of disruption. We were just on a countdown to commencement. So my role is sort of like it had been <date>five years before</date>, trying to keep the lid on.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">There was—and others can speak better to this, but in <date>June</date>, after commencement, after reunions, I think it was the committee advisory to the president had a, in effect, action to decide what to do about the two faculty members who participated and were arrested. The students were going to be dealt with by <orgName>the Committee on Standing and Conduct</orgName>, but that was going to be in <date>the fall</date>, and so the new dean was going to have to take care of it. [Chuckles.] And I was off the hook.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">And I said, “Well, I am a proud father of five, and I tell my children that it took 12 people to get me out of the office, but actually it was only three or four.” Everybody laughed, and he excused me, and that was the end of my testimony.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">So my last contact with the <orgName>Parkhurst</orgName> takeover in any formal way, my last of any sort, was appearing as a witness at that hearing, and I’m sure there’s a transcript of it and at some point you or somebody who’s working on this will find it.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">So that’s it. I told you about the <date>Sunday</date> night returning <persName>Parkhurst</persName> to the college, which was such fun. I sent you that little silly tape.</u>
+      <u who="REED-WESTON">Yeah. Do you mind talking about that? We talked about that in our pre-interview. Do you mind talking about it again now?</u>
+      <u who="SEYMOUR">Oh, not at all. Well, getting through commencement was just a huge thing in my life. I’ve served as dean for <date>ten years</date>. I was getting ready to leave for a new life and a new work at <orgName>Wabash</orgName>. We loved <placeName>Dartmouth</placeName>. <orgName>Dartmouth</orgName> was where we grew up. And the <persName>Parkhurst</persName> business had been so traumatic, and getting through commencement—there was some talk about whether we should cancel commencement, and that was a big issue. Once you cancel a commencement, it’s sort of like having a wedding all planned and ending up saying, “Well, everybody come in old clothes; we’ll do it in the garage.” The fact that being able to have traditional commencement exercises was, in my mind and I think the minds of so many of us, a symbolic affirmation that even though the college had had a rough passage, we got through it, and we did what colleges do, which is have students put on caps and gowns and come up and get diplomas and graduate.</u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="SEYMOUR">With that, I reached in my pocket and held up the key, so we pulled the car over, and I took the key out, and we opened the door. The band came in and sat on—went up to the landing that’s halfway up between the first and second floor. Some other people brought in the keg—and I don’t know if it’s still the case, but it used to be that when you went in the door, there were a couple of, oh, like, wooden pews right inside, where you could sit, and they put the keg there, and we were laughing, and the band was playing and so on.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">The second—we call it <persName>Parkhurst</persName> 2—the second <persName>Parkhurst</persName> was very important, and a number of people who were there are still around, and you or somebody who’s doing interviews will no doubt talk about it. They will have a less passionate feeling about it because they were not so centrally involved, but some other people can tell you about it as well. </u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">And then—and that’s it. After the hearings, we began packing up to leave for <placeName>Indiana</placeName>. And I got to—we got out to <placeName>Indiana</placeName> in <date>mid-July</date>, and I started my new job immediately. And so in <date>the fall</date>, I was working, trying to get to know my new institution and doing what presidents are supposed to do, and I was absolutely disconnected from whatever was happening on the [<orgName>Dartmouth</orgName>] campus.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">Simple as that. So it ended not with a whimper but a bang for me.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">We were outta there. So that’s the <persName>post-Parkhurst</persName> chapter.</u>
+      <u who="REED-WESTON">So, then, looking back on your time at <placeName>Dartmouth</placeName> and as a dean now, what kind of impact do you think that <name type="event">the Vietnam War</name> and then the <persName>Parkhurst</persName> takeover really had on your impression of your time at <orgName>Dartmouth</orgName>?</u>
+      <u who="SEYMOUR">Oh, <orgName>Dartmouth</orgName> really is our institution. It’s where we grew up. It was my first job. I taught English for <date>five years</date>. I was very much involved in the rowing program and coached for <date>three years</date> as a volunteer. I’m in fact still quite involved with that. We—it—I think I mentioned this before. <date>Our first five years</date> there were right out of any novel you might conceive of about college life. It was a beautiful place. We had lots of friends on the faculty. We really liked the students, and I think the students liked us back. And so all of that was great.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">But <persName>Al</persName> went to <orgName>Dartmouth</orgName>, graduated, became assistant to the president, worked as dean of freshmen for <date>many years</date>, was in charge of planning for the college. He really had many major roles in the administration of <orgName>Dartmouth</orgName> for <date>40 years</date>.</u>
+      <u who="REED-WESTON">Yes, yes.</u>
+      <u who="SEYMOUR"><date>This year</date>, I guess? I’ve lost track of it.</u>
+      <u who="REED-WESTON">I think it was <date>two years ago</date>.</u>
+      <u who="SEYMOUR"><date>Two years ago</date>. Well, somebody, some smart person taped the whole thing with a camera, and I watched the whole thing, and it was so different! And for one thing, the students were very polite. The students came in during office hours, so the president had already invited them in, and they were there to ask him questions, and there were a few fairly assertive ones, but mostly it was very dignified. The president had to go to another meeting, but there was no reason not to let the students stay there, so there was—as far as I was concerned, there was never an issue of disorderly behavior or interrupting the orderly processes of the college, and it was, in effect, an expression, it seemed to me, of everything we all learned from <persName>Parkhurst</persName>. And I just the way it was handled was fabulous—</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="SEYMOUR">—and as different from <persName>Parkhurst</persName> as anything could be. So I do remember saying that to <persName>Martha</persName>, and she said, “Well, I look forward to telling some alumni who have been giving us hell”—</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">—“that that’s the way you feel about it.”</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">So what else?</u>
+      <u who="REED-WESTON">Well, I guess just one final question. You decided to leave to become president of <orgName>Wabash College</orgName>. Why exactly did you decide to leave <orgName>Dartmouth</orgName>, and did it have anything really to do with all the troubles that were going on during ’<date>68</date> and ’69?</u>
+      <u who="SEYMOUR">Not really. And there are two stages to it. I started out as a member of the English department. While I was dean, they very kindly promoted me to a full professor with tenure, so I was a tenured full professor of English, and my intent then had been to take a sabbatical and then go back and teach English at <orgName>Sanborn House</orgName>. I had no intention of doing any more college administration. I had loved it, but it wasn’t any fun anymore, and I had started out as an English teacher, I have a Ph.D. in English from <orgName>the University of North Carolina</orgName>, I taught at <orgName>Dartmouth</orgName> for <date>five years</date>, so it was our intention to stay there as a member of the faculty. And I had no interest, frankly, in any more college administration.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="SEYMOUR">I don’t say that unkindly. I say it gratefully. And <orgName>Wabash</orgName> did not have an <orgName>ROTC</orgName> unit, so there was no question of that. <orgName>Wabash</orgName> was still a men’s college, and I was familiar with that environment. So they—this friend of my dad’s, the trustee, persuaded us to fly out there to see the place, and we really did like it. They were awfully nice to us. </u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>.</u>
+      <u who="SEYMOUR">So to our surprise, we went out there. I really had planned to stay and teach English at <orgName>Dartmouth</orgName> the rest of <date>my years</date>. I don’t for a second regret that we didn’t do that. In fact, as I think of all the publish-or-perish and the other issues of campuses, I'm very glad I didn’t have to do that. </u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. All right. Do you have any final thoughts, <persName>Dean Seymour</persName>, that you’d like to break up now at the end of our interview?</u>
+      <u who="SEYMOUR">You’re nice to ask. No, I just feel so sorry for you having to listen to these damn tapes.</u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="SEYMOUR">But I commend you. That’s a very important topic, and clearly my window on it is <orgName>Parkhurst Hall</orgName> and all that went with the takeover, but the much larger question was the attitude of students particularly with the background of the draft and what that meant and the attitude of the faculty as they discovered more about <placeName>ROTC</placeName> and how independent it was from faculty bylaws and oversight. So there are many other, huge components. You and I have talked about a very small one, but one that was obviously very important in my life.</u>
+      <u who="REED-WESTON">Absolutely, and—</u>
+      <u who="SEYMOUR">If you have questions along the way, you’ve got my number and my e-mail. We’ll be here. We’re going to take a little break to go to out for a family reunion over <date>July Fourth</date>, but otherwise we’re here, and you can always e-mail me or write me if you need any questions answered. And I will get this package off to <persName>Caitlin</persName> [Birch] <date>this week</date>, and you will I think be interested in looking through some of that.</u>
+      <u who="REED-WESTON">Absolutely. Thank you once again for agreeing to do this interview.</u>
+      <u who="SEYMOUR">I hope our paths will cross one way or another.</u>
+    </body>
+  </text>
+</TEI>

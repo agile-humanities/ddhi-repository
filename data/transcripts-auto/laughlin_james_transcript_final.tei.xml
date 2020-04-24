@@ -1,0 +1,652 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="REED-WESTON"/>
+        <person xml:id="LAUGHLIN"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="REED-WESTON">All right, this is <persName>Anne Reed-Weston</persName>. I’m sitting down with <persName>Jim Laughlin</persName> for <orgName>the Dartmouth Vietnam Project</orgName>. It’s <date>May 11th, 2015</date>.</u>
+      <u who="LAUGHLIN">It’s a pleasure being here.</u>
+      <u who="REED-WESTON">Great. So I guess just to kick things off, do you mind just telling me a bit about where you grew up?</u>
+      <u who="LAUGHLIN">Yes. I grew up in <placeName>Kearny</placeName>, <placeName>New Jersey</placeName>, which is a town in <placeName>Hudson County</placeName>, directly across the river from <placeName>New York City</placeName>. I guess I’m a <orgName>Dartmouth</orgName> success story because I was the first person in my family to go to college. When my mother started grade school, she couldn’t speak a word of English, and to her dying day, she couldn’t pronounce <persName>Dartmouth</persName> the way it’s supposed to be pronounced, but that was just something that she had to live with.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>, okay. So when you were growing up, did you know anything about the military? Did you have any military members in your family?</u>
+      <u who="LAUGHLIN">No members in my immediate family, but my father’s best friend from the time they were in high school was an officer in <orgName>the United States Army</orgName>. He was a <name type="event">World War II</name> highly-decorated veteran, and I think I kind of looked up to him as a model figure or a role model during the time I knew him.</u>
+      <u who="REED-WESTON">Did you know that you would eventually want to enter the military?</u>
+      <u who="LAUGHLIN">I’m sorry?</u>
+      <u who="REED-WESTON">Did you know that you’d want to enter the military eventually?</u>
+      <u who="LAUGHLIN">I don’t think it was so much a question of wanting to enter the military as the fact that in <date>1960</date> we still had the universal draft, which was pre-lottery, so everyone, every male was exposed to doing <date>at least two years</date> of active service in one of the armed forces or another, and in a blue-collar town such as the one I grew up in, it was accepted that you would do that. And, in fact, if you tried to avoid doing it, you were kind of looked down upon.</u>
+      <u who="REED-WESTON">So you didn’t consider trying to avoid doing the draft?</u>
+      <u who="LAUGHLIN">No.</u>
+      <u who="REED-WESTON">No. So why did you choose to come to <orgName>Dartmouth</orgName> specifically?</u>
+      <u who="LAUGHLIN">I really wasn’t sure what I wanted to do, and I was accepted at several schools: a couple of the military schools, <orgName>Cornell</orgName> [University] and <orgName>Dartmouth</orgName>, and it just struck me that <orgName>Dartmouth</orgName> would be the fit for me. And so I took a chance and came up here, and, as with so many other students, I think I made the right choice.</u>
+      <u who="REED-WESTON">Yeah. So were your family supportive of you coming to <orgName>Dartmouth</orgName>?</u>
+      <u who="LAUGHLIN">Pard’ me?</u>
+      <u who="REED-WESTON">Were they supportive of you coming to <orgName>Dartmouth</orgName>?</u>
+      <u who="LAUGHLIN">Very much so. They love this place.</u>
+      <u who="REED-WESTON">Yeah. What was their opinion on you entering <orgName>the ROTC [Reserve Officers Training Corp</orgName>] when you came to <orgName>Dartmouth</orgName>?</u>
+      <u who="LAUGHLIN">I think both my mother and father just thought it was the thing I had to do, that they supported me in it, and so many of my classmates were in it, it was just a way of keeping yourself out of the clutches of the draft. There were very few exemptions, and if you didn’t qualify strictly for them, you were subject to being taken out of school and put in the service.</u>
+      <u who="REED-WESTON">So you decided when you were applying to <orgName>Dartmouth</orgName>—did you know that you were going to do <orgName>ROTC</orgName> then?</u>
+      <u who="LAUGHLIN">Oh, I knew that before I even got here.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Did you have any thoughts about what you would do after college? Considering that you—</u>
+      <u who="LAUGHLIN">No, when I started here. I really did not have any clear plan as to what I wanted to do, and I don’t think it was until I was in my junior year that I thought about going to law school.</u>
+      <u who="REED-WESTON">Can you just give me a sense of what your <orgName>Dartmouth</orgName> experience was like while you were here?</u>
+      <u who="LAUGHLIN">Well, I think one of the great things this has is a camaraderie that I’ve not experienced at any other institution, and I’ve been on a large number of campuses in <placeName>the United States</placeName>. I think the academic program was terrific. It was kind of a Spartan existence because it was all male, and we didn’t have the physical facilities that the students now have the advantage of using. <orgName>The Hopkins Center</orgName> [for the Arts], when I started school in <date>1960</date>, was a hole in the ground. And <persName>Rauner</persName> [Special Collections] Library, in which we’re now sitting, was <persName>Webster Hall</persName>, which was the only auditorium on campus.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Yeah. So what did you get involved with while you were here at <placeName>Dartmouth</placeName>?</u>
+      <u who="LAUGHLIN"><date>My first year</date>, I rowed lightweight crew, and I wanted to continue that, but right before the race season in <date>the spring of 1961</date>, I developed pericarditis, which is an inflammation of the heart pericardium. It knocked me out of commission for <date>six months</date>,—</u>
+      <u who="REED-WESTON">Oof!</u>
+      <u who="LAUGHLIN">—took me out of <date>the fall training season</date>, and that was the end of my rowing career. I was active in the <orgName>ROTC</orgName> for <date>all four years</date> while I was in college, and then I did some skiing, and I was a member of <orgName>the Judo Club</orgName>.</u>
+      <u who="REED-WESTON">How do you think that the <orgName>ROTC</orgName> experience impacted your <orgName>Dartmouth</orgName> experience?</u>
+      <u who="LAUGHLIN">Well, I think <orgName>ROTC</orgName> was a valuable experience because it gave us exposure to what a military officer’s life and responsibilities were like. I think it taught me certain values, such as organization, leadership, self-sufficiency and generally gave me a portion of my education that I wouldn’t have received otherwise.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. So do you think that the <orgName>ROTC</orgName> program at the time had a good place at <orgName>Dartmouth</orgName>?</u>
+      <u who="LAUGHLIN">Yes.</u>
+      <u who="REED-WESTON">It became a bit more controversial later in <date>the 1960s</date>. Do you think that it should have—that it should have continued throughout <name type="event">the Vietnam War</name>?</u>
+      <u who="LAUGHLIN">Well, most of the Ivy League schools and a number of other colleges and universities eliminated their <orgName>ROTC</orgName> programs as a result of <name type="event">the Vietnam War</name>, and I think that was a mistake, but it was part and parcel of the time, so I’m not sure that we could have avoided that. I always felt that—and I feel to <date>this day</date>—that having liberal arts students from schools like <orgName>Dartmouth</orgName> or <orgName>Cornell</orgName> or <orgName>NYU</orgName> [<orgName>New York University</orgName>] adds a leavening experience to the military that you don’t get from having your officer corps comprised solely of [<orgName>U.S. Military Academy</orgName> at] West Point graduates or <placeName>Annapolis</placeName> [<orgName>U.S. Naval Academy</orgName>] graduates and <orgName>OCS</orgName> graduates, Officer Candidate School graduates, who are already members of the service.</u>
+      <u who="REED-WESTON">Do you think that a lot of the other <orgName>ROTC</orgName> students who you were with entered for the same reason that you did?</u>
+      <u who="LAUGHLIN">Yeah, I think probably so.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. So it was, again, to basically be able to fulfill military service without being in a general draft?</u>
+      <u who="LAUGHLIN">I think we all felt that sooner or later we were going to be drafted, and my personal feeling, and I think a lot of my classmates shared this, was that we would be better off serving our country as officers than as enlisted men or draftees. </u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>, okay. Can you describe a bit about what the <orgName>ROTC</orgName> program on <orgName>Dartmouth</orgName> comprised?</u>
+      <u who="LAUGHLIN">Well, it was the infamous <date>Wednesday</date> afternoon drill requirement,—</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="LAUGHLIN">—where we walked around Chase Field with rifles and dress uniforms, learning how to do close-order drill. We also took military history courses, which were taught by the professor of military science, who was generally an <orgName>Army</orgName> officer. During <date>our third summer</date>, between our junior and senior years, we went to a <date>six-week</date> boot camp at <placeName>Fort Devens</placeName>, <placeName>Massachusetts</placeName>, and we were commissioned <date>the day</date> after we graduated in <date>June of 1964</date>.</u>
+      <u who="REED-WESTON">So what type of specialized training did you get as part of the <placeName>ROTC</placeName>? Like, the summer programs and things like that.</u>
+      <u who="LAUGHLIN">Well, the <date>summer</date> program was the most concentrated training we received. That was basically small-unit tactics, riflery, close-order drill and just generally trying to beat us into shape so that we would think and act as soldiers as opposed to civilians.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Do you think they succeeded in their goal for that?</u>
+      <u who="LAUGHLIN">I think they did, but we were a recalcitrant bunch.</u>
+      <u who="REED-WESTON">[Laughs.] Yeah. How did you guys relate as members of the <placeName>ROTC</placeName>? Were you a tight group?</u>
+      <u who="LAUGHLIN">Yes, I think so. Three of the fellows who are here with me <date>today</date> were members of my class in the <orgName>ROTC</orgName>: [<persName>Frances C.] Bud McGrath</persName>, <placeName>Glen</placeName> [R.] <persName>Kendall</persName> and [<persName>Furman K.]</persName> <persName>Neal Stanley</persName> [Jr.]. The first time I saw <persName>Neal</persName>, following our graduation, was in the mess hall in Can Tho in <placeName>Phong Dinh Province</placeName> in the middle of <placeName>the Mekong Delta</placeName>, and we were both packing heat, so it was quite a different change from <date>our halcyon days</date> on <placeName>the Hanover Plain</placeName>.</u>
+      <u who="REED-WESTON">Did your opinion about the <orgName>ROTC</orgName> change in any way, shape or form throughout your time at <orgName>Dartmouth</orgName>?</u>
+      <u who="LAUGHLIN">No, not really.</u>
+      <u who="REED-WESTON">What was your understanding of what was happening outside of <placeName>Dartmouth</placeName> at the time in terms of <placeName>U.S.</placeName> foreign involvement?</u>
+      <u who="LAUGHLIN">I’m not sure that I paid much attention to it because, although people seemed to think that we should have known about <name type="event">the Vietnam War</name> when we were matriculated in <date>1960</date>, in reality I don’t think most Americans knew where the country was until long after we graduated in <date>1964</date>. Even when I was in law school, I didn’t pay that much attention to what was going on in <placeName>Vietnam</placeName>, although what was happening was shaping a radical change in the fabric of our society and our government.</u>
+      <u who="REED-WESTON">Sixty-four, yeah.</u>
+      <u who="LAUGHLIN">And that was the first time that anything got out, because as a result of the resolutions, of <orgName>Congress</orgName> giving [President <persName>Lyndon B.]</persName> Johnson the authority to use us on foreign soil—was the first step in escalating that conflict to the levels it finally reached.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. So when you entered <orgName>Dartmouth</orgName>, you knew that there was a draft. Did you have any idea of where your military service would eventually take place?</u>
+      <u who="LAUGHLIN">I thought I’d end up in some cushy job in <placeName>Germany</placeName> because I spoke a little bit of German and I took <date>two years</date>—I jumped it out of <date>one year</date> and took <date>two years</date> studying here, but, as with any foreign language, unless you use it, you’re going to lose it, so I didn’t end up in <placeName>Germany</placeName>.</u>
+      <u who="REED-WESTON">Yeah. Yeah. So you were foreseeing eventually going to <placeName>Germany</placeName> for <date>two years</date> and then—</u>
+      <u who="LAUGHLIN">Oh, yeah, I thought that would be a great break.</u>
+      <u who="REED-WESTON">Yeah. Yup. Do you think that that’s a pretty common conception of people who entered <orgName>Dartmouth</orgName> with you, who then went on to military service?</u>
+      <u who="LAUGHLIN">If I were to say—but I think that—I think that most of us did not know enough about <placeName>Vietnam</placeName> to make a judgment call as to what we should or shouldn’t be doing.</u>
+      <u who="REED-WESTON">Yeah. So it was just kind of you knew you’d most likely wind up in some place like <placeName>Germany</placeName>, and that was a good place?</u>
+      <u who="LAUGHLIN">I hoped so.</u>
+      <u who="REED-WESTON">Yeah. So when you ended your <orgName>ROTC</orgName> program here at <orgName>Dartmouth</orgName>, you were commissioned, correct?</u>
+      <u who="LAUGHLIN">That’s correct.</u>
+      <u who="REED-WESTON">Yeah. And you were commissioned as what, exactly?</u>
+      <u who="LAUGHLIN">A second lieutenant in <orgName>the United States Army Reserve</orgName>. I was ordered—I was offered a regular commission, which required a <date>three-year</date> to <date>five-year</date> minimum active duty obligation, because I was a distinguished military student and distinguished military graduate. But even though I had the aptitude for doing it, I did not intend to make the military a career.</u>
+      <u who="REED-WESTON">At that point, were you intending on entering law school?</u>
+      <u who="LAUGHLIN">Yes, because I was afraid that if I got out of school and went directly into the service and started getting paid a salary, that I wouldn’t ever go back again, because my family basically had very little money when I was going to school, and <date>all four years</date> were a struggle for us financially.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Yeah. So you decided to enter <orgName>the Army Reserve</orgName>. Were your parents supportive of that?</u>
+      <u who="LAUGHLIN">Yes, yes, they were.</u>
+      <u who="REED-WESTON">Did they want you to eventually become a career military officer?</u>
+      <u who="LAUGHLIN">No. No.</u>
+      <u who="REED-WESTON">Were they neutral, or did they have a strong opinion?</u>
+      <u who="LAUGHLIN">They were neutral. They didn’t express much of an opinion one way or the other, although when I finally got sent to <placeName>Vietnam</placeName> in <date>1967</date>, they were adamantly opposed to the war.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="LAUGHLIN">As was I.</u>
+      <u who="REED-WESTON">But they didn’t have an opinion on it in ’64?</u>
+      <u who="LAUGHLIN">No.</u>
+      <u who="REED-WESTON">No. So you entered <orgName>the Army Reserve</orgName>, and then at that point you knew you were going to go to law school, correct?</u>
+      <u who="LAUGHLIN">That’s correct.</u>
+      <u who="REED-WESTON">So how did you wind up in <placeName>Michigan</placeName> law school?</u>
+      <u who="LAUGHLIN">Again, it was the best law school to which I—I h ad been accepted to <orgName>Northwestern Law School</orgName> [sic; <orgName>Northwestern University School of Law</orgName>], <orgName>Cornell Law School</orgName> and [<orgName>the University of] Michigan Law School</orgName>, and I just knew that <placeName>Michigan</placeName> was the top among the three, and that’s why I went there. We had a tremendous number of Ivy League graduates from all the Ivies at <orgName>Michigan Law School</orgName>.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. So did any of your other classmates wind up at <orgName>Michigan Law School</orgName>?</u>
+      <u who="LAUGHLIN">Sure.</u>
+      <u who="REED-WESTON">Yeah?</u>
+      <u who="LAUGHLIN">My roommate, [<persName>Edmund] Ed Frost</persName> was a Class of ’64.</u>
+      <u who="REED-WESTON">Yeah. Was it a good experience, putting of military service to go to do law school?</u>
+      <u who="LAUGHLIN">Well, that’s a good question. [Chuckles.] I’m not sure I know the answer to that. It was one of those decisions I made that affected my life—you look back upon and say, Well, I wonder what I would have done if I could have done this or should have done that. You kind of can’t ask yourself those questions because you’ll drive yourself crazy. I did that, and I had to live with it.</u>
+      <u who="REED-WESTON">Were you still envisioning the same type of <date>two-year</date> service after law school, so going to <placeName>Germany</placeName>?</u>
+      <u who="LAUGHLIN">Yeah.</u>
+      <u who="REED-WESTON">Yeah. By <date>1964</date>, the Tonkin Gulf Resolution had—</u>
+      <u who="REED-WESTON">All right. We had to pause for just a minute, but now we’re back.</u>
+      <u who="LAUGHLIN">Well, again, I think we were very naïve in that we didn’t pay much attention to it. There was very little that was being reported back to the <placeName>U.S.</placeName> by the press. I think they were suppressed in what they could and could not send back. I remember distinctly when they started using [<orgName>Grumman</orgName>] A-6 Intruder aircraft for bombing <placeName>Vietnam</placeName>, and I thought, Well, that’s nice. That’ll end that conflict real fast. But I don’t think I or any of my classmates paid much attention to it, but part of that was due to the fact that we were so focused in on our law school requirements and passing the bar exam that we kind of pushed that other stuff aside.</u>
+      <u who="REED-WESTON">Yeah. So did you think that—throughout your time in law school, did you think that you might wind up somewhere else in terms of performing in the military?</u>
+      <u who="LAUGHLIN">I thought I had a shot of going to <placeName>Europe</placeName>.</u>
+      <u who="REED-WESTON">Yeah. So tell me a little bit about your law school, your time at law school.</u>
+      <u who="LAUGHLIN">In terms of what?</u>
+      <u who="REED-WESTON">Well, you’re in <placeName>Michigan</placeName>, and then—you were mostly just studying—were you aware of anything else happening, really?</u>
+      <u who="LAUGHLIN">Generally aware but not particularly acutely aware of the fact that there was starting to be a great controversy over what we should and shouldn’t be doing in <placeName>Southeast Asia</placeName>. I, as I mentioned to you, was focused in on my studies. I went from a high school where I was not really particularly taught how to study to <placeName>Dartmouth</placeName>, where I had to learn how to study, and I went through the same process again with another cut above the average, was a number of Ivy League students who were my classmates at <placeName>Michigan</placeName>.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="LAUGHLIN">—after a lot of trials and tribulations. [Both chuckle.] But we somehow managed to make it through.</u>
+      <u who="REED-WESTON">Yeah. So did you have any particular specialty in law school? Did you know where you wanted to eventually practice law?</u>
+      <u who="LAUGHLIN">No, not really. <date>The first year and a half to two years</date>, you’re pretty much confined to mandatory courses, and I think that’s still the way they run law schools, on the Socratic method. You got to take some optional courses your <date>third year</date>, but I’m not sure that they really contributed greatly to the legal education process. The thing I learned about practicing law is you don’t really learn to do the practical stuff until you’re out of law school.</u>
+      <u who="REED-WESTON">Yeah. So you graduated from <placeName>Michigan</placeName> in <date>1967</date>, correct?</u>
+      <u who="LAUGHLIN">Correct.</u>
+      <u who="REED-WESTON">So by then, what were you thinking about in terms of your future?</u>
+      <u who="LAUGHLIN">At what?</u>
+      <u who="REED-WESTON">In terms of your future when you graduated from law school.</u>
+      <u who="LAUGHLIN">Well, I knew I had to do <date>at least two years</date> of active military service, and my wife was well aware of that, herself, and our main focus was: Let’s get out of law school, get your degree, see if you pass the bar exam (which I did), and we’ll roll with the punches.</u>
+      <u who="REED-WESTON">Yeah. So you said earlier that by ’67 you had started to become opposed to <name type="event">the Vietnam War</name>. Can you tell me a bit about that?</u>
+      <u who="LAUGHLIN">I can tell you about it because of the way I learned about it initially, in a forceful way. I never really thought about it until I was ordered to active duty at <placeName>Fort Benning</placeName>, <placeName>Georgia</placeName>. And from <date>the day</date> we got there, all that people talked about was <placeName>Vietnam</placeName>. I said to myself, What are they so concerned about? It’s just a tiny little conflict in a tiny little country in <placeName>Indochina</placeName>, what used to be French <placeName>Indochina</placeName>. There were six other lawyers in my infantry company with me. we could have gotten commissions in the Judge <orgName>Advocate General’s Branch</orgName> [sic; <orgName>Corps</orgName>], but they require a four-and-a-half-year to <date>five-year</date> active duty commitment, and they got sent to <placeName>Vietnam</placeName> anyway. So I and my other lawyer classmates decided we would just take the <date>two-year</date> commission, and we were assigned to the [Military] Intelligence Corps [of <orgName>the U.S. Army</orgName>], as opposed to the infantry. But for some reason, the <orgName>Army</orgName> thinks that if you’re going to be a combat intelligence officer, you got to go through infantry platoon leader school, which we did.</u>
+      <u who="REED-WESTON">You did that right after—you did that—</u>
+      <u who="LAUGHLIN">Yeah, it was <date>the first ten weeks</date> of active duty, which was a thrill in <placeName>Fort Benning</placeName>, <placeName>Georgia</placeName>, in <date>the middle of the summer</date>.</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="LAUGHLIN">So to get back to what I was saying before, when I first went on active duty was when I first appreciated the magnitude of what was going on in <placeName>Vietnam</placeName>. And then <date>the third week</date> we were there, the officers assigned to military intelligence were called into a meeting room, and there were a couple of hundred of us, and the leader of the discuss named off a group of names and said, “You guys are going to military intelligence aerial reconnaissance school, and then you’re going to <placeName>Vietnam</placeName>.” And the next group, he said, “You guys are going to Vietnamese language school at the <placeName>Presidio</placeName> [of <placeName>Monterey</placeName>, Defense Foreign Language Program, which <date>today</date> is <orgName>the Defense Language Institute Foreign Language Center</orgName>], and then you’re going to <placeName>Vietnam</placeName>.”</u>
+      <u who="REED-WESTON">So when you had originally received your orders to be part of a military intelligence unit for <date>two years</date>, what would that have entailed?</u>
+      <u who="LAUGHLIN">When I first went overseas?</u>
+      <u who="REED-WESTON">Well, when you first went on active duty, you weren’t originally going to be headed to <placeName>Vietnam</placeName>; you were going to part of military intelligence, you said.</u>
+      <u who="LAUGHLIN">Yes.</u>
+      <u who="REED-WESTON">What would that have been, instead of—</u>
+      <u who="LAUGHLIN">Well, regardless of whether in <placeName>Vietnam</placeName> or in <placeName>Germany</placeName>, the military intelligence function is about the same. It’s to locate, identify and target enemy units, and to do that, we had the use of airplanes for aerial reconnaissance and photo missions. We had a counterintelligence team. They used foreign agents, for example, in both <placeName>Vietnam</placeName> and in <placeName>Europe</placeName>. They had an order of battle section, which was to track enemy units and their composition and strength. So that’s pretty much the function of a combat intelligence officer.</u>
+      <u who="REED-WESTON">Were you happy with that assignment when you originally received it?</u>
+      <u who="LAUGHLIN">I was happy to be in <orgName>the Intelligence Corps</orgName>. I wasn’t happy to be sent to <placeName>Vietnam</placeName>.</u>
+      <u who="REED-WESTON">Yeah. Yeah. What was your reaction upon really hearing that you were going to be going to <placeName>Vietnam</placeName>?</u>
+      <u who="LAUGHLIN">Total shock.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="LAUGHLIN">You could have heard a pin drop in that room.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="LAUGHLIN">And neither my wife nor I could believe it, and the same went for our friends. I was particularly close to another lieutenant in the same boat as I was, who was a graduate of <orgName>the University of Minnesota Law School</orgName>, whose wife was with him at <placeName>Fort Benning</placeName>, as was I with mine. She was <date>19 years old</date> at the time, and we had to smuggle her into the officers’ club—</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="LAUGHLIN">—because she wasn’t old enough to drink.</u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="LAUGHLIN">But we became very fast and close friends, and we went through Fort Holabird together, went to <placeName>Vietnam</placeName> on the same airplane. Got split up and ended up <date>three months later</date> in the same unit. Came home together, and we’re friends ever since. He just recently passed away within <date>the last six months</date> as result of a brain tumor.</u>
+      <u who="REED-WESTON">Oh. So it was a pretty universal reaction to the news?</u>
+      <u who="LAUGHLIN">Yeah. And when we got there, I think it didn’t take long to figure out we were in a losing situation from the get-go.</u>
+      <u who="REED-WESTON">Yeah. So you—what was your reaction when you first got on active duty and started really hearing about <placeName>Vietnam</placeName>? What was your reaction to that, hearing about the <placeName>U.S.</placeName> involvement in <placeName>Vietnam</placeName>?</u>
+      <u who="LAUGHLIN">Again, I think what was being filtered back to the American public in <date>1967</date>, when I went on active duty, was a sanitized version of what was actually taking place and that these troop buildups that we were experiencing, which were supposed to be temporary, became permanent and more bloody as time went on. So I think it was not until I was on active duty that I really thought about what was going on, and probably not until I really got there did it really hit home as to what this country had gotten itself involved in and what it meant for the individual soldier and for me and my friends in particular.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. So did you think that the <placeName>U.S.</placeName> should have bee involved in <placeName>Vietnam</placeName> Before you got to <placeName>Vietnam</placeName>, did you—</u>
+      <u who="LAUGHLIN">That’s a difficult question to answer because I’ve often thought—you know, there’s a controversy as to whether or not the attacks on the [USS] Maddox ever took place. There’s no question in my mind that <placeName>Hồ Chí Minh</placeName> and <persName>Lê Tuẩn</persName> [sic; <persName>Lê Duc Duẩn</persName>] intended to take over <placeName>South Vietnam</placeName> because they were running people down on <placeName>the Hồ Chí Minh trail</placeName> and fomenting dissent before we got there. </u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="LAUGHLIN">So I would say it didn’t take long for those of us who were sent there to realize that we were pawns who really had little control over what we were supposed to be doing, and the name of the game was to survive and help your buddies survive and get home in one piece.</u>
+      <u who="REED-WESTON">Was that a pretty universal feeling?</u>
+      <u who="LAUGHLIN">I think so.</u>
+      <u who="REED-WESTON">Yeah. Including before you got to <placeName>Vietnam</placeName>, among the people who were going to be sent there? Was that the same feeling they had?</u>
+      <u who="LAUGHLIN">I don’t know of many former soldiers who had anything positive to say about <placeName>Vietnam</placeName> or their experiences in <placeName>Vietnam</placeName>.</u>
+      <u who="REED-WESTON">No. Yeah, that seems pretty [chuckles]—pretty universal. So what kind of training did you receive before you went to <placeName>Vietnam</placeName>?</u>
+      <u who="LAUGHLIN">Just what I told you.</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="LAUGHLIN"><date>Ten weeks</date> in infantry school, <date>four weeks</date> of common intelligence, none in survival skills.</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="LAUGHLIN">And no troop time.</u>
+      <u who="REED-WESTON">Did you get any training in Vietnamese intell- —in Vietnamese language, I mean?</u>
+      <u who="LAUGHLIN">No.</u>
+      <u who="REED-WESTON">Do you think that the type of training that you did get was helpful at all?</u>
+      <u who="LAUGHLIN">No.</u>
+      <u who="REED-WESTON">No. Do you think that they could have improved on it at all?</u>
+      <u who="LAUGHLIN">They could have, but the military is very slow to change. In <date>the early 1960s</date>, we were geared up to fight a European land war, so the tactics that you use in fighting a European land war are totally different from the tactics you use in fighting a guerilla war in the jungles of <placeName>Southeast Asia</placeName>. You don’t have tanks. You don’t have heavy artillery. <orgName>Airpower</orgName> is useful but not controlling. And to take on an enemy with the tenacity of the Vietnamese, who were defending their own country in a war of national liberation, was in my mind a losing task.</u>
+      <u who="LAUGHLIN">What skills would have been beneficial for you to have? What type of training could they have provided that actually would have made a difference when you first got to <placeName>Vietnam</placeName>?</u>
+      <u who="LAUGHLIN">Well, there was no training on guerilla warfare, which would have been helpful, because it’s a totally different type of fight. There was no really direction as to how the military should be going in <placeName>Vietnam</placeName>. We started off with the concept of almost fighting a European land war, where taking territory was paramount. Well, that didn’t work. So then we went to the search and destroy phase, where the name of the game was to kill as many North Vietnamese and Viet Cong as possible and keep up the body count.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="LAUGHLIN">When that failed the government decided to phase out of our involvement in <placeName>Vietnam</placeName>, they turned to the Vietnamization of the war, where the entire program was to be taken over by the South Vietnamese military, who were totally unequipped and untrained, themselves, to defend themselves. So by that point in time, it was just a matter of time before we got out, they caved in, and the North Vietnamese took over.</u>
+      <u who="REED-WESTON">Yeah. So how aware were you of the <placeName>U.S.</placeName>’s, like, military position in <placeName>Vietnam</placeName> when you arrived?</u>
+      <u who="LAUGHLIN">I wasn’t aware of it when I arrived, but within <date>the next month</date> or two, I was certainly well aware of it. I knew where all of the American units. I knew what we were facing. We saw first hand what the results of the war were going to be. And I think the first time that I really sat up and said, Whoa, there’s something wrong here was when we got hit with the Tet Offensive in <date>1968</date>, the first time we were under heavy enemy attack. Although that offensive was a military disaster for the <orgName>VC</orgName> [Viet Cong] and the <orgName>NVA</orgName> [<orgName>North Vietnamese Army</orgName>], it was a giant propaganda victory, which for the first time impacted on the ordinary soldier and the small-unit leader and, more importantly, impacted on the people at home and helped coalesce the opposition to the war.</u>
+      <u who="REED-WESTON">Yeah. So when you were about to go to <placeName>Vietnam</placeName>, what was your family’s reaction to that?</u>
+      <u who="LAUGHLIN">Well, my wife burst into tears.</u>
+      <u who="REED-WESTON">[Chuckles.] Yeah.</u>
+      <u who="LAUGHLIN">My parents were upset. I only had one sister, who’s younger than I, and I don’t think she knew much about it.</u>
+      <u who="REED-WESTON">How old was she at the time?</u>
+      <u who="LAUGHLIN">She was <date>two years</date> younger than I am, so I was <date>24</date>; she would have been 22.</u>
+      <u who="REED-WESTON">Yeah. So do you think that the public had learned anything more by the time you were about to be deployed, or was it still a pretty sanitized—</u>
+      <u who="LAUGHLIN">It was pretty much in its infancy. I think <date>the four years from 1967 to 1971</date> were crucial. The year of the most intense fighting was <date>1968</date>, and from then on, we’d soon be fighting a holding action, with no real clear objective as to where we were going with this thing.</u>
+      <u who="REED-WESTON">Okay. So what were your goals when you were originally going to go to <placeName>Vietnam</placeName>? What was your plan for doing your service there and then moving on to law—to—</u>
+      <u who="LAUGHLIN">To be a lawyer?</u>
+      <u who="REED-WESTON">Yeah. Did you have any plans beyond <placeName>Vietnam</placeName> at that point?</u>
+      <u who="LAUGHLIN">Well, my overriding concern was to keep myself in one piece and to do my job, and I think that the American soldier, by and large, did a remarkable job of fighting under very adverse conditions in a very ferocious war. I don’t think most people realize how difficult that war was. You know, people think of <name type="event">World War II</name> as a major conflagration, but this was all consuming. We had close to a half a million men in <placeName>Vietnam</placeName> at the time—in <date>mid-1968</date>, at the height of the fighting, and we weren’t going anywhere.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Yeah. So when did you originally arrive in <placeName>Vietnam</placeName>?</u>
+      <u who="LAUGHLIN"><date>December 7th, 1967</date>.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. What were your first impressions when you actually arrived to the country? </u>
+      <u who="LAUGHLIN">[Chuckles.] I looked up, and I said, I wish on was on that silver bird flying home.</u>
+      <u who="REED-WESTON">[Chuckles.] Yeah. Where did you land in <placeName>Vietnam</placeName>?</u>
+      <u who="LAUGHLIN">We landed at the Bien Hoa Air Base, which is about 20 miles northwest of <placeName>Saigon</placeName>, and I was assigned to a military intelligence detachment to the II [pronounced Second] Field Force, not too far from <placeName>Bien Hoa</placeName>, about two-thirds of the way from <placeName>Saigon</placeName> to <placeName>Bien Hoa</placeName> up Highway 1.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. What were your responsibilities in that?</u>
+      <u who="LAUGHLIN">I was supposed to gather intelligence from wounded North Vietnamese and Viet Cong prisoners in the prison hospital there. I didn’t speak Vietnamese. I didn’t know what the Vietnamese interpreter was telling them or not telling them, and I got very little useful intelligence out of them, because by the time we got there, they knew they weren’t going to be tortured or dealt with adversely, so they shut up.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. What were those hospitals like?</u>
+      <u who="LAUGHLIN">I’m sorry?</u>
+      <u who="REED-WESTON">What were those hospitals like?</u>
+      <u who="LAUGHLIN">I can’t say they were much different than the <placeName>U.S.</placeName> hospitals. The doctors provided medical care to the wounded enemy as well as to wounded Americans.</u>
+      <u who="REED-WESTON">How did the wounded enemy wind up there specifically?</u>
+      <u who="LAUGHLIN">That’s a good question, because by the time they got discharged from the hospital, they would be taken over by <placeName>the South Vietnamese</placeName>, and they didn’t have the scruples that we had.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. So your responsibility was to deal with them while they were in the hospital?</u>
+      <u who="LAUGHLIN">Yes.</u>
+      <u who="REED-WESTON">Did you have any other contact with them?</u>
+      <u who="LAUGHLIN">No, and I wasn’t there long enough to branch out into any other areas because right after the Tet Offensive I got assigned to <orgName>the Military Assistance Command</orgName> and shipped down to the <placeName>Delta</placeName> as an adviser.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. So what did you know about the South Vietnamese government at the time when you arrived in <placeName>Vietnam</placeName>?</u>
+      <u who="LAUGHLIN">Well, by the time I arrived, it was a dictatorship.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="LAUGHLIN">President [<persName>John F.] Kennedy</persName> and [Ambassador] <persName>Henry Cabot Lodge</persName> [Jr.] managed to depose and have assassinated <persName>Ngô Đình Diệm</persName> in the period before I arrived there.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. In <date>’63</date>, yeah.</u>
+      <u who="LAUGHLIN">And there was a succession of puppet dictators, <persName>Nguyễn Cao Kỳ</persName>, who was a former <orgName>Air Force</orgName> pilot, and [<persName>Nguyễn Văn] Thiệu</persName>, and they didn’t have the will to win that the North Vietnamese had. And they were corrupt.</u>
+      <u who="REED-WESTON">Yeah. Do you think that the corruption was a pretty universal part of the government?</u>
+      <u who="LAUGHLIN">Absolutely.</u>
+      <u who="REED-WESTON">Yeah. Do you think that by the time you got there, that they could have enacted reforms to help eventually win the war?</u>
+      <u who="LAUGHLIN">It’s hard for me to postulate a scenario where the South Vietnamese would win the war, and what happened, happened. And I can tell you the reasons why I think it happened. But we never really trained them or equipped them to take over the fight by themselves. And when we pulled out, we pulled out a lot of the aid packages we were giving them. They couldn’t afford to buy gasoline for their airplanes, so at that point I think what happened, in my mind, in <date>the early ’70s</date> was inevitable.</u>
+      <u who="REED-WESTON">Okay. Do you think that the <placeName>U.S.</placeName> was really propping up the South Vietnamese government at the time when you got there, or do you think that it was an independent government on its own?</u>
+      <u who="LAUGHLIN">Oh, no, I don’t think it was independent on its own.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Yeah. Did you think that the <placeName>U.S.</placeName> was really supporting it?</u>
+      <u who="LAUGHLIN">Yes, because I believe that <persName>Johnson</persName>, for all of his flaws, felt that he was helping to avoid the domino fall of the countries in <placeName>Southeast Asia</placeName> and was stemming the tide of communism as best he could.</u>
+      <u who="REED-WESTON">Yeah. Okay. What did—</u>
+      <u who="LAUGHLIN">Can we take a pause?</u>
+      <u who="REED-WESTON">Oh, absolutely.</u>
+      <u who="LAUGHLIN">I need a glass of water.</u>
+      <u who="REED-WESTON">Absolutely.</u>
+      <u who="REED-WESTON">All right, so we’re back now. We were talking a bit about the situation in <placeName>South Vietnam</placeName> when you first got there. What was your opinion on what was happening to the North Vietnamese prisoners once they left the hospital? You said that they were—</u>
+      <u who="LAUGHLIN">I really don’t know. I don’t know what happened to them. I assume they were taken to a POW [prisoner of war] camp, and that was outside the purview of our control, so I really have no knowledge whatsoever.</u>
+      <u who="REED-WESTON">So that was under the South Vietnamese control?</u>
+      <u who="LAUGHLIN">Yes, yes.</u>
+      <u who="REED-WESTON">Did the <placeName>U.S.</placeName> have any involvement with that aspect of it?</u>
+      <u who="LAUGHLIN">I don’t think so. I don’t know.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. So when you first got there, who were you originally working with, when you first got to <placeName>Vietnam</placeName>?</u>
+      <u who="LAUGHLIN">The intelligence detachment I was assigned to was attached to <orgName>the II Field Force</orgName>, which was the core control for the third of the country that went from <placeName>the Mekong Delta</placeName> to the north of <placeName>Saigon</placeName>. So I was answerable to the commanding officer of my military intelligence detachment, who in turn was responsible to the core officers to whom he reported.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. So did you have any difficulty assuming leadership, in that you came in as a lieutenant?</u>
+      <u who="LAUGHLIN">Did I have any problem? I never had a problem with any of my men. I seemed to have the facility to work with them and not have any problem with them because I didn’t treat them as inferior human beings.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Do you think that a lot of officers did treat their men as—</u>
+      <u who="LAUGHLIN">I think there were a lot of officers who were nothing more than tinhorns, who don’t know how to deal with or manage people.</u>
+      <u who="REED-WESTON">So what type of men were you usually leading? What were their general backgrounds?</u>
+      <u who="LAUGHLIN">Well, if they were still on their first tour of duty in <placeName>Vietnam</placeName> and were alive, they were <date>18 or 19 years old</date>, at the enlisted level. The NCOs, the sergeants—the non-commissioned officers were in their <date>mid-20s</date>, and the officers were the young guys like us in the field-grade positions of lieutenants and captains, and the older officers were the career officers. The rank of major or above were the ultimate responsibility, upon whom the management of the war fell, the field-grade officers.</u>
+      <u who="REED-WESTON">Yeah. What was, like, the general mood, morale in the groups that you were working with when you first arrived?</u>
+      <u who="LAUGHLIN">I think the general mood was the same as mine: Do your job, cover your ass and get home in one piece, and cover your buddies.</u>
+      <u who="REED-WESTON">Do you think that people felt good about the <placeName>U.S.</placeName> presence in <placeName>Vietnam</placeName> at the time?</u>
+      <u who="LAUGHLIN">The soldiers or the people at home?</u>
+      <u who="REED-WESTON">The soldiers.</u>
+      <u who="LAUGHLIN">No. We all wanted to go home.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Even the enlisted men, the people who had—</u>
+      <u who="LAUGHLIN">They were the ones who were taking the brunt of it on the combat lines, so I would say they more than anyone.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="LAUGHLIN">The heaviest casualties were the young men in <date>the ages of 18 to 20</date>, who were infantrymen, and the field-grade officers, the lieutenants and captains who led the small units, from platoon up to company size.</u>
+      <u who="REED-WESTON">So aside from working in the hospitals, interrogating prisoners, did you have any other roles?</u>
+      <u who="LAUGHLIN">Well, I had other jobs to do. I was the supply officer for our unit. Trying to keep track of supplies like rifles, cameras, other valuable items in a war setting is difficult at best.</u>
+      <u who="REED-WESTON">[Chuckles.] Yeah.</u>
+      <u who="LAUGHLIN">I can’t say that I had much else to do besides that, because we were working 12-hour shifts, 12 hours on, 12 hours off, <date>seven days</date> a week. And it was just an all-consuming process.</u>
+      <u who="REED-WESTON">Was it difficult not being able to speak Vietnamese?</u>
+      <u who="LAUGHLIN">We didn’t have that much contact with the Vietnamese. I think it would have been helpful, but I’m not sure it would have made much of a difference because I think that, in retrospect, it has become apparent to us that many of the Vietnamese who worked on the American compounds during <date>the day</date> were shooting at us at night. When we got hit in the Tet Offensive, we would have been overrun but for the fact that following their artillery barrage, they were supposed to hit us on the ground, and they were late, so by the time they launched their ground assault, it was daybreak and we had helicopter gunship cover, you know, that just chewed them up.</u>
+      <u who="REED-WESTON">Yeah. Okay. So you said that you didn’t have a whole lot of contact with normal Vietnamese people. Did you have any contact, really, with people outside of the military bases?</u>
+      <u who="LAUGHLIN">When I moved to the <placeName>Delta</placeName> with an advisory team, it was a totally different experience because there were about 17 of us who lived in a building in Can Tho, and we had a couple of Vietnamese employees who took care of the cleaning of the building and our laundry and stuff like that, so we had some contact with them and some contact with members of the Vietnamese military, but nothing meaningful.</u>
+      <u who="REED-WESTON">Yeah. So you said it was a pretty broadly-held conception that the people who you were working with on the bases might have been <persName>Viet Cong</persName>.</u>
+      <u who="LAUGHLIN">Yeah, no question about it.</u>
+      <u who="REED-WESTON">Yeah. Do you think that that was pretty widespread in terms of the Vietnamese who were working with the <placeName>U.S.</placeName> military?</u>
+      <u who="LAUGHLIN">One of the problems we had was identifying the enemy because they wore the same black pajamas and conical straw hats that the civilians wore.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Do you think that that caused issues for the <placeName>U.S.</placeName> military?</u>
+      <u who="LAUGHLIN">I think it caused frustrations that led to such things as <orgName>the Mỹ Lai Massacre</orgName>, which I blame not only on Lt. [<persName>William] Calley [Jr.</persName>] but on his company commander, [Capt.] <persName>Ernest</persName> [L.] <persName>Medina</persName> [pronounced meh-DYE-nuh] and <placeName>Medina</placeName>’s battalion commander. There was a complete lack of leadership and role setting, and frustration on being picked off day in and day out, stepping on land mines and booby traps. They just broke.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Do you think that that was a pretty common reaction to the stresses of—</u>
+      <u who="LAUGHLIN">I think that there were probably more atrocities committed than most people realize, but nothing out of the ordinary for a wartime situation, which is an atrocity in itself.</u>
+      <u who="REED-WESTON">Yeah. Do you think it was a different kind of atrocities in <placeName>Vietnam</placeName>, as opposed to in earlier wars?</u>
+      <u who="LAUGHLIN">No, because if you read the history of <name type="event">World War II</name>, you have the same problems, people breaking—doing—particularly after the invasion of <placeName>Normandy</placeName>, the Germans assassinating American prisoners, Americans assassinating German prisoners. It just goes with the turf.</u>
+      <u who="REED-WESTON">How often did you get out into the field?</u>
+      <u who="LAUGHLIN">I never got into the field in terms of being an infantry officer. What happened to me was very peculiar. I was supposed to go out to a sector advisory team, which is a low-level town [sic] in one of the provinces, to run their intelligence operation. When I got to Can <orgName>Tho</orgName>, that was the headquarters of the IV [pronounced Fourth] <orgName>Corps</orgName>, which managed the war in what I’ll call <placeName>the Mekong Delta</placeName>. I was a first lieutenant, and this captain grabbed me, and he said, “You’re comin’ with me. I need help in the reconnaissance section.” I said, “Captain, I’m obviously your man. I’m near-sighted”—</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="LAUGHLIN">—“astigmatic, partially colorblind, and I have absolutely no training.”</u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="LAUGHLIN">And he looked at me and he said, “Yeah, but you forgot you have one important qualification.” And I asked him what that was, and he said, “You’re here.”</u>
+      <u who="REED-WESTON">Ah.</u>
+      <u who="LAUGHLIN">“And I need help, and you’re going on flight status because I can’t handle all the low-level aerial reconnaissance myself.” So he prevailed, and I was made an aero reconnaissance officer, put on flight status. We had a second lieutenant who was an assistant to us, the captain who was in charge, me and a private first class who had just graduated at <date>the age of 18</date> from high school in <placeName>Kankakee</placeName>, <placeName>Illinois</placeName>. And we were responsible for planning and programming all of the aerial reconnaissance that was flown by both the <orgName>Army</orgName> and <orgName>the Air Force</orgName> over <orgName>the IV Corps</orgName> for the duration while we were there.</u>
+      <u who="REED-WESTON">Oh.</u>
+      <u who="LAUGHLIN">So I was there when they brought—you know what a <persName>Dustoff</persName> is?</u>
+      <u who="REED-WESTON">Nn-nn. </u>
+      <u who="LAUGHLIN">It’s a medevac helicopter. You pick them up and dust them off and send them back.</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="LAUGHLIN">I was there when the <persName>Dustoff</persName> arrived, and they had his body wrapped up in a parachute, and instead of setting the helicopter down on the hard stand, the pilot was hovering, and the litter bearers tried to get the stretcher off, and one of them lost his footing and dumped the body out on the runway. And he rolled out of the chute, and he was just lying there, and he was all smashed up because he must have hit the ground going 200 miles an hour. And I had to identify him and get him in a body bag and take care of all those details, notify our commanding officer. And then it suddenly dawned on me that It’s step up or step aside, Lieutenant. You’re the next in line.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. So you wound up doing aerial reconnaissance after <name type="event">the Tet Offensive</name> had begun, correct?</u>
+      <u who="LAUGHLIN">That’s correct.</u>
+      <u who="REED-WESTON">So you were still working on interrogating prisoners in—</u>
+      <u who="LAUGHLIN">No.</u>
+      <u who="REED-WESTON">But that was earlier, when you first arrived. And then when did you switch between the two? Because you—</u>
+      <u who="LAUGHLIN">Well, the Tet Offensive was <date>January 31st of 1968</date>. Right after that, I got sent down to the <placeName>Delta</placeName>, which was when I made the transformation from a POW interrogator to, if you will, an aerial recon officer.</u>
+      <u who="REED-WESTON">Yeah. So as you got into <date>January</date>, were you aware of any of the built-up for the Tet Offensive?</u>
+      <u who="LAUGHLIN">No, we didn’t take them seriously. We had been hearing reports in <date>late January</date> about the fact that we might be subject to a major attack, and we said, “Get out! What are they gonna do?”</u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="LAUGHLIN">Well, they proved what they were going to do because they really knocked the hell out of us for <date>the first day</date> or two. But the American firepower was such that they couldn’t stand up to the aerial response and the automatic weapons fire or armored vehicles.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. So it was pretty much business as normal up until <name type="event">the Tet Offensive</name> actually broke?</u>
+      <u who="LAUGHLIN">Yeah.</u>
+      <u who="REED-WESTON">What was your experience with the Tet Offensive?</u>
+      <u who="LAUGHLIN">Getting blown out of bed at about three o’clock in the morning by a Russian-made rocket.</u>
+      <u who="REED-WESTON">[Chuckles.] When was that?</u>
+      <u who="LAUGHLIN">The night of the Tet Offensive, <date>January 31st</date> of <date>’68</date>. I was asleep, and I heard this noise, and I said, What in the hell is that? And then there was this massive explosion, and the next thing I knew, I was lying on the ground. What had happened was the blast had knocked me against my steel wall locker, and it dazed me for a matter of seconds. So I got up and I said, “Are you guys goin’ to the bunker?” There’s dead silence. They’re all gone. [Chuckles.]</u>
+      <u who="REED-WESTON">[Laughs.] So you were the last person there?</u>
+      <u who="LAUGHLIN">I was the last person to get out of that barracks.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. And so what happened for the rest of that night?</u>
+      <u who="LAUGHLIN">We were taking sporadic automatic weapons fire until about seven o’clock in the morning, when all hell broke loose and we just came under a full-scale ground assault. And, as I said before, by then we had aerial cover-up, so we were able to repel them between the helicopter gunships and our own defensive fire.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. So what were you doing up until the ground attack happened at around seven a.m.? It was just aerial?</u>
+      <u who="LAUGHLIN">Well, we had a few people wounded in the rocket attack. We had to attend to them. Our normal workday started at seven o’clock anyway, so we didn’t think—we thought this was an aberrational thing, and then they proved us wrong.</u>
+      <u who="REED-WESTON">Had there ever been attacks like that on the air base?</u>
+      <u who="LAUGHLIN">No. No, none whatsoever.</u>
+      <u who="REED-WESTON">Had you heard about them on other bases at all?</u>
+      <u who="LAUGHLIN">I’m sorry?</u>
+      <u who="REED-WESTON">Had you heard about, like, random attacks like that on other bases?</u>
+      <u who="LAUGHLIN">Yeah, the whole country came under attack, and one of the problems was that <persName>William [C.] Westmoreland</persName>, who was the commanding general, had moved all of the American units up to seal off the Cambodian border because he anticipated that they would be coming down and attacking us. They were already behind that line, so they were already there.</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="LAUGHLIN">They overran the <placeName>U.S.</placeName> embassy.</u>
+      <u who="REED-WESTON">Okay. So what was the general opinion after the first Russian attack, the first Russian rocket attack, three a.m.?</u>
+      <u who="LAUGHLIN">The general experience for a short period of time was euphoric in that we survived this offense, and then it started all over again.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. So what was the response when it started again?</u>
+      <u who="LAUGHLIN">Well, as I told you, we just drove them off. I was out on patrol and we counted over 200 enemy dead,—</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="LAUGHLIN">—as a result of—mostly from the helicopter gunships.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="LAUGHLIN">They were devastating weapons.</u>
+      <u who="REED-WESTON">Yeah. So the ground attack started around seven a.m.?</u>
+      <u who="LAUGHLIN">About daybreak.</u>
+      <u who="REED-WESTON">Yeah. What was your experience with that?</u>
+      <u who="LAUGHLIN">It was all part and parcel of the same experience.</u>
+      <u who="REED-WESTON">What did you see for it, really? Like, did you see any part of the ground attack specifically?</u>
+      <u who="LAUGHLIN">We were returning their fire, so I would say yes, we saw it. The helicopter gunships were mowing them down a few hundred yards in front of us.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. How long did that go on for?</u>
+      <u who="LAUGHLIN">Most of the morning, and then it tapered off during the following <date>two days</date>, but it would flare up at night again</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Do you know how many Viet Cong were eventually killed at your area?</u>
+      <u who="LAUGHLIN">No. No, I have no idea.</u>
+      <u who="REED-WESTON">Do you know roughly how many <placeName>U.S.</placeName> military members were—</u>
+      <u who="LAUGHLIN">No.</u>
+      <u who="REED-WESTON">—injured?</u>
+      <u who="LAUGHLIN">No.</u>
+      <u who="REED-WESTON">No. So do you think that it mostly died down after those <date>two days</date>?</u>
+      <u who="LAUGHLIN">Where we were.</u>
+      <u who="REED-WESTON">At your location specifically?</u>
+      <u who="LAUGHLIN">Yeah.</u>
+      <u who="REED-WESTON">What was the attitude at the end of it—like, the general attitude on the base?</u>
+      <u who="LAUGHLIN">I think it suddenly brought home to us that we were fighting a guerilla force that wasn’t going to quit, that was very tenacious and resourceful and that no matter what we did an how well we fought, we were not going to prevent them from prevailing over the long haul. They outlasted the French, they outlasted the Japanese, they outlasted the French again, and they were going to outlast us.</u>
+      <u who="REED-WESTON">Do you think that was a big turning point for you guys specifically, for the people within—</u>
+      <u who="LAUGHLIN">It was in terms of making us realize how futile our effort was from the get-go.</u>
+      <u who="REED-WESTON">Yeah. Do you think that that was—you said that that had already kind of been the attitude before the Tet Offensive. Do you think that cemented it?</u>
+      <u who="LAUGHLIN">Among the junior officers and the junior enlisted men, yes.</u>
+      <u who="REED-WESTON">Yeah. What did you think about the response in the <placeName>U.S.</placeName>? You’ve mentioned it a little bit before.</u>
+      <u who="LAUGHLIN">Well, we really didn’t know much about what was going on until we got home. And this country was being ripped apart by that war. People hated it. The longer it went on, the more  the people hated, the less approval <orgName>Johnson</orgName> had. He started withdrawing troops, which only weakened the South Vietnamese position up to the point where he turned the war over to them in <date>about 1971</date>. </u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="LAUGHLIN">And they threw some incendiary devices at the building, which were extinguished, but <date>the following day</date>, the president of the college, who was named <persName>Robert</persName> [<persName>F.] Goheen</persName>, called a joint faculty-staff meeting, and we attended as members of the professional staff of the university. And it was in <placeName>Nassau Hall</placeName>, and you could smell the acrid odor of smoke and burned wood, and he was going on and on about the fact that we had to respect the rights of these students to protest this violent war and this was an aspect of free speech and freedom of expression that we needed to honor or at least acquiesce to.</u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="LAUGHLIN">And <persName>Goheen</persName> somehow finished his talk, and we walked outside, and he turned to me, and he said, “I’m sorry I did that, <persName>Jim</persName>.” I said, “What are you talking about, <persName>Larry</persName>?” I said, “You were right on the money.” He said, “Yeah, but I just cost us our jobs.” I said, “<persName>Larry</persName>, that’s not possible. This is <orgName>Princeton University</orgName>, a bastion of free speech and free expression.” <date>Two weeks later</date>, we both got fired.</u>
+      <u who="REED-WESTON">Were you just fired because you were—because he was your direct boss?</u>
+      <u who="LAUGHLIN">I was fired because I was guilty by association.</u>
+      <u who="REED-WESTON">So you did agree with him privately, though?</u>
+      <u who="LAUGHLIN">Of course.</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="LAUGHLIN">He’s right. I was all in favor of they can protest all they want, but they can’t injure other people or burn down buildings.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Had anyone been injured in the initial Molotov cocktail—</u>
+      <u who="LAUGHLIN">No, I don’t think so. Everyone recalls the iconographic photograph of the <placeName>Kent State</placeName> massacre, with the young woman over the bodies on the ground.</u>
+      <u who="REED-WESTON">Yeah. So [chuckles] you were guilty by association.</u>
+      <u who="LAUGHLIN">That’s it.</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="LAUGHLIN"><date>Today</date> that probably would have resulted in a spate of lawsuits, but at the time, I was ready to move on. My wife was pregnant with our first child, and I just took it in stride, and that eventually led to me going out on my own and forming my own law firm, which you probably can’t do <date>today</date>.</u>
+      <u who="REED-WESTON">[Chuckles.] Yep. </u>
+      <u who="LAUGHLIN">Well, I took over the aerial reconnaissance section—</u>
+      <u who="REED-WESTON">How soon after the Tet Offensive was that?</u>
+      <u who="LAUGHLIN">Within <date>a month</date>.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Do you think it was connected in any way?</u>
+      <u who="LAUGHLIN">No, I think it was a freak accident. I don’t know whether his plane just had a mechanical failure while it was on a low-level mission, whether he got shot down, whether the thing caught fire. I have no idea.</u>
+      <u who="REED-WESTON">So why were you reassigned to that particular unit from—</u>
+      <u who="LAUGHLIN">I had asked for a transfer to <orgName>the Military Assistance Command</orgName> in the hopes that I would get to serve with a couple of the guys I had gone through <placeName>Benning</placeName> with or that I would at least get out to a sector advisory post, which was more of a low-level interaction with the resident population.</u>
+      <u who="REED-WESTON">Did you want to really interact more with normal people?</u>
+      <u who="LAUGHLIN">I said it would be something that I could handle and do a good job at.</u>
+      <u who="REED-WESTON">Yeah. Were you frustrated at all with the job that you had been doing for <date>the last few months</date>?</u>
+      <u who="LAUGHLIN">Oh, yeah. I thought it was a total waste of time.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Why did you think that?</u>
+      <u who="LAUGHLIN">Because once they got into an American hospital, these <orgName>VC</orgName> and <orgName>NVA</orgName> weren’t going to say anything.</u>
+      <u who="REED-WESTON">Yeah. <persName>Mm-hm</persName>. </u>
+      <u who="LAUGHLIN">And they weren’t beaten or tortured, so they had no incentive to inform on their unit, on their colleagues.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Okay. So you decided—so you put in a request for a transfer to—</u>
+      <u who="LAUGHLIN">I did.</u>
+      <u who="REED-WESTON">And then that was granted.</u>
+      <u who="LAUGHLIN">Once they found a replacement officer for me, they transferred me.</u>
+      <u who="REED-WESTON">Yeah. So what was your opinion on—well, what was your general experience running the aerial reconnaissance?</u>
+      <u who="LAUGHLIN">[Chuckles.]</u>
+      <u who="REED-WESTON">Big question.</u>
+      <u who="LAUGHLIN">My general experience, when it was all done, was we did a lot of work, and it was very difficult to produce anything positive. For example, we had control of [<orgName>Grumman</orgName> OV-1] Mohawk aircraft with what was called SLAR [pronounced SLAR, not S-L-A-R], side-looking airborne radar, which would pick up movements on the ground. It was, like, great, we’d fly a mission; there would be movement on the ground. How do you know what it is? And the same with nighttime missions. They would use infrared photography and pinpoint campfires and hot spots, but not able to delineate whether they were friendly or not friendly.</u>
+      <u who="REED-WESTON">Yeah. So do you think that you were able to produce good-quality intelligence out of that mission, out of those missions?</u>
+      <u who="LAUGHLIN">No. We did a lot of other stuff, too, which was a waste of time. I was responsible for pre- and post-raid bomb damage assessments as a result of the [<orgName>Boeing</orgName>] B-52 [<orgName>Stratofortress</orgName>] flights. Well, they’d bomb a mile-long chain in the middle of a rice paddy. They didn’t accomplish anything except burn up a lot of fuel, explosives and food crop.</u>
+      <u who="REED-WESTON">Yeah. Do you think those weren’t effective?</u>
+      <u who="LAUGHLIN">No, they weren’t effective.</u>
+      <u who="REED-WESTON">Why do you think they weren’t effective?</u>
+      <u who="LAUGHLIN">Because they couldn’t hit a damn thing from 35,000 feet. The maps were inaccurate.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Do you think they had accurate information about where the Viet Cong and <orgName>North Vietnamese Army</orgName> were?</u>
+      <u who="LAUGHLIN">No. No.</u>
+      <u who="REED-WESTON">No. Do you think that any part of the <placeName>U.S.</placeName> military actually had good intelligence on that at the time?</u>
+      <u who="LAUGHLIN">No. It was a joke. Two of my friends, one of whom I mentioned previously, was a <placeName>Minnesota</placeName> law grad; the other was an <placeName>Iowa</placeName> law grad. Were new at a battle section, and one of their responsibilities was to prepare the <date>monthly</date> road report. Well, the road report for our <orgName>IV Corps</orgName> sector was supposed to show green roads, on which you could safely proceed; yellow roads, on which you needed to proceed with caution and with armed escort; and red roads, on which you couldn’t go unless you were an armed convoy.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="LAUGHLIN">He had me standing at attention while he’s screaming at me. He said, “What are you trying to do to me, Captain?” I said, “Sir, what’s the problem?” He said, “You’re not providing the required reporting on casualties that you’re supposed to do.” I said, “But, Colonel, they only give me the same three figures.” Well, he looked at me and said, “Well, that sounds like a personal problem, Captain.”</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="LAUGHLIN">“Get out of here and straighten it out.” So I looked at it. I said, Hmm, I’ve got a personal problem. I got a personal solution to that problem. I took a sheet of paper and made a graph, and I took the three figures and allocated them around in different proportions <date>each day</date> and phoned those figures up to <placeName>Saigon</placeName>, and nobody ever bothered me again.</u>
+      <u who="REED-WESTON">Do you think that was pretty common?</u>
+      <u who="LAUGHLIN">Yes.</u>
+      <u who="REED-WESTON">Yeah?</u>
+      <u who="LAUGHLIN">What are they going to do?</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="LAUGHLIN">If I submitted the same three figures, he’d have been down my throat again because he was trying to make the next rank on the road to generalship.</u>
+      <u who="REED-WESTON">Yeah. So do you think that that was pretty common in terms of the <placeName>U.S.</placeName> military fudging—</u>
+      <u who="LAUGHLIN">Oh, horrible.</u>
+      <u who="REED-WESTON">—all their—</u>
+      <u who="LAUGHLIN">The body count was the most ridiculous thing I’ve ever heard of.</u>
+      <u who="REED-WESTON">Do you think that people actually believed the inflated numbers?</u>
+      <u who="LAUGHLIN">I think probably President <persName>Lyndon Johnson</persName> believed them. I don’t think anybody in <placeName>Vietnam</placeName> believed them.</u>
+      <u who="REED-WESTON">Do you think that the <placeName>U.S.</placeName> government back in <placeName>America</placeName> actually had good-quality information about realistic figures?</u>
+      <u who="LAUGHLIN">No, I don’t think so because the American commanders just kept asking <persName>Johnson</persName> for more and more troops, and as we got more and more troops, the North Vietnamese sent more and more to fight them, and the thing just kept escalating.</u>
+      <u who="REED-WESTON">So where do you think that the real pressure to inflate the numbers came from?</u>
+      <u who="LAUGHLIN">From the senior military commanders in <placeName>Vietnam</placeName>. You have to understand, these guys are trained for their entire lives to become generals, and the only way to do that is to have some wartime experience. Well, they needed a war. And every time something happened and <persName>Johnson</persName> complained to them, they would tell him, “Well, if you give us more troops, we’ll fix that problem.” In reality, they didn’t fix the problem; they made it worse.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. So you think that pressure came down on a lot of different parts of the <placeName>U.S.</placeName> military effort?</u>
+      <u who="LAUGHLIN">Well, in <placeName>Vietnam</placeName>, yes.</u>
+      <u who="REED-WESTON">In <placeName>Vietnam</placeName>. Okay.</u>
+      <u who="LAUGHLIN">Well, when you take—most aero photography is done from a vertical platform, and it’s straight down. That’s great, but it doesn’t give you side dimensions or the ability to get stereo photography, so you need to take what’s called on oblique [which he pronounced as oh-BLIKE] view, and to get an oblique photo, you’ve got to go down fairly low and take the pictures on an angle, and if you have a stereopticon (which he pronounced as stereo-opticon], you can make stereo vision. Even back in <date>the ’60s</date>, you could do this with relatively primitive technology. [Chuckles.]</u>
+      <u who="REED-WESTON">[Laughs.] Yeah.</u>
+      <u who="LAUGHLIN">So they would tell us they “think there’s a POW camp here or there or some new trench lines out there, go get us some photo recon on it, Captain.” Off I went.</u>
+      <u who="REED-WESTON">So you received areas that you were supposed to investigate from higher up?</u>
+      <u who="LAUGHLIN">I’m sorry?</u>
+      <u who="REED-WESTON">So you were told where you were supposed to investigate?</u>
+      <u who="LAUGHLIN">Oh, yeah. I never invented the missions on my own.</u>
+      <u who="REED-WESTON">[Laughs.] How often did you actually find something significant on those missions?</u>
+      <u who="LAUGHLIN">Not too frequently. Nothing that was useful. I mean, I can remember being told to go down to an area known as “the human forest.” I mean, it was just a bad-ass area. You didn’t dare fly there. And when I told the pilot where we had to go, he refused to fly. So I basically embarrassed him into getting a replacement for me to take me down there, and there was no prisoner of war camp there; it was just jungle.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. So how many of these flights were you generally running? How many, like, per day or what was the general volume of it?</u>
+      <u who="LAUGHLIN">Oh, there was preplanned reconnaissance <date>every day</date>, flown by both the <orgName>Army</orgName> and <orgName>the Air Force</orgName>. There were spot missions flown in response to specific requests. There were the isolated low-level missions, again, targeted at a specific area, but how many a day across the <placeName>Delta</placeName>? [Pause.] I’m going to say maybe <date>30</date> or 40 a day.</u>
+      <u who="REED-WESTON">Oh, wow! So how many people were you in charge of, running that scale of an operation?</u>
+      <u who="LAUGHLIN">Well, I was in charge of our aerial reconnaissance section, which was about five or six people, but I also had operational control over the planes we needed to fly the missions.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="LAUGHLIN">So we had four [<orgName>Cessna</orgName> L-19/]O-1] Bird Dogs. It was a single-engine spotter aircraft. And four twin-engine Mohawks, which were death traps. I hated flying in them.</u>
+      <u who="REED-WESTON">Why did you hate them?</u>
+      <u who="LAUGHLIN">They were death traps. They had a glide ratio of a brick. They had a long, elongated fuselage with a triple tail, so if you tried to crash land them, they would just disintegrate.</u>
+      <u who="REED-WESTON">Mmm.</u>
+      <u who="LAUGHLIN">They couldn't fly on one engine, so if you lost an engine, you lost the plane. And they didn’t have the same ejection seats as <orgName>the Air Force</orgName> did. In an <orgName>Air Force</orgName> ejection seat, when you fire your seat it blows the canopy off and then a rocket fires the seat out. In the <orgName>Mohawk</orgName>, you just had a Plexiglas window over your head, and you sat on a 37mm cannon shell, and when we fired a shell, it literally blew you through the glass and out of the plane.</u>
+      <u who="REED-WESTON">So people didn’t tend to survive ejection.</u>
+      <u who="LAUGHLIN">No, they were trying to ride them down, but then that was worse.</u>
+      <u who="REED-WESTON">Yeah. Did you have any issues coming into this type of command with no real training?</u>
+      <u who="LAUGHLIN">I’m sorry?</u>
+      <u who="REED-WESTON">You said that you didn’t have a lot of training specific for this type of command. Did you have problems with that at all?</u>
+      <u who="LAUGHLIN">No. </u>
+      <u who="REED-WESTON">No?</u>
+      <u who="LAUGHLIN">I went to <orgName>Dartmouth</orgName>.</u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="LAUGHLIN">I can solve problems.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. So it came down to problem solving instead of specific knowledge that you needed?</u>
+      <u who="LAUGHLIN">I think some specific knowledge would have helped from the outset, but by the time <date>four to six weeks</date> had elapsed, we had the drill down pat. When I say <date>four to six weeks</date>—after I replaced my deceased commanding officer. I had a sergeant with me who was on his fifth tour in <placeName>Vietnam</placeName>, who was an aerial reconnaissance specialist, and he was a good ol’ boy from <placeName>Georgia</placeName> by the name of <persName>Turner J. Hite</persName>. His background and my background were like night and day, and we hit it off like that.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="LAUGHLIN">We just got along, and we made the thing work. </u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Do you think that it really helped having someone that experienced?</u>
+      <u who="LAUGHLIN">Oh, no question about it.</u>
+      <u who="REED-WESTON">Yeah. How common was it to find someone with that much experience to work with?</u>
+      <u who="LAUGHLIN">I would say it was not too common because if you pulled two or three tours in <placeName>Vietnam</placeName>, your chances of coming back unwounded, let alone alive, were pretty slim.</u>
+      <u who="REED-WESTON">So were people trying to get out? Get out in terms of—after they’d completed one or two tours?</u>
+      <u who="LAUGHLIN">Yes. In fact, a lot of the—my three ROTC brethren who are here <date>today</date> all took regular commissions with the anticipation of possibly making the military a career. They all got out when they could get out, as did I.</u>
+      <u who="REED-WESTON">Did you know at this point when you were going to be able to leave <placeName>Vietnam</placeName>?</u>
+      <u who="LAUGHLIN">When I was what?</u>
+      <u who="REED-WESTON">When you were going to be able to leave <placeName>Vietnam</placeName>?</u>
+      <u who="LAUGHLIN">Yes, I knew from the day I went when I was going to leave. It was exactly a <date>one-year</date> tour.</u>
+      <u who="REED-WESTON"><date>One-year</date> tour?</u>
+      <u who="LAUGHLIN">And I got gypped out of a day because it was <name type="event">New Year’s</name>.</u>
+      <u who="REED-WESTON">[Chuckles.]</u>
+      <u who="LAUGHLIN">Not <name type="event">New Year’s</name>, <name type="event">leap year</name>.</u>
+      <u who="REED-WESTON">Yeah. Okay. So do you think that that was a good experience in <placeName>Vietnam</placeName> in terms of different types of things that you could have been assigned to?</u>
+      <u who="LAUGHLIN">I would not call the experience in <placeName>Vietnam</placeName> as being particularly good. I think I learned that I could deal with stress, that I could lead men in every and any sense of the word, that I could get a job done if it had to be done, regardless of what the odds were. And one thing I learned was that when people told me they couldn’t do things, I would find ways to do them, so I developed this philosophy that in most cases, “no” simply isn’t a viable response.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="LAUGHLIN">And I think that helped me out tremendously in my personal career. When people told me I couldn’t do things as a lawyer, I went out and did them.</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="LAUGHLIN">I’m not talking about bad things. I’m talking about good things, those things that needed to be done.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Yeah. </u>
+      <u who="LAUGHLIN">I’m sorry?</u>
+      <u who="REED-WESTON">Did anything really change during <date>the eight months</date> where you were flying aerial reconnaissance, or was it pretty much—</u>
+      <u who="LAUGHLIN">No, we were supposed to turn over, start transitioning to the Vietnamization of the war. I was tasked with preparing instruction booklets on various intelligence programs, which never got distributed. I think the whole concept that was foisted—it was just a way of getting out.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="LAUGHLIN">And I think we’re going through the same thing in <placeName>Afghanistan</placeName>, where they can’t figure how the heck to get out. and not have the whole thing blow up in their faces.</u>
+      <u who="REED-WESTON">Yeah. Do you think that you were affective, not being able to prepare some types of materials for the new, incoming Vietnamese people who would run the—</u>
+      <u who="LAUGHLIN">Did I what?</u>
+      <u who="REED-WESTON">Do you think that the <placeName>U.S.</placeName> military was effective at really preparing materials—</u>
+      <u who="LAUGHLIN">No, no, absolutely not. There were some good units, but most of them were not. They couldn’t stand up to a North Vietnamese regular unit. They probably couldn’t stand up to a <orgName>VC</orgName> experienced, smaller unit either. Most of the troops the Americans had under their control were what were called the Ruff-Puffs. They were <orgName>Regional Forces and Popular Forces</orgName> [(RFPFs) of <orgName>the South Vietnamese Regional Force</orgName>]. And they were worthless. </u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="LAUGHLIN">You can’t fight a war like that.</u>
+      <u who="REED-WESTON">Yeah. So do you think that pulling out and trying to get <orgName>the South Vietnamese Army</orgName>—do you think that was a good strategy at the time, even if it was implemented badly?</u>
+      <u who="LAUGHLIN">I don’t know what would have been a good strategy at the time. None of the strategies we employed worked. Sometimes there would be a short-term fix, but eventually it caught up to us.</u>
+      <u who="REED-WESTON">Yeah. So did your opinion about your role in <placeName>Vietnam</placeName> or the <placeName>U.S.</placeName>’s role in <placeName>Vietnam</placeName> change throughout your year of service in <placeName>Vietnam</placeName>?</u>
+      <u who="LAUGHLIN">I thought the whole experience, both my personal role and the role of the American armed forces, was a total waste in, first of all, valuable American lives, capital, and in general, in terms of how it affected the fabric of this country and our society, it had an overwhelming impact, which is probably why your parents don’t talk too much about it.</u>
+      <u who="REED-WESTON">[Chuckles.] Yeah.</u>
+      <u who="LAUGHLIN">It was an aberrational time, and when I tell people about the fact we had—I didn’t dare wear my uniform in <placeName>the United States</placeName>. I was afraid we’d get spat on or egged. People wouldn't sit next to us on a bus. We said, “Why are they taking this out on us? We’re the warriors. We’re not the policy makers.” I think there’s been a change in attitude, and I think that the American public now respects what the soldiers who are being ordered to do—do what they do in <placeName>Afghanistan</placeName> and <placeName>Iraq</placeName>. They didn’t make the decision to go in there, and they probably don’t want to be there, either. But at least the public I think to a certain extent has been able to segregate their role from that of the people in <placeName>Washington</placeName> who are making them do this.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Do you think that people understood the role that the draft had on you going to <placeName>Vietnam</placeName>? Because you said that you basically joined the military because you knew that you’d be drafted otherwise.</u>
+      <u who="LAUGHLIN">I think, although I disliked the <orgName>Army</orgName>, it was one of the greatest experiences of my lifetime in terms of my education and development. I think that that’s something that’s missing out of our society now. I’ve got three sons, and I’m not sure that any one of them could do what I did. </u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="LAUGHLIN">And we have no control over the way these people work, so, I mean, like <date>Blackwater—[Transcriber</date>’s note: <orgName>Blackwater</orgName> (a <placeName>U.S.</placeName> government contractor now called <persName>Academi</persName>) received widespread publicity in <date>2007</date>, when a group of its employees killed 17 Iraqi civilians and injured 20 in <placeName>Nisour Square</placeName>, <placeName>Baghdad</placeName>, for which four guards were convicted in a <placeName>U.S.</placeName> court]—and the soldiers who tortured the Iraqis at the <placeName>Abu Ghraib</placeName> prison. They’re not accountable to anyone.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. So you think that’s something that’s been changed since <placeName>Vietnam</placeName>?</u>
+      <u who="LAUGHLIN">Do I think it’s been changed since <placeName>Vietnam</placeName>? I think the attitude of the public toward the soldier on the ground has been changed. I’m not sure anything else has been changed.</u>
+      <u who="REED-WESTON">Yeah. So what was your attitude when you started getting closer to actually leaving <placeName>Vietnam</placeName>? Were you happy about that? Were you ready to go?</u>
+      <u who="LAUGHLIN">I was ready to go the day I got there.</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="LAUGHLIN">And I was flying up until I had <date>about three weeks</date> to go, and then my replacement got in country, and one day I just ran out of nerve, and I said, “I can’t do this anymore.” I turned in my wings and turned them over to my replacement, and I didn’t do anything except try to stay out of the line of fire until I got home. </u>
+      <u who="REED-WESTON">[Laughs.]</u>
+      <u who="LAUGHLIN">The guys were screaming, crying, yelling, throwing stuff. It was wild.</u>
+      <u who="REED-WESTON">So that was a pretty shared experience. [Chuckles.]</u>
+      <u who="LAUGHLIN">We made it.</u>
+      <u who="REED-WESTON">You said that you had had enough of flying, flying the missions. Why do you think you’d had enough of that before you actually left <placeName>Vietnam</placeName>?</u>
+      <u who="LAUGHLIN">I think I ran out of nerve. My two close friends both knew my wife, and when I had <date>about four weeks</date> to go, they said, “You gotta stop flying because if something happens to you, we’ll never be able to look <persName>Pam</persName> in the face and tell her about it.” And I got out of the plane one day, and I started to shake, and I don’t smoke, but I smoked a cigarette that day just to calm down, and I said, That’s it. I can’t do this anymore.</u>
+      <u who="REED-WESTON">How dangerous was it to fly the missions that you flew?</u>
+      <u who="LAUGHLIN">Hmm?</u>
+      <u who="REED-WESTON">How dangerous was it to fly the missions that you were flying?</u>
+      <u who="LAUGHLIN">Well, let me put it this way: We had to deal not only with hostile ground fire from time to time but very bad weather during the wet monsoon, mechanical problems and our own errors in judgment. We made mistakes in some of the things we did, inevitable human mistakes, and when you add them all together, I think I was—I used to gloat about the fact that I got out without a scratch until [chuckles] I discovered I didn’t get out without a scratch. In a final irony, I was contaminated by my own government with a toxic poison that’s so powerful it’s the worst-known molecule to mankind.</u>
+      <u who="REED-WESTON">How did you get exposed to that while you were in <placeName>Vietnam</placeName>?</u>
+      <u who="LAUGHLIN">The last statistic that I recall is that about 20 million gallons of Agent Orange was dumped on <placeName>South Vietnam</placeName>, defoliating about 12 percent of the land area of that country. It destroyed thousands of acres of cropland, thousands of acres of forest and has created the worst contamination situation that you can possibly imagine throughout the country. I don’t know how they’re ever going to be able to get that place cleaned up. The half life of dioxin is horrendous.</u>
+      <u who="REED-WESTON">So you didn’t have any—so it was mostly just coincidental exposure for you, just that it—</u>
+      <u who="LAUGHLIN">No, it was—everybody who was with me there was exposed to it on numerous occasions, for extended times.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Did you know that you were being exposed to it?</u>
+      <u who="LAUGHLIN">Yes, we did, but if you read the history of that—there’s a book that I’m going to give to Professor [<persName>Edward G.]</persName> <persName>Miller</persName> called <orgName>Waiting for an Army to Die</orgName>[: The Tragedy of Agent Orange, by <persName>Fred A. Wilcox</persName>], and it recapitulates everything that had happened and the fact that they lied to the American public. <orgName>The VA [Department of Veterans Affairs</orgName>] said, “Oh, there’s nothing wrong with you. This stuff is harmless. It only kills plants.” [Chuckles.] Well, it kills all living organisms.</u>
+      <u who="REED-WESTON">Yeah. Do you think that you potentially had a greater exposure because you were flying through areas where it was being sprayed?</u>
+      <u who="LAUGHLIN">It’s hard for me to say. I was diagnosed with Parkinson’s disease in <date>2006</date>. <date>Around 2008 or 2009</date>, that disease got added to the list of conditions presumptively caused by exposure to Agent Orange, by <orgName>the Veterans Administration</orgName>, which was the first time I really came to grips with it and said, Hey, wow! Now I understand, to a certain extent, how this happened to me.</u>
+      <u who="REED-WESTON">What was your reaction to that?</u>
+      <u who="LAUGHLIN">My?</u>
+      <u who="REED-WESTON">What was your reaction to finding out that it was linked to Agent <persName>Orange</persName>?</u>
+      <u who="LAUGHLIN">That I had it?</u>
+      <u who="REED-WESTON">Well, that when it got added to the list of diseases that were—</u>
+      <u who="LAUGHLIN">I think it was a relief to me because I had never been able to connect it to anything before. My family—there’s no genetic history of it in my family, and if you don’t have the gene, you have to be exposed to it to develop the Parkinson condition. So that explained to me how I got it. And, although it’s small conversation, I was given a disability rating, which resulted in a disability compensation check <date>each month</date> from <orgName>the Veterans Administration</orgName>.</u>
+      <u who="REED-WESTON">Are you angry at all about the <placeName>U.S.</placeName> military’s role?</u>
+      <u who="LAUGHLIN">Am I angry about it?</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="LAUGHLIN">I’m more angry about the fact that they don’t seem to be able to apply the lessons of <placeName>Vietnam</placeName> to our current political and international situation.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. You don’t think they’ve learned?</u>
+      <u who="LAUGHLIN">They never learned.</u>
+      <u who="REED-WESTON">They really—no.</u>
+      <u who="LAUGHLIN">They don’t get it.</u>
+      <u who="REED-WESTON">No. Do you think that they’re going to encounter similar problems in <placeName>Afghanistan</placeName> and <placeName>Iraq</placeName>?</u>
+      <u who="LAUGHLIN">I’m sorry?</u>
+      <u who="REED-WESTON">Do you think that they’re going to encounter more problems in <placeName>Afghanistan</placeName> and <placeName>Iraq</placeName>, similar to what they encountered in <placeName>Vietnam</placeName>?</u>
+      <u who="LAUGHLIN">Well, at least—I don’t know. I don’t know what’s going to happen. There’s so much sectarianism and tribalism in both of those countries that I’m not sure that any concepts of western democracy or how a country should be run can filter down to that level. I mean, the Shiites hate the Sunnis. They both hate the Kurds. The Turks hate the Armenians and the Kurds. You got <orgName>ISIS</orgName> [<orgName>Islamic State of Iraq</orgName> and <persName>al-Sham</persName>] and all these splinter groups: <persName>Al-Shabaz</persName> [sic; <persName>Al-Shabaab</persName>] and the <placeName>Houthis</placeName> in <placeName>Yemen</placeName>. I mean, who do you back? I mean, <date>one day</date> after another, it’s a different protagonist and a different—</u>
+      <u who="REED-WESTON">Yeah.</u>
+      <u who="LAUGHLIN">And it even extends into continental <placeName>Africa</placeName>. It’s crazy. I’m not sure we can do anything in those countries. But specifically I’m angered by the fact that we went into <placeName>Iraq</placeName> in the first place. I’m angered by the fact that I don’t think that county is going to hold together without <placeName>U.S.</placeName> support, and <placeName>Afghanistan</placeName> has never held together for anything except their own tribal loyalties.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="LAUGHLIN">So I don’t see anything changing much there. We’re just—at the present time, I think we’re just prolonging the inevitable, the same as we did in <placeName>Vietnam</placeName>.</u>
+      <u who="REED-WESTON">Yeah. Yeah.</u>
+      <u who="LAUGHLIN">It’s the old story. If you don’t remember history, you’re condemned to relive it.</u>
+      <u who="REED-WESTON">Yeah. So when you first arrived back to the <placeName>U.S.</placeName> after touring <placeName>Vietnam</placeName>, that was in <date>December</date> of <date>’68</date>, correct?</u>
+      <u who="LAUGHLIN">That’s correct.</u>
+      <u who="REED-WESTON">Yeah. Did you have any problems, like, coming back to civilian life?</u>
+      <u who="LAUGHLIN"><orgName>Uh—[Pause</orgName>.] No, I can’t say that I did, because I was able to step right into a job that I liked, that was challenging to me, that made use of my talents and my education. If you talk to my wife, she’ll probably tell you a different story. She’s going to be at the seminar tonight, so you can ask her.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. </u>
+      <u who="LAUGHLIN">I had problems in staying awake. When we’d go out to dinner, I’d fall asleep at the dinner table, and <orgName>I’m</orgName> told that that’s a symptom of dealing with stress, so I don’t think I had the problem that a lot of the <placeName>Vietnam</placeName> vets had with what’s known as <orgName>PTSD</orgName> [post-traumatic stress disorder].</u>
+      <u who="REED-WESTON">Yeah. How soon after you arrived did you get your job at <orgName>Princeton</orgName>?</u>
+      <u who="LAUGHLIN">Well, I was assigned to the general staff at <placeName>Fort</placeName> [<persName>George G.]</persName> Meade in <placeName>Maryland</placeName>, which was a dead-end, desk job-y job, a desk job, which was difficult to fulfill because I couldn’t stay awake. [Laughs.] I got that job in <date>the spring of 1969</date> and I got out of the <orgName>Army</orgName> <date>30 days early</date> so I could take it when it opened up.</u>
+      <u who="REED-WESTON">So you fulfilled a desk job for the rest of your time in the <orgName>Army</orgName> after you got out?</u>
+      <u who="LAUGHLIN">All the returning officers were—instead of just letting us out, because they knew we were getting out anyway, they made us stay for meaningless jobs in various posts around the country until <date>our two years</date> was up.</u>
+      <u who="REED-WESTON">Yeah. So when you got back to the <placeName>U.S.</placeName>, what was your reaction to the coverage of <placeName>Vietnam</placeName>, particularly in the media and the public opinion to it?</u>
+      <u who="LAUGHLIN">Well, I think the coverage got better as the war went on. I think initially it was downplayed by the government, and I think—what’s the word I’m looking for?</u>
+      <u who="REED-WESTON">They covered it up?</u>
+      <u who="LAUGHLIN">The suppressed the information. I think that changed as more and more photojournalists got over there and got embedded with the troop units, but I think a lot of it—the footage was not released to the public. I don’t think the public, until recently, has had a clear idea of what happened in <placeName>Vietnam</placeName>.</u>
+      <u who="REED-WESTON">Yeah. So even after the Tet Offensive had broke and coverage was increasing, they still didn’t know the full story?</u>
+      <u who="LAUGHLIN">They what?</u>
+      <u who="REED-WESTON">They still didn’t know the full story, even as you had—</u>
+      <u who="LAUGHLIN">I don’t think so, because I think there would have been an even more violent reaction to our involvement than was the case.</u>
+      <u who="REED-WESTON">What was your reaction to the protests that were erupting around the <placeName>U.S.</placeName>?</u>
+      <u who="LAUGHLIN">My reaction was: Why are they blaming the American  soldier? We did what we were told to do, and we did a good job at it, and then they’re taking it out on us.</u>
+      <u who="REED-WESTON">Did you have specific experiences where people were blaming you because you were a veteran?</u>
+      <u who="LAUGHLIN">No, I rapidly learned to keep my mouth shut. I didn’t tell anybody that I’d been in the <orgName>Army</orgName> or particularly that I’d been in <placeName>Vietnam</placeName>.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Did you have any specific instances that stand out in your mind?</u>
+      <u who="LAUGHLIN">Not that I can remember, but it’s been so long that I don’t think I could pinpoint one for you.</u>
+      <u who="REED-WESTON">Yeah. Yeah. But do you think it was a widespread attitude?</u>
+      <u who="LAUGHLIN">Yes, very widespread.</u>
+      <u who="REED-WESTON">Why do you think that people specifically targeted veterans with that opinion?</u>
+      <u who="LAUGHLIN">Why do I?</u>
+      <u who="REED-WESTON">Why do you think people really targeted veterans with that opinion, as opposed to policy makers?</u>
+      <u who="LAUGHLIN">I don’t know. I don’t know. I think first of all, you’ve got 58,000 dead people, who didn’t have to be killed, who didn’t accomplish anything except sacrifice themselves in a war which we eventually ended up not winning. But above and beyond that, I think there was a massive sea change in our political structure, and people were fed up with <persName>Johnson</persName> and [<placeName>U.S.</placeName> Secretary of <orgName>Defense</orgName> <persName>Robert S.] McNamara</persName>. And I think they were fed up with the professional military because I think they began to realize they’d been hoodwinked on the whole story. </u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. And you think that the veterans were a target for that, for the frustrations with a lot of—</u>
+      <u who="LAUGHLIN">Yeah. I’ve never understood why that was, that they would blame the soldiers and the airmen and the sailors when we weren’t making the policy decisions. We didn’t decide to go in there, and we didn’t decide who to send where or what or for how much and how long a time.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. No.</u>
+      <u who="LAUGHLIN">So I don’t know the answer to that question.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Do you think that the protests that were happening around the <placeName>U.S.</placeName> had a big impact on the eventual decision to pull out?</u>
+      <u who="LAUGHLIN">Oh, absolutely, yeah. I think it was instrumental in <persName>Johnson</persName> deciding not to run for a second term.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. You mentioned earlier that you were opposed to protests that were endangering other people’s lives. Do you think that the peaceful protests were able to accomplish things?</u>
+      <u who="LAUGHLIN">I think if they had only been peaceful protests, they would have accomplished the same sense of dissatisfaction that was instrumental in making us change our policies. I’m not sure that burning automobiles or setting buildings afire enhances the stature of the protestors. I mean, look at this situation that we just had in <placeName>Baltimore</placeName>. The leaders of the black community begged their constituents to remain peaceful, and yet small groups of them still burned vehicles, burned buildings, burned down a <orgName>Revco</orgName> [sic; <orgName>CVS</orgName>] pharmacy in a low-income housing neighborhood, depriving their own people—it’s the only place they could buy local groceries and prescriptions. It just doesn’t make sense to me.</u>
+      <u who="REED-WESTON">Did you agree with the general antiwar sentiment when you got back to the <placeName>U.S.</placeName>?</u>
+      <u who="LAUGHLIN">Did I what?</u>
+      <u who="REED-WESTON">Did you agree with the antiwar—</u>
+      <u who="LAUGHLIN">Yes.</u>
+      <u who="REED-WESTON">—protesters when you got back?</u>
+      <u who="LAUGHLIN">Yes. I think my colleagues will attest to the fact that they did also.</u>
+      <u who="REED-WESTON">Why do you think that you had really grown to accept that point of view by the time you came home?</u>
+      <u who="LAUGHLIN">Well, I just knew more. In <date>1964</date> and <date>’65</date>, I didn’t know anything about <placeName>Vietnam</placeName>, to speak of. Once I’d been there and come home and seen what was happening there and on the home front, it totally turned me against the war.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Do you think that when <placeName>Saigon</placeName> fell in 1975—you said earlier you think that was inevitable. Do you think that the <placeName>U.S.</placeName> could have done anything—</u>
+      <u who="LAUGHLIN">No.</u>
+      <u who="REED-WESTON">—to change that?</u>
+      <u who="LAUGHLIN">I don’t think so. I don’t think—let me put it this way: In order for the Americans to have succeeded in <placeName>Vietnam</placeName>, it would have required such a tremendously greater effort and a complete change in the restrictions under which the war was conducted for us to succeed, and I don’t think the American public would have tolerated that.</u>
+      <u who="REED-WESTON">Yeah. So looking back from where you are now in your life, what’s your general—what have you taken away from your experience with <name type="event">the Vietnam War</name>?</u>
+      <u who="LAUGHLIN">You mean in terms of my personal—</u>
+      <u who="REED-WESTON">However. However, really.</u>
+      <u who="LAUGHLIN">Well, I think I’m much more skeptical about what the government claims is the right procedure to follow in a given area of the world than I was. I think that, from my own personal feelings, I’m proud of the fact that I served and the men that served with me. I regret that we were involved in a conflict that was so unpopular and didn’t really produce any positive results. And—I’m not sure I can think of anything else to tell you.</u>
+      <u who="REED-WESTON"><persName>Mm-hm</persName>. Yeah. How do you think that <name type="event">the Vietnam War</name> really changed American society?</u>
+      <u who="LAUGHLIN">I think it took us out of—the <date>’50s</date> were <date>a very naïve decade</date>, and I think it took us out of that and thrust us into the real world and gave us some idea of the limitations on our power. I don’t think what happened in terms of the elimination of the draft in the [<persName>James E.]</persName> <persName>Jimmy Carter</persName> [Jr.] years was particularly productive. I think that the American people, as I said earlier, are more respectful of the roles of the American soldier and sailor and marine who’s on the ground in the action. </u>
+      <u who="REED-WESTON">Yeah. All right. Well, I want to thank you very, very much for agreeing to do this interview. Do you have any last thoughts?</u>
+      <u who="LAUGHLIN">Thank you, no. I hope I was of some help to you.</u>
+      <u who="REED-WESTON">Yes. Well, thank you very much.</u>
+    </body>
+  </text>
+</TEI>

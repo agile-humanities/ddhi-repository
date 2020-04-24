@@ -1,0 +1,463 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.1.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="DELLINGER"/>
+        <person xml:id="GARTHWAITE"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="DELLINGER">All right, so it is <date>August</date>—</u>
+      <u who="GARTHWAITE"><date>Twenty-first</date>.</u>
+      <u who="DELLINGER">—<date>21st, 2015</date>, and I’m here—my name is <persName>Patrick [A.]</persName> Dellinger. I’m here with <persName>Professor Gene</persName> [R.] Garthwaite at the <orgName>Rauner</orgName> [<orgName>Special Collections] Library</orgName> in <placeName>Hanover</placeName>, <placeName>New Hampshire</placeName>. </u>
+      <u who="GARTHWAITE">Okay. I was born in southwestern <placeName>Wisconsin</placeName>, in a small town called <placeName>Mount Hope</placeName>, of all places. It’s an actual place. On <date>the 15th of July 1933</date>. And I lived there briefly, where all the Garthwaites were from. And then my father moved to <placeName>Dubuque</placeName>, <placeName>Iowa</placeName>, where we lived briefly, then <placeName>Decorah</placeName>, <placeName>Iowa</placeName>, and then, during <name type="event">World War II</name>, <placeName>St. Paul</placeName>, <placeName>Minnesota</placeName>. And then after that, we moved to <placeName>Rochester</placeName>, <placeName>Minnesota</placeName>. So I sort of regard <placeName>Rochester</placeName> as—as my hometown, although I continued to have close ties to <placeName>Wisconsin</placeName>, but that was pretty much—</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">—I got a job as a go-fer for this very large archaeological expedition that was leaving for <placeName>Iran</placeName> at <date>the end of the summer</date>. And <date>three days</date> before the expedition left <placeName>Chicago</placeName>, the camp manager—because of the size of the expedition, they needed a professional camp manager, but their camp manager became ill, and they asked me to go in her place.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. So just going back to—to your growing up, I’d like to—like to talk about that in a little more detail.</u>
+      <u who="GARTHWAITE">Sure.</u>
+      <u who="DELLINGER">So what were your parents’ names?</u>
+      <u who="GARTHWAITE">My father was <persName>Ralph [A.] Garthwaite</persName>, and my mother was <persName>Merle Quarne</persName> [Garthwaite], and she—the Garthwaites, of course, were of English descent. The <persName>Quarnes</persName> were Norwegian. And so my maternal grandparents lived—also lived in <placeName>Wisconsin</placeName> but on a dairy farm in <placeName>west-</placeName>central <placeName>Wisconsin</placeName>.</u>
+      <u who="DELLINGER">And what did your parents do for a living?</u>
+      <u who="GARTHWAITE">My father was a—in wholesale plumbing and heating, and my mother, before she married, was a home economics teacher.</u>
+      <u who="DELLINGER">Did you have any brothers or sisters?</u>
+      <u who="GARTHWAITE">I had two sisters.</u>
+      <u who="DELLINGER">And their names?</u>
+      <u who="GARTHWAITE"><placeName>Beverly</placeName> [Garthwaite Fisher] is my elder sister, and <persName>Elsie</persName> [Garthwaite Boss], my younger sister.</u>
+      <u who="DELLINGER">And were they older than you or younger?</u>
+      <u who="GARTHWAITE"><orgName>Beverly</orgName> was <date>two years</date>—<date>about two years</date> older than I was, and <persName>Elsie</persName> was <date>about two years</date> younger than I was, so I was the—the filling in the sandwich.</u>
+      <u who="DELLINGER">That’s a nicely made family.</u>
+      <u who="GARTHWAITE">Yeah.</u>
+      <u who="DELLINGER">So you were moving around a lot as you grew up.</u>
+      <u who="GARTHWAITE">Right.</u>
+      <u who="DELLINGER">How did that affect you?</u>
+      <u who="GARTHWAITE">I’m not sure. [Chuckles.] I certainly liked to travel, but we didn’t travel—I mean, we—the places that I’ve mentioned weren’t that far apart, actually, so I—but I regard myself fully as a Midwesterner, although I have been here long enough so that I’ve lost, I think, my <placeName>Minnesota</placeName> accent,—</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. </u>
+      <u who="GARTHWAITE">—whereas my sisters still had—had that.</u>
+      <u who="DELLINGER">Was your family close, growing up?</u>
+      <u who="GARTHWAITE">Yes, it was. And I suppose in some ways—on the <name type="event">Garthwaite</name> side, we had no cousins. On my mother’s side, we had a very large number of cousins. And so there was sort of this big, extended family there and a more—a smaller, probably more closely knit family on the <name type="event">Garthwaite</name> side.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. And about what age did you move to <placeName>Rochester</placeName>?</u>
+      <u who="GARTHWAITE">High school.</u>
+      <u who="DELLINGER">High school?</u>
+      <u who="GARTHWAITE">Yeah.</u>
+      <u who="DELLINGER">And was it tough to make friends there, or—</u>
+      <u who="GARTHWAITE">Well, not really. You know, <placeName>Rochester</placeName> is the home of <orgName>the Mayo Clinic</orgName>, and in many ways it was the larger version of <placeName>Hanover</placeName>. It was sort of a one-company town, like <orgName>Hanover</orgName> is a one-company town. And the population is well educated, has strong cultural interests, like <placeName>Hanover</placeName>. I identified very strongly with <placeName>Rochester</placeName>, and my parents continued to live there so that when—after I finished college and then my <persName>Ph.D.</persName> and everything, <placeName>Rochester</placeName> was always home base.</u>
+      <u who="DELLINGER">What are some—some of your interests as a kid?</u>
+      <u who="GARTHWAITE">Well [chuckles], I was talking about this with a colleague <date>the other day</date>, and I think when I was in high school—do you still take the Kuder Preference Test?</u>
+      <u who="DELLINGER">I don’t think so. No I don’t think—</u>
+      <u who="GARTHWAITE">Well, anyway, it was a—when you were in high school, sort of it was something, a test you took that indicated where your interests would lie. And everybody in <placeName>Rochester</placeName>, of course, their interests were in medicine. But I was especially interested in veterinary medicine, although—God knows why.</u>
+      <u who="DELLINGER">Interesting.</u>
+      <u who="GARTHWAITE">I’d always liked reading.</u>
+      <u who="DELLINGER">So you decided what you were kind of going to do with the rest of your life through college, not necessarily in high school or before then.</u>
+      <u who="GARTHWAITE">Right, right. It was really in college, although I was—I was a strong student in high school. I really didn’t devel- —and I was an avid reader, and—but I really developed interest in literature then at <placeName>St. Olaf</placeName>. It was a very strong English department.</u>
+      <u who="DELLINGER">So kind of a quiet high school, or did you play sports? Were you very academic or—were you just—?</u>
+      <u who="GARTHWAITE">I—I suppose I did everything but play sports. [Chuckles.]</u>
+      <u who="DELLINGER">Yeah. It’s definitely good to be a good reader. It’s obviously had a profound effect on your profession.</u>
+      <u who="GARTHWAITE">Yeah.</u>
+      <u who="DELLINGER">So how did you decide to go to <persName>St. Olaf</persName>?</u>
+      <u who="GARTHWAITE">To be quite honest, I’m not sure. It’s the only college I applied to. I had visited <persName>St. Olaf</persName> and had liked it very much, and I had known others from <placeName>Rochester</placeName> who had gone there, so it was my first choice, and—in that era, it wasn’t that—far fewer went to college then, and I suppose it was sort of—you self-selected. You know, if you were interested in going to college, you sort of got in.</u>
+      <u who="DELLINGER">Well, good for you. Did you decide to—to do <orgName>ROTC</orgName> before you went to college, or when you got there?</u>
+      <u who="GARTHWAITE">Yes. I would have been drafted. This was during <name type="event">the Korean War</name>, when there was a national draft.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">And had I not been in <placeName>ROTC</placeName>, I would have been drafted. And <persName>St. Olaf</persName> only had Air Force ROTC. Consequently, I was in Air Force ROTC. My eyesight, especially my depth perception, which was so bad, disqualified me from becoming a pilot, but in the B-47 we were called—or in <orgName>the Air Force</orgName> we were called triple threats and the brain of the plane, because we did—we actually did all the mental work. The pilot and copilot of a B-47 only took the plane off and landed. And then refueled. Otherwise, they read comic books—</u>
+      <u who="DELLINGER">[Chuckles softly.]</u>
+      <u who="GARTHWAITE">—while I worked the entire 11- to 14-hour flights that we had.</u>
+      <u who="DELLINGER">So you were <orgName>ROTC</orgName> out of necessity, for not getting drafted.</u>
+      <u who="GARTHWAITE">Right, yeah, essentially.</u>
+      <u who="DELLINGER">And did that have any effect on your college experience or your psyche?</u>
+      <u who="GARTHWAITE">I suppose it did, but I—I was the top student in <orgName>ROTC</orgName>, but I was a very good student anyway. And I suppose in some ways, in that sense, I was a leader in <placeName>ROTC</placeName>. There were a lot of people in <placeName>ROTC</placeName> in that era, a very large number.</u>
+      <u who="DELLINGER">Hmm. And what was it like being at <placeName>St. Olaf</placeName>? It’s a little bit secluded, isn’t it?</u>
+      <u who="GARTHWAITE">No, it’s less so than <placeName>Hanover</placeName>. [Laughs.]</u>
+      <u who="DELLINGER">Oh, wow!</u>
+      <u who="GARTHWAITE">There’s Carlton [College] across the river, and I had high school friends that were at <orgName>Carlton</orgName>, and it’s 60 miles south of <placeName>Minneapolis</placeName>, so it’s about an hour drive. It’s probably less than 60 miles. But it’s an hour’s drive from <placeName>Minneapolis</placeName>, so—whereas the closest major city to <placeName>Hanover</placeName> is two and a half hours, <placeName>Boston</placeName>.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">So we had to—it wasn’t—it’s a small—it was a small community. <persName>St. Olaf</persName> was a small college.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">There were only a couple of hundred in—in my class. <persName>Carlton</persName> was even smaller. And in that—in that era, both <persName>Carlton</persName> and <orgName>St. Olaf’s</orgName> recruited largely in the <placeName>Midwest</placeName>.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">So the student bodies weren’t that different, and they weren’t that diverse.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">There were probably more from <placeName>East Coast</placeName> at <placeName>Carlton</placeName> than at <placeName>St. Olaf</placeName>.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">But it was a pretty—pretty much sort of a uniform student body at both places. </u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. </u>
+      <u who="GARTHWAITE">Well, I was the feature editor of the college newspaper, and I was that for <date>several years</date>, and that took up a fair amount of time, and I participated in other kinds of activities at <placeName>St. Olaf</placeName>. But I suppose most of them were—had a literary bent.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. So you really fell in love with literature while at <placeName>St. Olaf</placeName>.</u>
+      <u who="GARTHWAITE">Yeah, yeah.</u>
+      <u who="DELLINGER">How did that come to be?</u>
+      <u who="GARTHWAITE">I don’t know. My father in particular and the Garthwaites were great readers.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">And it was just something that—</u>
+      <u who="DELLINGER">Was in—</u>
+      <u who="GARTHWAITE">—I always did, yeah.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. </u>
+      <u who="GARTHWAITE">Right. Went immediately into <orgName>the Air Force</orgName>.</u>
+      <u who="DELLINGER">Can you talk a little bit about that?</u>
+      <u who="GARTHWAITE">Yeah. I spent <date>a month</date>, like everybody else, at Lackland Air Force Base [in <placeName>Texas</placeName>], where they sort of get all the paperwork together and assign you to your next training base, which was in <placeName>California</placeName>, in <placeName>Sacramento</placeName>, and it was in <orgName>SAC</orgName>, <orgName>the Strategic Air Command</orgName>, which was the choice career path had I stayed in <orgName>the Air Force</orgName>. And then my initial B-47 training was there. </u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. So what was your training like? You were obviously trained to be a B-47—you called it a triple threat, right?</u>
+      <u who="GARTHWAITE">Yeah, yeah.</u>
+      <u who="DELLINGER">Was it very intense training?</u>
+      <u who="GARTHWAITE">Very intense. And I suppose most of our time was spent with navigation. And believe it or not, I was trained to navigate with a sextant.</u>
+      <u who="DELLINGER">Wow.</u>
+      <u who="GARTHWAITE">Nobody is <date>today</date>. And so we had to learn the stars and how to shoot sun lines and that sort of thing. But the B-47 was a beautiful aircraft, but it was small and quite slow, and it had electronic equipment—and everything, of course, was doubled, but there was the fear that in combat, both systems might be knocked out, and therefore you had to learn the non-electronic methods of navigation, like shooting stars with a sextant.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">And similarly, I took command of the aircraft on—on the run down—the bomb run, and I could release the bomb manually if necessary—again, if—if the electronics failed. So Dr. <persName>Strangelove[or</persName>: How I Learned to Stop Worrying and Love the Bomb], when I saw it, had a ring of truth to it. And I could actually crawl back into the bomb bay and arm the bomb manually if need be—again, if the electronics went out.</u>
+      <u who="DELLINGER">And why do you think that is?</u>
+      <u who="GARTHWAITE">We weren’t going to make it back. I mean, the plane—the assumption was we’d run out of fuel and crash,—</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. </u>
+      <u who="GARTHWAITE">—either over the <placeName>Mediterranean</placeName> [Sea] or <placeName>Africa</placeName>.</u>
+      <u who="DELLINGER">And how did you deal with that?</u>
+      <u who="GARTHWAITE">You didn’t give it much of a thought, really.</u>
+      <u who="DELLINGER">You just hoped everything turned out well.</u>
+      <u who="GARTHWAITE">Yeah. We carried blood—what was called a [blood chip?? 16:45], but it was a piece of silk that was maybe, oh, 16 by 16 inches, and on it, in many languages, were printed—you know, whoever found us and brought us back safely or as a body would be given $10,000.</u>
+      <u who="DELLINGER">Wow.</u>
+      <u who="GARTHWAITE">But you—you don’t think about those things. </u>
+      <u who="DELLINGER">Was it—go ahead.</u>
+      <u who="GARTHWAITE"><persName>Jonathan Mirsky</persName> [pronounced MERE-ski], who was a colleague of mine here at <placeName>Dartmouth</placeName>, who was very much involved in the antiwar business, always said that in the infantry, when they asked for ten volunteers and the ten volunteers are told, “Only one of you will come back,” they’ll still get ten volunteers because everybody assumes they’re going to be the one that comes back. But, again, it’s not something that we gave much thought to.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. And how did you feel about carrying nuclear weapons?</u>
+      <u who="GARTHWAITE">At that time, it was in the height of <name type="event">the Cold War</name>. Again, we—we—I never—we—we had a lot of training, but I don’t ever recall we were asked to think about the ethics of what we were doing, or the morality of it. And that only—that only came later.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. And what do you think about the ethics of it now?</u>
+      <u who="GARTHWAITE">A big mistake, a big mistake historically. We just passed the anniversary of the bombing of <placeName>Hiroshima</placeName> and <placeName>Nagasaki</placeName> [in <placeName>Japan</placeName>]. And as a child, I remember the end of the war very clearly and the headlines in the newspaper about this extraordinary new weapon and how exciting it was. But then there’s just—the horrific costs, and the lasting costs of it only came later.</u>
+      <u who="DELLINGER">Did that inform your opinions on future wars at all?</u>
+      <u who="GARTHWAITE">No, that—that really only happened when I was a graduate student.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">And there, I was especially influenced by my <persName>Ph.D.</persName> adviser, <persName>Nicki</persName> [R.] <persName>Keddie</persName>, who was very much a product of the left. And my—the Garthwaites were—my grandfather Garthwaite used to talk about [<persName>Robert M.] “Bob” La Follette</persName> [Jr.]. Probably doesn’t ring any bells with you. <persName>Bob La Follette</persName> was the great progressive from <placeName>Wisconsin</placeName> in <date>the 1920s</date>, and a very important national politician, but very progressive. And in <placeName>Minnesota</placeName>, with the Scandinavian influence in particular, again, it was—politics were quite progressive. </u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. So very united.</u>
+      <u who="GARTHWAITE">Oh, a very hierarchical [chuckles], very hierarchical. And amusingly so. And heavily influenced by American Southern culture. The big bases were generally in the <placeName>South</placeName>, and my colleagues were—typically were—there were probably more Southerners than from other groups, although in my crew—I can’t remember where my pilot was from, but my copilot was from <placeName>Iowa</placeName>, so he was another Midwesterner.</u>
+      <u who="DELLINGER">Okay. So what <date>year</date> did you graduate from college?</u>
+      <u who="GARTHWAITE">Nineteen fifty-five.</u>
+      <u who="DELLINGER">And then you were in the military for how long?</u>
+      <u who="GARTHWAITE"><date>Two and a half years</date>. I was told—my—my tour of duty was initially for <date>three years</date>, and then during <date>my second year</date>, [the <placeName>U.S.</placeName>] <orgName>Congress</orgName> made major cuts [to] military spending. It was a wind-down from <name type="event">the Korean War</name>. And we were told either to sign up for an indefinite tour of duty, which would have been <date>20 years</date>, or to get out right away. And so I got out after <date>two and a half years</date> because I had a <persName>Woodrow Wilson Fellowship</persName> waiting for me in <placeName>Chicago</placeName>, so I knew quite clearly what I wanted to do.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. And how did that come about?</u>
+      <u who="GARTHWAITE">Academic record. </u>
+      <u who="DELLINGER">Was it just given to you, or did you apply for it?</u>
+      <u who="GARTHWAITE">Oh, yeah, I applied for it. <persName>Woodrow Wilsons</persName> were national graduate fellowships.</u>
+      <u who="DELLINGER">So you knew you wanted to do English. </u>
+      <u who="GARTHWAITE">That’s right, yeah.</u>
+      <u who="DELLINGER">Was it from college?</u>
+      <u who="GARTHWAITE">Yeah.</u>
+      <u who="DELLINGER">And what school were you going to?</u>
+      <u who="GARTHWAITE"><orgName>The University of Chicago</orgName>.</u>
+      <u who="DELLINGER">Okay. And how long did you spend there?</u>
+      <u who="GARTHWAITE">Well, see, I got out in <date>February</date>, and then I spent <date>two quarters</date> at <orgName>the University of Minnesota</orgName>, because <placeName>Chicago</placeName> didn’t start until <date>September</date>, and—let’s see, this was—</u>
+      <u who="DELLINGER">Which <date>year</date> was this, by the way?</u>
+      <u who="GARTHWAITE">I’m trying to reconstruct. So I must have started at <placeName>Chicago</placeName> in the fall of ’58, but I was studying German at <orgName>the University of Minnesota</orgName>. In that era, you had to have two foreign languages for a <persName>Ph.D.</persName> And so then it was—I was at <placeName>Chicago</placeName> <date>a year and a half</date>.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. And how did you get involved in <orgName>the Iranian Prehistoric Project</orgName>?</u>
+      <u who="GARTHWAITE">That was, again—I needed a <date>summer</date> job while I was studying for my prelims. So I ran errands for them. It was projected that there would be between 55 and 60 specialists with the expedition, which was originally scheduled to go back to <placeName>Iraq</placeName>, to <placeName>Jarmo</placeName>. It was a prehistoric archaeological expedition, and the leaders of it were <persName>Robert [J.] Braidwood</persName>, his wife <persName>Linda [Schreiber] Braidwood</persName> and <persName>Bruce Howe</persName>. Very, very distinguished. They were the leaders in this very important field, and they had done a lot of excavations in <placeName>the Middle East</placeName>.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">And I had a job offer from <orgName>Oregon State University</orgName>. I had my prelims to take, and I got out of the prelims, and I was able to cancel my contract.</u>
+      <u who="DELLINGER">So—</u>
+      <u who="GARTHWAITE">But I knew nothing about <placeName>Iran</placeName>, nothing about <placeName>Iran</placeName> before we left.</u>
+      <u who="DELLINGER">Did you accept that—that job to go to <placeName>Iran</placeName> because you were interested in it or out of necessity?</u>
+      <u who="GARTHWAITE">It wasn’t ne- —it certainly wasn’t necessity. Necessity would have meant that I would have stayed in <placeName>the United States</placeName>. But it was more out of curiosity, and sort of the excitement of doing something completely different.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. And how do you feel about that decision now?</u>
+      <u who="GARTHWAITE">Oh, I made the right decision, no question. I encourage my students to—to—to grab the opportunity, the unexpected opportunity when it arises; you never know where it’s going to lead. And when I went to <placeName>Iran</placeName>, my idea was I would come back and finish my <persName>Ph.D.</persName> in English.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. And can you tell me a little about—about your time in <placeName>Iran</placeName>?</u>
+      <u who="GARTHWAITE">Well, yeah, yeah. We spent <date>a couple of weeks</date> in <placeName>Tehran</placeName>, and then finally moved to—west to <placeName>Kermanshah</placeName>. And we were able to rent housing—first of all, they wanted to do some surveys before <date>winter</date> set in, and in the areas that were most like what they had had in <placeName>Iraq</placeName>. So we spent a month surveying at <persName>Shah Abad</persName>, which is another hour west of <placeName>Kermanshah</placeName>, not that far from the Iraqi border.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. And what <date>year</date> was this?</u>
+      <u who="GARTHWAITE">It must have been ’58–’59.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">Wait. Or, no, ‘59–’60, I guess.</u>
+      <u who="DELLINGER">Okay. And how did you feel like the attitudes of Iranians were towards you and the other Americans over there?</u>
+      <u who="GARTHWAITE">Oh, they were very—very friendly, very welcoming. I spent a lot of money in the bazaar <date>every day</date>, so I was well known. And the population was extremely supportive and receptive.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">And, you see, we spent the fall gathering material at various sites, and then in <date>the winter</date> that was analyzed, and a decision was made where the excavations were going to begin in <date>the spring</date>. And then in <date>the spring</date>, they hired over 100 workmen to do the excavations, and the <persName>Braidwoods</persName>’ former archaeological foreman was an Egyptian, and he came from <placeName>Egypt</placeName>.</u>
+      <u who="DELLINGER">And so you attribute the Iranians’ attitude to—to your economic effect on them? How do you think they would have acted had you just been, you know, a regular American there?</u>
+      <u who="GARTHWAITE">There wouldn’t have been any problems, and there was never any—any hostility. They were probably quite curious, and probably most Iranians thought we were looking for gold. That just was a common idea, that some archaeologists are digging for—for the rare objects or for gold. And the—the primary purpose of this—and the secondary purpose of this expedition was scientific. Nothing glamorous was expected. They did find one very unusual mother goddess figure, and then an Acheulean [pronounced ah-CHILL-ee-en]  hand-axe, which is around 75,000 <placeName>B.C.</placeName>, which was totally unexpected. But otherwise, the—the—it was quite unglamorous, if you know what I mean. It’s not the <placeName>Indiana</placeName> Jones kind of thing.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. So did you feel any effects from the <placeName>U.S.</placeName>’s involvement in <placeName>Iran</placeName> previous to that?</u>
+      <u who="GARTHWAITE">Well, no. See, I knew nothing about <placeName>Iran</placeName> before we left other than the fact that oil came from <placeName>Iran</placeName> and they had a shah. But I knew nothing about—I knew nothing about the history, nothing about the culture. </u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">And historic places.</u>
+      <u who="DELLINGER">So you felt no hostility from them, and you obviously found them interesting,—</u>
+      <u who="GARTHWAITE">Yeah.</u>
+      <u who="DELLINGER">—considering your future career choice.</u>
+      <u who="GARTHWAITE">Yeah.</u>
+      <u who="DELLINGER">But what were your emotional feelings towards them, towards <placeName>Iran</placeName> and the people there?</u>
+      <u who="GARTHWAITE">Well, I actually—you know, I grew up in the <placeName>Midwest</placeName>, which is very green, and we arrived in <placeName>Iran</placeName> in <date>the early autumn</date>, in <date>September</date>, and I couldn’t get over how brown it was. And it’s also very rugged. And I think within <date>the first three weeks</date>, had I been given my choice, I probably would have left, because it was so alien and so unfamiliar, and it was—I suppose there was some difficulty in adjusting, too. But after those initial <date>three weeks</date>, I sort of fell in love with the country and with the people, and the culture. Found it absolutely fascinating.</u>
+      <u who="DELLINGER">What in particular about <placeName>Iran</placeName> do you think really drew you to it?</u>
+      <u who="GARTHWAITE">I think the countryside, and in <date>the spring</date> it’s dramatically green, but it doesn’t last long. But the people, themselves, are sort of very warm and engaging. And then the wonderful food. And, you see, too, at that time, <placeName>Iran</placeName> was probably 75 percent rural, in terms of where the population lived. It was an agricultural community, and there were lots of pastoral nomads, and so it was completely different from what I had grown up with. </u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. </u>
+      <u who="GARTHWAITE">Well, my younger sister got married, and I had married while I was in <orgName>the Air Force</orgName>, and we came to—we spent <date>the summer</date> after—the expedition dispersed in <date>June</date>. We spent <date>the summer</date> in <placeName>Europe</placeName>, and—that was my first trip to <placeName>Europe</placeName>, and came back without any money, needed a job, and so I got a job in aerospace, because of my <orgName>Air Force</orgName> background. And I also got a job, because I could write a complete sentence, and so I was in the management division of <orgName>Aerojet General [Corporation</orgName>] in <placeName>Sacramento</placeName>,—</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. </u>
+      <u who="GARTHWAITE">—<placeName>California</placeName>. And I was quite successful, except I had no—I had a very limited future because I didn’t have an engineering degree. Everybody else that I worked with had—I had an engineering background because of <orgName>the Air Force</orgName>, because of all of my training there, but I didn’t have an actual degree, and therefore I had no future. </u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. </u>
+      <u who="GARTHWAITE">That’s correct.</u>
+      <u who="DELLINGER">How did you meet her?</u>
+      <u who="GARTHWAITE">Singing in a choir. I didn't sing at St. Olaf [chuckles], where everybody sings, but that’s how we met. And by the time I then was given this—or these fellowships at <orgName>UCLA</orgName>, we had one son.</u>
+      <u who="DELLINGER">And so you met her in <placeName>Florida</placeName>, then?</u>
+      <u who="GARTHWAITE">No, in <placeName>California</placeName>.</u>
+      <u who="DELLINGER">In <placeName>California</placeName>.</u>
+      <u who="GARTHWAITE">Yeah.</u>
+      <u who="DELLINGER">Then did she come to <placeName>Florida</placeName> with you?</u>
+      <u who="GARTHWAITE">Yeah, yeah, yeah.</u>
+      <u who="DELLINGER">And how did she feel about you going to <placeName>Iran</placeName> for <date>a year</date>?</u>
+      <u who="GARTHWAITE">Oh, she also went, and—and—and loved it, too.</u>
+      <u who="DELLINGER">So you’re at <orgName>UCLA</orgName>, and you’re studying history, and this is from <date>around 1961</date>?</u>
+      <u who="GARTHWAITE"><date>Sixty-two</date>.</u>
+      <u who="DELLINGER"><date>Sixty-two</date>.</u>
+      <u who="GARTHWAITE">Yeah.</u>
+      <u who="DELLINGER">Until?</u>
+      <u who="GARTHWAITE">Sixty-five.</u>
+      <u who="DELLINGER">Okay. </u>
+      <u who="GARTHWAITE">And then I did my—my prelims and then went back to <placeName>Iran</placeName> ’65 to ’67—</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">—to do research for my thesis, for my <persName>Ph.D.</persName> thesis.</u>
+      <u who="DELLINGER">So in that period, obviously, <orgName>there’s</orgName>—there’s a lot of important <name type="event">Cold War</name> events: <name type="event">the Cuban Missile Crisis</name>. What were your experiences—</u>
+      <u who="GARTHWAITE">Also the civil rights movement.</u>
+      <u who="DELLINGER">Of course.</u>
+      <u who="GARTHWAITE">And then—and that—and that related very much to the free speech movement that started at [<orgName>University of California</orgName>,] <orgName>Berkeley</orgName> and then spread to <placeName>Los Angeles</placeName>, the two major <orgName>UC</orgName> campuses. And then I mentioned—and in addition, <persName>von Grunebaum</persName> had just arrived at <orgName>UCLA</orgName>, and he had brought in to do Iranian history—he brought in <persName>Nikki Keddie</persName>, who was important both in terms of her knowledge of <placeName>the Middle East</placeName> and <placeName>Iran</placeName>—and she was a major—became a major scholar in that field. But also she was very active politically, and it’s through her that I—I think that I became—but Americans generally, especially at universities in the <orgName>mid-’60s</orgName> were affected by a whole variety of things that had sort of come together: civil rights in particular, but also, then, <placeName>Vietnam</placeName> was growing as a problem.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. So how did Ms. <persName>Keddie</persName> sort of affect your—your views on civil rights or—?</u>
+      <u who="GARTHWAITE">Well, she was very much an activist among the faculty at <orgName>UCLA</orgName>, and so we talked a bit about this—oh, you—you have to remember, too, that the <placeName>Middle East</placeName> faculty when I was there at <orgName>UCLA</orgName>—again, it was about the size of the expedition to <placeName>Iran</placeName>. It had well over 50 <placeName>Middle East</placeName> specialists. <persName>Von Grunebaum</persName> could attract anybody because of his stature.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. And do you interact much with the faculty and other students outside of class?</u>
+      <u who="GARTHWAITE">Yah, yah. (That’s my <placeName>Minnesota</placeName>, “Yah, yah” coming back.) But no, no, no, we were a very small, a very closely-knit group, and we socialized a lot together. And much less so with faculty outside the classroom. There was a bit but not an awful lot. It was—this was an era when male faculty all wore coats and ties.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">And with Professor <persName>von Grunebaum</persName>, he was extremely formal. He was from <placeName>Vienna</placeName> and escaped the Nazis. It was a completely different era. And so <persName>von Grunebaum</persName> was—was a very formidable person, in every sense of the word, but at the same time terribly generous and kind. But we didn’t really socialize with him.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">He had us to his house at <date>Christmas holidays</date> maybe once a year. But he encouraged—I organized a couple of dinner parties, and when he found out—at my house, or our house—and when he found out about that, he reimbursed me by giving me books [chuckles softly], that sort of thing.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. So did you individually or as a group, with other students, participate in any of the activism at <orgName>UCLA</orgName>?</u>
+      <u who="GARTHWAITE">Yeah, we did in the free speech movement, which then morphed into—the free speech movement was related very much to civil rights, but then it began to morph into anti war.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. And what did you see as the—the faculty politics at <orgName>UCLA</orgName> at the time?</u>
+      <u who="GARTHWAITE">Well, I—I wasn’t really aware of so much of faculty politics other than <persName>Nikki Keddie</persName>—I mean, she was—you have to remember that women were not on faculties then, and so she was—she was—it was very unusual to have a young woman be given a major appointment, and <persName>von Grunebaum</persName> was responsible for that. But also she was very much a part of the left, which was another strike that was held against her, the fact that she was a woman and then she was way to the left. She—she had a lot of—of problems.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">But she did get tenure. And, again, <persName>von Grunebaum</persName> supporter her 100 percent.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. So what brought you to <orgName>Dartmouth</orgName>?</u>
+      <u who="GARTHWAITE">Well, I went to <orgName>the American Historical Association</orgName> <date>annual</date>  meeting, which was in <placeName>Toronto</placeName> [<placeName>Ontario</placeName>, <placeName>Canada</placeName>], and this was in <date>December of 1967</date>, and I was finishing up my thesis then. And I was interviewed by <orgName>the University of Chicago</orgName>, <orgName>the University of Pennsylvania</orgName> and <placeName>Dartmouth</placeName>. And [<persName>Charles T.] “Charlie” Wood</persName> in the history department here was critical in terms of my interview at <placeName>Toronto</placeName>. And all of these three schools were interested in me because I’d worked with <persName>von Grunebaum</persName>. I mean, he was—you know, he was <persName>the [Albert] Einstein of the field</persName>.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. Do you ever regret that decision?</u>
+      <u who="GARTHWAITE">No, no, not really. And, you know, I’ve lived here now for so long that I—I’ve lived longer than any other place in my life, so it’s become home.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. So you mentioned your thesis. What did you write that about?</u>
+      <u who="GARTHWAITE">Well, <persName>Nikki Keddie</persName> was working on late 19th-, early <date>20th-century</date> Iranian history, and the—there’s a revolution in <placeName>Iran</placeName>, <date>nineteen five, nineteen six [1905,</date> <date>1906</date>], and, oh, that was a hot subject then. And, you see, it relates very much to her own politics, which was—and for the left, the Russian Rev- —or <name type="event">the French Revolution</name> and <name type="event">the Russian Revolution</name> are very important, and—and there was this revolution in <placeName>Iran</placeName>, and so she was studying that as it related to the other two.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">And in the course of the revolution, these private libraries, one in particular, was destroyed, and the others dispersed, so the only records, then, are of what I—my photographs.</u>
+      <u who="DELLINGER">So you went to <placeName>Iran</placeName> and published this book sometimes in the <date>’70s</date>?</u>
+      <u who="GARTHWAITE">Yeah, yeah, yeah. </u>
+      <u who="DELLINGER">Do you know about when that was?</u>
+      <u who="GARTHWAITE">Oh, gosh, when was—let’s see, it was just about the time of the revolution, it was finally published.</u>
+      <u who="DELLINGER">So, like, <date>late ’70s</date>.</u>
+      <u who="GARTHWAITE"><date>Late ’70s</date>, yeah, yeah.</u>
+      <u who="DELLINGER">So you came to <orgName>Dartmouth</orgName> in <date>1968</date>.</u>
+      <u who="GARTHWAITE">Sixty-eight, right.</u>
+      <u who="DELLINGER">And how do you describe the campus climate when you first arrived?</u>
+      <u who="GARTHWAITE">It was all male. [Chuckles.] We had <date>Saturday</date> classes, but I must say attendance was pretty sparse. It was not only all male, it was virtually all white, but there were a scattering of—of students of color. There weren’t many international students. Everybody looked more or less alike. Everybody was—it was only middle class, upper middle class and upper class. It was—it was very—quite traditional.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. How do you describe it socially and politically?</u>
+      <u who="GARTHWAITE">Politically, I would say it was—that’s a hard one to answer because just before I came in <date>’67</date>, there were students at <orgName>Dartmouth</orgName> that were becoming active in terms of civil rights. The antiwar came just a bit later, but there was a concern about civil rights in particular. And what sparked that was [<placeName>Alabama</placeName> Governor] George [C.] Wallace [Jr.], the civil rights movement, some of the marches in the <orgName>mid-’60s</orgName>.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. But was there definitely a conservative part?</u>
+      <u who="GARTHWAITE">Oh, yeah, yeah, yeah. And the faculty was extremely conservative. The English department, for example, was a bastion of conservatism. The economics department was, too. But they did have—not in English so much, but in economics there were a couple of—of radicals, and we—we—we actually began to use that term. </u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. You mentioned a few of you came at the same time—</u>
+      <u who="GARTHWAITE">Yeah.</u>
+      <u who="DELLINGER">—and all shared the same political views?</u>
+      <u who="GARTHWAITE">Yeah.</u>
+      <u who="DELLINGER">How would you describe those political views?</u>
+      <u who="GARTHWAITE">We all classified ourselves as liberals. That’s the term that we—that we used at the time. There were a couple, not in our group, that were more radical than we were. We called them the radicals, and we got along fine with them. And there were two—two of them in <orgName>the economics department</orgName>, the two radicals. It was sort of the two radicals and the conservatives up there. I’m thinking, still, in terms of <persName>Reed</persName> on the third and second floor.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">And we supported, you know, civil rights, supported early feminist issues. <persName>Marysa Navarro</persName> was part of this group, and she was the first woman to go through the ranks to be tenured at <orgName>Dartmouth</orgName>. We were all part of the antiwar group. We were all internationalists. I think that—see, and it was—<persName>Leo Spitzer</persName> was an <persName>Africanist</persName>. I did <placeName>Middle East</placeName>. <persName>Marysa</persName> did <placeName>Latin America</placeName>. And then—and [<persName>Peter G.]</persName> “<persName>Pete” Slater</persName> did American history. [Carolyn] “Rusty” Eisenberg—he wasn’t in the regular ranks, also did American. But there was a—and then <persName>Leo</persName> [<persName>C.]</persName> <persName>Lee</persName> did <placeName>China</placeName>. And then <persName>Jonathan Mirsky</persName>, who was teaching Chinese but was also trained as a historian, was part of our group, and it was through <persName>Jonathan</persName>, then, that the group actually began to emphasis <placeName>Vietnam</placeName>.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">Yeah, yeah.</u>
+      <u who="DELLINGER">So did you feel any animosity from the mostly conservative faculty?</u>
+      <u who="GARTHWAITE">Not in the history department. We had one very conservative member of the department, <persName>John Adams</persName>—we all called “J.C.” And we got along fine. He did not share our politics at all, but he was very respectful of us and very supportive of us. And <persName>Lou Morton</persName>, this military historian, the chair of the department, encouraged us. And his political views were very much like ours. </u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">And there was a lot of tension in the room.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. So you mentioned this group of young faculty that all shared the same political view. Did you guys organize in any way or meet frequently in any way?</u>
+      <u who="GARTHWAITE">We met a lot. We met social- —we socialized together. We used to have dances, almost weekly dances down at the Tom Dent Cabin, and it was sort of pot luck, and—so we socialized together, and we occasionally caucused to discuss political issues, of what we could do as  a group to advance these changes. And so—so there was a lot of interaction.</u>
+      <u who="DELLINGER">Coming from <orgName>UCLA</orgName> to <orgName>Dartmouth</orgName>, did you plan to be involved in these political issues, or—</u>
+      <u who="GARTHWAITE">No.</u>
+      <u who="DELLINGER">—did it just—</u>
+      <u who="GARTHWAITE">No. But I had participated in protests at <orgName>UCLA</orgName>, and so that in one sense, it wasn’t that different, you know, coming from <orgName>UCLA</orgName> to—to <orgName>Dartmouth</orgName>. And then meeting a like-minded group—you know, other young faculty, We all—we all came within—roughly ’68. There were a couple that came in <date>’67</date>. We came in <date>’68</date>; some, in ’69. And so we—we constituted sort of a cohort of shared values. And it seemed like a very natural thing. </u>
+      <u who="DELLINGER">So you mentioned differences in faculty-student interactions between now and then. How do you characterize that change?</u>
+      <u who="GARTHWAITE">Well, again, this—you see, I’m of—I’m of the older generation now, and—but I don’t see the younger—my younger colleagues interacting with students the same way we did. And that might—in some ways, that might be a good thing. And I know that they interact with each other but not, again, to the same extent that we did. <orgName>Dartmouth</orgName> was a much smaller place then, too. You know, it’s grown in size. Faculty has grown quite significantly. The student body has grown as well.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. Now, why do you think less faculty-student interaction or less informal faculty-student interaction might be a good thing?</u>
+      <u who="GARTHWAITE">There were some faculty members who drank too much and were—were sort of buddy-buddy with the students. There wasn’t that much difference in terms of age, but it was probably—it probably wasn’t healthy, either, for the students or some of these faculty.</u>
+      <u who="DELLINGER">Okay. </u>
+      <u who="GARTHWAITE">Okay. </u>
+      <u who="DELLINGER">Do you mind if we continue this at another time?</u>
+      <u who="GARTHWAITE">Sure, sure. Just e-mail me.</u>
+      <u who="DELLINGER">Hello, this is <persName>Patrick Dellinger</persName>. I’m here with Professor Emeritus Garthwaite. We’re at <orgName>Rauner</orgName> [<orgName>Special Collections] Library</orgName> in <placeName>Hanover</placeName>, <placeName>New Hampshire</placeName>, on the campus of <orgName>Dartmouth College</orgName>. It is <date>August 31st, 2015</date>, at about 3 p.m.</u>
+      <u who="GARTHWAITE">Right.</u>
+      <u who="DELLINGER">Could you describe the campus climate—you know, what the faculty was like, what the students were like, some things that were going on at that period?</u>
+      <u who="GARTHWAITE">[Chuckles.] That’s a lot. First of all, it was all male. And we had <date>Saturday</date> classes, although students then had a habit of not attending <date>Saturday</date> classes. [Chuckles softly.]</u>
+      <u who="DELLINGER">Mmm.</u>
+      <u who="GARTHWAITE">And it was—when I look back on it, it was quite a different place. There were lots of new faculty. <persName>John Dickey</persName> had brought in <persName>John Kemeny</persName> to rebuild the math department but also with a large aim of rebuilding the faculty, and so there were a very large number of very capable but very senior faculty, and then there was a large number of us, who sort of arrived as a cohort in <date>the late ’60s</date>.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. So you mentioned coeducation, but what other issues [were] really important to students?</u>
+      <u who="GARTHWAITE">I think those were the—I can’t think of—oh, they wanted to get rid of <date>Saturday</date> classes. [Laughs.] I know that. And that also happened. And I think most of the students were quite receptive, even though who weren’t politically active, were quite receptive to these—these kinds of changes partly because the whole country was changing. </u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. </u>
+      <u who="GARTHWAITE">And the question of—of women on campus continued to be an important issue, and the relationship of—of women to men was an important issue, certainly at the faculty level but also for—for—for some students.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. So you mentioned faculty interacting closely with students in these sort of protests or political action—</u>
+      <u who="GARTHWAITE"><persName>Mm-hm</persName>.</u>
+      <u who="DELLINGER">Were you one of those faculty?</u>
+      <u who="GARTHWAITE">Yes, yes. And I can give you a very concrete example. [<persName>Steven S.]</persName> “<persName>Steve” Rosenthal</persName> [Class of <date>1971</date>], who must have been the class of ’69 or ’70—I hear from him every <date>Christmas</date>—is a very successful lawyer in <placeName>Washington</placeName>, and he drove up to <orgName>Goddard College</orgName>, and I went with him to participate in a teach-in up there. </u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. So was that the extent of your sort of interaction with students on this, or did you plan anything with them, or—</u>
+      <u who="GARTHWAITE">Well, there was sort of a leveling, I think, and a lot of this was sponta- —quite spontaneous.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">And I remember on one occasion students wanted to have sort of a spontaneous teach-in on <name type="event">the Vietnam War</name>, but yet they didn’t have the standing to hold it, for example, in Spaulding [Auditorium], and so a group of <placeName>us</placeName> faculty were able to arrange for that. It was very—very collaborative. And we weren’t that much older than the students, either [chuckles],—</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">—maybe <date>10 or 12 years older</date>, at the most. And so there was—there was, I suppose, something of a common link there in terms of age. I think I mentioned <date>last week</date>, too, that the split in the faculty I think was largely generational.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">And we were closer in age to the students.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. So did you see yourself as—as helping the students or advising them or both, or participating in these protests with them?</u>
+      <u who="GARTHWAITE">It was all of the above. [Chuckles.]</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">It was really—we found common cause.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. </u>
+      <u who="GARTHWAITE">Right.</u>
+      <u who="DELLINGER">And that eventually led up to the <orgName>Parkhurst</orgName> takeover.</u>
+      <u who="GARTHWAITE">Right, in ’69.</u>
+      <u who="DELLINGER">In <date>the spring of ’</date>69, yes. So what—what—what are your reactions to that? How do you—why do you think that came about? What was your role in it, if any?</u>
+      <u who="GARTHWAITE">Well, like other places across the country, events in <placeName>Southeast Asia</placeName> sort of reached a tipping point in <date>early 1968</date>, and this was sort of the straw that broke the camel’s back, and there was this outpouring of protest. And I suppose it was a protest against government policy, but I think it was probably—this is not my historical specialty at all, and I have a vague recollection of all of this, and I haven’t thought about these things for a very long time, but I suspect that a lot of the protest was against the establishment in general. And this where the I think linkage between sort of the political status quo touching out on the international issues but then also domestic ones like civil rights and, on campus, the issue of coeducation.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. </u>
+      <u who="GARTHWAITE">And I suppose I played a minor leadership role in some instances. I was certainly a participant in the teach-ins and in the various protests. And I also spoke at the faculty—at a faculty meeting, against <orgName>ROTC</orgName>, and I thought that I was in a strong position to do so, given the fact that I had been in <placeName>ROTC</placeName>, myself.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. </u>
+      <u who="GARTHWAITE">I remember once leafleting—that was another thing that we did—in <placeName>White River Junction</placeName>, of all places. And this older <persName>Vermonter</persName> came up to me and said, “Young man, what have you done for your country?” And I said, “Well, I hold the rank of captain in <orgName>the Air Force Reserve</orgName>.” And then it turns out he agreed with me [chuckles] on <name type="event">the Vietnam War</name> situation. </u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. So before the actual takeover happened, did you know it was going to happen? Did you—had you talked to—</u>
+      <u who="GARTHWAITE">We anticipated, and we thought that the administration would call in—I guess—who—I guess <persName>John Dickey</persName> called in—called the governor, who was on the board of trustees,—</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">—and then they brought in—it was—I can’t remember—was it <orgName>the National Guard</orgName> [of the <placeName>U.S.</placeName>]? I don’t—I don’t remember that detail.</u>
+      <u who="DELLINGER">I believe it was the [<placeName>New Hampshire</placeName>] State Police.</u>
+      <u who="GARTHWAITE"><orgName>The State Police</orgName>. That makes more sense. And the question was when all this would happen. What was the sequence? But it was fully anticipated that this would happen.</u>
+      <u who="DELLINGER">So did you speak to any of the students that were planning this beforehand? Did you advise them or—or have any communication with them?</u>
+      <u who="GARTHWAITE">No, no. The takeover, itself, was I think largely student led.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">And we certainly supported them, but we—we—or the group that I was with—was apparently a large group—was not part of the planning.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">And I think—you see, two of the—the takeover took place, and they were given the opportunity to leave, and if they didn’t leave, then <orgName>the State Police</orgName> would arrest them. And, again, I think the—I really—like the gentleman out here in <placeName>Rauner</placeName>—I should go back and look at The [Dartmouth] D and see how The D reported this. I haven’t done—I’ve never done that. </u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">Again, they were all junior faculty. No, that’s not true, either, because [<persName>F.] David Roberts</persName> in our department was very senior, and he was arrested. Was that at the <persName>Parkhurst</persName> takeover? I think it was, if I recall correctly.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. So do you remember the names of any of this group of faculty and this—this core group of students that were really leading the protest?</u>
+      <u who="GARTHWAITE">No. <persName>Hoyt</persName> [<persName>S.] Alverson</persName> in anthropology was a very important leader, but in the end, I don’t think he was one of those arrested.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE"><persName>Michael [J.] Herschensohn</persName>, who’s no longer here—he left a long time ago—in French. He was a leader. There was a young economist, whose name I can’t remember. Oh, in the math department there was a husband and wife couple, a couple, and they were—and what was her name? She was  English. I can’t remember whether her husband was English or not. But she was very, very much—a very important leader. What was her name? (This is sort of gradually coming back.) [Pause.] They all came back to the faculty. A number of them did not get tenure, but they didn’t get tenure for other reasons and not for their—their political views.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. And this core group of student leaders—did you have many interactions with them?</u>
+      <u who="GARTHWAITE">No, because none of them—the ones—I suppose the ones that I had in class are the ones that I interacted with the most, and they were sort of the next level down. But there were maybe half a dozen, a dozen in the core group.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. And you mentioned you went to see the students who were arrested in jail. Like, what was their mood like? How did—how did they react to being arrested?</u>
+      <u who="GARTHWAITE">Well, first of all, they were happy to see us, and none of them were particularly downcast. I think they saw themselves as acting heroically, trying to stop this greater injustice. </u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. </u>
+      <u who="GARTHWAITE">And then the question was, what kind of punishment would be meted out for them?</u>
+      <u who="DELLINGER">So did these students feel like they had accomplished something?</u>
+      <u who="GARTHWAITE">At the time, yes. But, of course, the war went on, and on and on.</u>
+      <u who="DELLINGER">And do you think they accomplished something?</u>
+      <u who="GARTHWAITE">I think—yes, I think—at the time, they didn’t, but the awareness of it after finally led to the end of the conflict. But it was the—the whole issue was, at a national level, was very, very divisive. There were some divisions on campus, but I think it was less divisive here than it was nationally. And I think there was—there was considerable community support for the antiwar movement on campus. It wasn’t just <orgName>Dartmouth</orgName> students and faculty; it was the larger community.</u>
+      <u who="DELLINGER">Now, you mentioned how the college would deal with these students afterwards. How did that process go?</u>
+      <u who="GARTHWAITE">Well, then there was—well, the equivalent to—what is it—what do you call it now, <orgName>the COS [Committee on Standards</orgName>]?</u>
+      <u who="DELLINGER">We call it <placeName>Parkhursting</placeName> now.</u>
+      <u who="GARTHWAITE">Oh. Anyway, there was a committee that in a sense tried the students, and I remember that <persName>Charles Wood</persName>, a very distinguished medieval historian, a distinguished medieval legal historian, defended—oh, his family name was [<persName>Payne</persName>? 1:33:30]. I was going to say <persName>Thomas Payne</persName>, but that’s not right. But each of the students had—actually, that’s one student that was arrested that I knew very well. But, yeah, each of the students then had a faculty representative in—in that process.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">And so that was followed very closely.</u>
+      <u who="DELLINGER">Did the faculty have any role in deciding their punishment or—or in the lead-up to the <orgName>Parkhurst</orgName> [takeover]—besides defending individual students?  </u>
+      <u who="GARTHWAITE">No, I think—because the—the procedure followed established college guidelines, and so it was to make sure that the students got a fair hearing and that the guidelines were adhered to. I think that was—that was the concern, so that this would be sort of a kangaroo court.</u>
+      <u who="DELLINGER">So going back to before the <persName>Parkhurst</persName> takeover, the faculty decided to sort of reaffirm its strength and their policy on protests and the like. Do you think that had any role in sort of instigating the <orgName>Parkhurst</orgName> takeover?</u>
+      <u who="GARTHWAITE">No, no. I think it was much more—the origins of the <orgName>Parkhurst</orgName> takeover were much more national. And there were some students that I know in that leadership group that had participated in <persName>SDS</persName> [Students for a Democratic Society]—what was the student group that met in <placeName>Michigan</placeName>, a radical student group that met in <placeName>Michigan</placeName>? Some of them had been at that—had been affiliated with that group. And they were the ones that brought I think the most radical ideas to campus, but the—the groundwork for supporting them was much broader than that, than that <persName>SDS</persName>.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. So what was your role after the <persName>Parkhurst</persName> takeover? Were you involved with these students anymore after that?</u>
+      <u who="GARTHWAITE">Well, after that—and this is, I suppose, too,—I certainly supported the students—there was later protesting over <placeName>Cambodia</placeName> and <placeName>the Kent State</placeName> [University] killing. And the same group of faculty, those that were here, continued to support—and there was very, very broad faculty support for the later protests, very broad. </u>
+      <u who="DELLINGER">So you mentioned the faculty supported the later protests but not necessarily the protest about <placeName>ROTC</placeName>.</u>
+      <u who="GARTHWAITE">That was—yeah, that was—the <orgName>ROTC</orgName> issue was in some ways charged, because a lot of the faculty had been in the military, but also it was a way of providing financial support for the students. And there’s also the sense, I think, from many that the military needed young men (because it was still young men then) with leadership qualities and with liberal arts educations. </u>
+      <u who="DELLINGER">So do you think it was a specific issue that caused the difference in support between these different protests.</u>
+      <u who="GARTHWAITE">That—you mean <orgName>ROTC</orgName>? Or what was—</u>
+      <u who="DELLINGER">The specific issues, so the difference between the <orgName>ROTC</orgName> protest support and the <placeName>Cambodia</placeName> protest support.</u>
+      <u who="GARTHWAITE">Well, the <placeName>Cambodia</placeName> protest support was much broader, much, much broader. And—I mean, the whole student body, practically, supported that, whereas that wasn’t the case with—earlier, in ’69.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. </u>
+      <u who="GARTHWAITE">But I think the student deaths at <placeName>Kent State</placeName>, the bombings in <placeName>Cambodia</placeName>—I earlier used the metaphor of the straw breaking the camel’s back. This really was a step taken too far. So I think there was much, much broader support for protests.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">Was it in the top of the <orgName>Hop</orgName> [a venue at the Hopkins Center for the Arts]? A lot of the students—and it was still, you know, largely male—had long hair, and they set up barber shops and had their hair cut as a sign of protest, interestingly. And there were lots of student study groups. There were many, many more of those all over <placeName>Cambodia</placeName> than there were in ’69.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. </u>
+      <u who="GARTHWAITE">No, but there were a lot.</u>
+      <u who="DELLINGER">You can’t remember.</u>
+      <u who="GARTHWAITE">Yeah, there were a very large number. And then, you see,—and then after <placeName>Cambodia</placeName>, this morphed into civil rights on campus, and—although—you know, again, the student body changes <date>every year</date>, and so there—there wasn’t necessarily student continuity except in the sense that the new students were politically active and the group—the group of protesters simply grew, and there was much broader—there was very broad support, again, for civil rights in the middle and late ‘<date>70s</date>.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">And I guess into <date>the early ‘80s</date>, because—what was the date of the shanty? I’m terrible with dates, even in my own field. But I don’t remember, actually, when that took place.</u>
+      <u who="DELLINGER">So what was your role in later protests?</u>
+      <u who="GARTHWAITE">Pretty much—I was quite consistent. I supported the various student groups. I participated in teach-ins. And the teach-ins for the civil rights was very, very important. The civil rights took also—brought some issues to campus in terms of more minority faculty, more courses dealing with, you know, history, sociology, the politics of civil rights. So I—I was a participant. I was a protester.</u>
+      <u who="DELLINGER">Now, you’ve mentioned these teach-ins a lot. Can you walk me through how exactly a teach-in would work?</u>
+      <u who="GARTHWAITE">Well, here, the teach-ins required some organization. You had to—really basic organization. You needed a venue, a place to do it. Then you needed to invite faculty to speak on various aspects of the teach-in, whatever the subject was. And then you needed to publicize this. And then you needed to convince the faculty to suspend classes for <date>a day</date> or part of <date>a day</date> so that students could participate. So there was— basic organization was necessary.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. Now, you had your core group of—of more liberal faculty.</u>
+      <u who="GARTHWAITE"><persName>Mm-hm</persName>.</u>
+      <u who="DELLINGER">Did you feel treated differently by those outside that group?</u>
+      <u who="GARTHWAITE">Yes. And in some ways, we didn’t care. But at the same time, we knew that we had gone a step further, that they disapproved of—but at the same time, the college procedures in terms of promotion and tenure I think were basically followed, and I think that process—I don’t think we were worried about that process, because certainly in the history department, there were maybe five or six of us. We had the full support of our chairman and the explicit support of the fac- —most of the faculty and implicit support of a few that were less than hearty about what we were doing.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. So you don’t believe your career was affected.</u>
+      <u who="GARTHWAITE">No, no.</u>
+      <u who="DELLINGER">How did it affect other parts of your life?</u>
+      <u who="GARTHWAITE">Well, you know, I mentioned when we talked last that I was probably most influenced by <persName>Nikki Keddie</persName> at <orgName>UCLA</orgName>, and this related very much to the free speech movement at <orgName>the University of California</orgName> system. And that certainly affected how I looked at <placeName>Vietnam</placeName>. Teach-ins were very important in terms of this free speech movement. And the teach-ins from the free speech movement—<persName>Mario Savio</persName> at <placeName>Berkeley</placeName>, for example—the teach-ins sprang out of that movement, and then they spread across the country. And so they affected my views then and my participation both in the antiwar movement as well as in the civil rights.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. So looking back, are you happy with how you participated in and handled these protests?</u>
+      <u who="GARTHWAITE">More or less, yeah, although looking back, I think we were terribly naïve, and I’m not sure, given the administration in <placeName>Washington,—we</placeName> certainly put pressure on them to change, but they also resisted that for as long as possible. And then we had the terrible <date>years</date> of [<persName>Richard M.] Nixon</persName> and [<persName>Henry A.] Kissinger</persName>.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">And, you know, in looking back, one would wish that that war had been brought to its conclusion much earlier. I mean, tens of thousands of Southeast Asians, you know, suffered as a consequence or were killed, and too many Americans.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>.</u>
+      <u who="GARTHWAITE">—in—in <placeName>Vietnam</placeName>.</u>
+      <u who="DELLINGER">Why do you think they didn’t get that support?</u>
+      <u who="GARTHWAITE">Because I think there was a kind of lumping together of the antiwar effort and those that were fighting it. No distinction was made as to culpability. But if you’ve read [<orgName>Dartmouth</orgName>] President [<persName>James] Wright’s</persName> book [Those Who Have Borne the Battle: A History of America’s Wars and Those Who Fought Them] on how Americans have treated their military since <name type="event">the Civil War</name>, not that much have changed. We now pay lip service to providing support to those who fought in <placeName>Iraq</placeName> and, belatedly, those who still suffer from the costs of—of—<placeName>Vietnam</placeName>. We pay lip service to it, but we don’t actually provide much beyond that for them.</u>
+      <u who="DELLINGER">Now, you’ve seen a lot change at <orgName>Dartmouth</orgName> over <date>the years</date>, but do you think this crucial time of protest has changed the way the administration and the faculty deal with students?</u>
+      <u who="GARTHWAITE">I think—yeah, yes. I think that—the administration had become more legalistic on the one hand in dealing with students. I think they’ve also put more responsibility on students, and it’s far less paternalistic than what it was <date>40 years ago</date>, although I haven’t paid much attention in <date>the last 20 years</date> to how students are disciplined.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. And do you think <orgName>Dartmouth</orgName> is heading in the right direction in light of the reactions to this—to this protest?</u>
+      <u who="GARTHWAITE">Gosh, I suppose it’s an inevitable evolution from that experience and that the various committees—it’s <orgName>the Committee on Standards</orgName>, isn’t it, COS? it used to have another acronym, and I can’t remember what it was. But I think there’s been—there has been some evolution. But I also thing, it—it’s become—has become more legalistic, too.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. How did the students that didn’t have that outside legal advice get any sort of legal advice?</u>
+      <u who="GARTHWAITE">This is where the faculty stepped in. Although they weren’t trained as lawyers, some of them had very strong legal skills and knowledge, and so that the faculty acted as advocates for them.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. Now, if there were similar sort of protests on campus <date>today</date>, do you think it would turn—turn out in a similar fashion?</u>
+      <u who="GARTHWAITE">Well, you see, it’s—I can’t imagine what the protests would be about <date>today</date>. I mean, the student body is much more passive than it was. This was <date>a decade or a decade and a half</date> of intense political activity across the nation at almost all universities and colleges. And I don’t know what—what would take—the same thing to sort of reoccur <date>today</date>.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. Now, do you think <orgName>Dartmouth</orgName> was unique in that period?</u>
+      <u who="GARTHWAITE">No, not at all. It was quite typical. And, again, I mentioned going with <persName>Steve Rosenthal</persName> to <persName>Goddard</persName>, but there was an attempt on the part of students at <orgName>Dartmouth</orgName> to reach out to smaller schools and schools without the same kind of resources, to provide support for them, so in that sense, <orgName>Dartmouth</orgName> played I think a regional role. But they also—the same group then would participate with student protesters in the other Ivies [Ivy League schools] in particular. But they went beyond that, to some of the regional colleges, too.</u>
+      <u who="DELLINGER">And do you think this whole period and the events within it had a positive impact on <orgName>Dartmouth</orgName>?</u>
+      <u who="GARTHWAITE">Oh, yes, very much, very much so. And, you see, all kinds of changes were—some of the changes were in train when all of this broke out. Then <persName>John Kemeny</persName> became president, the coeducation, <date>year-round</date> operation. <orgName>Dartmouth</orgName> was—was completely transformed by <date>the early 1980s</date>. Complete transformed.</u>
+      <u who="DELLINGER">And do you think it’s in a good place now?</u>
+      <u who="GARTHWAITE">Yes, <persName>mm-hm</persName>. Can you imagine <placeName>Dartmouth</placeName> without women?</u>
+      <u who="DELLINGER">I cannot.</u>
+      <u who="GARTHWAITE">[Chuckles.] And if you look at the faculty, minorities are way underrepresented, people of color, but in many departments, the number of women reflect the number of women with, you know, Ph.D.s in those fields. It’s closer there, so there’s a good—it could be stronger, but there’s a good record there.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. Do you have any last thoughts that you’d like to share?</u>
+      <u who="GARTHWAITE">Yes. <date>About 10 years ago</date>, <persName>John [A.] Rassias</persName> and I were invited by a group of students that we had shared to come and speak to them at a reunion, a small reunion that they were having, and they asked us, “What’s the biggest change that you’ve seen at <orgName>Dartmouth</orgName> since you’ve been here?” And <persName>John</persName> has been here longer than I have. And do you know what it was? A sense of entitlement on the part of students. But also on a lot of faculty. And that’s something that—</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. And do you see that as a problem with a solution?</u>
+      <u who="GARTHWAITE">No. [Laughs.] I think that’s a harder knot to untie. I mean, sure, you know, a lot of students are—are very generous in the times that they—in the time they commit to helping others, this sort of thing, for example. But at the same time, there’s this very, very strong sense of, Well, we’re entitled to this. </u>
+      <u who="DELLINGER">Do you think <orgName>Dartmouth</orgName> is unique in a sense of entitlement?</u>
+      <u who="GARTHWAITE">No, no, no. Not at all. I think it just reflects, again, the changes in our national culture.</u>
+      <u who="DELLINGER"><persName>Mm-hm</persName>. Any last thoughts?</u>
+      <u who="GARTHWAITE">That’s it. [Laughs.]</u>
+      <u who="DELLINGER">Thank you very much.</u>
+      <u who="GARTHWAITE">You’re welcome.</u>
+    </body>
+  </text>
+</TEI>
