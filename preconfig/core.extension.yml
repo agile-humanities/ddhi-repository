@@ -17,6 +17,7 @@ module:
   datetime: 0
   datetime_range: 0
   dblog: 0
+  ddhi_ingest: 0
   devel: 0
   diff: 0
   dynamic_page_cache: 0
@@ -38,6 +39,9 @@ module:
   media_library: 0
   menu_ui: 0
   migrate: 0
+  migrate_example_advanced_setup: 0
+  migrate_example_setup: 0
+  migrate_file: 0
   migrate_plus: 0
   migrate_source_csv: 0
   migrate_tools: 0
@@ -50,6 +54,7 @@ module:
   rabbit_hole: 0
   rdf: 0
   redirect_after_login: 0
+  remote_stream_wrapper: 0
   responsive_image: 0
   rest: 0
   rh_node: 0

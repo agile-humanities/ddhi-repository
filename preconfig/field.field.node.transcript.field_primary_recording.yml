@@ -20,7 +20,7 @@ default_value_callback: ''
 settings:
   file_directory: audio/primary
   file_extensions: 'mp3 m4a ogg wav'
-  max_filesize: ''
+  max_filesize: 500M
   description_field: false
   handler: 'default:file'
   handler_settings: {  }
