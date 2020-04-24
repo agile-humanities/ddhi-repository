@@ -54,7 +54,7 @@ function ddhi_ingest_prepare_data_records($source,$cleanup=false) {
   }
   
   ddhi_ingest_create_ddhi_records($source);
-  ddhi_ingest_create_audio_manifest();
+  // ddhi_ingest_create_audio_manifest();
 }
 
 /**
@@ -77,6 +77,10 @@ function ddhi_ingest_load_ddhi_records() {
 /**
  * @function
  * Creates manifest of audio transcripts for file migration.
+ *
+ * DEPRECATED, BUT CODE MAY BE USEFUL
+ *
+ * Audio files are now being downloaded via the migrate_file plugin in the main import file.
  */
 
 function ddhi_ingest_create_audio_manifest() {
@@ -92,16 +96,20 @@ function ddhi_ingest_create_audio_manifest() {
   // Prepare outfile for writing. 
   
   $outFile = fopen($outFilePath, "w+");
-    
+  fwrite($outFile,implode(',',['id','filename','title','url']). "\n");
+  
   foreach ($xml->xpath('/DDHIMessage/DDHIPackage') as $item) {
   
     
     $header = $item->xpath('DDHIPackageHeader');    
     $titleStmt = $item->xpath('TEI/teiHeader/fileDesc/titleStmt');
     $recording = $item->xpath('TEI/teiHeader/fileDesc/sourceDesc/recordingStmt/recording[contains(@xml:id,"primary_recording")]');
-    $audioUrl = isset($recording[0]->media) && isset($recording[0]->media->attributes()['url']) ? $recording[0]->media->attributes()['url'] : ''; 
-        
-    fwrite($outFile,implode(',',[$header[0]->id,"'" . $titleStmt[0]->title ."'",$audioUrl]) . "\n");
+    $audioUrl = isset($recording[0]->media) && isset($recording[0]->media->attributes()['url']) ? $recording[0]->media->attributes()['url']->__toString() : '';
+    
+    if (!empty($audioUrl)) {
+      $filename = array_pop(explode('/',$audioUrl));
+      fwrite($outFile,implode(',',[$header[0]->id,$filename,"'" . $titleStmt[0]->title ."'",$audioUrl]) . "\n");
+    }
   }
   
   fclose($outFile);

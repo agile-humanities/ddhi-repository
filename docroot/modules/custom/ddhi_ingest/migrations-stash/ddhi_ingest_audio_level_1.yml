@@ -1,0 +1,62 @@
+# DEPRECATED. AND NEEDS DEBUGGING IF USED AS REFERENCE.
+id: ddhi_audio_ingest_level_1
+migration_group: 'DDHI'
+migration_tags:
+  - DDHI
+  - DDHI Ingest Level 1
+  - Primary Recordings
+  - Audio
+label: 'DDHI Audio Ingest Level 1'
+source:
+  plugin: csv
+  path: 'public://ddhi_ingest/audio_manifest.csv'
+  header_row_count: 1
+# Source field definitions.
+  fields:
+    -
+      name: id
+      label: "ID"
+    -
+      name: filename
+      label: "Filename"
+    -
+      name: title
+      label: "Title"
+    -
+      name: url
+      label: "Url"
+  keys:
+    - filename
+    - url
+  ids:
+    - id
+    - filename
+constants:
+  file_source_uri: 'public://ddhi_ingest/audio_manifest.csv'
+  file_dest_uri: 'public://media/audio/primary'
+process:
+  file_source:
+    -
+      plugin: urlencode
+      source: url
+  file_dest:
+    -
+      plugin: concat
+      delimiter: /
+      source:
+        - constants/file_dest_uri
+        - filename
+    -
+      plugin: urlencode
+  uri:
+    plugin: file_copy
+    source:
+      - '@file_source'
+      - '@file_dest'
+  filename: filename
+destination:
+  plugin: 'entity:file'
+dependencies:
+  enforced:
+    module:
+      - ddhi_ingest

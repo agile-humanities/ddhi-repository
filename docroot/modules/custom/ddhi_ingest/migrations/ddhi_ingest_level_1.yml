@@ -1,8 +1,11 @@
 id: ddhi_ingest_level_1
 migration_group: 'DDHI'
+migration_tags:
+  - DDHI
+  - DDHI Ingest Level 1
+  - XML Ingest
+  - Transcripts
 label: 'DDHI Ingest Level 1'
-migration_tags: null
-migration_group: null
 source:
   plugin: ddhi_source_level_1
   data_fetcher_plugin: http
@@ -15,6 +18,7 @@ source:
     EVENT_ELEMENT: 'rs[@type="event"]'
     NAMED_ENTITITES_ELEMENT: 'name' 
     DATE_ELEMENT: 'date'
+    PRIMARY_RECORDING_DEST: 'public://media/audio/primary/'
     
   # NAMESPACE NOTE:
   # XML Namespace support is causing undpredictable results when namespaced
@@ -43,6 +47,10 @@ source:
       label: Transcription
       selector: TEI/text/body
       # selector: tei:text/tei:body
+    -
+      name: audiourl
+      label: Primary Audio
+      selector: TEI/teiHeader/fileDesc/sourceDesc/recordingStmt/recording[contains(@xml:id,"primary_recording")]/media/@url
       
       
   # Under 'ids', we identify source fields populated above which will uniquely
@@ -65,40 +73,49 @@ process:
     plugin: ddhi_ingest_body
     source: body
   # Plugin expects an array with an element name to extract and the source row
+  field_primary_recording:
+    plugin: file_import
+    source: audiourl
+    destination: constants/PRIMARY_RECORDING_DEST
+    uid: 1
+    skip_on_missing_source: true
   field_entities_places:
-      plugin: extract_named_entities
-      source: 
-        - constants/PLACE_NAME_ELEMENT
-        - body
+    plugin: extract_named_entities
+    source: 
+      - constants/PLACE_NAME_ELEMENT
+      - body
   field_entities_persons:
-      plugin: extract_named_entities
-      source: 
-        - constants/PERSON_NAME_ELEMENT
-        - body
+    plugin: extract_named_entities
+    source: 
+      - constants/PERSON_NAME_ELEMENT
+      - body
   field_entities_organizations:
-      plugin: extract_named_entities
-      source: 
-        - constants/ORG_NAME_ELEMENT
-        - body
+    plugin: extract_named_entities
+    source: 
+      - constants/ORG_NAME_ELEMENT
+      - body
   field_entities_events:
-      plugin: extract_named_entities
-      source: 
-        - constants/EVENT_ELEMENT
-        - body
+    plugin: extract_named_entities
+    source: 
+      - constants/EVENT_ELEMENT
+      - body
   field_entities_named:
-      plugin: extract_named_entities
-      source: 
-        - constants/NAMED_ENTITITES_ELEMENT
-        - body
+    plugin: extract_named_entities
+    source: 
+      - constants/NAMED_ENTITITES_ELEMENT
+      - body
   # Will likely need its own plugin
   field_entities_dates:
-      plugin: extract_named_entities
-      source: 
-        - constants/DATE_ELEMENT
-        - body
+    plugin: extract_named_entities
+    source: 
+      - constants/DATE_ELEMENT
+      - body
 destination:
   plugin: entity:node
   default_bundle: transcript
+# migration_dependencies:
+#  required:
+#    - ddhi_audio_ingest_level_1
 dependencies:
   enforced:
     module:
