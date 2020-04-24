@@ -16,7 +16,8 @@ then
     chown www-data:www-data docroot/sites/default/files;
     chmod 755 docroot/sites/default/files;
     chown -R www-data:www-data ./config
-
+    mkdir data;
+    chmod 755 data;
 
     # Run Drupal console Install
     drupal site:install -n standard  \
@@ -33,7 +34,7 @@ then
       --account-mail=$DRUPAL_SITE_ADMIN_ACCOUNT_MAIL \
       --account-pass=$DRUPAL_SITE_ADMIN_ACCOUNT_PASSWORD
 
-    # Extract system UUID (Deprecated)
+    # Extract system UUID
     # SITE_UUID=$(grep -m2 'uuid:'  ./preconfig/system.site.yml | tail -n1  | awk '{ print $2}')
     # drush -y cset system.site uuid $SITE_UUID
 
