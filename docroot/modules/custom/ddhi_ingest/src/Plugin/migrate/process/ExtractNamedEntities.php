@@ -27,8 +27,18 @@ class ExtractNamedEntities extends ProcessPluginBase {
     
     $element = $value[0];
     $xml = $value[1];   
-    $xml->registerXPathNamespace("tei","http://www.tei-c.org/ns/1.0");
-    $items = $xml->xpath('//tei:' . $element);
+    
+    // TEMP
+    if (!is_object($xml)) {
+      return '';
+    }
+    
+    /* See note on namespaces in ddhi_ingest_level_1.yml */
+    
+    // $xml->registerXPathNamespace("tei","http://www.tei-c.org/ns/1.0");
+    // $items = $xml->xpath('//tei:' . $element);
+    
+    $items = $xml->xpath("//{$element}");
     $values = [];
     
         
@@ -38,7 +48,9 @@ class ExtractNamedEntities extends ProcessPluginBase {
         
         switch ($element) {
           case 'date':
-            $item->registerXPathNamespace("tei","http://www.tei-c.org/ns/1.0");
+            /* See note on namespaces in ddhi_ingest_level_1.yml */
+            // $item->registerXPathNamespace("tei","http://www.tei-c.org/ns/1.0");
+            
             $date = $item->attributes()->when;
             $text = $date ? $date->__toString() . " (" . $item->__toString() . ")" : $item->__toString();
             break;

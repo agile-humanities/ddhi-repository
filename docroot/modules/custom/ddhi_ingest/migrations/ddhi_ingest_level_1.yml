@@ -4,9 +4,10 @@ label: 'DDHI Ingest Level 1'
 migration_tags: null
 migration_group: null
 source:
-  plugin: url
+  plugin: ddhi_source_level_1
   data_fetcher_plugin: http
   data_parser_plugin: xml
+  data_source_dir: ../data/transcripts
   constants:
     PLACE_NAME_ELEMENT: 'placeName'
     PERSON_NAME_ELEMENT: 'persName'
@@ -14,28 +15,49 @@ source:
     EVENT_ELEMENT: 'rs[@type="event"]'
     NAMED_ENTITITES_ELEMENT: 'name' 
     DATE_ELEMENT: 'date'
-  namespaces:
-    tei: "http://www.tei-c.org/ns/1.0"
-  urls: 
-    - public://ingest_test/lovely.tei.xml
-  item_selector: /TEI
+    
+  # NAMESPACE NOTE:
+  # XML Namespace support is causing undpredictable results when namespaced
+  # tags are nested inside generic XML. The current implementation packages
+  # separate XML files into a single feed in preparation for ingest, meaning
+  # that the TEI namespace is nested inside packaging tags. This is causing
+  # odd results with Drupal Migration / SimpleXML / Xpath – namespaced
+  # xpath selectors that are working when the namespace is declared in the
+  # item_selector tag do NOT work when the TEI namespace is declared beneath
+  # it. Taking the mulligan for now, to revisit later.
+  
+  #namespaces:
+  #  tei: "http://www.tei-c.org/ns/1.0"  
+  item_selector: /DDHIMessage/DDHIPackage
   fields:
+    - name: id
+      label: ID
+      selector: DDHIPackageHeader/id
     - 
       name: title
       label: Title
-      selector: tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title
+      selector: TEI/teiHeader/fileDesc/titleStmt/title
+      # selector: tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title
     - 
       name: body
       label: Transcription
-      selector: tei:text/tei:body
+      selector: TEI/text/body
+      # selector: tei:text/tei:body
+      
+      
   # Under 'ids', we identify source fields populated above which will uniquely
   # identify each imported item. The 'type' makes sure the migration map table
   # uses the proper schema type for stored the IDs.
   ids:
-    title:
+    id:
       type: string
 process:
-  title: title
+  title: 
+    plugin: concat
+    source:
+      - title
+      - id
+    delimiter: ' – '
   'body/format':
     plugin: default_value
     default_value: full_html
