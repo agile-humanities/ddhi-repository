@@ -35,7 +35,7 @@ then
       --account-pass=$DRUPAL_SITE_ADMIN_ACCOUNT_PASSWORD
 
     # Extract system UUID
-    # SITE_UUID=$(grep -m2 'uuid:'  ./preconfig/system.site.yml | tail -n1  | awk '{ print $2}')
+    # SITE_UUID=$(grep -m2 'uuid:'  ./config/system.site.yml | tail -n1  | awk '{ print $2}')
     # drush -y cset system.site uuid $SITE_UUID
 
     # Prep settings file for local settings
@@ -43,7 +43,7 @@ then
 
     # Run configuration suite
     # Note that this requires that the --skip-uuid setting be set in console/config.yml to work
-    drupal config:import --directory=/repository/preconfig
+    drupal config:import --directory=/repository/config
 
     # Install a lockfile in persistent storage to indicate installation
     # @todo: This should run a test (perhaps on drupal console output) to
