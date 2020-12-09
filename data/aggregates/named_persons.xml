@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<named_persons>
+    <person>
+        <name>[I.] Beirne Lovely</name>
+        <id type="DDHI">dvp_0002</id>
+    </person>
+    <person>
+        <name>Dorothy Fowler</name>
+        <id type="DDHI">dvp_0003</id>
+    </person>
+</named_persons>
