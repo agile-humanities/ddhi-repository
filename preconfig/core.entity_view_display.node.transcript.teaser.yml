@@ -12,10 +12,14 @@ dependencies:
     - field.field.node.transcript.field_entities_organizations
     - field.field.node.transcript.field_entities_persons
     - field.field.node.transcript.field_entities_places
+    - field.field.node.transcript.field_events
     - field.field.node.transcript.field_item_key
     - field.field.node.transcript.field_language_temp
     - field.field.node.transcript.field_message
+    - field.field.node.transcript.field_organizations
     - field.field.node.transcript.field_participants
+    - field.field.node.transcript.field_people
+    - field.field.node.transcript.field_places
     - field.field.node.transcript.field_primary_recording
     - field.field.node.transcript.field_project
     - field.field.node.transcript.field_setting
@@ -51,10 +55,14 @@ hidden:
   field_entities_organizations: true
   field_entities_persons: true
   field_entities_places: true
+  field_events: true
   field_item_key: true
   field_language_temp: true
   field_message: true
+  field_organizations: true
   field_participants: true
+  field_people: true
+  field_places: true
   field_primary_recording: true
   field_project: true
   field_setting: true

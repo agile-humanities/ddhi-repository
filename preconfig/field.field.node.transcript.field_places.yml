@@ -1,0 +1,29 @@
+uuid: 6e1e88a7-ee1d-4047-bce7-7fd7a54da306
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_places
+    - node.type.place
+    - node.type.transcript
+id: node.transcript.field_places
+field_name: field_places
+entity_type: node
+bundle: transcript
+label: Places
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      place: place
+    sort:
+      field: title
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

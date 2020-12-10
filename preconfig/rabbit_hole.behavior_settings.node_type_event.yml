@@ -1,12 +1,12 @@
-uuid: 16304280-aa4d-4bb0-9e65-1392cd27c945
+uuid: c3dd8a25-fc07-43c9-ad6a-101144b72412
 langcode: en
 status: true
 dependencies:
   config:
-    - taxonomy.vocabulary.role
-id: taxonomy_vocabulary_role
-entity_type_id: taxonomy_vocabulary
-entity_id: role
+    - node.type.event
+id: node_type_event
+entity_type_id: node_type
+entity_id: event
 action: display_page
 allow_override: 1
 redirect: ''

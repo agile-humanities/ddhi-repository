@@ -1,0 +1,19 @@
+uuid: e9b314d0-bf3e-4b4f-ad01-81528b61b980
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_qid
+    - node.type.place
+id: node.place.field_qid
+field_name: field_qid
+entity_type: node
+bundle: place
+label: 'Wikidata Identifier (QID)'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

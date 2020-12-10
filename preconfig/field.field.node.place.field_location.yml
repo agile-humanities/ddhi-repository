@@ -1,0 +1,21 @@
+uuid: 514670aa-db6d-4917-a626-e5e233e52ce2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_location
+    - node.type.place
+  module:
+    - geolocation
+id: node.place.field_location
+field_name: field_location
+entity_type: node
+bundle: place
+label: Location
+description: 'Corresponding latitude and longitude.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

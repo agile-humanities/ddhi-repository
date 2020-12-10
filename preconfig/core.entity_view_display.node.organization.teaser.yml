@@ -1,0 +1,32 @@
+uuid: bf692747-f7b0-416d-991f-adfacba61887
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.organization.body
+    - field.field.node.organization.field_qid
+    - node.type.organization
+  module:
+    - text
+    - user
+id: node.organization.teaser
+targetEntityType: node
+bundle: organization
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_qid: true

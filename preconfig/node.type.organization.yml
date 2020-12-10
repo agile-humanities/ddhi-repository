@@ -1,4 +1,4 @@
-uuid: f0d31c0c-7c87-424a-8001-d256204bfd94
+uuid: 4e847cc0-5ae8-4808-977d-8e40b5195560
 langcode: en
 status: true
 dependencies:
@@ -9,9 +9,9 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: Profile
-type: profile
-description: 'Deprecated. Use “Person”.'
+name: Organization
+type: organization
+description: 'A collective entity.'
 help: ''
 new_revision: true
 preview_mode: 1

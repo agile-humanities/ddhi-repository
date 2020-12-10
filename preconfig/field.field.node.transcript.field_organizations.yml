@@ -1,0 +1,29 @@
+uuid: a70e4678-9392-45da-acd3-8f3dea4da15e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_organizations
+    - node.type.organization
+    - node.type.transcript
+id: node.transcript.field_organizations
+field_name: field_organizations
+entity_type: node
+bundle: transcript
+label: Organizations
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      organization: organization
+    sort:
+      field: title
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

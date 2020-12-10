@@ -1,4 +1,4 @@
-uuid: f0d31c0c-7c87-424a-8001-d256204bfd94
+uuid: a5667bcd-03f2-4ab3-a9b7-687838f6eddc
 langcode: en
 status: true
 dependencies:
@@ -9,9 +9,9 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: Profile
-type: profile
-description: 'Deprecated. Use “Person”.'
+name: Event
+type: event
+description: 'A name for something that’s happened.'
 help: ''
 new_revision: true
 preview_mode: 1

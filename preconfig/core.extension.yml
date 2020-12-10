@@ -28,6 +28,10 @@ module:
   field_ui: 0
   file: 0
   filter: 0
+  geolocation: 0
+  geolocation_google_maps: 0
+  geolocation_google_static_maps: 0
+  geolocation_leaflet: 0
   help: 0
   history: 0
   image: 0
@@ -39,8 +43,6 @@ module:
   media_library: 0
   menu_ui: 0
   migrate: 0
-  migrate_example_advanced_setup: 0
-  migrate_example_setup: 0
   migrate_file: 0
   migrate_plus: 0
   migrate_source_csv: 0

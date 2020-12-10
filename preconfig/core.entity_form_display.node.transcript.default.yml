@@ -11,10 +11,14 @@ dependencies:
     - field.field.node.transcript.field_entities_organizations
     - field.field.node.transcript.field_entities_persons
     - field.field.node.transcript.field_entities_places
+    - field.field.node.transcript.field_events
     - field.field.node.transcript.field_item_key
     - field.field.node.transcript.field_language_temp
     - field.field.node.transcript.field_message
+    - field.field.node.transcript.field_organizations
     - field.field.node.transcript.field_participants
+    - field.field.node.transcript.field_people
+    - field.field.node.transcript.field_places
     - field.field.node.transcript.field_primary_recording
     - field.field.node.transcript.field_project
     - field.field.node.transcript.field_setting
@@ -22,10 +26,46 @@ dependencies:
     - field.field.node.transcript.field_version
     - node.type.transcript
   module:
+    - field_group
     - file
     - paragraphs
     - path
     - text
+third_party_settings:
+  field_group:
+    group_legacy_level_1:
+      children:
+        - field_entities_dates
+        - field_entities_events
+        - field_entities_persons
+        - field_entities_places
+        - field_entities_organizations
+        - field_entities_named
+      parent_name: ''
+      weight: 19
+      format_type: fieldset
+      region: content
+      format_settings:
+        description: ''
+        id: ''
+        classes: ''
+        required_fields: false
+      label: 'Legacy (Level 1)'
+    group_entities:
+      children:
+        - field_people
+        - field_places
+        - field_events
+        - field_organizations
+      parent_name: ''
+      weight: 18
+      format_type: accordion
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        effect: bounceslide
+      label: 'Entities (Level 2)'
 id: node.transcript.default
 targetEntityType: node
 bundle: transcript
@@ -56,14 +96,6 @@ content:
     type: string_textfield
     region: content
   field_entities_dates:
-    weight: 18
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textarea
-    region: content
-  field_entities_events:
     weight: 19
     settings:
       rows: 5
@@ -71,23 +103,7 @@ content:
     third_party_settings: {  }
     type: string_textarea
     region: content
-  field_entities_named:
-    weight: 23
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textarea
-    region: content
-  field_entities_organizations:
-    weight: 22
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textarea
-    region: content
-  field_entities_persons:
+  field_entities_events:
     weight: 20
     settings:
       rows: 5
@@ -95,13 +111,47 @@ content:
     third_party_settings: {  }
     type: string_textarea
     region: content
-  field_entities_places:
+  field_entities_named:
+    weight: 24
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_entities_organizations:
+    weight: 23
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_entities_persons:
     weight: 21
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
     type: string_textarea
+    region: content
+  field_entities_places:
+    weight: 22
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_events:
+    weight: 24
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
     region: content
   field_item_key:
     weight: 9
@@ -127,6 +177,16 @@ content:
     third_party_settings: {  }
     type: string_textarea
     region: content
+  field_organizations:
+    weight: 25
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
   field_participants:
     type: entity_reference_paragraphs
     weight: 14
@@ -138,6 +198,26 @@ content:
       form_display_mode: default
       default_paragraph_type: ''
     third_party_settings: {  }
+    region: content
+  field_people:
+    weight: 22
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_places:
+    weight: 23
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
     region: content
   field_primary_recording:
     weight: 16

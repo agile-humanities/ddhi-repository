@@ -1,0 +1,34 @@
+uuid: 73cfbf52-a347-42ab-9536-71a22669ba82
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.place.body
+    - field.field.node.place.field_location
+    - field.field.node.place.field_qid
+    - node.type.place
+  module:
+    - text
+    - user
+id: node.place.teaser
+targetEntityType: node
+bundle: place
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_location: true
+  field_qid: true

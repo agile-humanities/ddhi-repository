@@ -1,0 +1,29 @@
+uuid: dec26df4-33b6-4b0b-9cb6-a607eb92f929
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_people
+    - node.type.person
+    - node.type.transcript
+id: node.transcript.field_people
+field_name: field_people
+entity_type: node
+bundle: transcript
+label: People
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      person: person
+    sort:
+      field: title
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

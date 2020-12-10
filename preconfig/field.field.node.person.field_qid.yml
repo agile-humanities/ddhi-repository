@@ -1,0 +1,19 @@
+uuid: ea2acdb8-a16a-4ebc-be10-f205f2586730
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_qid
+    - node.type.person
+id: node.person.field_qid
+field_name: field_qid
+entity_type: node
+bundle: person
+label: 'Wikidata Identifier (QID)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
