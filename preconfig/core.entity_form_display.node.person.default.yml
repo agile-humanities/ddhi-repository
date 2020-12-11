@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.person.body
+    - field.field.node.person.field_id
     - field.field.node.person.field_qid
     - node.type.person
   module:
@@ -30,6 +31,14 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_id:
+    weight: 123
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
   field_qid:
     weight: 122
     settings:

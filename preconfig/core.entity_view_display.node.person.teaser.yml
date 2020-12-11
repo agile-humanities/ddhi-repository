@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.person.body
+    - field.field.node.person.field_id
     - field.field.node.person.field_qid
     - node.type.person
   module:
@@ -29,4 +30,5 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_id: true
   field_qid: true
