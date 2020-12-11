@@ -16,10 +16,10 @@ source:
     PERSON_NAME_ELEMENT: 'persName'
     ORG_NAME_ELEMENT: 'orgName'
     EVENT_ELEMENT: 'rs[@type="event"]'
-    NAMED_ENTITITES_ELEMENT: 'name' 
+    NAMED_ENTITITES_ELEMENT: 'name'
     DATE_ELEMENT: 'date'
     PRIMARY_RECORDING_DEST: 'public://media/audio/primary/'
-    
+
   # NAMESPACE NOTE:
   # XML Namespace support is causing undpredictable results when namespaced
   # tags are nested inside generic XML. The current implementation packages
@@ -29,20 +29,20 @@ source:
   # xpath selectors that are working when the namespace is declared in the
   # item_selector tag do NOT work when the TEI namespace is declared beneath
   # it. Taking the mulligan for now, to revisit later.
-  
+
   #namespaces:
-  #  tei: "http://www.tei-c.org/ns/1.0"  
+  #  tei: "http://www.tei-c.org/ns/1.0"
   item_selector: /DDHIMessage/DDHIPackage
   fields:
     - name: id
       label: ID
       selector: DDHIPackageHeader/id
-    - 
+    -
       name: title
       label: Title
       selector: TEI/teiHeader/fileDesc/titleStmt/title
       # selector: tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title
-    - 
+    -
       name: body
       label: Transcription
       selector: TEI/text/body
@@ -51,8 +51,8 @@ source:
       name: audiourl
       label: Primary Audio
       selector: TEI/teiHeader/fileDesc/sourceDesc/recordingStmt/recording[contains(@xml:id,"primary_recording")]/media/@url
-      
-      
+
+
   # Under 'ids', we identify source fields populated above which will uniquely
   # identify each imported item. The 'type' makes sure the migration map table
   # uses the proper schema type for stored the IDs.
@@ -60,7 +60,7 @@ source:
     id:
       type: string
 process:
-  title: 
+  title:
     plugin: concat
     source:
       - title
@@ -69,7 +69,7 @@ process:
   'body/format':
     plugin: default_value
     default_value: full_html
-  'body/value': 
+  'body/value':
     plugin: ddhi_ingest_body
     source: body
   # Plugin expects an array with an element name to extract and the source row
@@ -81,33 +81,33 @@ process:
     skip_on_missing_source: true
   field_entities_places:
     plugin: extract_named_entities
-    source: 
+    source:
       - constants/PLACE_NAME_ELEMENT
       - body
   field_entities_persons:
     plugin: extract_named_entities
-    source: 
+    source:
       - constants/PERSON_NAME_ELEMENT
       - body
   field_entities_organizations:
     plugin: extract_named_entities
-    source: 
+    source:
       - constants/ORG_NAME_ELEMENT
       - body
   field_entities_events:
     plugin: extract_named_entities
-    source: 
+    source:
       - constants/EVENT_ELEMENT
       - body
   field_entities_named:
     plugin: extract_named_entities
-    source: 
+    source:
       - constants/NAMED_ENTITITES_ELEMENT
       - body
   # Will likely need its own plugin
   field_entities_dates:
     plugin: extract_named_entities
-    source: 
+    source:
       - constants/DATE_ELEMENT
       - body
 destination:

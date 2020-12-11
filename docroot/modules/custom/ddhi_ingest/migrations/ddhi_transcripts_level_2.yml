@@ -1,0 +1,89 @@
+id: ddhi_transcripts_level_2
+migration_group: 'DDHI'
+migration_tags:
+  - DDHI
+  - DDHI Ingest Level 2
+  - XML Ingest
+  - Transcripts
+label: 'DDHI Transcripts Level 2'
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  data_parser_plugin: xml
+  urls:
+    - ../data/aggregates/interviews.xml
+  constants:
+    PRIMARY_RECORDING_DEST: 'public://media/audio/primary/'
+
+  # NAMESPACE NOTE:
+  # XML Namespace support is causing undpredictable results when namespaced
+  # tags are nested inside generic XML. The current implementation packages
+  # separate XML files into a single feed in preparation for ingest, meaning
+  # that the TEI namespace is nested inside packaging tags. This is causing
+  # odd results with Drupal Migration / SimpleXML / Xpath – namespaced
+  # xpath selectors that are working when the namespace is declared in the
+  # item_selector tag do NOT work when the TEI namespace is declared beneath
+  # it. Taking the mulligan for now, to revisit later.
+
+  #namespaces:
+  #  tei: "http://www.tei-c.org/ns/1.0"
+  item_selector: /interviews/interview
+  fields:
+    - name: id
+      label: ID
+      selector: identifier
+    -
+      name: title
+      label: Title
+      selector: title
+    -
+      name: body
+      label: Transcription
+      selector: interview_body
+      # selector: tei:text/tei:body
+    -
+      name: people
+      label: People
+      selector: named_persons/person/id
+    -
+      name: audiourl
+      label: Primary Audio
+      selector: primary_audio_URL
+
+  # Under 'ids', we identify source fields populated above which will uniquely
+  # identify each imported item. The 'type' makes sure the migration map table
+  # uses the proper schema type for stored the IDs.
+  ids:
+    id:
+      type: string
+
+process:
+  title:
+    plugin: get
+    source: title
+  'body/format':
+    plugin: default_value
+    default_value: full_html
+  'body/value':
+    plugin: default_value
+    source: body
+  field_people:
+    plugin: migration_lookup
+    source: people
+    migration: ddhi_named_people_level_2
+  # Plugin expects an array with an element name to extract and the source row
+  field_primary_recording:
+    plugin: file_import
+    source: audiourl
+    destination: constants/PRIMARY_RECORDING_DEST
+    uid: 1
+    skip_on_missing_source: true
+
+destination:
+  plugin: entity:node
+  default_bundle: transcript
+
+dependencies:
+  enforced:
+    module:
+      - ddhi_ingest

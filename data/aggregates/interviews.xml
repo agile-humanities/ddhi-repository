@@ -3,9 +3,8 @@
   <interview>
     <identifier>dvp_13</identifier>
     <title>Transcript of an Interview with Beirne Lovely</title>
-    <primary_audio_URL>http://someplace.edu/somefile</primary_audio_URL>
+    <primary_audio_URL>https://rcweb.dartmouth.edu/DDHI/histories/lovely_beirne/lovely_beirne.mp3</primary_audio_URL>
     <interview_body>
-      <div xmlns="http://www.w3.org/1999/xhtml">
         <dl>
           <dt>BURAK</dt>
           <dd>Plain-test transcription of the utterance.</dd>
@@ -14,7 +13,6 @@
           <dt>LOVELY</dt>
           <dd>Text of this utterance, too.</dd>
         </dl>
-      </div>
     </interview_body>
     <participants>
       <participant>
