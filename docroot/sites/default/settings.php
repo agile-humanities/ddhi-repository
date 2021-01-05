@@ -755,17 +755,7 @@ $settings['entity_update_backup'] = TRUE;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
-$databases['default']['default'] = array (
-  'database' => 'ddhi',
-  'username' => 'root',
-  'password' => 'p0kc00ld!',
-  'prefix' => '',
-  'host' => '127.0.0.1',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
-$settings['config_sync_directory'] = 'sites/default/files/config_6_UyT6f7ZY_FKeUTbX2GyuzLbv2mSK0WK3mpErlBaTl9S1PcWIXazcJXNrzHzDGzmhIwh6CAlA/sync';
+$settings['config_sync_directory'] = '../config/sync';
 
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
