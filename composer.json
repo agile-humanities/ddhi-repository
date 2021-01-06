@@ -60,6 +60,7 @@
         "drupal/core-recommended": "^8.8",
         "drupal/ctools": "^3.2",
         "drupal/devel": "^2.1",
+        "drupal/devel_entity_updates": "^3.0",
         "drupal/diff": "^1.0",
         "drupal/entity_usage": "^2.0@beta",
         "drupal/field_delimiter": "^1.0",

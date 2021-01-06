@@ -1,0 +1,15 @@
+ddhi_ingest.form:
+  path: '/admin/config/development/ddhi_ingest'
+  defaults:
+    _form: 'Drupal\ddhi_ingest\Form\DDHIIngestForm'
+    _title: 'DDHI: Ingest DDHI Interviews'
+  requirements:
+    _permission: 'administrate ddhi repository'
+
+ddhi_ingest.settings.form:
+  path: '/admin/config/system/ddhi_ingest_settings'
+  defaults:
+    _form: 'Drupal\ddhi_ingest\Form\DDHIIngestSettingsForm'
+    _title: 'DDHI Ingest Settings'
+  requirements:
+    _permission: 'administrate ddhi repository'

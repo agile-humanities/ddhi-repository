@@ -1,0 +1,13 @@
+ddhi_ingest.form:
+  title: 'DDHI Ingest'
+  description: 'Ingest DDHI TEI interviews into Drupal.'
+  route_name: ddhi_ingest.form
+  parent: 'system.admin_config_development'
+  weight: -30
+
+ddhi_ingest.settings.form:
+  title: 'DDHI Ingest Settings'
+  description: 'Configuration options for the DDHI TEI Ingestion process.'
+  route_name: ddhi_ingest.settings.form
+  parent: 'system.admin_config_system'
+  weight: -30

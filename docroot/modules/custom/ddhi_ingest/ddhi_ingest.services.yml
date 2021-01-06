@@ -1,0 +1,4 @@
+services:
+  ddhi.ingest.factory:
+    class: Drupal\ddhi_ingest\Factory\DDHIIngestHandlerFactory
+    arguments: ['sourceType']
