@@ -65,3 +65,5 @@
 .editorconfig
 .gitattributes
 /docroot/sites/default/settings.php
+/data/staging
+/docroot/data

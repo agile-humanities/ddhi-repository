@@ -19,19 +19,20 @@ class DDHIIngestHandlerFactory
 
   protected $sourceType;
 
-  public function __construct($sourceType='File')
+  public function __construct()
   {
-    $this->sourceType = $sourceType;
+
   }
 
-  public function createInstance() {
+  public function createInstance($sourceType='File') {
 
     $handler = "Drupal\ddhi_ingest\Handlers\DDHIIngestHandler" . $sourceType;
 
     if (!class_exists($handler)) {
       throw new \Exception("Cannot create DDHI Ingest Factory Handler. Class {$handler} does not exist.");
     }
+    return new $handler();
 
-    return new $handler($sourceType,\Drupal::service('entity_type.manager'),\Drupal::service('module_handler'));
+    //return new $handler($sourceType,\Drupal::service('module_handler'));
   }
 }
