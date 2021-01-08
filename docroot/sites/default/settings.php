@@ -756,6 +756,7 @@ $settings['entity_update_backup'] = TRUE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $settings['config_sync_directory'] = '../config/sync';
+$settings['http_client_config']['timeout'] = 60; // Sets the cURL timeout value to mitigate long download times for migrated audio files.
 
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';

@@ -75,9 +75,10 @@ process:
   field_primary_recording:
     plugin: file_import
     source: audiourl
-    destination: constants/PRIMARY_RECORDING_DEST
+    destination: 'public://media/audio/primary/'
     uid: 1
     skip_on_missing_source: true
+    skip_on_error: true
 
 destination:
   plugin: entity:node

@@ -24,7 +24,7 @@ class DDHIIngestHandlerFactory
 
   }
 
-  public function createInstance($sourceType='File') {
+  public function createInstance($sourceType='') {
 
     $handler = "Drupal\ddhi_ingest\Handlers\DDHIIngestHandler" . $sourceType;
 
