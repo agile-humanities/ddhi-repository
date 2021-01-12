@@ -52,10 +52,14 @@ class DDHIIngestHandler extends ControllerBase {
   /**
    *  Place TEI files in the staging folder for aggregation.
    *
-   * @returns A boolean to indicate successful staging.
+   * @returns Boolean. True indicates successful staging.
    */
 
   public function stageSource() {
+
+    $this->messenger->addStatus('Aggregating TEI Files (to come)');
+
+    return true;
 
   }
 
@@ -153,9 +157,40 @@ class DDHIIngestHandler extends ControllerBase {
    * @returns bool. Returns true on success, false otherwise.
    */
 
-  public function ingestRollBack() {
+  public function rollback() {
+    $migrations = $this->migrationList()['DDHI'];
+
+    if (empty($migrations)) {
+      $this->messenger->addWarning('No migrations found');
+      return false;
+    }
+
+    $this->rollbackMigration($migrations['ddhi_transcripts_level_2']);
+    $this->rollbackMigration($migrations['ddhi_named_people_level_2']);
 
   }
+
+  protected function rollbackMigration(MigrationInterface $migration): void {
+    $executable = new MigrateExecutable($migration, new MigrateMessage());
+    $executable->rollback();
+
+    foreach($migration->getIdMap()->getMessages() as $row) {
+      switch($row->level) {
+        case 1:
+          $this->messenger->addWarning($row->message);
+          break;
+        case 2:
+          $this->messenger->addError($row->message);
+          break;
+        case 0:
+        default:
+          $this->messenger->addMessage($row->message);
+      }
+    }
+
+    $this->messenger->addMessage($migration->label() . ' rolled back. ');
+  }
+
 
   /**
    *  Resets the ingest/Migration in case of problems.

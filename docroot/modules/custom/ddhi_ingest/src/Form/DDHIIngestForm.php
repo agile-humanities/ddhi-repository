@@ -63,15 +63,23 @@ class DDHIIngestForm extends FormBase {
     $form['import_fieldset'] = [
       '#type' => 'fieldset',
       '#title' => $this->t('Step Two: Import TEI into Drupal'),
-      '#description' => $this->t('Imports staged files.'),
+      '#description' => $this->t('Imports staged interviews.'),
     ];
 
     $form['import_fieldset']['import'] = array(
       '#type' => 'submit',
-      '#value' => $this->t('Import Files'),
+      '#value' => $this->t('Import Interviews'),
       '#name' => 'submit_import',
       '#submit'=> ['::submitFormImport'],
     );
+
+    $form['import_fieldset']['rollback'] = array(
+      '#type' => 'submit',
+      '#value' => $this->t('Rollback Interviews'),
+      '#name' => 'submit_rollback',
+      '#submit'=> ['::submitFormRollack'],
+    );
+
 
     return $form;
   }
@@ -97,6 +105,12 @@ class DDHIIngestForm extends FormBase {
     $ingestHandler = \Drupal::service('ddhi.ingest.handler')->createInstance();
     $ingestHandler->setParameters($form_state->getValues());
     $ingestHandler->ingest(2); // Ingest at Level 2
+  }
+
+  public function submitFormRollack(array &$form, FormStateInterface $form_state) {
+    $ingestHandler = \Drupal::service('ddhi.ingest.handler')->createInstance();
+    $ingestHandler->setParameters($form_state->getValues());
+    $ingestHandler->rollback();
   }
 
   public function getEditableConfigNames()
