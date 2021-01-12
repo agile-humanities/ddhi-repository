@@ -17,6 +17,9 @@ DEFINE('DDHI_SOURCE_OPTION_GITHUB','GHub');
 DEFINE('DDHI_SOURCE_OPTION_FILE','File');
 
 DEFINE('DDHI_STAGING_DIRECTORY','../data/staging/'); // Directory (relative to the Drupal Document Root) for staging raw interviews.
+DEFINE('DDHI_STAGING_DIRECTORY_INTERVIEWS','../data/staging/*/transcripts'); // Required because interviews may be in a subfolder of the staging directory.
+// @todo – this ^ ^ needs to be dynamic because sources like Github place it in a variably named folder.
+
 /**
  * Implements hook_help().
  */

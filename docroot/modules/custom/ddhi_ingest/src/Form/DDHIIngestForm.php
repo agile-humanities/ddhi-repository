@@ -4,6 +4,7 @@ namespace Drupal\ddhi_ingest\Form;
 
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\ddhi_ingest\Handlers\DDHIIngestHandler;
 
 class DDHIIngestForm extends FormBase {
 
@@ -16,6 +17,7 @@ class DDHIIngestForm extends FormBase {
   {
     //$form = parent::buildForm($form, $form_state);
     $DDHIIngestConfig = $this->config('ddhi_ingest.settings');
+    $ingestHandler = new DDHIIngestHandler();
 
     // GitHub Forms
 
@@ -64,6 +66,11 @@ class DDHIIngestForm extends FormBase {
       '#type' => 'fieldset',
       '#title' => $this->t('Step Two: Import TEI into Drupal'),
       '#description' => $this->t('Imports staged interviews.'),
+    ];
+
+    $form['import_fieldset']['staging_status_msg'] = [
+      '#type' => 'markup',
+      '#markup' => '<p>There are '. $ingestHandler->stagedInterviewCount() . ' interviews staged for import.</p>',
     ];
 
     $form['import_fieldset']['import'] = array(

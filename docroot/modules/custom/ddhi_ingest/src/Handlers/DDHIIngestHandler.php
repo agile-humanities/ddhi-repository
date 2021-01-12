@@ -29,6 +29,8 @@ class DDHIIngestHandler extends ControllerBase {
 
   protected $staging_dir;
 
+  protected $staging_dir_interviews;
+
   protected $parameters = [];
 
   protected $messenger;
@@ -36,6 +38,7 @@ class DDHIIngestHandler extends ControllerBase {
   public function __construct($sourceType = DDHI_SOURCE_OPTION_FILE) {
     $this->sourceType = $sourceType;
     $this->staging_dir = DRUPAL_ROOT . '/' . DDHI_STAGING_DIRECTORY;
+    $this->staging_dir_interviews = DRUPAL_ROOT . '/' . DDHI_STAGING_DIRECTORY_INTERVIEWS;
     $this->messenger = \Drupal::messenger();
   }
 
@@ -61,6 +64,23 @@ class DDHIIngestHandler extends ControllerBase {
 
     return true;
 
+  }
+
+  /**
+   * @param false $display_msg Boolean. Set to true to display the count as a status message
+   *
+   * @return int|void . Returns the number of interviews in the interview directory.
+   */
+
+  public function stagedInterviewCount($display_msg=false)  {
+    $interview_files = glob($this->staging_dir_interviews . '/*.xml'); // get all file names
+    $count = count($interview_files);
+
+    if ($display_msg) {
+      $this->messenger->addStatus("{$count} interviews are staged for import.");
+    }
+
+    return $count;
   }
 
   /**
