@@ -37,7 +37,7 @@ source:
       label: Title
       selector: title
     -
-      name: body
+      name: transcription
       label: Transcription
       selector: interview_body
       # selector: tei:text/tei:body
@@ -61,12 +61,12 @@ process:
   title:
     plugin: get
     source: title
-  'body/format':
+  body/value:
+    plugin: ddhi_ingest_body
+    source: transcription
+  body/format:
     plugin: default_value
     default_value: full_html
-  'body/value':
-    plugin: default_value
-    source: body
   field_people:
     plugin: migration_lookup
     source: people
