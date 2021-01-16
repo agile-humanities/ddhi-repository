@@ -20,6 +20,7 @@ use Drupal\migrate_tools\MigrateExecutable;
 use Drupal\Core\Entity\EntityTypeManager;
 use Drupal\Core\Extension\ModuleHandler;
 use Drupal\Core\Archiver\Zip;
+use http\Exception\InvalidArgumentException;
 
 class DDHIIngestHandler extends ControllerBase {
 
@@ -31,14 +32,17 @@ class DDHIIngestHandler extends ControllerBase {
 
   protected $staging_dir_interviews;
 
+  protected $aggregates_dir;
+
   protected $parameters = [];
 
   protected $messenger;
 
   public function __construct($sourceType = DDHI_SOURCE_OPTION_FILE) {
     $this->sourceType = $sourceType;
-    $this->staging_dir = DRUPAL_ROOT . '/' . DDHI_STAGING_DIRECTORY;
-    $this->staging_dir_interviews = DRUPAL_ROOT . '/' . DDHI_STAGING_DIRECTORY_INTERVIEWS;
+    $this->staging_dir = DRUPAL_ROOT .'/'. DDHI_STAGING_DIRECTORY;
+    $this->staging_dir_interviews = DRUPAL_ROOT .'/'. DDHI_STAGING_DIRECTORY_INTERVIEWS;
+    $this->aggregates_dir = DRUPAL_ROOT .'/'. DDHI_INTERVIEW_AGGREGATES_DIRECTORY;
     $this->messenger = \Drupal::messenger();
   }
 
@@ -91,13 +95,12 @@ class DDHIIngestHandler extends ControllerBase {
 
   protected function cleanStagingDirectory(): void {
     // Clean staged files
+    $this->deleteDirectory($this->staging_dir);
+    $this->createStagingDirectory();
+  }
 
-    $files = glob($this->staging_dir . '/*'); // get all file names
-    foreach ($files as $file) { // iterate files
-      if (is_file($file)) {
-        unlink($file); // delete file
-      }
-    }
+  protected function createStagingDirectory(): bool {
+    return $this->createDirectory($this->staging_dir);
   }
 
   /**
@@ -122,13 +125,46 @@ class DDHIIngestHandler extends ControllerBase {
    *  Runs the python-based DDHI aggregator. Requires a conforming Staging
    * directory.
    *
-   * @returns mixed. Returns the absolute path to the aggregation directory, or
-   *   false on failure.
+   * @returns bool. Returns false on failure.
    */
 
-  public function aggregate() {
+  public function aggregate(): bool {
+    $this->deleteDirectory($this->aggregates_dir);
+    $this->createAggregatesDirectory();
+    $output = [];
+    $resultCode = null;
+    exec("ddhi_aggregate -i " . $this->staging_dir_interviews . " -o " . $this->aggregates_dir,$output,$resultCode);
+
+    if ($resultCode) {
+      $this->messenger->addError($this->getResultCodeMessage($resultCode));
+
+      foreach($output as $row) {
+        $this->messenger->addWarning($row);
+      }
+      return false;
+    }
+
+    $this->messenger->addStatus("TEI aggregation complete and ready for importing.");
+
+    return true;
 
   }
+
+  protected function getResultCodeMessage($code) {
+    $codeStr = 'code-'. __toString($code);
+
+    $codes= [
+      'code-1' => 'Aggregation script error',
+      'code-127' => 'Aggregation script not found. Ask an administrator to check if it’s installed correctly.'
+    ];
+
+    return array_key_exists($codeStr,$codes) ?  $codes[$codeStr] : $codes['code-1'];
+  }
+
+  protected function createAggregatesDirectory(): bool {
+    return $this->createDirectory($this->aggregates_dir);
+  }
+
 
   /**
    *  Runs the Drupal migration, ingesting aggregated TEI files into Drupal.
@@ -392,6 +428,43 @@ class DDHIIngestHandler extends ControllerBase {
       }
     }
     return isset($migrations) ? $migrations : [];
+  }
+
+  /**
+   * @function createDirectory.
+   *
+   * @param $dir. The directory to create.
+   * @param int $permissions. Octal file permissions. Defaults to 0755
+   *
+   * @return bool. Returns true if directory was successfully created or if it already exists.
+   */
+
+  protected function createDirectory($dir,$permissions=0755): bool {
+
+    if (!is_dir($dir)) {
+      return mkdir($dir,$permissions);
+    }
+
+    return !is_file($dir); // returns false if it's a file, otherwise true (indicating an existing directory)
+  }
+
+  /**
+   *
+   * @param $target string. Absolute path to target directory.
+   */
+
+  protected function deleteDirectory($target) {
+    $it = new \RecursiveDirectoryIterator($target,\RecursiveDirectoryIterator::SKIP_DOTS);
+    $files = new \RecursiveIteratorIterator($it,
+      \RecursiveIteratorIterator::CHILD_FIRST);
+    foreach($files as $file) {
+      if ($file->isDir()){
+        rmdir($file->getRealPath());
+      } else {
+        unlink($file->getRealPath());
+      }
+    }
+    rmdir($target);
   }
 
 }

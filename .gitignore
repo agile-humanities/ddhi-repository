@@ -65,5 +65,8 @@
 .editorconfig
 .gitattributes
 /docroot/sites/default/settings.php
-/data/staging
-/docroot/data
+/data
+/data/*
+/docroot/data/
+/data/aggregates/interviews.xml
+/data/aggregates/named_persons.xml

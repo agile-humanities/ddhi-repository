@@ -46,6 +46,8 @@ class DDHIIngestForm extends FormBase {
       '#description' => $this->t('Name of the repository containing the DDHI TEI Interviews in DDHI File Layout Level 1 format.'),
     ];
 
+    // dpm($form_state->getValue('github_branch'));
+
     $form['source_type_github']['github_branch'] = [
       '#type' => 'textfield',
       '#title' => $this->t('DDHI TEI Branch Name'),
@@ -106,6 +108,8 @@ class DDHIIngestForm extends FormBase {
     $ingestHandler->setParameters($form_state->getValues());
     $ingestHandler->retrieveSource();
     $ingestHandler->stageSource();
+    $ingestHandler->aggregate();
+
   }
 
   public function submitFormImport(array &$form, FormStateInterface $form_state) {

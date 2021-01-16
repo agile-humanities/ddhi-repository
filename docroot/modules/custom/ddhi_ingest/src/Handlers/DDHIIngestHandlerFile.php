@@ -55,9 +55,7 @@ class DDHIIngestHandlerFile extends DDHIIngestHandler
   {
     // Ensure that the staging directory exists
 
-    if (!is_dir($this->staging_dir)) {
-      mkdir($this->staging_dir, 0755, true);
-    }
+    $this->createStagingDirectory();
 
     if (!$this->sourceFile) {
       throw new \Exception("TEI zip file has not been successfully registered.");

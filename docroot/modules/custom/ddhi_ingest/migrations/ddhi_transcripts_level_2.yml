@@ -11,7 +11,7 @@ source:
   data_fetcher_plugin: file
   data_parser_plugin: xml
   urls:
-    - ../data/aggregates/interviews.xml
+    - ../data/aggregates/Interviews.xml
   constants:
     PRIMARY_RECORDING_DEST: 'public://media/audio/primary/'
 

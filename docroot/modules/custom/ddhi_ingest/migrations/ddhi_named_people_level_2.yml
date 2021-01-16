@@ -12,7 +12,7 @@ source:
   data_fetcher_plugin: file
   data_parser_plugin: xml
   urls:
-    - ../data/aggregates/named_persons.xml
+    - ../data/aggregates/Persons.xml
   item_selector: /named_persons/person
   fields:
     - name: id
