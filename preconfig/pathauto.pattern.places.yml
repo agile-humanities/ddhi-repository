@@ -1,0 +1,22 @@
+uuid: d49df842-5b5b-4b49-b7cb-5e239367a454
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: places
+label: Places
+type: 'canonical_entities:node'
+pattern: 'places/[node:title]'
+selection_criteria:
+  ad82f051-8edc-4777-ae73-7f32dc799add:
+    id: node_type
+    bundles:
+      place: place
+    negate: false
+    context_mapping:
+      node: node
+    uuid: ad82f051-8edc-4777-ae73-7f32dc799add
+selection_logic: and
+weight: -5
+relationships: {  }

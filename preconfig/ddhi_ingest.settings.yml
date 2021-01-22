@@ -1,0 +1,6 @@
+source_type: GHub
+github_account: Dartmouth-Digital-History-Initiative
+github_repository: TEI-Encoding
+github_branch: IngestTest
+ddhi_api_version: '02'
+transcript_subdirectory: /linked-xml

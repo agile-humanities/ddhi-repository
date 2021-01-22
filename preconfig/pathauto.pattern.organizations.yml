@@ -1,0 +1,22 @@
+uuid: 71feb830-1c63-4657-890a-b64762816f6c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: organizations
+label: Organizations
+type: 'canonical_entities:node'
+pattern: 'organizations/[node:title]'
+selection_criteria:
+  d8b623a5-6dc5-4a74-b2c2-d4149231bda1:
+    id: node_type
+    bundles:
+      organization: organization
+    negate: false
+    context_mapping:
+      node: node
+    uuid: d8b623a5-6dc5-4a74-b2c2-d4149231bda1
+selection_logic: and
+weight: -5
+relationships: {  }
