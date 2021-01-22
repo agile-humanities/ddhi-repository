@@ -1,0 +1,69 @@
+id: ddhi_named_places_level_2
+migration_group: 'DDHI'
+migration_tags:
+  - DDHI
+  - DDHI Ingest Level 2
+  - XML Ingest
+  - Transcripts
+label: 'DDHI Ingest Level 2: Named Places'
+
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  data_parser_plugin: xml
+  urls:
+    - ../data/aggregates/Places.xml
+  item_selector: /named_places/place
+  fields:
+    - name: id
+      label: ID
+      selector: id
+    - name: qid
+      label: Wikidata ID
+      selector: id[@type='WD']
+    - name: name
+      label: Name
+      selector: name
+    - name: location
+      label: Location
+      selector: location
+
+  # Under 'ids', we identify source fields populated above which will uniquely
+  # identify each imported item. The 'type' makes sure the migration map table
+  # uses the proper schema type for stored the IDs.
+  ids:
+    id:
+      type: string
+
+process:
+  field_id:
+    plugin: get
+    source: id
+  field_qid:
+    plugin: get
+    source: qid
+  field_location/lat:
+    -
+      plugin: explode
+      delimiter: ' '
+      source: location
+    -
+      plugin: extract
+      index:
+        - 0
+  field_location/lng:
+    -
+      plugin: explode
+      delimiter: ' '
+      source: location
+    -
+      plugin: extract
+      index:
+        - 1
+  title:
+    plugin: get
+    source: name
+
+destination:
+  plugin: entity:node
+  default_bundle: place
