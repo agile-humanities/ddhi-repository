@@ -39,9 +39,13 @@ class DDHIIngestHandler extends ControllerBase {
   protected $messenger;
 
   public function __construct($sourceType = DDHI_SOURCE_OPTION_FILE) {
+
+    $transcript_subdirectory = \Drupal::config('ddhi_ingest.settings')->get('transcript_subdirectory');
+    $transcript_subdirectory = empty($transcript_subdirectory) ? '/transcripts' : $transcript_subdirectory;
+
     $this->sourceType = $sourceType;
     $this->staging_dir = DRUPAL_ROOT .'/'. DDHI_STAGING_DIRECTORY;
-    $this->staging_dir_interviews = DRUPAL_ROOT .'/'. DDHI_STAGING_DIRECTORY_INTERVIEWS;
+    $this->staging_dir_interviews = $this->staging_dir . '*'. $transcript_subdirectory; // The wildcard represents the repo container directory, which can be variably named in some implementations.
     $this->aggregates_dir = DRUPAL_ROOT .'/'. DDHI_INTERVIEW_AGGREGATES_DIRECTORY;
     $this->messenger = \Drupal::messenger();
   }
@@ -133,6 +137,7 @@ class DDHIIngestHandler extends ControllerBase {
     $this->createAggregatesDirectory();
     $output = [];
     $resultCode = null;
+
     exec("ddhi_aggregate -i " . $this->staging_dir_interviews . " -o " . $this->aggregates_dir,$output,$resultCode);
 
     if ($resultCode) {
@@ -151,7 +156,7 @@ class DDHIIngestHandler extends ControllerBase {
   }
 
   protected function getResultCodeMessage($code) {
-    $codeStr = 'code-'. __toString($code);
+    $codeStr = 'code-'. (string)($code);
 
     $codes= [
       'code-1' => 'Aggregation script error',

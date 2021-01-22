@@ -44,7 +44,7 @@ source:
     -
       name: people
       label: People
-      selector: named_persons/person/id
+      selector: named_persons/id
     -
       name: audiourl
       label: Primary Audio

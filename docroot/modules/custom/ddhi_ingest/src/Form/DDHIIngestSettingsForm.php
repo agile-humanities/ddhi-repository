@@ -57,6 +57,30 @@ class DDHIIngestSettingsForm extends ConfigFormBase {
       '#description' => $this->t('The repository branch to retrieve interviews from.'),
     ];
 
+    $form['ddhi_api'] = [
+      '#type' => 'fieldset',
+      '#title' => $this->t('DDHI Version'),
+      '#description' => $this->t('Information about the repository file structure.'),
+    ];
+
+    $form['ddhi_api']['ddhi_api_version'] = [
+      '#type' => 'select',
+      '#title' => $this->t('DDHI API Version'),
+      '#description' => $this->t('Select the version of your TEI Files and corresponding the corresponding File Layout in the repository.'),
+      '#options' => [
+        DDHI_API_LEVEL_1 => $this->t('Level 1'),
+        DDHI_API_LEVEL_2 => $this->t('Level 2'),
+      ],
+      '#default_value' => !empty($DDHIIngestConfig->get('ddhi_api_version')) ? $DDHIIngestConfig->get('ddhi_api_version') : DDHI_API_LEVEL_2,
+    ];
+
+    $form['ddhi_api']['transcript_subdirectory'] = [
+      '#type' => 'textfield',
+      '#title' => $this->t('Transcript Subdirectory'),
+      '#default_value' => !empty($DDHIIngestConfig->get('transcript_subdirectory')) ? $DDHIIngestConfig->get('transcript_subdirectory') : '/transcripts',
+      '#description' => $this->t('The directory in the repository containing the TEI transcripts. Begin with a “/”, and use “/” alone if the transcripts are in the repository root directory. Note that this field is included in case the repository is using a non-standardized file layout. In future iterations this will be implicit when choosing the API Level.'),
+    ];
+
     return $form;
   }
 
@@ -72,6 +96,10 @@ class DDHIIngestSettingsForm extends ConfigFormBase {
     $DDHIIngestConfig->set('github_account',$form_state->getValue('github_account'));
     $DDHIIngestConfig->set('github_repository',$form_state->getValue('github_repository'));
     $DDHIIngestConfig->set('github_branch',$form_state->getValue('github_branch'));
+    $DDHIIngestConfig->set('ddhi_api_version',$form_state->getValue('ddhi_api_version'));
+    $DDHIIngestConfig->set('transcript_subdirectory',$form_state->getValue('transcript_subdirectory'));
+
+
     $DDHIIngestConfig->save();
 
     return parent::submitForm($form, $form_state);

@@ -16,8 +16,10 @@ DEFINE('DDHI_TEI_MANIFEST_DEST','ddhi_ingest/tei_manifest.csv'); // Deprecated
 DEFINE('DDHI_SOURCE_OPTION_GITHUB','GHub');
 DEFINE('DDHI_SOURCE_OPTION_FILE','File');
 
+DEFINE('DDHI_API_LEVEL_1',"01");
+DEFINE('DDHI_API_LEVEL_2',"02");
+
 DEFINE('DDHI_STAGING_DIRECTORY','../data/staging/'); // Directory (relative to the Drupal Document Root) for staging raw interviews.
-DEFINE('DDHI_STAGING_DIRECTORY_INTERVIEWS','../data/staging/*/transcripts'); // Required because interviews may be in a subfolder of the staging directory.
 DEFINE('DDHI_INTERVIEW_AGGREGATES_DIRECTORY', '../data/aggregates/');
 // @todo – this ^ ^ needs to be dynamic because sources like Github place it in a variably named folder.
 

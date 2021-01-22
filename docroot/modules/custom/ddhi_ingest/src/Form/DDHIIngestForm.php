@@ -23,8 +23,8 @@ class DDHIIngestForm extends FormBase {
 
     $form['source_type_github'] = [
       '#type' => 'fieldset',
-      '#title' => $this->t('Step One: Retrieve and stage files from Github'),
-      '#description' => $this->t('Retrieve DDHI interviews from GitHub repository and prepares them for import.'),
+      '#title' => $this->t('Step One: Retrieve and preflight files from GitHub.'),
+      '#description' => $this->t('Retrieve DDHI interviews from GitHub repository and stages them for import.'),
     ];
 
     $form['source_type'] = [
@@ -66,7 +66,7 @@ class DDHIIngestForm extends FormBase {
 
     $form['import_fieldset'] = [
       '#type' => 'fieldset',
-      '#title' => $this->t('Step Two: Import TEI into Drupal'),
+      '#title' => $this->t('Step Two: Import into Drupal'),
       '#description' => $this->t('Imports staged interviews.'),
     ];
 
