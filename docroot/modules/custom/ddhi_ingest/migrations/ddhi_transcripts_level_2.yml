@@ -46,6 +46,14 @@ source:
       label: People
       selector: named_persons/id
     -
+      name: places
+      label: People
+      selector: named_places/id
+    -
+      name: events
+      label: Events
+      selector: named_events/id
+    -
       name: audiourl
       label: Primary Audio
       selector: primary_audio_URL
@@ -71,6 +79,14 @@ process:
     plugin: migration_lookup
     source: people
     migration: ddhi_named_people_level_2
+  field_places:
+    plugin: migration_lookup
+    source: places
+    migration: ddhi_named_places_level_2
+  field_events:
+    plugin: migration_lookup
+    source: evemts
+    migration: ddhi_named_events_level_2
   # Plugin expects an array with an element name to extract and the source row
   field_primary_recording:
     plugin: file_import

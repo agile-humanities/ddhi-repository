@@ -184,8 +184,9 @@ class DDHIIngestHandler extends ControllerBase {
     $migrations = ($this->migrationList()['DDHI']);
 
     $this->executeMigration($migrations['ddhi_named_people_level_2']);
+    $this->executeMigration($migrations['ddhi_named_events_level_2']);
+    $this->executeMigration($migrations['ddhi_named_places_level_2']);
     $this->executeMigration($migrations['ddhi_transcripts_level_2']);
-
   }
 
   protected function executeMigration(MigrationInterface $migration): void {
