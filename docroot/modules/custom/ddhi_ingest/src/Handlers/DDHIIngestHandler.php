@@ -50,6 +50,37 @@ class DDHIIngestHandler extends ControllerBase {
     $this->messenger = \Drupal::messenger();
   }
 
+  public function getStagingDirectory() {
+    return $this->staging_dir;
+  }
+
+  /**
+   * Returns the path of the staged interviews directory.
+   *
+   * @param false $resolve  Set to true to return a non-ambiguous and absolute path. If the path is
+   * ambiguous (e.g. uses a wildcard and there's more than one valid directory) it returns the first
+   * valid directory along with a warning message.
+   *
+   * @return false|string  Returns the path of the interviews directory.
+   */
+
+  public function getInterviewsDirectory($resolve=false) {
+    if ($resolve === false) {
+      return $this->staging_dir_interviews;
+    }
+
+    $paths = glob($this->staging_dir_interviews);
+    if ($paths === false) {
+      $this->messenger->addWarning("Could not resolve staged interview directory into a valid path: {$this->staging_dir_interviews}");
+      return $this->staging_dir_interviews;
+    } else if(count($paths) > 1) {
+      $this->messenger->addWarning("Staged interview path is ambiguous. Using the first valid path: " . realpath($paths[0]));
+    }
+
+    return realpath($paths[0]);
+
+  }
+
   /**
    *  Retrieve a set of TEI interviews from source.
    *
