@@ -1,0 +1,13 @@
+{
+    "name": "ddhi_rest",
+    "type": "drupal-module",
+    "description": "Creates REST endpoints that support the DDHI Oral History Data API",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/ddhi_rest",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/ddhi_rest",
+        "source": "http://cgit.drupalcode.org/ddhi_rest",
+    },
+}
