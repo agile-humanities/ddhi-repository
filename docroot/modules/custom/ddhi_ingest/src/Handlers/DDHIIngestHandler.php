@@ -229,6 +229,9 @@ class DDHIIngestHandler extends ControllerBase {
 
     $this->rollbackMigration($migrations['ddhi_transcripts_level_2']);
     $this->rollbackMigration($migrations['ddhi_named_people_level_2']);
+    $this->rollbackMigration($migrations['ddhi_named_events_level_2']);
+    $this->rollbackMigration($migrations['ddhi_named_places_level_2']);
+
 
   }
 

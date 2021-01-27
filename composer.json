@@ -72,6 +72,8 @@
         "drupal/media_entity_audio": "^3.0",
         "drupal/migrate_file": "^1.1",
         "drupal/migrate_plus": "^4.2",
+        "drupal/migrate_process_array": "^2.0",
+        "drupal/migrate_process_vardump": "^2.0",
         "drupal/migrate_source_csv": "^3.2",
         "drupal/migrate_tools": "^4.5",
         "drupal/mimemail": "^1.0@alpha",

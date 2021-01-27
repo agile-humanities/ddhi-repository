@@ -44,15 +44,15 @@ source:
     -
       name: people
       label: People
-      selector: named_persons/id
+      selector: named_persons/person/id
     -
       name: places
       label: People
-      selector: named_places/id
+      selector: named_places/place/id
     -
       name: events
       label: Events
-      selector: named_events/id
+      selector: named_events/event/id
     -
       name: audiourl
       label: Primary Audio
@@ -75,18 +75,42 @@ process:
   body/format:
     plugin: default_value
     default_value: full_html
-  field_people:
-    plugin: migration_lookup
+  people_unique:
+    plugin: migration_lookup_unique_references
     source: people
-    migration: ddhi_named_people_level_2
-  field_places:
-    plugin: migration_lookup
+    keyname: id
+  field_people:
+    plugin: sub_process
+    source: '@people_unique'
+    process:
+        target_id:
+          plugin: migration_lookup
+          migration: ddhi_named_people_level_2
+          source: id
+  places_unique:
+    plugin: migration_lookup_unique_references
     source: places
-    migration: ddhi_named_places_level_2
+    keyname: id
+  field_places:
+    plugin: sub_process
+    source: '@places_unique'
+    process:
+      target_id:
+        plugin: migration_lookup
+        migration: ddhi_named_places_level_2
+        source: id
+  events_unique:
+    plugin: migration_lookup_unique_references
+    source: events
+    keyname: id
   field_events:
-    plugin: migration_lookup
-    source: evemts
-    migration: ddhi_named_events_level_2
+    plugin: sub_process
+    source: '@events_unique'
+    process:
+      target_id:
+        plugin: migration_lookup
+        migration: ddhi_named_events_level_2
+        source: id
   # Plugin expects an array with an element name to extract and the source row
   field_primary_recording:
     plugin: file_import
