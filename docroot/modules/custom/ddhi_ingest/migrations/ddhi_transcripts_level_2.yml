@@ -111,6 +111,10 @@ process:
         plugin: migration_lookup
         migration: ddhi_named_events_level_2
         source: id
+  field_tei_transcription:
+    plugin: migration_lookup
+    migration: ddhi_tei_file_migration_level_2
+    source: id
   # Plugin expects an array with an element name to extract and the source row
   field_primary_recording:
     plugin: file_import

@@ -187,9 +187,10 @@ content:
   field_tei_transcription:
     weight: 112
     label: above
-    settings: {  }
+    settings:
+      use_description_as_link_text: false
     third_party_settings: {  }
-    type: file_url_plain
+    type: file_table
     region: content
   field_version:
     weight: 104

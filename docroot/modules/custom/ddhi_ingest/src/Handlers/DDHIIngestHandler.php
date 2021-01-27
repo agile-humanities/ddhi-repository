@@ -217,6 +217,7 @@ class DDHIIngestHandler extends ControllerBase {
     $this->executeMigration($migrations['ddhi_named_people_level_2']);
     $this->executeMigration($migrations['ddhi_named_events_level_2']);
     $this->executeMigration($migrations['ddhi_named_places_level_2']);
+    $this->executeMigration($migrations['ddhi_tei_file_migration_level_2']);
     $this->executeMigration($migrations['ddhi_transcripts_level_2']);
   }
 
@@ -259,6 +260,7 @@ class DDHIIngestHandler extends ControllerBase {
     }
 
     $this->rollbackMigration($migrations['ddhi_transcripts_level_2']);
+    $this->rollbackMigration($migrations['ddhi_tei_file_migration_level_2']);
     $this->rollbackMigration($migrations['ddhi_named_people_level_2']);
     $this->rollbackMigration($migrations['ddhi_named_events_level_2']);
     $this->rollbackMigration($migrations['ddhi_named_places_level_2']);

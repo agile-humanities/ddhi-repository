@@ -30,6 +30,7 @@ process:
   filename: filename
   uri:
     plugin: file_copy
+    reuse: true
     source:
       - '@source_full_path'
       - '@uri_file'
