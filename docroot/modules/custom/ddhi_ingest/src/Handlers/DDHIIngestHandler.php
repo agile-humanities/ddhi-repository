@@ -221,6 +221,33 @@ class DDHIIngestHandler extends ControllerBase {
     $this->executeMigration($migrations['ddhi_transcripts_level_2']);
   }
 
+  /**
+   * @returns array. Returns migration keys in build order.
+   *
+   * @params $ddhi_ingest_level int The DDHI Ingest API Level
+   * @params $content_only bool Return only content keys.
+   * @params $reverse bool Return keys in reverse order.
+   */
+
+  public function getMigrationIDs($ddhi_ingest_level = 2,$content_only=false,$reverse=false) {
+
+    $migration_ids_content = [
+      'level-1' => [],
+      'level-2' => ['ddhi_named_people_level_2','ddhi_named_events_level_2','ddhi_named_places_level_2','ddhi_transcripts_level_2']
+    ];
+
+    $migration_ids_files = [
+      'level-1' => [],
+      'level-2' => ['ddhi_tei_file_migration_level_2']
+    ];
+
+    $key = "level-{$ddhi_ingest_level}";
+
+    $return = $content_only ? $migration_ids_content[$key] : $migration_ids_files[$key] + $migration_ids_content[$key];
+
+    return $reverse ? array_reverse($return) : $return;
+  }
+
   protected function executeMigration(MigrationInterface $migration): void {
     $executable = new MigrateExecutable($migration, new MigrateMessage());
     $executable->import();

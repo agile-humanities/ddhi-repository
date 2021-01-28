@@ -7,6 +7,8 @@
 
 use Drupal\Core\Routing\RouteMatchInterface;
 
+define('DDHI_MACHINE_NAME_TRANSCRIPT','transcript');
+
 /**
  * Implements hook_help().
  */

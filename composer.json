@@ -47,6 +47,7 @@
         }
     ],
     "require": {
+        "ext-simplexml": "*",
         "composer/installers": "^1.2",
         "dinbror/blazy": "^1.8",
         "drupal/auto_entitylabel": "^3.0",
@@ -62,12 +63,14 @@
         "drupal/devel": "^2.1",
         "drupal/devel_entity_updates": "^3.0",
         "drupal/diff": "^1.0",
+        "drupal/entity": "^1.2",
         "drupal/entity_usage": "^2.0@beta",
         "drupal/field_delimiter": "^1.0",
         "drupal/field_group": "^3.0",
         "drupal/geolocation": "^3.2",
         "drupal/htmlmail": "^3.0@alpha",
         "drupal/inline_entity_form": "^1.0@RC",
+        "drupal/libraries": "^3.0@beta",
         "drupal/mailsystem": "^4.2",
         "drupal/media_entity_audio": "^3.0",
         "drupal/migrate_file": "^1.1",
@@ -84,6 +87,7 @@
         "drupal/rabbit_hole": "^1.0@beta",
         "drupal/redirect_after_login": "^2.5",
         "drupal/remote_stream_wrapper": "^1.3",
+        "drupal/restui": "^1.19",
         "drupal/smtp": "^1.0@beta",
         "drupal/svg_image": "^1.9",
         "drupal/token": "^1.6",
@@ -91,8 +95,7 @@
         "drupal/vbo_export": "^3.1",
         "drupal/views_bulk_operations": "^3.6",
         "drush/drush": "^9.0.0",
-        "jackmoore/colorbox": "^1.6",
-        "ext-simplexml": "*"
+        "jackmoore/colorbox": "^1.6"
     },
     "require-dev": {
         "drupal/core-dev": "^8.8"

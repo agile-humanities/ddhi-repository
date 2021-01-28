@@ -1,5 +1,12 @@
-name: 'ddhi_rest'
+name: 'DDHI REST Resources'
 type: module
 description: 'Creates REST endpoints that support the DDHI Oral History Data API'
 core: 8.x
 package: 'DDHI'
+dependencies:
+  - ddhi_ingest
+  - ctools
+  - entity
+  - token
+  - libraries
+  - rest
