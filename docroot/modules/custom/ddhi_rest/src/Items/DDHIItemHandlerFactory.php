@@ -12,12 +12,11 @@ class DDHIItemHandlerFactory {
   /**
    * Constructs a DDHI Item handler class.
    *
-   * @param mixed $nodeObject. Must be a DDHI ID, node ID, or fully loaded $node object.
    *
    * @return Void
    */
 
-  public function __construct($nodeObject)
+  public function __construct()
   {
 
   }

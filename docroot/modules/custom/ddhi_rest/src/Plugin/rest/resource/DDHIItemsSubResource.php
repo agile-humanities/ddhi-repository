@@ -18,15 +18,15 @@ use Drupal\ddhi_ingest\Handlers\DDHIIngestHandler;
  * Provides a resource to get view modes by entity and bundle.
  *
  * @RestResource(
- *   id = "ddhi_items_resource",
- *   label = @Translation("DDHI: Items Resource"),
+ *   id = "ddhi_items_subresource",
+ *   label = @Translation("DDHI: Items Subresource"),
  *   uri_paths = {
- *     "canonical" = "/ddhi-api/items/{id}"
+ *     "canonical" = "/ddhi-api/items/{id}/{subresource}"
  *   }
  * )
  */
 
-class DDHIItemsResource extends ResourceBase {
+class DDHIItemsSubResource extends ResourceBase {
 
   protected $currentUser;
   protected $currentRequest;
@@ -43,11 +43,6 @@ class DDHIItemsResource extends ResourceBase {
     $this->entityTypeManager = $entity_type_manager;
     $this->itemHandler = $item_handler;
     $this->ingestHandler = new DDHIIngestHandler();
-
-    if (empty($this->currentRequest->query->get('_format'))) {
-      $this->currentRequest->attributes->set('_format','json');
-    }
-
   }
 
   public static function create(ContainerInterface $container, array $configuration, $plugin_id, $plugin_definition) {
@@ -64,7 +59,7 @@ class DDHIItemsResource extends ResourceBase {
     );
   }
 
-  public function get($id=null) {
+  public function get($id=null,$subresource=null) {
 
     if (!$id) {
       throw new NotFoundHttpException();
@@ -76,10 +71,10 @@ class DDHIItemsResource extends ResourceBase {
       throw new BadRequestHttpException("Requested resource is not valid.");
     }
 
-    return $itemHandler->getResource();
+    return $itemHandler->getResource($subresource);
   }
 
-  public function post($id) {
+  public function post($id,$subresource=null) {
     if (!$id) {
       throw new NotFoundHttpException();
     }
@@ -90,7 +85,7 @@ class DDHIItemsResource extends ResourceBase {
       throw new BadRequestHttpException("Requested resource is not valid.");
     }
 
-    return $itemHandler->getResource();
+    return $itemHandler->getResource($subresource);
   }
 
 

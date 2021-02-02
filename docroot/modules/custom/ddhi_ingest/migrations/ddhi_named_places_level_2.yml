@@ -39,6 +39,9 @@ process:
   field_id:
     plugin: get
     source: id
+  field_item_key:
+    plugin: get
+    source: id
   field_qid:
     plugin: get
     source: qid
