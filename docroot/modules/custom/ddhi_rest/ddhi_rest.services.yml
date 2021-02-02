@@ -1,0 +1,7 @@
+services:
+  ddhi_rest.item.handler:
+    class: Drupal\ddhi_rest\Items\DDHIItemHandlerFactory
+    arguments: ['nodeObject']
+  ddhi_rest.id.resolver:
+    class: Drupal\ddhi_rest\Resolver\DDHIIDResolver
+    arguments: []
