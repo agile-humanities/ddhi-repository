@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Drupal\ddhi_rest\Items;
+namespace Drupal\ddhi_rest\Collections;
 
 
 use Drupal\Core\Entity\EntityTypeManager;
@@ -10,77 +10,82 @@ use Drupal\rest\ResourceResponse;
 use Drupal\node\NodeInterface;
 use Symfony\Component\HttpKernel\Exception\BadRequestHttpException;
 
-class DDHIItemHandler {
+class DDHICollectionHandler {
 
-  protected $node;
-  public $type;
+  protected $collection;
   protected $entityTypeManager;
   protected $moduleHandler;
 
-  public function __construct($nodeObject,EntityTypeManager $entity_type_manager, ModuleHandler $module_handler) {
-    $this->node = $nodeObject;
-    $this->type = $nodeObject->getType();
+  public function __construct(string $collection,EntityTypeManager $entity_type_manager, ModuleHandler $module_handler) {
     $this->entityTypeManager = $entity_type_manager;
     $this->moduleHandler = $module_handler;
+    $this->collection = $this->getSupportedCollection($collection);
+
+    if (!$this->isValid()) {
+      throw new BadRequestHttpException("This collection is not supported.");
+    }
   }
 
   /**
-   * @return bool Returns true if the item is a valid Drupal node, false otherwise.
+   * @return bool Returns true if the collection is supported, false otherwise.
    */
 
   public function isValid(): bool {
-    return $this->node instanceof NodeInterface;
+    return $this->getSupportedCollection($this->collection) !== false;
   }
 
   /**
-   * @return array Retrieves an array of content data. Returns a common dataset
-   * (supplied by the getListingData() method),then allows child classes
-   * (representing various content types) to supplement it by overriding this
-   * method.
+   * @param $key string A string representing the collection. This function
+   * accepts a collection key or its pluralized form to be useful when
+   * handling more readable paths like ddhi-api/collections/events .
+   *
+   * @return false|string Returns a valid collection key, or false otherwise.
+   */
+
+  public function getSupportedCollection($key) {
+    $supported_collections = [
+      'events' => 'event',
+      'transcripts' => 'transcript',
+      'persons' => 'person',
+      'people' => 'person',
+      'places' => 'place',
+      'organizations' => 'organization',
+      'list' => 'list',
+    ];
+
+    if (array_key_exists($key,$supported_collections)) {
+      return $supported_collections[$key];
+    } else if (in_array($key,$supported_collections)) {
+      return $key;
+    } else {
+      return false;
+    }
+  }
+
+  /**
+   * @return array Retrieves an array collection data as a list of items
+   * with the base (Listing) dataset.
    */
 
   public function getData(): array {
-    return $this->getListingData();
-  }
+    if (method_exists($this,$this->collection)) {
+      return $this->{$this->collection};
+    }
+    $nids = \Drupal::entityQuery('node')->condition('type',$this->collection)->execute();
 
-  /**
-   * @return array Returns a minimal set of item information as a keyed array.
-   * This information is common to all DDHI Item types and should be used
-   * when representing the item in collection lists.
-   */
+    $collectionArray = [];
 
-  public function getListingData() {
-    $qid =  $this->node->hasField('field_qid') && !empty($this->node->field_qid->getString())  ?  $this->node->field_qid->getString() : null;
-
-    // Uses field_id if available as the ID. Then uses Wikidata QID if available in keeping with current DDHI practice. Then generates a repository-specific ID as a fallback.
-
-    $ddhi_id = $this->node->hasField('field_id') && !empty($this->node->field_id->getString()) ? $this->node->field_id->getString() : ($qid ? $qid : 'repository-' . $this->node->id());
-
-    $uri_root = \Drupal::request()->getSchemeAndHttpHost() .'/'.  DDHI_API_ROOT_PATH .'/items/'. (!empty($ddhi_id) ? $ddhi_id : $this->node->id());
-
-    $data = [
-      'title' => $this->node->title->getString(),
-      'resource_type' => $this->node->getType(),
-      'id' => $ddhi_id,
-      'repository_id' => $this->node->id(),
-      'uri' => [
-        'canonical' => $uri_root . "?_format=json",
-        'json' => $uri_root . "?_format=json",
-        'xml' => $uri_root . "?_format=xml"
-      ],
-    ];
-
-    // Add Wikidata keys if available.
-
-    if ($qid) {
-      $data = $data + [
-          'qid' => $qid,
-          'wikidata_uri' => $this->getWikiDataLink($qid),
-        ];
+    if ($nids) {
+      foreach ($nids as $nid) {
+        $entityHandler = \Drupal::service('ddhi_rest.item.handler')->createInstance($nid);
+        $collectionArray[] = $entityHandler->getListingData();
+      }
     }
 
-    return $data;
+    return $collectionArray;
   }
+
+
 
   /**
    * @param null $subresource Takes an optional $subresource parameter.
@@ -133,7 +138,7 @@ class DDHIItemHandler {
   }
 
   /**
-   * @param $qid string The Wikidata indentifier.
+   * @param $qid The Wikidata indentifier.
    *
    * @return false|string Returns a fully formed URI to the Wikidata site, or false if the $qid does not exist.
    */
@@ -142,7 +147,7 @@ class DDHIItemHandler {
   }
 
   /**
-   * @param $field \Drupal\Core\Field\EntityReferenceFieldItemList. An Entity Reference field (or any array of objects with a target_id parameter).
+   * @param $field \Drupal\Core\Field\EntityReferenceFieldItemList.  an Entity Reference field (or any array of objects with a target_id parameter).
    *
    * @return array  Returns related entity data in an array.
    */

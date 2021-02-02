@@ -2,6 +2,9 @@ services:
   ddhi_rest.item.handler:
     class: Drupal\ddhi_rest\Items\DDHIItemHandlerFactory
     arguments: ['nodeObject']
+  ddhi_rest.collection.handler:
+    class: Drupal\ddhi_rest\Collections\DDHICollectionHandlerFactory
+    arguments: ['collection']
   ddhi_rest.id.resolver:
     class: Drupal\ddhi_rest\Resolver\DDHIIDResolver
     arguments: []
