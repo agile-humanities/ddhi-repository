@@ -100,7 +100,7 @@ class DDHIItemHandler {
     if ($subresource) {
       $method = 'getSubResource' . ucfirst($subresource);
       if (method_exists($this,$method)) {
-        return $this->$method();
+        return new ResourceResponse($this->$method());
       }
     }
 
@@ -133,7 +133,22 @@ class DDHIItemHandler {
   }
 
   /**
-   * @param $qid string The Wikidata indentifier.
+   * STUB FUNCTION. Item type handlers should override and reference the
+   * name their referencing entity reference field.
+   *
+   *
+   * @param null $field
+   *
+   * @return array
+   */
+
+  public function getSubResourceReference() {
+    $field = null;
+    return $this->getReferencingEntities($field);
+  }
+
+  /**
+   * @param $qid string The Wikidata identifier.
    *
    * @return false|string Returns a fully formed URI to the Wikidata site, or false if the $qid does not exist.
    */
@@ -166,5 +181,40 @@ class DDHIItemHandler {
 
     return $entities;
   }
+
+  protected function getReferencingEntities($field) {
+    $entities = [];
+
+    if (!$field) {
+      return $entities;
+    }
+
+    $database = \Drupal::database();
+    $query = $database->select("node__{$field}",'f');
+    $query->condition("f.{$field}_target_id",$this->node->id());
+
+    // @todo add condition based on query string _filter
+
+    $query->fields('f',['entity_id','bundle']);
+
+    $references = $query->execute();
+
+    if (!$references) {
+      return $entities;
+    }
+
+    foreach ($references as $row) {
+      $entityHandler = \Drupal::service('ddhi_rest.item.handler')->createInstance($row->entity_id);
+
+      if (!$entityHandler) {
+        continue;
+      }
+
+      $entities[$row->entity_id] = $entityHandler->getListingData();
+    }
+
+    return array_values($entities);
+  }
+
 
 }

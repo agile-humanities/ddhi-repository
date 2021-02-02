@@ -17,4 +17,10 @@ class DDHIItemHandlerPerson extends DDHIItemHandler {
     ];
     return $data;
   }
+
+  public function getSubResourceReference() {
+    $field = null;
+    return $this->getReferencingEntities('field_people');
+  }
+
 }
