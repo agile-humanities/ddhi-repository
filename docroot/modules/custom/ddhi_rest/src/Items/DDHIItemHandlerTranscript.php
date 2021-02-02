@@ -34,7 +34,7 @@ class DDHIItemHandlerTranscript extends DDHIItemHandler {
     }
 
     $path = \Drupal::service('file_system')->realpath($tei_uri);
-    $tei = file_get_contents(\Drupal::service('file_system')->realpath($tei_uri));
-    return new ResourceResponse($tei);
+    $tei = file_get_contents(\Drupal::service('file_system')->realpath($path));
+    return $tei;
   }
 }
