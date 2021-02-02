@@ -24,7 +24,12 @@ class DDHIItemHandlerPlace extends DDHIItemHandler {
       'description' => !empty($this->node->body->value) ? check_markup($this->node->body->value,$this->node->body->format)->__toString() : '',
     ];
 
-
     return $data;
   }
+
+  public function getSubResourceReference() {
+    $field = null;
+    return $this->getReferencingEntities('field_places');
+  }
+
 }
