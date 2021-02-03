@@ -12,7 +12,7 @@ dependencies:
     - field.field.node.transcript.field_entities_persons
     - field.field.node.transcript.field_entities_places
     - field.field.node.transcript.field_events
-    - field.field.node.transcript.field_item_key
+    - field.field.node.transcript.field_id
     - field.field.node.transcript.field_language_temp
     - field.field.node.transcript.field_message
     - field.field.node.transcript.field_organizations
@@ -153,8 +153,8 @@ content:
     third_party_settings: {  }
     type: entity_reference_autocomplete
     region: content
-  field_item_key:
-    weight: 9
+  field_id:
+    weight: 26
     settings:
       size: 60
       placeholder: ''

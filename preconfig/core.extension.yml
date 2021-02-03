@@ -18,12 +18,15 @@ module:
   datetime_range: 0
   dblog: 0
   ddhi_ingest: 0
+  ddhi_rest: 0
   devel: 0
   devel_entity_updates: 0
   diff: 0
   dynamic_page_cache: 0
   editor: 0
+  entity: 0
   entity_reference_revisions: 0
+  entity_usage: 0
   field: 0
   field_group: 0
   field_ui: 0
@@ -38,6 +41,7 @@ module:
   image: 0
   inline_entity_form: 0
   jsonapi: 0
+  libraries: 0
   link: 0
   media: 0
   media_entity_audio: 0
@@ -63,10 +67,14 @@ module:
   remote_stream_wrapper: 0
   responsive_image: 0
   rest: 0
+  restui: 0
   rh_node: 0
   rh_taxonomy: 0
   rh_user: 0
   search: 0
+  search_api: 0
+  search_api_db: 0
+  search_api_db_defaults: 0
   serialization: 0
   shortcut: 0
   svg_image: 0

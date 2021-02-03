@@ -13,7 +13,7 @@ dependencies:
     - field.field.node.transcript.field_entities_persons
     - field.field.node.transcript.field_entities_places
     - field.field.node.transcript.field_events
-    - field.field.node.transcript.field_item_key
+    - field.field.node.transcript.field_id
     - field.field.node.transcript.field_language_temp
     - field.field.node.transcript.field_message
     - field.field.node.transcript.field_organizations
@@ -56,7 +56,7 @@ hidden:
   field_entities_persons: true
   field_entities_places: true
   field_events: true
-  field_item_key: true
+  field_id: true
   field_language_temp: true
   field_message: true
   field_organizations: true

@@ -1,0 +1,19 @@
+uuid: 8401f4b2-6d84-476a-9f2b-6e6053ba67b6
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+    - serialization
+    - user
+id: entity.search_page
+plugin_id: 'entity:search_page'
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+    - xml
+  authentication:
+    - cookie

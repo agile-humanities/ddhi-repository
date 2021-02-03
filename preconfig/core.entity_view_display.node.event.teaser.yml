@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.event.body
+    - field.field.node.event.field_id
     - field.field.node.event.field_qid
     - node.type.event
   module:
@@ -29,4 +30,5 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_id: true
   field_qid: true

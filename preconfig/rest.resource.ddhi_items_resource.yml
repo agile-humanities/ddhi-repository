@@ -1,0 +1,20 @@
+uuid: 5bf89b4e-0a15-4560-9bba-6142272b58c8
+langcode: en
+status: true
+dependencies:
+  module:
+    - ddhi_rest
+    - serialization
+    - user
+id: ddhi_items_resource
+plugin_id: ddhi_items_resource
+granularity: resource
+configuration:
+  methods:
+    - GET
+    - POST
+  formats:
+    - json
+    - xml
+  authentication:
+    - cookie
