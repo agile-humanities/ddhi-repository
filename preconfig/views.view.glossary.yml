@@ -1,4 +1,4 @@
-uuid: ca3f2799-e217-45aa-97bf-696b84cbf25f
+uuid: 4faf0529-d001-4cdb-850a-bb85b095727c
 langcode: en
 status: false
 dependencies:
@@ -352,6 +352,19 @@ display:
           plugin_id: language
           entity_type: node
           entity_field: langcode
+        status:
+          expose:
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+          field: status
+          group: 1
+          id: status
+          table: node_field_data
+          value: '1'
+          plugin_id: boolean
+          entity_type: node
+          entity_field: status
       display_extenders: {  }
     cache_metadata:
       contexts:
