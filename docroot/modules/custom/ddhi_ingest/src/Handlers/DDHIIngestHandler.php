@@ -112,7 +112,7 @@ class DDHIIngestHandler extends ControllerBase {
    */
 
   public function stagedInterviewCount($display_msg=false)  {
-    $interview_files = glob($this->staging_dir_interviews . '/*.xml'); // get all file names
+    $interview_files = glob($this->staging_dir_interviews . '/*.tei.xml'); // get all file names
     $count = count($interview_files);
 
     if ($display_msg) {
@@ -170,7 +170,7 @@ class DDHIIngestHandler extends ControllerBase {
     $resultCode = null;
 
     exec("ddhi_aggregate -i " . $this->staging_dir_interviews . " -o " . $this->aggregates_dir,$output,$resultCode);
-
+    
     if ($resultCode) {
       $this->messenger->addError($this->getResultCodeMessage($resultCode));
 
@@ -183,7 +183,6 @@ class DDHIIngestHandler extends ControllerBase {
     $this->messenger->addStatus("TEI aggregation complete and ready for importing.");
 
     return true;
-
   }
 
   protected function getResultCodeMessage($code) {
@@ -523,6 +522,12 @@ class DDHIIngestHandler extends ControllerBase {
    */
 
   protected function deleteDirectory($target) {
+
+    //nothing to do if the directory does not exist
+    if (!file_exists($target)) {
+      return;
+    }
+
     $it = new \RecursiveDirectoryIterator($target,\RecursiveDirectoryIterator::SKIP_DOTS);
     $files = new \RecursiveIteratorIterator($it,
       \RecursiveIteratorIterator::CHILD_FIRST);
