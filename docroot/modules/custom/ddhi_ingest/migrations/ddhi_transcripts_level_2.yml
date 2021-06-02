@@ -47,7 +47,7 @@ source:
       selector: named_persons/person/id
     -
       name: places
-      label: People
+      label: Places
       selector: named_places/place/id
     -
       name: events
@@ -57,6 +57,19 @@ source:
       name: audiourl
       label: Primary Audio
       selector: primary_audio_URL
+    -
+      name: people_local
+      label: "People Local"
+      selector: named_persons
+    -
+      name: places_local
+      label: "Places Local"
+      selector: named_places
+    -
+      name: events_local
+      label: "Events Local"
+      selector: named_events
+
 
   # Under 'ids', we identify source fields populated above which will uniquely
   # identify each imported item. The 'type' makes sure the migration map table
@@ -75,6 +88,10 @@ process:
   body/value:
     plugin: ddhi_ingest_body
     source: transcription
+    persons: people_local
+    places: places_local
+    events: events_local
+    id: id
   body/format:
     plugin: default_value
     default_value: full_html
@@ -86,10 +103,10 @@ process:
     plugin: sub_process
     source: '@people_unique'
     process:
-        target_id:
-          plugin: migration_lookup
-          migration: ddhi_named_people_level_2
-          source: id
+      target_id:
+        plugin: migration_lookup
+        migration: ddhi_named_people_level_2
+        source: id
   places_unique:
     plugin: migration_lookup_unique_references
     source: places

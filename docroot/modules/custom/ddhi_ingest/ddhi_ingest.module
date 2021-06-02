@@ -23,6 +23,9 @@ DEFINE('DDHI_STAGING_DIRECTORY','../data/staging/'); // Directory (relative to t
 DEFINE('DDHI_INTERVIEW_AGGREGATES_DIRECTORY', '../data/aggregates/');
 // @todo – this ^ ^ needs to be dynamic because sources like Github place it in a variably named folder.
 
+DEFINE('DDHI_STANDOFF_KEY_PREFIX','ddhi-standoff-'); // Used as a prefix to a key-value to store local entity reference manifests
+DEFINE('DDHI_NAMED_ANCHOR_PREFIX','entity-'); // Used as a prefix for named anchors in transcripts.
+
 /**
  * Implements hook_help().
  */
