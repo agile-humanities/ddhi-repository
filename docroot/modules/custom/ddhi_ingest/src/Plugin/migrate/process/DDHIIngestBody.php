@@ -61,9 +61,9 @@ class DDHIIngestBody extends ProcessPluginBase {
         }
 
         $local = $standoff[$id];
-        $item->addAttribute('entity-type',$local['type']);
-        $item->addAttribute('entity-id',$local['id']);
-        $item->addAttribute('entity-ordinal',$i);
+        $item->addAttribute('data-entity-type',$local['type']);
+        $item->addAttribute('data-entity-id',$local['id']);
+        $item->addAttribute('data-entity-ordinal',$i);
 
         // Track unique entities. This will facilitate cycling for instances
         // of a particular entity on display
