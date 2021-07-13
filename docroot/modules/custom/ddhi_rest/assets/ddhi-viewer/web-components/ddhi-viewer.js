@@ -946,7 +946,7 @@ customElements.define('wikidata-viewer', class extends DDHIInfoPanel {
     this.selectedEntityElements = [];
     this.previousSelectedEntity = null; // Used to detect a change in selected entities.
     this.wikidataAPIUrl = 'https://www.wikidata.org/w/api.php?action=wbgetentities&format=json'; // &ids=Q568
-    this.wikipediaAPIUrl = 'http://en.wikipedia.org/w/api.php?action=parse&prop=text&formatversion=2&format=json';
+    this.wikipediaAPIUrl = 'https://en.wikipedia.org/w/api.php?action=parse&prop=text&formatversion=2&format=json';
     this.wikiData = {};
     this.wikipediaData = {};
     // Attach a shadow root to <transcript-html>.
