@@ -144,8 +144,12 @@ class DDHIDataComponent extends HTMLElement {
     if (qids.length > 50) {
       console.log('Maximum number of Wikidata ids exceeded.');
     }
+      
+    // Note &origin=* parameter required for MediaWiki/Wikidata requests
+               
+    const response = await fetch(this.wikidataAPIUrl + '&origin=*' + '&props=' + props.join('|') + '&ids=' + qids.join('|'), {mode: 'cors'});
         
-    const response = await fetch(this.wikidataAPIUrl + '&props=' + props.join('|') + '&ids=' + qids.join('|'));
+    //const response = await fetch(this.wikidataAPIUrl + '&props=' + props.join('|') + '&ids=' + qids.join('|'));
     const result = await response.json();
     
              
@@ -160,7 +164,7 @@ class DDHIDataComponent extends HTMLElement {
   
   /**
    *  @function getEventData()
-   *  @description Retrives event data for all ÒeventÓ entities from WikiData. 
+   *  @description Retrives event data for all ñeventî entities from WikiData. 
    *    Date data populates this.eventDateIndex property.  
    *    this.eventDateIndex is keyed by QID, each an object with five properties. Each can be null if empty:
    *      startDate: The claimed start date. (Wikidata Property P580)
@@ -253,7 +257,7 @@ class DDHIDataComponent extends HTMLElement {
       })
     }
     
-    // Propagate to all elements marked with a ÒpropagateÓ attribute
+    // Propagate to all elements marked with a ñpropagateî attribute
     
     this.viewer.shadowRoot.querySelectorAll('[propagate]').forEach(function(element){
         element.setAttribute(attr,value);
@@ -286,7 +290,7 @@ class DDHIDataComponent extends HTMLElement {
       })
     }
     
-    // Propagate to all elements marked with a ÒpropagateÓ attribute
+    // Propagate to all elements marked with a ñpropagateî attribute
     
     this.shadowRoot.querySelectorAll('[propagate]').forEach(function(element){
         element.removeAttribute(attr);
@@ -384,7 +388,7 @@ class DDHIDataComponent extends HTMLElement {
 
       
   // @method getActiveIdFromAttribute()
-  // @description Retrieves the current active ID from the componentÕs ddhi-active-id  attribute.
+  // @description Retrieves the current active ID from the componentÍs ddhi-active-id  attribute.
   // @return A single active ID. Null if no ID is present.
   
   getActiveIdFromAttribute() {
@@ -1124,8 +1128,10 @@ customElements.define('wikidata-viewer', class extends DDHIInfoPanel {
         
     const wpUrl = this.wikiData.entities[qid].sitelinks.enwiki.url;
     const wpTitle = wpUrl.split('/').pop();    
-    
-    const wpResponse = await fetch(this.wikipediaAPIUrl + '&page=' + wpTitle);
+        
+    // Note &origin=* parameter required for MediaWiki/Wikidata requests
+
+    const wpResponse = await fetch(this.wikipediaAPIUrl + '&origin=*&page=' + wpTitle);
     const wpResult = await wpResponse.json();
     
     if (!wpResponse.ok) {
@@ -1923,8 +1929,8 @@ customElements.define('ddhi-viewer', class extends DDHIDataComponent {
   async connectedCallback() {
     super.connectedCallback();
     
-    // this.viewer is used in the parent Data componentÍs propagation system and
-    // is derived from a selection query of an elementÍs parents. This will return
+    // this.viewer is used in the parent Data componentês propagation system and
+    // is derived from a selection query of an elementês parents. This will return
     // null for the viewer component itself, so it must be explicitly set.
     
     this.viewer = this;
@@ -2180,7 +2186,7 @@ customElements.define('ddhi-viewer', class extends DDHIDataComponent {
   // @method propagateActiveIds()
   // @description Propagates the current active transcripts to the visualizations in 
   //   the form of an attribute. The change should trigger an attribute change listener 
-  //   and fire the componentÍs handler. 
+  //   and fire the componentês handler. 
   
   
   propagateActiveIds() {
