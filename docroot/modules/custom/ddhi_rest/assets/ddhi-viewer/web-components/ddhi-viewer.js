@@ -77,6 +77,7 @@ class DDHIDataComponent extends HTMLElement {
     super(); 
     this.repositoryURI; // Set from the ddhi-viewer repository attribute
     this.apiURI; // Derived from above
+    this.cdnAssetPath = 'modules/custom/ddhi_rest/assets/ddhi-viewer'; // Derived from above
     this.viewer; // The active viewer
     this.viewHelper; // An instance of the DDHI View Plugin
     this.loading = false;
@@ -86,6 +87,9 @@ class DDHIDataComponent extends HTMLElement {
     this.tempResult; // Holding property for asynchronous data retrieval.
     this.supportedEntityTypes = ['events','persons','places']; // Currently supported entities types.
     this.mentionedEntities = {}; // The list of entities mentioned in a transcript.
+    this.wikidataAPIUrl = 'https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&languages=en&sitefilter=enwiki'; 
+    this.eventData;
+    this.eventDateIndex; // Indexes event dates by id.
   }
   
   // @method connectedCallback()
@@ -125,6 +129,81 @@ class DDHIDataComponent extends HTMLElement {
     return response; 
     
   }
+  
+  // @method getWikiData()
+  // @description A general purpose utility for retrieving data from the Wikidata API.
+  //   see https://www.wikidata.org/w/api.php?action=help&modules=wbgetentities
+  // @param qids An array of qids to submit
+  // @param props The properties to retrieve. Defaults to 'sitelinks/urls'.
+  //
+  // @return The result object
+  // NOTE: The maximum number of qids that can be retrieved in one query is 50.
+  
+  async getWikiData(qids=[],props=['sitelinks/urls','claims']) {
+    
+    if (qids.length > 50) {
+      console.log('Maximum number of Wikidata ids exceeded.');
+    }
+        
+    const response = await fetch(this.wikidataAPIUrl + '&props=' + props.join('|') + '&ids=' + qids.join('|'));
+    const result = await response.json();
+    
+             
+    if (!response.ok) {
+      const message = `An error has occured: ${response.status}`;
+      throw new Error(message);
+    }
+                
+    return result;
+    
+  }
+  
+  /**
+   *  @function getEventData()
+   *  @description Retrives event data for all “event” entities from WikiData. 
+   *    Date data populates this.eventDateIndex property.  
+   *    this.eventDateIndex is keyed by QID, each an object with five properties. Each can be null if empty:
+   *      startDate: The claimed start date. (Wikidata Property P580)
+   *      endDate: The claimed end date. (Wikidata Property P582)
+   *      pointInTime: The date of event if not a range (Wikidate Property P585)
+   *      sortDateStart: Merging of startDate and pointInTime for sorting.
+   *      sortDateEnd:  Merging of endDate and pointInTime for storting.
+   */
+  
+  async getEventData() {
+    
+    this.eventDateIndex = {};
+    
+    var response = await this.getAssociatedEntitiesByType(this,'eventData',this.getActiveIdFromAttribute(),'events'); 
+    var qids = [];
+    for (var i=0;i<this.eventData.length;i++) {
+      if (typeof this.eventData[i] !== "undefined" && this.eventData[i].qid)
+      qids.push(this.eventData[i].qid);
+    }
+            
+    if (qids.length > 0) {
+      var wikiDataEvents = await this.getWikiData(qids);
+      
+              
+     
+      for (var qid in wikiDataEvents.entities) {
+        var claims = wikiDataEvents.entities[qid].claims; // Information claims from Wikidata... in other words the metadata
+        
+        this.eventDateIndex[qid] = {
+          startDate: claims.hasOwnProperty('P580') ? claims.P580[0].mainsnak.datavalue.value.time : null,
+          endDate: claims.hasOwnProperty('P582') ? claims.P582[0].mainsnak.datavalue.value.time : null,
+          pointInTime: claims.hasOwnProperty('P585') ? claims.P585[0].mainsnak.datavalue.value.time: null,
+        }
+        
+        this.eventDateIndex[qid].sortDateStart = this.eventDateIndex[qid].startDate ? this.eventDateIndex[qid].startDate : this.eventDateIndex[qid].pointInTime;
+        this.eventDateIndex[qid].sortDateEnd = this.eventDateIndex[qid].endDate ? this.eventDateIndex[qid].endDate : this.eventDateIndex[qid].pointInTime;
+      }
+    }
+            
+    return response;
+  }
+  
+  
   
   // @method loadViewerObject()
   // @description A hack. The entity web component is returning null when inserted
@@ -226,47 +305,50 @@ class DDHIDataComponent extends HTMLElement {
     return this.getAPIResource('collections/transcripts','availableIds');
   }
   
-  // @method getActiveItemsById()
+  // @method getItemDataById()
   // @description Fetches the data for a particular item id (e.g. a transcript) and
-  //   populates the itemData property. Active Ids are set elsewhere and are stored as
+  //   populates the "items" property. Active Ids are set elsewhere and are stored as
   //   attributes in the component's host element. Logic exists to support multiple
   //   active items if that becomes part of a future specification.
     
-  async getActiveItemsById(multiple=false) {
+  async getItemDataById() {
     var component = this;
     
     this.itemsDataReset();
         
-    var activeIds = this.getActiveIdsFromAttribute();
+    var activeId = this.getActiveIdFromAttribute();
         
-    if (activeIds.length > 0) {
-      var id = activeIds.pop();
+    if (activeId !== null) {
       component.tempResult = null;
-      await component.getAPIResource('items/' + id,'tempResult');
-      this.itemsDataSetItem(id,component.tempResult);
+      var response = await component.getAPIResource('items/' + activeId,'tempResult');
+      this.itemsDataSetItem(activeId,component.tempResult);
       component.tempResult = null;
     }
+            
+    return response;
   }
   
   // @method getAssociatedEntitiesByType()
   // @description Retrieves all Entities associated with an entry and filtered by entity
   //   type. For instance, this can be used to retrieve all places mentioned in a transcript.
-  // @param object An object to assign the value
+  // @param storeObject An object to assign the value
+  // @param property The property of that object to assign the value (property name as string)
   // @param id The id of the entity
   // @param type The type of entity to cross reference. Accepts 
   //   events|locations|people|places|transcripts
   
-  async getAssociatedEntitiesByType(object=null,param=null,id=null,type='people') {
+  async getAssociatedEntitiesByType(storeObject,property,id=null,type='people') {
     var component = this;
     
     if(id==null) {
-      var activeIds = this.getActiveIdsFromAttribute();
-      id = activeIds.pop();
+      var id = this.getActiveIdFromAttribute();
     }
     
     component.tempResult = null;
-    await component.getAPIResource("items/" + id + "/" + type,'tempResult');
-    object[param] = component.tempResult; // assign by reference
+    var response = await component.getAPIResource("items/" + id + "/" + type,'tempResult');
+    storeObject[property] = component.tempResult; // assign by reference
+    
+    return response;
       
   }
   
@@ -279,7 +361,7 @@ class DDHIDataComponent extends HTMLElement {
   }
   
   // @method itemsDataSetItem()
-  // @description Sets the object's active items data property. This property
+  // @description Sets the object's active item data property. This property
   //   stores the full item object (i.e. a transcript) keyed by id. Note that
   //   it does not retrieve remote data, it's just a setter.
   
@@ -300,25 +382,14 @@ class DDHIDataComponent extends HTMLElement {
     return item;
   }
 
-    
-  // @method getActiveIdsFromAttribute()
-  // @description Retrieves an array of active ids from the DOM element attribute
-  // @todo DEPRECATE multiple ids. 
-  
-  
-  getActiveIdsFromAttribute() {
-    return typeof this.getAttribute('ddhi-active-ids') !== 'undefined' && this.getAttribute('ddhi-active-ids') !== '' ? this.getAttribute('ddhi-active-ids').split(',') : [];
-  }
-  
-  // @method getActiveIdsFromAttribute()
-  // @description Retrieves the current active ID from the component’s ddhi-active-ids  attribute.
+      
+  // @method getActiveIdFromAttribute()
+  // @description Retrieves the current active ID from the component’s ddhi-active-id  attribute.
   // @return A single active ID. Null if no ID is present.
   
   getActiveIdFromAttribute() {
-    var activeIds = this.getActiveIdsFromAttribute();
-    return activeIds.length > 0 ? activeIds.pop() : null;
-  
-  }
+    return this.getAttribute('ddhi-active-id');
+    }
   
   // @method setData()
   // @description Attach arbitrary data to this element.
@@ -369,11 +440,11 @@ class DDHIDataComponent extends HTMLElement {
     if (setProperty==true) {
       this.mentionedEntities = mentionedEntities;
     }
-        
+            
     return mentionedEntities;   
   }
   
-  // @method getMentionedEntities()
+  // @method getEntitiesByOrderOfMention()
   // @description Returns an array of entity ids in the order that they appear in the
   //  transcript. Entity details can then retrieved from the mentionedEntities property.
   
@@ -609,7 +680,7 @@ customElements.define('ddhi-entity-browser', class extends DDHIVisualization {
   // @return An array of monitored attributes.
   
   static get observedAttributes() {
-    return ['ddhi-active-ids','selected-entity','entity-sort','entity-filter'];
+    return ['ddhi-active-id','selected-entity','entity-sort','entity-filter'];
   }
 
   // @method attributeChangedCallback()
@@ -625,9 +696,10 @@ customElements.define('ddhi-entity-browser', class extends DDHIVisualization {
    */
   
   async attributeChangedCallback(attrName, oldVal, newVal) {    
-    if(attrName == 'ddhi-active-ids') {
-      await this.getActiveItemsById();
+    if(attrName == 'ddhi-active-id') {
+      await this.getItemDataById();
       this.getMentionedEntities();
+      await this.getEventData();
       this.indexEntities();
       this.render();
     }
@@ -730,7 +802,7 @@ customElements.define('ddhi-entity-browser', class extends DDHIVisualization {
     
   indexEntities() {
     this.resetIndices();
-    var component = this;
+    var _this = this;
     var item = this.getItemData();
     var entityGrid = this.shadowRoot.querySelector('.entity-grid');
     
@@ -746,11 +818,11 @@ customElements.define('ddhi-entity-browser', class extends DDHIVisualization {
     // Iterate over appearances by order of mention
     
     this.getEntitiesByOrderOfMention().forEach(function(id,i) {
-      if (typeof component.mentionedEntities[id] == 'undefined') {
+      if (typeof _this.mentionedEntities[id] == 'undefined') {
         return;
       }
       
-      var entity = component.mentionedEntities[id];
+      var entity = _this.mentionedEntities[id];
       
       if (entityMention.hasOwnProperty(entity.id)) {
         entityMention[entity.id] ++;
@@ -761,7 +833,7 @@ customElements.define('ddhi-entity-browser', class extends DDHIVisualization {
       
       // Create a new entity card, set attributes, and attach the entity data
     
-      var entity = component.mentionedEntities[id];
+      var entity = _this.mentionedEntities[id];
       var entityCard = document.createElement('entity-card');
         entityCard.setAttribute('data-title',entity.title);
         entityCard.setAttribute('data-entity-id',entity.id);
@@ -769,7 +841,19 @@ customElements.define('ddhi-entity-browser', class extends DDHIVisualization {
         entityCard.setAttribute('data-mention',entityMention[entity.id]);
         entityCard.setAttribute('data-appearance',i);
         entityCard.setData('entity',entity);
-        entityCard.injectViewerObject(component.viewer);
+        entityCard.injectViewerObject(_this.viewer);
+        
+        // Add date information as attributes
+        
+        
+        if (entity.resource_type === 'event' && _this.eventDateIndex.hasOwnProperty(entity.id)) {
+          entityCard.setAttribute('data-start-date',_this.eventDateIndex[entity.id].startDate);
+          entityCard.setAttribute('data-end-date',_this.eventDateIndex[entity.id].endDate);
+          entityCard.setAttribute('data-point-in-time',_this.eventDateIndex[entity.id].pointInTime);
+          entityCard.setAttribute('data-end-date',_this.eventDateIndex[entity.id].endDate);
+          entityCard.setAttribute('data-sort-date-start',_this.eventDateIndex[entity.id].sortDateStart);
+          entityCard.setAttribute('data-sort-date-end',_this.eventDateIndex[entity.id].sortDateEnd);
+        }
         
         i++; 
       
@@ -799,11 +883,11 @@ customElements.define('ddhi-entity-browser', class extends DDHIVisualization {
       entityCard.appendChild(label);
       entityCard.appendChild(contents);
       
-      component.indexEntityByAttribute('data-title',entityCard); // Index cards based on attributes
-      component.indexEntityByAttribute('data-appearance',entityCard,false,4);
-      component.indexEntityByFrequency(entityCard);
+      _this.indexEntityByAttribute('data-title',entityCard); // Index cards based on attributes
+      _this.indexEntityByAttribute('data-appearance',entityCard,false,4);
+      _this.indexEntityByFrequency(entityCard);
 
-      component.entityCardIndex[entity.id] = entityCard;  // Add card to general index for lookup
+      _this.entityCardIndex[entity.id] = entityCard;  // Add card to general index for lookup
       
       entityGrid.appendChild(entityCard);  // Add card to grid
       
@@ -945,7 +1029,6 @@ customElements.define('wikidata-viewer', class extends DDHIInfoPanel {
     this.selectedEntity;
     this.selectedEntityElements = [];
     this.previousSelectedEntity = null; // Used to detect a change in selected entities.
-    this.wikidataAPIUrl = 'https://www.wikidata.org/w/api.php?action=wbgetentities&format=json'; // &ids=Q568
     this.wikipediaAPIUrl = 'https://en.wikipedia.org/w/api.php?action=parse&prop=text&formatversion=2&format=json';
     this.wikiData = {};
     this.wikipediaData = {};
@@ -1012,12 +1095,12 @@ customElements.define('wikidata-viewer', class extends DDHIInfoPanel {
   // @return An array of monitored attributes.
   
   static get observedAttributes() {
-    return ['ddhi-active-ids','selected-entity'];
+    return ['ddhi-active-id','selected-entity'];
   }
   
   async attributeChangedCallback(attrName, oldVal, newVal) {    
-    if(attrName == 'ddhi-active-ids') {
-      await this.getActiveItemsById();
+    if(attrName == 'ddhi-active-id') {
+      await this.getItemDataById();
     }    
     
     if(attrName == 'selected-entity') {
@@ -1036,16 +1119,8 @@ customElements.define('wikidata-viewer', class extends DDHIInfoPanel {
     // requestHeaders.append('Origin', window.location.hostname);
 
     const qid = this.getAttribute('selected-entity');
-    const response = await fetch(this.wikidataAPIUrl +'&languages=en&props=sitelinks/urls&sitefilter=enwiki' + '&ids=' + qid);
-    const result = await response.json();
     
-             
-    if (!response.ok) {
-      const message = `An error has occured: ${response.status}`;
-      throw new Error(message);
-    }
-        
-    this.wikiData = result;
+    this.wikiData = await this.getWikiData([qid]);
         
     const wpUrl = this.wikiData.entities[qid].sitelinks.enwiki.url;
     const wpTitle = wpUrl.split('/').pop();    
@@ -1272,7 +1347,7 @@ customElements.define('transcript-html', class extends DDHIInfoPanel {
   // @return An array of monitored attributes.
   
   static get observedAttributes() {
-    return ['ddhi-active-ids','selected-entity'];
+    return ['ddhi-active-id','selected-entity'];
   }
 
   // @method attributeChangedCallback()
@@ -1280,8 +1355,8 @@ customElements.define('transcript-html', class extends DDHIInfoPanel {
   //   ids are changed it triggers a transcript load process.
   
   async attributeChangedCallback(attrName, oldVal, newVal) {    
-    if(attrName == 'ddhi-active-ids') {
-      await this.getActiveItemsById();
+    if(attrName == 'ddhi-active-id') {
+      await this.getItemDataById();
       this.render();
     }
     
@@ -1631,7 +1706,7 @@ customElements.define('ddhi-viewer', class extends DDHIDataComponent {
           flex-grow: 1;
           background-repeat: no-repeat;
           background-position: bottom right;
-          background-image: url(./assets/img/svg/marks/ddhi-mark-compact-light.svg);
+          background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NjQuNDggMTAwIj48cGF0aCBkPSJNMCA5OS4zNlY4Mi45NGgxNi40MnYxNi40em00MSAwVjgyLjkxSDI0LjU1djE2LjQzem0yNC41NSAwVjgyLjk0SDQ5LjA5djE2LjQyem0yNC41NCAwVjgyLjg3SDczLjY0Vjk5LjN6bTI0LjU1IDBWODIuODVIOTguMTl2MTYuNDN6bTI0LjU1IDBWODIuOTRoLTE2LjQ2djE2LjQyem0yNC41NCAwVjgyLjgxaC0xNi40NXYxNi40M3ptMjQuNTUgMFY4Mi43OWgtMTYuNDV2MTYuNDN6bTI0LjU0IDBWODIuNzdIMTk2LjR2MTYuNDF6bTI0LjU1IDBWODIuNzVoLTE2LjQydjE2LjQ0ek00MSA3NVY1OC41NEgyNC41OFY3NXptMjQuNTUgMFY1OC41OEg0OS4xM1Y3NXptNDkuMDkgMFY1OC40OUg5OC4xN3YxNi40M3ptMjQuNTUgMFY1OC41OGgtMTYuNDhWNzV6bTI0LjU0IDBWNTguNDVoLTE2LjQ3djE2LjQzem0yNC41NSAwVjU4LjQzaC0xNi40N3YxNi40M3ptNDkuMDkgMFY1OC4zOUgyMjAuOXYxNi40M3pNNjUuNDkgNTEuMzlWMzVINDkuMDZ2MTYuNDF6bTczLjY0IDBWMzQuOTJIMTIyLjd2MTYuNDN6bTI0LjU0IDBWMzQuOWgtMTYuNDN2MTYuNDJ6bS05OC4yLTIzLjU1VjExLjQyTDQ5IDExLjQ0djE2LjQyem03My42NC0uMDVWMTEuMzdoLTE2LjQzVjI3Ljh6bTI0LjU1IDBWMTEuMzdoLTE2LjQ0djE2LjQyem03My42NSAyMy40OVYzNC44NGgtMTYuNDN2MTYuNDN6bTExNy40NiA0MS40MXY2LjUxaC0xNy4xMmEzLjkzIDMuOTMgMCAwMS0zLjgzLTNsLS44OC02LjdjLTYuMjcgNy0xMy41IDEwLjQ4LTIyLjA3IDEwLjQ4LTguMTYgMC0xNC40MS0zLTE5LjEtOXMtNy0xNC44OS03LTI1Ljg4YzAtMTAuMzEgMi42OC0xOC44NCA4LTI1LjM1IDUuNDgtNi44NSAxMi44NC0xMC4zMyAyMS44Ny0xMC4zM2EyNC4zMiAyNC4zMiAwIDAxMTcuNjIgNi45NHYtMjUuM2wtOC4zMi0xLjQ5YTIuOSAyLjkgMCAwMS0yLjU1LTMuMDZWMGgyMy45djg4LjE1YzQuMzguODIgNi40OSAxLjI2IDcuMjIgMS41MWEyLjc0IDIuNzQgMCAwMTIuMjYgMy4wM3pNMzMyLjIgNzkuNDdWNDcuNThhMTcuOTIgMTcuOTIgMCAwMC0xNC44My03LjVjLTYuMjcgMC0xMC45IDIuMDgtMTQuMTggNi4zNnMtNC44OSAxMC40Mi00Ljg5IDE4LjY3YzAgMTIuNSAzLjA3IDE5LjkzIDkuNCAyMi43MWExNy41NCAxNy41NCAwIDAwNyAxLjI3aC4zbC4xMy4xM2M2LjUxLS4wOSAxMi4yNS0zLjM3IDE3LjA3LTkuNzV6bTEwMiAxMy4yMnY2LjUxaC0xNy4xNGEzLjkxIDMuOTEgMCAwMS0zLjgzLTNsLS44OS02LjdjLTYuMjYgNy0xMy40OSAxMC40OC0yMi4wNiAxMC40OC04LjE3IDAtMTQuNDItMy0xOS4xLTlzLTctMTQuODktNy0yNS44OGMwLTEwLjMxIDIuNjgtMTguODQgOC0yNS4zNUMzNzcuNiAzMi45MSAzODUgMjkuNDMgMzk0IDI5LjQzYTI0LjI4IDI0LjI4IDAgMDExNy42MSA2Ljk0VjExLjA2bC04LjMyLTEuNDlhMi45IDIuOSAwIDAxLTIuNTUtMy4wNlYwaDIzLjl2ODguMTVjNC40NC44MyA2LjQ5IDEuMjYgNy4yMyAxLjUxYTIuNzQgMi43NCAwIDAxMi4zMSAzLjAzem0tMjIuNi0xMy4yMlY0Ny41OGExNy45IDE3LjkgMCAwMC0xNC44My03LjVjLTYuMjYgMC0xMC45IDIuMDgtMTQuMTcgNi4zNnMtNC45IDEwLjQyLTQuOSAxOC42N2MwIDEyLjUgMy4wOCAxOS45MyA5LjQgMjIuNzFhMTcuNjEgMTcuNjEgMCAwMDcgMS4yN2guMjlsLjEyLjEzYzYuNTQtLjA5IDEyLjI4LTMuMzcgMTcuMDktOS43NXptMTA3LjQ4IDEwLjMyYy0uNzktLjI2LTMuMTEtLjc2LTcuMDktMS41MVY1NS44M2MwLTcuODMtMi4wNy0xNC40LTYtMTlzLTkuODUtNy4xMy0xNy4yMi03LjEzYy03LjY2IDAtMTQuNDggMy0yMC43OSA5LjFWLjI3aC0yNC4xN3Y2LjI0YTMuMSAzLjEgMCAwMDIuNTkgMy4xN2MuOC4yNyAzLjUxLjc3IDguMjggMS41M3Y3Ny4yMWwtNi44NyAxLjM1YTMuMTMgMy4xMyAwIDAwLTIuNjcgMy4yM3Y2LjJoMzIuMzhWOTNhMy4xMyAzLjEzIDAgMDAtMi42NC0zLjE5Yy0uNjItLjE1LTIuNjgtLjU4LTUuODgtMS4ybC0xLS4xN1Y0OS40N2M1LjQ3LTYuMDYgMTEuMTQtOSAxNy4zNS05IDkgMCAxMy41IDUuMTcgMTMuNSAxNS4zNlY5OS4yaDIyLjcxVjkzYTMgMyAwIDAwLTIuNDgtMy4yMXptMjMtNzMuMTFhMTAuMTEgMTAuMTEgMCAwMDIuODMgMiA4LjY4IDguNjggMCAwMDcgMCAxMC4zMiAxMC4zMiAwIDAwMi44My0yIDEwLjExIDEwLjExIDAgMDAyLTIuODMgNy43MyA3LjczIDAgMDAuODctMy40OSA4LjI0IDguMjQgMCAwMC0uODctMy42MiAxMC42NSAxMC42NSAwIDAwLTItMyAxMC4xMSAxMC4xMSAwIDAwLTIuODMtMiA4LjU4IDguNTggMCAwMC03IDAgMTAuMTEgMTAuMTEgMCAwMC0yLjgzIDIgMTAuODkgMTAuODkgMCAwMC0yIDMgOCA4IDAgMDAtLjczIDMuNjIgNy41OCA3LjU4IDAgMDAuNzMgMy40OSAxMC4xMyAxMC4xMyAwIDAwMi4wMyAyLjgzem0xOS44MyA3Mi45NWwtNy0xLjM1VjMwLjc2aC0yMi42OFYzN2EzLjI1IDMuMjUgMCAwMDIuNTQgMy4xOWw3LjE0IDEuMzV2NDYuNzRsLTcuMTYgMS4zNmEzLjIzIDMuMjMgMCAwMC0yLjUyIDMuMTh2Ni4zOGgzMi4yNXYtNi4zOGEzLjI0IDMuMjQgMCAwMC0yLjU0LTMuMTl6IiBmaWxsPSIjYmRiZWJlIi8+PC9zdmc+");
           background-size: 8rem;
           padding-top: var(--ddhi-viewer-padding, 1rem);
           border-top: 1px solid var(--ddhi-viewer-border-color,#E9E9E9);
@@ -1962,7 +2037,7 @@ customElements.define('ddhi-viewer', class extends DDHIDataComponent {
   // @return An array of monitored attributes.
 
   static get observedAttributes() {
-    return ['ddhi-active-ids','selected-entity'];
+    return ['ddhi-active-id','selected-entity'];
   }
 
   
@@ -1972,10 +2047,10 @@ customElements.define('ddhi-viewer', class extends DDHIDataComponent {
   // @return An array of monitored attributes.
   
   async attributeChangedCallback(attrName, oldVal, newVal) {
-    if(attrName == 'ddhi-active-ids') {
-      await this.getActiveItemsById();
+    if(attrName == 'ddhi-active-id') {
+      await this.getItemDataById();
       
-      await this.getTEI(this.getAttribute('ddhi-active-ids'));
+      await this.getTEI(this.getAttribute('ddhi-active-id'));
       
       this.teiLink = this.teiResource.filepath;
       
@@ -2109,7 +2184,7 @@ customElements.define('ddhi-viewer', class extends DDHIDataComponent {
   
   
   propagateActiveIds() {
-    this.propagateAttributes('ddhi-active-ids',this.activeIds.join());
+    this.propagateAttributes('ddhi-active-id',this.activeIds.join());
   }
   
   // @method propagateSelectedEntity()
@@ -2210,7 +2285,7 @@ customElements.define('ddhi-entity-map', class extends DDHIVisualization {
   // @return An array of monitored attributes.
   
   static get observedAttributes() {
-    return ['ddhi-active-ids','selected-entity','foreground'];
+    return ['ddhi-active-id','selected-entity','foreground'];
   }
 
   // @method attributeChangedCallback()
@@ -2218,7 +2293,7 @@ customElements.define('ddhi-entity-map', class extends DDHIVisualization {
   //   ids are changed it triggers a transcript load process.
   
   async attributeChangedCallback(attrName, oldVal, newVal) {    
-    if(attrName == 'ddhi-active-ids') {
+    if(attrName == 'ddhi-active-id') {
       this.associatedPlaces;
       await this.getAssociatedEntitiesByType(this,'associatedPlaces',this.getActiveIdFromAttribute(),'places');
       this.createLeafletMap();
@@ -2259,10 +2334,9 @@ customElements.define('ddhi-entity-map', class extends DDHIVisualization {
     
     
     var markerIcon = new Icon ({
-      iconUrl: './assets/img/svg/icons/place-icon.svg',
-      shadowUrl: './assets/img/svg/icons/place-icon-shadow.svg'
+      iconUrl: this.viewer.getAttribute('repository') + '/' + this.cdnAssetPath + '/img/svg/icons/place-icon.svg',
+      shadowUrl: this.viewer.getAttribute('repository')  + '/' + this.cdnAssetPath + '/img/svg/icons/place-icon-shadow.svg'
     });
-
 
     // add the OpenStreetMap tiles
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
