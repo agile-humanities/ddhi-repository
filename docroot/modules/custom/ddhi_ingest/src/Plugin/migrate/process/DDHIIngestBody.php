@@ -64,7 +64,7 @@ class DDHIIngestBody extends ProcessPluginBase {
         $item->addAttribute('data-entity-type',$local['type']);
         $item->addAttribute('data-entity-id',$local['id']);
         $item->addAttribute('data-entity-ordinal',$i);
-
+        $item->addAttribute('id',DDHI_NAMED_ANCHOR_PREFIX . $local['id']. '-' .$entityCount[$local['id']]);
         // Track unique entities. This will facilitate cycling for instances
         // of a particular entity on display
 
@@ -74,9 +74,23 @@ class DDHIIngestBody extends ProcessPluginBase {
           $entityCount[$local['id']] = 1;
         }
 
-        $named_anchor = $item->addChild('a');
-        $named_anchor->addAttribute('name',DDHI_NAMED_ANCHOR_PREFIX . $local['id']. '-' .$entityCount[$local['id']]);
+        //$named_anchor = $item->addChild('a');
+        //$named_anchor[0] = ''; // See https://stackoverflow.com/questions/43252323/add-empty-child-to-xml-using-php
+        //$named_anchor->addAttribute('name',DDHI_NAMED_ANCHOR_PREFIX . $local['id']. '-' .$entityCount[$local['id']]);
         $i++;
+      }
+
+      $dateCount=0;
+
+      foreach($value->xpath('//date') as $item) {
+
+        if ($item->attributes()->when) {
+          $date = $this->processDate($item->attributes()->when);
+          $item->addAttribute('data-date',$date);
+        }
+
+        $item->addAttribute('id',DDHI_NAMED_ANCHOR_PREFIX .'date-' . $dateCount);
+        $dateCount++;
       }
 
       return $value->asXML();
@@ -91,6 +105,15 @@ class DDHIIngestBody extends ProcessPluginBase {
     }
 
     return '';
+  }
+
+  public function processDate($date) {
+    list($year,$month,$day) = explode('-',$date);
+
+    $month = $month ? $month : '01';
+    $day = $day ? $day : '01';
+
+    return ("{$year}-{$month}-{$day}");
   }
 
 }
