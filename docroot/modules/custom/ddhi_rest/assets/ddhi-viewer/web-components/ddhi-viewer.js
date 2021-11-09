@@ -32,6 +32,26 @@ class DDHIViewHelper {
   connectedCallback() {
   }
   
+  // Font canÕt be loaded directly into the ShadowDOM, they can
+  // only be inherited from the page itself.
+  // This can be called from any object via a Viewhelper instance.
+  
+  loadDDHIFonts() {
+        
+    if(document.querySelector('head') !== null) {
+      var headElement = document.querySelector('head');
+      
+      if (headElement.querySelector("[title='DDHI Viewer Fonts']") === null) {
+        var link = document.createElement('link');
+        link.setAttribute('title','DDHI Viewer Fonts');
+        link.setAttribute('rel','stylesheet');
+        link.setAttribute('href','https://fonts.googleapis.com/css?family=Roboto|Aleo');
+        headElement.appendChild(link);
+      }
+    }
+    
+  }  
+  
   fadeOut(fadeTarget,display='grid') {
     var fadeEffect = setInterval(function () {
         if (!fadeTarget.style.opacity) {
@@ -164,14 +184,14 @@ class DDHIDataComponent extends HTMLElement {
   
   /**
    *  @function getEventData()
-   *  @description Retrives event data for all ñeventî entities from WikiData. 
+   *  @description Retrives event data for all event entities from WikiData. 
    *    Date data populates this.eventDateIndex property.  
    *    this.eventDateIndex is keyed by QID, each an object with five properties. Each can be null if empty:
    *      startDate: The claimed start date. (Wikidata Property P580)
    *      endDate: The claimed end date. (Wikidata Property P582)
    *      pointInTime: The date of event if not a range (Wikidate Property P585)
    *      sortDateStart: Merging of startDate and pointInTime for sorting.
-   *      sortDateEnd:  Merging of endDate and pointInTime for storting.
+   *      sortDateEnd:  Merging of endDate and pointInTime for sorting.
    */
   
   async getEventData() {
@@ -531,6 +551,7 @@ class DDHIInfoPanel extends DDHIDataComponent {
   
   connectedCallback() {
     super.connectedCallback();
+    this.viewHelper.loadDDHIFonts();
   }
   
 }
@@ -624,10 +645,11 @@ customElements.define('ddhi-entity-browser', class extends DDHIVisualization {
         .formlabel {
           color: #99A2A3;
           font-size: 0.75rem;
-          padding-left: 4px
         }
         
         select {
+          -webkit-appearance: none;
+          -webkit-border-radius: 0;
           border-width: 0 0 2px 0;
           border-bottom-color: #9BC8EB;
           height: 2rem;
@@ -1317,6 +1339,10 @@ customElements.define('transcript-html', class extends DDHIInfoPanel {
           background-color: #CE8A96;
           }
           
+        dd date {
+          background-color: #CCE1D8;
+        }
+          
 
       </style>
       <div class='controls'>
@@ -1596,20 +1622,20 @@ customElements.define('ddhi-viewer', class extends DDHIDataComponent {
     // Define the shadow root
     const shadowRoot = this.attachShadow({mode: 'open'});
     shadowRoot.innerHTML = `
-      <style>
-      
-            
+      <style>            
         * {
           box-sizing: border-box;
           color: #232526;
         }
-        
+                
         :host {
           display: block;
           width: 100%;
           height: 100%;
-          font-family: "Roboto-Regular", Times;
-          --ddhi-viewer-padding: 1rem
+          font-family: var(--body-font);
+          --ddhi-viewer-padding: 1rem;
+          --heading-font: "Aleo-Regular", Georgia, serif; 
+          --body-font: "Roboto-Regular", Tahoma, sans-serif;
         }
                 
         #viewer {
@@ -1620,12 +1646,30 @@ customElements.define('ddhi-viewer', class extends DDHIDataComponent {
           grid-template-columns: 10% 52.5% 37.5%
         }
         
+        @media screen and (min-width: 62.5em) {
+          #viewer {
+            min-height: 500px;
+          }
+        }
+        
+        @media screen and (min-width: 62.5em) and (max-height: 500px) {
+          #viewer {
+            height: calc(500px - var(--ddhi-viewer-padding));
+          }
+        }
+        
+        @media screen and (min-width: 62.5em) and (min-height: 500px) {
+          #viewer {
+            max-height: calc(100vh - var(--ddhi-viewer-padding));
+          }
+        }
+        
         section {
           display: flex;
           flex-direction: column;
           height: 100%;
           justify-content: flex-start;
-          overflow: hidden;
+          overflow: hidden;;
           padding: var(--ddhi-viewer-padding)
 
         }
@@ -1696,6 +1740,7 @@ customElements.define('ddhi-viewer', class extends DDHIDataComponent {
           -webkit-line-clamp: 1;
           -webkit-box-orient: vertical;
           overflow: hidden;
+          font-family: var(--heading-font);
         }
         
         #vizcontrols, #ivcontrols {
@@ -1849,10 +1894,11 @@ customElements.define('ddhi-viewer', class extends DDHIDataComponent {
         .formlabel {
           color: #99A2A3;
           font-size: 0.75rem;
-          padding-left: 4px;
         }
         
         select {
+          -webkit-appearance: none;
+          -webkit-border-radius: 0;
           border-width: 0 0 2px 0;
           border-bottom-color: #9BC8EB;
           height: 2rem;
@@ -2204,7 +2250,7 @@ customElements.define('ddhi-viewer', class extends DDHIDataComponent {
   
   render() {
     var item = this.getItemData();
-
+    
     // Create Header
   
     var header = document.createElement('div');

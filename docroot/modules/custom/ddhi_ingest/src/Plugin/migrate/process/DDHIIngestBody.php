@@ -28,9 +28,9 @@ class DDHIIngestBody extends ProcessPluginBase {
       $standoff_keys = ['person' => 'people_local','event' => 'events_local','place' => 'places_local'];
 
       $source = $row->getSource();
+      $ddhi_id = $source['id'];
 
       // Cross references canonical entity ids with local references.
-      // @todo: This is a very useful table for a document. We should consider storing this permanently.
 
       foreach($standoff_keys as $type => $key) {
         foreach ($source[$key] as $item) {
@@ -85,16 +85,16 @@ class DDHIIngestBody extends ProcessPluginBase {
       foreach($value->xpath('//date') as $item) {
 
         if ($item->attributes()->when) {
-          $date = $this->processDate($item->attributes()->when);
+          $date = ddhi_ingest_make_full_date($item->attributes()->when);
           $item->addAttribute('data-date',$date);
         }
 
-        $item->addAttribute('id',DDHI_NAMED_ANCHOR_PREFIX .'date-' . $dateCount);
+        $item->addAttribute('id',$ddhi_id .'_date_'. $dateCount);
         $dateCount++;
       }
 
       return $value->asXML();
-      //$output = preg_replace('~[[:cntrl:]]~', '',$output);
+      //$output = preg_replace('~[[   :cntrl:]]~', '',$output);
 
 
       //$utterance_pattern = '/<u who=\"([^\"]*)\">(.*?)<\/u>/i';
@@ -105,15 +105,6 @@ class DDHIIngestBody extends ProcessPluginBase {
     }
 
     return '';
-  }
-
-  public function processDate($date) {
-    list($year,$month,$day) = explode('-',$date);
-
-    $month = $month ? $month : '01';
-    $day = $day ? $day : '01';
-
-    return ("{$year}-{$month}-{$day}");
   }
 
 }

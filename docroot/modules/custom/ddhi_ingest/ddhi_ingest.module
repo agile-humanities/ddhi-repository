@@ -259,3 +259,46 @@ function ddhi_ingest_remove_lockfile() {
     unlink($file_scheme_root . "/" . DDHI_INGEST_LOCKFILE);
   }
 }
+
+/**
+ * Takes a partial date (YYYY or YYYY-MM) and returns as YYYY-MM-DD.
+ *
+ * Does not support time of day.
+ *
+ * @param $date
+ *
+ * @return string
+ */
+function ddhi_ingest_make_full_date($date) {
+  [$year,$month,$day] = explode('-',$date);
+
+  $month = $month ? $month : '01';
+  $day = $day ? $day : '01';
+
+  return ("{$year}-{$month}-{$day}");
+}
+
+
+/**
+ * Takes YYYY-MM-DD format and returns WikiData-like date.
+ *
+ * Does not currently support time of day or BCE dates.
+ *
+ * @param $date
+ *
+ * @return string
+ */
+function ddhi_ingest_make_wikidata_date($date) {
+
+  // Assume a partial date
+
+  if (strlen($date) !== 10) {
+    $date = ddhi_ingest_make_full_date($date);
+  }
+
+  $datetime = new DateTime("{$date} 00:00:00");
+  $datetime->setTimezone(new DateTimeZone("UTC"));
+
+  return $datetime->format('\+Y-m-d\TH:i:s\Z');
+}
+
