@@ -54,6 +54,10 @@ source:
       label: Events
       selector: named_events/event/id
     -
+      name: orgs
+      label: Organizations
+      selector: named_orgs/org/id
+    -
       name: audiourl
       label: Primary Audio
       selector: primary_audio_URL
@@ -69,6 +73,10 @@ source:
       name: events_local
       label: "Events Local"
       selector: named_events
+    -
+      name: orgs_local
+      label: "Organizations Local"
+      selector: named_orgs
 
 
   # Under 'ids', we identify source fields populated above which will uniquely
@@ -91,6 +99,7 @@ process:
     persons: people_local
     places: places_local
     events: events_local
+    orgs: orgs_local
     id: id
   body/format:
     plugin: default_value
@@ -130,6 +139,18 @@ process:
       target_id:
         plugin: migration_lookup
         migration: ddhi_named_events_level_2
+        source: id
+  orgs_unique:
+    plugin: migration_lookup_unique_references
+    source: orgs
+    keyname: id
+  field_organizations:
+    plugin: sub_process
+    source: '@orgs_unique'
+    process:
+      target_id:
+        plugin: migration_lookup
+        migration: ddhi_named_orgs_level_2
         source: id
   field_tei_transcription:
     plugin: migration_lookup

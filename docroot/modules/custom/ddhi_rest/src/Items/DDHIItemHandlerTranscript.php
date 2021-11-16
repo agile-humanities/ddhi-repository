@@ -19,7 +19,7 @@ class DDHIItemHandlerTranscript extends DDHIItemHandler {
         'persons' => $this->getRelatedEntityData($this->node->field_people),
         'places' => $this->getRelatedEntityData($this->node->field_places),
         'events' => $this->getRelatedEntityData($this->node->field_events),
-        'organizations' => $this->getRelatedEntityData($this->node->field_events),
+        'organizations' => $this->getRelatedEntityData($this->node->field_organizations),
         'dates' => $this->getSubResourceDates(),
         'transcript' => !empty($this->node->body->value) ? $transcript->__toString() : '',
     ];

@@ -170,7 +170,7 @@ class DDHIIngestHandler extends ControllerBase {
     $resultCode = null;
 
     exec("ddhi_aggregate -i " . $this->staging_dir_interviews . " -o " . $this->aggregates_dir,$output,$resultCode);
-    
+
     if ($resultCode) {
       $this->messenger->addError($this->getResultCodeMessage($resultCode));
 
@@ -216,6 +216,7 @@ class DDHIIngestHandler extends ControllerBase {
     $this->executeMigration($migrations['ddhi_named_people_level_2']);
     $this->executeMigration($migrations['ddhi_named_events_level_2']);
     $this->executeMigration($migrations['ddhi_named_places_level_2']);
+    $this->executeMigration($migrations['ddhi_named_orgs_level_2']);
     $this->executeMigration($migrations['ddhi_tei_file_migration_level_2']);
     $this->executeMigration($migrations['ddhi_transcripts_level_2']);
   }
@@ -232,7 +233,7 @@ class DDHIIngestHandler extends ControllerBase {
 
     $migration_ids_content = [
       'level-1' => [],
-      'level-2' => ['ddhi_named_people_level_2','ddhi_named_events_level_2','ddhi_named_places_level_2','ddhi_transcripts_level_2']
+      'level-2' => ['ddhi_named_people_level_2','ddhi_named_events_level_2','ddhi_named_places_level_2','ddhi_named_orgs_level_2','ddhi_transcripts_level_2']
     ];
 
     $migration_ids_files = [
@@ -290,6 +291,7 @@ class DDHIIngestHandler extends ControllerBase {
     $this->rollbackMigration($migrations['ddhi_named_people_level_2']);
     $this->rollbackMigration($migrations['ddhi_named_events_level_2']);
     $this->rollbackMigration($migrations['ddhi_named_places_level_2']);
+    $this->rollbackMigration($migrations['ddhi_named_orgs_level_2']);
 
 
   }
