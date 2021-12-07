@@ -25,7 +25,7 @@ class DDHIIngestBody extends ProcessPluginBase {
       // Strip paragraphs
 
       $standoff = [];
-      $standoff_keys = ['person' => 'people_local','event' => 'events_local','place' => 'places_local'];
+      $standoff_keys = ['person' => 'people_local','event' => 'events_local','place' => 'places_local','organization'=>'orgs_local'];
 
       $source = $row->getSource();
       $ddhi_id = $source['id'];
