@@ -1838,6 +1838,10 @@ customElements.define('ddhi-viewer', class extends DDHIDataComponent {
           background-color: #9D162E;
         }
 
+        #legend-items > .organizations:before {
+          background-color: #003C73;
+        }
+
         h2 {
           margin: 0 0 0.5rem 0;
           font-family: "Aleo-Regular", Georgia, serif;
@@ -1968,6 +1972,7 @@ customElements.define('ddhi-viewer', class extends DDHIDataComponent {
             <div id='legend'>
               <div id='legend-items'>
                 <div class='events'>Events</div>
+                <div class='organizations'>Organizations</div>
                 <div class='persons'>Persons</div>
                 <div class='places'>Places</div>
               </div>
@@ -2429,4 +2434,6 @@ customElements.define('ddhi-entity-map', class extends DDHIVisualization {
       }
     });
   }
+
+
 });
