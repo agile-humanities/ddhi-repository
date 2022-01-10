@@ -55,7 +55,7 @@ class DDHITEIFilesLevel2 extends Directory {
 
       $item['id'] = $tei->teiHeader->fileDesc->publicationStmt->idno->__toString();
 
-      $this->messenger->addMessage("ID: " . $item['id']);
+      // $this->messenger->addMessage("ID: " . $item['id']);
 
     }
 

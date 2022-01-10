@@ -13,10 +13,12 @@ use Drupal\migrate\Plugin\MigrationInterface;
 use Drupal\migrate_plus\Entity\MigrationGroup;
 use Drupal\migrate\Plugin\RequirementsInterface;
 use Drupal\migrate\Exception\RequirementsException;
+use Drupal\migrate_tools\MigrateTools;
 use Exception;
 use Drupal\migrate\MigrateMessage;
 use Drupal\migrate_plus\Entity\Migration;
 use Drupal\migrate_tools\MigrateExecutable;
+use Drupal\migrate_tools\Commands\MigrateToolsCommands;
 use Drupal\Core\Entity\EntityTypeManager;
 use Drupal\Core\Extension\ModuleHandler;
 use Drupal\Core\Archiver\Zip;
@@ -248,9 +250,24 @@ class DDHIIngestHandler extends ControllerBase {
     return $reverse ? array_reverse($return) : $return;
   }
 
-  protected function executeMigration(MigrationInterface $migration): void {
+  protected function executeMigration(MigrationInterface $migration,$options = ['update'=>true]): void {
     $executable = new MigrateExecutable($migration, new MigrateMessage());
     $executable->import();
+
+    // Update existing nodes.
+
+    if ($options['update']) {
+      if (!array_key_exists('idlist',$options)) {
+        $migration->getIdMap()->prepareUpdate();
+      }
+      else {
+        $source_id_values_list = MigrateTools::buildIdList($options);
+        $keys = array_keys($migration->getSourcePlugin()->getIds());
+        foreach ($source_id_values_list as $source_id_values) {
+          $migration->getIdMap()->setUpdate(array_combine($keys, $source_id_values));
+        }
+      }
+    }
 
     foreach($migration->getIdMap()->getMessages() as $row) {
       switch($row->level) {
@@ -293,6 +310,7 @@ class DDHIIngestHandler extends ControllerBase {
     $this->rollbackMigration($migrations['ddhi_named_places_level_2']);
     $this->rollbackMigration($migrations['ddhi_named_orgs_level_2']);
 
+    return true;
 
   }
 
