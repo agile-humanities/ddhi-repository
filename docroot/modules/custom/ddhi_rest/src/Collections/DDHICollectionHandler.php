@@ -75,14 +75,19 @@ class DDHICollectionHandler {
 
     $collectionArray = [];
 
+
     if ($nids) {
       foreach ($nids as $nid) {
         $entityHandler = \Drupal::service('ddhi_rest.item.handler')->createInstance($nid);
-        $collectionArray[] = $entityHandler->getListingData();
+        $data = $entityHandler->getListingData();
+        $key = isset($data['title']) ? $data['title'] : "id-{$nid}";
+        $collectionArray[$key] = $data;
       }
     }
 
-    return $collectionArray;
+    ksort($collectionArray);
+
+    return array_values($collectionArray);
   }
 
 

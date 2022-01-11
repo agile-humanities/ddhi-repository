@@ -38,9 +38,7 @@ class DDHIItemHandlerTranscript extends DDHIItemHandler {
     // $tei = file_get_contents(\Drupal::service('file_system')->realpath($path));
     return [
       'filepath' => file_create_url($tei_uri)
-    ];
-    return $tei;
-  }
+    ];}
 
   /**
    * Returns listed dates as a series of arrays. Conforms to the date array
@@ -79,4 +77,33 @@ class DDHIItemHandlerTranscript extends DDHIItemHandler {
     return $dates;
 
   }
+
+  public function getSubResourceMedia() {
+    $teiResource = $this->getSubResourceTei();
+    $rows = [];
+
+
+    if (array_key_exists('filepath',$teiResource)) {
+      $xml = simplexml_load_file($teiResource['filepath']);
+
+      foreach ($xml->teiHeader->fileDesc->sourceDesc->recordingStmt->recording as $recording) {
+
+        $type = isset($recording['type']) ? (string) $recording['type'] : 'unknown';
+
+        foreach ($recording->media as $media) {
+
+          $rows[] = [
+            'type' => $type,
+            'id' => count($media->attributes('xml', true)) == 1 ? $media->attributes('xml', true)[0] : 'primary_recording',
+            'mimeType' => isset($media['mimeType']) ? (string) $media['mimeType'] : 'unknown/unknown',
+            'url' =>  isset($media['url']) ? (string) $media['url'] : ''
+          ];
+        }
+      }
+    }
+
+    return $rows;
+
+  }
+
 }
