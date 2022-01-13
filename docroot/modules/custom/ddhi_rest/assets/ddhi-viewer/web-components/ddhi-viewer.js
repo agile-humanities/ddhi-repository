@@ -277,7 +277,7 @@ class DDHIDataComponent extends HTMLElement {
       })
     }
     
-    // Propagate to all elements marked with a Å„propagateÃ® attribute
+    // Propagate to all elements marked with a “propagate” attribute
     
     this.viewer.shadowRoot.querySelectorAll('[propagate]').forEach(function(element){
         element.setAttribute(attr,value);
@@ -2370,7 +2370,7 @@ customElements.define('ddhi-viewer', class extends DDHIDataComponent {
           e.removeAttribute('foreground')
         }); 
                 
-        viewer.infoPanels[event.target.value].style.display = 'block';
+        viewer.infoPanels[event.target.value].style.display = 'grid';
         viewer.infoPanels[event.target.value].setAttribute('foreground','');
     });
     
